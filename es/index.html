@@ -74,6 +74,11 @@
         <img src="../images/scalita_logo_512.png" alt="Logo de Scalita" width="32" height="32">
         Scalita
       </a>
+      <button class="menu-toggle" aria-label="Alternar menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <ul>
         <li><a href="#features">Funciones</a></li>
         <li><a href="#pricing">Precios</a></li>
@@ -340,6 +345,25 @@
       });
 
       setInterval(nextSlide, interval);
+
+      // Mobile menu toggle
+      const menuToggle = document.querySelector('.menu-toggle');
+      const navMenu = document.querySelector('nav ul');
+
+      if (menuToggle) {
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          navMenu.classList.toggle('open');
+        });
+
+        // Close menu when clicking a link
+        navMenu.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            menuToggle.classList.remove('active');
+            navMenu.classList.remove('open');
+          });
+        });
+      }
     });
 
     // Piano chord player
