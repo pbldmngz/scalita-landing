@@ -139,7 +139,7 @@
         <p>Built by a singer who was tired of ugly, ad-ridden warmup apps. Scalita is different.</p>
       </div>
       <div class="features-grid">
-        <div class="feature-card">
+        <div class="feature-card clickable" id="piano-card" onclick="playPianoChord()">
           <div class="feature-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 18V5l12-2v13"/>
@@ -149,6 +149,7 @@
           </div>
           <h3>Beautiful Piano Sound</h3>
           <p>Salamander Grand Piano samples give you concert-quality sound for every warmup.</p>
+          <p class="play-hint">Click to hear it</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -275,7 +276,7 @@
             <img src="images/scalita_logo_512.png" alt="Scalita logo" width="28" height="28">
             Scalita
           </a>
-          <p>Simple scales. Beautiful piano. No nonsense. Made with love for singers everywhere.</p>
+          <p>Simple scales. Beautiful piano. No nonsense. Made with hate for singers everywhere.</p>
         </div>
         <div class="footer-links">
           <h4>Product</h4>
@@ -302,7 +303,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Pablo Dominguez. All rights reserved.</p>
-        <p>Made with love by <a href="https://pablodominguez.com" target="_blank" rel="noopener">Pablo</a></p>
+        <p>Made with hate by <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
       </div>
     </div>
   </footer>
@@ -338,6 +339,23 @@
 
       setInterval(nextSlide, interval);
     });
+
+    // Piano chord player
+    const pianoNotes = [
+      new Audio('audio/60_C4.mp3'),
+      new Audio('audio/64_E4.mp3'),
+      new Audio('audio/67_G4.mp3')
+    ];
+
+    // Preload
+    pianoNotes.forEach(n => n.load());
+
+    function playPianoChord() {
+      pianoNotes.forEach((note, i) => {
+        note.currentTime = 0;
+        setTimeout(() => note.play(), i * 80);
+      });
+    }
   </script>
 </body>
 </html>

@@ -133,7 +133,7 @@
         <p>Creado por un cantante cansado de apps feas llenas de anuncios. Scalita es diferente.</p>
       </div>
       <div class="features-grid">
-        <div class="feature-card">
+        <div class="feature-card clickable" id="piano-card" onclick="playPianoChord()">
           <div class="feature-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M9 18V5l12-2v13"/>
@@ -143,6 +143,7 @@
           </div>
           <h3>Sonido de Piano Hermoso</h3>
           <p>Samples del Salamander Grand Piano te dan sonido de calidad de concierto en cada calentamiento.</p>
+          <p class="play-hint">Haz clic para escucharlo</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -269,7 +270,7 @@
             <img src="../images/scalita_logo_512.png" alt="Logo de Scalita" width="28" height="28">
             Scalita
           </a>
-          <p>Escalas simples. Piano hermoso. Sin tonterias. Hecho con amor para cantantes de todo el mundo.</p>
+          <p>Escalas simples. Piano hermoso. Sin tonterias. Hecho con odio para cantantes de todo el mundo.</p>
         </div>
         <div class="footer-links">
           <h4>Producto</h4>
@@ -296,7 +297,7 @@
       </div>
       <div class="footer-bottom">
         <p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p>
-        <p>Hecho con amor por <a href="https://pablodominguez.com" target="_blank" rel="noopener">Pablo</a></p>
+        <p>Hecho con odio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
       </div>
     </div>
   </footer>
@@ -332,6 +333,23 @@
 
       setInterval(nextSlide, interval);
     });
+
+    // Piano chord player
+    const pianoNotes = [
+      new Audio('../audio/60_C4.mp3'),
+      new Audio('../audio/64_E4.mp3'),
+      new Audio('../audio/67_G4.mp3')
+    ];
+
+    // Preload
+    pianoNotes.forEach(n => n.load());
+
+    function playPianoChord() {
+      pianoNotes.forEach((note, i) => {
+        note.currentTime = 0;
+        setTimeout(() => note.play(), i * 80);
+      });
+    }
   </script>
 </body>
 </html>

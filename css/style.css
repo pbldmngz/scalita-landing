@@ -322,7 +322,8 @@ nav ul a:hover {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .dot {
@@ -402,6 +403,21 @@ nav ul a:hover {
 .feature-card p {
   font-size: 0.95rem;
   color: var(--slate);
+}
+
+.feature-card.clickable {
+  cursor: pointer;
+}
+
+.feature-card.clickable:active {
+  transform: scale(0.98);
+}
+
+.feature-card.clickable .play-hint {
+  font-size: 0.75rem;
+  color: var(--seafoam);
+  margin-top: 12px;
+  opacity: 0.8;
 }
 
 /* Pricing Section */
