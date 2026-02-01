@@ -787,8 +787,34 @@ footer {
     text-align: center;
   }
 
+  .hero-visual {
+    width: 100%;
+    padding: 0;
+  }
+
   .phone-mockup {
-    width: 220px;
-    height: 460px;
+    width: min(85vw, 320px);
+    height: min(180vw, 680px);
+    border-radius: 36px;
+  }
+
+  .phone-mockup::before {
+    width: 70px;
+    height: 20px;
+    top: 10px;
+    border-radius: 10px;
+  }
+
+  .phone-screen {
+    border-radius: 32px;
+  }
+
+  .carousel-dots {
+    margin-top: 12px;
+  }
+
+  .dot {
+    width: 6px;
+    height: 6px;
   }
 }
