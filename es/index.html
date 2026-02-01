@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scalita - Simple scales. Beautiful piano. No nonsense.</title>
-  <meta name="description" content="A free vocal warmup app for singers. Beautiful piano sounds, offline-first, no ads. Practice scales before performances or lessons.">
-  <meta name="keywords" content="vocal warmup, singing app, scales practice, piano app, voice training, vocal exercises">
-  <link rel="canonical" href="https://scalita.com/">
+  <title>Scalita - Escalas simples. Piano hermoso. Sin tonterias.</title>
+  <meta name="description" content="Una app gratuita de calentamiento vocal para cantantes. Sonidos de piano hermosos, funciona sin internet, sin anuncios. Practica escalas antes de actuaciones o clases.">
+  <meta name="keywords" content="calentamiento vocal, app para cantar, practicar escalas, app de piano, entrenamiento de voz, ejercicios vocales">
+  <link rel="canonical" href="https://scalita.com/es/">
 
   <!-- Hreflang for language alternatives -->
   <link rel="alternate" hreflang="en" href="https://scalita.com/">
@@ -14,30 +14,30 @@
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Scalita - Vocal Warmup App">
-  <meta property="og:description" content="Simple scales. Beautiful piano. No nonsense. A free app for singers.">
+  <meta property="og:title" content="Scalita - App de Calentamiento Vocal">
+  <meta property="og:description" content="Escalas simples. Piano hermoso. Sin tonterias. Una app gratuita para cantantes.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://scalita.com">
+  <meta property="og:url" content="https://scalita.com/es/">
   <meta property="og:image" content="https://scalita.com/images/scalita_logo_512.png">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale" content="es_ES">
+  <meta property="og:locale:alternate" content="en_US">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Scalita - Vocal Warmup App">
-  <meta name="twitter:description" content="Simple scales. Beautiful piano. No nonsense.">
+  <meta name="twitter:title" content="Scalita - App de Calentamiento Vocal">
+  <meta name="twitter:description" content="Escalas simples. Piano hermoso. Sin tonterias.">
   <meta name="twitter:image" content="https://scalita.com/images/scalita_logo_512.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="images/scalita_logo_512.png">
-  <link rel="apple-touch-icon" href="images/scalita_logo_512.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../images/scalita_logo_512.png">
+  <link rel="apple-touch-icon" href="../images/scalita_logo_512.png">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
 
   <!-- Structured Data -->
   <script type="application/ld+json">
@@ -47,7 +47,7 @@
     "name": "Scalita",
     "operatingSystem": "Android",
     "applicationCategory": "MultimediaApplication",
-    "description": "A free vocal warmup app for singers. Beautiful piano sounds, offline-first, no ads.",
+    "description": "Una app gratuita de calentamiento vocal para cantantes. Sonidos de piano hermosos, funciona sin internet, sin anuncios.",
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -61,31 +61,25 @@
   }
   </script>
 
-  <!-- Language auto-detection (redirect Spanish speakers) -->
+  <!-- Set language preference -->
   <script>
-    (function() {
-      if (localStorage.getItem('scalita-lang-choice')) return;
-      var lang = navigator.language || navigator.userLanguage;
-      if (lang && lang.toLowerCase().startsWith('es')) {
-        window.location.href = '/es/';
-      }
-    })();
+    localStorage.setItem('scalita-lang-choice', 'es');
   </script>
 </head>
 <body>
   <!-- Navigation -->
   <nav>
     <div class="container">
-      <a href="/" class="logo">
-        <img src="images/scalita_logo_512.png" alt="Scalita logo" width="32" height="32">
+      <a href="/es/" class="logo">
+        <img src="../images/scalita_logo_512.png" alt="Logo de Scalita" width="32" height="32">
         Scalita
       </a>
       <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="/es/" class="lang-switch" title="Espa&ntilde;ol">ES</a></li>
+        <li><a href="#features">Funciones</a></li>
+        <li><a href="#pricing">Precios</a></li>
+        <li><a href="#download">Descargar</a></li>
+        <li><a href="support.html">Soporte</a></li>
+        <li><a href="/" class="lang-switch" title="English">EN</a></li>
       </ul>
     </div>
   </nav>
@@ -94,29 +88,29 @@
   <section class="hero">
     <div class="container">
       <div class="hero-content">
-        <span class="hero-badge">For singers, by a singer</span>
-        <h1>Your voice, ready to go</h1>
-        <p>Warm up your voice with beautiful piano sounds. No ads, no accounts, no internet required. Just you and your scales.</p>
-        <p class="tagline">Simple scales. Beautiful piano. No nonsense.</p>
+        <span class="hero-badge">Para cantantes, por un cantante</span>
+        <h1>Tu voz, lista para brillar</h1>
+        <p>Calienta tu voz con hermosos sonidos de piano. Sin anuncios, sin cuentas, sin internet. Solo tu y tus escalas.</p>
+        <p class="tagline">Escalas simples. Piano hermoso. Sin tonterias.</p>
         <div class="hero-buttons">
           <a href="#download" class="btn btn-primary">
             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <path d="M12 15V3M12 15L8 11M12 15L16 11M3 17V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V17"/>
             </svg>
-            Download Free
+            Descargar Gratis
           </a>
-          <a href="#features" class="btn btn-secondary">Learn More</a>
+          <a href="#features" class="btn btn-secondary">Saber Mas</a>
         </div>
       </div>
       <div class="hero-visual">
         <div class="phone-mockup">
           <div class="phone-screen">
             <div class="screenshot-carousel">
-              <img src="images/screenshots/home.jpg" alt="Scalita home screen" class="screenshot active">
-              <img src="images/screenshots/play.jpg" alt="Scale playback" class="screenshot">
-              <img src="images/screenshots/scales_list.jpg" alt="Scales list" class="screenshot">
-              <img src="images/screenshots/routines_list.jpg" alt="Routines list" class="screenshot">
-              <img src="images/screenshots/range_detector.jpg" alt="Vocal range detection" class="screenshot">
+              <img src="../images/screenshots/home.jpg" alt="Pantalla principal de Scalita" class="screenshot active">
+              <img src="../images/screenshots/play.jpg" alt="Reproduccion de escala" class="screenshot">
+              <img src="../images/screenshots/scales_list.jpg" alt="Lista de escalas" class="screenshot">
+              <img src="../images/screenshots/routines_list.jpg" alt="Lista de rutinas" class="screenshot">
+              <img src="../images/screenshots/range_detector.jpg" alt="Deteccion de rango vocal" class="screenshot">
             </div>
           </div>
           <div class="carousel-dots">
@@ -135,8 +129,8 @@
   <section class="features" id="features">
     <div class="container">
       <div class="section-header">
-        <h2>Everything you need to warm up</h2>
-        <p>Built by a singer who was tired of ugly, ad-ridden warmup apps. Scalita is different.</p>
+        <h2>Todo lo que necesitas para calentar</h2>
+        <p>Creado por un cantante cansado de apps feas llenas de anuncios. Scalita es diferente.</p>
       </div>
       <div class="features-grid">
         <div class="feature-card">
@@ -147,8 +141,8 @@
               <circle cx="18" cy="16" r="3"/>
             </svg>
           </div>
-          <h3>Beautiful Piano Sound</h3>
-          <p>Salamander Grand Piano samples give you concert-quality sound for every warmup.</p>
+          <h3>Sonido de Piano Hermoso</h3>
+          <p>Samples del Salamander Grand Piano te dan sonido de calidad de concierto en cada calentamiento.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -157,8 +151,8 @@
               <path d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/>
             </svg>
           </div>
-          <h3>Works Offline</h3>
-          <p>No internet needed. Practice anywhere, anytime - backstage, in the car, or at home.</p>
+          <h3>Funciona Sin Internet</h3>
+          <p>No necesitas internet. Practica donde sea - en el escenario, en el carro, o en casa.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -167,8 +161,8 @@
               <path d="M7 11V7a5 5 0 0110 0v4"/>
             </svg>
           </div>
-          <h3>No Ads, No Accounts</h3>
-          <p>Truly free. No tracking, no sign-ups, no interruptions. Just warmups.</p>
+          <h3>Sin Anuncios, Sin Cuentas</h3>
+          <p>Verdaderamente gratis. Sin rastreo, sin registros, sin interrupciones. Solo calentamientos.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -179,8 +173,8 @@
               <line x1="8" y1="23" x2="16" y2="23"/>
             </svg>
           </div>
-          <h3>Find Your Range</h3>
-          <p>Sing into your phone to detect your vocal range, or choose from common voice types.</p>
+          <h3>Encuentra Tu Rango</h3>
+          <p>Canta en tu telefono para detectar tu rango vocal, o elige entre tipos de voz comunes.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -191,8 +185,8 @@
               <line x1="9" y1="15" x2="15" y2="15"/>
             </svg>
           </div>
-          <h3>Create Custom Routines</h3>
-          <p>Build your perfect warmup with custom scales, syllables, tempos, and more.</p>
+          <h3>Crea Rutinas Personalizadas</h3>
+          <p>Construye tu calentamiento perfecto con escalas, silabas, tempos personalizados y mas.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -201,8 +195,8 @@
               <path d="M8 12l2 2 4-4"/>
             </svg>
           </div>
-          <h3>Do Re Mi or C D E</h3>
-          <p>Choose your preferred notation style. Solfege or letter names - whatever feels natural.</p>
+          <h3>Do Re Mi o C D E</h3>
+          <p>Elige tu estilo de notacion preferido. Solfeo o nombres de letras - lo que te sea natural.</p>
         </div>
       </div>
     </div>
@@ -212,35 +206,35 @@
   <section class="pricing" id="pricing">
     <div class="container">
       <div class="section-header">
-        <h2>Simple, honest pricing</h2>
-        <p>Scalita is free to use. Pro unlocks unlimited creativity.</p>
+        <h2>Precios simples y honestos</h2>
+        <p>Scalita es gratis. Pro desbloquea creatividad ilimitada.</p>
       </div>
       <div class="pricing-cards">
         <div class="pricing-card">
-          <h3>Free</h3>
-          <div class="price">$0 <span>forever</span></div>
+          <h3>Gratis</h3>
+          <div class="price">$0 <span>para siempre</span></div>
           <ul class="pricing-features">
-            <li><span class="check">&#10003;</span> All 10 built-in scales</li>
-            <li><span class="check">&#10003;</span> All 4 built-in routines</li>
-            <li><span class="check">&#10003;</span> 3 custom scales</li>
-            <li><span class="check">&#10003;</span> 3 custom routines</li>
-            <li><span class="check">&#10003;</span> Export & import</li>
-            <li><span class="check">&#10003;</span> All playback features</li>
+            <li><span class="check">&#10003;</span> Las 10 escalas incluidas</li>
+            <li><span class="check">&#10003;</span> Las 4 rutinas incluidas</li>
+            <li><span class="check">&#10003;</span> 3 escalas personalizadas</li>
+            <li><span class="check">&#10003;</span> 3 rutinas personalizadas</li>
+            <li><span class="check">&#10003;</span> Exportar e importar</li>
+            <li><span class="check">&#10003;</span> Todas las funciones de reproduccion</li>
           </ul>
-          <a href="#download" class="btn btn-secondary" style="width: 100%; justify-content: center;">Get Started</a>
+          <a href="#download" class="btn btn-secondary" style="width: 100%; justify-content: center;">Comenzar</a>
         </div>
         <div class="pricing-card featured">
           <h3>Pro</h3>
-          <div class="price">$7.99 <span>once</span></div>
+          <div class="price">$7.99 <span>una vez</span></div>
           <ul class="pricing-features">
-            <li><span class="check">&#10003;</span> Everything in Free</li>
-            <li><span class="check">&#10003;</span> <strong>Unlimited</strong> custom scales</li>
-            <li><span class="check">&#10003;</span> <strong>Unlimited</strong> custom routines</li>
-            <li><span class="check">&#10003;</span> Edit built-in routines</li>
-            <li><span class="check">&#10003;</span> Support development</li>
-            <li><span class="check">&#10003;</span> Yours forever</li>
+            <li><span class="check">&#10003;</span> Todo lo de Gratis</li>
+            <li><span class="check">&#10003;</span> Escalas personalizadas <strong>ilimitadas</strong></li>
+            <li><span class="check">&#10003;</span> Rutinas personalizadas <strong>ilimitadas</strong></li>
+            <li><span class="check">&#10003;</span> Editar rutinas incluidas</li>
+            <li><span class="check">&#10003;</span> Apoya el desarrollo</li>
+            <li><span class="check">&#10003;</span> Tuyo para siempre</li>
           </ul>
-          <a href="#download" class="btn btn-primary" style="width: 100%; justify-content: center;">Get Pro</a>
+          <a href="#download" class="btn btn-primary" style="width: 100%; justify-content: center;">Obtener Pro</a>
         </div>
       </div>
     </div>
@@ -249,20 +243,20 @@
   <!-- Download Section -->
   <section class="download" id="download">
     <div class="container">
-      <h2>Ready to warm up?</h2>
-      <p>Download Scalita for free and start your vocal warmup journey today.</p>
+      <h2>Listo para calentar?</h2>
+      <p>Descarga Scalita gratis y comienza tu viaje de calentamiento vocal hoy.</p>
       <div class="store-buttons">
         <a href="https://play.google.com/store/apps/details?id=com.scalita.app" class="store-button" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor">
             <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
           </svg>
           <div class="store-text">
-            <small>Get it on</small>
+            <small>Disponible en</small>
             <strong>Google Play</strong>
           </div>
         </a>
       </div>
-      <p style="margin-top: 24px; font-size: 0.9rem; color: var(--slate);">Android only for now. iOS coming soon!</p>
+      <p style="margin-top: 24px; font-size: 0.9rem; color: var(--slate);">Solo Android por ahora. iOS pronto!</p>
     </div>
   </section>
 
@@ -271,38 +265,38 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
-          <a href="/" class="logo">
-            <img src="images/scalita_logo_512.png" alt="Scalita logo" width="28" height="28">
+          <a href="/es/" class="logo">
+            <img src="../images/scalita_logo_512.png" alt="Logo de Scalita" width="28" height="28">
             Scalita
           </a>
-          <p>Simple scales. Beautiful piano. No nonsense. Made with love for singers everywhere.</p>
+          <p>Escalas simples. Piano hermoso. Sin tonterias. Hecho con amor para cantantes de todo el mundo.</p>
         </div>
         <div class="footer-links">
-          <h4>Product</h4>
+          <h4>Producto</h4>
           <ul>
-            <li><a href="#features">Features</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#download">Download</a></li>
+            <li><a href="#features">Funciones</a></li>
+            <li><a href="#pricing">Precios</a></li>
+            <li><a href="#download">Descargar</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Legal</h4>
           <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="privacy.html">Politica de Privacidad</a></li>
+            <li><a href="terms.html">Terminos de Servicio</a></li>
           </ul>
         </div>
         <div class="footer-links">
-          <h4>Support</h4>
+          <h4>Soporte</h4>
           <ul>
-            <li><a href="support.html">Help & Contact</a></li>
-            <li><a href="https://patreon.com/pablodominguez" target="_blank" rel="noopener">Support on Patreon</a></li>
+            <li><a href="support.html">Ayuda y Contacto</a></li>
+            <li><a href="https://patreon.com/pablodominguez" target="_blank" rel="noopener">Apoyar en Patreon</a></li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. All rights reserved.</p>
-        <p>Made with love by <a href="https://pablodominguez.com" target="_blank" rel="noopener">Pablo</a></p>
+        <p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p>
+        <p>Hecho con amor por <a href="https://pablodominguez.com" target="_blank" rel="noopener">Pablo</a></p>
       </div>
     </div>
   </footer>

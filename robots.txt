@@ -1,0 +1,8 @@
+# Scalita Website Robots.txt
+# https://scalita.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://scalita.com/sitemap.xml
