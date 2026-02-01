@@ -726,6 +726,11 @@ footer {
   color: var(--slate);
 }
 
+/* Hide hamburger on desktop */
+.menu-toggle {
+  display: none;
+}
+
 /* Responsive */
 @media (max-width: 900px) {
   .hero .container {
@@ -890,9 +895,4 @@ footer {
     width: 6px;
     height: 6px;
   }
-}
-
-/* Hide hamburger on desktop */
-.menu-toggle {
-  display: none;
 }
