@@ -100,11 +100,12 @@ nav .container {
 
 .logo {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   color: var(--glow);
   display: flex;
   align-items: center;
   gap: 8px;
+  letter-spacing: 0.02em;
 }
 
 .logo svg,
