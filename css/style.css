@@ -356,6 +356,55 @@ nav ul a:hover {
   margin: 0 auto;
 }
 
+/* Feature Highlight (Adaptive Mode) */
+.feature-highlight {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  background: var(--surface);
+  border: 1.5px solid var(--ocean);
+  border-radius: 20px;
+  padding: 32px 40px;
+  margin-bottom: 40px;
+  box-shadow: var(--glow-subtle);
+}
+
+.feature-highlight-icon {
+  width: 56px;
+  height: 56px;
+  background: var(--surface-light);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ocean);
+  flex-shrink: 0;
+}
+
+.feature-highlight-content h3 {
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+}
+
+.feature-highlight-content p {
+  font-size: 1rem;
+  color: var(--soft);
+  max-width: 700px;
+  line-height: 1.7;
+}
+
+.feature-new-badge {
+  display: inline-block;
+  background: var(--ocean);
+  color: var(--cream);
+  padding: 3px 12px;
+  border-radius: 100px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 0.03em;
+}
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -745,6 +794,17 @@ footer {
 
   .hero-buttons {
     justify-content: center;
+  }
+
+  .feature-highlight {
+    flex-direction: column;
+    padding: 24px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .feature-highlight-content p {
+    text-align: left;
   }
 
   .features-grid {
