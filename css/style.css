@@ -770,56 +770,76 @@ footer {
 .content-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 16px;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .content-tags .tag {
   display: inline-block;
+  background: rgba(90, 159, 163, 0.08);
+  border: 1px solid rgba(90, 159, 163, 0.3);
+  border-radius: 100px;
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  color: var(--seafoam);
+  white-space: nowrap;
+  transition: all 0.2s ease;
+}
+
+.content-tags .tag:hover {
+  background: rgba(90, 159, 163, 0.15);
+  border-color: var(--ocean);
+  box-shadow: 0 0 12px rgba(90, 159, 163, 0.2);
+}
+
+/* Routine Grid (mini-cards) */
+.routine-grid {
+  list-style: none;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.routine-grid li {
   background: var(--surface-light);
   border: 1px solid var(--mist);
-  border-radius: 100px;
-  padding: 6px 14px;
-  font-size: 0.85rem;
-  color: var(--soft);
-  white-space: nowrap;
+  border-left: 3px solid var(--ocean);
+  border-radius: 0 12px 12px 0;
+  padding: 16px 18px;
+  transition: all 0.2s ease;
 }
 
-/* Routine List (compact name + description) */
-.routine-list {
-  list-style: none;
-  margin-top: 16px;
-  display: grid;
-  gap: 10px;
+.routine-grid li:hover {
+  border-color: var(--ocean);
+  border-left-color: var(--glow);
+  box-shadow: var(--glow-subtle);
 }
 
-.routine-list li {
-  display: flex;
-  gap: 8px;
-  align-items: baseline;
-  font-size: 0.95rem;
-  color: var(--soft);
-}
-
-.routine-list li strong {
+.routine-grid li strong {
+  display: block;
   color: var(--cream);
-  white-space: nowrap;
-  flex-shrink: 0;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
 }
 
-.routine-list li span {
+.routine-grid li span {
+  display: block;
   color: var(--slate);
+  font-size: 0.85rem;
+  line-height: 1.4;
 }
 
 /* Technique callout */
 .technique-callout {
   margin-top: 24px;
-  padding: 16px 20px;
-  background: var(--surface-light);
-  border-left: 3px solid var(--ocean);
-  border-radius: 0 12px 12px 0;
+  padding: 20px 24px;
+  background: rgba(90, 159, 163, 0.06);
+  border: 1px solid rgba(90, 159, 163, 0.2);
+  border-radius: 12px;
   font-size: 0.95rem;
   color: var(--soft);
+  text-align: center;
 }
 
 /* What's Inside section */
@@ -832,14 +852,11 @@ footer {
 }
 
 .whats-inside-block {
-  background: var(--surface);
-  border: 1px solid var(--mist);
-  border-radius: 16px;
-  padding: 32px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .whats-inside-block h3 {
+  font-size: 1.35rem;
   margin-bottom: 4px;
 }
 
@@ -893,9 +910,8 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .routine-list li {
-    flex-direction: column;
-    gap: 2px;
+  .routine-grid {
+    grid-template-columns: 1fr;
   }
 
   .pricing-cards {
