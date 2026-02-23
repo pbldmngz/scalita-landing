@@ -792,6 +792,13 @@ footer {
   box-shadow: 0 0 12px rgba(90, 159, 163, 0.2);
 }
 
+.content-tags .more-tag {
+  background: transparent;
+  border-color: var(--mist);
+  color: var(--slate);
+  font-style: italic;
+}
+
 /* Routine Grid (mini-cards) */
 .routine-grid {
   list-style: none;
@@ -828,18 +835,6 @@ footer {
   color: var(--slate);
   font-size: 0.85rem;
   line-height: 1.4;
-}
-
-/* Technique callout */
-.technique-callout {
-  margin-top: 24px;
-  padding: 20px 24px;
-  background: rgba(90, 159, 163, 0.06);
-  border: 1px solid rgba(90, 159, 163, 0.2);
-  border-radius: 12px;
-  font-size: 0.95rem;
-  color: var(--soft);
-  text-align: center;
 }
 
 /* What's Inside section */
