@@ -766,98 +766,132 @@ footer {
   color: var(--slate);
 }
 
+/* Expandable Catalog Card */
+.catalog-expand {
+  background: var(--surface);
+  border: 1px solid var(--mist);
+  border-radius: 16px;
+  margin-bottom: 40px;
+  transition: border-color 0.2s ease;
+}
+
+.catalog-expand:hover {
+  border-color: var(--ocean);
+}
+
+.catalog-expand[open] {
+  border-color: var(--ocean);
+  box-shadow: var(--glow-subtle);
+}
+
+.catalog-expand summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 24px 28px;
+}
+
+.catalog-expand summary::-webkit-details-marker {
+  display: none;
+}
+
+.catalog-summary {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.catalog-summary-icon {
+  width: 48px;
+  height: 48px;
+  background: var(--surface-light);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--ocean);
+  flex-shrink: 0;
+}
+
+.catalog-summary h3 {
+  margin-bottom: 2px;
+}
+
+.catalog-summary p {
+  font-size: 0.9rem;
+  color: var(--slate);
+  margin: 0;
+}
+
+.catalog-chevron {
+  color: var(--slate);
+  flex-shrink: 0;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.catalog-expand[open] .catalog-chevron {
+  transform: rotate(180deg);
+}
+
+.catalog-details {
+  padding: 0 28px 28px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  border-top: 1px solid var(--mist);
+  padding-top: 24px;
+}
+
+.catalog-column h4 {
+  font-size: 1rem;
+  color: var(--cream);
+  margin-bottom: 12px;
+}
+
 /* Content Tags (pill layout for scale names) */
 .content-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 8px;
 }
 
 .content-tags .tag {
   display: inline-block;
   background: rgba(90, 159, 163, 0.08);
-  border: 1px solid rgba(90, 159, 163, 0.3);
+  border: 1px solid rgba(90, 159, 163, 0.25);
   border-radius: 100px;
-  padding: 8px 18px;
-  font-size: 0.9rem;
+  padding: 5px 14px;
+  font-size: 0.8rem;
   color: var(--seafoam);
   white-space: nowrap;
-  transition: all 0.2s ease;
 }
 
-.content-tags .tag:hover {
-  background: rgba(90, 159, 163, 0.15);
-  border-color: var(--ocean);
-  box-shadow: 0 0 12px rgba(90, 159, 163, 0.2);
-}
-
-.content-tags .more-tag {
-  background: transparent;
-  border-color: var(--mist);
-  color: var(--slate);
-  font-style: italic;
-}
-
-/* Routine Grid (mini-cards) */
+/* Routine List (inside catalog) */
 .routine-grid {
   list-style: none;
-  margin-top: 20px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  gap: 8px;
 }
 
 .routine-grid li {
-  background: var(--surface-light);
-  border: 1px solid var(--mist);
-  border-left: 3px solid var(--ocean);
-  border-radius: 0 12px 12px 0;
-  padding: 16px 18px;
-  transition: all 0.2s ease;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--mist);
 }
 
-.routine-grid li:hover {
-  border-color: var(--ocean);
-  border-left-color: var(--glow);
-  box-shadow: var(--glow-subtle);
+.routine-grid li:last-child {
+  border-bottom: none;
 }
 
 .routine-grid li strong {
   display: block;
   color: var(--cream);
-  font-size: 0.95rem;
-  margin-bottom: 4px;
+  font-size: 0.9rem;
+  margin-bottom: 1px;
 }
 
 .routine-grid li span {
-  display: block;
   color: var(--slate);
-  font-size: 0.85rem;
-  line-height: 1.4;
-}
-
-/* What's Inside section */
-.whats-inside {
-  padding: 100px 0;
-}
-
-.whats-inside .section-header {
-  margin-bottom: 40px;
-}
-
-.whats-inside-block {
-  margin-bottom: 32px;
-}
-
-.whats-inside-block h3 {
-  font-size: 1.35rem;
-  margin-bottom: 4px;
-}
-
-.whats-inside-block > p {
-  color: var(--slate);
-  font-size: 0.95rem;
+  font-size: 0.8rem;
 }
 
 /* Hide hamburger on desktop */
@@ -905,7 +939,7 @@ footer {
     grid-template-columns: 1fr;
   }
 
-  .routine-grid {
+  .catalog-details {
     grid-template-columns: 1fr;
   }
 
