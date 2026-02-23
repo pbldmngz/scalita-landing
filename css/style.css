@@ -771,7 +771,7 @@ footer {
   background: var(--surface);
   border: 1px solid var(--mist);
   border-radius: 16px;
-  margin-bottom: 40px;
+  margin-top: 24px;
   transition: border-color 0.2s ease;
 }
 
