@@ -894,6 +894,15 @@ footer {
   font-size: 0.8rem;
 }
 
+/* Footnote under the routine list: the register routines are opt-in */
+.catalog-note {
+  margin-top: 12px;
+  color: var(--slate);
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 /* Hide hamburger on desktop */
 .menu-toggle {
   display: none;

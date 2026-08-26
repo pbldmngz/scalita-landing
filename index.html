@@ -4,18 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scalita - Simple scales. Real piano. No nonsense.</title>
-  <meta name="description" content="Free vocal warmup app with 19 scales, 13 routines, and real Salamander Grand Piano sound. Real-time pitch monitor, rock & metal vocal training, scale detector, adaptive warmups. Offline, no ads.">
-  <meta name="keywords" content="vocal warmup app, singing scales, vocal routines, rock and metal vocal training, scale detector, voice warmup, piano scales for singers, vocal exercises, solfege app">
+  <meta name="description" content="Free vocal warmup app with 21 scales, 14 routines, and real Salamander Grand Piano sound across all 88 keys. Subharmonic, flageolet and whistle register training, real-time pitch monitor, rock &amp; metal vocals, scale detector, adaptive warmups. Offline, no ads.">
+  <meta name="keywords" content="vocal warmup app, singing scales, vocal routines, subharmonic singing, flageolet register, whistle register training, vocal register exercises, extended vocal technique, rock and metal vocal training, scale detector, voice warmup, piano scales for singers, vocal exercises, solfege app">
   <link rel="canonical" href="https://scalita.com/">
 
   <!-- Hreflang for language alternatives -->
   <link rel="alternate" hreflang="en" href="https://scalita.com/">
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/">
+  <link rel="alternate" hreflang="fr" href="https://scalita.com/fr/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Scalita - 19 Scales, 13 Routines, Real Piano. Free Vocal Warmup App.">
-  <meta property="og:description" content="Real Salamander Grand Piano sound. Adaptive warmups, rock & metal training, scale detector, custom routines. No ads, no accounts, works offline.">
+  <meta property="og:title" content="Scalita - 21 Scales, 14 Routines, Real Piano. Free Vocal Warmup App.">
+  <meta property="og:description" content="Real Salamander Grand Piano sound across 88 keys. Subharmonic, flageolet and whistle routines, adaptive warmups, rock &amp; metal training, scale detector. No ads, no accounts, works offline.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://scalita.com">
   <meta property="og:image" content="https://scalita.com/images/og-image-en.png">
@@ -23,11 +24,12 @@
   <meta property="og:image:height" content="630">
   <meta property="og:locale" content="en_US">
   <meta property="og:locale:alternate" content="es_ES">
+  <meta property="og:locale:alternate" content="fr_FR">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Scalita - 19 Scales, 13 Routines, Real Piano. Free Vocal Warmup App.">
-  <meta name="twitter:description" content="Real Salamander Grand Piano sound. Adaptive warmups, rock & metal training, scale detector. No ads, works offline.">
+  <meta name="twitter:title" content="Scalita - 21 Scales, 14 Routines, Real Piano. Free Vocal Warmup App.">
+  <meta name="twitter:description" content="Real Salamander Grand Piano sound across 88 keys. Subharmonic, flageolet and whistle routines, adaptive warmups, scale detector. No ads, works offline.">
   <meta name="twitter:image" content="https://scalita.com/images/og-image-en.png">
 
   <!-- Favicon -->
@@ -49,7 +51,8 @@
     "name": "Scalita",
     "operatingSystem": "Android",
     "applicationCategory": "MultimediaApplication",
-    "description": "Free vocal warmup app with 19 scales, 13 routines, and real Salamander Grand Piano sound. Includes rock & metal training, adaptive warmups, and a scale detector. No ads, works offline.",
+    "description": "Free vocal warmup app with 21 scales, 14 routines, and real Salamander Grand Piano sound across all 88 keys. Includes subharmonic, flageolet and whistle register routines, rock and metal training, adaptive warmups, and a scale detector. No ads, works offline.",
+    "inLanguage": ["en", "es", "fr"],
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -67,9 +70,11 @@
   <script>
     (function() {
       if (localStorage.getItem('scalita-lang-choice')) return;
-      var lang = navigator.language || navigator.userLanguage;
-      if (lang && lang.toLowerCase().startsWith('es')) {
+      var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+      if (lang.startsWith('es')) {
         window.location.href = '/es/';
+      } else if (lang.startsWith('fr')) {
+        window.location.href = '/fr/';
       }
     })();
   </script>
@@ -93,6 +98,7 @@
         <li><a href="#download">Download</a></li>
         <li><a href="support.html">Support</a></li>
         <li><a href="/es/" class="lang-switch" title="Espa&ntilde;ol">ES</a></li>
+        <li><a href="/fr/" class="lang-switch" title="Fran&ccedil;ais">FR</a></li>
       </ul>
     </div>
   </nav>
@@ -161,7 +167,7 @@
     <div class="container">
       <div class="section-header">
         <h2>Built for real warmups</h2>
-        <p>Not a metronome with a piano skin. Scalita is built around actual vocal exercises that singers use every day. Every exercise shows the syllable to sing and technique tips, so you always know what you're working on.</p>
+        <p>Not a metronome with a piano skin. Scalita is built around actual vocal exercises that singers use every day. Every exercise shows the syllable to sing and the cues to hold, so you always know what you're working on.</p>
       </div>
       <!-- Find My Warmup highlight -->
       <div class="feature-highlight">
@@ -171,9 +177,38 @@
           </svg>
         </div>
         <div class="feature-highlight-content">
-          <span class="feature-new-badge">New</span>
           <h3>Find My Warmup</h3>
-          <p>Not sure what exercises you need? Tell Scalita how your voice feels right now (tired, tense, cold, stiff) and it picks exercises, tempo, and range for you. A full warmup, built on the fly.</p>
+          <p>Two questions: how your voice feels today, and what you want to work on. Scalita picks the routine and sets the tempo to match. Say you're tired and it takes you somewhere gentle instead of letting you push.</p>
+        </div>
+      </div>
+
+      <!-- Adaptive Mode highlight -->
+      <div class="feature-highlight">
+        <div class="feature-highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12a9 9 0 11-6.219-8.56"/>
+            <polyline points="21 3 21 9 15 9"/>
+          </svg>
+        </div>
+        <div class="feature-highlight-content">
+          <h3>Adaptive Mode</h3>
+          <p>No fixed plan. After every exercise you say how it went - good, meh, hard - and the next one adjusts. Tell it you have ten minutes and it paces the whole session to fit, cooldown included.</p>
+        </div>
+      </div>
+
+      <!-- Extra registers highlight -->
+      <div class="feature-highlight">
+        <div class="feature-highlight-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="12" y1="3" x2="12" y2="21"/>
+            <polyline points="8 6 12 2 16 6"/>
+            <polyline points="8 18 12 22 16 18"/>
+          </svg>
+        </div>
+        <div class="feature-highlight-content">
+          <span class="feature-new-badge">New</span>
+          <h3>Subharmonics, Flageolet &amp; Whistle</h3>
+          <p>Most warmup apps stop at chest and head voice. Set a range for each register you actually use and three dedicated routines unlock, built to cross into them: the rattle under your chest voice, the flute tone above your range, and the whistle above that. You can also let flageolet into your normal warmups so it mixes with head voice instead of sitting in its own box.</p>
         </div>
       </div>
 
@@ -188,7 +223,6 @@
           </svg>
         </div>
         <div class="feature-highlight-content">
-          <span class="feature-new-badge">New</span>
           <h3>Scale Detector</h3>
           <p>Capture a pattern from any source: a YouTube video, a piano, a guitar. Turn it into a scale you can save and reuse. Record, trim, edit note by note, and add it to your library.</p>
         </div>
@@ -202,7 +236,6 @@
           </svg>
         </div>
         <div class="feature-highlight-content">
-          <span class="feature-new-badge">New</span>
           <h3>Pitch Monitor</h3>
           <p>See your pitch in real time as you sing. A scrolling trail shows exactly where you land on each note - green when you're on pitch, amber when you drift. Connect earphones and watch yourself improve.</p>
         </div>
@@ -219,8 +252,52 @@
             </svg>
           </div>
           <h3>Real Piano Sound</h3>
-          <p>Salamander Grand Piano samples give you concert-quality sound for every warmup.</p>
+          <p>Salamander Grand Piano samples across all 88 keys, A0 to C8. However low or high you sing, there's a real recorded note for it.</p>
           <p class="play-hint">Click to hear it</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a3 3 0 00-3 3v6a3 3 0 006 0V5a3 3 0 00-3-3z"/>
+              <path d="M5 11a7 7 0 0014 0"/>
+              <line x1="12" y1="18" x2="12" y2="22"/>
+            </svg>
+          </div>
+          <h3>Coaching Cues</h3>
+          <p>Every exercise tells you what to hold steady the whole way through, and what changes step by step. Tap any badge to read what it means.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <circle cx="12" cy="12" r="3"/>
+            </svg>
+          </div>
+          <h3>Practice Recorder</h3>
+          <p>Record a take while you practice, then play it back. Hear what you actually sang, not what you remember singing.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="9"/>
+              <circle cx="12" cy="12" r="5"/>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Pitch Targeting</h3>
+          <p>Tap any key on the keyboard, hear it, and sing it back. A live trail shows how close you land, one note at a time.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/>
+              <path d="M19 10v2a7 7 0 01-14 0v-2"/>
+              <line x1="12" y1="19" x2="12" y2="23"/>
+              <line x1="8" y1="23" x2="16" y2="23"/>
+            </svg>
+          </div>
+          <h3>Find Your Range</h3>
+          <p>Sing into your phone to detect your range, or pick a voice type. Mark your voice break too, and exercises build around your register transitions.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -245,24 +322,12 @@
         <div class="feature-card">
           <div class="feature-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/>
-              <path d="M19 10v2a7 7 0 01-14 0v-2"/>
-              <line x1="12" y1="19" x2="12" y2="23"/>
-              <line x1="8" y1="23" x2="16" y2="23"/>
-            </svg>
-          </div>
-          <h3>Find Your Range</h3>
-          <p>Sing into your phone to detect your vocal range, or choose from common voice types. Everything transposes automatically.</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="12" cy="12" r="10"/>
               <path d="M8 12l2 2 4-4"/>
             </svg>
           </div>
           <h3>Do Re Mi or C D E</h3>
-          <p>Solfege or letter names, English or Spanish. Full bilingual support. Whatever feels natural to you.</p>
+          <p>Solfege or letter names, whichever you read faster. The whole app speaks English, Spanish, and French.</p>
         </div>
         <div class="feature-card">
           <div class="feature-icon">
@@ -289,8 +354,8 @@
               </svg>
             </div>
             <div>
-              <h3>19 Scales & 13 Routines</h3>
-              <p>Major, pentatonic, arpeggios, Rossini patterns, rock & metal training, quick warmups, full workouts, and more.</p>
+              <h3>21 Scales &amp; 14 Routines</h3>
+              <p>Major, pentatonic, arpeggios, Rossini patterns, rock &amp; metal training, register bridges, quick warmups, full workouts, and more.</p>
             </div>
             <svg class="catalog-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="6 9 12 15 18 9"/>
@@ -301,44 +366,48 @@
           <div class="catalog-column">
             <h4>Scales</h4>
             <div class="content-tags">
-              <span class="tag">Major</span>
-              <span class="tag">Minor</span>
-              <span class="tag">Pentatonic Major</span>
+              <span class="tag">Major / Octave</span>
+              <span class="tag">Natural Minor</span>
               <span class="tag">Pentatonic Minor</span>
               <span class="tag">Chromatic</span>
-              <span class="tag">Triad Arpeggio</span>
-              <span class="tag">Seventh Arpeggio</span>
+              <span class="tag">Arpeggio (Triad)</span>
+              <span class="tag">Arpeggio (7th)</span>
               <span class="tag">Octave Jump</span>
-              <span class="tag">Fifth Slide</span>
-              <span class="tag">1-3-5-8</span>
+              <span class="tag">Octave Repeat</span>
+              <span class="tag">Octave Descending</span>
+              <span class="tag">Octave and a Half</span>
+              <span class="tag">Fifth Jump</span>
+              <span class="tag">Interval Jump (5th)</span>
               <span class="tag">Rossini</span>
-              <span class="tag">Rossini Extended</span>
-              <span class="tag">Staccato Triad</span>
-              <span class="tag">Trill (Half Step)</span>
-              <span class="tag">Trill (Whole Step)</span>
-              <span class="tag">Slide Up</span>
-              <span class="tag">Slide Down</span>
-              <span class="tag">Messa di Voce</span>
-              <span class="tag">Five-Note Descending</span>
+              <span class="tag">3 Note</span>
+              <span class="tag">5 Note</span>
+              <span class="tag">5 Note Descending</span>
+              <span class="tag">Broken</span>
+              <span class="tag">Zigzag Crescendo</span>
+              <span class="tag">Three Pulses</span>
+              <span class="tag">Vowel Shift</span>
+              <span class="tag">Single Note</span>
             </div>
           </div>
           <div class="catalog-column">
             <h4>Routines</h4>
             <ul class="routine-grid">
-              <li><strong>Quick Warmup</strong> <span>3 minutes, just the essentials.</span></li>
-              <li><strong>Gentle Opener</strong> <span>Low-impact start for mornings or tired voices.</span></li>
-              <li><strong>Standard Warmup</strong> <span>The all-around daily warmup.</span></li>
-              <li><strong>Range Builder</strong> <span>Push your upper and lower limits.</span></li>
-              <li><strong>Agility Drills</strong> <span>Fast runs, trills, and ornaments.</span></li>
-              <li><strong>Resonance & Tone</strong> <span>Sustained notes, focus on tone quality.</span></li>
-              <li><strong>Classical Foundations</strong> <span>Arpeggios and Rossini patterns.</span></li>
-              <li><strong>Musical Theater</strong> <span>Belt prep, dynamic range, projection.</span></li>
-              <li><strong>Jazz & Contemporary</strong> <span>Pentatonics, sevenths, chromatic movement.</span></li>
-              <li><strong>Rock & Metal Training</strong> <span>Power, belt range, stamina.</span></li>
-              <li><strong>Choir Prep</strong> <span>Blend, intonation, interval training.</span></li>
-              <li><strong>Pre-Performance</strong> <span>Light, focused, confidence-building.</span></li>
-              <li><strong>Full Vocal Workout</strong> <span>Everything, start to finish.</span></li>
+              <li><strong>General Warmup</strong> <span>Wake up your voice safely, full range ready.</span></li>
+              <li><strong>Gentle / Recovery</strong> <span>Light days and post-performance wind-down.</span></li>
+              <li><strong>Pre-Performance Quick</strong> <span>The essentials in under 8 minutes.</span></li>
+              <li><strong>Range Extension</strong> <span>Safely push your upper and lower limits.</span></li>
+              <li><strong>Power &amp; Volume</strong> <span>Cord closure and projection without strain.</span></li>
+              <li><strong>Agility &amp; Runs</strong> <span>Speed and precision for melismatic singing.</span></li>
+              <li><strong>Breath Control &amp; Stamina</strong> <span>Sustained exhalation and phrasing endurance.</span></li>
+              <li><strong>Bridge Builder</strong> <span>Approach, cross, and blend your voice break.</span></li>
+              <li><strong>Classical / Opera</strong> <span>Legato, vowel purity, resonance.</span></li>
+              <li><strong>Heavy Rock / Distortion</strong> <span>Grit and rasp, clean voice first.</span></li>
+              <li><strong>Vocal Coach I</strong> <span>Every standard scale in one place, for teaching.</span></li>
+              <li><strong>Subharmonic Warmup</strong> <span>Find the rattle under your chest voice.</span></li>
+              <li><strong>Flageolet Bridge</strong> <span>Cross into the flute tone above your range.</span></li>
+              <li><strong>Whistle Explorer</strong> <span>A short, quiet visit to the top of the voice.</span></li>
             </ul>
+            <p class="catalog-note">The last three unlock once you set a range for that register.</p>
           </div>
         </div>
       </details>
@@ -357,8 +426,8 @@
           <h3>Free</h3>
           <div class="price">$0 <span>forever</span></div>
           <ul class="pricing-features">
-            <li><span class="check">&#10003;</span> All 19 built-in scales</li>
-            <li><span class="check">&#10003;</span> All 13 built-in routines</li>
+            <li><span class="check">&#10003;</span> All 21 built-in scales</li>
+            <li><span class="check">&#10003;</span> All 14 built-in routines</li>
             <li><span class="check">&#10003;</span> 3 custom scales</li>
             <li><span class="check">&#10003;</span> 1 custom routine</li>
             <li><span class="check">&#10003;</span> Export & import</li>
@@ -374,6 +443,7 @@
             <li><span class="check">&#10003;</span> <strong>Unlimited</strong> custom scales</li>
             <li><span class="check">&#10003;</span> <strong>Unlimited</strong> custom routines</li>
             <li><span class="check">&#10003;</span> Scale Detector mic input</li>
+            <li><span class="check">&#10003;</span> Practice recorder &amp; playback</li>
             <li><span class="check">&#10003;</span> Edit built-in routines</li>
             <li><span class="check">&#10003;</span> Support development</li>
           </ul>
