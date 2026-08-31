@@ -537,6 +537,14 @@ nav ul a:hover {
   text-align: left;
 }
 
+/* Width and height attributes are presentational hints: the UA turns them into
+   real width and height declarations. Any rule that sets one of the two and not
+   the other leaves the image stretched. This is the floor that stops that, and
+   anything wanting a fixed height overrides it. */
+img {
+  height: auto;
+}
+
 /* --------------------------------------------------------- spotlight --- */
 /* Harmony training. One feature gets a section to itself, and it is the only
    thing on the page wearing the accent border. */
@@ -618,6 +626,13 @@ nav ul a:hover {
 .spotlight-shot img {
   width: 100%;
   max-width: 244px;
+  /* **Required, not decoration.** The tag carries width="560" height="1125"
+     so the browser can reserve the space before the JPEG arrives, and the UA
+     maps that height attribute to a real `height: 1125px`. Setting only the
+     width then leaves the height untouched, so the shot rendered 244 wide and
+     1125 tall: a phone stretched to nearly five times its own proportions.
+     `height: auto` hands the aspect ratio back to the image. */
+  height: auto;
   border-radius: 24px;
   border: 1px solid var(--mist);
   box-shadow: var(--lift);
