@@ -59,12 +59,13 @@ python3 - <<'PY'
 import glob, os, re
 for f in sorted(glob.glob('*.html') + glob.glob('*/*.html')):
     src = open(f, encoding='utf-8').read()
-    assert '—' not in src, f
+    assert '\u2014' not in src, f
+    assert src.count('hreflang=') >= 6, f
     base = os.path.dirname(f) or '.'
     for m in re.finditer(r'(?:src|href)="([^"#:]+?)"', src):
         u = m.group(1)
-        p = u.lstrip('/') or 'index.html' if u.startswith('/') else os.path.normpath(os.path.join(base, u))
-        if u.endswith('/'):
+        p = u.lstrip('/') if u.startswith('/') else os.path.normpath(os.path.join(base, u))
+        if u.endswith('/') or p == '':
             p = os.path.join(p, 'index.html')
         assert os.path.exists(p), (f, u)
 print('ok')
