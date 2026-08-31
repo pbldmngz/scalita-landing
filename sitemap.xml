@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <!-- English pages -->
+  <!-- English -->
   <url>
     <loc>https://scalita.com/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -17,8 +19,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/privacy.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -27,8 +31,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/terms.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/terms.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/terms.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -37,20 +43,23 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/support.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-
-  <!-- Spanish pages -->
+  <!-- Español -->
   <url>
     <loc>https://scalita.com/es/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -59,8 +68,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/privacy.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -69,8 +80,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/terms.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/terms.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/terms.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -79,20 +92,23 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/support.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-
-  <!-- French pages -->
+  <!-- Français -->
   <url>
     <loc>https://scalita.com/fr/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -101,8 +117,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/privacy.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/privacy.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -111,8 +129,10 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/terms.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/terms.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/terms.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/terms.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
@@ -121,10 +141,109 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/support.html"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
-    <lastmod>2026-08-27</lastmod>
+    <lastmod>2026-08-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
-
+  <!-- Português -->
+  <url>
+    <loc>https://scalita.com/pt/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/privacy.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/terms.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- Deutsch -->
+  <url>
+    <loc>https://scalita.com/de/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/privacy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/privacy.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/terms.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/terms.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/terms.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/support.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/support.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
+    <lastmod>2026-08-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
 </urlset>
