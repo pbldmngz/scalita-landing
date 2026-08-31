@@ -1,0 +1,307 @@
+{
+  "currency": "USD",
+  "proPriceValue": "4.99",
+  "nav": {
+    "logoAlt": "Scalita logo",
+    "menuLabel": "Open menu",
+    "features": "Features",
+    "pricing": "Pricing",
+    "download": "Download",
+    "support": "Support",
+    "languageLabel": "Language: %s"
+  },
+  "footer": {
+    "brandLine": "Simple scales. Real piano. No nonsense. Made with hate for singers everywhere.",
+    "productHeading": "Product",
+    "legalHeading": "Legal",
+    "supportHeading": "Support",
+    "supportLink": "Help and contact",
+    "kofi": "Support on Ko-fi",
+    "rights": "All rights reserved.",
+    "madeBy": "Made with hate by <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
+    "backHome": "Back to home"
+  },
+  "index": {
+    "title": "Scalita - Simple scales. Real piano. No nonsense.",
+    "description": "Free vocal warmup app for Android. 21 scales, 14 routines and a real Salamander Grand Piano across all 88 keys, transposed to your range. New: harmony training. Works offline, no ads, no account.",
+    "keywords": "vocal warmup app, singing scales, vocal routines, harmony training app, sing harmony with yourself, vocal register exercises, subharmonic singing, flageolet register, whistle register training, rock and metal vocal training, scale detector, pitch monitor, piano scales for singers, solfege app",
+    "ogTitle": "Scalita - 21 scales, 14 routines, real piano. Free vocal warmup app.",
+    "ogDescription": "A real Salamander Grand Piano across 88 keys, transposed to your range. New in 1.9.0: harmony training. Record one line, sing another over it, up to four parts. Offline, no ads, no account.",
+    "screens": [
+      {
+        "file": "home",
+        "alt": "Scalita home screen"
+      },
+      {
+        "file": "find_my_warmup",
+        "alt": "Find My Warmup asking how your voice feels"
+      },
+      {
+        "file": "player",
+        "alt": "An exercise mid-playback with the live pitch trail"
+      },
+      {
+        "file": "harmony",
+        "alt": "Harmony training with four vocal parts"
+      },
+      {
+        "file": "pitch_targeting",
+        "alt": "Pitch targeting on a single key"
+      },
+      {
+        "file": "all_scales",
+        "alt": "The scale browser"
+      }
+    ],
+    "hero": {
+      "badge": "For singers, by a singer",
+      "title": "Real piano. Your range. Just sing.",
+      "lead": "Scalita plays scales on a Salamander Grand Piano while you sing along. Set your vocal range once and every exercise transposes to fit it.",
+      "tagline": "Simple scales. Real piano. No nonsense.",
+      "ctaPrimary": "Download free",
+      "ctaSecondary": "New in 1.9.0",
+      "facts": [
+        "Free",
+        "Works offline",
+        "No ads",
+        "No account"
+      ],
+      "carouselLabel": "App screenshots"
+    },
+    "how": {
+      "title": "Three steps, and that is the app",
+      "lead": "Nothing to read first, nothing to sign up for.",
+      "steps": [
+        {
+          "title": "Set your range",
+          "body": "Sing into your phone and Scalita finds your lowest and highest note. Or pick a voice type and skip it."
+        },
+        {
+          "title": "Pick a scale or a routine",
+          "body": "21 scales and 14 routines are built in. Not sure which? Answer two questions and Find My Warmup picks for you."
+        },
+        {
+          "title": "Sing along",
+          "body": "The piano plays the pattern, moves up a key, and plays it again, all inside the range you set."
+        }
+      ],
+      "pianoLabel": "Hear the piano",
+      "pianoNote": "Real Salamander Grand Piano samples across all 88 keys, A0 to C8. However low or high you sing, there is a recorded note for it."
+    },
+    "harmony": {
+      "badge": "New in 1.9.0",
+      "title": "Harmony training",
+      "lead": "Record one line. Sing a second over the top of it and hear them together. Up to four parts, and a part can be a take from the microphone, a file you already had, or a scale the app plays.",
+      "points": [
+        {
+          "title": "Say what you are singing",
+          "body": "Tell Scalita that a part sits a third, a fifth or an octave above the bottom voice and it judges the interval you were aiming for. Without that, a fourth sung where a third was meant reads as perfectly in tune, because it is."
+        },
+        {
+          "title": "Tuned the way singers tune",
+          "body": "Intervals are judged against just intonation rather than equal temperament, so a major third is allowed to sit about fourteen cents flat. Which is where a singer actually puts it."
+        },
+        {
+          "title": "A picture you can keep",
+          "body": "Four contours drawn over each other on a named pitch grid, a thread of light where two voices lock, and one image of the finished harmony that can leave the phone."
+        }
+      ],
+      "note": "Recording is free. So are four parts, and any length. Pro only comes in if you want to keep more than one saved harmony, and you can always build another in full and keep that one instead.",
+      "alt": "Harmony training: four vocal parts drawn over a named pitch grid"
+    },
+    "features": {
+      "title": "And when you want to go further",
+      "lead": "The rest of the app, in four pieces. None of it is in your way on day one."
+    },
+    "groups": [
+      {
+        "title": "Warmups that answer back",
+        "body": "Find My Warmup asks how your voice feels today and what you want to work on, then picks the routine and sets the tempo. Adaptive Mode drops the plan entirely: after each exercise you say how it went and the next one adjusts. Tell it you have ten minutes and it paces the session to fit, cooldown included.",
+        "tags": [
+          "Find My Warmup",
+          "Adaptive Mode",
+          "Coaching cues",
+          "Breathe between keys"
+        ]
+      },
+      {
+        "title": "Hear yourself properly",
+        "body": "Put earphones on and a live trail shows where you land on every note, green on pitch and amber when you drift. Pitch targeting narrows it to one key at a time, and now it keeps your takes: the audio, the pitch line and what the keyboard was doing, so you can open one next week and hear whether anything moved.",
+        "tags": [
+          "Live pitch monitor",
+          "Pitch targeting",
+          "Saved practice takes"
+        ]
+      },
+      {
+        "title": "Registers most apps ignore",
+        "body": "Most warmup apps stop at chest and head voice. Set a range for each register you actually use and three dedicated routines open up: the rattle under your chest voice, the flute tone above your range, and the whistle above that. Mark your voice break too, and exercises build around it.",
+        "tags": [
+          "Subharmonics",
+          "Flageolet",
+          "Whistle",
+          "Voice break",
+          "Rock and metal"
+        ]
+      },
+      {
+        "title": "Make your own",
+        "body": "Build scales and routines from scratch: intervals, syllables, tempos, starting notes. Or sing or play a pattern into the Scale Detector and it writes the notes down for you. Rebuilt for 1.9.0, it needs about half as many corrections on real singing, and it flags the notes that were a coin toss so you know where to look.",
+        "tags": [
+          "Custom scales",
+          "Custom routines",
+          "Scale detector",
+          "Export and import",
+          "Do Re Mi or C D E"
+        ]
+      }
+    ],
+    "catalog": {
+      "title": "21 scales and 14 routines",
+      "lead": "Major, pentatonic, arpeggios, Rossini patterns, register bridges, rock and metal, quick warmups, full workouts.",
+      "scalesHeading": "Scales",
+      "routinesHeading": "Routines",
+      "scales": [
+        "Major / Octave",
+        "Natural Minor",
+        "Pentatonic Minor",
+        "Chromatic",
+        "Arpeggio (Triad)",
+        "Arpeggio (7th)",
+        "Octave Jump",
+        "Octave Repeat",
+        "Octave Descending",
+        "Octave and a Half",
+        "Fifth Jump",
+        "Interval Jump (5th)",
+        "Rossini",
+        "3 Note",
+        "5 Note",
+        "5 Note Descending",
+        "Broken",
+        "Zigzag Crescendo",
+        "Three Pulses",
+        "Vowel Shift",
+        "Single Note"
+      ],
+      "routines": [
+        [
+          "General Warmup",
+          "Wake up your voice safely, full range ready."
+        ],
+        [
+          "Gentle / Recovery",
+          "Light days and post-performance wind-down."
+        ],
+        [
+          "Pre-Performance Quick",
+          "The essentials in under 8 minutes."
+        ],
+        [
+          "Range Extension",
+          "Safely push your upper and lower limits."
+        ],
+        [
+          "Power & Volume",
+          "Cord closure and projection without strain."
+        ],
+        [
+          "Agility & Runs",
+          "Speed and precision for melismatic singing."
+        ],
+        [
+          "Breath Control & Stamina",
+          "Sustained exhalation and phrasing endurance."
+        ],
+        [
+          "Bridge Builder",
+          "Approach, cross, and blend your voice break."
+        ],
+        [
+          "Classical / Opera",
+          "Legato, vowel purity, resonance."
+        ],
+        [
+          "Heavy Rock / Distortion",
+          "Grit and rasp, clean voice first."
+        ],
+        [
+          "Vocal Coach I",
+          "Every standard scale in one place, for teaching."
+        ],
+        [
+          "Subharmonic Warmup",
+          "Find the rattle under your chest voice."
+        ],
+        [
+          "Flageolet Bridge",
+          "Cross into the flute tone above your range."
+        ],
+        [
+          "Whistle Explorer",
+          "A short, quiet visit to the top of the voice."
+        ]
+      ],
+      "note": "The last three unlock once you set a range for that register."
+    },
+    "pricing": {
+      "title": "Simple, honest pricing",
+      "lead": "Every feature works for free. Pro lifts the caps on how much you keep.",
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "period": "forever",
+        "cta": "Get started",
+        "items": [
+          "All 21 built-in scales",
+          "All 14 built-in routines",
+          "Harmony training, up to four parts",
+          "The Scale Detector, microphone and all",
+          "3 custom scales, 1 custom routine",
+          "1 saved harmony",
+          "Export and import"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$4.99",
+        "period": "once",
+        "badge": "Best value",
+        "cta": "Get Pro",
+        "items": [
+          "Everything in Free",
+          "<strong>Unlimited</strong> custom scales and routines",
+          "<strong>Unlimited</strong> saved harmonies",
+          "The practice recorder in pitch targeting",
+          "Edit the built-in scales and routines",
+          "Support development"
+        ]
+      },
+      "note": "One payment, no subscription. Local prices are set by Google Play."
+    },
+    "download": {
+      "title": "Ready to warm up?",
+      "lead": "Free on Google Play. No account, no ads, nothing to cancel.",
+      "storeSmall": "Get it on",
+      "note": "Android only for now. In English, Spanish, French, Portuguese and German."
+    }
+  },
+  "privacy": {
+    "navLabel": "Privacy Policy",
+    "title": "Privacy Policy - Scalita",
+    "description": "Privacy Policy for Scalita, the vocal warmup app for singers.",
+    "body": "        <h1>Privacy Policy</h1>\n        <p class=\"legal-meta\">Last updated: August 31, 2026</p>\n\n        <p>Scalita (\"we,\" \"our,\" or \"us\") is committed to protecting your privacy. This Privacy Policy explains how we handle information when you use our mobile application Scalita (the \"App\").</p>\n\n        <h2>Our Privacy Commitment</h2>\n        <p>Scalita is designed with privacy in mind. We believe you should be able to warm up your voice without being tracked, profiled, or monetized. Here's our commitment:</p>\n        <ul>\n          <li><strong>No accounts required</strong> - You don't need to create an account or sign in to use Scalita.</li>\n          <li><strong>No personal data collection</strong> - We don't collect, store, or transmit any personal information.</li>\n          <li><strong>No tracking or analytics</strong> - We don't use any analytics services, tracking pixels, or user behavior monitoring.</li>\n          <li><strong>No ads</strong> - We don't display advertisements and don't share data with ad networks.</li>\n          <li><strong>Offline-first</strong> - The app works entirely offline. Your data never leaves your device.</li>\n        </ul>\n        <h2>Data Storage</h2>\n        <p>Everything you create in Scalita is stored locally on your device only. This includes:</p>\n        <ul>\n          <li>Your vocal range and register settings</li>\n          <li>Custom scales you create</li>\n          <li>Custom routines you create</li>\n          <li>Practice takes you record in pitch targeting, and the audio of any harmony you save</li>\n          <li>App preferences (language, notation style, tempo settings)</li>\n        </ul>\n        <p>This data is never transmitted to our servers or any third parties, because we do not have servers that collect user data.</p>\n        <h2>Microphone Access</h2>\n        <p>Scalita asks for microphone permission for the features that listen to you sing: vocal range detection, the pitch monitor, pitch targeting, the Scale Detector, and harmony training. In all of them:</p>\n        <ul>\n          <li>Audio is processed on your device. It is never transmitted anywhere, and we have no servers for it to be transmitted to.</li>\n          <li>Range detection, the pitch monitor and the Scale Detector do not keep the audio they listen to. It is analysed as it arrives and then discarded.</li>\n          <li><strong>Two features do save audio on your device, because that is the point of them:</strong> a practice take in pitch targeting, and the parts of a harmony in harmony training. Those recordings are written to Scalita's own private storage on your phone.</li>\n          <li>Saved recordings stay on your phone until you remove them. Deleting a take, deleting a harmony, or uninstalling the app removes them.</li>\n          <li>Nothing you record is uploaded, shared automatically, or seen by us. Sharing the picture of a finished harmony is something you choose to do, and what leaves the phone is an image.</li>\n          <li>You can skip all of these features and set your range manually.</li>\n          <li>You can revoke microphone permission at any time in your device settings.</li>\n        </ul>\n\n        <h2>In-App Purchases</h2>\n        <p>Scalita offers an optional one-time Pro purchase through Google Play. The purchase transaction is handled entirely by Google Play, and we do not receive or store any payment information. Please refer to <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's Privacy Policy</a> for information about how Google handles purchase data.</p>\n\n        <h2>Export/Import Feature</h2>\n        <p>You can export your routines and settings as a JSON file to share or backup. This file is created locally on your device. When you share it, you control where it goes. We never see or access these files.</p>\n\n        <h2>Children's Privacy</h2>\n        <p>Scalita does not knowingly collect any personal information from anyone, including children under the age of 13. Since we don't collect data, there is no special data handling for children.</p>\n\n        <h2>Third-Party Services</h2>\n        <p>Scalita uses the following third-party services:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - For processing Pro purchases (optional). See <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Google's Privacy Policy</a>.</li>\n        </ul>\n        <p>We do not use any analytics, crash reporting, or advertising services.</p>\n\n        <h2>Changes to This Policy</h2>\n        <p>We may update this Privacy Policy from time to time. We will notify you of any significant changes by updating the \"Last updated\" date at the top of this page. We encourage you to review this Privacy Policy periodically.</p>\n\n        <h2>Contact Us</h2>\n        <p>If you have any questions about this Privacy Policy, please contact us at:</p>\n        <ul>\n          <li>Email: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Website: <a href=\"https://scalita.com/support.html\">scalita.com/support</a></li>\n        </ul>"
+  },
+  "terms": {
+    "navLabel": "Terms of Service",
+    "title": "Terms of Service - Scalita",
+    "description": "Terms of Service for Scalita, the vocal warmup app for singers.",
+    "body": "        <h1>Terms of Service</h1>\n        <p class=\"legal-meta\">Last updated: February 1, 2026</p>\n\n        <p>Welcome to Scalita! These Terms of Service (\"Terms\") govern your use of the Scalita mobile application (the \"App\") provided by Pablo Dominguez (\"we,\" \"our,\" or \"us\"). By downloading, installing, or using Scalita, you agree to these Terms.</p>\n\n        <h2>1. Acceptance of Terms</h2>\n        <p>By using Scalita, you confirm that you have read, understood, and agree to be bound by these Terms. If you do not agree to these Terms, please do not use the App.</p>\n\n        <h2>2. Description of Service</h2>\n        <p>Scalita is a vocal warmup application designed for singers. The App provides:</p>\n        <ul>\n          <li>Built-in and custom musical scales for practice</li>\n          <li>Warmup routines with customizable settings</li>\n          <li>Vocal range detection (optional)</li>\n          <li>Pitch monitoring and pitch targeting, with practice takes saved on your device</li>\n          <li>Harmony training, where you record and layer your own vocal parts</li>\n          <li>Piano playback for scale practice</li>\n        </ul>\n\n        <h2>3. Free and Pro Versions</h2>\n        <p><strong>Free Version:</strong> Scalita is free to download and use with full access to built-in content, limited custom content creation (3 custom scales, 1 custom routine, 1 saved harmony), and all playback features.</p>\n        <p><strong>Pro Version:</strong> A one-time in-app purchase ($4.99 USD) unlocks unlimited custom scales, routines and saved harmonies, the practice recorder in pitch targeting, and editing of the built-in scales and routines. Pro is a non-subscription, one-time purchase that grants permanent access to Pro features.</p>\n\n        <h2>4. Purchases and Refunds</h2>\n        <p>All purchases are processed through Google Play. By making a purchase, you agree to Google Play's terms of service. Refund requests should be directed to Google Play according to their refund policy. We do not directly process payments or have access to your payment information.</p>\n\n        <h2>5. License to Use</h2>\n        <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use Scalita for personal, non-commercial purposes in accordance with these Terms. You may not:</p>\n        <ul>\n          <li>Copy, modify, or distribute the App</li>\n          <li>Reverse engineer, decompile, or disassemble the App</li>\n          <li>Remove any copyright or proprietary notices</li>\n          <li>Use the App for any unlawful purpose</li>\n          <li>Attempt to gain unauthorized access to the App's systems</li>\n        </ul>\n\n        <h2>6. User Content</h2>\n        <p>You retain ownership of any content you create within the App, such as custom scales, routines and the recordings you make. This content is stored locally on your device. When you export and share content, you are responsible for how that content is used.</p>\n\n        <h2>7. Audio Samples</h2>\n        <p>Scalita uses piano samples from the Salamander Grand Piano project, which are in the public domain. The App's use of these samples does not grant you any rights to extract, redistribute, or use these samples outside of the App.</p>\n\n        <h2>8. Disclaimer of Warranties</h2>\n        <p>SCALITA IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED. We do not warrant that:</p>\n        <ul>\n          <li>The App will meet your specific requirements</li>\n          <li>The App will be uninterrupted, timely, secure, or error-free</li>\n          <li>The results from using the App will be accurate or reliable</li>\n          <li>Any errors in the App will be corrected</li>\n        </ul>\n\n        <h2>9. Limitation of Liability</h2>\n        <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, WE SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING BUT NOT LIMITED TO LOSS OF PROFITS, DATA, OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF SCALITA.</p>\n\n        <h2>10. Health Disclaimer</h2>\n        <p>Scalita is designed as a practice tool for singers. It is not a substitute for professional vocal training or medical advice. If you experience any pain, discomfort, or vocal strain while using the App, stop immediately and consult a healthcare professional or voice specialist.</p>\n\n        <h2>11. Changes to the App</h2>\n        <p>We may update, modify, or discontinue any aspect of Scalita at any time without notice. We are not liable for any modification, suspension, or discontinuation of the App.</p>\n\n        <h2>12. Changes to Terms</h2>\n        <p>We may revise these Terms at any time by updating this page. Your continued use of the App after any changes constitutes acceptance of the revised Terms. We encourage you to review these Terms periodically.</p>\n\n        <h2>13. Termination</h2>\n        <p>We may terminate or suspend your access to Scalita at any time, without prior notice or liability, for any reason, including if you breach these Terms. Upon termination, your license to use the App will immediately cease.</p>\n\n        <h2>14. Governing Law</h2>\n        <p>These Terms shall be governed by and construed in accordance with the laws of Spain, without regard to conflict of law principles.</p>\n\n        <h2>15. Contact</h2>\n        <p>If you have any questions about these Terms, please contact us at:</p>\n        <ul>\n          <li>Email: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Website: <a href=\"https://scalita.com/support.html\">scalita.com/support</a></li>\n        </ul>"
+  },
+  "support": {
+    "navLabel": "Support",
+    "title": "Support - Scalita",
+    "description": "Get help and support for Scalita, the vocal warmup app for singers.",
+    "body": "        <h1>How can I help?</h1>\n        <p>Got a question, found a bug, or just want to say hi? I'd love to hear from you.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://dominguezpablo.com/#contact\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/>\n                <polyline points=\"22,6 12,13 2,6\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Questions, Bugs, or Ideas?</h3>\n              <p>Bug reports, feature ideas, questions, whatever. I typically respond within 24-48 hours.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Support on Ko-fi</h3>\n              <p>Love Scalita? Help support ongoing development</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Frequently Asked Questions</h2>\n\n          <div class=\"faq-item\">\n            <h3>Is Scalita really free?</h3>\n            <p>Yes! Scalita is free to use with all 21 built-in scales, all 14 built-in routines, and all playback features. Harmony training and the Scale Detector are free too, microphone and all. You can create up to 3 custom scales, 1 custom routine and 1 saved harmony for free. Pro ($4.99 one-time) lifts those caps and unlocks the practice recorder in pitch targeting.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Does Scalita work offline?</h3>\n            <p>Absolutely. Scalita is designed to work completely offline. The piano sounds are bundled with the app, so you can practice anywhere without internet.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>How do I restore my Pro purchase?</h3>\n            <p>Go to Settings in the app and tap \"Restore Purchases.\" Make sure you're signed into the same Google account you used for the original purchase.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Is there an iOS version?</h3>\n            <p>Not yet, but it's on the roadmap! Follow us for updates on when the iOS version will be available.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Does Scalita keep my recordings?</h3>\n            <p>Practice takes and saved harmonies are kept, on your phone, so you can listen back to them later. Nothing is uploaded anywhere. Range detection, the pitch monitor and the Scale Detector do not keep any audio at all. You can delete a take or a harmony from inside the app at any time.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>My vocal range detection isn't working</h3>\n            <p>Make sure you've granted microphone permission in your device settings. Sing in a quiet environment and hold each note steady for a couple of seconds. You can always set your range manually if detection doesn't work for you.</p>\n          </div>\n        </div>"
+  }
+}

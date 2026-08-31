@@ -1,0 +1,307 @@
+{
+  "currency": "EUR",
+  "proPriceValue": "4.99",
+  "nav": {
+    "logoAlt": "Logo de Scalita",
+    "menuLabel": "Abrir menú",
+    "features": "Funciones",
+    "pricing": "Precio",
+    "download": "Descargar",
+    "support": "Ayuda",
+    "languageLabel": "Idioma: %s"
+  },
+  "footer": {
+    "brandLine": "Escalas simples. Piano real. Sin tonterías. Hecho con odio para cantantes de todo el mundo.",
+    "productHeading": "Producto",
+    "legalHeading": "Legal",
+    "supportHeading": "Ayuda",
+    "supportLink": "Ayuda y contacto",
+    "kofi": "Apoyar en Ko-fi",
+    "rights": "Todos los derechos reservados.",
+    "madeBy": "Hecho con odio por <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
+    "backHome": "Volver al inicio"
+  },
+  "index": {
+    "title": "Scalita - Escalas simples. Piano real. Sin tonterías.",
+    "description": "App gratuita de calentamiento vocal para Android. 21 escalas, 14 rutinas y un Salamander Grand Piano real en las 88 teclas, transpuesto a tu rango. Nuevo: entrenamiento de armonías. Sin conexión, sin anuncios, sin cuenta.",
+    "keywords": "app de calentamiento vocal, escalas para cantar, rutinas vocales, entrenamiento de armonías, cantar armonías, ejercicios de registro vocal, canto subarmónico, flageolet, registro de silbido, canto rock y metal, detector de escalas, monitor de afinación, escalas de piano para cantantes, app de solfeo",
+    "ogTitle": "Scalita - 21 escalas, 14 rutinas, piano real. App gratuita de calentamiento vocal.",
+    "ogDescription": "Un Salamander Grand Piano real en 88 teclas, transpuesto a tu rango. Nuevo en 1.9.0: entrenamiento de armonías. Graba una línea, canta otra encima, hasta cuatro voces. Sin conexión, sin anuncios, sin cuenta.",
+    "screens": [
+      {
+        "file": "home",
+        "alt": "Pantalla de inicio de Scalita"
+      },
+      {
+        "file": "find_my_warmup",
+        "alt": "Encontrar Mi Calentamiento preguntando cómo tienes la voz"
+      },
+      {
+        "file": "player",
+        "alt": "Un ejercicio en marcha con el trazo de afinación en vivo"
+      },
+      {
+        "file": "harmony",
+        "alt": "Entrenamiento de armonías con cuatro voces"
+      },
+      {
+        "file": "pitch_targeting",
+        "alt": "Puntería de notas sobre una sola tecla"
+      },
+      {
+        "file": "all_scales",
+        "alt": "El catálogo de escalas"
+      }
+    ],
+    "hero": {
+      "badge": "Por un cantante, para cantantes",
+      "title": "Piano real. Tu rango. Canta y ya.",
+      "lead": "Scalita toca escalas con un Salamander Grand Piano mientras cantas encima. Configuras tu rango vocal una vez y cada ejercicio se transpone para adaptarse a él.",
+      "tagline": "Escalas simples. Piano real. Sin tonterías.",
+      "ctaPrimary": "Descargar gratis",
+      "ctaSecondary": "Nuevo en 1.9.0",
+      "facts": [
+        "Gratis",
+        "Funciona sin conexión",
+        "Sin anuncios",
+        "Sin cuenta"
+      ],
+      "carouselLabel": "Capturas de la app"
+    },
+    "how": {
+      "title": "Tres pasos, y eso es la app",
+      "lead": "Nada que leer antes, nada que registrar.",
+      "steps": [
+        {
+          "title": "Configura tu rango",
+          "body": "Canta al teléfono y Scalita encuentra tu nota más grave y la más aguda. O elige un tipo de voz y sáltatelo."
+        },
+        {
+          "title": "Elige una escala o una rutina",
+          "body": "Vienen 21 escalas y 14 rutinas. ¿No sabes cuál? Responde dos preguntas y Encontrar Mi Calentamiento elige por ti."
+        },
+        {
+          "title": "Canta encima",
+          "body": "El piano toca el patrón, sube un semitono y lo vuelve a tocar, todo dentro del rango que configuraste."
+        }
+      ],
+      "pianoLabel": "Escuchar el piano",
+      "pianoNote": "Samples reales de un Salamander Grand Piano en las 88 teclas, de A0 a C8. Por grave o agudo que cantes, hay una nota grabada para eso."
+    },
+    "harmony": {
+      "badge": "Nuevo en 1.9.0",
+      "title": "Entrenamiento de armonías",
+      "lead": "Graba una línea. Canta otra encima y escucha las dos juntas. Hasta cuatro voces, y una voz puede ser una toma del micrófono, un archivo que ya tenías o una escala que toca la app.",
+      "points": [
+        {
+          "title": "Di qué estás cantando",
+          "body": "Dile a Scalita que una voz va una tercera, una quinta o una octava por encima de la voz de abajo y evalúa el intervalo que buscabas. Sin eso, una cuarta cantada donde tocaba una tercera se lee como perfectamente afinada, porque lo está."
+        },
+        {
+          "title": "Afinado como afinan los cantantes",
+          "body": "Los intervalos se evalúan contra la entonación justa y no contra el temperamento igual, así que una tercera mayor puede quedarse unos catorce cents baja. Que es donde la pone un cantante de verdad."
+        },
+        {
+          "title": "Una imagen que te llevas",
+          "body": "Cuatro contornos dibujados uno sobre otro en una rejilla de notas, un hilo de luz donde dos voces encajan, y una imagen de la armonía terminada que puede salir del teléfono."
+        }
+      ],
+      "note": "Grabar es gratis. Las cuatro voces también, y la duración también. Pro solo entra si quieres guardar más de una armonía a la vez, y siempre puedes montar otra entera y quedarte con esa en lugar de la anterior.",
+      "alt": "Entrenamiento de armonías: cuatro voces dibujadas sobre una rejilla de notas"
+    },
+    "features": {
+      "title": "Y cuando quieras ir más lejos",
+      "lead": "El resto de la app, en cuatro piezas. Ninguna te estorba el primer día."
+    },
+    "groups": [
+      {
+        "title": "Calentamientos que te responden",
+        "body": "Encontrar Mi Calentamiento pregunta cómo tienes la voz hoy y qué quieres trabajar, y luego elige la rutina y pone el tempo. El Modo Adaptativo tira el plan entero: después de cada ejercicio dices cómo fue y el siguiente se ajusta. Dile que tienes diez minutos y reparte la sesión para que quepa, con vuelta a la calma incluida.",
+        "tags": [
+          "Encontrar Mi Calentamiento",
+          "Modo Adaptativo",
+          "Consejos de técnica",
+          "Respirar entre tonos"
+        ]
+      },
+      {
+        "title": "Escúchate de verdad",
+        "body": "Ponte auriculares y un trazo en vivo te muestra dónde caes en cada nota, verde cuando estás afinado y ámbar cuando te desvías. La puntería de notas lo reduce a una tecla cada vez, y ahora guarda tus tomas: el audio, la línea de afinación y lo que hacía el teclado, para que abras una la semana que viene y oigas si algo se movió.",
+        "tags": [
+          "Monitor de afinación",
+          "Puntería de notas",
+          "Tomas guardadas"
+        ]
+      },
+      {
+        "title": "Registros que otras apps ignoran",
+        "body": "Casi todas las apps de calentamiento se quedan en voz de pecho y de cabeza. Configura un rango para cada registro que uses de verdad y se abren tres rutinas dedicadas: la vibración por debajo de tu voz de pecho, el tono aflautado por encima de tu rango y el silbido más arriba todavía. Marca también tu quiebre vocal y los ejercicios se construyen alrededor.",
+        "tags": [
+          "Subarmónicos",
+          "Flageolet",
+          "Silbido",
+          "Quiebre vocal",
+          "Rock y metal"
+        ]
+      },
+      {
+        "title": "Hazlo tuyo",
+        "body": "Crea escalas y rutinas desde cero: intervalos, sílabas, tempos, nota inicial. O canta o toca un patrón al Detector de Escalas y te escribe las notas. Reconstruido para 1.9.0, necesita alrededor de la mitad de correcciones sobre canto real, y señala las notas que fueron a cara o cruz para que sepas dónde mirar.",
+        "tags": [
+          "Escalas personalizadas",
+          "Rutinas personalizadas",
+          "Detector de escalas",
+          "Exportar e importar",
+          "Do Re Mi o C D E"
+        ]
+      }
+    ],
+    "catalog": {
+      "title": "21 escalas y 14 rutinas",
+      "lead": "Mayores, pentatónicas, arpegios, patrones Rossini, puentes de registro, rock y metal, calentamientos exprés, sesiones completas.",
+      "scalesHeading": "Escalas",
+      "routinesHeading": "Rutinas",
+      "scales": [
+        "Mayor / Octava",
+        "Menor Natural",
+        "Pentatónica Menor",
+        "Cromática",
+        "Arpegio (Tríada)",
+        "Arpegio (7ª)",
+        "Salto de Octava",
+        "Octava Repetida",
+        "Octava Descendente",
+        "Octava y Media",
+        "Salto de Quinta",
+        "Salto de Intervalo (5ª)",
+        "Rossini / 1.5",
+        "3 Tonos",
+        "5 Tonos",
+        "5 Tonos Descendente",
+        "Broken",
+        "Zigzag Crescendo",
+        "Tres pulsos",
+        "Cambio de Vocal",
+        "Nota Sola"
+      ],
+      "routines": [
+        [
+          "Calentamiento General",
+          "Despierta tu voz con seguridad, rango completo."
+        ],
+        [
+          "Suave / Recuperación",
+          "Días ligeros y descanso tras cantar."
+        ],
+        [
+          "Pre-Presentación Rápido",
+          "Lo esencial en menos de 8 minutos."
+        ],
+        [
+          "Extensión de Rango",
+          "Amplía tus límites graves y agudos sin riesgo."
+        ],
+        [
+          "Potencia y Volumen",
+          "Cierre cordal y proyección sin esfuerzo."
+        ],
+        [
+          "Agilidad y Escalas",
+          "Velocidad y precisión para el canto melismático."
+        ],
+        [
+          "Control de Aire y Resistencia",
+          "Exhalación sostenida y aguante en el fraseo."
+        ],
+        [
+          "Constructor de puente",
+          "Acércate, cruza y mezcla tu quiebre vocal."
+        ],
+        [
+          "Clásico / Ópera",
+          "Legato, pureza vocálica y resonancia."
+        ],
+        [
+          "Rock Pesado / Distorsión",
+          "Grit y rasp, con la voz limpia primero."
+        ],
+        [
+          "Vocal Coach I",
+          "Todas las escalas esenciales, para dar clase."
+        ],
+        [
+          "Calentamiento subarmónico",
+          "Encuentra la vibración bajo tu voz de pecho."
+        ],
+        [
+          "Puente al flageolet",
+          "Cruza al tono aflautado sobre tu rango."
+        ],
+        [
+          "Explorador del silbido",
+          "Una visita corta y suave a lo más alto."
+        ]
+      ],
+      "note": "Las tres últimas se desbloquean cuando configuras un rango para ese registro."
+    },
+    "pricing": {
+      "title": "Precio simple y honesto",
+      "lead": "Todas las funciones funcionan gratis. Pro quita los límites de cuánto guardas.",
+      "free": {
+        "name": "Gratis",
+        "price": "0 €",
+        "period": "para siempre",
+        "cta": "Empezar",
+        "items": [
+          "Las 21 escalas incluidas",
+          "Las 14 rutinas incluidas",
+          "Entrenamiento de armonías, hasta cuatro voces",
+          "El Detector de Escalas, micrófono incluido",
+          "3 escalas y 1 rutina personalizadas",
+          "1 armonía guardada",
+          "Exportar e importar"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "4,99 €",
+        "period": "una vez",
+        "badge": "Mejor valor",
+        "cta": "Conseguir Pro",
+        "items": [
+          "Todo lo de Gratis",
+          "Escalas y rutinas personalizadas <strong>sin límite</strong>",
+          "Armonías guardadas <strong>sin límite</strong>",
+          "El grabador de práctica en la puntería de notas",
+          "Editar las escalas y rutinas incluidas",
+          "Apoyar el desarrollo"
+        ]
+      },
+      "note": "Un solo pago, sin suscripción. El precio de cada país lo fija Google Play."
+    },
+    "download": {
+      "title": "¿Listo para calentar?",
+      "lead": "Gratis en Google Play. Sin cuenta, sin anuncios, nada que cancelar.",
+      "storeSmall": "Disponible en",
+      "note": "Solo Android por ahora. En español, inglés, francés, portugués y alemán."
+    }
+  },
+  "privacy": {
+    "navLabel": "Política de Privacidad",
+    "title": "Politica de Privacidad - Scalita",
+    "description": "Politica de privacidad de Scalita. Aprende como manejamos tus datos.",
+    "body": "        <h1>Política de Privacidad</h1>\n        <p class=\"legal-meta\">Última actualización: 31 de agosto de 2026</p>\n\n        <p>Scalita (\"nosotros\", \"nuestro\") opera la aplicación móvil Scalita (el \"Servicio\"). Esta página te informa sobre nuestras políticas respecto a la recopilación, uso y divulgación de información personal cuando usas nuestro Servicio.</p>\n\n        <h2>Recopilación y Uso de Información</h2>\n        <p>Scalita está diseñada con la privacidad como prioridad. No recopilamos, almacenamos ni transmitimos ninguna información personal. La app funciona completamente sin conexión y no requiere una cuenta de usuario.</p>\n\n        <h2>Datos Almacenados Localmente</h2>\n        <p>Scalita almacena los siguientes datos localmente en tu dispositivo:</p>\n        <ul>\n          <li>Tus preferencias de rango vocal y de registros</li>\n          <li>Escalas y rutinas personalizadas que crees</li>\n          <li>Las tomas de práctica que grabes y el audio de las armonías que guardes</li>\n          <li>Configuración de la app (idioma, notación, etc.)</li>\n        </ul>\n        <p>Estos datos nunca salen de tu dispositivo a menos que elijas exportarlos o compartirlos tú.</p>\n\n        <h2>Permiso de Micrófono</h2>\n        <p>Scalita solicita acceso al micrófono para las funciones que te escuchan cantar: la detección de rango vocal, el monitor de afinación, la puntería de notas, el detector de escalas y el entrenamiento de armonías. En todas ellas:</p>\n        <ul>\n          <li>El audio se procesa en tu dispositivo. Nunca se transmite a ningún sitio, y no tenemos servidores a los que transmitirlo.</li>\n          <li>La detección de rango, el monitor de afinación y el detector de escalas no guardan el audio que escuchan: lo analizan según llega y lo descartan.</li>\n          <li><strong>Dos funciones sí guardan audio en tu dispositivo, porque para eso están:</strong> una toma de práctica en la puntería de notas, y las voces de una armonía en el entrenamiento de armonías. Esas grabaciones se escriben en el almacenamiento privado de Scalita en tu teléfono.</li>\n          <li>Las grabaciones guardadas se quedan en tu teléfono hasta que las borres. Borrar una toma, borrar una armonía o desinstalar la app las elimina.</li>\n          <li>Nada de lo que grabas se sube, se comparte solo ni lo vemos nosotros. Compartir la imagen de una armonía terminada lo decides tú, y lo que sale del teléfono es una imagen.</li>\n          <li>Puedes usar Scalita sin dar permiso de micrófono y elegir tu rango vocal a mano.</li>\n          <li>Puedes retirar el permiso de micrófono cuando quieras desde los ajustes de tu dispositivo.</li>\n        </ul>\n\n        <h2>Compras Dentro de la App</h2>\n        <p>Si eliges comprar Scalita Pro, la transacción la gestiona por completo Google Play. No recibimos ni almacenamos tu información de pago.</p>\n\n        <h2>Servicios de Terceros</h2>\n        <p>Scalita no utiliza servicios de analítica, redes publicitarias ni otros servicios de terceros que recopilen datos de usuarios.</p>\n\n        <h2>Privacidad de los Niños</h2>\n        <p>Nuestro Servicio no está dirigido a menores de 13 años. No recopilamos conscientemente información de identificación personal de niños menores de 13 años.</p>\n\n        <h2>Cambios a Esta Política de Privacidad</h2>\n        <p>Podemos actualizar nuestra Política de Privacidad de vez en cuando. Te avisaremos de cualquier cambio publicando la nueva Política de Privacidad en esta página y actualizando la fecha de \"Última actualización\".</p>\n\n        <h2>Contáctanos</h2>\n        <p>Si tienes alguna pregunta sobre esta Política de Privacidad, contáctanos en:</p>\n        <p><a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></p>"
+  },
+  "terms": {
+    "navLabel": "Términos del Servicio",
+    "title": "Terminos de Servicio - Scalita",
+    "description": "Terminos de servicio para la app Scalita.",
+    "body": "        <h1>Términos del Servicio</h1>\n        <p class=\"legal-meta\">Última actualización: 31 de agosto de 2026</p>\n\n        <p>Por favor, lee estos Términos del Servicio (\"Términos\") con atención antes de usar la aplicación móvil Scalita (el \"Servicio\"), operada por Pablo Domínguez (\"nosotros\", \"nuestro\").</p>\n\n        <h2>Aceptación de los Términos</h2>\n        <p>Al acceder o usar nuestro Servicio, aceptas quedar sujeto a estos Términos. Si no estás de acuerdo con alguna parte de ellos, no puedes acceder al Servicio.</p>\n\n        <h2>Uso del Servicio</h2>\n        <p>Scalita es una aplicación de calentamiento vocal diseñada para cantantes. Puedes usar el Servicio para:</p>\n        <ul>\n          <li>Practicar escalas con sonidos de piano</li>\n          <li>Detectar tu rango vocal</li>\n          <li>Crear escalas y rutinas personalizadas</li>\n          <li>Monitorizar tu afinación y guardar tomas de práctica en tu dispositivo</li>\n          <li>Grabar y superponer tus propias voces en el entrenamiento de armonías</li>\n          <li>Exportar e importar tus datos</li>\n        </ul>\n\n        <h2>Versión Gratuita y Pro</h2>\n        <p><strong>Versión gratuita:</strong> Scalita es gratuita y da acceso completo a todo el contenido incluido, con límites en el contenido que creas tú (3 escalas personalizadas, 1 rutina personalizada y 1 armonía guardada) y todas las funciones de reproducción.</p>\n        <p><strong>Versión Pro:</strong> Una compra única dentro de la app (4,99 €) quita esos límites y desbloquea el grabador de práctica de la puntería de notas y la edición de las escalas y rutinas incluidas. Pro no es una suscripción: es un pago único que da acceso permanente a las funciones Pro.</p>\n        <p>Las compras Pro se gestionan a través de Google Play y están sujetas a sus políticas. Los reembolsos, si corresponden, los gestiona Google según sus propias políticas. El precio de cada país lo fija Google Play.</p>\n\n        <h2>Contenido del Usuario</h2>\n        <p>Mantienes la propiedad de cualquier escala, rutina, grabación u otro contenido que crees dentro de la app. Ese contenido se almacena solo localmente en tu dispositivo.</p>\n\n        <h2>Propiedad Intelectual</h2>\n        <p>La app Scalita, incluyendo su diseño, código, gráficos y sonidos de piano (Salamander Grand Piano, dominio público), es propiedad de Pablo Domínguez o está licenciada para él.</p>\n\n        <h2>Renuncia de Garantías</h2>\n        <p>El Servicio se proporciona \"tal cual\" y \"según disponibilidad\", sin garantías de ningún tipo. No garantizamos que el Servicio vaya a ser ininterrumpido, seguro o libre de errores.</p>\n\n        <h2>Limitación de Responsabilidad</h2>\n        <p>En ningún caso seremos responsables de daños indirectos, incidentales, especiales, consecuentes o punitivos, incluyendo pérdida de datos o de ganancias, derivados de tu uso del Servicio.</p>\n\n        <h2>Aviso de Salud</h2>\n        <p>Scalita es una herramienta de práctica para cantantes. No sustituye a la formación vocal profesional ni al consejo médico. Si sientes dolor, molestia o tensión vocal usando la app, para de inmediato y consulta a un profesional sanitario o a un especialista en voz.</p>\n\n        <h2>Cambios a los Términos</h2>\n        <p>Nos reservamos el derecho de modificar o reemplazar estos Términos en cualquier momento. Si una revisión es importante, avisaremos con al menos 30 días de antelación antes de que los nuevos términos entren en vigor.</p>\n\n        <h2>Ley Aplicable</h2>\n        <p>Estos Términos se regirán e interpretarán de acuerdo con las leyes de España, sin tener en cuenta sus disposiciones sobre conflictos de leyes.</p>\n\n        <h2>Contáctanos</h2>\n        <p>Si tienes alguna pregunta sobre estos Términos, contáctanos en:</p>\n        <p><a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></p>"
+  },
+  "support": {
+    "navLabel": "Ayuda",
+    "title": "Soporte - Scalita",
+    "description": "Obtiene ayuda con Scalita. Contactanos para soporte, reportar errores o hacer sugerencias.",
+    "body": "        <h1>¿En qué puedo ayudarte?</h1>\n        <p>¿Tienes una pregunta, encontraste un error o quieres sugerir algo? Me encantaría saber de ti.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://dominguezpablo.com/#contact\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n                <path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/>\n                <polyline points=\"22,6 12,13 2,6\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>¿Preguntas, errores o ideas?</h3>\n              <p>Errores, sugerencias, preguntas, lo que sea. Respondo en 24-48 horas.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Apoyar el desarrollo</h3>\n              <p>Ayuda a mantener Scalita vivo</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Preguntas frecuentes</h2>\n\n          <div class=\"faq-item\">\n            <h3>¿La app es realmente gratis?</h3>\n            <p>Sí. Las 21 escalas incluidas, las 14 rutinas incluidas, el entrenamiento de armonías y el Detector de Escalas (micrófono incluido) funcionan gratis. Gratis puedes crear 3 escalas personalizadas, 1 rutina personalizada y guardar 1 armonía. Pro (4,99 €, un solo pago) quita esos límites y desbloquea el grabador de práctica de la puntería de notas.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>¿Para qué necesita el micrófono?</h3>\n            <p>Para todo lo que te escucha cantar: la detección de rango vocal, el monitor de afinación, la puntería de notas, el Detector de Escalas y el entrenamiento de armonías. Puedes saltártelo todo y configurar tu rango a mano.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>¿Scalita guarda mis grabaciones?</h3>\n            <p>Las tomas de práctica y las armonías guardadas se quedan en tu teléfono para que puedas volver a escucharlas. No se sube nada a ningún sitio. La detección de rango, el monitor de afinación y el Detector de Escalas no guardan audio en absoluto. Puedes borrar una toma o una armonía desde la app cuando quieras.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>¿Puedo usar Scalita sin internet?</h3>\n            <p>Sí. Scalita funciona completamente sin conexión. Todos los sonidos de piano vienen dentro de la app.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>¿Cómo recupero mi compra Pro?</h3>\n            <p>Entra en Ajustes dentro de la app y toca \"Restaurar compras\". Asegúrate de estar con la misma cuenta de Google con la que compraste.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>¿Habrá versión para iOS?</h3>\n            <p>Todavía no, pero está en la lista. Síguenos para saber cuándo llega.</p>\n          </div>\n        </div>"
+  }
+}

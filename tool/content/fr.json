@@ -1,0 +1,307 @@
+{
+  "currency": "EUR",
+  "proPriceValue": "4.99",
+  "nav": {
+    "logoAlt": "Logo Scalita",
+    "menuLabel": "Ouvrir le menu",
+    "features": "Fonctionnalités",
+    "pricing": "Tarifs",
+    "download": "Télécharger",
+    "support": "Aide",
+    "languageLabel": "Langue : %s"
+  },
+  "footer": {
+    "brandLine": "Gammes simples. Vrai piano. Sans chichis. Fait avec haine pour les chanteurs du monde entier.",
+    "productHeading": "Produit",
+    "legalHeading": "Mentions légales",
+    "supportHeading": "Aide",
+    "supportLink": "Aide et contact",
+    "kofi": "Soutenir sur Ko-fi",
+    "rights": "Tous droits réservés.",
+    "madeBy": "Fait avec haine par <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
+    "backHome": "Retour à l'accueil"
+  },
+  "index": {
+    "title": "Scalita - Gammes simples. Vrai piano. Sans chichis.",
+    "description": "Application gratuite d'échauffement vocal pour Android. 21 gammes, 14 routines et un vrai Salamander Grand Piano sur les 88 touches, transposé à ta tessiture. Nouveau : l'entraînement aux harmonies. Hors ligne, sans pub, sans compte.",
+    "keywords": "application échauffement vocal, gammes pour chanter, routines vocales, entraînement aux harmonies, chanter en harmonie, exercices de registre vocal, chant subharmonique, flageolet, registre de sifflet, chant rock et metal, détecteur de gammes, accordeur vocal, gammes de piano pour chanteurs, application solfège",
+    "ogTitle": "Scalita - 21 gammes, 14 routines, vrai piano. Application gratuite d'échauffement vocal.",
+    "ogDescription": "Un vrai Salamander Grand Piano sur 88 touches, transposé à ta tessiture. Nouveau en 1.9.0 : l'entraînement aux harmonies. Enregistre une ligne, chante par-dessus, jusqu'à quatre voix. Hors ligne, sans pub, sans compte.",
+    "screens": [
+      {
+        "file": "home",
+        "alt": "Écran d'accueil de Scalita"
+      },
+      {
+        "file": "find_my_warmup",
+        "alt": "Trouver mon échauffement demande comment va ta voix"
+      },
+      {
+        "file": "player",
+        "alt": "Un exercice en cours avec le tracé de justesse en direct"
+      },
+      {
+        "file": "harmony",
+        "alt": "Entraînement aux harmonies avec quatre voix"
+      },
+      {
+        "file": "pitch_targeting",
+        "alt": "Travail de justesse sur une seule touche"
+      },
+      {
+        "file": "all_scales",
+        "alt": "La liste des gammes"
+      }
+    ],
+    "hero": {
+      "badge": "Par un chanteur, pour les chanteurs",
+      "title": "Vrai piano. Ta tessiture. Chante, c'est tout.",
+      "lead": "Scalita joue des gammes sur un Salamander Grand Piano pendant que tu chantes. Tu règles ta tessiture une fois, et chaque exercice se transpose pour s'y adapter.",
+      "tagline": "Gammes simples. Vrai piano. Sans chichis.",
+      "ctaPrimary": "Télécharger gratuitement",
+      "ctaSecondary": "Nouveau en 1.9.0",
+      "facts": [
+        "Gratuit",
+        "Fonctionne hors ligne",
+        "Sans pub",
+        "Sans compte"
+      ],
+      "carouselLabel": "Captures de l'application"
+    },
+    "how": {
+      "title": "Trois étapes, et c'est toute l'application",
+      "lead": "Rien à lire avant, rien à créer comme compte.",
+      "steps": [
+        {
+          "title": "Règle ta tessiture",
+          "body": "Chante dans ton téléphone et Scalita trouve ta note la plus grave et la plus aiguë. Ou choisis un type de voix et passe l'étape."
+        },
+        {
+          "title": "Choisis une gamme ou une routine",
+          "body": "21 gammes et 14 routines sont incluses. Tu hésites ? Réponds à deux questions et Trouver mon échauffement choisit pour toi."
+        },
+        {
+          "title": "Chante par-dessus",
+          "body": "Le piano joue le motif, monte d'un demi-ton et le rejoue, le tout dans la tessiture que tu as réglée."
+        }
+      ],
+      "pianoLabel": "Écouter le piano",
+      "pianoNote": "De vrais échantillons de Salamander Grand Piano sur les 88 touches, de La0 à Do8. Aussi grave ou aigu que tu chantes, il existe une note enregistrée pour ça."
+    },
+    "harmony": {
+      "badge": "Nouveau en 1.9.0",
+      "title": "Entraînement aux harmonies",
+      "lead": "Enregistre une ligne. Chante-en une deuxième par-dessus et écoute les deux ensemble. Jusqu'à quatre voix, et une voix peut être une prise au micro, un fichier que tu avais déjà ou une gamme jouée par l'application.",
+      "points": [
+        {
+          "title": "Dis ce que tu chantes",
+          "body": "Indique à Scalita qu'une voix se place une tierce, une quinte ou une octave au-dessus de la voix la plus basse, et elle juge l'intervalle que tu visais. Sans ça, une quarte chantée à la place d'une tierce passe pour parfaitement juste, parce qu'elle l'est."
+        },
+        {
+          "title": "Accordé comme accordent les chanteurs",
+          "body": "Les intervalles sont jugés en intonation juste et non en tempérament égal, donc une tierce majeure a le droit de se poser une quatorzaine de cents plus bas. C'est là qu'un chanteur la met vraiment."
+        },
+        {
+          "title": "Une image que tu gardes",
+          "body": "Quatre tracés superposés sur une grille de notes nommées, un fil de lumière là où deux voix se calent, et une image de l'harmonie terminée qui peut quitter le téléphone."
+        }
+      ],
+      "note": "Enregistrer est gratuit. Les quatre voix aussi, et la durée aussi. Pro n'intervient que si tu veux conserver plus d'une harmonie à la fois, et tu peux toujours en construire une autre entièrement et garder celle-là à la place.",
+      "alt": "Entraînement aux harmonies : quatre voix tracées sur une grille de notes"
+    },
+    "features": {
+      "title": "Et quand tu veux aller plus loin",
+      "lead": "Le reste de l'application, en quatre morceaux. Rien de tout ça ne te gêne le premier jour."
+    },
+    "groups": [
+      {
+        "title": "Des échauffements qui te répondent",
+        "body": "Trouver mon échauffement demande comment va ta voix aujourd'hui et ce que tu veux travailler, puis choisit la routine et règle le tempo. Le Mode adaptatif abandonne carrément le plan : après chaque exercice tu dis comment ça s'est passé et le suivant s'ajuste. Dis-lui que tu as dix minutes et il répartit toute la séance pour tenir dedans, retour au calme compris.",
+        "tags": [
+          "Trouver mon échauffement",
+          "Mode adaptatif",
+          "Conseils technique",
+          "Respirer entre les tons"
+        ]
+      },
+      {
+        "title": "T'entendre vraiment",
+        "body": "Mets des écouteurs et un tracé en direct montre où tu tombes sur chaque note, vert quand c'est juste et ambre quand tu dérives. Le travail de justesse réduit ça à une touche à la fois, et il garde maintenant tes prises : l'audio, la ligne de justesse et ce que faisait le clavier, pour en rouvrir une la semaine prochaine et entendre si quelque chose a bougé.",
+        "tags": [
+          "Accordeur en direct",
+          "Travail de justesse",
+          "Prises conservées"
+        ]
+      },
+      {
+        "title": "Des registres que les autres ignorent",
+        "body": "La plupart des applications d'échauffement s'arrêtent à la voix de poitrine et de tête. Règle une étendue pour chaque registre que tu utilises vraiment et trois routines dédiées s'ouvrent : la vibration sous ta voix de poitrine, le timbre de flûte au-dessus de ton étendue, et le sifflet encore au-dessus. Indique aussi ton passage de voix, et les exercices se construisent autour.",
+        "tags": [
+          "Subharmoniques",
+          "Flageolet",
+          "Sifflet",
+          "Passage de voix",
+          "Rock et metal"
+        ]
+      },
+      {
+        "title": "Fais les tiennes",
+        "body": "Construis des gammes et des routines à partir de rien : intervalles, syllabes, tempos, note de départ. Ou chante ou joue un motif dans le détecteur de gammes et il écrit les notes pour toi. Refait pour la 1.9.0, il demande environ deux fois moins de corrections sur du vrai chant, et il signale les notes qui se jouaient à pile ou face pour que tu saches où regarder.",
+        "tags": [
+          "Gammes personnalisées",
+          "Routines personnalisées",
+          "Détecteur de gammes",
+          "Export et import",
+          "Do Ré Mi ou C D E"
+        ]
+      }
+    ],
+    "catalog": {
+      "title": "21 gammes et 14 routines",
+      "lead": "Majeures, pentatoniques, arpèges, motifs Rossini, ponts entre registres, rock et metal, échauffements express, séances complètes.",
+      "scalesHeading": "Gammes",
+      "routinesHeading": "Routines",
+      "scales": [
+        "Majeure / Octave",
+        "Mineure naturelle",
+        "Pentatonique mineure",
+        "Chromatique",
+        "Arpège (triade)",
+        "Arpège (7e)",
+        "Saut d'octave",
+        "Octave répétée",
+        "Octave descendante",
+        "Octave et demie",
+        "Saut de quinte",
+        "Saut d'intervalle (quinte)",
+        "Rossini",
+        "3 notes",
+        "5 notes",
+        "5 notes descendantes",
+        "Brisée",
+        "Zigzag crescendo",
+        "Trois impulsions",
+        "Changement de voyelle",
+        "Note unique"
+      ],
+      "routines": [
+        [
+          "Échauffement général",
+          "Réveille ta voix en douceur, toute la tessiture."
+        ],
+        [
+          "Douceur / Récupération",
+          "Jours légers et repos après un concert."
+        ],
+        [
+          "Express avant scène",
+          "L'essentiel en moins de 8 minutes."
+        ],
+        [
+          "Extension de tessiture",
+          "Repousse tes limites hautes et basses sans risque."
+        ],
+        [
+          "Puissance et volume",
+          "Fermeture des cordes et projection, sans forcer."
+        ],
+        [
+          "Agilité et vocalises",
+          "Vitesse et précision pour les mélismes."
+        ],
+        [
+          "Souffle et endurance",
+          "Expiration soutenue et tenue sur les phrases."
+        ],
+        [
+          "Passeur de ponts",
+          "Approche, traverse et mélange ton passage de voix."
+        ],
+        [
+          "Classique / Opéra",
+          "Legato, pureté des voyelles, résonance."
+        ],
+        [
+          "Rock lourd / Distorsion",
+          "Grain et rocaille, voix claire d'abord."
+        ],
+        [
+          "Coach vocal I",
+          "Toutes les gammes classiques, pour enseigner."
+        ],
+        [
+          "Échauffement subharmonique",
+          "Trouve la vibration sous ta voix de poitrine."
+        ],
+        [
+          "Pont vers le flageolet",
+          "Passe au timbre de flûte au-dessus de ton étendue."
+        ],
+        [
+          "Explorateur du sifflet",
+          "Une courte visite tout en haut, en douceur."
+        ]
+      ],
+      "note": "Les trois dernières se débloquent quand tu règles une étendue pour ce registre."
+    },
+    "pricing": {
+      "title": "Des tarifs simples et honnêtes",
+      "lead": "Toutes les fonctions marchent gratuitement. Pro lève les limites sur ce que tu conserves.",
+      "free": {
+        "name": "Gratuit",
+        "price": "0 €",
+        "period": "pour toujours",
+        "cta": "Commencer",
+        "items": [
+          "Les 21 gammes incluses",
+          "Les 14 routines incluses",
+          "L'entraînement aux harmonies, jusqu'à quatre voix",
+          "Le détecteur de gammes, microphone compris",
+          "3 gammes et 1 routine personnalisées",
+          "1 harmonie conservée",
+          "Export et import"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "4,99 €",
+        "period": "une fois",
+        "badge": "Meilleur choix",
+        "cta": "Passer à Pro",
+        "items": [
+          "Tout ce qu'il y a dans Gratuit",
+          "Gammes et routines personnalisées <strong>sans limite</strong>",
+          "Harmonies conservées <strong>sans limite</strong>",
+          "L'enregistreur du travail de justesse",
+          "Modifier les gammes et routines incluses",
+          "Soutenir le développement"
+        ]
+      },
+      "note": "Un seul paiement, pas d'abonnement. Le prix de chaque pays est fixé par Google Play."
+    },
+    "download": {
+      "title": "Prêt à t'échauffer ?",
+      "lead": "Gratuit sur Google Play. Sans compte, sans pub, rien à résilier.",
+      "storeSmall": "Disponible sur",
+      "note": "Android uniquement pour l'instant. En français, anglais, espagnol, portugais et allemand."
+    }
+  },
+  "privacy": {
+    "navLabel": "Politique de confidentialité",
+    "title": "Politique de confidentialit&eacute; - Scalita",
+    "description": "La politique de confidentialit&eacute; de Scalita : aucun compte, aucune collecte de donn&eacute;es, aucun pistage. Tout reste sur ton appareil.",
+    "body": "        <h1>Politique de confidentialit&eacute;</h1>\n        <p class=\"legal-meta\">Derni&egrave;re mise &agrave; jour&nbsp;: 31 ao&ucirc;t 2026</p>\n\n        <p>Scalita (&laquo;&nbsp;nous&nbsp;&raquo;) s'engage &agrave; prot&eacute;ger ta vie priv&eacute;e. Cette politique de confidentialit&eacute; explique comment les informations sont trait&eacute;es lorsque tu utilises notre application mobile Scalita (l'&laquo;&nbsp;Application&nbsp;&raquo;).</p>\n\n        <h2>Notre engagement</h2>\n        <p>Scalita est con&ccedil;ue avec la vie priv&eacute;e comme point de d&eacute;part. Tu devrais pouvoir &eacute;chauffer ta voix sans &ecirc;tre pist&eacute;, profil&eacute; ou mon&eacute;tis&eacute;. Voici notre engagement&nbsp;:</p>\n        <ul>\n          <li><strong>Aucun compte requis</strong> - Pas besoin de cr&eacute;er un compte ni de te connecter pour utiliser Scalita.</li>\n          <li><strong>Aucune collecte de donn&eacute;es personnelles</strong> - Nous ne collectons, ne stockons et ne transmettons aucune information personnelle.</li>\n          <li><strong>Aucun pistage ni statistiques</strong> - Aucun service d'analyse, aucun pixel de suivi, aucune surveillance du comportement.</li>\n          <li><strong>Aucune publicit&eacute;</strong> - Nous n'affichons pas de publicit&eacute;s et ne partageons aucune donn&eacute;e avec des r&eacute;gies.</li>\n          <li><strong>Hors ligne d'abord</strong> - L'application fonctionne enti&egrave;rement hors ligne. Tes donn&eacute;es ne quittent jamais ton appareil.</li>\n        </ul>\n\n        <h2>Stockage des donn&eacute;es</h2>\n        <p>Toutes les donn&eacute;es que tu cr&eacute;es dans Scalita (gammes personnalis&eacute;es, routines, r&eacute;glages, tessiture) sont stock&eacute;es uniquement en local sur ton appareil. Cela comprend&nbsp;:</p>\n        <ul>\n          <li>Les r&eacute;glages de ta tessiture</li>\n          <li>Les gammes personnalis&eacute;es que tu cr&eacute;es</li>\n          <li>Les routines personnalis&eacute;es que tu cr&eacute;es</li>\n          <li>Les prises que tu enregistres dans le travail de justesse et l'audio des harmonies que tu conserves</li>\n          <li>Les pr&eacute;f&eacute;rences de l'application (langue, notation, tempo)</li>\n        </ul>\n        <p>Ces donn&eacute;es ne sont jamais transmises &agrave; nos serveurs ni &agrave; des tiers, car nous n'avons pas de serveurs qui collectent des donn&eacute;es d'utilisateurs.</p>\n        <h2>Acc&egrave;s au microphone</h2>\n        <p>Scalita demande l'acc&egrave;s au microphone pour les fonctions qui t'&eacute;coutent chanter&nbsp;: la d&eacute;tection de tessiture, l'accordeur en temps r&eacute;el, le travail de justesse note par note, le d&eacute;tecteur de gammes et l'entra&icirc;nement aux harmonies. Dans tous les cas&nbsp;:</p>\n        <ul>\n          <li>L'audio est trait&eacute; sur ton appareil. Il n'est jamais transmis nulle part, et nous n'avons aucun serveur o&ugrave; le transmettre.</li>\n          <li>La d&eacute;tection de tessiture, l'accordeur et le d&eacute;tecteur de gammes ne conservent pas l'audio qu'ils &eacute;coutent&nbsp;: il est analys&eacute; au fil de l'eau puis jet&eacute;.</li>\n          <li><strong>Deux fonctions enregistrent bien de l'audio sur ton appareil, parce que c'est tout leur int&eacute;r&ecirc;t&nbsp;:</strong> une prise dans le travail de justesse, et les voix d'une harmonie dans l'entra&icirc;nement aux harmonies. Ces enregistrements sont &eacute;crits dans l'espace de stockage priv&eacute; de Scalita, sur ton t&eacute;l&eacute;phone.</li>\n          <li>Les enregistrements conserv&eacute;s restent sur ton t&eacute;l&eacute;phone jusqu'&agrave; ce que tu les supprimes. Supprimer une prise, supprimer une harmonie ou d&eacute;sinstaller l'application les efface.</li>\n          <li>Rien de ce que tu enregistres n'est envoy&eacute;, partag&eacute; automatiquement ni vu par nous. Partager l'image d'une harmonie termin&eacute;e, c'est toi qui le d&eacute;cides, et ce qui quitte le t&eacute;l&eacute;phone est une image.</li>\n          <li>Tu peux te passer de toutes ces fonctions et r&eacute;gler ta tessiture &agrave; la main.</li>\n          <li>Tu peux retirer l'autorisation du microphone &agrave; tout moment dans les r&eacute;glages de ton appareil.</li>\n        </ul>\n\n        <h2>Achats int&eacute;gr&eacute;s</h2>\n        <p>Scalita propose un achat Pro unique et facultatif via Google Play. La transaction est enti&egrave;rement g&eacute;r&eacute;e par Google Play, et nous ne recevons ni ne stockons aucune information de paiement. Consulte la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialit&eacute; de Google</a> pour savoir comment Google traite les donn&eacute;es d'achat.</p>\n\n        <h2>Export et import</h2>\n        <p>Tu peux exporter tes routines et tes r&eacute;glages sous forme de fichier JSON pour les partager ou les sauvegarder. Ce fichier est cr&eacute;&eacute; en local sur ton appareil. Quand tu le partages, tu contr&ocirc;les o&ugrave; il va. Nous ne voyons jamais ces fichiers et n'y avons jamais acc&egrave;s.</p>\n\n        <h2>Vie priv&eacute;e des enfants</h2>\n        <p>Scalita ne collecte sciemment aucune information personnelle, de qui que ce soit, y compris des enfants de moins de 13 ans. Comme nous ne collectons pas de donn&eacute;es, il n'y a pas de traitement particulier pour les enfants.</p>\n\n        <h2>Services tiers</h2>\n        <p>Scalita utilise les services tiers suivants&nbsp;:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - Pour traiter les achats Pro (facultatif). Voir la <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">politique de confidentialit&eacute; de Google</a>.</li>\n        </ul>\n        <p>Nous n'utilisons aucun service de statistiques, de rapport de plantage ou de publicit&eacute;.</p>\n\n        <h2>Modifications de cette politique</h2>\n        <p>Nous pouvons mettre &agrave; jour cette politique de confidentialit&eacute; de temps en temps. Nous signalerons tout changement important en mettant &agrave; jour la date de &laquo;&nbsp;derni&egrave;re mise &agrave; jour&nbsp;&raquo; en haut de cette page. Nous t'invitons &agrave; la relire de temps en temps.</p>\n\n        <h2>Nous contacter</h2>\n        <p>Pour toute question sur cette politique de confidentialit&eacute;, contacte-nous&nbsp;:</p>\n        <ul>\n          <li>E-mail&nbsp;: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Site&nbsp;: <a href=\"https://scalita.com/fr/support.html\">scalita.com/fr/support</a></li>\n        </ul>"
+  },
+  "terms": {
+    "navLabel": "Conditions d'utilisation",
+    "title": "Conditions d'utilisation - Scalita",
+    "description": "Les conditions d'utilisation de Scalita, l'application d'&eacute;chauffement vocal pour chanteurs.",
+    "body": "        <h1>Conditions d'utilisation</h1>\n        <p class=\"legal-meta\">Derni&egrave;re mise &agrave; jour&nbsp;: 31 ao&ucirc;t 2026</p>\n\n        <p>Bienvenue sur Scalita&nbsp;! Ces conditions d'utilisation (les &laquo;&nbsp;Conditions&nbsp;&raquo;) r&eacute;gissent ton utilisation de l'application mobile Scalita (l'&laquo;&nbsp;Application&nbsp;&raquo;) fournie par Pablo Dominguez (&laquo;&nbsp;nous&nbsp;&raquo;). En t&eacute;l&eacute;chargeant, en installant ou en utilisant Scalita, tu acceptes ces Conditions.</p>\n\n        <h2>1. Acceptation des conditions</h2>\n        <p>En utilisant Scalita, tu confirmes avoir lu, compris et accept&eacute; d'&ecirc;tre li&eacute; par ces Conditions. Si tu n'es pas d'accord, n'utilise pas l'Application.</p>\n\n        <h2>2. Description du service</h2>\n        <p>Scalita est une application d'&eacute;chauffement vocal con&ccedil;ue pour les chanteurs. L'Application propose&nbsp;:</p>\n        <ul>\n          <li>Des gammes musicales incluses et personnalis&eacute;es pour travailler</li>\n          <li>Des routines d'&eacute;chauffement aux r&eacute;glages modifiables</li>\n          <li>La d&eacute;tection de la tessiture (facultative)</li>\n          <li>Une lecture au piano pour accompagner les gammes</li>\n          <li>Le suivi de la justesse, avec des prises conserv&eacute;es sur ton appareil</li>\n          <li>L'entra&icirc;nement aux harmonies, o&ugrave; tu enregistres et superposes tes propres voix</li>\n        </ul>\n\n        <h2>3. Versions gratuite et Pro</h2>\n        <p><strong>Version gratuite&nbsp;:</strong> Scalita est gratuite &agrave; t&eacute;l&eacute;charger et &agrave; utiliser, avec un acc&egrave;s complet au contenu inclus, une cr&eacute;ation limit&eacute;e de contenu personnalis&eacute; (3 gammes, 1 routine, 1 harmonie conserv&eacute;e) et toutes les fonctions de lecture.</p>\n        <p><strong>Version Pro&nbsp;:</strong> Un achat int&eacute;gr&eacute; unique (4,99&nbsp;&euro;) l&egrave;ve ces limites et d&eacute;bloque l'enregistreur du travail de justesse ainsi que la modification des gammes et routines incluses. Pro n'est pas un abonnement&nbsp;: c'est un achat unique qui donne un acc&egrave;s permanent aux fonctions Pro.</p>\n\n        <h2>4. Achats et remboursements</h2>\n        <p>Tous les achats sont trait&eacute;s par Google Play. En effectuant un achat, tu acceptes les conditions d'utilisation de Google Play. Les demandes de remboursement doivent &ecirc;tre adress&eacute;es &agrave; Google Play selon sa politique de remboursement. Nous ne traitons pas directement les paiements et n'avons pas acc&egrave;s &agrave; tes informations de paiement.</p>\n\n        <h2>5. Licence d'utilisation</h2>\n        <p>Nous t'accordons une licence limit&eacute;e, non exclusive, non transf&eacute;rable et r&eacute;vocable d'utiliser Scalita &agrave; des fins personnelles et non commerciales, conform&eacute;ment &agrave; ces Conditions. Tu ne peux pas&nbsp;:</p>\n        <ul>\n          <li>Copier, modifier ou distribuer l'Application</li>\n          <li>D&eacute;compiler, d&eacute;sassembler ou proc&eacute;der &agrave; de la r&eacute;tro-ing&eacute;nierie</li>\n          <li>Supprimer les mentions de droit d'auteur ou de propri&eacute;t&eacute;</li>\n          <li>Utiliser l'Application &agrave; des fins ill&eacute;gales</li>\n          <li>Tenter d'acc&eacute;der sans autorisation aux syst&egrave;mes de l'Application</li>\n        </ul>\n\n        <h2>6. Contenu de l'utilisateur</h2>\n        <p>Tu restes propri&eacute;taire de tout contenu que tu cr&eacute;es dans l'Application, comme des gammes et des routines personnalis&eacute;es. Ce contenu est stock&eacute; en local sur ton appareil. Quand tu l'exportes et le partages, tu es responsable de l'usage qui en est fait.</p>\n\n        <h2>7. &Eacute;chantillons audio</h2>\n        <p>Scalita utilise des &eacute;chantillons de piano issus du projet Salamander Grand Piano, qui sont dans le domaine public. L'usage de ces &eacute;chantillons par l'Application ne te donne aucun droit de les extraire, de les redistribuer ou de les utiliser en dehors de l'Application.</p>\n\n        <h2>8. Exclusion de garanties</h2>\n        <p>SCALITA EST FOURNIE &laquo;&nbsp;EN L'&Eacute;TAT&nbsp;&raquo; ET &laquo;&nbsp;SELON DISPONIBILIT&Eacute;&nbsp;&raquo;, SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE. Nous ne garantissons pas que&nbsp;:</p>\n        <ul>\n          <li>L'Application r&eacute;pondra &agrave; tes besoins particuliers</li>\n          <li>L'Application sera ininterrompue, ponctuelle, s&ucirc;re ou exempte d'erreurs</li>\n          <li>Les r&eacute;sultats obtenus seront exacts ou fiables</li>\n          <li>Les &eacute;ventuelles erreurs seront corrig&eacute;es</li>\n        </ul>\n\n        <h2>9. Limitation de responsabilit&eacute;</h2>\n        <p>DANS TOUTE LA MESURE PERMISE PAR LA LOI, NOUS NE SAURIONS &Ecirc;TRE TENUS RESPONSABLES DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SP&Eacute;CIAL, CONS&Eacute;CUTIF OU PUNITIF, Y COMPRIS MAIS SANS S'Y LIMITER LA PERTE DE B&Eacute;N&Eacute;FICES, DE DONN&Eacute;ES OU D'USAGE, D&Eacute;COULANT DE TON UTILISATION DE SCALITA OU LI&Eacute; &Agrave; CELLE-CI.</p>\n\n        <h2>10. Avertissement sant&eacute;</h2>\n        <p>Scalita est un outil de travail pour les chanteurs. Elle ne remplace ni une formation vocale professionnelle, ni un avis m&eacute;dical. Si tu ressens une douleur, une g&ecirc;ne ou une tension vocale en utilisant l'Application, arr&ecirc;te imm&eacute;diatement et consulte un professionnel de sant&eacute; ou un sp&eacute;cialiste de la voix.</p>\n\n        <h2>11. Modifications de l'Application</h2>\n        <p>Nous pouvons mettre &agrave; jour, modifier ou interrompre n'importe quel aspect de Scalita &agrave; tout moment et sans pr&eacute;avis. Nous ne sommes pas responsables d'une modification, d'une suspension ou d'un arr&ecirc;t de l'Application.</p>\n\n        <h2>12. Modifications des Conditions</h2>\n        <p>Nous pouvons r&eacute;viser ces Conditions &agrave; tout moment en mettant cette page &agrave; jour. Continuer &agrave; utiliser l'Application apr&egrave;s un changement vaut acceptation des Conditions r&eacute;vis&eacute;es. Nous t'invitons &agrave; les relire de temps en temps.</p>\n\n        <h2>13. R&eacute;siliation</h2>\n        <p>Nous pouvons r&eacute;silier ou suspendre ton acc&egrave;s &agrave; Scalita &agrave; tout moment, sans pr&eacute;avis ni responsabilit&eacute;, pour quelque raison que ce soit, y compris en cas de manquement &agrave; ces Conditions. &Agrave; la r&eacute;siliation, ta licence d'utilisation de l'Application cesse imm&eacute;diatement.</p>\n\n        <h2>14. Droit applicable</h2>\n        <p>Ces Conditions sont r&eacute;gies et interpr&eacute;t&eacute;es conform&eacute;ment au droit espagnol, sans &eacute;gard aux r&egrave;gles de conflit de lois.</p>\n\n        <h2>15. Contact</h2>\n        <p>Pour toute question sur ces Conditions, contacte-nous&nbsp;:</p>\n        <ul>\n          <li>E-mail&nbsp;: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Site&nbsp;: <a href=\"https://scalita.com/fr/support.html\">scalita.com/fr/support</a></li>\n        </ul>"
+  },
+  "support": {
+    "navLabel": "Aide",
+    "title": "Aide - Scalita",
+    "description": "Aide et assistance pour Scalita, l'application d'&eacute;chauffement vocal pour chanteurs.",
+    "body": "        <h1>Comment puis-je t'aider&nbsp;?</h1>\n        <p>Une question, un bug, ou juste envie de dire bonjour&nbsp;? &Eacute;cris-moi, &ccedil;a me fait plaisir.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://dominguezpablo.com/#contact\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/>\n                <polyline points=\"22,6 12,13 2,6\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Questions, bugs ou id&eacute;es&nbsp;?</h3>\n              <p>Rapports de bug, id&eacute;es de fonctionnalit&eacute;s, questions, tout ce que tu veux. Je r&eacute;ponds en g&eacute;n&eacute;ral sous 24 &agrave; 48&nbsp;heures.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Soutenir sur Ko-fi</h3>\n              <p>Tu aimes Scalita&nbsp;? Aide au d&eacute;veloppement</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Questions fr&eacute;quentes</h2>\n\n          <div class=\"faq-item\">\n            <h3>Scalita est vraiment gratuite&nbsp;?</h3>\n            <p>Oui&nbsp;! Scalita est gratuite avec les 21 gammes incluses, les 14 routines incluses et toutes les fonctions de lecture. L'entra&icirc;nement aux harmonies et le d&eacute;tecteur de gammes sont gratuits eux aussi, microphone compris. Tu peux cr&eacute;er 3 gammes, 1 routine et conserver 1 harmonie gratuitement. Pro (4,99&nbsp;&euro;, une seule fois) l&egrave;ve ces limites et d&eacute;bloque l'enregistreur du travail de justesse.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita fonctionne-t-elle hors ligne&nbsp;?</h3>\n            <p>Compl&egrave;tement. Scalita est con&ccedil;ue pour fonctionner enti&egrave;rement hors ligne. Les sons de piano sont livr&eacute;s avec l'application, donc tu peux travailler partout sans internet.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Comment restaurer mon achat Pro&nbsp;?</h3>\n            <p>Va dans les R&eacute;glages de l'application et touche &laquo;&nbsp;Restaurer les achats&nbsp;&raquo;. V&eacute;rifie que tu es connect&eacute; au m&ecirc;me compte Google que celui utilis&eacute; pour l'achat.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Existe-t-il une version iOS&nbsp;?</h3>\n            <p>Pas encore, mais c'est pr&eacute;vu&nbsp;! Reste &agrave; l'&eacute;coute pour savoir quand la version iOS arrivera.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita garde-t-elle mes enregistrements&nbsp;?</h3>\n            <p>Les prises et les harmonies conserv&eacute;es restent sur ton t&eacute;l&eacute;phone, pour que tu puisses les r&eacute;&eacute;couter plus tard. Rien n'est envoy&eacute; nulle part. La d&eacute;tection de tessiture, l'accordeur et le d&eacute;tecteur de gammes ne conservent aucun audio. Tu peux supprimer une prise ou une harmonie depuis l'application &agrave; tout moment.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>La d&eacute;tection de ma tessiture ne marche pas</h3>\n            <p>V&eacute;rifie que tu as bien autoris&eacute; le microphone dans les r&eacute;glages de ton appareil. Chante dans un endroit calme et tiens chaque note quelques secondes. Tu peux toujours r&eacute;gler ta tessiture &agrave; la main si la d&eacute;tection ne fonctionne pas.</p>\n          </div>\n        </div>"
+  }
+}

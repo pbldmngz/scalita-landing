@@ -1,0 +1,307 @@
+{
+  "currency": "EUR",
+  "proPriceValue": "4.99",
+  "nav": {
+    "logoAlt": "Scalita-Logo",
+    "menuLabel": "Menü öffnen",
+    "features": "Funktionen",
+    "pricing": "Preis",
+    "download": "Herunterladen",
+    "support": "Hilfe",
+    "languageLabel": "Sprache: %s"
+  },
+  "footer": {
+    "brandLine": "Einfache Skalen. Echtes Klavier. Kein Quatsch. Mit Hass gemacht, für Sängerinnen und Sänger überall.",
+    "productHeading": "Produkt",
+    "legalHeading": "Rechtliches",
+    "supportHeading": "Hilfe",
+    "supportLink": "Hilfe und Kontakt",
+    "kofi": "Auf Ko-fi unterstützen",
+    "rights": "Alle Rechte vorbehalten.",
+    "madeBy": "Mit Hass gemacht von <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
+    "backHome": "Zurück zur Startseite"
+  },
+  "index": {
+    "title": "Scalita - Einfache Skalen. Echtes Klavier. Kein Quatsch.",
+    "description": "Kostenlose Einsing-App für Android. 21 Tonleitern, 14 Routinen und ein echtes Salamander Grand Piano über alle 88 Tasten, transponiert auf deinen Umfang. Neu: Harmonie-Training. Offline, ohne Werbung, ohne Konto.",
+    "keywords": "Einsing-App, Stimmübungen, Tonleitern singen, Harmonie-Training, mehrstimmig singen App, Registerübungen, subharmonisches Singen, Flageolett, Pfeifstimme trainieren, Rock und Metal Gesang, Tonleiter-Erkennung, Tonhöhen-Anzeige, Klaviertonleitern für Sänger, Solmisation App",
+    "ogTitle": "Scalita - 21 Tonleitern, 14 Routinen, echtes Klavier. Kostenlose Einsing-App.",
+    "ogDescription": "Ein echtes Salamander Grand Piano über 88 Tasten, transponiert auf deinen Umfang. Neu in 1.9.0: Harmonie-Training. Nimm eine Linie auf, sing eine zweite darüber, bis zu vier Stimmen. Offline, ohne Werbung, ohne Konto.",
+    "screens": [
+      {
+        "file": "home",
+        "alt": "Startbildschirm von Scalita"
+      },
+      {
+        "file": "find_my_warmup",
+        "alt": "Finde mein Einsingen fragt, wie sich deine Stimme anfühlt"
+      },
+      {
+        "file": "player",
+        "alt": "Eine laufende Übung mit der Tonhöhenspur in Echtzeit"
+      },
+      {
+        "file": "harmony",
+        "alt": "Harmonie-Training mit vier Stimmen"
+      },
+      {
+        "file": "pitch_targeting",
+        "alt": "Tontreffen auf einer einzelnen Taste"
+      },
+      {
+        "file": "all_scales",
+        "alt": "Die Liste der Tonleitern"
+      }
+    ],
+    "hero": {
+      "badge": "Von einem Sänger, für Sängerinnen und Sänger",
+      "title": "Echtes Klavier. Dein Umfang. Einfach singen.",
+      "lead": "Scalita spielt Tonleitern auf einem Salamander Grand Piano, während du mitsingst. Du stellst deinen Stimmumfang einmal ein, und jede Übung transponiert sich passend dazu.",
+      "tagline": "Einfache Skalen. Echtes Klavier. Kein Quatsch.",
+      "ctaPrimary": "Kostenlos laden",
+      "ctaSecondary": "Neu in 1.9.0",
+      "facts": [
+        "Kostenlos",
+        "Läuft offline",
+        "Keine Werbung",
+        "Kein Konto"
+      ],
+      "carouselLabel": "Bildschirmfotos der App"
+    },
+    "how": {
+      "title": "Drei Schritte, und das ist die App",
+      "lead": "Nichts vorher zu lesen, nichts anzumelden.",
+      "steps": [
+        {
+          "title": "Stell deinen Umfang ein",
+          "body": "Sing ins Telefon, und Scalita findet deinen tiefsten und deinen höchsten Ton. Oder wähl eine Stimmlage und überspring den Schritt."
+        },
+        {
+          "title": "Wähl eine Tonleiter oder Routine",
+          "body": "21 Tonleitern und 14 Routinen sind dabei. Unsicher? Beantworte zwei Fragen, und Finde mein Einsingen wählt für dich."
+        },
+        {
+          "title": "Sing mit",
+          "body": "Das Klavier spielt die Figur, geht einen Halbton höher und spielt sie wieder, immer innerhalb deines eingestellten Umfangs."
+        }
+      ],
+      "pianoLabel": "Klavier anhören",
+      "pianoNote": "Echte Salamander-Grand-Piano-Samples über alle 88 Tasten, von A0 bis C8. Egal wie tief oder hoch du singst, es gibt einen aufgenommenen Ton dafür."
+    },
+    "harmony": {
+      "badge": "Neu in 1.9.0",
+      "title": "Harmonie-Training",
+      "lead": "Nimm eine Linie auf. Sing eine zweite darüber und hör dir beide zusammen an. Bis zu vier Stimmen, und eine Stimme kann eine Mikrofonaufnahme sein, eine Datei, die du schon hattest, oder eine Tonleiter, die die App spielt.",
+      "points": [
+        {
+          "title": "Sag, was du singst",
+          "body": "Sag Scalita, dass eine Stimme eine Terz, eine Quinte oder eine Oktave über der untersten liegt, und es beurteilt das Intervall, das du treffen wolltest. Ohne das gilt eine Quarte, die eine Terz sein sollte, als sauber intoniert, denn das ist sie ja."
+        },
+        {
+          "title": "Gestimmt, wie Sänger stimmen",
+          "body": "Intervalle werden gegen die reine Stimmung beurteilt, nicht gegen die gleichstufige, eine große Terz darf also rund vierzehn Cent tiefer sitzen. Genau dort legt sie eine singende Stimme auch hin."
+        },
+        {
+          "title": "Ein Bild, das bleibt",
+          "body": "Vier Verläufe übereinander auf einem Raster mit benannten Tönen, ein Lichtfaden dort, wo zwei Stimmen zusammenfinden, und ein Bild der fertigen Harmonie, das das Telefon verlassen kann."
+        }
+      ],
+      "note": "Aufnehmen ist kostenlos. Vier Stimmen auch, und die Länge auch. Pro kommt erst ins Spiel, wenn du mehr als eine Harmonie gleichzeitig behalten willst, und du kannst jederzeit eine weitere vollständig bauen und stattdessen diese behalten.",
+      "alt": "Harmonie-Training: vier Stimmen über einem Raster mit benannten Tönen"
+    },
+    "features": {
+      "title": "Und wenn du weitergehen willst",
+      "lead": "Der Rest der App, in vier Teilen. Nichts davon steht dir am ersten Tag im Weg."
+    },
+    "groups": [
+      {
+        "title": "Einsingen, das dir antwortet",
+        "body": "Finde mein Einsingen fragt, wie sich deine Stimme heute anfühlt und woran du arbeiten willst, und wählt dann Routine und Tempo. Der Adaptive Modus lässt den Plan ganz weg: nach jeder Übung sagst du, wie es lief, und die nächste passt sich an. Sag ihm, dass du zehn Minuten hast, und er teilt die ganze Einheit so ein, dass sie hineinpasst, Abkühlen inklusive.",
+        "tags": [
+          "Finde mein Einsingen",
+          "Adaptiver Modus",
+          "Technikhinweise",
+          "Atmen zwischen den Tonarten"
+        ]
+      },
+      {
+        "title": "Dich richtig hören",
+        "body": "Setz Kopfhörer auf, und eine Spur in Echtzeit zeigt, wo du auf jedem Ton landest, grün wenn es sitzt und bernsteinfarben wenn du wegdriftest. Das Tontreffen verengt das auf eine Taste nach der anderen, und es behält jetzt deine Takes: den Ton, die Tonhöhenlinie und was die Tastatur gerade tat, damit du nächste Woche einen öffnen und hören kannst, ob sich etwas bewegt hat.",
+        "tags": [
+          "Tonhöhen-Anzeige",
+          "Tontreffen",
+          "Gespeicherte Takes"
+        ]
+      },
+      {
+        "title": "Register, die andere Apps auslassen",
+        "body": "Die meisten Einsing-Apps hören bei Brust- und Kopfstimme auf. Stell für jedes Register, das du wirklich benutzt, einen eigenen Umfang ein, und drei eigene Routinen werden frei: das Rasseln unter deiner Bruststimme, der Flötenton über deinem Umfang und die Pfeifstimme noch darüber. Trag auch deinen Registerbruch ein, dann bauen sich die Übungen darum herum.",
+        "tags": [
+          "Subharmonische",
+          "Flageolett",
+          "Pfeifstimme",
+          "Registerbruch",
+          "Rock und Metal"
+        ]
+      },
+      {
+        "title": "Bau dir deine eigenen",
+        "body": "Bau Tonleitern und Routinen von Grund auf: Intervalle, Silben, Tempi, Startton. Oder sing oder spiel eine Figur in die Tonleiter-Erkennung, und sie schreibt die Töne für dich auf. Für 1.9.0 neu gebaut, braucht sie bei echtem Gesang etwa halb so viele Korrekturen, und sie markiert die Töne, bei denen es auf der Kippe stand, damit du weißt, wo du hinschauen musst.",
+        "tags": [
+          "Eigene Tonleitern",
+          "Eigene Routinen",
+          "Tonleiter-Erkennung",
+          "Export und Import",
+          "Solmisation oder Notennamen"
+        ]
+      }
+    ],
+    "catalog": {
+      "title": "21 Tonleitern und 14 Routinen",
+      "lead": "Dur, pentatonisch, Arpeggien, Rossini-Figuren, Brücken zwischen Registern, Rock und Metal, kurzes Einsingen, vollständige Einheiten.",
+      "scalesHeading": "Tonleitern",
+      "routinesHeading": "Routinen",
+      "scales": [
+        "Dur / Oktave",
+        "Natürliches Moll",
+        "Moll-Pentatonik",
+        "Chromatisch",
+        "Arpeggio (Dreiklang)",
+        "Arpeggio (Septime)",
+        "Oktavsprung",
+        "Oktave wiederholt",
+        "Oktave abwärts",
+        "Anderthalb Oktaven",
+        "Quintsprung",
+        "Intervallsprung (Quinte)",
+        "Rossini",
+        "3 Töne",
+        "5 Töne",
+        "5 Töne abwärts",
+        "Gebrochen",
+        "Zickzack-Crescendo",
+        "Drei Impulse",
+        "Vokalwechsel",
+        "Einzelton"
+      ],
+      "routines": [
+        [
+          "Allgemeines Einsingen",
+          "Weck deine Stimme sicher auf, voller Umfang bereit."
+        ],
+        [
+          "Sanft / Erholung",
+          "Leichte Tage und Ausklang nach dem Auftritt."
+        ],
+        [
+          "Kurz vor dem Auftritt",
+          "Das Wichtigste in unter 8 Minuten."
+        ],
+        [
+          "Umfang erweitern",
+          "Schieb deine Grenzen sicher nach oben und unten."
+        ],
+        [
+          "Kraft & Volumen",
+          "Stimmlippenschluss und Tragfähigkeit, ohne zu pressen."
+        ],
+        [
+          "Beweglichkeit & Läufe",
+          "Tempo und Genauigkeit für Melismen."
+        ],
+        [
+          "Atem & Ausdauer",
+          "Lange Ausatmung und Ausdauer für Phrasen."
+        ],
+        [
+          "Brückenbauer",
+          "Annähern, überqueren und den Registerbruch verbinden."
+        ],
+        [
+          "Klassik / Oper",
+          "Legato, reine Vokale, Resonanz."
+        ],
+        [
+          "Heavy Rock / Verzerrung",
+          "Rauheit und Raspeln, erst die klare Stimme."
+        ],
+        [
+          "Gesangslehrer I",
+          "Alle gängigen Tonleitern an einem Ort, für den Unterricht."
+        ],
+        [
+          "Subharmonisch einsingen",
+          "Finde das Rasseln unter deiner Bruststimme."
+        ],
+        [
+          "Flageolett-Brücke",
+          "Geh in den Flötenton über deinem Umfang."
+        ],
+        [
+          "Pfeifstimme erkunden",
+          "Ein kurzer, leiser Besuch ganz oben."
+        ]
+      ],
+      "note": "Die letzten drei werden frei, sobald du für dieses Register einen Umfang einstellst."
+    },
+    "pricing": {
+      "title": "Einfacher, ehrlicher Preis",
+      "lead": "Jede Funktion läuft kostenlos. Pro hebt die Grenzen dafür auf, wie viel du behältst.",
+      "free": {
+        "name": "Kostenlos",
+        "price": "0 €",
+        "period": "für immer",
+        "cta": "Loslegen",
+        "items": [
+          "Alle 21 mitgelieferten Tonleitern",
+          "Alle 14 mitgelieferten Routinen",
+          "Harmonie-Training, bis zu vier Stimmen",
+          "Die Tonleiter-Erkennung, Mikrofon inklusive",
+          "3 eigene Tonleitern, 1 eigene Routine",
+          "1 gespeicherte Harmonie",
+          "Export und Import"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "4,99 €",
+        "period": "einmalig",
+        "badge": "Bester Wert",
+        "cta": "Pro holen",
+        "items": [
+          "Alles aus Kostenlos",
+          "Eigene Tonleitern und Routinen <strong>ohne Grenze</strong>",
+          "Gespeicherte Harmonien <strong>ohne Grenze</strong>",
+          "Der Übungsrekorder im Tontreffen",
+          "Die mitgelieferten Tonleitern und Routinen bearbeiten",
+          "Die Entwicklung unterstützen"
+        ]
+      },
+      "note": "Eine Zahlung, kein Abo. Die Preise in den einzelnen Ländern legt Google Play fest."
+    },
+    "download": {
+      "title": "Bereit zum Einsingen?",
+      "lead": "Kostenlos bei Google Play. Kein Konto, keine Werbung, nichts zu kündigen.",
+      "storeSmall": "Jetzt bei",
+      "note": "Vorerst nur Android. Auf Deutsch, Englisch, Spanisch, Französisch und Portugiesisch."
+    }
+  },
+  "privacy": {
+    "navLabel": "Datenschutz",
+    "title": "Datenschutzerklärung - Scalita",
+    "description": "Datenschutzerklärung für Scalita, die Einsing-App für Sängerinnen und Sänger.",
+    "body": "        <h1>Datenschutzerklärung</h1>\n        <p class=\"legal-meta\">Zuletzt aktualisiert: 31. August 2026</p>\n\n        <p>Scalita (\"wir\", \"uns\") nimmt deine Privatsphäre ernst. Diese Datenschutzerklärung beschreibt, wie mit Informationen umgegangen wird, wenn du unsere App Scalita (die \"App\") benutzt.</p>\n\n        <h2>Unser Versprechen</h2>\n        <p>Scalita ist von Anfang an auf Privatsphäre gebaut. Du sollst dich einsingen können, ohne verfolgt, profiliert oder monetarisiert zu werden. Das versprechen wir:</p>\n        <ul>\n          <li><strong>Kein Konto nötig</strong> - Du musst dich weder registrieren noch anmelden, um Scalita zu benutzen.</li>\n          <li><strong>Keine Erhebung persönlicher Daten</strong> - Wir sammeln, speichern und übertragen keine persönlichen Informationen.</li>\n          <li><strong>Kein Tracking, keine Analyse</strong> - Keine Analysedienste, keine Zählpixel, keine Beobachtung deines Verhaltens.</li>\n          <li><strong>Keine Werbung</strong> - Wir zeigen keine Anzeigen und geben keine Daten an Werbenetzwerke weiter.</li>\n          <li><strong>Offline zuerst</strong> - Die App funktioniert vollständig offline. Deine Daten verlassen dein Gerät nicht.</li>\n        </ul>\n\n        <h2>Speicherung von Daten</h2>\n        <p>Alles, was du in Scalita anlegst, wird ausschließlich lokal auf deinem Gerät gespeichert. Dazu gehören:</p>\n        <ul>\n          <li>Dein Stimmumfang und deine Register-Einstellungen</li>\n          <li>Eigene Tonleitern, die du anlegst</li>\n          <li>Eigene Routinen, die du anlegst</li>\n          <li>Übungs-Takes aus dem Tontreffen und der Ton jeder Harmonie, die du speicherst</li>\n          <li>Einstellungen der App (Sprache, Notation, Tempo)</li>\n        </ul>\n        <p>Diese Daten werden nie an unsere Server oder an Dritte übertragen, denn wir haben keine Server, die Nutzerdaten sammeln.</p>\n\n        <h2>Zugriff auf das Mikrofon</h2>\n        <p>Scalita fragt die Mikrofon-Berechtigung für die Funktionen ab, die dir beim Singen zuhören: die Umfangserkennung, die Tonhöhen-Anzeige, das Tontreffen, die Tonleiter-Erkennung und das Harmonie-Training. In allen gilt:</p>\n        <ul>\n          <li>Der Ton wird auf deinem Gerät verarbeitet. Er wird nirgendwohin übertragen, und wir haben auch keine Server, wohin er gehen könnte.</li>\n          <li>Umfangserkennung, Tonhöhen-Anzeige und Tonleiter-Erkennung behalten den Ton nicht, den sie hören: er wird laufend ausgewertet und danach verworfen.</li>\n          <li><strong>Zwei Funktionen speichern Ton auf deinem Gerät, weil genau das ihr Sinn ist:</strong> ein Übungs-Take im Tontreffen und die Stimmen einer Harmonie im Harmonie-Training. Diese Aufnahmen werden in Scalitas eigenen, privaten Speicher auf deinem Telefon geschrieben.</li>\n          <li>Gespeicherte Aufnahmen bleiben auf deinem Telefon, bis du sie löschst. Einen Take löschen, eine Harmonie löschen oder die App deinstallieren entfernt sie.</li>\n          <li>Nichts, was du aufnimmst, wird hochgeladen, von selbst geteilt oder von uns gesehen. Das Bild einer fertigen Harmonie zu teilen entscheidest du, und was das Telefon verlässt, ist ein Bild.</li>\n          <li>Du kannst alle diese Funktionen auslassen und deinen Umfang von Hand einstellen.</li>\n          <li>Du kannst die Mikrofon-Berechtigung jederzeit in den Einstellungen deines Geräts widerrufen.</li>\n        </ul>\n\n        <h2>In-App-Käufe</h2>\n        <p>Scalita bietet einen optionalen, einmaligen Pro-Kauf über Google Play an. Die Zahlung wickelt Google Play vollständig ab; wir erhalten und speichern keine Zahlungsdaten. Wie Google mit Kaufdaten umgeht, steht in der <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von Google</a>.</p>\n\n        <h2>Export und Import</h2>\n        <p>Du kannst deine Routinen und Einstellungen als JSON-Datei exportieren, um sie zu teilen oder zu sichern. Diese Datei entsteht lokal auf deinem Gerät. Wenn du sie teilst, bestimmst du, wohin sie geht. Wir sehen diese Dateien nie und haben keinen Zugriff darauf.</p>\n\n        <h2>Privatsphäre von Kindern</h2>\n        <p>Scalita erhebt wissentlich von niemandem persönliche Daten, auch nicht von Kindern unter 13 Jahren. Da wir keine Daten erheben, gibt es auch keine besondere Behandlung von Kinderdaten.</p>\n\n        <h2>Dienste Dritter</h2>\n        <p>Scalita nutzt die folgenden Dienste Dritter:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - Für die Abwicklung des Pro-Kaufs (optional). Siehe die <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Datenschutzerklärung von Google</a>.</li>\n        </ul>\n        <p>Wir verwenden keine Analyse-, Absturzbericht- oder Werbedienste.</p>\n\n        <h2>Änderungen dieser Erklärung</h2>\n        <p>Wir können diese Datenschutzerklärung von Zeit zu Zeit aktualisieren. Wesentliche Änderungen zeigen wir an, indem wir oben auf dieser Seite das Datum unter \"Zuletzt aktualisiert\" ändern. Sieh gelegentlich wieder hier nach.</p>\n\n        <h2>Kontakt</h2>\n        <p>Wenn du Fragen zu dieser Datenschutzerklärung hast, schreib uns:</p>\n        <ul>\n          <li>E-Mail: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Website: <a href=\"https://scalita.com/de/support.html\">scalita.com/de/support</a></li>\n        </ul>"
+  },
+  "terms": {
+    "navLabel": "Nutzungsbedingungen",
+    "title": "Nutzungsbedingungen - Scalita",
+    "description": "Nutzungsbedingungen für Scalita, die Einsing-App für Sängerinnen und Sänger.",
+    "body": "        <h1>Nutzungsbedingungen</h1>\n        <p class=\"legal-meta\">Zuletzt aktualisiert: 31. August 2026</p>\n\n        <p>Willkommen bei Scalita. Diese Nutzungsbedingungen (\"Bedingungen\") regeln deine Nutzung der App Scalita (die \"App\"), bereitgestellt von Pablo Domínguez (\"wir\", \"uns\"). Indem du Scalita herunterlädst, installierst oder benutzt, stimmst du diesen Bedingungen zu.</p>\n\n        <h2>1. Annahme der Bedingungen</h2>\n        <p>Mit der Nutzung von Scalita bestätigst du, dass du diese Bedingungen gelesen und verstanden hast und an sie gebunden sein willst. Wenn du ihnen nicht zustimmst, benutze die App bitte nicht.</p>\n\n        <h2>2. Beschreibung des Dienstes</h2>\n        <p>Scalita ist eine Einsing-App für Sängerinnen und Sänger. Die App bietet:</p>\n        <ul>\n          <li>Mitgelieferte und eigene Tonleitern zum Üben</li>\n          <li>Einsing-Routinen mit anpassbaren Einstellungen</li>\n          <li>Erkennung des Stimmumfangs (optional)</li>\n          <li>Tonhöhen-Anzeige und Tontreffen, mit Übungs-Takes, die auf deinem Gerät gespeichert werden</li>\n          <li>Harmonie-Training, in dem du deine eigenen Stimmen aufnimmst und übereinanderlegst</li>\n          <li>Klavierwiedergabe zum Mitsingen</li>\n        </ul>\n\n        <h2>3. Kostenlose Version und Pro</h2>\n        <p><strong>Kostenlose Version:</strong> Scalita ist kostenlos herunterzuladen und zu benutzen, mit vollem Zugriff auf alle mitgelieferten Inhalte, einer begrenzten Zahl eigener Inhalte (3 eigene Tonleitern, 1 eigene Routine, 1 gespeicherte Harmonie) und allen Wiedergabefunktionen.</p>\n        <p><strong>Pro-Version:</strong> Ein einmaliger In-App-Kauf (4,99 €) hebt diese Grenzen auf und schaltet den Übungsrekorder im Tontreffen sowie das Bearbeiten der mitgelieferten Tonleitern und Routinen frei. Pro ist kein Abo, sondern ein einmaliger Kauf mit dauerhaftem Zugriff auf die Pro-Funktionen.</p>\n\n        <h2>4. Käufe und Erstattungen</h2>\n        <p>Alle Käufe laufen über Google Play. Mit einem Kauf stimmst du den Nutzungsbedingungen von Google Play zu. Erstattungsanfragen richtest du nach deren Richtlinien an Google Play. Wir wickeln keine Zahlungen ab und haben keinen Zugriff auf deine Zahlungsdaten. Die Preise in den einzelnen Ländern legt Google Play fest.</p>\n\n        <h2>5. Nutzungslizenz</h2>\n        <p>Wir gewähren dir eine begrenzte, nicht ausschließliche, nicht übertragbare und widerrufliche Lizenz, Scalita für persönliche, nicht kommerzielle Zwecke im Rahmen dieser Bedingungen zu nutzen. Du darfst nicht:</p>\n        <ul>\n          <li>Die App kopieren, verändern oder verbreiten</li>\n          <li>Die App zurückentwickeln, dekompilieren oder disassemblieren</li>\n          <li>Urheberrechts- oder Eigentumshinweise entfernen</li>\n          <li>Die App für rechtswidrige Zwecke nutzen</li>\n          <li>Versuchen, unbefugten Zugriff auf die Systeme der App zu erlangen</li>\n        </ul>\n\n        <h2>6. Deine Inhalte</h2>\n        <p>Was du in der App anlegst, bleibt deins: eigene Tonleitern, Routinen und die Aufnahmen, die du machst. Diese Inhalte werden lokal auf deinem Gerät gespeichert. Wenn du Inhalte exportierst und teilst, bist du dafür verantwortlich, wie sie verwendet werden.</p>\n\n        <h2>7. Klangaufnahmen</h2>\n        <p>Scalita verwendet Klaviersamples aus dem Projekt Salamander Grand Piano, die gemeinfrei sind. Die Nutzung dieser Samples in der App gibt dir kein Recht, sie zu extrahieren, weiterzugeben oder außerhalb der App zu verwenden.</p>\n\n        <h2>8. Gewährleistungsausschluss</h2>\n        <p>SCALITA WIRD \"WIE BESEHEN\" UND \"WIE VERFÜGBAR\" BEREITGESTELLT, OHNE JEGLICHE AUSDRÜCKLICHE ODER STILLSCHWEIGENDE GEWÄHRLEISTUNG. Wir sichern nicht zu, dass:</p>\n        <ul>\n          <li>Die App deinen konkreten Anforderungen entspricht</li>\n          <li>Die App ununterbrochen, pünktlich, sicher oder fehlerfrei läuft</li>\n          <li>Die Ergebnisse aus der Nutzung der App genau oder verlässlich sind</li>\n          <li>Alle Fehler in der App behoben werden</li>\n        </ul>\n\n        <h2>9. Haftungsbeschränkung</h2>\n        <p>SOWEIT GESETZLICH ZULÄSSIG HAFTEN WIR NICHT FÜR INDIREKTE, ZUFÄLLIGE, BESONDERE, FOLGE- ODER STRAFSCHÄDEN, EINSCHLIESSLICH ENTGANGENEM GEWINN SOWIE VERLUST VON DATEN ODER NUTZUNG, DIE AUS DEINER NUTZUNG VON SCALITA ENTSTEHEN.</p>\n\n        <h2>10. Hinweis zur Gesundheit</h2>\n        <p>Scalita ist ein Übungswerkzeug für Sängerinnen und Sänger. Es ersetzt weder professionellen Gesangsunterricht noch ärztlichen Rat. Wenn du beim Benutzen der App Schmerzen, Unbehagen oder Anspannung in der Stimme spürst, hör sofort auf und wende dich an eine Ärztin, einen Arzt oder eine Fachperson für Stimme.</p>\n\n        <h2>11. Änderungen an der App</h2>\n        <p>Wir können jeden Teil von Scalita jederzeit und ohne Ankündigung aktualisieren, ändern oder einstellen. Für Änderungen, Aussetzungen oder die Einstellung der App haften wir nicht.</p>\n\n        <h2>12. Änderungen dieser Bedingungen</h2>\n        <p>Wir können diese Bedingungen jederzeit ändern, indem wir diese Seite aktualisieren. Wenn du die App nach einer Änderung weiter benutzt, gilt das als Zustimmung. Sieh gelegentlich wieder hier nach.</p>\n\n        <h2>13. Beendigung</h2>\n        <p>Wir können deinen Zugang zu Scalita jederzeit ohne Vorankündigung und ohne Haftung beenden oder aussetzen, aus jedem Grund, auch bei einem Verstoß gegen diese Bedingungen. Mit der Beendigung endet deine Nutzungslizenz sofort.</p>\n\n        <h2>14. Anwendbares Recht</h2>\n        <p>Diese Bedingungen unterliegen dem Recht Spaniens und werden danach ausgelegt, ohne Rücksicht auf Kollisionsnormen.</p>\n\n        <h2>15. Kontakt</h2>\n        <p>Wenn du Fragen zu diesen Bedingungen hast, schreib uns:</p>\n        <ul>\n          <li>E-Mail: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Website: <a href=\"https://scalita.com/de/support.html\">scalita.com/de/support</a></li>\n        </ul>"
+  },
+  "support": {
+    "navLabel": "Hilfe",
+    "title": "Hilfe - Scalita",
+    "description": "Hilfe und Support für Scalita, die Einsing-App für Sängerinnen und Sänger.",
+    "body": "        <h1>Wie kann ich helfen?</h1>\n        <p>Eine Frage, einen Fehler gefunden oder einfach Hallo sagen? Ich freue mich, von dir zu hören.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://dominguezpablo.com/#contact\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n                <path d=\"M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z\"/>\n                <polyline points=\"22,6 12,13 2,6\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Fragen, Fehler oder Ideen?</h3>\n              <p>Fehlerberichte, Wünsche, Fragen, was auch immer. Ich antworte meist innerhalb von 24 bis 48 Stunden.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" aria-hidden=\"true\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Auf Ko-fi unterstützen</h3>\n              <p>Magst du Scalita? Hilf mit, die Entwicklung am Laufen zu halten</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Häufige Fragen</h2>\n\n          <div class=\"faq-item\">\n            <h3>Ist Scalita wirklich kostenlos?</h3>\n            <p>Ja. Alle 21 Tonleitern, alle 14 Routinen, das Harmonie-Training und die Tonleiter-Erkennung (Mikrofon inklusive) funktionieren kostenlos. Kostenlos legst du 3 eigene Tonleitern und 1 eigene Routine an und behältst 1 gespeicherte Harmonie. Pro (4,99 €, einmalig) hebt diese Grenzen auf und schaltet den Übungsrekorder im Tontreffen frei.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Wofür braucht die App das Mikrofon?</h3>\n            <p>Für alles, was dir beim Singen zuhört: die Umfangserkennung, die Tonhöhen-Anzeige, das Tontreffen, die Tonleiter-Erkennung und das Harmonie-Training. Du kannst all das auslassen und deinen Umfang von Hand einstellen.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Behält Scalita meine Aufnahmen?</h3>\n            <p>Übungs-Takes und gespeicherte Harmonien bleiben auf deinem Telefon, damit du sie später wieder anhören kannst. Nichts wird irgendwohin hochgeladen. Umfangserkennung, Tonhöhen-Anzeige und Tonleiter-Erkennung behalten überhaupt keinen Ton. Einen Take oder eine Harmonie kannst du jederzeit in der App löschen.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Funktioniert Scalita offline?</h3>\n            <p>Vollständig. Scalita ist dafür gebaut, ganz ohne Netz zu laufen. Die Klaviertöne liegen in der App, du kannst also überall üben.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Wie stelle ich meinen Pro-Kauf wieder her?</h3>\n            <p>Geh in der App in die Einstellungen und tippe auf \"Käufe wiederherstellen\". Achte darauf, dass du mit demselben Google-Konto angemeldet bist wie beim Kauf.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Gibt es eine Version für iOS?</h3>\n            <p>Noch nicht, aber sie steht auf der Liste. Bleib dran, dann erfährst du, wann sie kommt.</p>\n          </div>\n        </div>"
+  }
+}
