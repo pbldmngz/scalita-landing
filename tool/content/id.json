@@ -1,0 +1,325 @@
+{
+  "currency": "IDR",
+  "proPriceValue": "84000",
+  "nav": {
+    "logoAlt": "Logo Scalita",
+    "menuLabel": "Buka menu",
+    "features": "Fitur",
+    "pricing": "Harga",
+    "download": "Unduh",
+    "support": "Bantuan",
+    "languageLabel": "Bahasa: %s"
+  },
+  "footer": {
+    "brandLine": "Tangga nada sederhana. Piano asli. Tanpa basa-basi. Dibuat dengan benci untuk penyanyi di mana pun.",
+    "productHeading": "Produk",
+    "legalHeading": "Legal",
+    "supportHeading": "Bantuan",
+    "supportLink": "Bantuan dan kontak",
+    "kofi": "Dukung di Ko-fi",
+    "rights": "Hak cipta dilindungi undang-undang.",
+    "madeBy": "Dibuat dengan benci oleh <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
+    "backHome": "Kembali ke beranda"
+  },
+  "index": {
+    "title": "Scalita - Tangga nada sederhana. Piano asli. Tanpa basa-basi.",
+    "description": "Aplikasi pemanasan vokal gratis untuk Android. 21 tangga nada, 15 rutinitas, dan Salamander Grand Piano asli di seluruh 88 tuts, dengan nada dasar yang disesuaikan ke jangkauanmu. Baru: Latihan Ketepatan dan skor ketepatan. Bisa offline, tanpa iklan, tanpa akun.",
+    "keywords": "aplikasi pemanasan vokal, latihan vokal, tangga nada untuk bernyanyi, rutinitas vokal, bernyanyi dengan nada tepat, latihan ketepatan nada, skor bernyanyi, bidik nada, dengar dan tirukan, game bernyanyi, latihan harmoni, latihan register suara, subharmonik, flageolet, whistle register, vokal rock dan metal, rekam tangga nada, monitor nada, tangga nada piano untuk penyanyi, aplikasi solmisasi, pemanasan do re mi",
+    "ogTitle": "Scalita - 21 tangga nada, 15 rutinitas, piano asli. Aplikasi pemanasan vokal gratis.",
+    "ogDescription": "Salamander Grand Piano asli di 88 tuts, dengan nada dasar yang disesuaikan ke jangkauanmu. Baru: Latihan Ketepatan, empat cara agar nadamu tepat, dan skor di akhir setiap tangga nada dan rutinitas. Offline, tanpa iklan, tanpa akun.",
+    "screens": [
+      {
+        "file": "home",
+        "alt": "Layar beranda Scalita"
+      },
+      {
+        "file": "find_my_warmup",
+        "alt": "Cari Pemanasanku menanyakan kondisi suaramu"
+      },
+      {
+        "file": "player",
+        "alt": "Latihan yang sedang berjalan dengan jejak nada langsung"
+      },
+      {
+        "file": "scored",
+        "alt": "Skor di akhir tangga nada: seberapa banyak yang tepat"
+      },
+      {
+        "file": "pitch_targeting",
+        "alt": "Bidik nada pada satu tuts"
+      },
+      {
+        "file": "harmony",
+        "alt": "Latihan harmoni dengan empat suara"
+      },
+      {
+        "file": "humming_bird",
+        "alt": "Humming Bird, permainan menuntun satu nada panjang melewati celah"
+      },
+      {
+        "file": "all_scales",
+        "alt": "Daftar tangga nada"
+      }
+    ],
+    "hero": {
+      "badge": "Dari penyanyi, untuk penyanyi",
+      "title": "Piano asli. Jangkauanmu. Tinggal nyanyi.",
+      "lead": "Scalita memainkan tangga nada dengan Salamander Grand Piano sementara kamu ikut bernyanyi. Atur jangkauan vokalmu sekali, dan nada dasar setiap latihan disesuaikan supaya pas.",
+      "tagline": "Tangga nada sederhana. Piano asli. Tanpa basa-basi.",
+      "ctaPrimary": "Unduh gratis",
+      "ctaSecondary": "Yang baru",
+      "facts": [
+        "Gratis",
+        "Bisa offline",
+        "Tanpa iklan",
+        "Tanpa akun"
+      ],
+      "carouselLabel": "Tangkapan layar aplikasi"
+    },
+    "how": {
+      "title": "Tiga langkah, dan itulah aplikasinya",
+      "lead": "Tidak ada yang perlu dibaca dulu, tidak perlu mendaftar.",
+      "steps": [
+        {
+          "title": "Atur jangkauanmu",
+          "body": "Bernyanyilah ke ponsel dan Scalita menemukan nada terendah dan tertinggimu. Atau pilih jenis suara dan lewati langkah ini."
+        },
+        {
+          "title": "Pilih tangga nada atau rutinitas",
+          "body": "Sudah tersedia 21 tangga nada dan 15 rutinitas. Bingung pilih yang mana? Jawab dua pertanyaan dan Cari Pemanasanku memilihkan untukmu."
+        },
+        {
+          "title": "Ikut bernyanyi",
+          "body": "Piano memainkan polanya, naik setengah nada, lalu memainkannya lagi, semuanya di dalam jangkauan yang kamu atur."
+        }
+      ],
+      "pianoLabel": "Dengarkan pianonya",
+      "pianoNote": "Sampel Salamander Grand Piano asli di seluruh 88 tuts, dari A0 sampai C8. Serendah atau setinggi apa pun kamu bernyanyi, ada nada rekaman untuknya."
+    },
+    "harmony": {
+      "badge": "Baru",
+      "title": "Latihan Ketepatan",
+      "lead": "Empat cara agar nadamu tepat. Semuanya melatih telinga dan suaramu sekaligus: dengar di mana nadanya, lalu bawa suaramu tepat ke sana.",
+      "points": [
+        {
+          "title": "Bidik nada",
+          "body": "Ketuk tuts untuk mendengarnya, lalu nyanyikan. Tahan tutsnya dan nada itu terus berulang, sementara garis langsung menunjukkan seberapa dekat nyanyianmu."
+        },
+        {
+          "title": "Latihan harmoni",
+          "body": "Rekam satu suara, lalu nyanyikan suara berikutnya di atasnya, sampai empat suara, semuanya suaramu sendiri. Sebutkan interval yang kamu tuju, dan interval itulah yang dinilai: bukan menurut piano yang ditala rata, tapi seperti penyanyi sungguhan menyanyikannya."
+        },
+        {
+          "title": "Dengar & Tirukan",
+          "body": "Piano memainkan satu frasa, lalu diam selagi kamu menirukannya. Lompatan dan run dari lagu yang kamu kenal, ditirukan dari ingatan."
+        },
+        {
+          "title": "Humming Bird",
+          "body": "Permainan menuntun satu nada panjang melewati celah selebar beberapa sen."
+        }
+      ],
+      "note": "Juga baru: dengan earphone kabel, setiap tangga nada dan rutinitas berakhir dengan skor. Seberapa banyak yang tepat, seberapa dekat sisanya, dan satu hal untuk dilatih. Semuanya gratis. Pro hanya menambahkan perekam latihan di Bidik nada dan tempat untuk lebih dari satu harmoni tersimpan.",
+      "alt": "Dengar & Tirukan: run yang dinyanyikan setelah piano, tergambar di atas kisi nada"
+    },
+    "features": {
+      "title": "Dan saat kamu ingin melangkah lebih jauh",
+      "lead": "Sisa aplikasinya, dalam empat bagian. Tidak ada yang menghalangimu di hari pertama."
+    },
+    "groups": [
+      {
+        "title": "Pemanasan yang merespons",
+        "body": "Cari Pemanasanku menanyakan kondisi suaramu hari ini dan apa yang ingin kamu latih, lalu memilihkan rutinitas dan mengatur temponya. Mode Adaptif malah tidak memakai rencana sama sekali: setelah setiap latihan, kamu bilang bagaimana hasilnya, dan apa yang terasa berat kalau ada, lalu latihan berikutnya menyesuaikan. Bilang kamu punya sepuluh menit, dan Scalita mengatur seluruh sesi supaya muat, termasuk pendinginan.",
+        "tags": [
+          "Cari Pemanasanku",
+          "Mode Adaptif",
+          "Tips teknik",
+          "Bernapas antar nada dasar"
+        ]
+      },
+      {
+        "title": "Dengarkan suaramu dengan jelas",
+        "body": "Pakai earphone dan jejak langsung menunjukkan posisi suaramu di setiap nada, hijau saat tepat dan jingga saat meleset. Dengan earphone kabel, setiap tangga nada dan rutinitas juga berakhir dengan skor: seberapa banyak yang tepat, seberapa dekat sisanya, dan satu hal untuk dilatih. Bidik nada mempersempitnya ke satu tuts setiap kali dan menyimpan rekamanmu: audionya, garis nadanya, dan apa yang sedang dimainkan keyboard, jadi minggu depan kamu bisa membuka salah satunya dan mendengar apakah ada yang berubah.",
+        "tags": [
+          "Monitor nada",
+          "Skor ketepatan",
+          "Bidik nada",
+          "Rekaman tersimpan"
+        ]
+      },
+      {
+        "title": "Register yang diabaikan aplikasi lain",
+        "body": "Kebanyakan aplikasi pemanasan berhenti di suara dada dan suara kepala. Atur rentang untuk setiap register yang benar-benar kamu pakai, dan tiga rutinitas khusus terbuka: gemeretak di bawah suara dadamu, nada seperti seruling di atas jangkauanmu, dan whistle yang lebih tinggi lagi. Tandai juga peralihan registermu, dan latihannya disusun di sekitarnya.",
+        "tags": [
+          "Subharmonik",
+          "Flageolet",
+          "Whistle",
+          "Peralihan register",
+          "Rock dan metal"
+        ]
+      },
+      {
+        "title": "Buat sendiri",
+        "body": "Susun tangga nada dan rutinitas dari nol: interval, suku kata, tempo, nada awal. Atau nyanyikan atau mainkan sebuah pola ke Rekam Tangga Nada, dan nadanya dituliskan untukmu. Dibangun ulang untuk versi 1.9.0, fitur ini hanya butuh sekitar separuh koreksi pada nyanyian sungguhan, dan menandai nada yang hasilnya untung-untungan supaya kamu tahu bagian mana yang perlu diperiksa.",
+        "tags": [
+          "Tangga nada kustom",
+          "Rutinitas kustom",
+          "Rekam Tangga Nada",
+          "Ekspor dan impor",
+          "C D E, 1 2 3 atau Do Re Mi"
+        ]
+      }
+    ],
+    "catalog": {
+      "title": "21 tangga nada dan 15 rutinitas",
+      "lead": "Mayor, pentatonik, arpeggio, pola Rossini, solfegio, jembatan register, rock dan metal, pemanasan singkat, latihan lengkap.",
+      "scalesHeading": "Tangga nada",
+      "routinesHeading": "Rutinitas",
+      "scales": [
+        "Mayor / Oktaf",
+        "Minor Natural",
+        "Pentatonik Minor",
+        "Kromatik",
+        "Arpeggio (Trinada)",
+        "Arpeggio (Septim)",
+        "Lompat Oktaf",
+        "Oktaf Berulang",
+        "Oktaf Menurun",
+        "Satu Setengah Oktaf",
+        "Lompat Kuint",
+        "Lompat Interval (Kuint)",
+        "Rossini",
+        "3 Nada",
+        "5 Nada",
+        "5 Nada Menurun",
+        "Terurai",
+        "Zigzag Crescendo",
+        "Tiga Denyut",
+        "Ganti Vokal",
+        "Satu Nada"
+      ],
+      "routines": [
+        [
+          "Pemanasan Umum",
+          "Bangunkan suaramu dengan aman, seluruh jangkauan siap."
+        ],
+        [
+          "Do Re Mi (Solfegio)",
+          "Pemanasan solfegio klasik, tiap nada dengan namanya."
+        ],
+        [
+          "Lembut / Pemulihan",
+          "Untuk hari yang ringan dan istirahat setelah tampil."
+        ],
+        [
+          "Cepat Sebelum Tampil",
+          "Yang penting-penting saja, di bawah 10 menit."
+        ],
+        [
+          "Perluasan Jangkauan",
+          "Perluas batas atas dan bawah dengan aman."
+        ],
+        [
+          "Tenaga & Volume",
+          "Penutupan pita suara dan proyeksi tanpa tegang."
+        ],
+        [
+          "Kelincahan & Run",
+          "Kecepatan dan ketepatan untuk nyanyian melismatis."
+        ],
+        [
+          "Kontrol Napas & Stamina",
+          "Embusan napas panjang dan daya tahan frasering."
+        ],
+        [
+          "Jembatan Register",
+          "Dekati, lintasi, dan padukan peralihan registermu."
+        ],
+        [
+          "Klasik / Opera",
+          "Legato, kemurnian vokal, resonansi."
+        ],
+        [
+          "Heavy Rock / Distorsi",
+          "Suara kasar dan serak, suara bersih dulu."
+        ],
+        [
+          "Pelatih Vokal I",
+          "Semua tangga nada standar di satu tempat, untuk mengajar."
+        ],
+        [
+          "Pemanasan Subharmonik",
+          "Temukan gemeretak di bawah suara dadamu."
+        ],
+        [
+          "Jembatan Flageolet",
+          "Menyeberang ke warna seperti suling di atas jangkauanmu."
+        ],
+        [
+          "Penjelajah Whistle",
+          "Kunjungan singkat dan lirih ke puncak suara."
+        ]
+      ],
+      "note": "Tiga yang terakhir terbuka setelah kamu mengatur rentang untuk register itu."
+    },
+    "pricing": {
+      "title": "Harga sederhana dan jujur",
+      "lead": "Semua fitur bisa dipakai gratis. Pro menghapus batas berapa banyak yang bisa kamu simpan.",
+      "free": {
+        "name": "Gratis",
+        "price": "Rp 0",
+        "period": "selamanya",
+        "cta": "Mulai",
+        "items": [
+          "Seluruh 21 tangga nada bawaan",
+          "Seluruh 15 rutinitas bawaan",
+          "Latihan Ketepatan, keempat modenya",
+          "Skor ketepatan, dengan earphone kabel",
+          "Rekam Tangga Nada, lengkap dengan mikrofon",
+          "1 tangga nada kustom, 1 rutinitas kustom",
+          "1 harmoni tersimpan",
+          "Ekspor dan impor"
+        ]
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "Rp 84.000",
+        "period": "sekali bayar",
+        "badge": "Pilihan terbaik",
+        "cta": "Dapatkan Pro",
+        "items": [
+          "Semua yang ada di versi Gratis",
+          "Tangga nada dan rutinitas kustom <strong>tanpa batas</strong>",
+          "Harmoni tersimpan <strong>tanpa batas</strong>",
+          "Perekam latihan di Bidik nada",
+          "Edit tangga nada dan rutinitas bawaan",
+          "Dukung pengembangan"
+        ]
+      },
+      "note": "Sekali bayar, tanpa langganan. Harga di tiap negara ditentukan oleh Google Play."
+    },
+    "download": {
+      "title": "Siap pemanasan?",
+      "lead": "Gratis di Google Play. Tanpa akun, tanpa iklan, tidak ada yang perlu dibatalkan.",
+      "storeSmall": "Tersedia di",
+      "note": "Untuk sekarang hanya Android. Tersedia dalam bahasa Indonesia, Inggris, Spanyol, Prancis, Portugis, Jerman, dan Turki."
+    }
+  },
+  "privacy": {
+    "navLabel": "Kebijakan Privasi",
+    "title": "Kebijakan Privasi - Scalita",
+    "description": "Kebijakan Privasi Scalita, aplikasi pemanasan vokal untuk penyanyi.",
+    "body": "        <h1>Kebijakan Privasi</h1>\n        <p class=\"legal-meta\">Terakhir diperbarui: 31 Agustus 2026</p>\n\n        <p>Scalita (\"kami\") berkomitmen melindungi privasimu. Kebijakan Privasi ini menjelaskan cara kami menangani informasi saat kamu menggunakan aplikasi seluler kami, Scalita (\"Aplikasi\").</p>\n\n        <h2>Komitmen Privasi Kami</h2>\n        <p>Scalita dirancang dengan mengutamakan privasi. Kami percaya kamu seharusnya bisa melakukan pemanasan vokal tanpa dilacak, diprofilkan, atau dijadikan sumber uang. Inilah komitmen kami:</p>\n        <ul>\n          <li><strong>Tidak perlu akun</strong> - Kamu tidak perlu membuat akun atau masuk untuk menggunakan Scalita.</li>\n          <li><strong>Tidak ada pengumpulan data pribadi</strong> - Kami tidak mengumpulkan, menyimpan, atau mengirimkan informasi pribadi apa pun.</li>\n          <li><strong>Tidak ada pelacakan atau analitik</strong> - Kami tidak memakai layanan analitik, piksel pelacak, atau pemantauan perilaku pengguna apa pun.</li>\n          <li><strong>Tanpa iklan</strong> - Kami tidak menampilkan iklan dan tidak berbagi data dengan jaringan iklan.</li>\n          <li><strong>Utamakan offline</strong> - Aplikasi ini bekerja sepenuhnya secara offline. Datamu tidak pernah meninggalkan perangkatmu.</li>\n        </ul>\n        <h2>Penyimpanan Data</h2>\n        <p>Semua yang kamu buat di Scalita hanya disimpan secara lokal di perangkatmu. Ini termasuk:</p>\n        <ul>\n          <li>Jangkauan vokal dan pengaturan registermu</li>\n          <li>Tangga nada kustom yang kamu buat</li>\n          <li>Rutinitas kustom yang kamu buat</li>\n          <li>Rekaman latihan yang kamu buat di Bidik nada, dan audio setiap harmoni yang kamu simpan</li>\n          <li>Preferensi aplikasi (bahasa, gaya notasi, pengaturan tempo)</li>\n        </ul>\n        <p>Data ini tidak pernah dikirim ke server kami atau ke pihak ketiga mana pun, karena kami tidak punya server yang mengumpulkan data pengguna.</p>\n        <h2>Akses Mikrofon</h2>\n        <p>Scalita meminta izin mikrofon untuk fitur-fitur yang mendengarkan kamu bernyanyi: deteksi jangkauan vokal, monitor nada, Bidik nada, Rekam Tangga Nada, dan latihan harmoni. Di semua fitur itu:</p>\n        <ul>\n          <li>Audio diproses di perangkatmu. Audio tidak pernah dikirim ke mana pun, dan kami memang tidak punya server untuk menerimanya.</li>\n          <li>Deteksi jangkauan, monitor nada, dan Rekam Tangga Nada tidak menyimpan audio yang didengar. Audio dianalisis saat masuk, lalu dibuang.</li>\n          <li><strong>Dua fitur memang menyimpan audio di perangkatmu, karena memang itulah gunanya:</strong> rekaman latihan di Bidik nada, dan suara-suara sebuah harmoni di latihan harmoni. Rekaman itu disimpan di penyimpanan pribadi milik Scalita di ponselmu.</li>\n          <li>Rekaman yang tersimpan tetap ada di ponselmu sampai kamu menghapusnya. Menghapus rekaman, menghapus harmoni, atau mencopot aplikasi akan ikut menghapusnya.</li>\n          <li>Tidak ada rekamanmu yang diunggah, dibagikan otomatis, atau dilihat oleh kami. Membagikan gambar harmoni yang sudah jadi adalah pilihanmu, dan yang keluar dari ponsel hanyalah sebuah gambar.</li>\n          <li>Kamu bisa melewati semua fitur ini dan mengatur jangkauanmu secara manual.</li>\n          <li>Kamu bisa mencabut izin mikrofon kapan saja di pengaturan perangkatmu.</li>\n        </ul>\n\n        <h2>Pembelian dalam Aplikasi</h2>\n        <p>Scalita menawarkan pembelian Pro opsional sekali bayar melalui Google Play. Transaksi pembelian sepenuhnya ditangani oleh Google Play, dan kami tidak menerima atau menyimpan informasi pembayaran apa pun. Lihat <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google</a> untuk informasi tentang cara Google menangani data pembelian.</p>\n\n        <h2>Fitur Ekspor/Impor</h2>\n        <p>Kamu bisa mengekspor rutinitas dan pengaturanmu sebagai file JSON untuk dibagikan atau dicadangkan. File ini dibuat secara lokal di perangkatmu. Saat kamu membagikannya, kamu yang menentukan ke mana file itu pergi. Kami tidak pernah melihat atau mengakses file-file ini.</p>\n\n        <h2>Privasi Anak</h2>\n        <p>Scalita tidak dengan sengaja mengumpulkan informasi pribadi dari siapa pun, termasuk anak-anak di bawah usia 13 tahun. Karena kami tidak mengumpulkan data, tidak ada penanganan data khusus untuk anak-anak.</p>\n\n        <h2>Layanan Pihak Ketiga</h2>\n        <p>Scalita menggunakan layanan pihak ketiga berikut:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - Untuk memproses pembelian Pro (opsional). Lihat <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Kebijakan Privasi Google</a>.</li>\n        </ul>\n        <p>Kami tidak menggunakan layanan analitik, pelaporan error, atau periklanan apa pun.</p>\n\n        <h2>Perubahan Kebijakan Ini</h2>\n        <p>Kami dapat memperbarui Kebijakan Privasi ini dari waktu ke waktu. Kami akan memberi tahu setiap perubahan penting dengan memperbarui tanggal \"Terakhir diperbarui\" di bagian atas halaman ini. Kami menyarankanmu meninjau Kebijakan Privasi ini secara berkala.</p>\n\n        <h2>Hubungi Kami</h2>\n        <p>Jika kamu punya pertanyaan tentang Kebijakan Privasi ini, hubungi kami di:</p>\n        <ul>\n          <li>Email: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Situs web: <a href=\"https://scalita.com/id/support.html\">scalita.com/id/support</a></li>\n        </ul>"
+  },
+  "terms": {
+    "navLabel": "Ketentuan Layanan",
+    "title": "Ketentuan Layanan - Scalita",
+    "description": "Ketentuan Layanan Scalita, aplikasi pemanasan vokal untuk penyanyi.",
+    "body": "        <h1>Ketentuan Layanan</h1>\n        <p class=\"legal-meta\">Terakhir diperbarui: 1 Februari 2026</p>\n\n        <p>Selamat datang di Scalita! Ketentuan Layanan ini (\"Ketentuan\") mengatur penggunaanmu atas aplikasi seluler Scalita (\"Aplikasi\") yang disediakan oleh Pablo Dominguez (\"kami\"). Dengan mengunduh, memasang, atau menggunakan Scalita, kamu menyetujui Ketentuan ini.</p>\n\n        <h2>1. Penerimaan Ketentuan</h2>\n        <p>Dengan menggunakan Scalita, kamu menyatakan bahwa kamu telah membaca, memahami, dan setuju untuk terikat oleh Ketentuan ini. Jika kamu tidak menyetujui Ketentuan ini, mohon jangan gunakan Aplikasi.</p>\n\n        <h2>2. Deskripsi Layanan</h2>\n        <p>Scalita adalah aplikasi pemanasan vokal yang dirancang untuk penyanyi. Aplikasi ini menyediakan:</p>\n        <ul>\n          <li>Tangga nada bawaan dan kustom untuk berlatih</li>\n          <li>Rutinitas pemanasan dengan pengaturan yang bisa diubah</li>\n          <li>Deteksi jangkauan vokal (opsional)</li>\n          <li>Monitor nada dan Bidik nada, dengan rekaman latihan yang disimpan di perangkatmu</li>\n          <li>Latihan harmoni, tempat kamu merekam dan menumpuk suara-suara vokalmu sendiri</li>\n          <li>Pemutaran piano untuk latihan tangga nada</li>\n        </ul>\n\n        <h2>3. Versi Gratis dan Pro</h2>\n        <p><strong>Versi Gratis:</strong> Scalita gratis diunduh dan digunakan, dengan akses penuh ke konten bawaan, pembuatan konten kustom yang terbatas (1 tangga nada kustom, 1 rutinitas kustom, 1 harmoni tersimpan), dan semua fitur pemutaran.</p>\n        <p><strong>Versi Pro:</strong> Pembelian dalam aplikasi sekali bayar (Rp 84.000) membuka tangga nada, rutinitas, dan harmoni tersimpan tanpa batas, perekam latihan di Bidik nada, serta pengeditan tangga nada dan rutinitas bawaan. Pro bukan langganan, melainkan pembelian sekali bayar yang memberi akses permanen ke fitur Pro.</p>\n\n        <h2>4. Pembelian dan Pengembalian Dana</h2>\n        <p>Semua pembelian diproses melalui Google Play. Dengan melakukan pembelian, kamu menyetujui ketentuan layanan Google Play. Permintaan pengembalian dana harus diajukan ke Google Play sesuai kebijakan pengembalian dana Google Play. Kami tidak memproses pembayaran secara langsung dan tidak memiliki akses ke informasi pembayaranmu.</p>\n\n        <h2>5. Lisensi Penggunaan</h2>\n        <p>Kami memberimu lisensi terbatas, non-eksklusif, tidak dapat dialihkan, dan dapat dicabut untuk menggunakan Scalita untuk keperluan pribadi dan non-komersial sesuai dengan Ketentuan ini. Kamu tidak boleh:</p>\n        <ul>\n          <li>Menyalin, mengubah, atau mendistribusikan Aplikasi</li>\n          <li>Merekayasa balik, mendekompilasi, atau membongkar Aplikasi</li>\n          <li>Menghapus pemberitahuan hak cipta atau hak milik apa pun</li>\n          <li>Menggunakan Aplikasi untuk tujuan yang melanggar hukum</li>\n          <li>Mencoba mendapatkan akses tanpa izin ke sistem Aplikasi</li>\n        </ul>\n\n        <h2>6. Konten Pengguna</h2>\n        <p>Kamu tetap memiliki konten apa pun yang kamu buat di dalam Aplikasi, seperti tangga nada kustom, rutinitas, dan rekaman yang kamu buat. Konten ini disimpan secara lokal di perangkatmu. Saat kamu mengekspor dan membagikan konten, kamu bertanggung jawab atas cara konten itu digunakan.</p>\n\n        <h2>7. Sampel Audio</h2>\n        <p>Scalita menggunakan sampel piano dari proyek Salamander Grand Piano, yang berada dalam domain publik. Penggunaan sampel ini oleh Aplikasi tidak memberimu hak apa pun untuk mengekstrak, mendistribusikan ulang, atau menggunakan sampel ini di luar Aplikasi.</p>\n\n        <h2>8. Penafian Jaminan</h2>\n        <p>SCALITA DISEDIAKAN \"SEBAGAIMANA ADANYA\" DAN \"SEBAGAIMANA TERSEDIA\" TANPA JAMINAN DALAM BENTUK APA PUN, BAIK TERSURAT MAUPUN TERSIRAT. Kami tidak menjamin bahwa:</p>\n        <ul>\n          <li>Aplikasi akan memenuhi kebutuhan khususmu</li>\n          <li>Aplikasi akan berjalan tanpa gangguan, tepat waktu, aman, atau bebas error</li>\n          <li>Hasil dari penggunaan Aplikasi akan akurat atau dapat diandalkan</li>\n          <li>Setiap error di Aplikasi akan diperbaiki</li>\n        </ul>\n\n        <h2>9. Batasan Tanggung Jawab</h2>\n        <p>SEJAUH MAKSIMAL YANG DIIZINKAN OLEH HUKUM, KAMI TIDAK BERTANGGUNG JAWAB ATAS KERUGIAN TIDAK LANGSUNG, INSIDENTAL, KHUSUS, KONSEKUENSIAL, ATAU YANG BERSIFAT HUKUMAN, TERMASUK NAMUN TIDAK TERBATAS PADA HILANGNYA KEUNTUNGAN, DATA, ATAU PENGGUNAAN, YANG TIMBUL DARI ATAU BERKAITAN DENGAN PENGGUNAANMU ATAS SCALITA.</p>\n\n        <h2>10. Penafian Kesehatan</h2>\n        <p>Scalita dirancang sebagai alat latihan untuk penyanyi. Aplikasi ini bukan pengganti pelatihan vokal profesional atau saran medis. Jika kamu merasakan nyeri, rasa tidak nyaman, atau ketegangan vokal saat menggunakan Aplikasi, segera berhenti dan konsultasikan dengan tenaga kesehatan atau spesialis suara.</p>\n\n        <h2>11. Perubahan pada Aplikasi</h2>\n        <p>Kami dapat memperbarui, mengubah, atau menghentikan bagian mana pun dari Scalita kapan saja tanpa pemberitahuan. Kami tidak bertanggung jawab atas perubahan, penangguhan, atau penghentian Aplikasi.</p>\n\n        <h2>12. Perubahan Ketentuan</h2>\n        <p>Kami dapat merevisi Ketentuan ini kapan saja dengan memperbarui halaman ini. Jika kamu terus menggunakan Aplikasi setelah ada perubahan, berarti kamu menerima Ketentuan yang telah direvisi. Kami menyarankanmu meninjau Ketentuan ini secara berkala.</p>\n\n        <h2>13. Pengakhiran</h2>\n        <p>Kami dapat mengakhiri atau menangguhkan aksesmu ke Scalita kapan saja, tanpa pemberitahuan sebelumnya atau tanggung jawab, dengan alasan apa pun, termasuk jika kamu melanggar Ketentuan ini. Setelah pengakhiran, lisensimu untuk menggunakan Aplikasi langsung berakhir.</p>\n\n        <h2>14. Hukum yang Berlaku</h2>\n        <p>Ketentuan ini diatur oleh dan ditafsirkan sesuai dengan hukum Spanyol, tanpa memperhatikan prinsip pertentangan hukum.</p>\n\n        <h2>15. Kontak</h2>\n        <p>Jika kamu punya pertanyaan tentang Ketentuan ini, hubungi kami di:</p>\n        <ul>\n          <li>Email: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Situs web: <a href=\"https://scalita.com/id/support.html\">scalita.com/id/support</a></li>\n        </ul>"
+  },
+  "support": {
+    "navLabel": "Bantuan",
+    "title": "Bantuan - Scalita",
+    "description": "Bantuan dan dukungan untuk Scalita, aplikasi pemanasan vokal untuk penyanyi.",
+    "body": "        <h1>Ada yang bisa kubantu?</h1>\n        <p>Punya pertanyaan, menemukan bug, atau sekadar ingin menyapa? Aku senang sekali mendengar kabar darimu.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=id&amp;type=bug\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z\"/>\n                <path d=\"M2 12h5M17 12h5M4 6l3 2M20 6l-3 2M4 18l3-2M20 18l-3-2\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Laporkan bug</h3>\n              <p>Ada yang tidak beres dan aku ingin itu diperbaiki. Boleh sertakan tangkapan layar.</p>\n            </div>\n          </a>\n\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=id&amp;type=suggestion\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M9 18h6M10 22h4\"/>\n                <path d=\"M12 2a7 7 0 0 0-4 12.7V16h8v-1.3A7 7 0 0 0 12 2z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Usulkan fitur</h3>\n              <p>Ada yang kurang. Ceritakan fitur apa yang akan kamu pakai.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Dukung di Ko-fi</h3>\n              <p>Suka Scalita? Bantu dukung pengembangannya</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Pertanyaan yang Sering Diajukan</h2>\n\n          <div class=\"faq-item\">\n            <h3>Apakah Scalita benar-benar gratis?</h3>\n            <p>Ya! Scalita gratis dipakai dengan seluruh 21 tangga nada bawaan, seluruh 15 rutinitas bawaan, dan semua fitur pemutaran. Keempat mode Latihan Ketepatan, skor ketepatan, dan Rekam Tangga Nada juga gratis, lengkap dengan mikrofon. Kamu bisa menyimpan 1 tangga nada kustom, 1 rutinitas kustom, dan 1 harmoni secara gratis. Pro (Rp 84.000, sekali bayar) menghapus batas itu dan membuka perekam latihan di Bidik nada.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Apakah Scalita bisa dipakai offline?</h3>\n            <p>Tentu. Scalita dirancang untuk bekerja sepenuhnya offline. Suara pianonya sudah ada di dalam aplikasi, jadi kamu bisa berlatih di mana saja tanpa internet.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Bagaimana cara memulihkan pembelian Pro-ku?</h3>\n            <p>Tidak ada yang perlu diketuk. Setiap kali dibuka, Scalita memeriksa pembelianmu ke Google Play dan mengaktifkan Pro lagi dengan sendirinya. Pastikan kamu masuk dengan akun Google yang sama dengan yang dipakai saat membeli, dan buka aplikasinya sekali saat tersambung ke internet.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Apakah ada versi iOS?</h3>\n            <p>Belum, tapi sudah ada dalam rencana! Ikuti kami untuk kabar kapan versi iOS tersedia.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Apakah Scalita menyimpan rekamanku?</h3>\n            <p>Rekaman latihan dan harmoni yang kamu simpan tetap ada di ponselmu, supaya bisa kamu dengarkan lagi nanti. Tidak ada yang diunggah ke mana pun. Deteksi jangkauan, monitor nada, dan Rekam Tangga Nada sama sekali tidak menyimpan audio. Kamu bisa menghapus rekaman atau harmoni dari dalam aplikasi kapan saja.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Deteksi jangkauan vokalku tidak berfungsi</h3>\n            <p>Pastikan kamu sudah memberi izin mikrofon di pengaturan perangkat. Bernyanyilah di tempat yang tenang dan tahan setiap nada dengan stabil selama beberapa detik. Kamu selalu bisa mengatur jangkauanmu secara manual kalau deteksinya tidak berhasil.</p>\n          </div>\n        </div>"
+  }
+}

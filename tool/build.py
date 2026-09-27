@@ -4,9 +4,9 @@
 The site is still plain static HTML: this writes the HTML, git tracks the
 HTML, GitHub Pages serves the HTML. Nothing runs at request time.
 
-Why it exists: five locales times four pages is twenty files that must agree
-on the navigation, the footer, the language menu and twenty hreflang links
-each. Kept by hand that drifts within a release. Kept here it cannot.
+Why it exists: seven locales times four pages is twenty-eight files that must
+agree on the navigation, the footer, the language menu and eight hreflang
+links each. Kept by hand that drifts within a release. Kept here it cannot.
 
     python3 tool/build.py
 
@@ -31,6 +31,8 @@ LOCALES = [
     ("fr", "/fr/",  "fr",    "fr",    "fr_FR", "Français"),
     ("pt", "/pt/",  "pt-BR", "pt-BR", "pt_BR", "Português"),
     ("de", "/de/",  "de",    "de",    "de_DE", "Deutsch"),
+    ("tr", "/tr/",  "tr",    "tr",    "tr_TR", "Türkçe"),
+    ("id", "/id/",  "id",    "id",    "id_ID", "Bahasa Indonesia"),
 ]
 
 PAGES = ["index", "privacy", "terms", "support"]
