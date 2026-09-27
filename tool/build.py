@@ -531,7 +531,9 @@ def build_index(loc, c):
   </section>""" % (esc(i["how"]["title"]), esc(i["how"]["lead"]), steps,
                    icon("piano", 18), esc(i["how"]["pianoLabel"]), esc(i["how"]["pianoNote"]))
 
-    # --- harmony, the one highlight --------------------------------------
+    # --- Accuracy Training, the one highlight ----------------------------
+    # The content key is still "harmony", the section it grew out of. The shot
+    # is Listen & Repeat: harmony is one of the four modes now, not the headline.
     points = "\n".join(
         """          <li>
             <strong>%s</strong>
@@ -551,7 +553,7 @@ def build_index(loc, c):
         <p class="spotlight-note">%s</p>
       </div>
       <div class="spotlight-shot">
-        <img src="%sharmony.jpg" alt="%s" loading="lazy" width="560" height="1125">
+        <img src="%slisten_repeat.jpg" alt="%s" loading="lazy" width="560" height="1125">
       </div>
     </div>
   </section>""" % (
@@ -630,8 +632,11 @@ def build_index(loc, c):
 
     # --- pricing ----------------------------------------------------------
     def plan(p, featured):
+        # The li is a flex row, so the text needs one wrapper: bare, its words
+        # and a <strong> inside it became separate flex items and split into
+        # columns whenever the line wrapped ("sin | límite").
         items = "\n".join(
-            '            <li><span class="check" aria-hidden="true">&#10003;</span> %s</li>' % it
+            '            <li><span class="check" aria-hidden="true">&#10003;</span> <span>%s</span></li>' % it
             for it in p["items"]
         )
         badge = '<span class="pricing-badge">%s</span>\n          ' % esc(p["badge"]) if p.get("badge") else ""

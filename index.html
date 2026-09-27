@@ -8,7 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Scalita - Simple scales. Real piano. No nonsense.</title>
-  <meta name="description" content="Free vocal warmup app for Android. 21 scales, 14 routines and a real Salamander Grand Piano across all 88 keys, transposed to your range. New: harmony training. Works offline, no ads, no account.">
+  <meta name="description" content="Free vocal warmup app for Android. 21 scales, 15 routines and a real Salamander Grand Piano across all 88 keys, transposed to your range. New: Accuracy Training and a pitch score. Works offline, no ads, no account.">
   <link rel="canonical" href="https://scalita.com/">
   <link rel="alternate" hreflang="en" href="https://scalita.com/">
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/">
@@ -25,11 +25,11 @@
 
   <link rel="stylesheet" href="css/style.css">
 
-  <meta name="keywords" content="vocal warmup app, singing scales, vocal routines, harmony training app, sing harmony with yourself, vocal register exercises, subharmonic singing, flageolet register, whistle register training, rock and metal vocal training, scale detector, pitch monitor, piano scales for singers, solfege app">
+  <meta name="keywords" content="vocal warmup app, singing scales, vocal routines, sing in tune, pitch accuracy training, singing pitch score, pitch matching, listen and repeat singing, singing game, harmony training app, sing harmony with yourself, vocal register exercises, subharmonic singing, flageolet register, whistle register training, rock and metal vocal training, scale detector, pitch monitor, piano scales for singers, solfege app, do re mi warmup">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="Scalita - 21 scales, 14 routines, real piano. Free vocal warmup app.">
-  <meta property="og:description" content="A real Salamander Grand Piano across 88 keys, transposed to your range. New in 1.9.0: harmony training. Record one line, sing another over it, up to four parts. Offline, no ads, no account.">
+  <meta property="og:title" content="Scalita - 21 scales, 15 routines, real piano. Free vocal warmup app.">
+  <meta property="og:description" content="A real Salamander Grand Piano across 88 keys, transposed to your range. New: Accuracy Training, four ways to sing in tune, and a score after every scale and routine. Offline, no ads, no account.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://scalita.com/">
   <meta property="og:image" content="https://scalita.com/images/og-image-en.png">
@@ -43,8 +43,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Scalita - 21 scales, 14 routines, real piano. Free vocal warmup app.">
-  <meta name="twitter:description" content="A real Salamander Grand Piano across 88 keys, transposed to your range. New in 1.9.0: harmony training. Record one line, sing another over it, up to four parts. Offline, no ads, no account.">
+  <meta name="twitter:title" content="Scalita - 21 scales, 15 routines, real piano. Free vocal warmup app.">
+  <meta name="twitter:description" content="A real Salamander Grand Piano across 88 keys, transposed to your range. New: Accuracy Training, four ways to sing in tune, and a score after every scale and routine. Offline, no ads, no account.">
   <meta name="twitter:image" content="https://scalita.com/images/og-image-en.png">
 
   <script type="application/ld+json">
@@ -54,7 +54,7 @@
   "name": "Scalita",
   "operatingSystem": "Android",
   "applicationCategory": "MultimediaApplication",
-  "description": "A real Salamander Grand Piano across 88 keys, transposed to your range. New in 1.9.0: harmony training. Record one line, sing another over it, up to four parts. Offline, no ads, no account.",
+  "description": "A real Salamander Grand Piano across 88 keys, transposed to your range. New: Accuracy Training, four ways to sing in tune, and a score after every scale and routine. Offline, no ads, no account.",
   "inLanguage": [
     "en",
     "es",
@@ -142,7 +142,7 @@
         <p class="tagline">Simple scales. Real piano. No nonsense.</p>
         <div class="hero-buttons">
           <a href="#download" class="btn btn-primary"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M12 15L8 11M12 15L16 11M3 17V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V17"/></svg> Download free</a>
-          <a href="#new" class="btn btn-secondary">New in 1.9.0</a>
+          <a href="#new" class="btn btn-secondary">What's new</a>
         </div>
         <ul class="hero-facts">
           <li>Free</li>
@@ -158,8 +158,10 @@
               <img src="images/screenshots/en/home.jpg" alt="Scalita home screen" class="screenshot active" width="560" height="1125">
               <img src="images/screenshots/en/find_my_warmup.jpg" alt="Find My Warmup asking how your voice feels" class="screenshot" loading="lazy" width="560" height="1125">
               <img src="images/screenshots/en/player.jpg" alt="An exercise mid-playback with the live pitch trail" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="images/screenshots/en/harmony.jpg" alt="Harmony training with four vocal parts" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="images/screenshots/en/scored.jpg" alt="The score at the end of a scale: how much landed in tune" class="screenshot" loading="lazy" width="560" height="1125">
               <img src="images/screenshots/en/pitch_targeting.jpg" alt="Pitch targeting on a single key" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="images/screenshots/en/harmony.jpg" alt="Harmony training with four vocal parts" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="images/screenshots/en/humming_bird.jpg" alt="Humming Bird, the game where you steer a held note through the gaps" class="screenshot" loading="lazy" width="560" height="1125">
               <img src="images/screenshots/en/all_scales.jpg" alt="The scale browser" class="screenshot" loading="lazy" width="560" height="1125">
             </div>
           </div>
@@ -168,8 +170,10 @@
             <button class="dot active" role="tab" aria-selected="true" aria-label="Scalita home screen"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="Find My Warmup asking how your voice feels"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="An exercise mid-playback with the live pitch trail"></button>
-            <button class="dot" role="tab" aria-selected="false" aria-label="Harmony training with four vocal parts"></button>
+            <button class="dot" role="tab" aria-selected="false" aria-label="The score at the end of a scale: how much landed in tune"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="Pitch targeting on a single key"></button>
+            <button class="dot" role="tab" aria-selected="false" aria-label="Harmony training with four vocal parts"></button>
+            <button class="dot" role="tab" aria-selected="false" aria-label="Humming Bird, the game where you steer a held note through the gaps"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="The scale browser"></button>
         </div>
       </div>
@@ -191,7 +195,7 @@
         <li class="step">
           <span class="step-mark"><span class="step-number">2</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
           <h3>Pick a scale or a routine</h3>
-          <p>21 scales and 14 routines are built in. Not sure which? Answer two questions and Find My Warmup picks for you.</p>
+          <p>21 scales and 15 routines are built in. Not sure which? Answer two questions and Find My Warmup picks for you.</p>
         </li>
         <li class="step">
           <span class="step-mark"><span class="step-number">3</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
@@ -209,27 +213,31 @@
   <section class="spotlight" id="new">
     <div class="container">
       <div class="spotlight-body">
-        <span class="badge-new">New in 1.9.0</span>
-        <h2>Harmony training</h2>
-        <p class="spotlight-lead">Record one line. Sing a second over the top of it and hear them together. Up to four parts, and a part can be a take from the microphone, a file you already had, or a scale the app plays.</p>
+        <span class="badge-new">New</span>
+        <h2>Accuracy Training</h2>
+        <p class="spotlight-lead">Four ways to sing in tune. Every one of them trains your ear and your voice together: hear where the note is, then put your voice right there.</p>
         <ul class="spotlight-points">
           <li>
-            <strong>Say what you are singing</strong>
-            <span>Tell Scalita that a part sits a third, a fifth or an octave above the bottom voice and it judges the interval you were aiming for. Without that, a fourth sung where a third was meant reads as perfectly in tune, because it is.</span>
+            <strong>Pitch targeting</strong>
+            <span>Tap a key to hear it, then sing it. Hold the key and it keeps repeating while a live line shows how close you are.</span>
           </li>
           <li>
-            <strong>Tuned the way singers tune</strong>
-            <span>Intervals are judged against just intonation rather than equal temperament, so a major third is allowed to sit about fourteen cents flat. Which is where a singer actually puts it.</span>
+            <strong>Harmony training</strong>
+            <span>Record one part, then sing the next over it, up to four, all of them yours. Say which interval you are aiming for and it judges that one, in just intonation, the way singers actually tune.</span>
           </li>
           <li>
-            <strong>A picture you can keep</strong>
-            <span>Four contours drawn over each other on a named pitch grid, a thread of light where two voices lock, and one image of the finished harmony that can leave the phone.</span>
+            <strong>Listen &amp; Repeat</strong>
+            <span>The piano plays a phrase, then goes quiet while you sing it back. Leaps and runs from songs you know, sung from memory.</span>
+          </li>
+          <li>
+            <strong>Humming Bird</strong>
+            <span>A game where you steer a held note through gaps a few cents wide.</span>
           </li>
         </ul>
-        <p class="spotlight-note">Recording is free. So are four parts, and any length. Pro only comes in if you want to keep more than one saved harmony, and you can always build another in full and keep that one instead.</p>
+        <p class="spotlight-note">Also new: with wired earphones in, every scale and routine ends with a score. How much landed in tune, how close the rest was, and one thing to work on. All of it is free. Pro only adds the practice recorder in pitch targeting and room for more than one saved harmony.</p>
       </div>
       <div class="spotlight-shot">
-        <img src="images/screenshots/en/harmony.jpg" alt="Harmony training: four vocal parts drawn over a named pitch grid" loading="lazy" width="560" height="1125">
+        <img src="images/screenshots/en/listen_repeat.jpg" alt="Listen &amp; Repeat: a run sung back after the piano, drawn over a named note grid" loading="lazy" width="560" height="1125">
       </div>
     </div>
   </section>
@@ -244,7 +252,7 @@
         <div class="group">
           <div class="group-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>
           <h3>Warmups that answer back</h3>
-          <p>Find My Warmup asks how your voice feels today and what you want to work on, then picks the routine and sets the tempo. Adaptive Mode drops the plan entirely: after each exercise you say how it went and the next one adjusts. Tell it you have ten minutes and it paces the session to fit, cooldown included.</p>
+          <p>Find My Warmup asks how your voice feels today and what you want to work on, then picks the routine and sets the tempo. Adaptive Mode drops the plan entirely: after each exercise you say how it went, and what felt off if something did, and the next one adjusts. Tell it you have ten minutes and it paces the session to fit, cooldown included.</p>
           <div class="content-tags">
             <span class="tag">Find My Warmup</span>
             <span class="tag">Adaptive Mode</span>
@@ -255,9 +263,10 @@
         <div class="group">
           <div class="group-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
           <h3>Hear yourself properly</h3>
-          <p>Put earphones on and a live trail shows where you land on every note, green on pitch and amber when you drift. Pitch targeting narrows it to one key at a time, and now it keeps your takes: the audio, the pitch line and what the keyboard was doing, so you can open one next week and hear whether anything moved.</p>
+          <p>Put earphones on and a live trail shows where you land on every note, green on pitch and amber when you drift. With wired earphones, every scale and routine then ends with a score: how much landed in tune, how close the rest was, and one thing to work on. Pitch targeting narrows it to one key at a time and keeps your takes: the audio, the pitch line and what the keyboard was doing, so you can open one next week and hear whether anything moved.</p>
           <div class="content-tags">
             <span class="tag">Live pitch monitor</span>
+            <span class="tag">Pitch score</span>
             <span class="tag">Pitch targeting</span>
             <span class="tag">Saved practice takes</span>
           </div>
@@ -283,7 +292,7 @@
             <span class="tag">Custom routines</span>
             <span class="tag">Scale detector</span>
             <span class="tag">Export and import</span>
-            <span class="tag">Do Re Mi or C D E</span>
+            <span class="tag">Do Re Mi, C D E, German names or 1 2 3</span>
           </div>
         </div>
       </div>
@@ -293,8 +302,8 @@
           <div class="catalog-summary">
             <div class="catalog-summary-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></div>
             <div>
-              <h3>21 scales and 14 routines</h3>
-              <p>Major, pentatonic, arpeggios, Rossini patterns, register bridges, rock and metal, quick warmups, full workouts.</p>
+              <h3>21 scales and 15 routines</h3>
+              <p>Major, pentatonic, arpeggios, Rossini patterns, solfège, register bridges, rock and metal, quick warmups, full workouts.</p>
             </div>
             <svg class="catalog-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <polyline points="6 9 12 15 18 9"/>
@@ -332,6 +341,7 @@
             <h4>Routines</h4>
             <ul class="routine-grid">
               <li><strong>General Warmup</strong> <span>Wake up your voice safely, full range ready.</span></li>
+              <li><strong>Do Re Mi</strong> <span>The classic solfège warmup, every note on its name.</span></li>
               <li><strong>Gentle / Recovery</strong> <span>Light days and post-performance wind-down.</span></li>
               <li><strong>Pre-Performance Quick</strong> <span>The essentials in under 10 minutes.</span></li>
               <li><strong>Range Extension</strong> <span>Safely push your upper and lower limits.</span></li>
@@ -364,13 +374,14 @@
           <h3>Free</h3>
           <div class="price">$0 <span>forever</span></div>
           <ul class="pricing-features">
-            <li><span class="check" aria-hidden="true">&#10003;</span> All 21 built-in scales</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> All 14 built-in routines</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> Harmony training, up to four parts</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> The Scale Detector, microphone and all</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> 3 custom scales, 1 custom routine</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> 1 saved harmony</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> Export and import</li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>All 21 built-in scales</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>All 15 built-in routines</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>Accuracy Training, all four modes</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>The pitch score, with wired earphones</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>The Scale Detector, microphone and all</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>1 custom scale, 1 custom routine</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>1 saved harmony</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>Export and import</span></li>
           </ul>
           <a href="#download" class="btn btn-secondary pricing-cta">Get started</a>
         </div>
@@ -379,12 +390,12 @@
           <h3>Pro</h3>
           <div class="price">$4.99 <span>once</span></div>
           <ul class="pricing-features">
-            <li><span class="check" aria-hidden="true">&#10003;</span> Everything in Free</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> <strong>Unlimited</strong> custom scales and routines</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> <strong>Unlimited</strong> saved harmonies</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> The practice recorder in pitch targeting</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> Edit the built-in scales and routines</li>
-            <li><span class="check" aria-hidden="true">&#10003;</span> Support development</li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>Everything in Free</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span><strong>Unlimited</strong> custom scales and routines</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span><strong>Unlimited</strong> saved harmonies</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>The practice recorder in pitch targeting</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>Edit the built-in scales and routines</span></li>
+            <li><span class="check" aria-hidden="true">&#10003;</span> <span>Support development</span></li>
           </ul>
           <a href="#download" class="btn btn-primary pricing-cta">Get Pro</a>
         </div>
@@ -408,7 +419,7 @@
           </div>
         </a>
       </div>
-      <p class="download-note">Android only for now. In English, Spanish, French, Portuguese and German.</p>
+      <p class="download-note">Android only for now. In English, Spanish, French, Portuguese, German, Turkish and Indonesian.</p>
     </div>
   </section>
 

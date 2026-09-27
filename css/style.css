@@ -546,7 +546,7 @@ img {
 }
 
 /* --------------------------------------------------------- spotlight --- */
-/* Harmony training. One feature gets a section to itself, and it is the only
+/* Accuracy Training. One feature gets a section to itself, and it is the only
    thing on the page wearing the accent border. */
 
 .spotlight {
@@ -881,6 +881,8 @@ img {
 .price span {
   font-size: 0.95rem;
   color: var(--slate);
+  /* "sekali bayar" and "tek seferlik" wrap as one piece, never across lines */
+  white-space: nowrap;
 }
 
 .pricing-features {
