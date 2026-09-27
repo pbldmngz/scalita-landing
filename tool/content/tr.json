@@ -165,7 +165,7 @@
           "Özel rutinler",
           "Gam Kaydı",
           "Dışa ve içe aktarma",
-          "Do Re Mi, C D E, Alman harfleri ya da 1 2 3"
+          "Do Re Mi, C D E, Almanca adlar ya da 1 2 3"
         ]
       }
     ],
@@ -263,7 +263,7 @@
     },
     "pricing": {
       "title": "Basit, dürüst fiyat",
-      "lead": "Her özellik ücretsiz çalışır. Pro, ne kadarını saklayabileceğindeki sınırları kaldırır.",
+      "lead": "Her özellik ücretsiz çalışır. Pro, ne kadar saklayabileceğinin sınırını kaldırır.",
       "free": {
         "name": "Ücretsiz",
         "price": "0 TL",
