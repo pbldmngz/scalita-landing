@@ -159,7 +159,7 @@
       },
       {
         "title": "Make your own",
-        "body": "Build scales and routines from scratch: intervals, syllables, tempos, starting notes. Or sing or play a pattern into the Scale Detector and it writes the notes down for you. Rebuilt for 1.9.0, it needs about half as many corrections on real singing, and it flags the notes that were a coin toss so you know where to look.",
+        "body": "Build scales and routines from scratch: intervals, syllables, tempos, starting notes. Or sing or play a pattern into the Scale Detector and it writes the notes down for you. Since its rebuild it needs about half as many corrections on real singing, and it flags the notes that were a coin toss so you know where to look.",
         "tags": [
           "Custom scales",
           "Custom routines",

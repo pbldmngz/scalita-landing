@@ -159,7 +159,7 @@
       },
       {
         "title": "Buat sendiri",
-        "body": "Susun tangga nada dan rutinitas dari nol: interval, suku kata, tempo, nada awal. Atau nyanyikan atau mainkan sebuah pola ke Rekam Tangga Nada, dan nadanya dituliskan untukmu. Dibangun ulang untuk versi 1.9.0, fitur ini hanya butuh sekitar separuh koreksi pada nyanyian sungguhan, dan menandai nada yang hasilnya untung-untungan supaya kamu tahu bagian mana yang perlu diperiksa.",
+        "body": "Susun tangga nada dan rutinitas dari nol: interval, suku kata, tempo, nada awal. Atau nyanyikan atau mainkan sebuah pola ke Rekam Tangga Nada, dan nadanya dituliskan untukmu. Sejak dibangun ulang, fitur ini hanya butuh sekitar separuh koreksi pada nyanyian sungguhan, dan menandai nada yang hasilnya untung-untungan supaya kamu tahu bagian mana yang perlu diperiksa.",
         "tags": [
           "Tangga nada kustom",
           "Rutinitas kustom",
