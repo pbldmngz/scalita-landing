@@ -673,12 +673,18 @@ def build_index(loc, c):
     )
 
     # --- download ---------------------------------------------------------
+    # The store opens in the language of the page being read, now that every
+    # language the site speaks has its own Play listing; English stays bare,
+    # as it always was, and Play picks the reader's own
+    store = "https://play.google.com/store/apps/details?id=com.scalita.app"
+    if code != "en":
+        store += "&amp;hl=" + lang
     download = """  <section class="download" id="download">
     <div class="container">
       <h2>%s</h2>
       <p>%s</p>
       <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.scalita.app" class="store-button" target="_blank" rel="noopener">
+        <a href="%s" class="store-button" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
           </svg>
@@ -691,7 +697,7 @@ def build_index(loc, c):
       <p class="download-note">%s</p>
     </div>
   </section>""" % (
-        esc(i["download"]["title"]), esc(i["download"]["lead"]),
+        esc(i["download"]["title"]), esc(i["download"]["lead"]), store,
         esc(i["download"]["storeSmall"]), esc(i["download"]["note"]),
     )
 
