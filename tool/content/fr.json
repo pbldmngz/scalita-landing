@@ -118,7 +118,7 @@
           "body": "Un jeu où tu guides une note tenue à travers des trous de quelques cents."
         }
       ],
-      "note": "Nouveau aussi : avec des écouteurs filaires, chaque gamme et chaque routine se termine par un score. Ce qui est tombé juste, la distance du reste, et une chose à travailler. Tout est gratuit. Pro n'ajoute que l'enregistreur de la visée de justesse et la place pour plus d'une harmonie conservée.",
+      "note": "Nouveau aussi : avec des écouteurs, filaires ou Bluetooth, chaque gamme et chaque routine se termine par un score. Ce qui est tombé juste, la distance du reste, et une chose à travailler. Tout est gratuit. Pro n'ajoute que l'enregistreur de la visée de justesse et la place pour plus d'une harmonie conservée.",
       "alt": "Écoute et répète : un trait rechanté après le piano, tracé sur une grille de notes"
     },
     "features": {
@@ -138,7 +138,7 @@
       },
       {
         "title": "T'entendre vraiment",
-        "body": "Mets des écouteurs et un tracé en direct montre où tu tombes sur chaque note, vert quand c'est juste et ambre quand tu dérives. Avec des écouteurs filaires, chaque gamme et chaque routine se termine en plus par un score : ce qui est tombé juste, la distance du reste, et une chose à travailler. La visée de justesse réduit ça à une touche à la fois et garde tes prises : l'audio, la ligne de justesse et ce que faisait le clavier, pour en rouvrir une la semaine prochaine et entendre si quelque chose a bougé.",
+        "body": "Mets des écouteurs et un tracé en direct montre où tu tombes sur chaque note, vert quand c'est juste et ambre quand tu dérives. Avec des écouteurs, filaires ou Bluetooth, chaque gamme et chaque routine se termine en plus par un score : ce qui est tombé juste, la distance du reste, et une chose à travailler. La visée de justesse réduit ça à une touche à la fois et garde tes prises : l'audio, la ligne de justesse et ce que faisait le clavier, pour en rouvrir une la semaine prochaine et entendre si quelque chose a bougé.",
         "tags": [
           "Accordeur en direct",
           "Score de justesse",
@@ -273,7 +273,7 @@
           "Les 21 gammes incluses",
           "Les 15 routines incluses",
           "L'Entraînement de précision, les quatre modes",
-          "Le score de justesse, avec des écouteurs filaires",
+          "Le score de justesse, avec des écouteurs",
           "Le détecteur de gammes, microphone compris",
           "1 gamme et 1 routine personnalisées",
           "1 harmonie conservée",

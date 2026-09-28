@@ -118,7 +118,7 @@
           "body": "Tuttuğun bir notayı birkaç sentlik boşluklardan geçirdiğin bir oyun."
         }
       ],
-      "note": "Bir yenilik daha: kablolu kulaklık takılıyken her gam ve her rutin bir puanla biter. Ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Hepsi ücretsiz. Pro yalnızca perde hedeflemedeki çalışma kaydını ve birden fazla armoni saklama imkânını ekler.",
+      "note": "Bir yenilik daha: kablolu ya da Bluetooth kulaklık takılıyken her gam ve her rutin bir puanla biter. Ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Hepsi ücretsiz. Pro yalnızca perde hedeflemedeki çalışma kaydını ve birden fazla armoni saklama imkânını ekler.",
       "alt": "Dinle & Tekrarla: piyanodan sonra söylenen bir pasaj, nota ızgarasının üzerinde"
     },
     "features": {
@@ -138,7 +138,7 @@
       },
       {
         "title": "Kendini gerçekten duy",
-        "body": "Kulaklık tak, canlı bir iz her notada nereye oturduğunu gösterir: temiz olduğunda yeşil, kaydığında kehribar rengi. Kablolu kulaklıkla her gam ve her rutin ayrıca bir puanla biter: ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Perde hedefleme bunu her seferinde tek bir tuşa indirir ve kayıtlarını saklar: ses, perde çizgisi ve klavyenin o an ne yaptığı, böylece bir hafta sonra birini açıp bir şeyin değişip değişmediğini duyabilirsin.",
+        "body": "Kulaklık tak, canlı bir iz her notada nereye oturduğunu gösterir: temiz olduğunda yeşil, kaydığında kehribar rengi. Kablolu ya da Bluetooth kulaklıkla her gam ve her rutin ayrıca bir puanla biter: ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Perde hedefleme bunu her seferinde tek bir tuşa indirir ve kayıtlarını saklar: ses, perde çizgisi ve klavyenin o an ne yaptığı, böylece bir hafta sonra birini açıp bir şeyin değişip değişmediğini duyabilirsin.",
         "tags": [
           "Perde göstergesi",
           "Entonasyon puanı",
@@ -273,7 +273,7 @@
           "21 hazır gamın hepsi",
           "15 hazır rutinin hepsi",
           "Entonasyon Çalışması, dört modun hepsi",
-          "Entonasyon puanı, kablolu kulaklıkla",
+          "Entonasyon puanı, kulaklıkla",
           "Gam Kaydı, mikrofonuyla birlikte",
           "1 özel gam, 1 özel rutin",
           "1 saklanan armoni",

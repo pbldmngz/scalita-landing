@@ -118,7 +118,7 @@
           "body": "A game where you steer a held note through gaps a few cents wide."
         }
       ],
-      "note": "Also new: with wired earphones in, every scale and routine ends with a score. How much landed in tune, how close the rest was, and one thing to work on. All of it is free. Pro only adds the practice recorder in pitch targeting and room for more than one saved harmony.",
+      "note": "Also new: with earphones in, wired or Bluetooth, every scale and routine ends with a score. How much landed in tune, how close the rest was, and one thing to work on. All of it is free. Pro only adds the practice recorder in pitch targeting and room for more than one saved harmony.",
       "alt": "Listen & Repeat: a run sung back after the piano, drawn over a named note grid"
     },
     "features": {
@@ -138,7 +138,7 @@
       },
       {
         "title": "Hear yourself properly",
-        "body": "Put earphones on and a live trail shows where you land on every note, green on pitch and amber when you drift. With wired earphones, every scale and routine then ends with a score: how much landed in tune, how close the rest was, and one thing to work on. Pitch targeting narrows it to one key at a time and keeps your takes: the audio, the pitch line and what the keyboard was doing, so you can open one next week and hear whether anything moved.",
+        "body": "Put earphones on and a live trail shows where you land on every note, green on pitch and amber when you drift. With earphones, wired or Bluetooth, every scale and routine then ends with a score: how much landed in tune, how close the rest was, and one thing to work on. Pitch targeting narrows it to one key at a time and keeps your takes: the audio, the pitch line and what the keyboard was doing, so you can open one next week and hear whether anything moved.",
         "tags": [
           "Live pitch monitor",
           "Pitch score",
@@ -273,7 +273,7 @@
           "All 21 built-in scales",
           "All 15 built-in routines",
           "Accuracy Training, all four modes",
-          "The pitch score, with wired earphones",
+          "The pitch score, with earphones",
           "The Scale Detector, microphone and all",
           "1 custom scale, 1 custom routine",
           "1 saved harmony",
