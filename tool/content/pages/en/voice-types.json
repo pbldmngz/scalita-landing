@@ -1,0 +1,76 @@
+{
+  "slug": "voice-types",
+  "label": "Voice types",
+  "title": "What is my voice type? Six types, ranges and breaks - Scalita",
+  "description": "Soprano, mezzo-soprano, contralto, tenor, baritone and bass on a keyboard, with typical ranges and break points, and why range alone doesn't decide your type.",
+  "h1": "Voice types, from soprano to bass",
+  "lead": "The six classical voice types, each on a keyboard with its usual range and the two places it tends to shift. Use them as a starting point, not a label.",
+  "intro": "<p>A voice type names where a voice sits and how it behaves: its range, the notes where it's comfortable for most of a song, the places where it shifts gear, and its weight and color. Classical singing uses six main types, and Scalita uses the same six as presets. Pick one, and every exercise starts from that range and those break points until you measure your own.</p><p>The numbers are typical, not rules, and every voice is different. The subtypes listed are there so you know the words; placing a voice in one takes a teacher's ear over months.</p>",
+  "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Soprano",
+      "html": "<p>The highest of the six. What separates a soprano from a mezzo-soprano is less the top note than where the voice is comfortable: a soprano can stay high for long stretches without tiring, and the second shift comes later.</p><p>The usual mix-up runs upward. A young, light voice that reaches high notes easily gets called a soprano before anyone has heard where it's happiest, and it may settle lower as it matures.</p><p>Subtypes: coloratura, soubrette, lyric, spinto and dramatic.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzo-soprano",
+      "html": "<p>The middle of the three higher voices. Next to a soprano, a mezzo-soprano has a fuller, darker middle and tires sooner when a song sits high for a long time, even when the high notes are there. Next to a contralto, the low notes are lighter and the top reaches further.</p><p>Choirs blur this voice. With only soprano and alto parts to choose from, a mezzo sings whichever sits closer, and many grow up sure they're one or the other. Many teachers start by treating a new voice as medium, a mezzo-soprano or a baritone, until it shows otherwise.</p><p>Subtypes: lyric, coloratura and dramatic.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Contralto",
+      "html": "<p>The lowest of the higher voices. A contralto's low notes are heavier and easier than a mezzo-soprano's, and the voice is at home low in the range for whole songs.</p><p>The name causes the first mix-up: alto is a choir part, contralto is the voice type, and plenty of choir altos are mezzo-sopranos, because a choir has no mezzo part. The second is assuming only women sing here. Countertenors are men who sing in this range, mostly in a light head voice or falsetto.</p><p>Subtypes: coloratura, lyric and dramatic.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Tenor",
+      "html": "<p>The highest of the usual lower voices. A tenor and a baritone share most of their range; what separates them is where the voice shifts and where it's happiest. A tenor's shifts come a few notes later than a baritone's, and the voice keeps its ease near the top.</p><p>The mix-up happens in both directions. A young tenor whose top isn't free yet gets placed with the baritones, and a baritone with a few easy high notes gets pushed into tenor parts that sit too high for most of the song.</p><p>Subtypes, from light to heavy: leggero, lyric, spinto, dramatic and the German Heldentenor.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Baritone",
+      "html": "<p>The middle of the lower voices and, like the mezzo-soprano, the medium type many teachers assume first. A baritone's low notes are fuller than a tenor's and lighter than a bass's, and the voice is most comfortable in the middle of its range.</p><p>Choirs usually split lower voices into tenor and bass, so a baritone sings whichever part the piece needs, and some never learn that their voice has a name of its own.</p><p>Subtypes include lyric, Kavalierbariton, Verdi baritone, dramatic and bass-baritone.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Bass",
+      "html": "<p>The lowest of the six, and the voice that shifts earliest. A bass's low notes have a weight a baritone's lack, and the voice stays comfortable down there for a whole song, not just for one note.</p><p>The usual mistake is judging by the lowest note alone: a baritone who can reach a low note isn't a bass if the voice tires down there. A deep speaking voice doesn't settle it either.</p><p>Subtypes include basso profondo, basso cantante, basso buffo and bass-baritone. In Russian choirs, the very lowest singers are called oktavists.</p>"
+    },
+    {
+      "heading": "Range isn't the whole story",
+      "html": "<p>Range is the easiest thing to measure, so it gets the most attention. Teachers listen for four things: range, tessitura (where the voice is comfortable for most of a song), timbre (its color and weight) and the passaggio, the zone where it shifts between registers. Scalita's range result puts it plainly: your voice break is a more reliable indicator of voice type. The break finder adds that voice type also depends on where your voice sounds best and your tone quality.</p><p>Range moves, too. Your range may change with warmup, training, and time of day, so measure it more than once before you trust it.</p><p>And there's no hurry. The voice teacher William Vennard wrote, “I never feel any urgency about classifying a beginning student,” and advised starting in the middle of the voice and working up and down “until the voice classifies itself.”</p><p>The ranges here are the typical figures most references give. The break points are Scalita's presets: for tenor, baritone, bass and mezzo-soprano they match Richard Miller's tables, the soprano's sit within two semitones of his, and he puts a contralto's first shift about half an octave higher than Scalita does.</p>"
+    },
+    {
+      "heading": "How to find yours",
+      "html": "<p>Start with your range. The <a href=\"page:vocal-range-test\">vocal range test</a> listens for your lowest and highest comfortable notes and names the types that range is typical for. Then find where your voice shifts with the <a href=\"page:voice-break-finder\">voice break finder</a>: the piano climbs one note at a time, you sing along, and you tap when your voice wants to change gear. Together they make a better guess than either one alone.</p><p>It's still a guess. A teacher who hears you over a few lessons will notice what no test can, starting with where your voice sounds best. Meanwhile, pick the closest preset on the <a href=\"page:warm-up-piano\">warm-up piano</a>, and if the exercises keep feeling too high or too low, try its neighbor.</p>"
+    },
+    {
+      "heading": "Can your speaking voice tell you your type?",
+      "html": "<p>Not reliably. A study of 75 opera singers found that speaking pitch differed between most voice types on average, but not between all of them, and its conclusion was that speaking pitch can support a classification, never make one. Speaking pitch also shifts with habit, mood and tiredness. Scalita never guesses a type from your speaking voice; it asks you to sing.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Can a man sing alto, or a woman sing tenor?",
+      "a": "<p>Yes. A voice type describes a voice, not the person singing it. Countertenors sing alto, and plenty of choirs have women on the tenor line. In Scalita, pick the preset whose range fits the notes you actually sing.</p>"
+    },
+    {
+      "q": "Does your voice type change over time?",
+      "a": "<p>It can. Voices keep changing through the teens and usually settle in the early to mid twenties, and some singers move to a neighboring type after a few years of training.</p>"
+    },
+    {
+      "q": "Can I sing songs written for another voice type?",
+      "a": "<p>Usually, yes, in a key that suits you. If a song sits too high or too low for most of its length, change the key. Where a song spends its time matters more than its one highest note.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Wikipedia: Voice type (ranges, subtypes, William Vennard on classifying)", "url": "https://en.wikipedia.org/wiki/Voice_type"},
+    {"label": "Wikipedia: Passaggio (Richard Miller's passaggio tables)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"},
+    {"label": "Wikipedia: Voice change (when voices settle)", "url": "https://en.wikipedia.org/wiki/Voice_change"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

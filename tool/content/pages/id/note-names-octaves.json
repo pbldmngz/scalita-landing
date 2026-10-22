@@ -1,0 +1,60 @@
+{
+  "slug": "not-angka-not-huruf",
+  "label": "Nama nada dan oktaf",
+  "title": "Not Angka, Not Huruf, dan Oktaf: C Tengah {{note:C4:intl}} atau C3? - Scalita",
+  "description": "C tengah bisa ditulis {{note:C4:intl}}, Do4, Do3, atau c¹. Cara not huruf, not angka, solmisasi, dan nomor oktaf saling cocok, dan kenapa Jerman menulis H.",
+  "h1": "Not angka, not huruf, dan nomor oktaf",
+  "lead": "Satu tuts piano bisa punya beberapa nama, tergantung tempat kamu belajar musik. Inilah cara sistem penamaan dan nomor oktaf saling cocok, supaya sebuah nada di situs ini berarti tuts yang kamu kira.",
+  "sections": [
+    {
+      "heading": "C tengah dan nomor oktaf",
+      "html": "<p>C tengah (middle C), yaitu C di dekat bagian tengah piano, adalah {{note:C4:intl}} dalam notasi nada ilmiah, sistem internasional yang dipasangkan situs ini dengan setiap nama nada. Nomornya naik satu di setiap C: C terendah di piano 88 tuts adalah C1, C tengah adalah C keempat, dan A yang dipakai orkestra untuk menyetem adalah {{note:A4:intl}}.</p>\n<p>Scalita menulis solmisasi Spanyol dan Turki dengan hitungan yang sama, jadi C tengah adalah Do4. Solmisasi Prancis dan Brasil menghitung satu angka lebih rendah: C tengah adalah Do3 dalam bahasa Prancis dan Dó3 dalam bahasa Portugis Brasil. Bahasa Jerman menandai oktaf dengan huruf besar-kecil dan angka kecil: C tengah adalah c¹, dan C di bawahnya adalah c biasa.</p>"
+    },
+    {
+      "heading": "Kenapa Jerman menulis H",
+      "html": "<p>Dalam bahasa Jerman, nada yang dalam bahasa Inggris disebut B ditulis H, dan B berarti B mol. Kres menambahkan -is dan mol menambahkan -es, jadi F kres adalah Fis dan E mol adalah Es. Penyanyi Jerman yang membaca B versi Inggris akan menyanyi setengah nada lebih rendah dari yang dimaksud, karena itu Scalita memakai nama Jerman dalam bahasa Jerman.</p>"
+    },
+    {
+      "heading": "Do tetap dan do bergerak",
+      "html": "<p>Dalam do tetap (fixed do), do selalu C, re selalu D, dan seterusnya: suku katanya adalah nama nada. Spanyol, Prancis, Italia, Brasil, Turki, dan Amerika Latin menamai nada dengan cara ini.</p>\n<p>Dalam do bergerak (movable do), do adalah nada pertama dari nada dasar apa pun yang sedang dipakai, jadi sebuah lagu yang dinyanyikan dengan do re mi tetap memakai suku kata yang sama di nada dasar mana pun. Kelas musik dan paduan suara di negara-negara berbahasa Inggris memakainya, dan di Indonesia dan Tiongkok gagasan yang sama ditulis dengan angka, 1 untuk do, di bawah judul yang menyebut nada dasarnya, misalnya do = G. Itulah not angka, dan notasi Angka di Scalita bekerja dengan cara ini.</p>"
+    },
+    {
+      "heading": "Cara situs ini menulis nada",
+      "html": "<p>Setiap nama nada di sini berasal dari tabel aplikasi Scalita sendiri: sistem yang biasa dipakai dalam bahasamu lebih dulu, dengan nama internasionalnya di sampingnya kalau keduanya berbeda. Dalam bahasa Indonesia, Scalita memakai not huruf dengan nomor oktaf ilmiah, jadi kedua nama itu sama, misalnya {{note:C4}}. Di aplikasi, kamu bisa berganti antara Huruf, Solmisasi (do = C), Huruf Jerman, dan Angka di pengaturan.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "C tengah itu {{note:C4:intl}} atau C3?",
+      "a": "<p>{{note:C4:intl}}, dalam notasi nada ilmiah yang dipakai kebanyakan materi bernyanyi. Kalau keyboard atau program rekaman menyebutnya C3, atau C5, itu tuts yang sama dengan label lain: standar MIDI hanya menetapkan bahwa C tengah adalah nada nomor 60.</p>"
+    },
+    {
+      "q": "Tuts mana yang merupakan C tengah di piano?",
+      "a": "<p>Di piano 88 tuts, C tengah adalah C keempat dari kiri, di dekat bagian tengah. Setiap C adalah tuts putih tepat di sebelah kiri sepasang tuts hitam.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia: Musical note, tentang C tengah, nama Helmholtz, dan H dalam bahasa Jerman.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (bahasa Prancis): La 440, yang memasangkan la3 dengan A4 dan do3 dengan C4.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia: Solfège, tentang do tetap dan do bergerak.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association: standar penomoran oktaf dan nada MIDI.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

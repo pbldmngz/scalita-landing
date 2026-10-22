@@ -1,0 +1,54 @@
+{
+  "slug": "voice-cracks-high-notes",
+  "label": "Voice cracks and passaggio",
+  "title": "Why your voice cracks on high notes, and the passaggio - Scalita",
+  "description": "A voice crack is a sudden jump between chest and head voice. Where your passaggio sits, what to listen for, and how to practice crossing it without pushing.",
+  "h1": "Why does my voice crack when I sing high?",
+  "lead": "Somewhere in the middle of your range, your voice has to change gear, and a crack is that change happening all at once. Here is where it sits and how to practice it.",
+  "shortAnswer": "<p>Your voice cracks when it jumps from one register to the next instead of easing across. As you sing higher, your vocal folds are stretched, and somewhere in the middle of your range the voice hands over from chest voice to head voice. In the lab, a small, gradual change in that stretch can flip the folds from one way of vibrating to the other in a single jump. The zone where this happens is the passaggio, and every voice has one. On its own, a crack is a slip in coordination, not a sign of damage, and with practice most singers learn to make the handover smoother.</p>",
+  "listenFor": "<p>Sing a slow five-note scale on a light vowel and move it up a half step at a time. The shift tends to show up around the same notes each time, give or take a note from one day to the next. Mark the first key where you notice one of the three signs Scalita's break finder lists:</p>",
+  "misconceptions": "<ul><li><strong>“Good singers don't have a break.”</strong> They do. Every voice changes register; training aims to make the change smooth enough to hide.</li><li><strong>“Push through it.”</strong> For most singers, more air and volume make the crack bigger, and easing off makes the crossing smoother.</li><li><strong>“The break is the top of your range.”</strong> It sits in the middle, and head voice carries on above it.</li><li><strong>“Stay away from the break zone.”</strong> Avoiding it keeps it unfamiliar. Teachers have singers visit it quietly and often instead.</li><li><strong>“A crack means you hurt your voice.”</strong> On its own, no. Hoarseness and pain are a different matter.</li></ul>",
+  "seeProfessional": "<p>A singing teacher is the right person for cracks that come from technique. See a doctor, ideally an ear, nose and throat specialist, if the cracks come with any of these:</p><ul><li>hoarseness that hasn't improved after two weeks</li><li>pain when you sing or swallow</li><li>high notes you used to reach that have gone</li><li>a throat that often feels raw, achy or strained</li></ul><p>A speech-language pathologist who works with singers can help once the cause is known. When you're ill, rest your voice instead of practicing through it.</p>",
+  "sections": [
+    {
+      "heading": "What happens in a crack",
+      "html": "<p>Voice researchers describe two main ways the vocal folds vibrate, called M1 and M2, which singers know as chest voice and head voice. Moving from the first to the second shows up in the lab as a sudden jump in pitch. When the jump is small, the change is smooth and easy to hide. When it's large, you hear a crack, a flip into a lighter sound, or a note that drops out.</p><p>Direction matters too. The voice holds on to chest voice longer on the way up and to head voice longer on the way down, so the note where you crack depends on whether you're climbing or descending.</p>"
+    },
+    {
+      "heading": "Why it gets worse on some days",
+      "html": "<p>For most singers, cracks get worse when they push: more air and more volume to keep chest voice going past the point where it wants to hand over. Singing high without warming up, singing loud for a long time, and being tired or ill all make that more likely. So does a wide, open vowel on the top note of a phrase, which invites the same push.</p>"
+    },
+    {
+      "heading": "It sits in the middle, not at the top",
+      "html": "<p>The shift sits in the middle of your range, which is why it can catch you on notes that aren't even high. Classical teaching describes two shifts with a zone between them, which Scalita calls the break zone. In Scalita's presets, a tenor's first shift sits around {{note:D4}} and the second around {{note:G4}}, and a soprano's around {{note:F4}} and {{note:F5}}. These are averages, and yours may sit a few notes away. The <a href=\"page:voice-types\">voice types</a> page has the presets for every type, and the <a href=\"page:voice-break-finder\">voice break finder</a> helps you find your own first shift.</p>"
+    },
+    {
+      "heading": "How to practice crossing it",
+      "html": "<p>The aim is neither to avoid the shift nor to force through it, but to let it happen gradually. Scalita's Bridge Builder routine works up to it in stages, and you can follow the same order on any piano. First come three patterns that stop before the break, on easy sounds: a tongue trill, a closed “oo” and a buzzing “n” into “ee”. You get used to the notes just under the shift without crossing it. Next, one pattern goes over the break and comes back, each note started with a light “g”. Then a longer scale centers on the zone between your two shifts, on an open “ah”, and another travels up through head voice on five vowels, each started with an “m”.</p><p>The routine ends with a hum that stays below the break. Most steps start on a consonant or a trill rather than a bare vowel, a common way to keep the start of each note gentle. Keep it slow and quiet to medium: the early steps carry the app's Light &amp; Gentle badge, which says to use your softer, higher voice and not push. If a note cracks, let it, and sing the next one lighter rather than louder.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it normal for my voice to crack when I sing high?",
+      "a": "<p>Yes. Every singer has places where the voice changes register, and most have cracked there at some point. Practice makes the change easier to control; it doesn't remove it.</p>"
+    },
+    {
+      "q": "Is a singing crack the same as a voice cracking in puberty?",
+      "a": "<p>They sound alike but have different causes. During puberty the larynx and vocal folds grow quickly, so the voice cracks in speech too, and that settles as the voice matures. The crack this page is about happens in a settled voice as well, around the same notes, as you sing up through the shift.</p>"
+    },
+    {
+      "q": "Can a voice break test tell me my voice type?",
+      "a": "<p>It gives a better hint than range alone. As Scalita's range result puts it, your voice break is a more reliable indicator of voice type. The <a href=\"page:voice-break-finder\">voice break finder</a> names the closest match, and a teacher can confirm it.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Švec, Schutte and Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Roubeau, Henrich and Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Wikipedia: Passaggio (Richard Miller's passaggio tables)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Wikipedia: Voice change", "url": "https://en.wikipedia.org/wiki/Voice_change"},
+    {"label": "NIDCD: Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS: Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "632a9ed9392b82f5e4b5c148b4761426a8658927856c85c4a6c7ffeab5139329"
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "vocal-cool-down",
+  "label": "Vocal cool-down",
+  "title": "Vocal cool-down exercises for after singing - Scalita",
+  "description": "A gentle vocal cool-down for after a show, a long rehearsal or a tiring day: slow trills and hums on a real piano, and what the research says.",
+  "h1": "Vocal cool-down exercises",
+  "lead": "For after a show, a long rehearsal or a lesson, and for days when your voice feels tired: six slow, quiet steps, two lip trills, three hums and one closed vowel, most of them in a small range. It's the Scalita routine Gentle / Recovery, and it takes 7 to 11 minutes on a two-octave range.",
+  "routineId": "gentle_recovery",
+  "whyOrder": "<h2>Why this order</h2><p>A cool-down is a warm-up turned around: instead of widening, everything narrows and slows. Gentle / Recovery opens with a lip trill across your whole range, then stays in windows of an octave or a little more, and it ends on a hum that walks downward at the slowest tempo of the routine, in its smallest window.</p><p>Every step glides from note to note, and none of them works around your voice break. Both trills are lip trills: the app's warm-ups start on the tongue trill, and it keeps the lip trill for a tired or tense voice. The cue for the whole routine is Light & Gentle: use your softer, higher voice and don't push.</p><p>Hums fill half of it. In Kari Ragan's cool-down study, humming and straw phonation were the exercises singers felt helped most with vocal fatigue.</p>",
+  "whatToFeel": "<h2>What to feel</h2><p>Less effort as you go. The buzz of the trills and hums should feel easy and close to the front of your face, and your voice should feel calmer at the end than at the start. Singers in Ragan's study said their speaking voice felt normal again sooner after a cool-down.</p><p>Keep it quiet: the volume you would use with someone sitting next to you, or softer.</p><h3>Common mistakes</h3><ul><li><strong>Turning it into more practice.</strong> Don't stop to fix things or chase notes. That can wait for the next session.</li><li><strong>Singing out.</strong> If a note needs more voice than a hum, leave it out.</li><li><strong>Skipping it because your voice feels fine.</strong> Some of what singers reported came later: less fatigue across the week, and an easier warm-up the next time they sang.</li></ul>",
+  "whenToStop": "<h2>When to stop</h2><p>A cool-down isn't a treatment. If your voice is hoarse, hurts, or has lost part of its range, stop and rest it, and see a doctor if it doesn't clear up, ideally one who works with singers. If you're ill, rest instead of singing, this routine included.</p><p>Stop any step that takes effort. All of it should be possible quietly, and a step that needs more than that is one to skip today.</p>",
+  "next": "<h2>What to do next</h2><p>Give your voice a rest. The next time you sing, start with the <a href=\"page:quick-vocal-warm-up\">quick warm-up</a> or the <a href=\"page:full-vocal-warm-up\">full one</a>. The <a href=\"page:lip-trills\">lip trills</a> page covers the trill this routine is built on.</p><p>If your voice often feels tired after singing, a singing teacher can look at how you sing. In the app, Find My Warmup sends you here whenever you say your voice feels tired or strained, and Adaptive Mode ends every timed session with a cool-down of its own.</p>",
+  "sections": [
+    {
+      "heading": "What the research says",
+      "html": "<p>Not much yet. Cooling down is far less common than warming up: in a survey of 117 singers, 54% always warmed up and 22% cooled down. Kari Ragan, a voice teacher at the University of Washington who has published research on cooling down, wrote in 2018 that the scientific data are still in their infancy.</p><p>In her study, twenty classically trained female singers rated their voices after an hour of singing, one week with a cool-down and one week without. Depending on the questionnaire, 67 to 74% said their voice was better with it, but the improvement wasn't statistically significant, and expert listeners picked out the cool-down week only 46% of the time. An earlier, smaller study with acoustic measures found the effect unclear, and any benefit seemed to come 12 to 14 hours later rather than right away.</p><p>So singers who cool down tend to feel better for it. Whether that's physical or psychological hasn't been settled, and the research doesn't yet show that a cool-down protects your voice. It costs a few minutes, and it's gentle.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do you need to cool down your voice after singing?",
+      "a": "<p>Need is a strong word. The research is thin, but singers who tried a cool-down mostly felt that their voice recovered faster. After a long or loud session it costs you a few minutes and asks very little of your voice.</p>"
+    },
+    {
+      "q": "How long should a vocal cool-down be?",
+      "a": "<p>There's no research-based length. This routine takes 7 to 11 minutes on the presets, depending on the range, and you can stop it whenever you need to. In the app, Adaptive Mode spends the last fifth of a timed session cooling down, about two minutes of a ten-minute session.</p>"
+    },
+    {
+      "q": "Can I cool down with a straw?",
+      "a": "<p>Yes. Straw phonation opened the cool-down protocol in Ragan's study, and singers rated it, together with humming, as the most helpful. Scalita has no straw step. Its lip trills and hums belong to the same family of exercises, where the lips or a closed mouth partly block the air. If you have a straw, slow glides through it in a comfortable range fit right in.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    },
+    {
+      "label": "Ragan (2016). The impact of vocal cool-down exercises: a subjective study of singers' and listeners' perceptions. Journal of Voice 30(6).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26778328/"
+    },
+    {
+      "label": "Gish, Kunduk, Sims and McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "1d90db76381cafa2dd9213d5658264b7bdbc7d1d3580b72feddcd8652fa60d48"
+}

@@ -1,0 +1,23 @@
+{
+  "start": "Iniciar",
+  "stop": "Parar",
+  "listening": "Ouvindo...",
+  "tooQuiet": "Muito baixinho. Cante um pouco mais forte ou chegue mais perto do microfone.",
+  "allow": "Permita o microfone quando o navegador pedir.",
+  "result": "Seu resultado",
+  "share": "Compartilhar",
+  "save": "Salvar imagem",
+  "openInBrowser": "O navegador embutido neste app não consegue usar o microfone. Abra esta página no Chrome ou no Safari.",
+  "androidOnly": "Só Android",
+  "lastTime": "Da última vez",
+  "tryAgain": "Tentar de novo",
+  "play": "Tocar",
+  "loading": "Carregando o piano...",
+  "next": "Próximo",
+  "back": "Voltar",
+  "close": "Fechar",
+  "copyLink": "Copiar link",
+  "copied": "Link copiado",
+  "privacyLine": "Nada é gravado nem enviado. O navegador escuta no seu aparelho, e o microfone desliga quando você aperta Parar.",
+  "noScript": "Esta ferramenta precisa de JavaScript. Todo o resto desta página funciona sem ele."
+}

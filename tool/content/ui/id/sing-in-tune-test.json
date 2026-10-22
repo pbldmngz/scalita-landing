@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Mode",
+    "sing": "Nyanyikan nada ini",
+    "tuner": "Tuner bebas",
+    "ear": "Cek dengar"
+  },
+  "intro": {
+    "sing": "Piano memainkan satu nada. Lalu mikrofon terbuka dan kamu menyanyikan nada itu kembali, dengan vokal apa saja atau dengan humming. Lima nada, satu per satu.",
+    "tuner": "Nyanyikan nada apa saja, atau lakukan humming. Halaman ini menunjukkan nada apa itu dan seberapa jauh kamu dari tengahnya, dalam sen.",
+    "ear": "Dua nada piano berbunyi, satu setelah yang lain. Apakah nada kedua lebih tinggi atau lebih rendah? Tiga pasang, dan mikrofon tetap mati."
+  },
+  "voice": {
+    "label": "Nada untuk",
+    "any": "Suara apa saja",
+    "saved": "Jangkauanmu, {low} sampai {high}",
+    "types": "Jenis suara"
+  },
+  "sing": {
+    "noteOf": "Nada {n} dari {total}",
+    "listen": "Dengarkan pianonya.",
+    "now": "Sekarang nyanyikan kembali, lalu tahan.",
+    "again": "Dengar lagi",
+    "notHeard": "Tidak terdengar, jadi nada ini tidak dihitung.",
+    "measured": "Nada {n}: {offset}"
+  },
+  "offset": {
+    "high": "{cents} terlalu tinggi",
+    "low": "{cents} terlalu rendah",
+    "zero": "Tepat di nadanya",
+    "octaveUp": "{offset}, satu oktaf di atas",
+    "octaveDown": "{offset}, satu oktaf di bawah"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} sen",
+      "other": "{n} sen"
+    },
+    "semitones": {
+      "one": "{n} setengah nada",
+      "other": "{n} setengah nada"
+    },
+    "short": "{n}c"
+  },
+  "result": {
+    "label": "Selisih tipikal",
+    "basis": "{judged} dari {total} nada terukur",
+    "offSay": "Separuh nadamu meleset lebih dari {cents} dari piano, separuhnya kurang dari itu.",
+    "offHigh": "Sebagian besar terlalu tinggi.",
+    "offLow": "Sebagian besar terlalu rendah.",
+    "within10": "Dalam 10 sen",
+    "within25": "Dalam 25 sen",
+    "count": "{n} dari {total}",
+    "notes": "Nada demi nada",
+    "wobble": "Goyangan",
+    "wobbleSay": "Setelah kamu sampai di sebuah nada, nadanya bergeser sekitar {cents} selama kamu menahannya.",
+    "wobbleRead": "Di bawah sekitar 10 sen berarti nadanya tertahan stabil. Vibrato terbaca lebih tinggi, dan itu bagian dari bunyinya, bukan kesalahan.",
+    "wobbleNone": "Nadanya terlalu pendek untuk melihat apakah nadanya bergeser selama kamu menahannya.",
+    "cent": "100 sen sama dengan setengah nada, dari satu tuts piano ke tuts berikutnya.",
+    "sample": "Lima nada itu sampel yang kecil. Putaran berikutnya akan sedikit menggeser angka-angka ini.",
+    "tooFew": "Mikrofon mendengar {judged} dari {total} nada dengan jelas, terlalu sedikit untuk diukur. Coba lagi sedikit lebih keras atau lebih dekat ke mikrofon. Humming juga bisa.",
+    "last": "{label}: {cents}, {date}",
+    "again": "Putaran lagi",
+    "ctaBody": "Latihan Ketepatan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada yang bergerak langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
+    "ctaButton": "Unduh Scalita di Google Play"
+  },
+  "tuner": {
+    "hint": "Nyanyikan nada apa saja, atau lakukan humming."
+  },
+  "ear": {
+    "label": "Lebih tinggi atau lebih rendah",
+    "pairOf": "Pasangan {n} dari {total}",
+    "question": "Apakah nada kedua lebih tinggi atau lebih rendah?",
+    "higher": "Lebih tinggi",
+    "lower": "Lebih rendah",
+    "again": "Dengar lagi",
+    "wentUp": "Nada kedua lebih tinggi, naik {step}.",
+    "wentDown": "Nada kedua lebih rendah, turun {step}.",
+    "score": "Kamu menangkap arah {right} dari {total} pasangan.",
+    "all": "Arahnya tetap tertangkap sampai jarak setengah nada, langkah terkecil di piano.",
+    "some": "Langkah terkecil memang paling sulit didengar di awal. Headphone dan ruangan yang tenang membantu.",
+    "toSing": "Nyanyikan kembali sebuah nada"
+  },
+  "meter": "Level mikrofon",
+  "pianoFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi."
+}

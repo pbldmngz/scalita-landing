@@ -1,0 +1,40 @@
+{
+  "slug": "echauffement-vocal-rapide",
+  "label": "Échauffement rapide",
+  "title": "Échauffement vocal rapide avant de chanter - Scalita",
+  "description": "Un échauffement vocal rapide juste avant de chanter : cinq exercices sur un vrai piano, dans ta tessiture. La routine Express avant scène de Scalita, pas à pas.",
+  "h1": "Échauffement vocal rapide",
+  "lead": "Pour juste avant un cours, une répétition, une audition ou un concert, quand il n'y a pas le temps pour un échauffement complet. C'est la routine Express avant scène de Scalita : cinq exercices dans ta tessiture, volontairement courts.",
+  "routineId": "pre_performance",
+  "whyOrder": "<h2>Pourquoi cet ordre</h2><p>Cinq exercices, d'un son léger au motif le plus large, puis retour à un son léger.</p><ol><li><strong>Un roulement de langue sur une gamme de cinq notes, sur toute ta tessiture.</strong> Un son léger pour couvrir beaucoup de terrain avant d'ouvrir sur les voyelles. Scalita commence par le roulement de langue. Si ta langue maternelle n'a pas de R roulé et que c'est difficile, commence par la vibration des lèvres.</li><li><strong>Un arpège sur M, un fredonnement qui s'ouvre sur une voyelle détendue, proche de la parole.</strong> Le motif s'élargit à une octave.</li><li><strong>Le même arpège sur N.</strong> Cette étape porte la mention <em>Traverser une fois</em> : elle franchit ton passage de voix et revient, une seule fois, pour que ta voix soit déjà passée par le changement avant qu'une chanson le lui demande.</li><li><strong>Une octave et demie sur une voyelle ouverte.</strong> Le motif le plus large de la routine, chanté une fois que la voix est en route.</li><li><strong>Une vibration des lèvres dans une petite fenêtre.</strong> La dernière chose que tu chantes avant d'y aller est quelque chose de facile plutôt que ton plus grand écart.</li></ol><p>Elle va un peu plus vite que l'échauffement complet et dure environ 6 à 8 minutes sur une tessiture de deux octaves. Chaque exercice commence sur une tonalité confortable plutôt que sur ta note la plus grave, monte jusqu'au haut de son étendue, puis redescend tonalité par tonalité jusqu'en bas.</p>",
+  "whatToFeel": "<h2>Ce qu'il faut sentir</h2><p>Sur les vibrations, un bourdonnement égal aux lèvres ou au bout de la langue, entretenu par un souffle régulier, pas par l'effort. Sur les étapes en M et en N, le bourdonnement que tu sens dans les lèvres et le nez en fredonnant doit continuer dans la voyelle. Sur l'étape large, une mâchoire souple qui descend un peu, comme si tu commençais à bâiller.</p><p>À la fin, chanter devrait être plus facile qu'au début. Si c'est plus dur, lis la partie sur quand s'arrêter.</p><h3>Erreurs fréquentes</h3><ul><li><strong>Chanter au volume de la scène.</strong> Un volume moyen ou plus doux suffit ici. Garde le volume pour la scène.</li><li><strong>Aller chercher les tonalités du haut.</strong> Si une tonalité te semble trop loin, laisse-la passer et reprends à l'exercice suivant.</li><li><strong>Lever le menton sur les aigus.</strong> Garde la tête droite et laisse bouger la hauteur, pas ton cou.</li><li><strong>Lutter contre une vibration qui s'arrête sans cesse.</strong> Relâche les lèvres ou la langue, garde l'air régulier, ou passe à l'autre vibration.</li></ul>",
+  "whenToStop": "<h2>Quand s'arrêter</h2><p>Arrête-toi si quelque chose fait mal, si ta gorge gratte ou brûle, ou si ta voix devient plus rauque au lieu de s'éclaircir. Un échauffement ne doit jamais être quelque chose que tu forces.</p><p>Les notes en dehors de ta voix ne sont pas un test. L'arpège qui traverse ton passage est placé autour du passage, pas dans ta tessiture, donc sur certains préréglages il commence sous les notes que tu peux chanter. Laisse passer en silence toute tonalité trop grave ou trop aiguë, et reprends quand le piano arrive sur des notes faciles. Chanter plus doucement est toujours permis.</p>",
+  "next": "<h2>Et ensuite</h2><p>Va chanter. Les jours où tu as plus de temps, l'<a href=\"page:full-vocal-warm-up\">échauffement complet</a> passe plus longtemps sur les vibrations, le chant bouche fermée et ton passage. Après un long concert ou une longue répétition, le <a href=\"page:vocal-cool-down\">retour au calme</a> est lent et doux exprès.</p><p>Si aucun des préréglages ne correspond à ta voix, le <a href=\"page:vocal-range-test\">test de tessiture</a> trouve ta note la plus grave et ta note la plus aiguë, pour que l'échauffement suive ta propre tessiture. Dans l'application, le Mode adaptatif peut aussi construire un échauffement calé sur cinq minutes.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Un échauffement vocal de 5 minutes, ça suffit ?",
+      "a": "<p>C'est une durée courante. Dans une enquête auprès de 117 chanteurs, 5 à 10 minutes était la durée d'échauffement la plus appréciée. Cette routine dure 6 à 8 minutes sur une tessiture de deux octaves. Avant une longue répétition ou un rôle exigeant, l'échauffement complet te donne plus de temps sur les motifs larges et autour de ton passage.</p>"
+    },
+    {
+      "q": "Combien de temps avant un concert faut-il s'échauffer ?",
+      "a": "<p>Aucune étude ne donne de chiffre. Termine assez près du début pour que ta voix ne reste pas longtemps silencieuse entre les deux. Si tu dois attendre, fredonne doucement de temps en temps jusqu'à ton entrée en scène.</p>"
+    },
+    {
+      "q": "Existe-t-il un échauffement rapide pour voix de femme ou d'homme ?",
+      "a": "<p>C'est le même échauffement pour tout le monde, seule la tonalité change. Choisis le préréglage le plus proche de ta voix ou règle ta propre tessiture. Avec les préréglages, il dure environ 6 minutes pour soprano, mezzo-soprano et contralto, et 7 à 8 pour ténor, baryton et basse.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims et McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "7165fbac2860399712ff0467ca1532a567d0a54622ec284650037371a033778e"
+}

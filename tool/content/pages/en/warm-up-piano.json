@@ -1,0 +1,60 @@
+{
+  "slug": "warm-up-piano",
+  "label": "Warm-up piano",
+  "title": "Vocal Warm-Up Piano: Free Scales in Your Range - Scalita",
+  "description": "Vocal warm-up scales and routines on a real piano, played in your range: choose a voice type or your own lowest and highest notes. Free, in your browser.",
+  "h1": "Vocal warm-up piano",
+  "lead": "A warm-up video is recorded in one set of keys. This piano plays Scalita's scales and routines in yours: choose a voice type or your own lowest and highest notes, and press Play.",
+  "toolId": "player",
+  "instructions": "<h2>How to use it</h2><ol><li>Choose a voice type, or set your own lowest and highest notes. If you don't know them, the <a href=\"page:vocal-range-test\">vocal range test</a> finds them in about a minute.</li><li>Choose a scale or a routine. The pattern, the syllable to sing, the tempo and the style show before you start.</li><li>Press Play and sing along. Before each new key there's a moment to breathe and a short chord to set it up.</li><li>Press Stop whenever you like.</li></ol><p>The piano doesn't use the microphone, and nothing downloads until you press Play.</p>",
+  "sampleResult": "<h2>What you'll hear</h2><p>Choose Tenor and the 5 Note scale. The first key starts on {{note:D3}}: the piano plays {{note:D3}} up to {{note:A3}} and back down, five notes up and four down. Each repeat moves up a half step until the top of the pattern reaches {{note:C5}}. Then the keys come back down, past where they began, until the scale starts on {{note:C3}}, the bottom of a tenor's range. That's 33 repeats, each in a new key.</p><p>Choose a routine instead, like Pre-Performance Quick, and the piano plays its exercises one after another. With the Tenor preset it takes about 8 minutes.</p>",
+  "notClaimed": "<h2>What this piano doesn't do</h2><p>It plays and doesn't listen, so it can't tell you if you're on pitch or pushing too hard. It plays one scale or routine at a time and saves nothing between visits. It isn't a lesson, either. If a note hurts or your voice feels tired, stop.</p>",
+  "sections": [
+    {
+      "heading": "Why your range matters",
+      "html": "<p>Most warm-up videos come in a “male” and a “female” version, each in fixed keys, and plenty of voices fit neither. When a video's scale climbs past your comfortable top, you either push or drop out. Here you choose a voice type, or skip the labels and set your own lowest and highest notes. Each exercise starts in a comfortable key for that range and stays inside it.</p>"
+    },
+    {
+      "heading": "What it plays",
+      "html": "<p>The same scales and routines as the Scalita app, with the same patterns, syllables, tempos and order. That includes the patterns singers use most: in a survey of 117 voice students and professional singers, the most common warm-up exercises included five-note scales, octave scales and arpeggios (Gish and colleagues, 2012).</p><p>A scale plays one pattern through your range. A routine plays several exercises in a row, the way the app runs them.</p>"
+    },
+    {
+      "heading": "The piano",
+      "html": "<p>The sound is the Salamander Grand Piano, recorded by Alexander Holm: the same piano the app plays, retuned so every note sits on its pitch. To keep the page light it uses 20 recorded notes and shifts each one by at most a semitone to fill the keys between. Only the notes your range needs load, and only after you press Play.</p>"
+    },
+    {
+      "heading": "Singing along",
+      "html": "<ul><li>Sing the syllable shown, at a medium volume. If it feels awkward, a hum works on any pattern.</li><li>Keep the top keys light. If one feels like a stretch, stop and set a narrower range instead of pushing.</li><li>Use the speaker or headphones, whichever you like. Nothing is listening.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Which warm-up should I start with?",
+      "a": "<p>If you have a few minutes, try a short routine like Pre-Performance Quick. If you only want to wake your voice up, hum the 5 Note scale. The <a href=\"page:vocal-warm-ups\">warm-up guides</a> walk through the app's routines step by step.</p>"
+    },
+    {
+      "q": "Which voice type should I choose?",
+      "a": "<p>The one whose range feels closest to yours, or none: set your own lowest and highest notes instead. The <a href=\"page:vocal-range-test\">vocal range test</a> finds them in about a minute, and the <a href=\"page:voice-types\">voice types guide</a> shows what each one covers.</p>"
+    },
+    {
+      "q": "Can I save a routine or my range?",
+      "a": "<p>Not here. This piano is a sample of the Scalita app, which keeps your range, your own scales and routines, and your practice history on your phone.</p>"
+    },
+    {
+      "q": "Does it work on a phone?",
+      "a": "<p>Yes, in a recent browser on a phone or a computer. On an iPhone, if you hear nothing, check that the ring switch isn't set to silent.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims and McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Salamander Grand Piano V3 by Alexander Holm, the piano samples",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

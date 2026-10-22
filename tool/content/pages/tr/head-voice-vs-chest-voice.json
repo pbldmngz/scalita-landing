@@ -1,0 +1,58 @@
+{
+  "slug": "kafa-sesi-gogus-sesi",
+  "label": "Kafa ve göğüs sesi",
+  "title": "Kafa sesi ve göğüs sesi: miks ses ve falset - Scalita",
+  "description": "Göğüs sesi ve kafa sesi, ses tellerinin iki titreşim biçimidir; adlarını hissedildikleri yerden alırlar. Nasıl ayırt edilir, nerede geçilir, miks ne demek.",
+  "h1": "Kafa sesi ve göğüs sesi",
+  "lead": "Her seste olan iki ses bölgesi; adlarını şarkıcıların onları hissettiği yerden alırlar ve ikisi de aynı yerde üretilir. Onları nasıl ayırt edersin, miks ve falset nereye oturur?",
+  "shortAnswer": "<p>Göğüs sesi, çoğu insanın konuştuğu, daha pes ve daha dolgun ses bölgesidir. Kafa sesi onun üstündeki daha hafif ses bölgesidir. İkisini de ses tellerin üretir: adlar, sesin nereden geldiğini değil, şarkıcıların titreşimi nerede hissettiğini anlatır. Ses araştırmacıları bunlara iki gırtlak mekanizması der: M1 ve M2. Göğüs sesinde teller kütlelerinin daha büyük bir kısmıyla titreşir; kafa sesinde daha ince gerilir ve daha azıyla titreşirler. İkisi örtüşür: çoğu sesin ortasında, aynı notanın ikisiyle de söylenebildiği, çoğu zaman bir oktav kadar bir kesim vardır.</p>",
+  "listenFor": "<p>Göğüs sesinden kafa sesine geçtiğinin işaretleri:</p><ul><li>Titreşim göğsünden yüzüne ve başına doğru çıkar.</li><li>Ses daha hafif ve daha yuvarlak, bazen daha nefesli olur.</li><li>Her yukarı adım bir öncekinden daha çok çaba istemez olur.</li></ul><p>Bunun yerine göğüs sesine fazla uzun tutunursan değişim bir anda gelir ve Scalita'nın geçiş bölgesi testinin dokunmanı istediği işaretlerden birini fark edersin:</p>",
+  "misconceptions": "<ul><li><strong>“Kafa sesi kafanda üretilir.”</strong> İki ses bölgesini de ses telleri üretir. Kafa ve göğüs, titreşimi hissettiğin yerlerdir, sesin başladığı yer değil.</li><li><strong>“Erkeklerin falseti, kadınların kafa sesi vardır.”</strong> Her seste iki ana mekanizma da vardır. Bunları tanımlayan çalışmalar kadınları ve erkekleri, eğitimli ve eğitimsiz şarkıcıları ölçtü.</li><li><strong>“Göğüs sesi tiz notalar için yanlıştır.”</strong> Pek çok tarz, aralığın epey yukarısına kadar göğüs ağırlıklı bir ses kullanır. Önemli olan oraya çıkmanın güç gerektirip gerektirmediğidir.</li><li><strong>“Miks üçüncü bir ses bölgesidir.”</strong> Fransızların voix mixte dediği sesi ölçen çalışma, onun iki ana mekanizmadan birinde üretildiğini buldu.</li></ul>",
+  "seeProfessional": "<p>Kafa sesiyle ilgili sorunların çoğu teknikten kaynaklanır ve sorulacak kişi bir şan öğretmenidir. Eskiden söyleyebildiğin kafa sesi notaları kaybolursa, sesin iki hafta sonra hâlâ kısıksa, şarkı söylemek acıtıyorsa ya da konuşmak çaba istemeye başladıysa bir doktora, mümkünse bir kulak burun boğaz uzmanına görün. Bir doktor baktıktan sonra bir dil ve konuşma terapisti, sesini kullanma biçimini değiştirmene yardım edebilir. Hastayken sesini dinlendir, çalışma beklesin.</p>",
+  "sections": [
+    {
+      "heading": "Her biri nasıl hissettirir ve nasıl duyulur",
+      "html": "<p>Göğüs sesi konuşmak gibi hissettirir. Titreşim aşağıda, göğsünde ve boğazında durur; ses dolgundur ve konuşmaya yakındır. Yukarı çıktıkça onu böyle tutmak gittikçe daha çok çaba ister.</p><p>Kafa sesi daha hafif hissettirir. Titreşim yüzüne ve başına doğru çıkar, ses daha yuvarlak olur ve tiz notalar daha az çaba ister. Pes seslerde değişimi duymak çoğu zaman kolaydır; tiz seslerde ikisi o kadar yakından harmanlanabilir ki geçişi fark etmek zorlaşır.</p><p>Hiçbiri tek doğru değildir. Çoğu şarkı ikisini de kullanır ve çoğu eğitim, aralarında sesin karar verdiğinde değil, senin seçtiğinde geçmeyi amaçlar.</p>"
+    },
+    {
+      "heading": "Nerede geçersin",
+      "html": "<p>Geçiş aralığının ortasında, şarkıcıların passaggio, Scalita'nın ise geçiş bölgen dediği bölgede olur. Scalita'nın hazır ayarları bir tenorun ilk geçişini {{note:D4}}, bir sopranonunkini {{note:F4}} civarına koyar; gerçek sesler birkaç nota aşağıya ya da yukarıya düşer. Geçiş yönle de kayar: yukarı çıkarken, aşağı inerken olduğundan daha yukarıda gelme eğilimindedir. <a href=\"page:voice-break-finder\">Geçiş bölgesi testi</a> seninkini bulmana yardım eder; <a href=\"page:voice-cracks-high-notes\">sesin neden çatladığını</a> anlatan sayfa da geçiş ani olduğunda neler olduğunu açıklar.</p>"
+    },
+    {
+      "heading": "Kendi sesinde ikisini de bul",
+      "html": "<p>Bir arkadaşını selamlar gibi rahat bir “hey” de, sonra onu rahat, pes bir notada söyle: bu göğüs sesi. Şimdi birkaç nota yukarıda, baykuş gibi kısık ve öten bir “hu” çıkar: bu kafa sesi. Sonra hafif bir ünlüyle yavaş bir beş sesli gam söyle ve onu her seferinde yarım ses yükselt. Ortada bir yerde zorlama isteği hissedebilirsin. Bunun yerine sesin hafiflemesine izin ver ve değiştiği tonu fark et. <a href=\"page:warm-up-piano\">Ses açma piyanosu</a> gamı senin aralığında çalar.</p>"
+    },
+    {
+      "heading": "Miks ve falset: Scalita'nın ses bölgesi için kullanmadığı iki kelime",
+      "html": "<p><strong>Miks</strong> ya da miks ses, genellikle kafa sesinin devraldığı yerde göğüs sesinin dolgunluğunun bir kısmını koruyan, böylece geçişin zor duyulduğu bir ses demektir. Öğretmenler kelimeyi farklı şeyler için kullanır ve araştırmalar arkasında ayrı bir mekanizma bulmadı: Fransızların voix mixte dediği sesi kullanan beş profesyonel şarkıcıyla yapılan bir çalışma, her notanın açıkça tek bir mekanizmada, M1 ya da M2'de üretildiğini buldu; üçüncü, karışık bir mekanizmada değil. Scalita'da Miks Ses bir ses bölgesi değil, pes ve tiz sesin arasındaki geçişi yumuşatmayı amaçlayan egzersizlere konan bir etikettir.</p><p><strong>Falset</strong> genellikle kafa sesi mekanizmasının en hafif, çoğu zaman nefesli sesi demektir; en çok erkek seslerinden bilinir. Scalita bu kelimeyi kullanmaz: uygulamadaki aralığın göğüs ve kafa sesini kapsar; onun hafif tepesine ne ad vereceğin, sen ve öğretmenin arasındadır.</p>"
+    },
+    {
+      "heading": "Göğüs ve kafa sesinin ötesi",
+      "html": "<p>Scalita, her birinin kendi isteğe bağlı aralığı ve rutini olan üç ses bölgesini daha ana aralığının dışında tutar: subharmonik, göğüs sesinin altındaki çatırtılı notalar; flajöle, kafa sesinin üstündeki ince, flüt gibi tını; ve ıslık sesi, sesin en tepesi, flajölenin üstü. Pek çok kaynak flajöle ve ıslık sesini tek bir şeyin iki adı olarak kullanır; Scalita onları ayrı çalıştırır. Bu rutinlerin hiçbiri senden yeni bir en tiz notanın peşine düşmeni istemez ve Islık Kâşifi baştan sona kısık sesle kalır.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kafa sesi falsetle aynı şey mi?",
+      "a": "<p>Kime sorduğuna bağlı. Pek çok öğretmen falset kelimesini kafa sesi mekanizmasının daha hafif, daha nefesli bir versiyonu için, kafa sesini de daha dolgun bir versiyonu için kullanır; diğerleri iki kelimeyi tek bir şey sayar. Şan öğretmeni Richard Miller kadın falsetini mantıksız bulmuştu, başka yazarlar ise ondan söz eder. Öğretmenin bu çizgiyi bir yere çekiyorsa onunkini kullan.</p>"
+    },
+    {
+      "q": "Kadınların göğüs sesi var mı?",
+      "a": "<p>Evet. Çoğu kadın göğüs sesiyle konuşur ve onu şarkı söyleme aralığının ilk geçişin altında kalan pes kısmı için kullanır.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (özet)", "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"},
+    {"label": "Roubeau, Henrich ve Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (özet)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Švec, Schutte ve Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (özet)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Castellengo, Chuberre ve Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)", "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"},
+    {"label": "Wikipedia (İngilizce): Chest voice", "url": "https://en.wikipedia.org/wiki/Chest_voice"},
+    {"label": "Wikipedia (İngilizce): Head voice", "url": "https://en.wikipedia.org/wiki/Head_voice"},
+    {"label": "Wikipedia (İngilizce): Falsetto (kadın falseti tartışması)", "url": "https://en.wikipedia.org/wiki/Falsetto"},
+    {"label": "Wikipedia (İngilizce): Whistle register (flageolet olarak da anılır)", "url": "https://en.wikipedia.org/wiki/Whistle_register"},
+    {"label": "NIDCD (İngilizce): Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS (İngilizce): Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

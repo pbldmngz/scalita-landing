@@ -1,0 +1,1642 @@
+[
+  {
+    "doReMi": false,
+    "id": "Trr",
+    "pitchCompatible": false,
+    "respellings": {
+      "de": "Trr",
+      "en": "Trr",
+      "es": "Trr",
+      "fr": "Trr",
+      "id": "Trr",
+      "pt": "Trr",
+      "tr": "Trr"
+    },
+    "tips": {
+      "de": "Zungentriller. Zunge locker lassen, hinter den Schneidezähnen vibrieren. Der leichtere zum Einstieg, aber wenn du verspannt bist, wechsle zum Lippenflattern (Prr).",
+      "en": "Tongue trill. Keep the tongue relaxed and let it vibrate behind the front teeth. The easier one to start with, but if you feel tense, switch to the lip trill (Prr).",
+      "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
+      "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
+      "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+      "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+      "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
+    },
+    "trill": "tongue",
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "range_extension",
+        "power_volume",
+        "agility_runs",
+        "breath_control",
+        "pre_performance",
+        "do_re_mi",
+        "heavy_rock",
+        "classical_opera",
+        "bridge_builder",
+        "vocal_coach_1"
+      ],
+      "steps": 11
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Prr",
+    "pitchCompatible": false,
+    "respellings": {
+      "de": "Prr",
+      "en": "Prr",
+      "es": "Prr",
+      "fr": "Prr",
+      "id": "Prr",
+      "pt": "Prr",
+      "tr": "Prr"
+    },
+    "tips": {
+      "de": "Lippenflattern. Lockere Lippen, gleichmäßige Luft, kein Kieferdruck. Braucht eine gute Atemstütze und löst Verspannungen.",
+      "en": "Lip trill. Loose lips, steady air, no jaw tension. It needs good breath support, and it relaxes a tense voice.",
+      "es": "Vibración de labios. Labios sueltos, aire constante, sin tensión en la mandíbula. Necesita buen apoyo respiratorio y relaja una voz tensa.",
+      "fr": "Vibration des lèvres. Lèvres souples, air régulier, mâchoire détendue. Elle demande un bon soutien du souffle et détend une voix crispée.",
+      "id": "Getar bibir. Bibir kendur, aliran udara stabil, rahang tidak tegang. Butuh dukungan napas yang baik, dan melemaskan suara yang tegang.",
+      "pt": "Vibração de lábios. Lábios soltos, ar constante, sem tensão na mandíbula. Pede um bom apoio respiratório e relaxa uma voz tensa.",
+      "tr": "Dudak trili. Dudaklar gevşek, hava sabit, çenede gerginlik yok. İyi nefes desteği ister ve gergin bir sesi gevşetir."
+    },
+    "trill": "lip",
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "power_volume",
+        "breath_control",
+        "gentle_recovery",
+        "pre_performance",
+        "heavy_rock",
+        "vocal_coach_1"
+      ],
+      "steps": 16
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Hmm",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Hmm",
+      "en": "Hmm",
+      "es": "Hmm",
+      "fr": "Hmm",
+      "id": "Hmm",
+      "pt": "Hmm",
+      "tr": "Hmm"
+    },
+    "tips": {
+      "de": "Summen mit geschlossenem Mund. Spür das Vibrieren in Nase und Stirn.",
+      "en": "Closed-mouth hum. Feel the buzz in your nose and forehead.",
+      "es": "Tarareo con boca cerrada. Siente la vibración en nariz y frente.",
+      "fr": "Bouche fermée. Sens le bourdonnement dans le nez et le front.",
+      "id": "Humming dengan mulut tertutup. Rasakan getarannya di hidung dan dahi.",
+      "pt": "Murmúrio de boca fechada. Sinta a vibração no nariz e na testa.",
+      "tr": "Ağız kapalı mırıldanma. Titreşimi burnunda ve alnında hisset."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "range_extension",
+        "power_volume",
+        "gentle_recovery",
+        "do_re_mi",
+        "heavy_rock",
+        "classical_opera",
+        "bridge_builder",
+        "flageolet_bridge",
+        "whistle_explorer"
+      ],
+      "steps": 14
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Zzz",
+    "pitchCompatible": false,
+    "respellings": {
+      "de": "Sss",
+      "en": "Zzz",
+      "es": "Zzz",
+      "fr": "Zzz",
+      "id": "Zzz",
+      "pt": "Zzz",
+      "tr": "Zzz"
+    },
+    "tips": {
+      "de": "Stimmhafter Reibelaut. Zähne zusammen, gleichmäßiges Summen. Gut für den Stimmlippenschluss.",
+      "en": "Voiced fricative. Teeth together, steady buzz. Great for cord closure.",
+      "es": "Fricativa sonora. Dientes juntos, zumbido constante. Ideal para cierre cordal.",
+      "fr": "Fricative sonore. Dents serrées, bourdonnement régulier. Idéal pour la fermeture des cordes.",
+      "id": "Frikatif bersuara. Gigi rapat, dengung stabil. Bagus untuk penutupan pita suara.",
+      "pt": "Fricativa sonora. Dentes juntos, zumbido constante. Ótima para o fechamento das pregas.",
+      "tr": "Ötümlü sürtünmeli ses. Dişler kapalı, sabit bir vızıltı. Ses teli kapanışı için birebir."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ssss",
+    "pitchCompatible": false,
+    "respellings": {
+      "de": "Ssss",
+      "en": "Ssss",
+      "es": "Ssss",
+      "fr": "Ssss",
+      "id": "Ssss",
+      "pt": "Ssss",
+      "tr": "Ssss"
+    },
+    "tips": {
+      "de": "Stimmloses Zischen. Ausatmung steuern, Zwerchfell aktivieren.",
+      "en": "Unvoiced hiss. Control your exhale, engage the diaphragm.",
+      "es": "Silbido sin voz. Controla la exhalación, activa el diafragma.",
+      "fr": "Sifflement sourd. Contrôle ton expiration, engage le diaphragme.",
+      "id": "Desis tanpa suara. Kendalikan embusanmu, aktifkan diafragma.",
+      "pt": "Chiado surdo. Controle a saída de ar, ative o diafragma.",
+      "tr": "Ötümsüz tıslama. Nefes verişini kontrol et, diyaframı çalıştır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "breath_control"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ah",
+      "en": "Ah",
+      "es": "Ah",
+      "fr": "Ah",
+      "id": "A",
+      "pt": "Ah",
+      "tr": "A"
+    },
+    "tips": {
+      "de": "Offener Vokal wie in 'Vater'. Lockerer Kiefer, tiefe Zunge.",
+      "en": "Open vowel as in 'father'. Relaxed jaw, tongue low.",
+      "es": "Vocal abierta como en 'padre'. Mandíbula relajada, lengua baja.",
+      "fr": "Voyelle ouverte comme dans « pâte ». Mâchoire détendue, langue basse.",
+      "id": "Vokal terbuka seperti pada 'ayah'. Rahang santai, lidah rendah.",
+      "pt": "Vogal aberta, o 'a' de 'casa'. Mandíbula relaxada, língua baixa.",
+      "tr": "'Baba'daki gibi açık ünlü. Çene gevşek, dil aşağıda."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "range_extension",
+        "agility_runs",
+        "breath_control",
+        "pre_performance",
+        "heavy_rock",
+        "classical_opera",
+        "bridge_builder"
+      ],
+      "steps": 12
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ie",
+      "en": "Ee",
+      "es": "Ii",
+      "fr": "Ii",
+      "id": "I",
+      "pt": "I",
+      "tr": "İ"
+    },
+    "tips": {
+      "de": "Heller Vokal wie in 'Liebe'. Zunge hoch und vorn, Lippen breit.",
+      "en": "Bright vowel as in 'see'. Tongue high and forward, lips spread.",
+      "es": "Vocal brillante como en 'sí'. Lengua alta y adelante, labios abiertos.",
+      "fr": "Voyelle claire comme le « i » de « lit ». Langue haute et en avant, lèvres étirées.",
+      "id": "Vokal cerah seperti pada 'ini'. Lidah tinggi dan maju, bibir melebar.",
+      "pt": "Vogal brilhante, o 'i' de 'vida'. Língua alta e à frente, lábios esticados.",
+      "tr": "'İyi'deki gibi parlak ünlü. Dil yukarıda ve önde, dudaklar yayvan."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "agility_runs",
+        "classical_opera"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Eh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ä",
+      "en": "Eh",
+      "es": "Eh",
+      "fr": "È",
+      "id": "É",
+      "pt": "É",
+      "tr": "E"
+    },
+    "tips": {
+      "de": "Mittlerer Vokal wie in 'Bett'. Zunge mittelhoch, lockerer Kiefer.",
+      "en": "Mid vowel as in 'bed'. Tongue mid-height, relaxed jaw.",
+      "es": "Vocal media como en 'ver'. Lengua a media altura, mandíbula relajada.",
+      "fr": "Voyelle médiane comme le « è » de « mère ». Langue à mi-hauteur, mâchoire détendue.",
+      "id": "Vokal tengah seperti pada 'meja'. Lidah setengah tinggi, rahang santai.",
+      "pt": "Vogal média, o 'é' de 'pé'. Língua a meia altura, mandíbula relaxada.",
+      "tr": "'Ekmek'teki gibi orta ünlü. Dil orta yükseklikte, çene gevşek."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Oh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Oh",
+      "en": "Oh",
+      "es": "Oh",
+      "fr": "Oh",
+      "id": "O",
+      "pt": "Ô",
+      "tr": "O"
+    },
+    "tips": {
+      "de": "Runder Vokal wie in 'Boot'. Runde Lippen, Zunge mittig-hinten.",
+      "en": "Rounded vowel as in 'go'. Lips round, tongue mid-back.",
+      "es": "Vocal redondeada como en 'sol'. Labios redondos, lengua atrás.",
+      "fr": "Voyelle arrondie comme dans « eau ». Lèvres rondes, langue mi-arrière.",
+      "id": "Vokal bulat seperti pada 'toko'. Bibir membulat, lidah tengah belakang.",
+      "pt": "Vogal arredondada, o 'ô' de 'avô'. Lábios redondos, língua média e recuada.",
+      "tr": "'Okul'daki gibi yuvarlak ünlü. Dudaklar yuvarlak, dil ortada ve geride."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "classical_opera"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Oo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Uh",
+      "en": "Oo",
+      "es": "Uu",
+      "fr": "Ou",
+      "id": "U",
+      "pt": "U",
+      "tr": "U"
+    },
+    "tips": {
+      "de": "Geschlossener Vokal wie in 'Blume'. Kleine runde Lippenöffnung, Zunge hinten.",
+      "en": "Closed vowel as in 'moon'. Small round lip opening, tongue back.",
+      "es": "Vocal cerrada como en 'tú'. Apertura labial pequeña y redonda.",
+      "fr": "Voyelle fermée comme le « ou » de « loup ». Petite ouverture ronde, langue en arrière.",
+      "id": "Vokal tertutup seperti pada 'buku'. Bukaan bibir bulat kecil, lidah mundur.",
+      "pt": "Vogal fechada, o 'u' de 'lua'. Abertura pequena e redonda, língua atrás.",
+      "tr": "'Uzun'daki gibi kapalı ünlü. Dudak açıklığı küçük ve yuvarlak, dil geride."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock",
+        "bridge_builder"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Mah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Mah",
+      "en": "Mah",
+      "es": "Mah",
+      "fr": "Mah",
+      "id": "Ma",
+      "pt": "Má",
+      "tr": "Ma"
+    },
+    "tips": {
+      "de": "Summen ins offene 'a'. Leichter Einsatz, warmer, resonanter Klang.",
+      "en": "Hum into open Ah. Easy onset, warm resonant tone.",
+      "es": "Tarareo hacia Ah abierta. Inicio suave, tono cálido.",
+      "fr": "Bourdonnement vers un Ah ouvert. Attaque facile, son chaud et résonant.",
+      "id": "Humming ke A terbuka. Awal nada mudah, warna hangat dan beresonansi.",
+      "pt": "Murmúrio para o 'a' aberto. Ataque fácil, som quente e ressonante.",
+      "tr": "Mırıltıdan açık A sesine geç. Yumuşak atak, sıcak ve rezonanslı ton."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "range_extension",
+        "power_volume"
+      ],
+      "steps": 3
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Mee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Mi",
+      "en": "Mee",
+      "es": "Mi",
+      "fr": "Mi",
+      "id": "Mi",
+      "pt": "Mi",
+      "tr": "Mi"
+    },
+    "tips": {
+      "de": "Summen ins helle 'i'. Vorderer Sitz, klarer Klang.",
+      "en": "Hum into bright Ee. Forward resonance, clear tone.",
+      "es": "Tarareo hacia una 'i' brillante. Resonancia frontal, tono claro.",
+      "fr": "Bourdonnement vers un I clair. Résonance en avant, son net.",
+      "id": "Humming ke I cerah. Resonansi depan, warna jernih.",
+      "pt": "Murmúrio para o 'i' brilhante. Ressonância frontal, som claro.",
+      "tr": "Mırıltıdan parlak İ sesine geç. Önde rezonans, net ton."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "agility_runs",
+        "subharmonic_warmup"
+      ],
+      "steps": 4
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Meh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Mä",
+      "en": "Meh",
+      "es": "Meh",
+      "fr": "Mè",
+      "id": "Mé",
+      "pt": "Mé",
+      "tr": "Me"
+    },
+    "tips": {
+      "de": "Summen ins mittlere 'ä'. Leichte Resonanz, sprechnaher Sitz.",
+      "en": "Hum into mid Eh. Easy resonance, speech-like placement.",
+      "es": "Tarareo hacia Eh media. Resonancia fácil, colocación hablada.",
+      "fr": "Bourdonnement vers un È médian. Résonance facile, placement parlé.",
+      "id": "Humming ke É tengah. Resonansi mudah, penempatan seperti bicara.",
+      "pt": "Murmúrio para o 'é' médio. Ressonância fácil, colocação de fala.",
+      "tr": "Mırıltıdan orta E sesine geç. Rahat rezonans, konuşur gibi yerleştirme."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Moo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Muh",
+      "en": "Moo",
+      "es": "Mu",
+      "fr": "Mou",
+      "id": "Mu",
+      "pt": "Mu",
+      "tr": "Mu"
+    },
+    "tips": {
+      "de": "Summen ins 'u'. Sanfter Start, dunkler, warmer Klang.",
+      "en": "Hum into Oo. Gentle start, dark warm tone.",
+      "es": "Tarareo hacia la 'u'. Inicio suave, tono oscuro y cálido.",
+      "fr": "Bourdonnement vers un Ou. Départ doux, son sombre et chaud.",
+      "id": "Humming ke U. Awal yang lembut, warna gelap dan hangat.",
+      "pt": "Murmúrio para o 'u'. Início suave, som escuro e quente.",
+      "tr": "Mırıltıdan U sesine geç. Yumuşak başlangıç, koyu ve sıcak ton."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "range_extension",
+        "breath_control",
+        "gentle_recovery",
+        "whistle_explorer"
+      ],
+      "steps": 4
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Mum",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Mamm",
+      "en": "Mum",
+      "es": "Mam",
+      "fr": "Mam",
+      "id": "Mam",
+      "pt": "Mam",
+      "tr": "Mam"
+    },
+    "tips": {
+      "de": "Summen ins geschlossene 'a'. Entspannt, sprechnah.",
+      "en": "Hum into closed Uh. Relaxed, speech-like quality.",
+      "es": "Tarareo hacia una 'a' cerrada. Relajado, calidad hablada.",
+      "fr": "Bourdonnement vers un A fermé. Détendu, proche de la parole.",
+      "id": "Humming ke A tertutup. Santai, mirip cara bicara.",
+      "pt": "Murmúrio para o 'a' fechado. Relaxado, parecido com a fala.",
+      "tr": "Mırıltıdan kapalı A sesine geç. Gevşek, konuşma gibi bir tını."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "power_volume",
+        "pre_performance"
+      ],
+      "steps": 3
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Moh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Moh",
+      "en": "Moh",
+      "es": "Moh",
+      "fr": "Moh",
+      "id": "Mo",
+      "pt": "Mô",
+      "tr": "Mo"
+    },
+    "tips": {
+      "de": "Summen ins runde 'o'. Ausgewogene Resonanz, weicher Einsatz.",
+      "en": "Hum into rounded Oh. Balanced resonance, smooth onset.",
+      "es": "Tarareo hacia Oh redondeada. Resonancia equilibrada.",
+      "fr": "Bourdonnement vers un O arrondi. Résonance équilibrée, attaque douce.",
+      "id": "Humming ke O yang bulat. Resonansi seimbang, awal nada halus.",
+      "pt": "Murmúrio para o 'ô' arredondado. Ressonância equilibrada, ataque macio.",
+      "tr": "Mırıltıdan yuvarlak O sesine geç. Dengeli rezonans, yumuşak atak."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Nay",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Neh",
+      "en": "Nay",
+      "es": "Nei",
+      "fr": "Né",
+      "id": "Ney",
+      "pt": "Nei",
+      "tr": "Ney"
+    },
+    "tips": {
+      "de": "Nasales N ins helle 'e'. Vorderer Sitz, trägt gut.",
+      "en": "Nasal N into bright Ay. Forward placement, projects well.",
+      "es": "N nasal hacia una 'ei' brillante. Colocación frontal, buena proyección.",
+      "fr": "N nasal vers un É clair. Placement avant, projette bien.",
+      "id": "N sengau menuju Ey yang cerah. Penempatan depan, proyeksinya bagus.",
+      "pt": "N nasal para o 'ei' brilhante. Colocação frontal, projeta bem.",
+      "tr": "Genizsi N'den parlak Ey sesine. Öne yerleştirilmiş ton, iyi taşır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup",
+        "range_extension",
+        "power_volume",
+        "pre_performance",
+        "heavy_rock",
+        "subharmonic_warmup"
+      ],
+      "steps": 7
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Nee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ni",
+      "en": "Nee",
+      "es": "Ni",
+      "fr": "Ni",
+      "id": "Ni",
+      "pt": "Ni",
+      "tr": "Ni"
+    },
+    "tips": {
+      "de": "Nasales N ins 'i'. Starkes Vibrieren vorn, hellt den Klang auf.",
+      "en": "Nasal N into Ee. Strong forward buzz, brightens tone.",
+      "es": "N nasal hacia la 'i'. Fuerte zumbido frontal, abrillanta el tono.",
+      "fr": "N nasal vers un I. Fort bourdonnement en avant, éclaircit le son.",
+      "id": "N sengau menuju I. Dengung depan yang kuat, mencerahkan warna suara.",
+      "pt": "N nasal para o 'i'. Zumbido frontal forte, clareia o som.",
+      "tr": "Genizsi N'den İ sesine. Önde güçlü titreşim, tonu parlatır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "agility_runs",
+        "bridge_builder",
+        "flageolet_bridge"
+      ],
+      "steps": 3
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Noh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Noh",
+      "en": "Noh",
+      "es": "Noh",
+      "fr": "Noh",
+      "id": "No",
+      "pt": "Nô",
+      "tr": "No"
+    },
+    "tips": {
+      "de": "Nasales N ins 'o'. Vorderer Sitz mit Wärme.",
+      "en": "Nasal N into Oh. Forward resonance with warmth.",
+      "es": "N nasal hacia Oh. Resonancia frontal con calidez.",
+      "fr": "N nasal vers un O. Résonance en avant avec de la chaleur.",
+      "id": "N sengau menuju O. Resonansi depan yang hangat.",
+      "pt": "N nasal para o 'ô'. Ressonância frontal com calor.",
+      "tr": "Genizsi N'den O sesine. Sıcaklığı olan bir ön rezonans."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Noo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Nu",
+      "en": "Noo",
+      "es": "Nu",
+      "fr": "Nou",
+      "id": "Nu",
+      "pt": "Nu",
+      "tr": "Nu"
+    },
+    "tips": {
+      "de": "Nasales N ins 'u'. Vorderes Vibrieren in einen dunklen Vokal.",
+      "en": "Nasal N into Oo. Forward buzz into dark vowel.",
+      "es": "N nasal hacia la 'u'. Zumbido frontal hacia vocal oscura.",
+      "fr": "N nasal vers un Ou. Bourdonnement en avant vers une voyelle sombre.",
+      "id": "N sengau menuju U. Dengung depan masuk ke vokal gelap.",
+      "pt": "N nasal para o 'u'. Zumbido frontal numa vogal escura.",
+      "tr": "Genizsi N'den U sesine. Öndeki titreşimden koyu ünlüye."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "flageolet_bridge",
+        "whistle_explorer"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Gee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gi",
+      "en": "Gee",
+      "es": "Gui",
+      "fr": "Gui",
+      "id": "Gi",
+      "pt": "Gui",
+      "tr": "Gi"
+    },
+    "tips": {
+      "de": "G-Einsatz ins 'i'. Aktiviert den Stimmlippenschluss, klarer Einsatz.",
+      "en": "G onset into Ee. Engages cord closure, clear attack.",
+      "es": "G hacia la 'i'. Activa cierre cordal, ataque claro.",
+      "fr": "Attaque en G vers un I. Engage la fermeture des cordes, attaque nette.",
+      "id": "Awalan G menuju I. Mengaktifkan penutupan pita suara, awal nada jernih.",
+      "pt": "Ataque de G no 'i'. Ativa o fechamento das pregas, com ataque claro.",
+      "tr": "G atağıyla İ sesine. Ses teli kapanışını çalıştırır, net bir başlangıç."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "range_extension",
+        "bridge_builder"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Goo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gu",
+      "en": "Goo",
+      "es": "Gu",
+      "fr": "Gou",
+      "id": "Gu",
+      "pt": "Gu",
+      "tr": "Gu"
+    },
+    "tips": {
+      "de": "G-Einsatz ins 'u'. Tiefer Schluss, stabilisiert den Kehlkopf.",
+      "en": "G onset into Oo. Deep closure, stabilizes the larynx.",
+      "es": "G hacia la 'u'. Cierre profundo, estabiliza la laringe.",
+      "fr": "Attaque en G vers un Ou. Fermeture profonde, stabilise le larynx.",
+      "id": "Awalan G menuju U. Penutupan yang dalam, menstabilkan laring.",
+      "pt": "Ataque de G no 'u'. Fechamento profundo, estabiliza a laringe.",
+      "tr": "G atağıyla U sesine. Derin kapanış, gırtlağı dengeler."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Gah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gah",
+      "en": "Gah",
+      "es": "Gah",
+      "fr": "Gah",
+      "id": "Ga",
+      "pt": "Gá",
+      "tr": "Ga"
+    },
+    "tips": {
+      "de": "G-Einsatz ins 'a'. Fester offener Einsatz, verankert die Stimme.",
+      "en": "G onset into Ah. Firm open attack, anchors the voice.",
+      "es": "G hacia Ah. Ataque abierto firme, ancla la voz.",
+      "fr": "Attaque en G vers un Ah. Attaque ouverte et ferme, ancre la voix.",
+      "id": "Awalan G menuju A. Awal nada terbuka dan tegas, mengokohkan suara.",
+      "pt": "Ataque de G no 'a'. Ataque aberto e firme, ancora a voz.",
+      "tr": "G atağıyla A sesine. Sağlam ve açık bir başlangıç, sesi sabitler."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Goog",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gug",
+      "en": "Goog",
+      "es": "Guug",
+      "fr": "Goug",
+      "id": "Gug",
+      "pt": "Gug",
+      "tr": "Gug"
+    },
+    "tips": {
+      "de": "G-Einsatz ins tiefe 'u'. Stabilisiert den Kehlkopf, erdende Übung.",
+      "en": "G onset into deep Oo. Larynx stabilizer, grounding exercise.",
+      "es": "G hacia una 'u' profunda. Estabilizador de laringe, ejercicio de arraigo.",
+      "fr": "Attaque en G vers un Ou profond. Stabilise le larynx, exercice d'ancrage.",
+      "id": "Awalan G menuju U yang dalam. Menstabilkan laring, memantapkan suara.",
+      "pt": "Ataque de G no 'u' profundo. Estabiliza a laringe, exercício de ancoragem.",
+      "tr": "G atağıyla derin U sesine. Gırtlağı dengeler, sesi oturtur."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "general_warmup"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Gug",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gag",
+      "en": "Gug",
+      "es": "Gag",
+      "fr": "Gag",
+      "id": "Gag",
+      "pt": "Gag",
+      "tr": "Gag"
+    },
+    "tips": {
+      "de": "G-Einsatz ins 'a'. Feste glottale Aktivierung, baut Kraft auf.",
+      "en": "G onset into Uh. Firm glottal engagement, builds power.",
+      "es": "G hacia la 'a'. Activación glótica firme, construye potencia.",
+      "fr": "Attaque en G vers un A. Engagement glottique ferme, développe la puissance.",
+      "id": "Awalan G menuju A. Kerja glotis yang mantap, membangun tenaga.",
+      "pt": "Ataque de G no 'a'. Engajamento glótico firme, constrói potência.",
+      "tr": "G atağıyla A sesine. Sağlam glottal çalışma, güç kazandırır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "power_volume",
+        "heavy_rock"
+      ],
+      "steps": 4
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Kah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Kah",
+      "en": "Kah",
+      "es": "Kah",
+      "fr": "Kah",
+      "id": "Ka",
+      "pt": "Cá",
+      "tr": "Ka"
+    },
+    "tips": {
+      "de": "K-Einsatz ins 'a'. Knackiger Stimmlippenschluss, klare Artikulation.",
+      "en": "K onset into Ah. Crisp cord closure, clear articulation.",
+      "es": "K hacia Ah. Cierre cordal nítido, articulación clara.",
+      "fr": "Attaque en K vers un Ah. Fermeture nette, articulation claire.",
+      "id": "Awalan K menuju A. Penutupan pita suara yang tegas, artikulasi jernih.",
+      "pt": "Ataque de K no 'a'. Fechamento nítido das pregas, articulação clara.",
+      "tr": "K atağıyla A sesine. Keskin ses teli kapanışı, net artikülasyon."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Koo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Kuh",
+      "en": "Koo",
+      "es": "Ku",
+      "fr": "Kou",
+      "id": "Ku",
+      "pt": "Cô",
+      "tr": "Ku"
+    },
+    "tips": {
+      "de": "K-Einsatz ins 'u'. Fester Schluss in einen dunklen Vokal, erdend.",
+      "en": "K onset into Oo. Firm closure into dark vowel, grounding.",
+      "es": "K hacia la 'u'. Cierre firme hacia vocal oscura, arraigo.",
+      "fr": "Attaque en K vers un Ou. Fermeture ferme vers une voyelle sombre, ancrage.",
+      "id": "Awalan K menuju U. Penutupan tegas masuk ke vokal gelap, memantapkan suara.",
+      "pt": "Ataque de K no 'ô'. Fechamento firme numa vogal escura, ancora a voz.",
+      "tr": "K atağıyla U sesine. Koyu ünlüye sağlam kapanış, sesi oturtur."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ko",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ko",
+      "en": "Ko",
+      "es": "Ko",
+      "fr": "Ko",
+      "id": "Ko",
+      "pt": "Có",
+      "tr": "Ko"
+    },
+    "tips": {
+      "de": "K-Einsatz ins 'o'. Knackiger Einsatz, runde Resonanz.",
+      "en": "K onset into Oh. Crisp attack, rounded resonance.",
+      "es": "K hacia Oh. Ataque nítido, resonancia redondeada.",
+      "fr": "Attaque en K vers un O. Attaque nette, résonance arrondie.",
+      "id": "Awalan K menuju O. Awal nada tegas, resonansi bulat.",
+      "pt": "Ataque de K no 'ó'. Ataque nítido, ressonância arredondada.",
+      "tr": "K atağıyla O sesine. Keskin başlangıç, yuvarlak rezonans."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ki",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ki",
+      "en": "Ki",
+      "es": "Ki",
+      "fr": "Ki",
+      "id": "Ki",
+      "pt": "Qui",
+      "tr": "Ki"
+    },
+    "tips": {
+      "de": "K-Einsatz ins 'i'. Scharfer Schluss, heller vorderer Klang.",
+      "en": "K onset into Ee. Sharp closure, bright forward tone.",
+      "es": "K hacia la 'i'. Cierre preciso, tono frontal brillante.",
+      "fr": "Attaque en K vers un I. Fermeture franche, son clair et en avant.",
+      "id": "Awalan K menuju I. Penutupan tajam, warna cerah di depan.",
+      "pt": "Ataque de K no 'i'. Fechamento afiado, som claro e frontal.",
+      "tr": "K atağıyla İ sesine. Keskin kapanış, parlak ve önde bir ton."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "flageolet_bridge",
+        "whistle_explorer"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ke",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Kä",
+      "en": "Ke",
+      "es": "Ke",
+      "fr": "Kè",
+      "id": "Ké",
+      "pt": "Qué",
+      "tr": "Ke"
+    },
+    "tips": {
+      "de": "K-Einsatz ins 'ä'. Sauberer Einsatz, Sitz in der Mittellage.",
+      "en": "K onset into Eh. Clean attack, mid-range placement.",
+      "es": "K hacia Eh. Ataque limpio, colocación media.",
+      "fr": "Attaque en K vers un È. Attaque propre, placement médium.",
+      "id": "Awalan K menuju É. Awal nada bersih, penempatan wilayah tengah.",
+      "pt": "Ataque de K no 'é'. Ataque limpo, colocação na região média.",
+      "tr": "K atağıyla E sesine. Temiz başlangıç, orta bölgeye yerleştirme."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Fah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Fah",
+      "en": "Fah",
+      "es": "Fah",
+      "fr": "Fah",
+      "id": "Fa",
+      "pt": "Fá",
+      "tr": "Fa"
+    },
+    "tips": {
+      "de": "F-Einsatz ins 'a'. Behauchte Reibung, öffnet den Hals.",
+      "en": "F onset into Ah. Breathy friction, opens the throat.",
+      "es": "F hacia Ah. Fricción suave, abre la garganta.",
+      "fr": "Attaque en F vers un Ah. Friction soufflée, ouvre la gorge.",
+      "id": "Awalan F menuju A. Gesekan berangin, membuka tenggorokan.",
+      "pt": "Ataque de F no 'a'. Fricção com ar, abre a garganta.",
+      "tr": "F atağıyla A sesine. Nefesli sürtünme, boğazı açar."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Foo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Fu",
+      "en": "Foo",
+      "es": "Fu",
+      "fr": "Fou",
+      "id": "Fu",
+      "pt": "Fu",
+      "tr": "Fu"
+    },
+    "tips": {
+      "de": "F-Einsatz ins 'u'. Sanfter Luftstrom, entspannt enge Stimmlippen.",
+      "en": "F onset into Oo. Gentle airflow, relaxes tight folds.",
+      "es": "F hacia la 'u'. Flujo de aire suave, relaja pliegues tensos.",
+      "fr": "Attaque en F vers un Ou. Débit d'air doux, détend les cordes serrées.",
+      "id": "Awalan F menuju U. Aliran udara lembut, mengendurkan pita suara yang tegang.",
+      "pt": "Ataque de F no 'u'. Fluxo de ar suave, relaxa pregas tensas.",
+      "tr": "F atağıyla U sesine. Yumuşak hava akışı, gergin telleri gevşetir."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Fo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Fo",
+      "en": "Fo",
+      "es": "Fo",
+      "fr": "Fo",
+      "id": "Fo",
+      "pt": "Fô",
+      "tr": "Fo"
+    },
+    "tips": {
+      "de": "F-Einsatz ins 'o'. Weiche Reibung, warmer runder Klang.",
+      "en": "F onset into Oh. Soft friction, warm rounded tone.",
+      "es": "F hacia Oh. Fricción suave, tono redondeado cálido.",
+      "fr": "Attaque en F vers un O. Friction douce, son chaud et arrondi.",
+      "id": "Awalan F menuju O. Gesekan lembut, warna hangat dan bulat.",
+      "pt": "Ataque de F no 'ô'. Fricção macia, som quente e arredondado.",
+      "tr": "F atağıyla O sesine. Yumuşak sürtünme, sıcak ve yuvarlak ton."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Fee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Fi",
+      "en": "Fee",
+      "es": "Fi",
+      "fr": "Fi",
+      "id": "Fi",
+      "pt": "Fi",
+      "tr": "Fi"
+    },
+    "tips": {
+      "de": "F-Einsatz ins 'i'. Luftige Helligkeit, löst Spannung.",
+      "en": "F onset into Ee. Airy brightness, eases tension.",
+      "es": "F hacia la 'i'. Brillo aireado, alivia la tensión.",
+      "fr": "Attaque en F vers un I. Clarté aérée, relâche la tension.",
+      "id": "Awalan F menuju I. Cerah dan berangin, meredakan ketegangan.",
+      "pt": "Ataque de F no 'i'. Brilho com ar, alivia a tensão.",
+      "tr": "F atağıyla İ sesine. Nefesli bir parlaklık, gerginliği azaltır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Fe",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Fä",
+      "en": "Fe",
+      "es": "Fe",
+      "fr": "Fè",
+      "id": "Fé",
+      "pt": "Fé",
+      "tr": "Fe"
+    },
+    "tips": {
+      "de": "F-Einsatz ins 'ä'. Leichte Reibung, lockert die Mittellage.",
+      "en": "F onset into Eh. Light friction, mid-range release.",
+      "es": "F hacia Eh. Fricción ligera, relajación media.",
+      "fr": "Attaque en F vers un È. Friction légère, relâchement dans le médium.",
+      "id": "Awalan F menuju É. Gesekan ringan, melepas wilayah tengah.",
+      "pt": "Ataque de F no 'é'. Fricção leve, solta a região média.",
+      "tr": "F atağıyla E sesine. Hafif sürtünme, orta bölgede rahatlama."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Wee",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Wie",
+      "en": "Wee",
+      "es": "Ui",
+      "fr": "Oui",
+      "id": "Wi",
+      "pt": "Uí",
+      "tr": "Ui"
+    },
+    "tips": {
+      "de": "Gleiten ins 'i'. Sanfte Dehnung, hellt die Höhe auf.",
+      "en": "Glide into Ee. Gentle stretch, brightens upper range.",
+      "es": "Desliz hacia la 'i'. Estiramiento suave, abrillanta el rango alto.",
+      "fr": "Glissé vers un I. Étirement doux, éclaircit l'aigu.",
+      "id": "Meluncur ke I. Regangan lembut, mencerahkan wilayah atas.",
+      "pt": "Deslize para o 'i'. Alongamento suave, clareia a região aguda.",
+      "tr": "Kayarak İ sesine. Nazik bir esneme, tizleri parlatır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "range_extension",
+        "flageolet_bridge",
+        "whistle_explorer"
+      ],
+      "steps": 4
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ya",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ja",
+      "en": "Ya",
+      "es": "Ya",
+      "fr": "Ya",
+      "id": "Ya",
+      "pt": "Iá",
+      "tr": "Ya"
+    },
+    "tips": {
+      "de": "Y-Gleiten ins 'a'. Lockert den Umschlag zwischen Modalstimme und dem Knarren darunter.",
+      "en": "Y glide into Ah. Loosens the flip between your modal voice and the rattle below it.",
+      "es": "Y hacia Ah. Suelta el cambio entre tu voz modal y el traqueteo de abajo.",
+      "fr": "Glissé en Y vers un A. Détend le passage entre la voix modale et le grondement en dessous.",
+      "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara modalmu dan gemeretak di bawahnya.",
+      "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz modal e o ronco abaixo dela.",
+      "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki cızırtı arasındaki geçişi gevşetir."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "subharmonic_warmup"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Dah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Dah",
+      "en": "Dah",
+      "es": "Dah",
+      "fr": "Dah",
+      "id": "Da",
+      "pt": "Dá",
+      "tr": "Da"
+    },
+    "tips": {
+      "de": "D-Einsatz ins 'a'. Präzise Zungenspitze, saubere Einsätze.",
+      "en": "D onset into Ah. Tongue-tip precision, clean attacks.",
+      "es": "D hacia Ah. Precisión de punta de lengua, ataques limpios.",
+      "fr": "Attaque en D vers un Ah. Précision de la pointe de langue, attaques nettes.",
+      "id": "Awalan D menuju A. Ketepatan ujung lidah, awal nada yang bersih.",
+      "pt": "Ataque de D no 'a'. Precisão da ponta da língua, ataques limpos.",
+      "tr": "D atağıyla A sesine. Dil ucunda kesinlik, temiz ataklar."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "agility_runs"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Doo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Du",
+      "en": "Doo",
+      "es": "Du",
+      "fr": "Dou",
+      "id": "Du",
+      "pt": "Du",
+      "tr": "Du"
+    },
+    "tips": {
+      "de": "D-Einsatz ins 'u'. Artikulierter dunkler Vokal, weiche Übergänge.",
+      "en": "D onset into Oo. Articulated dark vowel, smooth transitions.",
+      "es": "D hacia la 'u'. Vocal oscura articulada, transiciones suaves.",
+      "fr": "Attaque en D vers un Ou. Voyelle sombre articulée, transitions fluides.",
+      "id": "Awalan D menuju U. Vokal gelap yang terartikulasi, perpindahan yang halus.",
+      "pt": "Ataque de D no 'u'. Vogal escura articulada, transições macias.",
+      "tr": "D atağıyla U sesine. İyi artiküle edilmiş koyu ünlü, akıcı geçişler."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Buh",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ba",
+      "en": "Buh",
+      "es": "Ba",
+      "fr": "Ba",
+      "id": "Ba",
+      "pt": "Bá",
+      "tr": "Ba"
+    },
+    "tips": {
+      "de": "B-Einsatz ins 'a'. Baut Atemdruck auf, aktiviert die Stimmlippen.",
+      "en": "B onset into Uh. Builds breath pressure, cord engagement.",
+      "es": "B hacia la 'a'. Construye presión de aire, activación cordal.",
+      "fr": "Attaque en B vers un A. Développe la pression d'air et l'engagement des cordes.",
+      "id": "Awalan B menuju A. Membangun tekanan napas, kerja pita suara.",
+      "pt": "Ataque de B no 'a'. Ganha pressão de ar e engajamento das pregas.",
+      "tr": "B atağıyla A sesine. Nefes basıncını kurar, telleri çalıştırır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "power_volume"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Yum",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Njam",
+      "en": "Yum",
+      "es": "Yam",
+      "fr": "Yam",
+      "id": "Yam",
+      "pt": "Iam",
+      "tr": "Yam"
+    },
+    "tips": {
+      "de": "Y-Gleiten ins 'a'. Sanfte Kehlkopfdehnung, leichter Einsatz.",
+      "en": "Y glide into Uh. Gentle larynx stretch, easy onset.",
+      "es": "Y hacia la 'a'. Estiramiento suave de laringe, inicio fácil.",
+      "fr": "Glissé en Y vers un A. Étirement doux du larynx, attaque facile.",
+      "id": "Luncuran Y menuju A. Regangan laring yang lembut, awal nada yang mudah.",
+      "pt": "Deslize de Y no 'a' fechado. Alongamento suave da laringe, ataque fácil.",
+      "tr": "Y kaymasıyla A sesine. Gırtlağı nazikçe esnetir, yumuşak atak."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "classical_opera"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Yay",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Jeh",
+      "en": "Yay",
+      "es": "Yei",
+      "fr": "Yé",
+      "id": "Yey",
+      "pt": "Ei",
+      "tr": "Yey"
+    },
+    "tips": {
+      "de": "Y-Gleiten ins helle 'e'. Heller, vorderer, energischer Klang.",
+      "en": "Y glide into Ay. Bright, forward, energetic sound.",
+      "es": "Y hacia la 'ei'. Brillante, frontal, sonido enérgico.",
+      "fr": "Glissé en Y vers un É. Son clair, en avant et énergique.",
+      "id": "Luncuran Y menuju Ey. Bunyi cerah, maju, dan berenergi.",
+      "pt": "Deslize de Y no 'ei'. Som brilhante, frontal e enérgico.",
+      "tr": "Y kaymasıyla Ey sesine. Parlak, önde ve enerjik bir ses."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "La",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "La",
+      "en": "La",
+      "es": "La",
+      "fr": "La",
+      "id": "La",
+      "pt": "Lá",
+      "tr": "La"
+    },
+    "tips": {
+      "de": "L-Einsatz ins 'a'. Zungenbeweglichkeit, offene Resonanz.",
+      "en": "L onset into Ah. Tongue flexibility, open resonance.",
+      "es": "L hacia Ah. Flexibilidad de lengua, resonancia abierta.",
+      "fr": "Attaque en L vers un Ah. Souplesse de la langue, résonance ouverte.",
+      "id": "Awalan L menuju A. Kelenturan lidah, resonansi terbuka.",
+      "pt": "Ataque de L no 'a'. Flexibilidade da língua, ressonância aberta.",
+      "tr": "L atağıyla A sesine. Dil esnekliği, açık rezonans."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "agility_runs"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Hut",
+    "pitchCompatible": false,
+    "respellings": {
+      "de": "Hat",
+      "en": "Hut",
+      "es": "Jat",
+      "fr": "Hat",
+      "id": "Hat",
+      "pt": "Rá",
+      "tr": "Hat"
+    },
+    "tips": {
+      "de": "Perkussiver Glottisschlag. Kurz und knackig - die Luft abrupt schließen, um Kompression zu trainieren.",
+      "en": "Percussive glottal stop. Short, punchy - snap the airflow shut to train compression.",
+      "es": "Golpe glótico percusivo. Corto, contundente - cierra el flujo de aire para entrenar la compresión.",
+      "fr": "Coup de glotte percussif. Court et sec, coupe le flux d'air pour travailler la compression.",
+      "id": "Hentakan glotal. Pendek dan berisi - tutup aliran udara seketika untuk melatih kompresi.",
+      "pt": "Golpe de glote percussivo. Curto e seco - feche o ar de uma vez para treinar a compressão.",
+      "tr": "Darbeli glottal kapanış. Kısa ve tok - hava akışını aniden kes, kompresyonu çalıştır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Mee-Meh-Mah-Moh-Moo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Mi-Mä-Ma-Mo-Mu",
+      "en": "Mee-Meh-Mah-Moh-Moo",
+      "es": "Mi-Me-Ma-Mo-Mu",
+      "fr": "Mi-Mè-Ma-Mo-Mou",
+      "id": "Mi-Mé-Ma-Mo-Mu",
+      "pt": "Mi-Mé-Má-Mô-Mu",
+      "tr": "Mi-Me-Ma-Mo-Mu"
+    },
+    "tips": {
+      "de": "Fünf M-Vokale nacheinander: Mi-Mä-Ma-Mo-Mu. Weiche Übergänge, gleicher Einsatz.",
+      "en": "Five M-vowels in sequence. Smooth transitions, uniform onset.",
+      "es": "Cinco vocales con M en secuencia. Transiciones suaves.",
+      "fr": "Cinq voyelles avec M à la suite. Transitions fluides, attaque uniforme.",
+      "id": "Lima vokal ber-M berurutan. Perpindahan halus, awal nada yang seragam.",
+      "pt": "Cinco vogais com M em sequência. Transições macias, ataque uniforme.",
+      "tr": "Sırayla beş M'li ünlü. Akıcı geçişler, her notada aynı atak."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "classical_opera"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ma Me Mi Mo Mu",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ma Me Mi Mo Mu",
+      "en": "Ma Me Mi Mo Mu",
+      "es": "Ma Me Mi Mo Mu",
+      "fr": "Ma Mé Mi Mo Mou",
+      "id": "Ma Mé Mi Mo Mu",
+      "pt": "Má Mê Mi Mô Mu",
+      "tr": "Ma Me Mi Mo Mu"
+    },
+    "tips": {
+      "de": "Fünf Vokale mit M. Übung zum Verbinden für gleichmäßigen Klang.",
+      "en": "Five vowels with M. Blending exercise for even tone.",
+      "es": "Cinco vocales con M. Ejercicio de mezcla para tono uniforme.",
+      "fr": "Cinq voyelles avec M. Exercice de fusion pour un timbre égal.",
+      "id": "Lima vokal dengan M. Latihan pemaduan untuk warna suara yang rata.",
+      "pt": "Cinco vogais com M. Exercício de mistura para um som parelho.",
+      "tr": "M ile beş ünlü. Eşit bir ton için harmanlama çalışması."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "bridge_builder"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Dah-Bee-Doo",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Da-Bi-Du",
+      "en": "Dah-Bee-Doo",
+      "es": "Da-Bi-Du",
+      "fr": "Da-Bi-Dou",
+      "id": "Da-Bi-Du",
+      "pt": "Dá-Bi-Du",
+      "tr": "Da-Bi-Du"
+    },
+    "tips": {
+      "de": "Scat-Muster. Rhythmische Präzision, Zungenbeweglichkeit.",
+      "en": "Scat pattern. Rhythmic precision, tongue agility.",
+      "es": "Patrón scat. Precisión rítmica, agilidad de lengua.",
+      "fr": "Motif scat. Précision rythmique, agilité de la langue.",
+      "id": "Pola scat. Ketepatan ritme, kelincahan lidah.",
+      "pt": "Padrão de scat. Precisão rítmica, agilidade da língua.",
+      "tr": "Scat kalıbı. Ritmik kesinlik, dil çevikliği."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Gee-Yah",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Gi-Ja",
+      "en": "Gee-Yah",
+      "es": "Gui-Ya",
+      "fr": "Gui-Ya",
+      "id": "Gi-Ya",
+      "pt": "Gui-Iá",
+      "tr": "Gi-Ya"
+    },
+    "tips": {
+      "de": "G-Schluss ins offene 'ja'. Kehlkopfanker mit Lösung.",
+      "en": "G closure into open Yah. Larynx anchor with release.",
+      "es": "Cierre G hacia Yah abierta. Anclaje de laringe con liberación.",
+      "fr": "Fermeture en G vers un Yah ouvert. Ancrage du larynx puis relâchement.",
+      "id": "Penutupan G menuju Ya terbuka. Laring ditahan stabil, lalu dilepas.",
+      "pt": "Fechamento em G para o 'iá' aberto. Ancora a laringe e solta.",
+      "tr": "G kapanışından açık Ya sesine. Gırtlağı sabitler, sonra bırakır."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Hey-Hey",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Hey-Hey",
+      "en": "Hey-Hey",
+      "es": "Jei-Jei",
+      "fr": "Hé-Hé",
+      "id": "Hey-Hey",
+      "pt": "Ei-Ei",
+      "tr": "Hey-Hey"
+    },
+    "tips": {
+      "de": "Wiederholtes Hey. Atemimpuls, energische Stimmlippenaktivierung.",
+      "en": "Repeated Hey. Breath bounce, energetic cord engagement.",
+      "es": "Jei repetido. Rebote de aire, activación cordal enérgica.",
+      "fr": "« Hé » répété. Rebond du souffle, engagement énergique des cordes.",
+      "id": "Hey berulang. Pantulan napas, kerja pita suara yang berenergi.",
+      "pt": "'Ei' repetido. Impulso do ar, engajamento enérgico das pregas.",
+      "tr": "Tekrarlanan Hey. Nefes sekmesi, enerjik tel çalışması."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ng",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ng",
+      "en": "Ng",
+      "es": "Ng",
+      "fr": "Ng",
+      "id": "Ng",
+      "pt": "Ng",
+      "tr": "Ng"
+    },
+    "tips": {
+      "de": "Summendes NG, Zunge hoch, Mund zu. Leiser, leichter Einstieg ohne harten Einsatz.",
+      "en": "Humming NG, tongue high and mouth closed. Quiet, easy entry with no hard attack.",
+      "es": "NG con la lengua alta y la boca cerrada. Entrada suave, sin ataque duro.",
+      "fr": "NG fredonné, langue haute et bouche fermée. Entrée douce, sans attaque dure.",
+      "id": "Humming NG, lidah tinggi dan mulut tertutup. Masuk pelan dan mudah, tanpa awal nada yang keras.",
+      "pt": "Murmúrio no NG, língua alta e boca fechada. Entrada quieta e fácil, sem ataque duro.",
+      "tr": "Dil yukarıda, ağız kapalı NG mırıltısı. Sessiz, sert atak olmadan kolay bir giriş."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "flageolet_bridge",
+        "whistle_explorer"
+      ],
+      "steps": 2
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "NGya",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Ngja",
+      "en": "NGya",
+      "es": "NGya",
+      "fr": "NGya",
+      "id": "NGya",
+      "pt": "Ngiá",
+      "tr": "NGya"
+    },
+    "tips": {
+      "de": "Nasales NG-Gleiten ins offene 'ja'. Stabilisiert den Kehlkopf für Rauheit.",
+      "en": "Nasal NG glide into open Yah. Larynx stabilizer for grit.",
+      "es": "NG nasal hacia Yah abierta. Estabilizador de laringe para grit.",
+      "fr": "Glissé nasal NG vers un Yah ouvert. Stabilise le larynx pour le grain.",
+      "id": "Luncuran NG sengau menuju Ya terbuka. Menstabilkan laring untuk suara serak.",
+      "pt": "Deslize nasal de NG para o 'iá' aberto. Estabiliza a laringe para a aspereza.",
+      "tr": "Genizsi NG'den açık Ya sesine kayma. Kirli ton için gırtlak dengeleyici."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Ow",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Au",
+      "en": "Ow",
+      "es": "Au",
+      "fr": "Aou",
+      "id": "Au",
+      "pt": "Au",
+      "tr": "Au"
+    },
+    "tips": {
+      "de": "Diphthong wie in 'Haus'. Weite Kieferöffnung, dynamischer Vokal.",
+      "en": "Diphthong as in 'how'. Wide jaw opening, dynamic vowel.",
+      "es": "Diptongo como en 'aullido'. Apertura amplia, vocal dinámica.",
+      "fr": "Diphtongue comme dans « aouh ». Grande ouverture de mâchoire, voyelle dynamique.",
+      "id": "Diftong seperti pada 'pulau'. Bukaan rahang lebar, vokal yang dinamis.",
+      "pt": "Ditongo, o 'au' de 'mau'. Mandíbula bem aberta, vogal dinâmica.",
+      "tr": "'Av' der gibi çift ünlü. Çene geniş açılır, hareketli bir ünlü."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "heavy_rock"
+      ],
+      "steps": 1
+    }
+  },
+  {
+    "doReMi": false,
+    "id": "Vocal Fry",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Vocal Fry",
+      "en": "Vocal Fry",
+      "es": "Vocal Fry",
+      "fr": "Friture Vocale",
+      "id": "Vocal Fry",
+      "pt": "Vocal Fry",
+      "tr": "Vocal Fry"
+    },
+    "tips": {
+      "de": "Knarren im tiefsten Register. Sanfter, blubbernder Klang ganz unten.",
+      "en": "Lowest register creak. Gentle, bubbly sound at the bottom of your range.",
+      "es": "Registro más grave. Sonido burbujeante y suave al fondo de tu rango.",
+      "fr": "Craquement du registre le plus grave. Son doux et bouillonnant tout en bas.",
+      "id": "Gemeretak di register terendah. Bunyi lembut dan bergelembung di dasar jangkauanmu.",
+      "pt": "Rangido do registro mais grave. Som suave e borbulhante no fundo da sua extensão.",
+      "tr": "En pes ses bölgesindeki cızırtı. Aralığının dibinde yumuşak, kabarcıklı bir ses."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [],
+      "steps": 0
+    }
+  },
+  {
+    "doReMi": true,
+    "id": "Do Re Mi",
+    "pitchCompatible": true,
+    "respellings": {
+      "de": "Do Re Mi",
+      "en": "Do Re Mi",
+      "es": "Do Re Mi",
+      "fr": "Do Ré Mi",
+      "id": "Do Re Mi",
+      "pt": "Dó Ré Mi",
+      "tr": "Do Re Mi"
+    },
+    "tips": {
+      "de": "Sing jeden Ton auf seiner Silbe, wie der Kreis sie zeigt, ohne Kreuz oder b mitzusingen. Saubere Tonschritte, klare Vokale.",
+      "en": "Sing each note on its name, as the circle shows it, and leave any sharp or flat unsung. Clean steps, clear vowels.",
+      "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
+      "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
+      "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+      "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+      "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
+    },
+    "trill": null,
+    "usage": {
+      "routines": [
+        "do_re_mi"
+      ],
+      "steps": 4
+    }
+  }
+]

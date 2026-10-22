@@ -1,0 +1,64 @@
+{
+  "slug": "vocal-warm-ups",
+  "label": "Vocal warm-ups",
+  "title": "Vocal warm-ups on a real piano, in your range - Scalita",
+  "description": "Three routines from the Scalita app on a real piano, moved to your range: a quick warm-up for before you sing, a full warm-up and a cool-down.",
+  "h1": "Vocal warm-ups",
+  "lead": "Three routines from the Scalita app, played on a real piano in your range: a quick warm-up for right before you sing, a full warm-up, and a cool-down for after. Choose the voice type closest to yours, or set your own lowest and highest notes, and press play.",
+  "intro": "<p>Each routine here is the one in the app, step for step: the same patterns, syllables, tempos and order. What a video can't do is change key for you. Here the piano moves every pattern a half step at a time to fit the range you set, so you sing in your own voice instead of the voice of whoever recorded it.</p><p>Not sure which one fits today? Answer the two Find My Warmup questions on this page, the same ones the app asks. If you don't know your range yet, the <a href=\"page:vocal-range-test\">vocal range test</a> finds your lowest and highest notes.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Which one today?",
+      "html": "<p>Find My Warmup asks how your voice feels before it asks what you want to work on, and the first answer can overrule the second.</p><ul><li><em>Tired / strained</em> always leads to the <a href=\"page:vocal-cool-down\">cool-down</a>, played a little slower, whatever you wanted to work on.</li><li><em>Quick pre-show</em> leads to the <a href=\"page:quick-vocal-warm-up\">quick warm-up</a>, and <em>Just warm me up</em> to the <a href=\"page:full-vocal-warm-up\">full one</a>.</li><li><em>A bit off</em> slows any routine down a little, and the app holds back <em>Extend my range</em> and <em>Grit / screaming</em> for the day.</li><li><em>Ready to go</em> plays the routines a little faster.</li></ul>"
+    },
+    {
+      "heading": "How these warm-ups are built",
+      "html": "<p>All three start with a trill on a <a href=\"page:five-note-scale\">five-note scale</a>. Trills and hums partly close the mouth. Singing teachers and voice therapists have used them for a long time, and many warm-ups, these included, begin with them. In a survey of 117 singers, five-note scales and arpeggios were among the exercises used most.</p><p>From there the patterns widen: five notes, then an arpeggio across an octave, then, in the two warm-ups, an octave and a half. Each exercise starts on a comfortable key rather than your lowest, climbs to the top of its range, then comes back down through the keys to the bottom.</p><p>Some steps are placed around your <a href=\"page:voice-cracks-high-notes\">voice break</a> instead. <em>Approach only</em> stops just under the break, and <em>Cross once</em> goes over it and back. Between keys, the piano plays a short chord to give you the new key and a beat to breathe.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How long should a vocal warm-up be?",
+      "a": "<p>There's no agreed number. In a survey of 117 singers, the warm-up length they preferred most was 5 to 10 minutes. On a two-octave range, the routines here take 6 to 8 minutes (quick), 12 to 14 (full) and 7 to 11 (cool-down).</p>"
+    },
+    {
+      "q": "Are there different warm-ups for female and male voices?",
+      "a": "<p>The exercises are the same for everyone. What changes is the key: pick the preset closest to your voice, from soprano down to bass, or set your own range, and the piano moves every pattern to fit. A preset only sets where the piano plays, so choose it by where your voice sits rather than by gender. The <a href=\"page:voice-types\">voice types</a> page describes each one.</p>"
+    },
+    {
+      "q": "Do vocal warm-ups actually work?",
+      "a": "<p>Singers feel them. In one study, all twelve classically trained singers noticed changes in their tone and control after 25 minutes of warming up. Listeners heard a difference less often, mostly in singers whose vibrato had evened out. A warm-up is mainly for you: it's how you find today's voice before the singing counts.</p>"
+    },
+    {
+      "q": "Should I warm up when I am sick?",
+      "a": "<p>No. If your throat hurts or your voice is hoarse, rest it, and see a doctor if it doesn't clear up. The cool-down is for a voice that's tired from singing, not for one that's ill.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims and McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft and Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Cante na sua extensão"
+  },
+  "tool": {
+    "howTo": "Como usar",
+    "sample": "Um exemplo de resultado",
+    "notClaimed": "O que ela não promete"
+  },
+  "routine": {
+    "length": "Quanto tempo leva",
+    "steps": "Passos",
+    "cues": "Durante toda a rotina",
+    "whyOrder": "Por que nesta ordem",
+    "whatToFeel": "O que sentir",
+    "whenToStop": "Quando parar",
+    "next": "O que fazer depois"
+  },
+  "steps": {
+    "scale": "Escala",
+    "syllable": "Sílaba",
+    "style": "Estilo",
+    "span": "Faixa",
+    "passaggio": "Passagem",
+    "repeat": "Repetições por tom",
+    "wholeRange": "Toda a sua extensão",
+    "semitones": "{count} semitons",
+    "minutes": "{minutes} min",
+    "count": "Passos",
+    "routines": "Rotinas"
+  },
+  "exercise": {
+    "tryIt": "Experimente agora",
+    "troubleshooting": "Se não estiver dando certo",
+    "usage": "Onde aparece no Scalita"
+  },
+  "pattern": {
+    "degrees": "Graus",
+    "notes": "A partir de {note}",
+    "sung": "Cantado como",
+    "syllables": "Sílabas que o Scalita usa neste padrão",
+    "routines": "Rotinas que usam este padrão"
+  },
+  "concept": {
+    "shortAnswer": "A resposta curta",
+    "where": "Onde fica na sua voz",
+    "listenFor": "O que observar",
+    "tryIt": "Experimente",
+    "exercises": "Exercícios que ajudam",
+    "misconceptions": "Equívocos comuns",
+    "seeProfessional": "Quando procurar um profissional"
+  },
+  "voices": {
+    "heading": "Os seis tipos de voz",
+    "voiceType": "Tipo de voz",
+    "range": "Extensão típica",
+    "primo": "Primeira mudança",
+    "secondo": "Segunda mudança",
+    "fromTo": "{low} a {high}",
+    "keyboard": "{name}: {low} a {high}",
+    "note": "São extensões e passagens típicas do canto clássico. O Scalita usa essas mesmas passagens como primeira estimativa até você achar a sua. Vozes reais variam, e a extensão sozinha não define o tipo de voz."
+  },
+  "registers": {
+    "heading": "Abaixo e acima da sua extensão habitual",
+    "register": "Registro",
+    "span": "Onde fica",
+    "note": "São as faixas em que o Scalita treina cada registro. No subarmônico, a faixa é a altura que as pessoas ouvem."
+  },
+  "intake": {
+    "appOnly": "Só no app"
+  },
+  "notation": {
+    "systems": "Quatro jeitos de dar nome às notas",
+    "system": "Sistema",
+    "names": "Notas",
+    "where": "Onde se usa",
+    "landmarks": "O dó central e o lá 440 em cada sistema",
+    "middleC": "Dó central",
+    "a440": "Lá 440 Hz",
+    "octave": "Uma oitava em cada sistema",
+    "keyboard": "Uma oitava a partir do dó central, em {system}",
+    "octaves": "Três jeitos de numerar as oitavas",
+    "style": "Números das oitavas",
+    "lowest": "Tecla mais grave",
+    "highest": "Tecla mais aguda",
+    "styles": {
+      "scientific": "Científica",
+      "francoBelgian": "Franco-belga",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Play it in your range"
+  },
+  "tool": {
+    "howTo": "How to use it",
+    "sample": "A sample result",
+    "notClaimed": "What it doesn't claim"
+  },
+  "routine": {
+    "length": "How long it takes",
+    "steps": "Steps",
+    "cues": "Throughout this routine",
+    "whyOrder": "Why this order",
+    "whatToFeel": "What to feel",
+    "whenToStop": "When to stop",
+    "next": "What to do next"
+  },
+  "steps": {
+    "scale": "Scale",
+    "syllable": "Syllable",
+    "style": "Style",
+    "span": "Span",
+    "passaggio": "Voice break",
+    "repeat": "Repeats per key",
+    "wholeRange": "Your whole range",
+    "semitones": "{count} semitones",
+    "minutes": "{minutes} min",
+    "count": "Steps",
+    "routines": "Routines"
+  },
+  "exercise": {
+    "tryIt": "Try it now",
+    "troubleshooting": "If it isn't working",
+    "usage": "Where Scalita uses it"
+  },
+  "pattern": {
+    "degrees": "Degrees",
+    "notes": "From {note}",
+    "sung": "Sung as",
+    "syllables": "Syllables Scalita pairs it with",
+    "routines": "Routines that use it"
+  },
+  "concept": {
+    "shortAnswer": "The short answer",
+    "where": "Where it sits for your voice",
+    "listenFor": "What to listen for",
+    "tryIt": "Try it",
+    "exercises": "Exercises that help",
+    "misconceptions": "Common misconceptions",
+    "seeProfessional": "When to see a professional"
+  },
+  "voices": {
+    "heading": "The six voice types",
+    "voiceType": "Voice type",
+    "range": "Typical range",
+    "primo": "First shift",
+    "secondo": "Second shift",
+    "fromTo": "{low} to {high}",
+    "keyboard": "{name}: {low} to {high}",
+    "note": "These are typical classical ranges and breaks. Scalita uses the same breaks as a first guess until you find your own. Real voices vary, and range alone doesn't decide a voice type."
+  },
+  "registers": {
+    "heading": "Below and above your usual range",
+    "register": "Register",
+    "span": "Where it sits",
+    "note": "These are the spans Scalita trains each register in. For subharmonics, the span is the pitch people hear."
+  },
+  "intake": {
+    "appOnly": "Only in the app"
+  },
+  "notation": {
+    "systems": "Four ways to name the notes",
+    "system": "System",
+    "names": "Notes",
+    "where": "Where it is used",
+    "landmarks": "Middle C and A 440 in each system",
+    "middleC": "Middle C",
+    "a440": "A 440 Hz",
+    "octave": "One octave in each system",
+    "keyboard": "One octave from middle C, in {system}",
+    "octaves": "Three ways to number octaves",
+    "style": "Octave numbers",
+    "lowest": "Lowest key",
+    "highest": "Highest key",
+    "styles": {
+      "scientific": "Scientific",
+      "francoBelgian": "Franco-Belgian",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

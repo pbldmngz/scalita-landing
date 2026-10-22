@@ -1,0 +1,58 @@
+{
+  "slug": "voz-de-cabeca-e-voz-de-peito",
+  "label": "Voz de cabeça e voz de peito",
+  "title": "Voz de cabeça e voz de peito, com voz mista e falsete - Scalita",
+  "description": "Voz de peito e voz de cabeça são dois jeitos de as pregas vibrarem, com nome de onde você as sente. Como diferenciar, onde você troca e o que é voz mista.",
+  "h1": "Voz de cabeça e voz de peito",
+  "lead": "Dois registros que toda voz tem, com nome de onde os cantores sentem cada um, e os dois feitos no mesmo lugar. Como diferenciar os dois, e onde entram a voz mista e o falsete.",
+  "shortAnswer": "<p>A voz de peito é o registro mais grave e mais cheio, aquele em que a maioria das pessoas fala. A voz de cabeça é o registro mais leve, acima dela. As duas são feitas pelas pregas vocais: os nomes descrevem onde os cantores sentem a vibração, não de onde o som vem. Pesquisadores da voz chamam as duas de mecanismos laríngeos, M1 e M2. Na voz de peito, as pregas vibram com mais da sua massa; na voz de cabeça, elas ficam esticadas, mais finas, e vibram com menos. As duas se sobrepõem: no meio da maioria das vozes existe um trecho, muitas vezes de cerca de uma oitava, em que a mesma nota pode ser cantada em qualquer uma delas.</p>",
+  "listenFor": "<p>Sinais de que você passou da voz de peito para a voz de cabeça:</p><ul><li>O zumbido sai do peito e sobe para o rosto e a cabeça.</li><li>O som fica mais leve e mais redondo, às vezes mais soproso.</li><li>Cada nota acima deixa de custar mais esforço que a anterior.</li></ul><p>Se, em vez disso, você segura a voz de peito por tempo demais, a troca vem de uma vez, e você nota um dos sinais em que o teste de passagem do Scalita pede para você apertar o botão:</p>",
+  "misconceptions": "<ul><li><strong>“A voz de cabeça é feita na cabeça.”</strong> Os dois registros são feitos pelas pregas vocais. Cabeça e peito são onde você sente a vibração, não onde o som começa.</li><li><strong>“Homem tem falsete, mulher tem voz de cabeça.”</strong> Toda voz tem os dois mecanismos principais. Os estudos que os descrevem mediram homens e mulheres, com e sem treino.</li><li><strong>“Voz de peito é errada para notas agudas.”</strong> Muitos estilos usam um som carregado de voz de peito bem alto na extensão. O que importa é se chegar lá exige força.</li><li><strong>“A voz mista é um terceiro registro.”</strong> O estudo que mediu a voix mixte francesa viu que ela é feita num dos dois mecanismos principais.</li></ul>",
+  "seeProfessional": "<p>A maior parte dos problemas com a voz de cabeça é de técnica, e um professor de canto é a pessoa para perguntar. Procure um médico, de preferência um otorrinolaringologista, se notas de voz de cabeça que você tinha sumirem, se a sua voz continuar rouca depois de duas semanas, se cantar doer ou se falar começar a dar trabalho. Um fonoaudiólogo pode ajudar você a mudar o jeito de usar a voz depois que um médico examinar. Quando estiver doente, descanse a voz e deixe o estudo esperar.</p>",
+  "sections": [
+    {
+      "heading": "Como cada uma soa, e o que você sente",
+      "html": "<p>A voz de peito parece a fala. O zumbido fica embaixo, no peito e na garganta, e o som é cheio e perto da fala. Conforme você sobe, manter a voz assim pede cada vez mais esforço.</p><p>A voz de cabeça parece mais leve. O zumbido sobe para o rosto e a cabeça, o som fica mais redondo e as notas agudas custam menos. Nas vozes mais graves a troca muitas vezes é fácil de ouvir; nas mais agudas, as duas podem se misturar tanto que a troca fica difícil de perceber.</p><p>Nenhuma das duas é a certa. A maioria das músicas usa as duas, e a maior parte do treino busca passar de uma para a outra quando você escolhe, e não quando a sua voz decide por você.</p>"
+    },
+    {
+      "heading": "Onde você troca",
+      "html": "<p>A troca acontece no meio da sua extensão, na zona que os cantores chamam de passaggio e o Scalita chama de passagem. As opções do Scalita colocam a primeira mudança do tenor perto de {{note:D4}} e a do soprano perto de {{note:F4}}, e vozes reais caem algumas notas para um lado ou para o outro. A troca também muda com a direção: ela costuma vir mais acima na subida do que na descida. O <a href=\"page:voice-break-finder\">teste de passagem vocal</a> ajuda a achar a sua, e <a href=\"page:voice-cracks-high-notes\">por que a voz falha no agudo</a> explica o que acontece quando a troca é repentina.</p>"
+    },
+    {
+      "heading": "Ache cada uma na sua voz",
+      "html": "<p>Diga um “ei” relaxado, como quem cumprimenta um amigo, e depois cante esse “ei” numa nota grave confortável: isso é voz de peito. Agora faça um “uuu” baixinho, como uma coruja, algumas notas acima: isso é voz de cabeça. Depois cante um vocalize de cinco notas devagar numa vogal leve, subindo meio tom a cada vez. Em algum ponto no meio você pode sentir vontade de empurrar. Deixe o som ficar mais leve em vez disso, e repare em qual tom ele muda. O <a href=\"page:warm-up-piano\">piano de aquecimento</a> toca o vocalize na sua extensão.</p>"
+    },
+    {
+      "heading": "Voz mista e falsete, duas palavras que o Scalita não usa para registros",
+      "html": "<p><strong>Voz mista</strong>, ou mix, normalmente quer dizer um som que mantém um pouco da plenitude da voz de peito lá em cima, onde a voz de cabeça assume, para a troca ficar difícil de ouvir. Os professores usam a palavra para coisas diferentes, e a pesquisa não achou um mecanismo separado por trás dela: um estudo com cinco cantores profissionais que usavam a voix mixte francesa viu cada nota feita claramente num mecanismo, M1 ou M2, e não num terceiro mecanismo, misto. No Scalita, Voz mista é uma marca nos exercícios que servem para suavizar a troca entre sua voz grave e a aguda, e não um registro.</p><p><strong>Falsete</strong> normalmente quer dizer o som mais leve, muitas vezes soproso, do mecanismo da voz de cabeça, mais conhecido nas vozes masculinas. O Scalita não usa a palavra: a sua extensão no app cobre a voz de peito e a de cabeça, e o nome que você dá para o alto leve dela é assunto entre você e o seu professor.</p>"
+    },
+    {
+      "heading": "Além do peito e da cabeça",
+      "html": "<p>O Scalita deixa outros três registros fora da sua extensão principal, cada um com a sua faixa opcional e a sua rotina: o subarmônico, as notas que chacoalham abaixo da sua voz de peito; o flageolet, o som fino, de flauta, acima da voz de cabeça; e a voz de apito, o extremo agudo da voz, acima do flageolet. Muitas fontes usam flageolet e apito como dois nomes para a mesma coisa; o Scalita treina os dois separados. Nenhuma dessas rotinas pede para você correr atrás de uma nota mais aguda nova, e a Explorando o apito fica baixinho o tempo todo.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Voz de cabeça é a mesma coisa que falsete?",
+      "a": "<p>Depende de quem você pergunta. Muitos professores usam falsete para uma versão mais leve e soprosa do mecanismo da voz de cabeça, e voz de cabeça para uma versão mais cheia; outros tratam as duas palavras como uma só. O professor de canto Richard Miller chamava o falsete feminino de ilógico, enquanto outros autores descrevem um. Se o seu professor traça a linha em algum lugar, use a dele.</p>"
+    },
+    {
+      "q": "Mulher tem voz de peito?",
+      "a": "<p>Tem. A maioria das mulheres fala na voz de peito e usa essa voz na parte mais grave da extensão em que canta, abaixo da primeira mudança.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"},
+    {"label": "Roubeau, Henrich e Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Švec, Schutte e Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Castellengo, Chuberre e Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)", "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"},
+    {"label": "Wikipédia (em inglês): Chest voice", "url": "https://en.wikipedia.org/wiki/Chest_voice"},
+    {"label": "Wikipédia (em inglês): Head voice", "url": "https://en.wikipedia.org/wiki/Head_voice"},
+    {"label": "Wikipédia (em inglês): Falsetto (o debate sobre o falsete feminino)", "url": "https://en.wikipedia.org/wiki/Falsetto"},
+    {"label": "Wikipédia (em inglês): Whistle register (também chamado de flageolet)", "url": "https://en.wikipedia.org/wiki/Whistle_register"},
+    {"label": "NIDCD: Taking care of your voice (em inglês)", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS: Laryngitis (em inglês)", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

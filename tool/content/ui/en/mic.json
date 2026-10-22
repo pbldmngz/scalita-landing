@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "This browser can't use the microphone here. Try a recent Chrome, Safari, Firefox or Edge.",
+  "micInApp": "The browser built into this app can't use the microphone. Open this page in Chrome or Safari instead.",
+  "micBlocked": "Your browser is blocking the microphone for this site. Allow it in the site settings, usually behind the icon next to the address, then reload the page.",
+  "micDismissed": "The page needs your permission to use the microphone. Try again and choose Allow when your browser asks.",
+  "micNotFound": "No microphone was found. Plug one in or switch it on, then try again.",
+  "micBusy": "Something else is using the microphone, like a call or another app. Close it and try again.",
+  "micInterrupted": "The microphone cut out, maybe because of a call or a headset coming unplugged. Try again when you're ready.",
+  "micHidden": "Listening stops when you switch away from the page. Start again whenever you're ready.",
+  "micFailed": "Something went wrong while starting the microphone. Reload the page and try again.",
+  "micBluetooth": "That looks like a Bluetooth headset. Its microphone drops to phone-call quality, so the phone's own microphone will read you better.",
+  "micSilent": "No sound is coming in from the microphone. Check that it isn't muted, then sing or hum.",
+  "levelQuiet": "Too quiet. Sing a little louder, or move closer to the microphone.",
+  "levelLoud": "That's loud enough to distort. Move back a little from the microphone."
+}

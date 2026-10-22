@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Tu voz",
+  "custom": "Tu propio rango",
+  "lowest": "Nota más grave",
+  "highest": "Nota más aguda",
+  "chooserLabel": "Ejercicio",
+  "routines": "Rutinas",
+  "scales": "Escalas",
+  "pickVoice": "Elige tu tipo de voz o define tu propio rango, y luego pulsa Reproducir.",
+  "ready": "De {low} a {high}. Pulsa Reproducir cuando quieras.",
+  "routineSummary": "{steps} pasos, unos {minutes} min",
+  "scaleSummary": "{keys} tonalidades, unos {minutes} min",
+  "usingBreak": "Pensado alrededor de tu quiebre vocal, en {note}.",
+  "stepCard": "{syllable}, a {tempo} bpm",
+  "stepDetail": "{scale}, con {syllable}. A {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. A {tempo} bpm, {direction}.",
+  "stepOf": "Paso {step} de {steps}",
+  "keyOf": "Tonalidad {key} de {keys}: {note}",
+  "countIn": "Prepárate: {n}",
+  "breathe": "Respira. El siguiente paso empieza en {seconds}.",
+  "done": "Hasta aquí. Pulsa Reproducir para volver a empezar.",
+  "noAudio": "Este navegador no puede reproducir audio. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.",
+  "loadFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo.",
+  "keyboard": "Teclas de piano de {low} a {high}",
+  "styles": {
+    "struck": "Golpeado",
+    "normal": "Normal",
+    "smooth": "Suave"
+  },
+  "directions": {
+    "normal": "Ascendente",
+    "inverted": "Descendente",
+    "mirror": "Espejo"
+  }
+}

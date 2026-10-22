@@ -1,0 +1,23 @@
+{
+  "start": "Démarrer",
+  "stop": "Arrêter",
+  "listening": "Écoute...",
+  "tooQuiet": "Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.",
+  "allow": "Autorise le micro quand ton navigateur le demande.",
+  "result": "Ton résultat",
+  "share": "Partager",
+  "save": "Enregistrer l'image",
+  "openInBrowser": "Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.",
+  "androidOnly": "Android uniquement",
+  "lastTime": "La dernière fois",
+  "tryAgain": "Réessayer",
+  "play": "Lire",
+  "loading": "Chargement du piano...",
+  "next": "Suivant",
+  "back": "Retour",
+  "close": "Fermer",
+  "copyLink": "Copier le lien",
+  "copied": "Lien copié",
+  "privacyLine": "Rien n'est enregistré ni envoyé. Ton navigateur écoute sur ton appareil, et le micro se coupe quand tu appuies sur Arrêter.",
+  "noScript": "Cet outil a besoin de JavaScript. Tout le reste de la page fonctionne sans."
+}

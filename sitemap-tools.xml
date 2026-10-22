@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English -->
+  <url>
+    <loc>https://scalita.com/tools/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tools/vocal-range-test/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tools/sing-in-tune-test/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tools/warm-up-piano/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tools/voice-break-finder/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Español -->
+  <url>
+    <loc>https://scalita.com/es/herramientas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/herramientas/test-de-rango-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/herramientas/test-de-afinacion-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/herramientas/piano-para-vocalizar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/herramientas/test-de-pasaje-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Français -->
+  <url>
+    <loc>https://scalita.com/fr/outils/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/outils/test-tessiture-voix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/outils/test-chanter-juste/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/outils/piano-vocalises/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/outils/trouver-son-passage-de-voix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Português -->
+  <url>
+    <loc>https://scalita.com/pt/ferramentas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/ferramentas/piano-para-vocalizar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Deutsch -->
+  <url>
+    <loc>https://scalita.com/de/tools/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/tools/stimmumfang-testen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/tools/toene-treffen-test/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/tools/einsingen-klavier/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/tools/registerwechsel-finden/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Türkçe -->
+  <url>
+    <loc>https://scalita.com/tr/araclar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/araclar/ses-araligi-testi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/araclar/detone-testi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/araclar/piyanoda-ses-acma/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/araclar/gecis-bolgesi-testi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Bahasa Indonesia -->
+  <url>
+    <loc>https://scalita.com/id/alat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/alat/cek-range-vokal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/vocal-range-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-rango-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-tessiture-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/stimmumfang-testen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/ses-araligi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-range-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/vocal-range-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/alat/cek-suara-fals/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-afinacion-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/test-chanter-juste/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/toene-treffen-test/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/detone-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/cek-suara-fals/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/sing-in-tune-test/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/alat/piano-latihan-vokal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/warm-up-piano/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/piano-vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/piano-para-vocalizar/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/einsingen-klavier/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/piyanoda-ses-acma/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/piano-latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/warm-up-piano/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/alat/tes-passaggio/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/outils/trouver-son-passage-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/tools/registerwechsel-finden/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/araclar/gecis-bolgesi-testi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+</urlset>

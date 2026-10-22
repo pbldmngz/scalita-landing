@@ -1,0 +1,60 @@
+{
+  "slug": "note-names-octaves",
+  "label": "Note names and octaves",
+  "title": "Middle C: {{note:C4:intl}} or C3? Note names and octaves - Scalita",
+  "description": "Middle C is {{note:C4:intl}}, Do4, Do3 or c¹, depending on where you learned music. How note names and octave numbers line up, and why German writes H.",
+  "h1": "Note names and octave numbers",
+  "lead": "One piano key can have several names, depending on where you learned music. Here is how the naming systems and octave numbers line up, so a note on this site means the key you think it means.",
+  "sections": [
+    {
+      "heading": "Middle C and the octave numbers",
+      "html": "<p>Middle C, the C near the middle of the piano, is {{note:C4:intl}} in scientific pitch notation, the international system this site pairs every note name with. The number goes up by one at each C: the lowest C on an 88-key piano is C1, middle C is the fourth, and the A that orchestras tune to is {{note:A4:intl}}.</p>\n<p>Scalita writes Spanish and Turkish solfège with the same count, so middle C is Do4. French and Brazilian solfège count one lower: middle C is Do3 in French and Dó3 in Brazilian Portuguese. German marks the octave with letter case and small numbers instead: middle C is c¹, and the C below it is a plain c.</p>"
+    },
+    {
+      "heading": "Why German writes H",
+      "html": "<p>In German, the note English calls B is written H, and B means B flat. Sharps add -is and flats add -es, so F sharp is Fis and E flat is Es. A German singer reading an English B would sing a half step lower than meant, which is why Scalita uses German names in German.</p>"
+    },
+    {
+      "heading": "Fixed do and movable do",
+      "html": "<p>In fixed do, do is always C, re is always D, and so on: the syllables are the note names. Spain, France, Italy, Brazil, Turkey and Latin America name notes this way.</p>\n<p>In movable do, do is the first note of whatever key you're in, so a tune sung on do re mi keeps its syllables in any key. Music classes and choirs in English-speaking countries use it, and in Indonesia and China the same idea is written in numbers, 1 for do, under a heading that names the key, such as do = G. Scalita's Numbers notation works this way.</p>"
+    },
+    {
+      "heading": "How this site writes notes",
+      "html": "<p>Every note name here comes from the Scalita app's own tables: your language's usual system first, with the international name beside it when the two differ. In the app you can switch between Letters, Solfège, German letters and Numbers in the settings.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is middle C {{note:C4:intl}} or C3?",
+      "a": "<p>{{note:C4:intl}}, in the scientific pitch notation most singing material uses. If a keyboard or recording program calls it C3, or C5, it's the same key with another label: the MIDI standard only says that middle C is note number 60.</p>"
+    },
+    {
+      "q": "Which key is middle C on a piano?",
+      "a": "<p>On a full 88-key piano it's the fourth C from the left, near the middle. Every C is the white key just left of a pair of black keys.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia: Musical note, on middle C, Helmholtz names and the German H.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (French): La 440, which pairs la3 with A4 and do3 with C4.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia: Solfège, on fixed do and movable do.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association: MIDI octave and note numbering standard.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

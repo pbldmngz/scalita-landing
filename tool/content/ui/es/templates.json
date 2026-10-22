@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Pruébalo en tu rango"
+  },
+  "tool": {
+    "howTo": "Cómo se usa",
+    "sample": "Un resultado de ejemplo",
+    "notClaimed": "Lo que no afirma"
+  },
+  "routine": {
+    "length": "Cuánto dura",
+    "steps": "Pasos",
+    "cues": "Durante toda la rutina",
+    "whyOrder": "Por qué este orden",
+    "whatToFeel": "Qué deberías sentir",
+    "whenToStop": "Cuándo parar",
+    "next": "Qué hacer después"
+  },
+  "steps": {
+    "scale": "Escala",
+    "syllable": "Sílaba",
+    "style": "Estilo",
+    "span": "Extensión",
+    "passaggio": "Quiebre vocal",
+    "repeat": "Repeticiones por tonalidad",
+    "wholeRange": "Todo tu rango",
+    "semitones": "{count} semitonos",
+    "minutes": "{minutes} min",
+    "count": "Pasos",
+    "routines": "Rutinas"
+  },
+  "exercise": {
+    "tryIt": "Pruébalo ahora",
+    "troubleshooting": "Si no te sale",
+    "usage": "Dónde lo usa Scalita"
+  },
+  "pattern": {
+    "degrees": "Grados",
+    "notes": "Desde {note}",
+    "sung": "Se canta",
+    "syllables": "Sílabas con las que la usa Scalita",
+    "routines": "Rutinas que la usan"
+  },
+  "concept": {
+    "shortAnswer": "La respuesta corta",
+    "where": "Dónde está en tu voz",
+    "listenFor": "Qué escuchar",
+    "tryIt": "Pruébalo",
+    "exercises": "Ejercicios que ayudan",
+    "misconceptions": "Ideas equivocadas frecuentes",
+    "seeProfessional": "Cuándo ir a un profesional"
+  },
+  "voices": {
+    "heading": "Los seis tipos de voz",
+    "voiceType": "Tipo de voz",
+    "range": "Rango típico",
+    "primo": "Primer cambio",
+    "secondo": "Segundo cambio",
+    "fromTo": "{low} a {high}",
+    "keyboard": "{name}: de {low} a {high}",
+    "note": "Son rangos y quiebres típicos de la tradición clásica. Scalita usa esos mismos quiebres como primera estimación hasta que encuentres los tuyos. Cada voz es distinta, y el rango por sí solo no decide el tipo de voz."
+  },
+  "registers": {
+    "heading": "Por debajo y por encima de tu rango habitual",
+    "register": "Registro",
+    "span": "Dónde está",
+    "note": "Son las zonas en las que Scalita entrena cada registro. En los subarmónicos, la zona es la altura que se oye."
+  },
+  "intake": {
+    "appOnly": "Solo en la app"
+  },
+  "notation": {
+    "systems": "Cuatro formas de nombrar las notas",
+    "system": "Sistema",
+    "names": "Notas",
+    "where": "Dónde se usa",
+    "landmarks": "El do central y el la 440 en cada sistema",
+    "middleC": "Do central",
+    "a440": "La 440 Hz",
+    "octave": "Una octava en cada sistema",
+    "keyboard": "Una octava desde el do central, en {system}",
+    "octaves": "Tres formas de numerar las octavas",
+    "style": "Números de octava",
+    "lowest": "Tecla más grave",
+    "highest": "Tecla más aguda",
+    "styles": {
+      "scientific": "Científica",
+      "francoBelgian": "Franco-belga",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

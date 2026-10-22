@@ -1,0 +1,44 @@
+{
+  "label": "Ücretsiz araçlar",
+  "title": "Şarkıcılar için ücretsiz online araçlar - Scalita",
+  "description": "Şarkıcılar için tarayıcıda çalışan dört ücretsiz araç: ses aralığı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
+  "h1": "Şarkıcılar için ücretsiz araçlar",
+  "lead": "Ses aralığını bul, bir notaya ne kadar yakın söylediğine bak, kendi tonlarında gerçek bir piyanoyla ısın ve sesinin nerede geçiş yaptığını bul. Hesap açman gerekmez, söylediğin hiçbir şey cihazından çıkmaz.",
+  "intro": "<p>Bu dört araç, Android için bir vokal ısınma uygulaması olan Scalita'dan geliyor. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar.</p><p>Hepsi için iki kural geçerli. Bir araç ya dinler ya piyano çalar, ikisini asla aynı anda yapmaz; bu yüzden kulaklığa ihtiyacın yok. Bir araç dinlediğinde de işi cihazında tarayıcın yapar: hiçbir şey kaydedilmez, hiçbir yere gönderilmez.</p>",
+  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "sections": [
+    {
+      "heading": "Nereden başlamalı",
+      "html": "<p>Bu işte yeniysen şu sırayla git:</p><ol><li><a href=\"page:vocal-range-test\">Ses aralığı testi</a>: rahat söyleyebildiğin en pes ve en tiz notalar, yaklaşık bir dakikada.</li><li><a href=\"page:voice-break-finder\">Geçiş bölgesi testi</a>: sesinin vites değiştirdiği yer; bu, ses türün hakkında aralığından daha çok şey söyler.</li><li><a href=\"page:warm-up-piano\">Ses açma piyanosu</a>: uygulamadaki gamlar ve rutinler, senin aralığında çalınır.</li><li><a href=\"page:sing-in-tune-test\">Detone testi</a>: ısındıktan sonra, az önce duyduğun bir notaya ne kadar yakın söylediğin.</li></ol>"
+    },
+    {
+      "heading": "Bir araç dinlediğinde",
+      "html": "<p>Ses aralığı testi ve detone testi mikrofonunu kullanır. Mikrofonu ancak sen Başlat'a bastıktan sonra isterler, sesinin perdesini geldiği anda okurlar ve hiçbir şey saklamazlar. Durdur'a bastığında ya da sayfadan çıktığında mikrofon kapanır. Ses açma piyanosu ve geçiş bölgesi testi mikrofonu hiç kullanmaz.</p><p>Mikrofon Chrome, Safari, Firefox ya da Edge'in güncel sürümlerinde çalışır. Instagram, TikTok, Facebook ya da Gmail gibi uygulamaların içindeki tarayıcılarda çalışmaz; buraya onlardan birinden geldiysen önce sayfayı telefonunun tarayıcısında aç.</p>"
+    },
+    {
+      "heading": "Sana söylemeyecekleri",
+      "html": "<p>Bu araçların hiçbiri sesine not vermez. Perdeyi ölçerler: hangi notalara ulaştığını, sesinin nerede geçiş yaptığını, bir notaya ne kadar yakın söylediğini. Ses rengini puanlamaz, seni başkalarıyla karşılaştırmaz, konuşma sesinden ses türünü tahmin etmeye de çalışmazlar. Bir sonuç tek bir anın ölçümüdür; sesin yarın biraz farklı okunabilir.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Araçlar ücretsiz mi?",
+      "a": "<p>Evet. Hesap yok, e-posta yok, reklam yok. Kendi başlarına işe yararlar ve Scalita uygulamasının neler yaptığını gösterirler.</p>"
+    },
+    {
+      "q": "iPhone'da çalışıyorlar mı?",
+      "a": "<p>Tarayıcıda çalıştıkları için, tarayıcı güncel olduğu sürece iPhone'da, Android telefonda ya da bilgisayarda çalışırlar. Scalita uygulamasının kendisi şimdilik yalnızca Android'de.</p>"
+    },
+    {
+      "q": "Kulaklığa ihtiyacım var mı?",
+      "a": "<p>Hayır. Piyano çalan bir araç aynı anda dinlemez, dinleyen bir araç da piyano çalmaz; bu yüzden mikrofon yalnızca seni duyar.</p>"
+    },
+    {
+      "q": "Bir şey kaydediliyor mu?",
+      "a": "<p>Yalnızca cihazında. Ses aralığı testi, detone testi ve geçiş bölgesi testi son sonucunu bu tarayıcıda hatırlar, böylece bir dahaki sefere karşılaştırabilirsin. Tarayıcı ayarlarından bu sitenin verilerini temizlersen silinir.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

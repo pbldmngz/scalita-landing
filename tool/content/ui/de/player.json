@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Deine Stimme",
+  "custom": "Eigener Umfang",
+  "lowest": "Tiefster Ton",
+  "highest": "Höchster Ton",
+  "chooserLabel": "Übung",
+  "routines": "Routinen",
+  "scales": "Tonleitern",
+  "pickVoice": "Wähl deine Stimmlage oder stell deinen eigenen Umfang ein und drück dann auf Abspielen.",
+  "ready": "{low} bis {high}. Drück auf Abspielen, wenn du bereit bist.",
+  "routineSummary": "{steps} Schritte, etwa {minutes} Min",
+  "scaleSummary": "{keys} Tonarten, etwa {minutes} Min",
+  "usingBreak": "Um deinen Registerbruch bei {note} herum gebaut.",
+  "stepCard": "{syllable}, {tempo} bpm",
+  "stepDetail": "{scale}, auf {syllable}. {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. {tempo} bpm, {direction}.",
+  "stepOf": "Schritt {step} von {steps}",
+  "keyOf": "Tonart {key} von {keys}: {note}",
+  "countIn": "Gleich geht's los: {n}",
+  "breathe": "Atme. Der nächste Schritt beginnt in {seconds}.",
+  "done": "Das war's. Drück auf Abspielen für eine neue Runde.",
+  "noAudio": "Dieser Browser kann keinen Ton abspielen. Versuch es mit einer aktuellen Version von Chrome, Safari, Firefox oder Edge.",
+  "loadFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal.",
+  "keyboard": "Klaviertasten von {low} bis {high}",
+  "styles": {
+    "struck": "Hart",
+    "normal": "Normal",
+    "smooth": "Weich"
+  },
+  "directions": {
+    "normal": "Aufwärts",
+    "inverted": "Abwärts",
+    "mirror": "Gespiegelt"
+  }
+}

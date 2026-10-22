@@ -1,0 +1,23 @@
+{
+  "start": "Empezar",
+  "stop": "Detener",
+  "listening": "Escuchando...",
+  "tooQuiet": "Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.",
+  "allow": "Permite el micrófono cuando el navegador te lo pida.",
+  "result": "Tu resultado",
+  "share": "Compartir",
+  "save": "Guardar imagen",
+  "openInBrowser": "El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.",
+  "androidOnly": "Solo Android",
+  "lastTime": "La última vez",
+  "tryAgain": "Intentar de nuevo",
+  "play": "Reproducir",
+  "loading": "Cargando el piano...",
+  "next": "Siguiente",
+  "back": "Atrás",
+  "close": "Cerrar",
+  "copyLink": "Copiar enlace",
+  "copied": "Enlace copiado",
+  "privacyLine": "No se graba ni se envía nada. Tu navegador escucha en tu dispositivo, y el micrófono se apaga cuando pulsas Detener.",
+  "noScript": "Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él."
+}

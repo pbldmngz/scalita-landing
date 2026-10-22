@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "Browser ini tidak bisa memakai mikrofon di sini. Coba Chrome, Safari, Firefox, atau Edge versi terbaru.",
+  "micInApp": "Browser bawaan aplikasi ini tidak bisa memakai mikrofon. Buka halaman ini di Chrome atau Safari.",
+  "micBlocked": "Browser-mu memblokir mikrofon untuk situs ini. Izinkan di pengaturan situs, biasanya lewat ikon di samping alamat, lalu muat ulang halaman.",
+  "micDismissed": "Halaman ini butuh izinmu untuk memakai mikrofon. Coba lagi dan pilih Izinkan saat browser memintanya.",
+  "micNotFound": "Mikrofon tidak ditemukan. Colokkan atau nyalakan mikrofon, lalu coba lagi.",
+  "micBusy": "Mikrofon sedang dipakai hal lain, seperti panggilan telepon atau aplikasi lain. Tutup dulu, lalu coba lagi.",
+  "micInterrupted": "Mikrofon terputus, mungkin karena ada panggilan atau headset tercabut. Coba lagi kalau sudah siap.",
+  "micHidden": "Alat ini berhenti mendengarkan saat kamu pindah dari halaman. Mulai lagi kapan pun kamu siap.",
+  "micFailed": "Ada yang salah saat menyalakan mikrofon. Muat ulang halaman, lalu coba lagi.",
+  "micBluetooth": "Sepertinya itu headset Bluetooth. Mikrofonnya turun ke kualitas panggilan telepon, jadi mikrofon bawaan ponselmu akan menangkap suaramu lebih baik.",
+  "micSilent": "Tidak ada suara yang masuk dari mikrofon. Pastikan mikrofon tidak dibisukan, lalu bernyanyi atau lakukan humming.",
+  "levelQuiet": "Terlalu pelan. Bernyanyilah sedikit lebih keras, atau dekatkan dirimu ke mikrofon.",
+  "levelLoud": "Suaranya cukup keras sampai bisa terdistorsi. Mundur sedikit dari mikrofon."
+}

@@ -1,0 +1,53 @@
+{
+  "slug": "desaquecimento-vocal",
+  "label": "Desaquecimento vocal",
+  "title": "Desaquecimento vocal: exercícios para depois de cantar - Scalita",
+  "description": "Um desaquecimento leve para depois de um show, de um ensaio longo ou de um dia cansativo: vibrações e murmúrios lentos no piano, e o que a pesquisa diz.",
+  "h1": "Exercícios de desaquecimento vocal",
+  "lead": "Para depois de um show, de um ensaio longo ou de uma aula, e para os dias em que a voz parece cansada: seis passos lentos e baixinhos, duas vibrações de lábios, três murmúrios de boca fechada e uma vogal fechada, a maioria numa faixa pequena. É a rotina Leve / recuperação do Scalita, e ela leva de 7 a 11 minutos numa extensão de duas oitavas.",
+  "routineId": "gentle_recovery",
+  "whyOrder": "<h2>Por que nesta ordem</h2><p>Um desaquecimento é um aquecimento ao contrário: em vez de se abrir, tudo se estreita e fica mais lento. A Leve / recuperação abre com uma vibração de lábios pela sua extensão inteira, depois fica em faixas de uma oitava ou um pouco mais, e termina num murmúrio que vai descendo, no andamento mais lento da rotina e na sua menor faixa.</p><p>Todos os passos deslizam de nota em nota, e nenhum trabalha em volta da sua passagem. As duas vibrações são de lábios: os aquecimentos do app começam pela vibração de língua, e o app guarda a vibração de lábios para uma voz cansada ou tensa. A dica da rotina inteira é Leve e suave: use sua voz mais leve e aguda e não empurre.</p><p>Os murmúrios ocupam metade dela. No estudo de desaquecimento de Kari Ragan, o murmúrio de boca fechada e a fonação no canudo foram os exercícios que as cantoras sentiram que mais ajudaram com o cansaço vocal.</p>",
+  "whatToFeel": "<h2>O que sentir</h2><p>Menos esforço conforme você avança. O zumbido das vibrações e dos murmúrios deve parecer fácil e perto da frente do rosto, e a sua voz deve estar mais calma no fim do que no começo. As cantoras do estudo de Ragan disseram que a voz falada voltou ao normal mais cedo depois de um desaquecimento.</p><p>Mantenha baixinho: o volume que você usaria com alguém sentado ao seu lado, ou menos.</p><h3>Erros comuns</h3><ul><li><strong>Transformar em mais estudo.</strong> Não pare para consertar coisas nem para correr atrás de notas. Isso pode esperar a próxima sessão.</li><li><strong>Cantar a plena voz.</strong> Se uma nota pede mais voz do que um murmúrio, deixe ela de fora.</li><li><strong>Pular porque a voz parece bem.</strong> Parte do que as cantoras relataram veio depois: menos cansaço ao longo da semana e um aquecimento mais fácil na vez seguinte em que cantaram.</li></ul>",
+  "whenToStop": "<h2>Quando parar</h2><p>Um desaquecimento não é tratamento. Se a sua voz está rouca, dói ou perdeu parte da extensão, pare e descanse, e procure um médico se não melhorar, de preferência um que trabalhe com cantores. Se estiver doente, descanse em vez de cantar, esta rotina inclusive.</p><p>Pare qualquer passo que pedir esforço. Tudo deve ser possível baixinho, e um passo que pede mais do que isso é para pular hoje.</p>",
+  "next": "<h2>O que fazer depois</h2><p>Deixe a voz descansar. Da próxima vez que cantar, comece pelo <a href=\"page:quick-vocal-warm-up\">aquecimento rápido</a> ou pelo <a href=\"page:full-vocal-warm-up\">completo</a>. A página de <a href=\"page:lip-trills\">vibração de lábios</a> explica a vibração em que esta rotina se apoia.</p><p>Se a sua voz costuma ficar cansada depois de cantar, um professor de canto pode olhar como você canta. No app, o Achar meu aquecimento manda você para cá sempre que você diz que a voz está cansada ou forçada, e o Modo dinâmico termina toda sessão com tempo marcado com um desaquecimento próprio.</p>",
+  "sections": [
+    {
+      "heading": "O que a pesquisa diz",
+      "html": "<p>Ainda pouco. Desaquecer é bem menos comum do que aquecer: numa pesquisa com 117 cantores, 54% sempre aqueciam e 22% desaqueciam. Kari Ragan, professora de canto da Universidade de Washington que publicou pesquisas sobre desaquecimento, escreveu em 2018 que os dados científicos ainda estão engatinhando.</p><p>No estudo dela, vinte cantoras de formação clássica avaliaram a própria voz depois de uma hora cantando, numa semana com desaquecimento e numa semana sem. Dependendo do questionário, de 67 a 74% disseram que a voz ficou melhor com ele, mas a melhora não foi estatisticamente significativa, e ouvintes especialistas só identificaram a semana com desaquecimento em 46% das vezes. Um estudo anterior, menor, com medidas acústicas achou o efeito pouco claro, e qualquer benefício parecia vir de 12 a 14 horas depois, e não na hora.</p><p>Então quem desaquece costuma se sentir melhor com isso. Se isso é físico ou psicológico ainda não foi resolvido, e a pesquisa ainda não mostra que o desaquecimento protege a sua voz. Ele custa alguns minutos, e é leve.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Precisa desaquecer a voz depois de cantar?",
+      "a": "<p>Precisar é uma palavra forte. A pesquisa é pouca, mas as cantoras que experimentaram um desaquecimento sentiram, na maioria, que a voz se recuperou mais rápido. Depois de uma sessão longa ou forte, ele custa alguns minutos e pede muito pouco da sua voz.</p>"
+    },
+    {
+      "q": "Quanto tempo deve durar um desaquecimento vocal?",
+      "a": "<p>Não existe uma duração baseada em pesquisa. Esta rotina leva de 7 a 11 minutos nas opções de tipo de voz, dependendo da extensão, e você pode parar quando precisar. No app, o Modo dinâmico usa o último quinto de uma sessão com tempo marcado para desaquecer, cerca de dois minutos numa sessão de dez.</p>"
+    },
+    {
+      "q": "Dá para desaquecer com um canudo?",
+      "a": "<p>Dá. A fonação no canudo abria o protocolo de desaquecimento do estudo de Ragan, e as cantoras a avaliaram, junto com o murmúrio de boca fechada, como a mais útil. O Scalita não tem um passo com canudo. As vibrações de lábios e os murmúrios dele são da mesma família de exercícios, em que os lábios ou a boca fechada bloqueiam parte do ar. Se você tem um canudo, deslizar devagar entre as notas através dele, numa região confortável, combina bem.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    },
+    {
+      "label": "Ragan (2016). The impact of vocal cool-down exercises: a subjective study of singers' and listeners' perceptions. Journal of Voice 30(6).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26778328/"
+    },
+    {
+      "label": "Gish, Kunduk, Sims e McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "1d90db76381cafa2dd9213d5658264b7bdbc7d1d3580b72feddcd8652fa60d48"
+}

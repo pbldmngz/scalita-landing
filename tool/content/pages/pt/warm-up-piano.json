@@ -1,0 +1,60 @@
+{
+  "slug": "piano-para-vocalizar",
+  "label": "Piano de aquecimento",
+  "title": "Piano para vocalizar grátis, na sua extensão - Scalita",
+  "description": "Escalas e rotinas de aquecimento vocal num piano de verdade, tocadas na sua extensão: escolha um tipo de voz ou as suas notas mais grave e mais aguda. Grátis.",
+  "h1": "Piano de aquecimento vocal",
+  "lead": "Um vídeo de aquecimento é gravado num conjunto fixo de tons. Este piano toca as escalas e rotinas do Scalita nos seus: escolha um tipo de voz ou as suas próprias notas mais grave e mais aguda, e aperte Tocar.",
+  "toolId": "player",
+  "instructions": "<h2>Como usar</h2><ol><li>Escolha um tipo de voz, ou defina as suas próprias notas mais grave e mais aguda. Se você não sabe quais são, o <a href=\"page:vocal-range-test\">teste de extensão vocal</a> descobre em cerca de um minuto.</li><li>Escolha uma escala ou uma rotina. O padrão, a sílaba para cantar, o andamento e o estilo aparecem antes de começar.</li><li>Aperte Tocar e cante junto. Antes de cada tom novo há um momento para respirar e um acorde curto que apresenta o tom.</li><li>Aperte Parar quando quiser.</li></ol><p>O piano não usa o microfone, e nada é baixado até você apertar Tocar.</p>",
+  "sampleResult": "<h2>O que você vai ouvir</h2><p>Escolha Tenor e a escala 5 notas. O primeiro tom começa em {{note:D3}}: o piano toca de {{note:D3}} até {{note:A3}} e volta, cinco notas subindo e quatro descendo. A cada repetição o padrão sobe meio tom, até o topo chegar a {{note:C5}}. Depois os tons voltam a descer, passando do ponto de partida, até a escala começar em {{note:C3}}, o fundo da extensão de um tenor. São 33 repetições, cada uma num tom novo.</p><p>Se você escolher uma rotina, como a Rápida pré-show, o piano toca os exercícios um depois do outro. Com a opção Tenor, leva cerca de 8 minutos.</p>",
+  "notClaimed": "<h2>O que este piano não faz</h2><p>Ele toca e não escuta, então não consegue dizer se você está na nota ou forçando demais. Ele toca uma escala ou rotina de cada vez e não guarda nada entre uma visita e outra. Também não é uma aula. Se uma nota doer ou a sua voz parecer cansada, pare.</p>",
+  "sections": [
+    {
+      "heading": "Por que a sua extensão importa",
+      "html": "<p>A maioria dos vídeos de aquecimento vem numa versão “masculina” e numa “feminina”, cada uma em tons fixos, e muitas vozes não cabem em nenhuma das duas. Quando a escala de um vídeo sobe além do seu agudo confortável, você força ou para de cantar. Aqui você escolhe um tipo de voz, ou deixa os rótulos de lado e define as suas próprias notas mais grave e mais aguda. Cada exercício começa num tom confortável para essa extensão e fica dentro dela.</p>"
+    },
+    {
+      "heading": "O que ele toca",
+      "html": "<p>As mesmas escalas e rotinas do app Scalita, com os mesmos padrões, sílabas, andamentos e ordem. Isso inclui os padrões que os cantores mais usam: numa pesquisa com 117 estudantes de canto e cantores profissionais, entre os exercícios de aquecimento mais comuns estavam escalas de cinco notas, escalas de oitava e arpejos (Gish e colegas, 2012).</p><p>Uma escala toca um padrão ao longo da sua extensão. Uma rotina toca vários exercícios seguidos, do jeito que o app faz.</p>"
+    },
+    {
+      "heading": "O piano",
+      "html": "<p>O som é do Salamander Grand Piano, gravado por Alexander Holm: o mesmo piano que o app toca, reafinado para que cada nota fique na altura certa. Para a página ficar leve, ele usa 20 notas gravadas e desloca cada uma no máximo um semitom para preencher as teclas entre elas. Só são carregadas as notas de que a sua extensão precisa, e só depois que você aperta Tocar.</p>"
+    },
+    {
+      "heading": "Cantando junto",
+      "html": "<ul><li>Cante a sílaba indicada, num volume médio. Se ela parecer estranha, cantarolar de boca fechada funciona em qualquer padrão.</li><li>Mantenha os tons mais agudos leves. Se algum parecer esticado demais, pare e defina uma extensão menor em vez de forçar.</li><li>Use o alto-falante ou fones, como preferir. Nada está escutando.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Por qual aquecimento eu começo?",
+      "a": "<p>Se você tem alguns minutos, experimente uma rotina curta como a Rápida pré-show. Se só quer acordar a voz, cantarole a escala 5 notas de boca fechada. Os <a href=\"page:vocal-warm-ups\">guias de aquecimento</a> mostram as rotinas do app passo a passo.</p>"
+    },
+    {
+      "q": "Que tipo de voz eu escolho?",
+      "a": "<p>Aquele cuja extensão parece mais perto da sua, ou nenhum: defina as suas próprias notas mais grave e mais aguda. O <a href=\"page:vocal-range-test\">teste de extensão vocal</a> descobre essas notas em cerca de um minuto, e o <a href=\"page:voice-types\">guia de tipos de voz</a> mostra o que cada um cobre.</p>"
+    },
+    {
+      "q": "Dá para salvar uma rotina ou a minha extensão?",
+      "a": "<p>Aqui não. Este piano é uma amostra do app Scalita, que guarda no seu celular a sua extensão, as suas escalas e rotinas e o seu histórico de estudo.</p>"
+    },
+    {
+      "q": "Funciona no celular?",
+      "a": "<p>Funciona, num navegador recente, no celular ou no computador. No iPhone, se não sair som, confira se ele não está no modo silencioso.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims e McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Salamander Grand Piano V3, de Alexander Holm: as amostras de piano",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

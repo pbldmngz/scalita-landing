@@ -1,0 +1,44 @@
+{
+  "label": "Alat gratis",
+  "title": "Alat Bernyanyi Gratis di Browser - Scalita",
+  "description": "Empat alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
+  "h1": "Alat bernyanyi gratis",
+  "lead": "Cari jangkauanmu, cek seberapa dekat nyanyianmu dengan sebuah nada, lakukan pemanasan dengan piano asli di nada dasarmu sendiri, dan temukan titik tempat suaramu berpindah. Tidak perlu membuat akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
+  "intro": "<p>Keempat alat ini berasal dari Scalita, aplikasi pemanasan vokal untuk Android. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasi itu sendiri, dan berjalan di browser, baik di ponsel maupun di komputer.</p><p>Ada dua aturan yang berlaku untuk semuanya. Sebuah alat hanya mendengarkan atau hanya memainkan piano, tidak pernah keduanya sekaligus, jadi kamu tidak perlu headphone. Dan saat sebuah alat mendengarkan, browser-mu yang mengerjakannya di perangkatmu: tidak ada yang direkam atau dikirim ke mana pun.</p>",
+  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "sections": [
+    {
+      "heading": "Mulai dari mana",
+      "html": "<p>Kalau kamu baru mulai, ikuti urutan ini:</p><ol><li><a href=\"page:vocal-range-test\">Tes range vokal</a>: jangkauan vokalmu, dari nada terendah sampai tertinggi yang nyaman, dalam sekitar satu menit.</li><li><a href=\"page:voice-break-finder\">Tes passaggio</a>: peralihan registermu, titik tempat suaramu berpindah gigi, yang lebih banyak bercerita tentang jenis suaramu daripada jangkauanmu.</li><li><a href=\"page:warm-up-piano\">Piano latihan vokal</a>: tangga nada dan rutinitas dari aplikasi, dimainkan di jangkauanmu.</li><li><a href=\"page:sing-in-tune-test\">Tes ketepatan nada</a>: setelah pemanasan, seberapa dekat kamu mendarat di nada yang baru saja kamu dengar.</li></ol>"
+    },
+    {
+      "heading": "Saat alat mendengarkan",
+      "html": "<p>Tes range vokal dan tes ketepatan nada memakai mikrofonmu. Keduanya baru memintanya setelah kamu menekan Mulai, membaca nada suaramu saat suara itu masuk, dan tidak menyimpan apa pun. Tekan Berhenti atau tinggalkan halaman, dan mikrofon mati. Piano latihan vokal dan tes passaggio tidak pernah memakainya.</p><p>Mikrofon bisa dipakai di Chrome, Safari, Firefox, atau Edge versi terbaru. Mikrofon tidak bisa dipakai di browser bawaan aplikasi seperti Instagram, TikTok, Facebook, atau Gmail, jadi kalau kamu sampai di sini dari salah satunya, buka dulu halaman ini di browser ponselmu.</p>"
+    },
+    {
+      "heading": "Yang tidak akan dikatakan alat-alat ini",
+      "html": "<p>Tidak satu pun alat ini menilai suaramu. Semuanya mengukur nada: nada mana yang bisa kamu capai, di mana suaramu berpindah, dan seberapa dekat kamu mendarat di sebuah nada. Alat-alat ini tidak menilai warna suaramu, tidak membandingkanmu dengan orang lain, dan tidak menebak jenis suaramu dari caramu berbicara. Sebuah hasil adalah bacaan dari satu saat, dan besok suaramu bisa terbaca sedikit berbeda.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah alat-alat ini gratis?",
+      "a": "<p>Ya. Tidak perlu akun, tidak perlu email, dan tidak ada iklan. Alat-alat ini berguna dengan sendirinya, dan sekaligus menunjukkan apa yang dilakukan aplikasi Scalita.</p>"
+    },
+    {
+      "q": "Apakah bisa dipakai di iPhone?",
+      "a": "<p>Alat-alat ini berjalan di browser, jadi bisa dipakai di iPhone, ponsel Android, atau komputer, asalkan browser-nya versi terbaru. Aplikasi Scalita sendiri untuk saat ini hanya ada di Android.</p>"
+    },
+    {
+      "q": "Apakah perlu headphone?",
+      "a": "<p>Tidak. Alat yang memainkan piano tidak mendengarkan pada saat yang sama, dan alat yang mendengarkan tidak memainkan apa pun, jadi mikrofon hanya mendengar suaramu.</p>"
+    },
+    {
+      "q": "Apakah ada yang disimpan?",
+      "a": "<p>Hanya di perangkatmu. Tes range vokal, tes ketepatan nada, dan tes passaggio mengingat hasil terakhirmu di browser ini, supaya kamu bisa membandingkannya lain kali. Menghapus data situs ini di pengaturan browser akan menghapusnya.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

@@ -1,0 +1,49 @@
+{
+  "label": "Outils gratuits",
+  "title": "Outils de chant gratuits dans ton navigateur - Scalita",
+  "description": "Quatre outils gratuits pour chanteurs, dans ton navigateur : un test de tessiture, un test de justesse, un piano pour vocalises et un outil de passage de voix.",
+  "h1": "Outils de chant gratuits",
+  "lead": "Trouve ta tessiture, mesure à quel point tu tombes près d'une note, échauffe-toi sur un vrai piano dans tes propres tonalités, et trouve où ta voix change. Pas de compte à créer, et rien de ce que tu chantes ne quitte ton appareil.",
+  "intro": "<p>Ces quatre outils viennent de Scalita, une application d'échauffement vocal pour Android. Ils reprennent sa détection de hauteur, son piano et ses exercices, et ils tournent dans ton navigateur, sur téléphone ou sur ordinateur.</p><p>Deux règles valent pour tous. Un outil écoute ou joue du piano, jamais les deux à la fois, donc pas besoin de casque. Et quand un outil écoute, c'est ton navigateur qui fait le travail, sur ton appareil : rien n'est enregistré ni envoyé nulle part.</p>",
+  "children": [
+    "vocal-range-test",
+    "sing-in-tune-test",
+    "warm-up-piano",
+    "voice-break-finder"
+  ],
+  "sections": [
+    {
+      "heading": "Par où commencer",
+      "html": "<p>Si tu débutes, suis cet ordre :</p><ol><li><a href=\"page:vocal-range-test\">Test de tessiture</a> : ta note la plus grave et ta note la plus aiguë, sans forcer, en une minute environ.</li><li><a href=\"page:voice-break-finder\">Trouver son passage de voix</a> : l'endroit où ta voix change de vitesse, qui en dit plus sur ton type de voix que ta tessiture.</li><li><a href=\"page:warm-up-piano\">Piano pour vocalises</a> : les gammes et les routines de l'application, jouées dans ta tessiture.</li><li><a href=\"page:sing-in-tune-test\">Test de justesse</a> : une fois ta voix échauffée, à quelle distance tu tombes d'une note que tu viens d'entendre.</li></ol>"
+    },
+    {
+      "heading": "Quand un outil écoute",
+      "html": "<p>Le test de tessiture et le test de justesse utilisent ton micro. Ils ne le demandent qu'après que tu as appuyé sur Démarrer, lisent la hauteur de ta voix au fur et à mesure, et ne gardent rien. Appuie sur Arrêter ou quitte la page, et le micro se coupe. Le piano pour vocalises et l'outil de passage de voix ne l'utilisent jamais.</p><p>Le micro fonctionne dans une version récente de Chrome, Safari, Firefox ou Edge. Il ne fonctionne pas dans les navigateurs intégrés aux applications comme Instagram, TikTok, Facebook ou Gmail : si tu arrives de l'une d'elles, ouvre d'abord la page dans le navigateur de ton téléphone.</p>"
+    },
+    {
+      "heading": "Ce qu'ils ne te diront pas",
+      "html": "<p>Aucun de ces outils ne juge ta voix. Ils mesurent la hauteur : quelles notes tu atteins, où ta voix change, à quelle distance d'une note tu tombes. Ils ne jugent pas ton timbre, ne te comparent pas aux autres et ne devinent pas ton type de voix d'après ta voix parlée. Un résultat est la mesure d'un moment, et ta voix peut donner une mesure un peu différente demain.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Les outils sont-ils gratuits ?",
+      "a": "<p>Oui. Pas de compte, pas d'e-mail, pas de pub. Ils sont utiles en eux-mêmes, et ils montrent ce que fait l'application Scalita.</p>"
+    },
+    {
+      "q": "Est-ce qu'ils marchent sur iPhone ?",
+      "a": "<p>Ils tournent dans le navigateur, donc ils marchent sur iPhone, sur un téléphone Android ou sur un ordinateur, tant que le navigateur est récent. L'application Scalita, elle, n'existe que sur Android pour l'instant.</p>"
+    },
+    {
+      "q": "Faut-il un casque ?",
+      "a": "<p>Non. Un outil qui joue du piano n'écoute pas en même temps, et un outil qui écoute ne joue pas, donc le micro n'entend jamais que toi.</p>"
+    },
+    {
+      "q": "Est-ce que quelque chose est conservé ?",
+      "a": "<p>Seulement sur ton appareil. Le test de tessiture, le test de justesse et l'outil de passage de voix retiennent ton dernier résultat dans ce navigateur, pour que tu puisses comparer la prochaine fois. Effacer les données de ce site dans les réglages de ton navigateur le supprime.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "tes-passaggio",
+  "label": "Tes passaggio",
+  "title": "Tes Passaggio: Temukan Peralihan Register Suaramu - Scalita",
+  "description": "Ikut bernyanyi saat piano naik dan ketuk saat suaramu berpindah. Kamu mendapat passaggio pertamamu dan jenis suara dengan peralihan terdekat. Tanpa mikrofon.",
+  "h1": "Tes passaggio: temukan peralihan registermu",
+  "lead": "Ikut bernyanyi saat piano naik, lalu ketuk saat suaramu seperti mau pecah, berpindah ke suara yang lebih ringan, atau butuh dorongan. Kamu mendapat nada tempat peralihan pertamamu berada dan jenis suara yang peralihannya paling dekat.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>Cara menemukan peralihanmu</h2><ol><li>Tekan “Ayo mulai”, lalu pilih suara lebih rendah atau suara lebih tinggi. Pilihan ini menentukan dari mana piano mulai dan dengan tiga jenis suara mana hasilmu dibandingkan.</li><li>Piano memainkan satu nada setiap dua detik, setiap kali setengah nada lebih tinggi.</li><li>Ikut bernyanyi dengan vokal yang mudah seperti “a”, dengan volume sedang, dan jaga bunyinya tetap sama sampai ke atas.</li><li>Ketuk saat suaramu seperti mau pecah, berpindah ke suara yang lebih ringan dan berangin, atau tiba-tiba butuh usaha lebih.</li><li>Piano memainkan tiga nada: nada yang satu nada penuh di bawah nada yang kamu ketuk, nada itu sendiri, dan nada yang satu nada penuh di atasnya. Kalau perpindahannya datang sedikit lebih awal atau lebih lambat, geser setengah nada ke bawah atau ke atas, lalu konfirmasi.</li></ol>",
+  "sampleResult": "<h2>Contoh hasil</h2><p>Misalnya kamu memilih suara lebih tinggi dan mengetuk di {{note:E4}}. Hasilnya berbunyi:</p><ul><li>Peralihan pertama: {{note:E4}}</li><li>Paling mendekati: mezzo-sopran, yang peralihan pertamanya biasanya sekitar {{note:E4}}</li><li>Peralihan kedua, diperkirakan dari jenis suara itu: sekitar {{note:E5}}</li></ul><p>Bentangan di antara kedua peralihan itu adalah zona peralihanmu. Jenis suara juga bergantung pada di mana suaramu terdengar paling bagus dan pada warna suaramu, jadi anggap hasil pencocokan ini sebagai titik awal.</p>",
+  "notClaimed": "<h2>Yang tidak dikatakan tes ini</h2><p>Nada yang kamu ketuk adalah tempat kamu merasakan perpindahan hari ini, dengan vokal itu, pada volume itu. Bernyanyi lebih keras atau mengganti vokal bisa menggesernya. Hanya peralihan pertama yang dicari dengan telinga. Peralihan kedua adalah perkiraan dari jenis suara yang cocok, bukan hasil pengukuran.</p><p>Tes ini tidak memastikan jenis suaramu, dan tidak mengajarimu menghaluskan peralihan. Sebagian suara, sering kali yang sudah terlatih, melewati zona ini dengan begitu halus sampai tidak ada patahan yang jelas. Kalau itu kamu, ketuk di tempat bernyanyi mulai butuh usaha lebih, atau lewati saja.</p>",
+  "sections": [
+    {
+      "heading": "Apa itu peralihan register",
+      "html": "<p>Saat kamu menyanyikan tangga nada ke atas, ada bentangan di mana suaramu berpindah gigi. Suaramu bisa pecah, berpindah ke suara yang lebih ringan, atau tiba-tiba butuh usaha lebih. Setiap suara mengalaminya. Ini bukan cacat, dan banyak latihan vokal bertujuan melewati bagian ini dengan halus.</p><p>Pengajaran vokal klasik menyebut perpindahan ini passaggi, dari bahasa Italia yang berarti lintasan: yang pertama, primo passaggio, dan yang kedua lebih tinggi, secondo passaggio, dengan sebuah zona di antaranya. Tes ini mencari yang pertama.</p>"
+    },
+    {
+      "heading": "Letaknya untuk tiap jenis suara",
+      "html": "<p>Di tabel Scalita, peralihan pertama berada sekitar {{note:F4}} untuk sopran, {{note:E4}} untuk mezzo-sopran, {{note:D4}} untuk kontralto dan juga tenor, {{note:B3}} untuk bariton, dan {{note:G#3}} untuk bas. Ini rata-rata klasik, dan suara sebenarnya berbeda-beda.</p><p>Kontralto dan tenor punya peralihan pertama yang sama, tapi jangkauannya berbeda. Karena itu tes ini menanyakan suara lebih rendah atau lebih tinggi: nada yang sama menunjuk jenis suara yang berbeda di masing-masing kelompok.</p>"
+    },
+    {
+      "heading": "Kenapa peralihan lebih banyak bercerita daripada jangkauan",
+      "html": "<p>Dua penyanyi bisa berbagi hampir seluruh jangkauan tapi tetap berpindah di tempat yang berbeda. Karena itu Scalita menganggap peralihan register sebagai penanda jenis suara yang lebih andal daripada jangkauan saja. Guru vokal juga mendengarkan di mana suara nyaman berada dan bagaimana warnanya, yang tidak bisa diukur piano.</p>"
+    },
+    {
+      "heading": "Cara kerja tes ini",
+      "html": "<p>Tes ini hanya memakai piano, tidak pernah mikrofon. Kamu sendiri yang menilai perpindahannya, dengan rasa dan telinga, jadi tes ini bisa dipakai di browser apa pun, dengan atau tanpa mikrofon.</p><p>Piano mulai dari nada rendah, {{note:C3}} untuk suara lebih rendah dan {{note:G#3}} untuk suara lebih tinggi, lalu naik setengah nada setiap dua detik. Saat kamu mengetuk, nada itu menjadi peralihan pertamamu. Lalu tes ini mencari jenis suara di kelompokmu yang peralihan pertamanya paling dekat, dan mengambil peralihan kedua dari jenis suara itu.</p>"
+    },
+    {
+      "heading": "Supaya jawabannya jelas",
+      "html": "<ul><li>Lakukan pemanasan sedikit dulu, misalnya beberapa tangga nada di <a href=\"page:warm-up-piano\">piano latihan vokal</a>.</li><li>Jaga vokal dan volume tetap sama sampai ke atas. Keduanya bisa menggeser tempat kamu merasakan perpindahan.</li><li>Jangan memaksa melewati perpindahan supaya bisa terus naik. Ketuk, lalu lepaskan.</li><li>Coba dua kali. Hasil yang bergeser satu tuts antarpercobaan itu wajar, karena peralihan adalah sebuah zona, bukan satu titik.</li></ul>"
+    },
+    {
+      "heading": "Setelah menemukannya",
+      "html": "<p>Peralihan register adalah tempat banyak latihan bernyanyi terjadi. Di aplikasi Scalita, peralihan membentuk latihannya: ada yang berhenti tepat sebelum peralihan, ada yang melintasinya sekali lalu kembali, ada yang berpusat di zona peralihan, dan ada yang membawamu naik sampai ke suara kepala. Rutinitas Jembatan Register disusun di sekitarnya. Untuk latar belakangnya, baca <a href=\"page:voice-cracks-high-notes\">kenapa suara pecah di nada tinggi</a> dan <a href=\"page:head-voice-vs-chest-voice\">suara kepala dan suara dada</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah suara pecah itu buruk?",
+      "a": "<p>Tidak. Setiap suara punya perpindahan ini, dan suara pecah adalah suara yang melakukannya secara tiba-tiba, bukan dengan halus. Kalau bernyanyi terasa sakit atau suaramu tetap serak, istirahatlah dan temui dokter atau terapis suara. Penjelasan lebih lengkap ada di <a href=\"page:voice-cracks-high-notes\">kenapa suara pecah di nada tinggi</a>.</p>"
+    },
+    {
+      "q": "Di mana passaggio untuk tenor?",
+      "a": "<p>Di tabel Scalita, yang mengikuti rata-rata klasik, peralihan pertama tenor berada sekitar {{note:D4}} dan yang kedua sekitar {{note:G4}}. Untuk sopran, keduanya sekitar {{note:F4}} dan {{note:F5}}. Peralihanmu sendiri bisa sedikit lebih tinggi atau lebih rendah, dan untuk itulah tes ini ada.</p>"
+    },
+    {
+      "q": "Kenapa tes ini menanyakan suara lebih rendah atau lebih tinggi?",
+      "a": "<p>Untuk memilih tiga jenis suara yang dibandingkan denganmu, yaitu tenor, bariton, dan bas atau sopran, mezzo-sopran, dan kontralto, dan untuk menentukan dari mana piano mulai naik. Pertanyaan ini bukan tentang gender.</p>"
+    },
+    {
+      "q": "Apakah perlu mikrofon?",
+      "a": "<p>Tidak. Tes ini hanya memainkan piano. Kamu mendengarkan suaramu sendiri lalu mengetuk.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Passaggio, Wikipedia: primo dan secondo passaggio, dengan rentang register tenor lirik menurut Miller",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

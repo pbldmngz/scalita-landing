@@ -1,0 +1,88 @@
+{
+  "slug": "voix-de-tete-voix-de-poitrine",
+  "label": "Voix de tête et de poitrine",
+  "title": "Voix de tête et voix de poitrine, voix mixte et fausset - Scalita",
+  "description": "Voix de poitrine et voix de tête : deux façons de vibrer des cordes vocales, nommées d'après où tu les sens. Les reconnaître, où tu changes, et la voix mixte.",
+  "h1": "Voix de tête et voix de poitrine",
+  "lead": "Deux registres que toutes les voix ont, nommés d'après l'endroit où les chanteurs les sentent, et produits tous les deux au même endroit. Comment les distinguer, et où se placent la voix mixte et le fausset.",
+  "shortAnswer": "<p>La voix de poitrine est le registre le plus grave et le plus plein, celui dans lequel la plupart des gens parlent. La voix de tête est le registre plus léger au-dessus. Les deux sont produites par tes cordes vocales : les noms décrivent l'endroit où les chanteurs sentent la vibration, pas l'endroit d'où vient le son. Les chercheurs en voix les appellent deux mécanismes laryngés, M1 et M2. En voix de poitrine, les cordes vibrent avec une plus grande partie de leur masse ; en voix de tête, elles sont étirées, plus fines, et vibrent avec moins. Les deux se chevauchent : au milieu de la plupart des voix, il y a une zone, souvent d'environ une octave, où la même note peut se chanter dans l'un ou l'autre.</p>",
+  "listenFor": "<p>Signes que ta voix est passée de la voix de poitrine à la voix de tête :</p><ul><li>Le bourdonnement monte de ta poitrine vers ton visage et ta tête.</li><li>Le son devient plus léger et plus rond, parfois plus soufflé.</li><li>Chaque pas vers le haut cesse de coûter plus d'effort que le précédent.</li></ul><p>Si au contraire tu t'accroches trop longtemps à la voix de poitrine, le changement arrive d'un seul coup, et tu remarques l'un des signes sur lesquels l'outil de passage de voix de Scalita te demande d'appuyer :</p>",
+  "misconceptions": "<ul><li><strong>« La voix de tête se fait dans la tête. »</strong> Les deux registres sont produits par les cordes vocales. Tête et poitrine sont les endroits où tu sens la vibration, pas l'endroit où le son naît.</li><li><strong>« Les hommes ont le fausset, les femmes la voix de tête. »</strong> Toutes les voix ont les deux mécanismes principaux. Les études qui les décrivent ont mesuré des hommes et des femmes, avec et sans formation.</li><li><strong>« La voix de poitrine n'a rien à faire dans les aigus. »</strong> Beaucoup de styles utilisent un son riche en voix de poitrine assez haut dans la tessiture. Ce qui compte, c'est s'il faut forcer pour y arriver.</li><li><strong>« La voix mixte est un troisième registre. »</strong> L'étude qui a mesuré la voix mixte de la tradition française l'a trouvée produite dans l'un des deux mécanismes principaux.</li></ul>",
+  "seeProfessional": "<p>La plupart des difficultés avec la voix de tête sont techniques, et un professeur de chant est la personne à qui demander. Consulte un médecin, idéalement un ORL, si des notes de voix de tête que tu avais disparaissent, si ta voix reste enrouée après deux semaines, si chanter fait mal, ou si parler commence à demander un effort. Un orthophoniste peut t'aider à changer ta façon d'utiliser ta voix, après un examen chez le médecin. Quand tu es malade, repose ta voix et laisse la pratique attendre.</p>",
+  "sections": [
+    {
+      "heading": "Ce qu'on sent et ce qu'on entend",
+      "html": "<p>La voix de poitrine ressemble à la parole. Le bourdonnement est bas, dans ta poitrine et ta gorge, et le son est plein et proche de la voix parlée. Plus tu montes, plus la garder ainsi demande d'effort.</p><p>La voix de tête est plus légère. Le bourdonnement monte dans ton visage et ta tête, le son s'arrondit, et les aigus coûtent moins. Dans les voix graves, le changement s'entend souvent facilement ; dans les voix aiguës, les deux peuvent se fondre si bien que le passage est difficile à repérer.</p><p>Aucune n'est la bonne. La plupart des chansons utilisent les deux, et la plupart des formations visent à passer de l'une à l'autre quand tu le choisis, pas quand ta voix décide pour toi.</p>"
+    },
+    {
+      "heading": "Où tu changes",
+      "html": "<p>Le changement se fait au milieu de ta tessiture, dans la zone que les chanteurs appellent le passaggio et que Scalita appelle ton passage de voix. Les préréglages de Scalita placent le premier changement d'un ténor vers {{note:D4}} et celui d'une voix de soprano vers {{note:F4}}, et les vraies voix tombent quelques notes de part et d'autre. Le changement bouge aussi avec le sens : il a tendance à venir plus haut en montant qu'en descendant. L'<a href=\"page:voice-break-finder\">outil de passage de voix</a> t'aide à trouver le tien, et <a href=\"page:voice-cracks-high-notes\">pourquoi ta voix se casse</a> explique ce qui se passe quand le changement est brusque.</p>"
+    },
+    {
+      "heading": "Trouve chacune dans ta propre voix",
+      "html": "<p>Dis un « hé » détendu, comme pour interpeller un ami, puis chante-le sur une note grave confortable : c'est la voix de poitrine. Fais maintenant un « hou » doux et rond, comme une chouette, quelques notes plus haut : c'est la voix de tête. Puis prends lentement une gamme de cinq notes sur une voyelle légère, en la montant d'un demi-ton à chaque fois. Quelque part au milieu, tu sentiras peut-être l'envie de pousser. Laisse plutôt le son s'alléger, et repère la tonalité où il change. Le <a href=\"page:warm-up-piano\">piano pour vocalises</a> joue la gamme dans ta tessiture.</p>"
+    },
+    {
+      "heading": "Voix mixte et fausset, deux mots que Scalita n'emploie pas pour des registres",
+      "html": "<p>La <strong>voix mixte</strong> désigne en général un son qui garde une partie de la plénitude de la voix de poitrine là où la voix de tête prend le relais, de sorte que le changement s'entend à peine. Les professeurs emploient le mot pour des choses différentes, et la recherche n'a pas trouvé de mécanisme distinct derrière : une étude de cinq chanteurs professionnels pratiquant la voix mixte de la tradition française a trouvé chaque note clairement produite dans un seul mécanisme, M1 ou M2, et non dans un troisième, mixte. Dans Scalita, Voix mixte est un badge posé sur les exercices qui visent à adoucir le passage entre ta voix grave et ta voix aiguë, pas un registre.</p><p>Le <strong>fausset</strong> (falsetto) désigne en général le son le plus léger, souvent soufflé, du mécanisme de la voix de tête, surtout connu dans les voix d'hommes. Scalita n'emploie pas ce mot : ta tessiture dans l'application couvre la voix de poitrine et la voix de tête, et la façon de nommer son haut léger se règle entre toi et ton professeur.</p>"
+    },
+    {
+      "heading": "Au-delà de la poitrine et de la tête",
+      "html": "<p>Scalita garde trois autres registres hors de ta tessiture principale, chacun avec sa propre étendue facultative et sa routine : le subharmonique, les notes graves et râpeuses sous ta voix de poitrine ; le flageolet, le timbre fin, comme une flûte, au-dessus de la voix de tête ; et le sifflet, le tout haut de la voix, au-dessus du flageolet. Beaucoup de sources utilisent flageolet et sifflet comme deux noms d'une même chose ; Scalita les travaille séparément. Aucune de ces routines ne te pousse à chercher une note plus haute que jamais, et Explorateur du sifflet reste doux du début à la fin.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "La voix de tête, c'est la même chose que le fausset ?",
+      "a": "<p>Ça dépend de qui tu demandes. Beaucoup de professeurs appellent fausset une version plus légère et plus soufflée du mécanisme de la voix de tête, et voix de tête une version plus pleine ; d'autres traitent les deux mots comme un seul. Le professeur de chant Richard Miller jugeait illogique l'idée d'un fausset féminin, tandis que d'autres auteurs en décrivent un. Si ton professeur trace la limite quelque part, prends la sienne.</p>"
+    },
+    {
+      "q": "Les femmes ont-elles une voix de poitrine ?",
+      "a": "<p>Oui. La plupart des femmes parlent en voix de poitrine et l'utilisent pour la partie grave de leur tessiture chantée, sous le premier changement.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (résumé)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"
+    },
+    {
+      "label": "Roubeau, Henrich et Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (résumé)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"
+    },
+    {
+      "label": "Švec, Schutte et Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (résumé)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"
+    },
+    {
+      "label": "Castellengo, Chuberre et Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)",
+      "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Chest voice",
+      "url": "https://en.wikipedia.org/wiki/Chest_voice"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Head voice",
+      "url": "https://en.wikipedia.org/wiki/Head_voice"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Falsetto (le débat sur le fausset féminin)",
+      "url": "https://en.wikipedia.org/wiki/Falsetto"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Whistle register (aussi appelé flageolet)",
+      "url": "https://en.wikipedia.org/wiki/Whistle_register"
+    },
+    {
+      "label": "NIDCD (en anglais) : Taking care of your voice",
+      "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"
+    },
+    {
+      "label": "NHS (en anglais) : Laryngitis",
+      "url": "https://www.nhs.uk/conditions/laryngitis/"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

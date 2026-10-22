@@ -1,0 +1,5 @@
+# Everything committed here is served by GitHub Pages, so nothing local goes in.
+scalita_marketing.zip
+__pycache__/
+*.pyc
+node_modules/

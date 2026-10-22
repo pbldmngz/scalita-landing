@@ -14,20 +14,17 @@
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/">
   <link rel="alternate" hreflang="fr" href="https://scalita.com/fr/">
   <link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/">
+  <link rel="alternate" hreflang="pt" href="https://scalita.com/pt/">
   <link rel="alternate" hreflang="de" href="https://scalita.com/de/">
   <link rel="alternate" hreflang="tr" href="https://scalita.com/tr/">
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/">
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/logo_32.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="../images/logo_192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
 
-  <link rel="stylesheet" href="../css/style.css">
-
-  <meta name="keywords" content="vokal ısınma uygulaması, ses açma egzersizleri, şan egzersizleri, gam çalışması, vokal rutinleri, temiz söylemek, entonasyon çalışması, entonasyon puanı, perde hedefleme, dinle ve tekrarla, şarkı söyleme oyunu, armoni çalışması, ses bölgesi egzersizleri, subharmonik, flajöle, ıslık sesi, rock ve metal vokal, gam kaydı, perde göstergesi, şarkıcılar için piyano gamları, solfej uygulaması, do re mi ısınma">
+  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Scalita - 21 gam, 15 rutin, gerçek piyano. Ücretsiz vokal ısınma uygulaması.">
@@ -54,7 +51,7 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
+  "@type": "MobileApplication",
   "name": "Scalita",
   "operatingSystem": "Android",
   "applicationCategory": "MultimediaApplication",
@@ -68,20 +65,17 @@
     "tr",
     "id"
   ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "TRY",
-      "description": "Ücretsiz"
-    },
-    {
-      "@type": "Offer",
-      "price": "259.99",
-      "priceCurrency": "TRY",
-      "description": "Pro"
-    }
-  ]
+  "installUrl": "https://play.google.com/store/apps/details?id=com.scalita.app&hl=tr&referrer=utm_source%3Dscalita_tr%26utm_medium%3Dweb%26utm_campaign%3Dindex",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "TRY"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Pablo Dominguez",
+    "url": "https://dominguezpablo.com"
+  }
 }
   </script>
 </head>
@@ -89,7 +83,7 @@
   <nav>
     <div class="container">
       <a href="/tr/" class="logo">
-        <img src="../images/logo.svg" alt="Scalita logosu" width="32" height="32">
+        <img src="/images/logo.svg" alt="Scalita logosu" width="32" height="32">
         Scalita
       </a>
       <button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false" aria-controls="nav-menu">
@@ -101,7 +95,9 @@
         <li><a href="#features">Özellikler</a></li>
         <li><a href="#pricing">Fiyat</a></li>
         <li><a href="#download">İndir</a></li>
-        <li><a href="support.html">Destek</a></li>
+        <li><a href="/tr/araclar/">Araçlar</a></li>
+        <li><a href="/tr/rehber/ses-acma-egzersizleri/">Rehberler</a></li>
+        <li><a href="/tr/support.html">Destek</a></li>
         <li class="nav-lang">
           <details class="lang-menu">
             <summary aria-label="Dil: Türkçe">
@@ -120,7 +116,7 @@
             <a href="/fr/" hreflang="fr" lang="fr">Français</a>
             <a href="/pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
             <a href="/de/" hreflang="de" lang="de">Deutsch</a>
-            <a href="./" hreflang="tr" lang="tr" aria-current="true">Türkçe</a>
+            <a href="/tr/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a>
             <a href="/id/" hreflang="id" lang="id">Bahasa Indonesia</a>
             </div>
           </details>
@@ -151,14 +147,14 @@
         <div class="phone-mockup">
           <div class="phone-screen">
             <div class="screenshot-carousel">
-              <img src="../images/screenshots/tr/home.jpg" alt="Scalita ana ekranı" class="screenshot active" width="560" height="1125">
-              <img src="../images/screenshots/tr/find_my_warmup.jpg" alt="Isınmamı Bul, sesinin nasıl olduğunu soruyor" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/player.jpg" alt="Canlı perde iziyle devam eden bir egzersiz" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/scored.jpg" alt="Bir gamın sonundaki puan: ne kadarı temiz oturdu" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/pitch_targeting.jpg" alt="Tek bir tuşta perde hedefleme" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/harmony.jpg" alt="Dört partili armoni çalışması" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/humming_bird.jpg" alt="Humming Bird: tuttuğun bir notayı boşluklardan geçirdiğin oyun" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/tr/all_scales.jpg" alt="Gam listesi" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/home.jpg" alt="Scalita ana ekranı" class="screenshot active" fetchpriority="high" width="560" height="1125">
+              <img src="/images/screenshots/tr/find_my_warmup.jpg" alt="Isınmamı Bul, sesinin nasıl olduğunu soruyor" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/player.jpg" alt="Canlı perde iziyle devam eden bir egzersiz" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/scored.jpg" alt="Bir gamın sonundaki puan: ne kadarı temiz oturdu" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/pitch_targeting.jpg" alt="Tek bir tuşta perde hedefleme" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/harmony.jpg" alt="Dört partili armoni çalışması" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/humming_bird.jpg" alt="Humming Bird: tuttuğun bir notayı boşluklardan geçirdiğin oyun" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/tr/all_scales.jpg" alt="Gam listesi" class="screenshot" loading="lazy" width="560" height="1125">
             </div>
           </div>
         </div>
@@ -187,6 +183,7 @@
           <span class="step-mark"><span class="step-number">1</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 00-3 3v6a3 3 0 006 0V5a3 3 0 00-3-3z"/><path d="M5 11a7 7 0 0014 0"/><line x1="12" y1="18" x2="12" y2="22"/></svg></span>
           <h3>Ses aralığını belirle</h3>
           <p>Telefona doğru söyle, Scalita en pes ve en tiz notanı bulsun. Ya da bir ses türü seç ve bu adımı atla.</p>
+          <p class="step-link"><a href="/tr/araclar/ses-araligi-testi/">Ses aralığı testi</a></p>
         </li>
         <li class="step">
           <span class="step-mark"><span class="step-number">2</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
@@ -201,7 +198,7 @@
       </ol>
       <div class="piano-strip">
         <button type="button" class="piano-button" onclick="playPianoChord()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Piyanoyu dinle</button>
-        <p>88 tuşun hepsinde gerçek Salamander Grand Piano kayıtları, La0'dan Do8'e. Ne kadar kalın ya da ince söylersen söyle, o nota için kaydedilmiş bir ses var. Piyano, Batı müziğinin tampere sistemine göre (12 eşit yarım ses) akortludur; Türk makam müziğinin komalı aralıkları yer almaz.</p>
+        <p>88 tuşun hepsinde gerçek Salamander Grand Piano kayıtları, La0'dan Do8'e. Ne kadar kalın ya da ince söylersen söyle, o nota için kaydedilmiş bir ses var. Piyano, Batı müziğinin tampere sistemine göre (12 eşit yarım ses) akortludur; Türk makam müziğinin komalı aralıkları yer almaz.<br><span class="credit">Piyano: Alexander Holm'un Salamander Grand Piano V3 kayıtları, <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a> lisansıyla. Bu site için yeniden akort edildi, kısaltıldı ve sıkıştırıldı.</span></p>
       </div>
     </div>
   </section>
@@ -233,7 +230,7 @@
         <p class="spotlight-note">Bir yenilik daha: kablolu ya da Bluetooth kulaklık takılıyken her gam ve her rutin bir puanla biter. Ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Hepsi ücretsiz. Pro yalnızca perde hedeflemedeki çalışma kaydını ve birden fazla armoni saklama imkânını ekler.</p>
       </div>
       <div class="spotlight-shot">
-        <img src="../images/screenshots/tr/listen_repeat.jpg" alt="Dinle &amp; Tekrarla: piyanodan sonra söylenen bir pasaj, nota ızgarasının üzerinde" loading="lazy" width="560" height="1125">
+        <img src="/images/screenshots/tr/listen_repeat.jpg" alt="Dinle &amp; Tekrarla: piyanodan sonra söylenen bir pasaj, nota ızgarasının üzerinde" loading="lazy" width="560" height="1125">
       </div>
     </div>
   </section>
@@ -324,7 +321,7 @@
               <span class="tag">Aralık Atlama (5'li)</span>
               <span class="tag">Rossini</span>
               <span class="tag">3 Nota</span>
-              <span class="tag">5 Nota</span>
+              <a class="tag" href="/tr/rehber/bes-sesli-egzersiz/">5 Nota</a>
               <span class="tag">5 Nota İnici</span>
               <span class="tag">Kırık</span>
               <span class="tag">Zikzak Crescendo</span>
@@ -336,10 +333,10 @@
           <div class="catalog-column">
             <h4>Rutinler</h4>
             <ul class="routine-grid">
-              <li><strong>Genel Isınma</strong> <span>Sesini güvenle uyandır, bütün aralığın hazır.</span></li>
+              <li><strong><a href="/tr/rehber/san-egzersizleri/">Genel Isınma</a></strong> <span>Sesini güvenle uyandır, bütün aralığın hazır.</span></li>
               <li><strong>Do Re Mi</strong> <span>Klasik solfej ısınması, her nota adıyla.</span></li>
-              <li><strong>Hafif / Toparlanma</strong> <span>Hafif günler ve sahne sonrası dinlenme.</span></li>
-              <li><strong>Sahne Öncesi Hızlı</strong> <span>Temel her şey, 10 dakikanın altında.</span></li>
+              <li><strong><a href="/tr/rehber/ses-sogutma-egzersizleri/">Hafif / Toparlanma</a></strong> <span>Hafif günler ve sahne sonrası dinlenme.</span></li>
+              <li><strong><a href="/tr/rehber/hizli-ses-acma-egzersizleri/">Sahne Öncesi Hızlı</a></strong> <span>Temel her şey, 10 dakikanın altında.</span></li>
               <li><strong>Aralık Genişletme</strong> <span>Pes ve tiz sınırlarını güvenle zorla.</span></li>
               <li><strong>Güç &amp; Hacim</strong> <span>Zorlanmadan ses teli kapanışı ve projeksiyon.</span></li>
               <li><strong>Çeviklik &amp; Pasajlar</strong> <span>Melizmatik söyleyiş için hız ve kesinlik.</span></li>
@@ -405,7 +402,7 @@
       <h2>Isınmaya hazır mısın?</h2>
       <p>Google Play'de ücretsiz. Hesap yok, reklam yok, iptal edilecek bir şey yok.</p>
       <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=tr" class="store-button" target="_blank" rel="noopener">
+        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=tr&amp;referrer=utm_source%3Dscalita_tr%26utm_medium%3Dweb%26utm_campaign%3Dindex" class="store-button" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
           </svg>
@@ -424,7 +421,7 @@
       <div class="footer-content">
         <div class="footer-brand">
           <a href="/tr/" class="logo">
-            <img src="../images/logo_48.png" alt="Scalita logosu" width="28" height="28">
+            <img src="/images/logo_48.png" alt="Scalita logosu" width="28" height="28">
             Scalita
           </a>
           <p>Basit gamlar. Gerçek piyano. Fazlası yok. Her yerdeki şarkıcılar için nefretle yapıldı.</p>
@@ -438,16 +435,41 @@
           </ul>
         </div>
         <div class="footer-links">
+          <h4>Ücretsiz araçlar</h4>
+          <ul>
+            <li><a href="/tr/araclar/">Ücretsiz araçlar</a></li>
+            <li><a href="/tr/araclar/ses-araligi-testi/">Ses aralığı testi</a></li>
+            <li><a href="/tr/araclar/detone-testi/">Detone testi</a></li>
+            <li><a href="/tr/araclar/piyanoda-ses-acma/">Ses açma piyanosu</a></li>
+            <li><a href="/tr/araclar/gecis-bolgesi-testi/">Geçiş bölgesi testi</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Rehberler</h4>
+          <ul>
+            <li><a href="/tr/rehber/ses-acma-egzersizleri/">Ses açma egzersizleri</a></li>
+            <li><a href="/tr/rehber/ses-turleri/">Ses türleri</a></li>
+            <li><a href="/tr/rehber/hizli-ses-acma-egzersizleri/">Hızlı ısınma</a></li>
+            <li><a href="/tr/rehber/san-egzersizleri/">Tam ısınma</a></li>
+            <li><a href="/tr/rehber/ses-sogutma-egzersizleri/">Ses soğutma</a></li>
+            <li><a href="/tr/rehber/dudak-trili/">Dudak ve dil trili</a></li>
+            <li><a href="/tr/rehber/bes-sesli-egzersiz/">Beş sesli egzersiz</a></li>
+            <li><a href="/tr/rehber/sarki-soylerken-ses-catlamasi/">Ses çatlaması ve passaggio</a></li>
+            <li><a href="/tr/rehber/kafa-sesi-gogus-sesi/">Kafa ve göğüs sesi</a></li>
+            <li><a href="/tr/rehber/nota-isimleri/">Nota adları ve oktavlar</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
           <h4>Yasal</h4>
           <ul>
-            <li><a href="privacy.html">Gizlilik Politikası</a></li>
-            <li><a href="terms.html">Kullanım Koşulları</a></li>
+            <li><a href="/tr/privacy.html">Gizlilik Politikası</a></li>
+            <li><a href="/tr/terms.html">Kullanım Koşulları</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Destek</h4>
           <ul>
-            <li><a href="support.html">Yardım ve iletişim</a></li>
+            <li><a href="/tr/support.html">Yardım ve iletişim</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Ko-fi'de destekle</a></li>
           </ul>
         </div>
@@ -474,8 +496,8 @@
             langMenu.querySelector('summary').focus();
           }
         });
-        // Remember a language chosen on purpose, so the redirect on the
-        // English page stops sending this visitor back where they came from.
+        // Remember a language chosen on purpose, so the language bar below
+        // never offers this visitor another one.
         var links = langMenu.querySelectorAll('a');
         for (var l = 0; l < links.length; l++) {
           links[l].addEventListener('click', function () {
@@ -501,6 +523,59 @@
             toggle.setAttribute('aria-expanded', 'false');
           });
         }
+      }
+
+      // Language bar. When the browser prefers another language this page
+      // also exists in, a bar at the bottom offers it, written in that
+      // language. It never redirects. Closing it, or picking a language
+      // from the menu, is remembered, and it does not come back.
+      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
+      var chosen = null;
+      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
+      var own = document.documentElement.lang.toLowerCase().split('-')[0];
+      var have = {};
+      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
+      for (var h = 0; h < alts.length; h++) {
+        var tag = alts[h].getAttribute('hreflang');
+        var primary = tag.toLowerCase().split('-')[0];
+        if (tag !== 'x-default' && !have[primary]) {
+          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
+        }
+      }
+      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var offer = null;
+      for (var w = 0; !chosen && w < wants.length; w++) {
+        var want = String(wants[w]).toLowerCase().split('-')[0];
+        if (want === own) break;
+        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
+      }
+      if (offer) {
+        var remember = function (value) {
+          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
+        };
+        var bar = document.createElement('div');
+        bar.className = 'lang-bar';
+        bar.setAttribute('data-nosnippet', '');
+        bar.lang = offer.tag;
+        var line = document.createElement('p');
+        var go = document.createElement('a');
+        go.href = offer.href;
+        go.hreflang = offer.tag;
+        go.textContent = offer.text.text;
+        go.addEventListener('click', function () { remember(offer.tag); });
+        line.appendChild(go);
+        var shut = document.createElement('button');
+        shut.type = 'button';
+        shut.className = 'lang-bar__close';
+        shut.setAttribute('aria-label', offer.text.close);
+        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
+        shut.addEventListener('click', function () {
+          bar.parentNode.removeChild(bar);
+          remember(document.documentElement.lang);
+        });
+        bar.appendChild(line);
+        bar.appendChild(shut);
+        document.body.appendChild(bar);
       }
 
       // Screenshot carousel. Stops auto-advancing for anyone who asked their
@@ -532,14 +607,14 @@
       }
     });
 
-    // The C major chord under the piano card.
-    var chord = ['60_C4.mp3', '64_E4.mp3', '67_G4.mp3'].map(function (f) {
-      var a = new Audio('../audio/' + f);
-      a.load();
-      return a;
-    });
+    // The C major chord under the piano card. The three notes download on
+    // the first tap, not with the page.
+    var chord = null;
 
     function playPianoChord() {
+      if (!chord) {
+        chord = ['/audio/60_C4.mp3?v=92837bcde0', '/audio/64_E4.mp3?v=dc372ddd93', '/audio/67_G4.mp3?v=9ceadf9eab'].map(function (src) { return new Audio(src); });
+      }
       chord.forEach(function (note, i) {
         note.currentTime = 0;
         setTimeout(function () { note.play(); }, i * 80);

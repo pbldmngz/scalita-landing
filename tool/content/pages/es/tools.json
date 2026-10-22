@@ -1,0 +1,44 @@
+{
+  "label": "Herramientas gratuitas",
+  "title": "Herramientas gratis para cantantes en tu navegador - Scalita",
+  "description": "Cuatro herramientas gratis para cantantes que funcionan en el navegador: test de rango vocal, test de afinación, piano para vocalizar y test de pasaje vocal.",
+  "h1": "Herramientas gratis para cantar",
+  "lead": "Encuentra tu rango, comprueba cuánto te acercas a una nota, calienta con un piano real en tus propias tonalidades y descubre dónde cambia tu voz. No hace falta crear una cuenta, y nada de lo que cantas sale de tu dispositivo.",
+  "intro": "<p>Estas cuatro herramientas vienen de Scalita, una app de calentamiento vocal para Android. Usan la misma lectura de afinación que la app, su piano y sus ejercicios, y funcionan en el navegador de un teléfono o de una computadora.</p><p>Todas cumplen dos reglas. Una herramienta escucha o toca el piano, nunca las dos cosas a la vez, así que no necesitas auriculares. Y cuando una herramienta escucha, el trabajo lo hace tu navegador en tu dispositivo: no se graba ni se envía nada a ningún sitio.</p>",
+  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "sections": [
+    {
+      "heading": "Por dónde empezar",
+      "html": "<p>Si es tu primera vez, sigue este orden:</p><ol><li><a href=\"page:vocal-range-test\">Test de rango vocal</a>: la nota más grave y la más aguda que cantas con comodidad, en más o menos un minuto.</li><li><a href=\"page:voice-break-finder\">Test de pasaje vocal</a>: dónde cambia de marcha tu voz, algo que dice más de tu tipo de voz que el rango.</li><li><a href=\"page:warm-up-piano\">Piano para vocalizar</a>: escalas y rutinas de la app, tocadas en tu rango.</li><li><a href=\"page:sing-in-tune-test\">Test de afinación</a>: cuando ya tengas la voz caliente, cuánto te acercas a una nota que acabas de oír.</li></ol>"
+    },
+    {
+      "heading": "Cuando una herramienta escucha",
+      "html": "<p>El test de rango vocal y el test de afinación usan tu micrófono. Lo piden solo cuando pulsas Empezar, leen la altura de tu voz a medida que llega y no guardan nada. Si pulsas Detener o sales de la página, el micrófono se apaga. El piano para vocalizar y el test de pasaje vocal no lo usan nunca.</p><p>El micrófono funciona en una versión reciente de Chrome, Safari, Firefox o Edge. No funciona en los navegadores integrados de apps como Instagram, TikTok, Facebook o Gmail, así que si llegaste desde una de ellas, abre antes la página en el navegador de tu teléfono.</p>"
+    },
+    {
+      "heading": "Lo que no te van a decir",
+      "html": "<p>Ninguna de estas herramientas califica tu voz. Miden la altura del sonido: qué notas alcanzas, dónde cambia tu voz y cuánto te acercas a una nota. No puntúan tu timbre, no te comparan con otras personas ni adivinan tu tipo de voz por cómo hablas. Un resultado es la lectura de un momento, y mañana tu voz puede dar una lectura un poco distinta.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Las herramientas son gratis?",
+      "a": "<p>Sí. No hay cuenta, ni correo, ni anuncios. Son útiles por sí solas, y de paso muestran lo que hace la app Scalita.</p>"
+    },
+    {
+      "q": "¿Funcionan en un iPhone?",
+      "a": "<p>Funcionan en el navegador, así que sirven en un iPhone, en un teléfono Android o en una computadora, siempre que el navegador sea reciente. La app Scalita, por ahora, es solo para Android.</p>"
+    },
+    {
+      "q": "¿Necesito auriculares?",
+      "a": "<p>No. Una herramienta que toca el piano no escucha al mismo tiempo, y una que escucha no toca, así que el micrófono solo te oye a ti.</p>"
+    },
+    {
+      "q": "¿Se guarda algo?",
+      "a": "<p>Solo en tu dispositivo. El test de rango vocal, el test de afinación y el test de pasaje vocal recuerdan tu último resultado en este navegador, para que puedas compararlo la próxima vez. Si borras los datos de este sitio en la configuración del navegador, desaparece.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

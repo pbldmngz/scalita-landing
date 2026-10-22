@@ -1,0 +1,76 @@
+{
+  "slug": "jenis-suara",
+  "label": "Jenis suara",
+  "title": "Apa Jenis Suaraku? Enam Jenis, Jangkauan, dan Peralihan - Scalita",
+  "description": "Sopran, mezzo-sopran, kontralto, tenor, bariton, dan bas di keyboard, dengan jangkauan dan peralihan yang umum, dan kenapa jangkauan saja tidak cukup.",
+  "h1": "Jenis suara, dari sopran sampai bas",
+  "lead": "Enam jenis suara klasik, masing-masing di keyboard dengan jangkauan biasanya dan dua titik tempat suara itu cenderung berpindah. Pakai sebagai titik awal, bukan label.",
+  "intro": "<p>Jenis suara menggambarkan letak sebuah suara dan perilakunya: jangkauannya, nada-nada tempat suara itu nyaman hampir sepanjang lagu, titik-titik tempat suara itu berpindah gigi, serta bobot dan warnanya. Nyanyian klasik memakai enam jenis utama, dan Scalita memakai enam jenis yang sama sebagai preset. Pilih satu, dan setiap latihan mulai dari jangkauan dan titik peralihan itu sampai kamu mengukur milikmu sendiri.</p><p>Angka-angkanya adalah yang umum, bukan aturan, dan setiap suara berbeda. Subjenis yang disebutkan ada supaya kamu mengenal istilahnya; menempatkan sebuah suara ke salah satunya butuh telinga seorang guru selama berbulan-bulan.</p>",
+  "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Sopran",
+      "html": "<p>Yang tertinggi dari keenamnya. Yang membedakan sopran dari mezzo-sopran bukan terutama nada puncaknya, tapi di mana suaranya nyaman: sopran bisa bertahan di nada tinggi untuk waktu lama tanpa lelah, dan peralihan keduanya datang lebih belakangan.</p><p>Salah penggolongan yang biasa terjadi ke arah atas. Suara muda yang ringan dan mudah mencapai nada tinggi langsung disebut sopran sebelum ada yang mendengar di mana suara itu paling betah, dan suara itu bisa menetap lebih rendah saat makin matang.</p><p>Subjenis: koloratura, soubrette, lirik, spinto, dan dramatis.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzo-sopran",
+      "html": "<p>Yang tengah dari tiga suara yang lebih tinggi. Dibanding sopran, mezzo-sopran punya nada tengah yang lebih penuh dan lebih gelap, dan lebih cepat lelah saat sebuah lagu lama berada di nada tinggi, meskipun nada tingginya ada. Dibanding kontralto, nada rendahnya lebih ringan dan nada atasnya menjangkau lebih jauh.</p><p>Paduan suara mengaburkan suara ini. Karena hanya ada bagian sopran dan alto untuk dipilih, seorang mezzo menyanyikan yang mana pun yang lebih dekat, dan banyak yang tumbuh dengan keyakinan bahwa mereka salah satu dari keduanya. Banyak guru memulai dengan menganggap suara baru sebagai suara tengah, mezzo-sopran atau bariton, sampai suara itu menunjukkan yang lain.</p><p>Subjenis: lirik, koloratura, dan dramatis.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Kontralto",
+      "html": "<p>Yang terendah dari suara-suara yang lebih tinggi. Nada rendah kontralto lebih berat dan lebih mudah daripada mezzo-sopran, dan suaranya betah di bagian bawah jangkauan sepanjang lagu.</p><p>Namanya memicu salah kaprah pertama: alto adalah bagian suara dalam paduan suara, kontralto adalah jenis suaranya, dan banyak alto paduan suara sebenarnya mezzo-sopran, karena paduan suara tidak punya bagian mezzo. Salah kaprah kedua adalah anggapan bahwa hanya perempuan yang bernyanyi di sini. Countertenor adalah laki-laki yang bernyanyi di jangkauan ini, kebanyakan dengan suara kepala yang ringan atau falsetto.</p><p>Subjenis: koloratura, lirik, dan dramatis.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Tenor",
+      "html": "<p>Yang tertinggi dari suara-suara rendah yang umum. Tenor dan bariton berbagi sebagian besar jangkauannya; yang membedakan keduanya adalah di mana suaranya berpindah dan di mana suaranya paling betah. Peralihan tenor datang beberapa nada lebih belakangan daripada bariton, dan suaranya tetap ringan di dekat puncak.</p><p>Salah penggolongan terjadi ke dua arah. Tenor muda yang nada atasnya belum bebas ditempatkan bersama bariton, dan bariton dengan beberapa nada tinggi yang mudah didorong ke bagian tenor yang terlalu tinggi untuk sebagian besar lagu.</p><p>Subjenis, dari ringan ke berat: leggero, lirik, spinto, dramatis, dan Heldentenor dari tradisi Jerman.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Bariton",
+      "html": "<p>Yang tengah dari suara-suara rendah dan, seperti mezzo-sopran, jenis tengah yang sering pertama kali diasumsikan banyak guru. Nada rendah bariton lebih penuh daripada tenor dan lebih ringan daripada bas, dan suaranya paling nyaman di bagian tengah jangkauannya.</p><p>Paduan suara biasanya membagi suara rendah menjadi tenor dan bas, jadi bariton menyanyikan bagian mana pun yang dibutuhkan lagunya, dan sebagian tidak pernah tahu bahwa suara mereka punya nama sendiri.</p><p>Subjenis antara lain lirik, Kavalierbariton, bariton Verdi, dramatis, dan bas-bariton.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Bas",
+      "html": "<p>Yang terendah dari keenamnya, dan suara yang paling awal berpindah. Nada rendah bas punya bobot yang tidak dimiliki bariton, dan suaranya tetap nyaman di bawah sepanjang lagu, bukan hanya untuk satu nada.</p><p>Kesalahan yang biasa adalah menilai dari nada terendahnya saja: bariton yang bisa mencapai nada rendah bukan bas kalau suaranya cepat lelah di sana. Suara bicara yang berat juga tidak memastikannya.</p><p>Subjenis antara lain basso profondo, basso cantante, basso buffo, dan bas-bariton. Di paduan suara Rusia, penyanyi yang paling rendah disebut oktavis.</p>"
+    },
+    {
+      "heading": "Jangkauan bukan segalanya",
+      "html": "<p>Jangkauan paling mudah diukur, jadi paling banyak diperhatikan. Guru mendengarkan empat hal: jangkauan, tesitura (di mana suara nyaman hampir sepanjang lagu), timbre (warna dan bobotnya), dan passaggio, zona tempat suara berpindah antarregister. Hasil jangkauan di Scalita mengatakannya dengan jelas: peralihan register suaramu adalah penanda jenis suara yang lebih andal. Tes passaggio menambahkan bahwa jenis suara juga bergantung pada di mana suaramu terdengar paling bagus dan pada warna suaramu.</p><p>Jangkauan juga bergeser. Jangkauanmu bisa berubah karena pemanasan, latihan, dan waktu dalam sehari, jadi ukur lebih dari sekali sebelum memercayainya.</p><p>Dan tidak perlu terburu-buru. Guru vokal William Vennard menulis, “Saya tidak pernah merasa terdesak untuk menggolongkan murid pemula,” dan menyarankan mulai dari tengah suara lalu berlatih ke atas dan ke bawah “sampai suara itu menggolongkan dirinya sendiri”.</p><p>Jangkauan di sini adalah angka umum yang diberikan kebanyakan referensi. Titik peralihannya adalah preset Scalita: untuk tenor, bariton, bas, dan mezzo-sopran, angkanya sesuai dengan tabel Richard Miller, milik sopran paling jauh berselisih satu nada penuh dari tabelnya, dan Miller menempatkan peralihan pertama kontralto sekitar setengah oktaf lebih tinggi daripada Scalita.</p>"
+    },
+    {
+      "heading": "Cara menemukan jenismu",
+      "html": "<p>Mulai dari jangkauanmu. <a href=\"page:vocal-range-test\">Tes range vokal</a> mendengarkan nada terendah dan tertinggi yang nyaman dan menyebut jenis suara yang umum untuk jangkauan itu. Lalu temukan di mana suaramu berpindah dengan <a href=\"page:voice-break-finder\">tes passaggio</a>: piano naik satu nada demi satu nada, kamu ikut bernyanyi, dan kamu mengetuk saat suaramu ingin berpindah gigi. Bersama-sama, keduanya memberi tebakan yang lebih baik daripada salah satunya saja.</p><p>Tetap saja itu tebakan. Guru yang mendengarmu selama beberapa pertemuan akan menangkap hal yang tidak bisa ditangkap tes mana pun, dimulai dari di mana suaramu terdengar paling bagus. Sementara itu, pilih preset terdekat di <a href=\"page:warm-up-piano\">piano latihan vokal</a>, dan kalau latihannya terus terasa terlalu tinggi atau terlalu rendah, coba jenis di sebelahnya.</p>"
+    },
+    {
+      "heading": "Bisakah suara bicara menunjukkan jenismu?",
+      "html": "<p>Tidak bisa diandalkan. Sebuah penelitian terhadap 75 penyanyi opera menemukan bahwa nada bicara rata-rata berbeda di antara sebagian besar jenis suara, tapi tidak di antara semuanya, dan kesimpulannya: nada bicara bisa mendukung penggolongan, tapi tidak pernah bisa menentukannya. Nada bicara juga bergeser karena kebiasaan, suasana hati, dan rasa lelah. Scalita tidak pernah menebak jenis suara dari suara bicaramu; Scalita memintamu bernyanyi.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bisakah laki-laki menyanyikan alto, atau perempuan menyanyikan tenor?",
+      "a": "<p>Bisa. Jenis suara menggambarkan sebuah suara, bukan orang yang menyanyikannya. Countertenor menyanyikan alto, dan banyak paduan suara punya perempuan di bagian tenor. Di Scalita, pilih preset yang jangkauannya cocok dengan nada yang benar-benar kamu nyanyikan.</p>"
+    },
+    {
+      "q": "Apakah jenis suara bisa berubah seiring waktu?",
+      "a": "<p>Bisa. Suara terus berubah sepanjang masa remaja dan biasanya menetap di awal sampai pertengahan usia dua puluhan, dan sebagian penyanyi pindah ke jenis di sebelahnya setelah beberapa tahun berlatih.</p>"
+    },
+    {
+      "q": "Bisakah aku menyanyikan lagu yang ditulis untuk jenis suara lain?",
+      "a": "<p>Biasanya bisa, di nada dasar yang cocok untukmu. Kalau sebuah lagu terlalu tinggi atau terlalu rendah hampir sepanjang lagu, ganti nada dasarnya. Di mana sebuah lagu paling banyak berada lebih penting daripada satu nada tertingginya.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Wikipedia: Voice type (jangkauan, subjenis, dan William Vennard tentang penggolongan suara)", "url": "https://en.wikipedia.org/wiki/Voice_type"},
+    {"label": "Wikipedia: Passaggio (tabel passaggio Richard Miller)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (abstrak)", "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"},
+    {"label": "Wikipedia: Voice change (kapan suara menetap)", "url": "https://en.wikipedia.org/wiki/Voice_change"}
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

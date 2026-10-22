@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:,">
+<title>Piano smoke fixture</title>
+</head>
+<body>
+<!-- Test fixture for tool/tests/piano/smoke_test.py, which serves it with
+     the manifest in place of the marker below. Not a page of the site. -->
+<button id="play" type="button">play</button>
+<script type="application/json" id="page-data">{"piano": {"base": "/audio/piano-web/", "manifest": __MANIFEST__}}</script>
+<script type="module">
+import * as piano from '/js/audio/piano.js';
+
+const data = JSON.parse(document.getElementById('page-data').textContent);
+piano.init(data.piano.manifest, data.piano.base);
+const SCALE = [60, 62, 64, 65, 67, 69, 71, 72];
+const peakOf = (x, from = 0, to = x.length) => {
+  let p = 0;
+  for (let i = Math.max(0, from); i < Math.min(x.length, to); i++) p = Math.max(p, Math.abs(x[i]));
+  return p;
+};
+const onsetOf = (x, threshold, from = 0) => {
+  for (let i = Math.max(0, from); i < x.length; i++) if (Math.abs(x[i]) > threshold) return i;
+  return -1;
+};
+
+// YIN (de Cheveigne and Kawahara 2002), enough to tell one semitone from another
+function f0(x, from, rate) {
+  const W = 2048, maxLag = 1024, d = new Float64Array(maxLag);
+  for (let tau = 1; tau < maxLag; tau++) {
+    let s = 0;
+    for (let j = 0; j < W; j++) {
+      const diff = x[from + j] - x[from + j + tau];
+      s += diff * diff;
+    }
+    d[tau] = s;
+  }
+  let sum = 0;
+  const c = new Float64Array(maxLag);
+  c[0] = 1;
+  for (let tau = 1; tau < maxLag; tau++) {
+    sum += d[tau];
+    c[tau] = (d[tau] * tau) / sum;
+  }
+  let tau = 2;
+  while (tau < maxLag - 1 && !(c[tau] < 0.15 && c[tau] <= c[tau + 1])) tau++;
+  const a = c[tau - 1], b = c[tau], e = c[tau + 1];
+  const shift = (a - e) / (2 * (a - 2 * b + e));
+  return rate / (tau + (Number.isFinite(shift) ? shift : 0));
+}
+
+// The real path: a tap, the band, a C major scale on the device's clock
+document.getElementById('play').addEventListener('click', async () => {
+  const ctx = piano.getContext();
+  const meter = ctx.createAnalyser();
+  meter.fftSize = 2048;
+  piano.getOutput().connect(meter);
+  const ready = await piano.prepareRange(60, 72);
+  const [ringMs, fadeMs] = piano.ringForNote(400);
+  const t0 = ctx.currentTime + 0.1;
+  const voices = [];
+  for (let i = 0; i < SCALE.length; i++) voices.push(await piano.playNote(SCALE[i], { when: t0 + i * 0.4, ringMs, fadeMs }));
+  const busy = piano.isBusy();
+  let peak = 0;
+  const buf = new Float32Array(meter.fftSize);
+  await new Promise((done) => {
+    const tick = () => {
+      meter.getFloatTimeDomainData(buf);
+      peak = Math.max(peak, peakOf(buf));
+      if (piano.isBusy()) setTimeout(tick, 15);
+      else done();
+    };
+    tick();
+  });
+  await piano.whenIdle();
+  window.realtime = {
+    ready, busy, peak, state: ctx.state, rate: ctx.sampleRate,
+    voices: voices.map((v) => v && { midi: v.midi, sample: v.sample, rate: v.rate, start: v.start - t0 }),
+  };
+});
+
+// Every recording decodes gaplessly: 5 s, and the attack where ffmpeg puts it
+window.decodeCheck = async (expected) => {
+  const out = {};
+  for (const n of data.piano.manifest.notes) {
+    const buf = await piano.ensureNote(n.midi);
+    const x = buf.getChannelData(0);
+    out[n.file] = {
+      seconds: buf.duration,
+      onsetMs: (onsetOf(x, 0.01) / buf.sampleRate) * 1000,
+      expectedOnsetMs: expected[n.file],
+      peak: peakOf(x),
+    };
+  }
+  return out;
+};
+
+// Offline: what the scale sounds like, note by note, and a chord's peak
+window.offlineCheck = async () => {
+  const rate = 48000;
+  const step = 0.7;
+  const off = new OfflineAudioContext(1, Math.ceil(rate * (0.2 + SCALE.length * step)), rate);
+  piano.useContext(off);
+  const plan = [];
+  for (let i = 0; i < SCALE.length; i++) {
+    const v = await piano.playNote(SCALE[i], { when: 0.1 + i * step, ringMs: 400, fadeMs: 100 });
+    const src = (await piano.ensureNote(SCALE[i])).getChannelData(0);
+    plan.push({ midi: SCALE[i], start: v.start, rate: v.rate, srcOnset: onsetOf(src, 0.01), srcPeak: peakOf(src, 0, rate * 0.3) });
+  }
+  const x = (await off.startRendering()).getChannelData(0);
+  const notes = plan.map((p) => {
+    const at = Math.round(p.start * rate);
+    const hz = f0(x, at + Math.round(0.08 * rate), rate);
+    const target = 440 * 2 ** ((p.midi - 69) / 12);
+    const outThreshold = 0.01 * Math.SQRT1_2 * 0.95 * 0.87;
+    return {
+      midi: p.midi,
+      cents: 1200 * Math.log2(hz / target),
+      onsetLagMs: ((onsetOf(x, outThreshold, at - 48) - at) / rate) * 1000 - (p.srcOnset / rate / p.rate) * 1000,
+      srcPeak: p.srcPeak,
+      outPeak: peakOf(x, at, at + (rate * 0.3) / p.rate),
+    };
+  });
+  const chordCtx = new OfflineAudioContext(1, rate, rate);
+  piano.useContext(chordCtx);
+  for (const m of [48, 52, 55, 60, 64, 67]) await piano.playNote(m, { when: 0, ringMs: 900, velocity: 1 });
+  const chordPeak = peakOf((await chordCtx.startRendering()).getChannelData(0));
+  return { notes, chordPeak };
+};
+window.fixtureReady = true;
+</script>
+</body>
+</html>

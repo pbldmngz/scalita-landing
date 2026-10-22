@@ -1,0 +1,64 @@
+{
+  "slug": "vocalizaciones",
+  "label": "Vocalizaciones",
+  "title": "Vocalizaciones con piano real, en tu rango - Scalita",
+  "description": "Tres rutinas de la app Scalita con un piano real, ajustadas a tu rango: un calentamiento rápido para antes de cantar, uno completo y un enfriamiento vocal.",
+  "h1": "Vocalizaciones para calentar la voz",
+  "lead": "Tres rutinas de la app Scalita, tocadas con un piano real en tu rango: un calentamiento rápido para justo antes de cantar, uno completo y un enfriamiento para después. Elige el tipo de voz más parecido al tuyo, o define tus propias notas más grave y más aguda, y pulsa Reproducir.",
+  "intro": "<p>Cada rutina de esta página es la de la app, paso por paso: los mismos patrones, sílabas, tempos y orden. Lo que un video no puede hacer es cambiar de tonalidad por ti. Aquí el piano mueve cada patrón de semitono en semitono para ajustarlo al rango que elijas, así que cantas con tu propia voz y no con la de quien lo grabó.</p><p>¿No sabes cuál te conviene hoy? Responde las dos preguntas de Encuentra Tu Calentamiento en esta página, las mismas que hace la app. Si todavía no conoces tu rango, el <a href=\"page:vocal-range-test\">test de rango vocal</a> encuentra tus notas más grave y más aguda.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "¿Cuál toca hoy?",
+      "html": "<p>Encuentra Tu Calentamiento pregunta cómo sientes la voz antes de preguntar qué quieres trabajar, y la primera respuesta puede imponerse a la segunda.</p><ul><li><em>Cansada / forzada</em> siempre lleva al <a href=\"page:vocal-cool-down\">enfriamiento</a>, un poco más lento, elijas lo que elijas después.</li><li><em>Pre-show rápido</em> lleva al <a href=\"page:quick-vocal-warm-up\">calentamiento rápido</a>, y <em>Solo calentar</em>, al <a href=\"page:full-vocal-warm-up\">completo</a>.</li><li><em>Un poco mal</em> hace cualquier rutina un poco más lenta, y la app deja para otro día <em>Ampliar mi rango</em> y <em>Grit / gritos</em>.</li><li><em>Lista para cantar</em> toca las rutinas un poco más rápido.</li></ul>"
+    },
+    {
+      "heading": "Cómo están construidos estos calentamientos",
+      "html": "<p>Los tres empiezan con una vibración sobre una <a href=\"page:five-note-scale\">escala de cinco notas</a>. Con las vibraciones y el tarareo, la boca queda en parte cerrada. Los profesores de canto y los terapeutas de la voz los usan desde hace mucho tiempo, y muchos calentamientos, estos incluidos, empiezan con ellos. En una encuesta a 117 cantantes, las escalas de cinco notas y los arpegios estaban entre los ejercicios más usados.</p><p>A partir de ahí los patrones se amplían: cinco notas, luego un arpegio de una octava y luego, en los dos calentamientos, una octava y media. Cada ejercicio empieza en una tonalidad cómoda en vez de en la más grave, sube hasta lo alto de su rango y luego vuelve a bajar tonalidad a tonalidad hasta el fondo.</p><p>Algunos pasos, en cambio, se colocan alrededor de tu <a href=\"page:voice-cracks-high-notes\">quiebre vocal</a>. <em>Solo acercarse</em> se detiene justo antes del quiebre, y <em>Cruzar una vez</em> lo cruza y vuelve. Entre tonalidades, el piano toca un acorde corto que te da la nueva tonalidad y un tiempo para respirar.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cuánto debe durar un calentamiento vocal?",
+      "a": "<p>No hay una cifra acordada. En una encuesta a 117 cantantes, la duración de calentamiento que más preferían era de 5 a 10 minutos. Con un rango de dos octavas, las rutinas de esta página duran de 6 a 8 minutos (la rápida), de 12 a 14 (la completa) y de 7 a 11 (el enfriamiento).</p>"
+    },
+    {
+      "q": "¿Hay vocalizaciones distintas para voces femeninas y masculinas?",
+      "a": "<p>Los ejercicios son los mismos para todo el mundo. Lo que cambia es la tonalidad: elige el tipo de voz más parecido al tuyo, de soprano a bajo, o define tu propio rango, y el piano mueve cada patrón para ajustarlo. El tipo de voz solo decide dónde toca el piano, así que elígelo por dónde se mueve tu voz y no por tu género. La página de <a href=\"page:voice-types\">tipos de voz</a> describe cada uno.</p>"
+    },
+    {
+      "q": "¿Sirven de verdad los calentamientos vocales?",
+      "a": "<p>Los cantantes los notan. En un estudio, los doce cantantes de formación clásica notaron cambios en su timbre y su control después de 25 minutos de calentamiento. Los oyentes percibieron una diferencia con menos frecuencia, sobre todo en los cantantes cuyo vibrato se había vuelto más regular. Un calentamiento es sobre todo para ti: es la forma de encontrar la voz de hoy antes de que el canto cuente de verdad.</p>"
+    },
+    {
+      "q": "¿Debo calentar la voz si tengo gripe o me duele la garganta?",
+      "a": "<p>No. Si te duele la garganta o tienes la voz ronca, déjala descansar, y ve al médico si no mejora. El enfriamiento es para una voz cansada de cantar, no para una voz enferma.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims y McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft y Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

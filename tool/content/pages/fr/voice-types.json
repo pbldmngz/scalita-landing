@@ -1,0 +1,91 @@
+{
+  "slug": "types-de-voix",
+  "label": "Types de voix",
+  "title": "Quel est mon type de voix ? Six types et leurs passages - Scalita",
+  "description": "Soprano, mezzo, contralto, ténor, baryton et basse sur un clavier, avec tessitures et passages typiques. Et pourquoi la tessiture seule ne suffit pas.",
+  "h1": "Les types de voix, de soprano à basse",
+  "lead": "Les six types de voix classiques, chacun sur un clavier avec sa tessiture habituelle et les deux endroits où il a tendance à changer. Prends-les comme un point de départ, pas comme une étiquette.",
+  "intro": "<p>Un type de voix décrit où se situe une voix et comment elle se comporte : son étendue, les notes où elle est à l'aise pendant la plus grande partie d'une chanson, les endroits où elle change de vitesse, et son poids et sa couleur. Le chant classique utilise six types principaux, et Scalita utilise les mêmes six comme préréglages. Choisis-en un, et chaque exercice part de cette tessiture et de ces passages, jusqu'à ce que tu mesures les tiens.</p><p>Les chiffres sont typiques, pas des règles, et chaque voix est différente. Les sous-types sont là pour que tu connaisses les mots ; placer une voix dans l'un d'eux demande l'oreille d'un professeur pendant des mois.</p>",
+  "children": [
+    "voice-cracks-high-notes",
+    "head-voice-vs-chest-voice"
+  ],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Soprano",
+      "html": "<p>La plus aiguë des six. Ce qui distingue une soprano d'une mezzo-soprano, c'est moins la note la plus haute que la zone où la voix est à l'aise : une soprano peut rester longtemps dans l'aigu sans se fatiguer, et son deuxième changement arrive plus tard.</p><p>La confusion habituelle va vers le haut. Une voix jeune et légère qui atteint facilement les aigus est appelée soprano avant que quiconque ait entendu où elle est le plus à l'aise, et elle peut se poser plus bas en mûrissant.</p><p>Sous-types : colorature, soubrette, lyrique, spinto et dramatique.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzo-soprano",
+      "html": "<p>Le milieu des trois voix aiguës. À côté d'une soprano, une mezzo-soprano a un médium plus plein et plus sombre, et se fatigue plus vite quand une chanson reste longtemps dans l'aigu, même si les aigus sont là. À côté d'une contralto, ses graves sont plus légers et son aigu va plus loin.</p><p>Les chorales brouillent cette voix. Avec seulement des pupitres de sopranos et d'altos au choix, une mezzo chante celui qui lui va le mieux, et beaucoup grandissent en se croyant soprano ou alto. Beaucoup de professeurs commencent par traiter une nouvelle voix comme une voix moyenne, mezzo-soprano ou baryton, jusqu'à ce qu'elle montre le contraire.</p><p>Sous-types : lyrique, colorature et dramatique.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Contralto",
+      "html": "<p>La plus grave des voix aiguës. Les graves d'une contralto sont plus lourds et plus faciles que ceux d'une mezzo-soprano, et la voix est à son aise dans le bas de sa tessiture pendant des chansons entières.</p><p>Le nom cause la première confusion : alto est un pupitre de chœur, contralto est le type de voix, et beaucoup d'altos de chorale sont des mezzo-sopranos, parce qu'une chorale n'a pas de pupitre de mezzos. La deuxième, c'est de croire que seules les femmes chantent ici. Les contre-ténors sont des hommes qui chantent dans cette tessiture, surtout dans une voix de tête légère ou en fausset.</p><p>Sous-types : colorature, lyrique et dramatique.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Ténor",
+      "html": "<p>La plus aiguë des voix graves habituelles. Un ténor et un baryton partagent la plus grande partie de leur tessiture ; ce qui les distingue, c'est l'endroit où la voix change et la zone où elle est le plus à l'aise. Les changements d'un ténor arrivent quelques notes plus tard que ceux d'un baryton, et la voix garde son aisance près du haut.</p><p>La confusion se fait dans les deux sens. Un jeune ténor dont l'aigu n'est pas encore libre est placé avec les barytons, et un baryton qui a quelques aigus faciles est poussé vers des parties de ténor qui restent trop hautes pendant la plus grande partie de la chanson.</p><p>Sous-types, du plus léger au plus lourd : léger (leggero), lyrique, spinto, dramatique et le Heldentenor allemand.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Baryton",
+      "html": "<p>Le milieu des voix graves et, comme la mezzo-soprano, le type moyen que beaucoup de professeurs supposent d'abord. Les graves d'un baryton sont plus pleins que ceux d'un ténor et plus légers que ceux d'une basse, et la voix est le plus à l'aise au milieu de sa tessiture.</p><p>Les chorales divisent en général les voix graves en ténors et basses, donc un baryton chante la partie dont le morceau a besoin, et certains n'apprennent jamais que leur voix a un nom à elle.</p><p>Les sous-types comprennent le baryton lyrique, le Kavalierbariton, le baryton Verdi, le baryton dramatique et le baryton-basse.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Basse",
+      "html": "<p>La plus grave des six, et la voix qui change le plus tôt. Les graves d'une basse ont un poids que ceux d'un baryton n'ont pas, et la voix reste à l'aise en bas pendant toute une chanson, pas seulement sur une note.</p><p>L'erreur habituelle est de juger sur la note la plus grave seule : un baryton capable d'atteindre une note grave n'est pas une basse si sa voix se fatigue en bas. Une voix parlée grave ne tranche pas la question non plus.</p><p>Les sous-types comprennent la basse profonde (basso profondo), la basse chantante (basso cantante), la basse bouffe (basso buffo) et le baryton-basse. Dans les chœurs russes, les chanteurs les plus graves s'appellent les oktavistes.</p>"
+    },
+    {
+      "heading": "La tessiture ne dit pas tout",
+      "html": "<p>L'étendue est ce qu'il y a de plus facile à mesurer, alors c'est elle qui reçoit le plus d'attention. Les professeurs écoutent quatre choses : l'étendue, la tessiture au sens strict (la zone où la voix est à l'aise pendant la plus grande partie d'une chanson), le timbre (sa couleur et son poids) et le passaggio, la zone où elle passe d'un registre à l'autre. Dans l'usage courant, et dans Scalita, le mot tessiture désigne aussi l'étendue. Le résultat de tessiture de Scalita le dit clairement : ton passage de voix est un indicateur plus fiable du type de voix. L'outil de passage de voix ajoute que le type de voix dépend aussi de la zone où ta voix sonne le mieux et de ton timbre.</p><p>La tessiture bouge, aussi. Ta tessiture peut varier selon l'échauffement, l'entraînement et l'heure de la journée, donc mesure-la plus d'une fois avant de t'y fier.</p><p>Et rien ne presse. Le professeur de chant William Vennard écrivait : « Je ne ressens jamais aucune urgence à classer un élève débutant », et conseillait de commencer au milieu de la voix puis de travailler vers le haut et vers le bas « jusqu'à ce que la voix se classe d'elle-même ».</p><p>Les tessitures données ici sont les chiffres typiques de la plupart des références. Les passages sont les préréglages de Scalita : pour le ténor, le baryton, la basse et la mezzo-soprano, ils correspondent aux tableaux de Richard Miller, ceux de la soprano sont à deux demi-tons ou moins des siens, et il place le premier changement d'une contralto environ une demi-octave plus haut que Scalita.</p>"
+    },
+    {
+      "heading": "Comment trouver le tien",
+      "html": "<p>Commence par ta tessiture. Le <a href=\"page:vocal-range-test\">test de tessiture</a> écoute ta note confortable la plus grave et la plus aiguë, et nomme les types pour lesquels cette tessiture est typique. Ensuite, trouve où ta voix change avec l'<a href=\"page:voice-break-finder\">outil de passage de voix</a> : le piano monte note par note, tu chantes avec lui, et tu appuies quand ta voix veut changer de vitesse. Ensemble, ils donnent une meilleure estimation que chacun séparément.</p><p>Ça reste une estimation. Un professeur qui t'écoute pendant quelques cours remarquera ce qu'aucun test ne peut capter, à commencer par la zone où ta voix sonne le mieux. En attendant, choisis le préréglage le plus proche sur le <a href=\"page:warm-up-piano\">piano pour vocalises</a>, et si les exercices te semblent sans cesse trop hauts ou trop bas, essaie le type voisin.</p>"
+    },
+    {
+      "heading": "Ta voix parlée peut-elle dire ton type ?",
+      "html": "<p>Pas de façon fiable. Une étude sur 75 chanteurs d'opéra a trouvé que la hauteur de la voix parlée différait en moyenne entre la plupart des types de voix, mais pas entre tous, et concluait qu'elle peut appuyer une classification, jamais la faire. La hauteur de la voix parlée change aussi avec l'habitude, l'humeur et la fatigue. Scalita ne devine jamais un type d'après ta voix parlée : elle te demande de chanter.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Un homme peut-il chanter alto, ou une femme chanter ténor ?",
+      "a": "<p>Oui. Un type de voix décrit une voix, pas la personne qui chante. Les contre-ténors chantent alto, et beaucoup de chorales ont des femmes au pupitre des ténors. Dans Scalita, choisis le préréglage dont la tessiture correspond aux notes que tu chantes vraiment.</p>"
+    },
+    {
+      "q": "Le type de voix change-t-il avec le temps ?",
+      "a": "<p>Ça peut arriver. Les voix continuent de changer pendant l'adolescence et se stabilisent en général entre le début et le milieu de la vingtaine, et certains chanteurs passent à un type voisin après quelques années de formation.</p>"
+    },
+    {
+      "q": "Je peux chanter des chansons écrites pour un autre type de voix ?",
+      "a": "<p>En général, oui, dans une tonalité qui te convient. Si une chanson reste trop haute ou trop basse pendant la plus grande partie de sa durée, change de tonalité. Là où une chanson passe son temps compte plus que sa seule note la plus haute.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipédia (en anglais) : Voice type (tessitures, sous-types, William Vennard sur la classification)",
+      "url": "https://en.wikipedia.org/wiki/Voice_type"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Passaggio (les tableaux de passaggio de Richard Miller)",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    },
+    {
+      "label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (résumé)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Voice change (quand les voix se stabilisent)",
+      "url": "https://en.wikipedia.org/wiki/Voice_change"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

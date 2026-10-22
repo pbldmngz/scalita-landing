@@ -1,0 +1,58 @@
+{
+  "slug": "do-re-mi-fa-sol-fa-mi-re-do",
+  "label": "Latihan 5 nada",
+  "title": "Latihan Vokal 5 Nada: Do Re Mi Fa Sol Fa Mi Re Do - Scalita",
+  "description": "Pola 5 nada, 1 2 3 4 5 4 3 2 1, membuka sebagian besar pemanasan Scalita. Apa itu, kenapa guru memakainya, dan apa yang dinyanyikan, di jangkauanmu.",
+  "h1": "Latihan vokal 5 nada",
+  "lead": "Lima nada naik dan empat kembali turun: 1 2 3 4 5 4 3 2 1, atau do re mi fa sol fa mi re do. Sebagian besar pemanasan Scalita dimulai dengan pola ini, dan piano menggesernya setengah nada demi setengah nada supaya pola ini berjalan di seluruh jangkauanmu.",
+  "sections": [
+    {
+      "heading": "Polanya",
+      "html": "<p>Tangga nada lima nada adalah lima nada pertama dari tangga nada mayor, dinyanyikan naik lalu turun lagi tanpa jeda: do re mi fa sol fa mi re do. Jarak antarnadanya 1, 1, ½, dan 1 nada, jadi polanya muat dalam satu kuint, 3½ nada dari bawah ke atas.</p>\n<p>Setelah setiap putaran, piano bergeser setengah nada dan kamu menyanyikannya lagi di nada dasar yang baru. Begitulah satu pola pendek mencakup seluruh jangkauanmu.</p>"
+    },
+    {
+      "heading": "Kenapa penyanyi memulai dengannya",
+      "html": "<p>Pola ini hanya menuntut sedikit dari suara. Tidak ada lompatan, jadi kamu bisa mengikuti setiap nada dengan telinga, dan setiap nada dasar tetap di dalam satu kuint, di satu bagian suaramu, sebelum piano bergeser.</p>\n<p>Karena bergerak berurutan, pola ini cocok untuk legato, yaitu nyanyian yang halus dan bersambung, dan menjadi pembawa alami untuk bunyi-bunyi pertama dalam pemanasan: trill, humming, dan vokal tertutup.</p>\n<p>Pola ini juga mudah dibawa ke seluruh jangkauan. Setengah nada demi setengah nada, pola ini berjalan melewati jangkauanmu dengan langkah kecil yang rata, jadi kamu menyadari di mana suaramu berubah tanpa memaksa apa pun.</p>"
+    },
+    {
+      "heading": "Cara Scalita memakainya",
+      "html": "<p>Pola ini tulang punggung aplikasinya: 12 dari 15 rutinitas Scalita memakainya, dan 10 di antaranya dibuka dengan pola ini, sembilan dari sepuluh itu dengan trill. Piano mulai dari nada dasar yang nyaman untukmu dan bergeser setengah nada demi setengah nada di jangkauan yang kamu simpan.</p>\n<p>Di dalam rutinitas, pola ini kebanyakan membawa trill dan humming. <a href=\"page:vocal-cool-down\">Lembut / Pemulihan</a>, rutinitas pendinginan, hampir seluruhnya dibangun di atasnya.</p>"
+    },
+    {
+      "heading": "Menyanyikannya dengan nama nada",
+      "html": "<p>Kamu juga bisa menyanyikan polanya dengan nama nadanya. Dalam do bergerak (movable do), yang dipakai di kelas musik dan paduan suara di negara-negara berbahasa Inggris dan di Indonesia, do berada di mana pun polanya mulai, jadi di setiap nada dasar polanya berbunyi do re mi fa sol fa mi re do. Not angka menuliskan hal yang sama sebagai 1 2 3 4 5 4 3 2 1.</p>\n<p>Dalam do tetap (fixed do), yang dipakai di Spanyol, Prancis, Italia, Brasil, Turki, dan Amerika Latin, do selalu C. Nama-namanya berubah mengikuti nada dasar, dan kamu menyanyikan nama setiap nada tanpa kres atau mol-nya. Rutinitas Do Re Mi (Solfegio) di Scalita menampilkan nama setiap nada sesuai notasi yang kamu pakai, jadi bisa dipakai dengan kedua cara. Selengkapnya di <a href=\"page:note-names-octaves\">not angka, not huruf, dan oktaf</a>.</p>"
+    },
+    {
+      "heading": "Versi yang lebih kecil dan lebih besar",
+      "html": "<ul>\n<li><strong>3 Nada</strong>, 1 2 3 2 1: ide yang sama di ruang yang lebih sempit.</li>\n<li><strong>5 Nada Menurun</strong>, 5 4 3 2 1: mulai dari atas lalu turun.</li>\n<li><strong>Mayor / Oktaf</strong>: seluruh tangga nada mayor, setelah suaramu mulai bergerak.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah tangga nada lima nada itu tangga nada pentatonik?",
+      "a": "<p>Bukan. Tangga nada pentatonik juga punya lima nada, tapi menyebarkannya di satu oktaf penuh: pentatonik mayor menghilangkan nada keempat dan ketujuh dari tangga nada mayor. Pola pemanasan ini hanyalah lima nada pertama tangga nada mayor, berdampingan. Scalita punya pola Pentatonik Minor tersendiri.</p>"
+    },
+    {
+      "q": "Seberapa tinggi sebaiknya pola ini dibawa?",
+      "a": "<p>Hanya setinggi yang masih terasa mudah. Scalita menjaga nada teratas tetap di dalam jangkauan yang kamu simpan, dan kamu bisa berhenti lebih awal. Nada dasar tertinggi bukan target.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun dan Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (penelitian tentang latihan vokal yang dipakai pengajar di jurusan pendidikan musik di Turki, dalam bahasa Turki). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipedia: Solfège, tentang do tetap dan do bergerak.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipedia: Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>Cara pola ini dipakai di Indonesia dan di Turki</h2>\n<p>Di Indonesia, latihan tangga nada biasanya dinyanyikan dengan solmisasi, sambil nada dasarnya dinaikkan setengah nada demi setengah nada, sama seperti cara Scalita menggeser pola ini. Sebuah sekolah vokal dangdut di Trenggalek menulis bahwa pemanasan vokal terdiri dari pernapasan, solfegio, artikulasi, dan resonansi; solfegionya dimulai di tangga nada C, lalu dinaikkan setengah nada menjadi C#, D, D#, dan seterusnya (<a href=\"https://ejournal.unesa.ac.id/index.php/jurnal-pendidikan-sendratasik/article/download/37615/33310\" target=\"_blank\" rel=\"noopener\">Putri dan Dharmawanputra, 2021</a>). Paduan suara jurusan musik gereja di STAKPN Sentani, Papua, berlatih dengan piano yang membunyikan tangga nada di beberapa nada dasar, lalu anggotanya menirukannya (<a href=\"https://ejurnal.stakpnsentani.ac.id/index.php/jmcd/article/download/5/2\" target=\"_blank\" rel=\"noopener\">Sulistyowati, 2023</a>).</p>\n<p>Di Turki, pada 2023 Ece Celasun dan Harun Keskin mengumpulkan latihan pemanasan dari 16 guru vokal di jurusan pendidikan musik di universitas-universitas Turki, dan mencetak 71 di antaranya dalam bentuk notasi. Dihitung dari halaman-halaman itu, sekitar 12 dari 16 guru memakai persis pola ini, 1 2 3 4 5 4 3 2 1. Sebagian besar latihannya tetap dalam tiga atau lima nada dan mengutamakan nyanyian yang halus dan bersambung. Ke-16 guru itu memakai piano, dan suku kata mereka kebanyakan dibangun dari y atau m.</p>"
+}

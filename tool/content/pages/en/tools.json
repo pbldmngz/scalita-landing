@@ -1,0 +1,44 @@
+{
+  "label": "Free tools",
+  "title": "Free Singing Tools in Your Browser - Scalita",
+  "description": "Four free tools for singers that run in your browser: a vocal range test, a sing-in-tune test, a warm-up piano and a voice break finder.",
+  "h1": "Free singing tools",
+  "lead": "Find your range, check how close you sing to a note, warm up on a real piano in your own keys, and find where your voice shifts. There's no account to make, and nothing you sing leaves your device.",
+  "intro": "<p>These four tools come from Scalita, a vocal warm-up app for Android. They use the app's own pitch reading, its piano and its exercises, and they run in your browser on a phone or a computer.</p><p>Two rules hold for all of them. A tool either listens or plays the piano, never both at once, so you don't need headphones. And when a tool listens, your browser does the work on your device: nothing is recorded or sent anywhere.</p>",
+  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "sections": [
+    {
+      "heading": "Where to start",
+      "html": "<p>If you're new to this, go in this order:</p><ol><li><a href=\"page:vocal-range-test\">Vocal range test</a>: your lowest and highest comfortable notes, in about a minute.</li><li><a href=\"page:voice-break-finder\">Voice break finder</a>: where your voice changes gear, which says more about your voice type than your range does.</li><li><a href=\"page:warm-up-piano\">Warm-up piano</a>: scales and routines from the app, played in your range.</li><li><a href=\"page:sing-in-tune-test\">Sing-in-tune test</a>: once you're warm, how close you land to a note you've just heard.</li></ol>"
+    },
+    {
+      "heading": "When a tool listens",
+      "html": "<p>The range test and the sing-in-tune test use your microphone. They ask for it only after you press Start, read the pitch of your voice as it comes in, and keep nothing. Press Stop or leave the page and the microphone turns off. The warm-up piano and the voice break finder never use it.</p><p>The microphone works in a recent Chrome, Safari, Firefox or Edge. It doesn't work in the browsers built into apps like Instagram, TikTok, Facebook or Gmail, so if you got here from one of those, open the page in your phone's browser first.</p>"
+    },
+    {
+      "heading": "What they won't tell you",
+      "html": "<p>None of these tools rates your voice. They measure pitch: which notes you reach, where your voice shifts, how close you land to a note. They don't grade your tone, compare you with other people or guess your voice type from how you speak. A result is a reading of one moment, and your voice may read a little differently tomorrow.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Are the tools free?",
+      "a": "<p>Yes. There's no account, no email and no ads. They're useful on their own, and they show what the Scalita app does.</p>"
+    },
+    {
+      "q": "Do they work on an iPhone?",
+      "a": "<p>They run in the browser, so they work on an iPhone, an Android phone or a computer, as long as the browser is recent. The Scalita app itself is Android only for now.</p>"
+    },
+    {
+      "q": "Do I need headphones?",
+      "a": "<p>No. A tool that plays the piano isn't listening at the same time, and one that listens doesn't play, so the microphone only ever hears you.</p>"
+    },
+    {
+      "q": "Is anything saved?",
+      "a": "<p>Only on your device. The range test, the sing-in-tune test and the voice break finder remember your last result in this browser, so you can compare next time. Clearing this site's data in your browser settings removes it.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

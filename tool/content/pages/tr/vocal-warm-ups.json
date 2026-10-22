@@ -1,0 +1,64 @@
+{
+  "slug": "ses-acma-egzersizleri",
+  "label": "Ses açma egzersizleri",
+  "title": "Ses açma egzersizleri: gerçek piyano, kendi aralığında - Scalita",
+  "description": "Scalita uygulamasından üç rutin, gerçek bir piyanoda senin aralığına taşınmış hâlde: söylemeden önce hızlı bir ısınma, tam bir ısınma ve bir soğuma.",
+  "h1": "Ses açma egzersizleri",
+  "lead": "Scalita uygulamasından üç rutin, gerçek bir piyanoda senin aralığında çalınır: söylemeden hemen önce için hızlı bir ısınma, tam bir ısınma ve sonrası için bir soğuma. Sesine en yakın ses türünü seç ya da kendi en pes ve en tiz notalarını belirle ve Çal'a bas.",
+  "intro": "<p>Buradaki her rutin, uygulamadakinin adım adım aynısıdır: aynı kalıplar, heceler, tempolar ve sıra. Bir videonun yapamadığı şey senin için ton değiştirmektir. Burada piyano, belirlediğin aralığa uysun diye her kalıbı yarım ses yarım ses taşır; böylece kaydı yapan kişinin sesiyle değil, kendi sesinle söylersin.</p><p>Bugün hangisinin uyduğundan emin değil misin? Bu sayfadaki iki Isınmamı Bul sorusunu cevapla; uygulamanın sorduklarının aynısı. Ses aralığını henüz bilmiyorsan <a href=\"page:vocal-range-test\">ses aralığı testi</a> en pes ve en tiz notalarını bulur.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Bugün hangisi?",
+      "html": "<p>Isınmamı Bul, ne üzerinde çalışmak istediğini sormadan önce sesinin nasıl olduğunu sorar ve ilk cevap ikincisini geçersiz kılabilir.</p><ul><li><em>Yorgun / zorlanmış</em>, ne üzerinde çalışmak istemiş olursan ol, her zaman biraz daha yavaş çalınan <a href=\"page:vocal-cool-down\">soğumaya</a> götürür.</li><li><em>Sahne öncesi hızlı</em> seni <a href=\"page:quick-vocal-warm-up\">hızlı ısınmaya</a>, <em>Sadece ısınayım</em> ise <a href=\"page:full-vocal-warm-up\">tam ısınmaya</a> götürür.</li><li><em>Biraz tuhaf</em> her rutini biraz yavaşlatır; uygulama o gün <em>Aralığımı genişlet</em> ve <em>Kirli ton / çığlık</em> seçeneklerini de geri tutar.</li><li><em>Hazırım</em> rutinleri biraz daha hızlı çalar.</li></ul>"
+    },
+    {
+      "heading": "Bu ısınmalar nasıl kurulur",
+      "html": "<p>Üçü de bir <a href=\"page:five-note-scale\">beş sesli gam</a> üzerinde bir trille başlar. Triller ve mırıltılar ağzı kısmen kapatır. Şan öğretmenleri ve ses terapistleri bunları uzun zamandır kullanıyor; bunlar da dahil pek çok ısınma onlarla başlar. 117 şarkıcıyla yapılan bir ankette beş sesli gamlar ve arpejler en çok kullanılan egzersizler arasındaydı.</p><p>Oradan kalıplar genişler: beş nota, sonra bir oktav boyunca bir arpej, sonra iki ısınmada bir buçuk oktav. Her egzersiz en pes notandan değil rahat bir tondan başlar, aralığının tepesine çıkar, sonra tonlar boyunca dibe iner.</p><p>Bazı adımlar ise <a href=\"page:voice-cracks-high-notes\">geçiş bölgenin</a> çevresine yerleştirilir. <em>Sadece yaklaş</em> geçişin hemen altında durur, <em>Bir kez geç</em> onu aşıp geri döner. Tonlar arasında piyano, yeni tonu vermek için kısa bir akor çalar ve nefes alman için bir vuruş bırakır.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ses açma egzersizleri ne kadar sürmeli?",
+      "a": "<p>Üzerinde anlaşılmış bir süre yok. 117 şarkıcıyla yapılan bir ankette en çok tercih edilen ısınma süresi 5 ila 10 dakikaydı. İki oktavlık bir aralıkta buradaki rutinler 6 ila 8 dakika (hızlı), 12 ila 14 dakika (tam) ve 7 ila 11 dakika (soğuma) sürer.</p>"
+    },
+    {
+      "q": "Kadın ve erkek sesleri için farklı ısınmalar var mı?",
+      "a": "<p>Egzersizler herkes için aynı. Değişen ton: sopranodan basa kadar sesine en yakın hazır ayarı seç ya da kendi aralığını belirle; piyano her kalıbı buna uyacak şekilde taşır. Hazır ayar yalnızca piyanonun nerede çalacağını belirler; bu yüzden onu cinsiyete göre değil, sesinin rahat durduğu yere göre seç. <a href=\"page:voice-types\">Ses türleri</a> sayfası her birini anlatır.</p>"
+    },
+    {
+      "q": "Ses açma egzersizleri gerçekten işe yarıyor mu?",
+      "a": "<p>Şarkıcılar etkisini hisseder. Bir çalışmada klasik eğitimli on iki şarkıcının hepsi, 25 dakikalık bir ısınmadan sonra ses renklerinde ve kontrollerinde değişiklik fark etti. Dinleyiciler farkı daha seyrek duydu, çoğunlukla vibratosu dengelenmiş şarkıcılarda. Isınma esas olarak senin için: asıl şarkılara geçmeden önce bugünkü sesini bulmanın yolu.</p>"
+    },
+    {
+      "q": "Hastayken ses açma egzersizleri yapmalı mıyım?",
+      "a": "<p>Hayır. Boğazın ağrıyorsa ya da sesin kısıksa sesini dinlendir; geçmezse bir doktora görün. Soğuma, hasta bir ses için değil, şarkı söylemekten yorulmuş bir ses içindir.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims ve McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft ve Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

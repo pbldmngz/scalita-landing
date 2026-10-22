@@ -1,0 +1,23 @@
+{
+  "start": "Başlat",
+  "stop": "Durdur",
+  "listening": "Dinliyor...",
+  "tooQuiet": "Çok sessiz. Biraz daha yüksek sesle söyle ya da mikrofona yaklaş.",
+  "allow": "Tarayıcın sorduğunda mikrofona izin ver.",
+  "result": "Sonucun",
+  "share": "Paylaş",
+  "save": "Görseli kaydet",
+  "openInBrowser": "Bu uygulamanın içindeki tarayıcı mikrofonu kullanamıyor. Bu sayfayı Chrome'da ya da Safari'de aç.",
+  "androidOnly": "Yalnızca Android",
+  "lastTime": "Geçen sefer",
+  "tryAgain": "Tekrar dene",
+  "play": "Çal",
+  "loading": "Piyano yükleniyor...",
+  "next": "İleri",
+  "back": "Geri",
+  "close": "Kapat",
+  "copyLink": "Bağlantıyı kopyala",
+  "copied": "Bağlantı kopyalandı",
+  "privacyLine": "Hiçbir şey kaydedilmez ya da gönderilmez. Sesi cihazında tarayıcın dinler ve Durdur'a bastığında mikrofon kapanır.",
+  "noScript": "Bu araç JavaScript gerektiriyor. Sayfadaki diğer her şey onsuz da çalışır."
+}

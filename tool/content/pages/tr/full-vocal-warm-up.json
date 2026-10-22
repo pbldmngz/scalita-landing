@@ -1,0 +1,40 @@
+{
+  "slug": "san-egzersizleri",
+  "label": "Tam ısınma",
+  "title": "Şan egzersizleri: tüm aralığın için tam ısınma - Scalita",
+  "description": "Tam ses açma egzersizleri: dil trilinden bir buçuk oktava dokuz egzersiz, gerçek bir piyanoda senin aralığında. Scalita'nın Genel Isınma rutini, adım adım.",
+  "h1": "Tam ses açma egzersizleri",
+  "lead": "Tam ısınma; çalışma günleri, dersler ve provalar için, şarkı söylemeden önce sesinin tamamından geçmek istediğinde. Bu, Scalita'nın Genel Isınma rutini: küçük ve hafiften genişe doğru üç aşamada ilerleyen dokuz egzersiz.",
+  "routineId": "general_warmup",
+  "whyOrder": "<h2>Neden bu sıra</h2><p>Rutin küçük ve hafiften genişe doğru, üç aşamada ilerler. İki oktavlık bir aralıkta 12 ila 14 dakika sürer.</p><p><strong>1. ile 3. egzersizler: beş sesli gam üzerinde bir tril ve iki mırıltı.</strong> Tüm aralığın boyunca bir dil trili, aşağı doğru yürüyen bir mırıltı, sonra parlak bir ünlüye açılan bir mırıltı. Kalıplar yalnızca beş nota genişliğinde, tempolar orta. Scalita dil triliyle başlar. Konuştuğun dilde titreyen bir R yoksa ve zor geliyorsa, dudak triliyle başla.</p><p><strong>4. ile 8. egzersizler: geçiş bölgenin çevresinde arpejler.</strong> Kalıp bir oktava genişler ve beş hece sırayla gelir. İkisi <em>Sadece yaklaş</em> ve geçişinin altında durur; üçü <em>Bir kez geç</em> ve onu aşıp geri döner. Karışık sıralanmışlardır; böylece farklı seslerle birkaç kez geçişe yaklaşır, onu aşar ve geri dönersin. M ve N heceleri bir mırıltıdan başlar, G de her notaya temiz bir başlangıç verir.</p><p><strong>9. egzersiz: dudak triliyle bir buçuk oktav.</strong> En geniş kalıp en sona, bir trille gelir; geri kalan her şey ısındıktan sonra tüm aralığı tek bir çizgide birleştirmek için.</p><p>Her egzersizin içinde piyano en pes notandan değil rahat bir tondan başlar, yarım ses yarım ses aralığının tepesine çıkar, sonra tonlar boyunca dibe iner.</p>",
+  "whatToFeel": "<h2>Ne hissetmelisin</h2><p>Triller ve mırıltılarda dudaklarında, burnunda ve yüzünde bir titreşim; boğazında ise hiçbir sıkışma. Uygulama trilleri ve düz mırıltıyı Rezonans olarak etiketler: yumuşak bir vızıltıyla, pipetten mırıldanır gibi söyle.</p><p>Arpejlerde, yukarı çıkarken sesinin nerede vites değiştirmek istediğine dikkat et. Yaklaşma adımları ondan önce durur. Geçme adımlarında sesin değişmesine izin ver ve pes sesi daha çok güçle yukarı taşımak yerine onu hafif tut. Uygulamanın Miks Ses ipucu da aynı şeyi ister: pes ve tiz sesin arasındaki geçişi yumuşat. Geçiş bölgenin nerede olduğunu bilmiyorsan <a href=\"page:voice-break-finder\">geçiş bölgesi testi</a> onu bulmana yardım eder.</p><h3>Sık yapılan hatalar</h3><ul><li><strong>Notalar tizleştikçe sesini yükseltmek.</strong> Ses şiddetini dipten tepeye kadar yaklaşık aynı tut.</li><li><strong>Bunu bir aralık antrenmanına çevirmek.</strong> Uzanma gibi gelen her tepe tonunu atla. Isınıyorsun, kendini test etmiyorsun.</li><li><strong>Tonlar arasında nefesini tutmak.</strong> Piyano her akordan sonra sana bir vuruş bırakır. Onu nefes almak için kullan.</li><li><strong>Sürekli duran bir trili sıkmak.</strong> Dudaklarını ya da dilini gevşet, havayı sabit tut ya da öbür trile geç.</li></ul>",
+  "whenToStop": "<h2>Ne zaman durmalısın</h2><p>Ağrı olursa, boğazın kaşınır ya da yanarsa veya sesin ilerledikçe pürüzleşirse dur. Sesin ısınmanın sonunda başındakinden daha yorgunsa o gün onu dinlendir.</p><p>Arpej adımları aralığının içine değil geçiş bölgenin çevresine yerleştirilir; bu yüzden bazı hazır ayarlarda söyleyebildiğin notaların altından başlarlar. Çok pes ya da çok tiz gelen her tonda sessiz kal ve kalıp sesine geri dönünce katıl. Tepeye yakın yerlerde daha güçlü söylemeden önce daha kısık söyle.</p>",
+  "next": "<h2>Sonra ne yapmalı</h2><p>Sesin ısınmışken şarkılarını söyle. Uzun bir çalışmadan sonra <a href=\"page:vocal-cool-down\">soğuma</a> ile bitir. Vaktinin az olduğu günlerde <a href=\"page:quick-vocal-warm-up\">hızlı ısınma</a>, trili, geçiş bölgenin bir kez aşılmasını ve geniş kalıbı beş egzersizde toplar.</p><p>Parçaları iki sayfa anlatıyor: bu rutini açıp kapatan <a href=\"page:lip-trills\">dudak ve dil trilleri</a> ve ilk üç egzersizdeki <a href=\"page:five-note-scale\">beş sesli gam</a>.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Tam on dakikaya indirebilir miyim?",
+      "a": "<p>Bu rutini yazıldığı hâliyle hayır. Altı hazır ayarda 12 ila 14 dakika sürer, daha dar bir aralıkta daha az; çünkü ilk egzersiz tüm aralığını tarar. Uygulamada Uyarlanabilir Mod ne kadar vaktin olduğunu sorar (5, 10 ya da 15 dakika, ya da sınır yok) ve seansı buna göre ayarlar: bir ısınma, ana bölüm ve bir soğuma.</p>"
+    },
+    {
+      "q": "Her gün ses açma egzersizleri yapmalı mıyım?",
+      "a": "<p>Şarkı söylediğin günlerde, söylemeden önce ısın. Her gün çalışıyorsan her çalışma ısınmayla başlar; her gün aynı rutini yapmak da sesin farklı geldiğinde bunu fark etmeyi kolaylaştırır.</p>"
+    },
+    {
+      "q": "Piyanoyla ses açma egzersizleri nasıl yapılır?",
+      "a": "<p>Bu sayfada Çal'a bas. Piyano her kalıbı çalar, tonlar arasında sana bir akor ve bir vuruş verir ve yarım ses yarım ses ilerler. Egzersiz için gösterilen heceyle birlikte söyle. Kendin piyano çalıyorsan egzersiz tablosunu izle: aynı kalıp ve hece, rahat geldiği pes bir yerden başlayarak.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims ve McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79"
+}

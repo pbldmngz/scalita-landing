@@ -1,0 +1,60 @@
+{
+  "slug": "piano-para-vocalizar",
+  "label": "Piano para vocalizar",
+  "title": "Piano para vocalizar: escalas gratis en tu rango - Scalita",
+  "description": "Escalas y rutinas de calentamiento vocal con un piano real, tocadas en tu rango: elige un tipo de voz o tus propias notas más grave y más aguda. Gratis.",
+  "h1": "Piano para vocalizar",
+  "lead": "Un video de calentamiento se graba en unas tonalidades fijas. Este piano toca las escalas y rutinas de Scalita en las tuyas: elige un tipo de voz o tus propias notas más grave y más aguda, y pulsa Reproducir.",
+  "toolId": "player",
+  "instructions": "<h2>Cómo se usa</h2><ol><li>Elige un tipo de voz o define tus propias notas más grave y más aguda. Si no las conoces, el <a href=\"page:vocal-range-test\">test de rango vocal</a> las encuentra en más o menos un minuto.</li><li>Elige una escala o una rutina. Antes de empezar ves el patrón, la sílaba que hay que cantar, el tempo y el estilo.</li><li>Pulsa Reproducir y canta con el piano. Antes de cada tonalidad nueva hay un momento para respirar y un acorde corto que la prepara.</li><li>Pulsa Detener cuando quieras.</li></ol><p>El piano no usa el micrófono, y no se descarga nada hasta que pulsas Reproducir.</p>",
+  "sampleResult": "<h2>Lo que vas a oír</h2><p>Elige Tenor y la escala 5 Tonos. La primera tonalidad empieza en {{note:D3}}: el piano toca de {{note:D3}} a {{note:A3}} y vuelve a bajar, cinco notas de subida y cuatro de bajada. Cada repetición sube un semitono hasta que la nota más alta del patrón llega a {{note:C5}}. Después las tonalidades vuelven a bajar, por debajo de donde empezaron, hasta que la escala empieza en {{note:C3}}, el fondo del rango de tenor. Son 33 repeticiones, cada una en una tonalidad nueva.</p><p>Si eliges una rutina, como Pre-Presentación Rápido, el piano toca sus ejercicios uno detrás de otro. Con Tenor tarda unos 8 minutos.</p>",
+  "notClaimed": "<h2>Lo que este piano no hace</h2><p>Toca y no escucha, así que no puede decirte si das bien la nota ni si estás forzando. Toca una escala o una rutina cada vez y no guarda nada entre visitas. Tampoco es una clase. Si una nota te duele o notas la voz cansada, para.</p>",
+  "sections": [
+    {
+      "heading": "Por qué importa tu rango",
+      "html": "<p>La mayoría de los videos de calentamiento vienen en una versión “de hombre” y otra “de mujer”, cada una en tonalidades fijas, y muchas voces no encajan en ninguna. Cuando la escala del video sube por encima de tu nota cómoda más aguda, o fuerzas o te quedas fuera. Aquí eliges un tipo de voz, o te saltas las etiquetas y defines tus propias notas más grave y más aguda. Cada ejercicio empieza en una tonalidad cómoda para ese rango y se queda dentro de él.</p>"
+    },
+    {
+      "heading": "Qué toca",
+      "html": "<p>Las mismas escalas y rutinas que la app Scalita, con los mismos patrones, sílabas, tempos y orden. Eso incluye los patrones que más usan los cantantes: en una encuesta a 117 estudiantes de canto y cantantes profesionales, entre los ejercicios de calentamiento más comunes estaban las escalas de cinco notas, las escalas de una octava y los arpegios (Gish y colaboradores, 2012).</p><p>Una escala toca un patrón a lo largo de tu rango. Una rutina toca varios ejercicios seguidos, como los hace la app.</p>"
+    },
+    {
+      "heading": "El piano",
+      "html": "<p>El sonido es el Salamander Grand Piano, grabado por Alexander Holm: el mismo piano que suena en la app, reafinado para que cada nota esté en su altura exacta. Para que la página pese poco usa 20 notas grabadas y desplaza cada una como mucho un semitono para cubrir las teclas intermedias. Solo se cargan las notas que necesita tu rango, y solo después de pulsar Reproducir.</p>"
+    },
+    {
+      "heading": "Cantar con el piano",
+      "html": "<ul><li>Canta la sílaba que se muestra, a volumen medio. Si te resulta incómoda, tararear con la boca cerrada sirve para cualquier patrón.</li><li>Mantén ligeras las tonalidades más agudas. Si una te cuesta, para y define un rango más estrecho en vez de forzar.</li><li>Usa el altavoz o auriculares, como prefieras. No hay nada escuchando.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Con qué calentamiento empiezo?",
+      "a": "<p>Si tienes unos minutos, prueba una rutina corta como Pre-Presentación Rápido. Si solo quieres despertar la voz, tararea la escala 5 Tonos. Las <a href=\"page:vocal-warm-ups\">guías de calentamiento</a> explican paso a paso las rutinas de la app.</p>"
+    },
+    {
+      "q": "¿Qué tipo de voz elijo?",
+      "a": "<p>El que tenga el rango más parecido al tuyo, o ninguno: define tus propias notas más grave y más aguda. El <a href=\"page:vocal-range-test\">test de rango vocal</a> las encuentra en más o menos un minuto, y la <a href=\"page:voice-types\">guía de tipos de voz</a> muestra lo que abarca cada uno.</p>"
+    },
+    {
+      "q": "¿Puedo guardar una rutina o mi rango?",
+      "a": "<p>Aquí no. Este piano es una muestra de la app Scalita, que guarda en tu teléfono tu rango, tus propias escalas y rutinas, y tu historial de práctica.</p>"
+    },
+    {
+      "q": "¿Funciona en el teléfono?",
+      "a": "<p>Sí, en un navegador reciente, en un teléfono o en una computadora. En un iPhone, si no oyes nada, comprueba que el interruptor de silencio no esté activado.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims y McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Salamander Grand Piano V3 de Alexander Holm, las muestras de piano",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

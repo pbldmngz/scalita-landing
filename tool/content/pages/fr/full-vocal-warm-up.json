@@ -1,0 +1,40 @@
+{
+  "slug": "echauffement-vocal-complet",
+  "label": "Échauffement complet",
+  "title": "Échauffement vocal complet, pour toute ta voix - Scalita",
+  "description": "Un échauffement vocal complet : neuf exercices, du roulement de langue à l'octave et demie, sur un vrai piano dans ta tessiture, expliqués pas à pas.",
+  "h1": "Échauffement vocal complet",
+  "lead": "L'échauffement complet, pour les jours de pratique, les cours et les répétitions, quand tu veux parcourir toute ta voix avant de chanter. C'est la routine Échauffement général de Scalita : neuf exercices, avec plus de temps pour les vibrations, les fredonnements et ton passage.",
+  "routineId": "general_warmup",
+  "whyOrder": "<h2>Pourquoi cet ordre</h2><p>La routine va du petit et léger au large, en trois temps. Sur une tessiture de deux octaves, elle dure de 12 à 14 minutes.</p><p><strong>Étapes 1 à 3 : une vibration et deux fredonnements sur une gamme de cinq notes.</strong> Un roulement de langue sur toute ta tessiture, un fredonnement qui descend, puis un fredonnement qui s'ouvre sur une voyelle claire. Les motifs ne font que cinq notes de large et les tempos sont modérés. Scalita commence par le roulement de langue. Si ta langue maternelle n'a pas de R roulé et que c'est difficile, commence par la vibration des lèvres.</p><p><strong>Étapes 4 à 8 : des arpèges autour de ton passage de voix.</strong> Le motif s'élargit à une octave, et cinq syllabes se relaient. Deux sont <em>Approche seulement</em> et s'arrêtent sous ton passage, trois sont <em>Traverser une fois</em> et le franchissent avant de revenir. Elles sont mélangées, donc tu t'approches du passage, tu le franchis et tu reviens plusieurs fois, sur des sons différents. Les syllabes en M et en N partent d'un fredonnement, et le G donne à chaque note une attaque nette.</p><p><strong>Étape 9 : une octave et demie sur une vibration des lèvres.</strong> Le motif le plus large vient en dernier, sur une vibration, pour relier toute la tessiture en une seule ligne une fois que tout le reste est chaud.</p><p>Dans chaque exercice, le piano commence sur une tonalité confortable plutôt que sur ta note la plus grave, monte d'un demi-ton à la fois jusqu'au haut de son étendue, puis redescend tonalité par tonalité jusqu'en bas.</p>",
+  "whatToFeel": "<h2>Ce qu'il faut sentir</h2><p>Sur les vibrations et les fredonnements, un bourdonnement dans les lèvres, le nez et le visage, et aucune pression dans la gorge. L'application marque les vibrations et le simple fredonnement du badge Résonance : chante à travers un léger bourdonnement, comme si tu fredonnais dans une paille.</p><p>Sur les arpèges, remarque où ta voix veut changer de vitesse en montant. Les étapes d'approche s'arrêtent avant. Sur les étapes de traversée, laisse-la changer et garde-la légère au lieu de monter le son grave avec plus de force. Le badge Voix mixte de l'application demande la même chose : adoucis le passage entre ta voix grave et ta voix aiguë. Si tu ne sais pas où est ton passage, l'<a href=\"page:voice-break-finder\">outil de passage de voix</a> t'aide à le trouver.</p><h3>Erreurs fréquentes</h3><ul><li><strong>Chanter plus fort à mesure que les notes montent.</strong> Garde à peu près le même volume du bas au haut.</li><li><strong>En faire un entraînement de tessiture.</strong> Saute toute tonalité aiguë qui te semble trop loin. Tu t'échauffes, tu ne passes pas un test.</li><li><strong>Retenir ton souffle entre les tonalités.</strong> Le piano te laisse un temps après chaque accord. Profites-en pour inspirer.</li><li><strong>Serrer une vibration qui s'arrête sans cesse.</strong> Relâche les lèvres ou la langue, garde l'air régulier, ou passe à l'autre vibration.</li></ul>",
+  "whenToStop": "<h2>Quand s'arrêter</h2><p>Arrête-toi en cas de douleur, si ta gorge gratte ou brûle, ou quand ta voix devient plus rauque à mesure que tu avances. Si elle est plus fatiguée à la fin de l'échauffement qu'au début, repose-la pour la journée.</p><p>Les étapes d'arpège sont placées autour de ton passage de voix plutôt que dans ta tessiture, donc sur certains préréglages elles commencent sous les notes que tu peux chanter. Laisse passer en silence toute tonalité trop grave ou trop aiguë, et reprends quand le motif revient dans ta voix. Près du haut, chante plus doucement avant de chanter plus fort.</p>",
+  "next": "<h2>Et ensuite</h2><p>Chante tes chansons tant que la voix est chaude. Après une longue séance, termine par le <a href=\"page:vocal-cool-down\">retour au calme</a>. Les jours où tu as moins de temps, l'<a href=\"page:quick-vocal-warm-up\">échauffement rapide</a> garde la vibration, une traversée de ton passage et le motif large, en cinq étapes.</p><p>Deux pages expliquent les éléments : <a href=\"page:lip-trills\">vibration des lèvres et roulement de langue</a>, qui ouvrent et ferment cette routine, et la <a href=\"page:five-note-scale\">gamme de cinq notes</a> de ses trois premières étapes.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Je peux le faire durer exactement dix minutes ?",
+      "a": "<p>Pas cette routine telle quelle. Avec les six préréglages, elle dure de 12 à 14 minutes, et moins sur une tessiture plus étroite, parce que le premier exercice balaie toute ta tessiture. Dans l'application, le Mode adaptatif demande combien de temps tu as (5, 10 ou 15 minutes, ou sans limite) et cale la séance en conséquence : un échauffement, la partie principale et un retour au calme.</p>"
+    },
+    {
+      "q": "Faut-il échauffer sa voix tous les jours ?",
+      "a": "<p>Échauffe-toi les jours où tu chantes, avant de chanter. Si tu pratiques tous les jours, l'échauffement est la façon dont chaque séance commence, et faire la même routine chaque jour aide à remarquer quand ta voix est différente.</p>"
+    },
+    {
+      "q": "Comment faire des vocalises avec un piano ?",
+      "a": "<p>Appuie sur Lire sur cette page. Le piano joue chaque motif, te donne un accord et un temps entre les tonalités, et monte d'un demi-ton à la fois. Chante avec lui sur la syllabe indiquée pour l'étape. Si tu joues toi-même du piano, suis le tableau des étapes : le même motif et la même syllabe, en partant du grave, là où c'est facile.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims et McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79"
+}

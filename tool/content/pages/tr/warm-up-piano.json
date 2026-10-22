@@ -1,0 +1,60 @@
+{
+  "slug": "piyanoda-ses-acma",
+  "label": "Ses açma piyanosu",
+  "title": "Piyanoda ses açma egzersizleri, kendi aralığında - Scalita",
+  "description": "Gerçek bir piyanoda, senin aralığında çalınan ses açma gamları ve rutinleri: bir ses türü ya da kendi en pes ve en tiz notalarını seç. Ücretsiz, tarayıcında.",
+  "h1": "Ses açma piyanosu",
+  "lead": "Bir ses açma videosu sabit tonlarda kaydedilir. Bu piyano ise Scalita'nın gamlarını ve rutinlerini senin tonlarında çalar: bir ses türü ya da kendi en pes ve en tiz notalarını seç ve Çal'a bas.",
+  "toolId": "player",
+  "instructions": "<h2>Nasıl kullanılır</h2><ol><li>Bir ses türü seç ya da kendi en pes ve en tiz notalarını belirle. Bilmiyorsan <a href=\"page:vocal-range-test\">ses aralığı testi</a> onları yaklaşık bir dakikada bulur.</li><li>Bir gam ya da rutin seç. Kalıp, söylenecek hece, tempo ve stil, başlamadan önce görünür.</li><li>Çal'a bas ve birlikte söyle. Her yeni tondan önce nefes almak için bir an ve tonu hazırlayan kısa bir akor gelir.</li><li>İstediğin zaman Durdur'a bas.</li></ol><p>Piyano mikrofonu kullanmaz ve Çal'a basana kadar hiçbir şey indirilmez.</p>",
+  "sampleResult": "<h2>Ne duyacaksın</h2><p>Tenor ayarını ve 5 Nota gamını seç. İlk ton {{note:D3}} notasından başlar: piyano {{note:D3}} notasından {{note:A3}} notasına çıkar ve geri iner; beş nota çıkış, dört nota iniş. Her tekrar, kalıbın tepesi {{note:C5}} notasına ulaşana kadar yarım ses yükselir. Sonra tonlar geri iner, başladıkları yerin de altına, ta ki gam {{note:C3}} notasından, yani bir tenor aralığının dibinden başlayana kadar. Toplam 33 tekrar, her biri yeni bir tonda.</p><p>Bunun yerine Sahne Öncesi Hızlı gibi bir rutin seçersen piyano egzersizlerini art arda çalar. Tenor hazır ayarıyla yaklaşık 8 dakika sürer.</p>",
+  "notClaimed": "<h2>Bu piyano neyi yapmaz</h2><p>Çalar ama dinlemez; bu yüzden perdede olup olmadığını ya da fazla zorlayıp zorlamadığını söyleyemez. Bir seferde tek bir gam ya da rutin çalar ve ziyaretler arasında hiçbir şey kaydetmez. Bir ders de değildir. Bir nota acıtıyorsa ya da sesin yorulduğunu hissediyorsan dur.</p>",
+  "sections": [
+    {
+      "heading": "Aralığın neden önemli",
+      "html": "<p>Çoğu ses açma videosu, her biri sabit tonlarda olan bir “erkek” ve bir “kadın” versiyonuyla gelir ve pek çok ses ikisine de uymaz. Bir videonun gamı rahat tepe notanın üstüne çıktığında ya zorlarsın ya da bırakırsın. Burada bir ses türü seçersin ya da etiketleri atlayıp kendi en pes ve en tiz notalarını belirlersin. Her egzersiz o aralık için rahat bir tonda başlar ve onun içinde kalır.</p>"
+    },
+    {
+      "heading": "Ne çalar",
+      "html": "<p>Scalita uygulamasındaki gamların ve rutinlerin aynısını çalar; aynı kalıplar, heceler, tempolar ve sırayla. Buna şarkıcıların en çok kullandığı kalıplar da dahil: 117 şan öğrencisi ve profesyonel şarkıcıyla yapılan bir ankette en yaygın ısınma egzersizleri arasında beş sesli gamlar, oktav gamları ve arpejler vardı (Gish ve arkadaşları, 2012).</p><p>Bir gam, tek bir kalıbı aralığın boyunca çalar. Bir rutin ise birkaç egzersizi, uygulamanın çalıştırdığı gibi art arda çalar.</p>"
+    },
+    {
+      "heading": "Piyano",
+      "html": "<p>Ses, Alexander Holm'un kaydettiği Salamander Grand Piano: uygulamanın çaldığı piyanonun aynısı, her nota kendi perdesine oturacak şekilde yeniden akort edilmiş. Sayfayı hafif tutmak için 20 kayıtlı nota kullanır ve aradaki tuşları doldurmak için her birini en fazla yarım ses kaydırır. Yalnızca aralığının ihtiyaç duyduğu notalar yüklenir, o da Çal'a bastıktan sonra.</p>"
+    },
+    {
+      "heading": "Birlikte söylemek",
+      "html": "<ul><li>Gösterilen heceyi orta bir ses şiddetiyle söyle. Tuhaf geliyorsa her kalıpta mırıldanmak da olur.</li><li>Tepe tonları hafif tut. Biri zorlama gibi geliyorsa zorlamak yerine dur ve daha dar bir aralık belirle.</li><li>Hoparlörü ya da kulaklığı, hangisini istersen kullan. Dinleyen bir şey yok.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Hangi ısınmayla başlamalıyım?",
+      "a": "<p>Birkaç dakikan varsa Sahne Öncesi Hızlı gibi kısa bir rutin dene. Sadece sesini uyandırmak istiyorsan 5 Nota gamını mırıldan. <a href=\"page:vocal-warm-ups\">Ses açma rehberleri</a>, uygulamanın rutinlerini adım adım anlatır.</p>"
+    },
+    {
+      "q": "Hangi ses türünü seçmeliyim?",
+      "a": "<p>Aralığı seninkine en yakın gelen türü, ya da hiçbirini: onun yerine kendi en pes ve en tiz notalarını belirle. <a href=\"page:vocal-range-test\">Ses aralığı testi</a> onları yaklaşık bir dakikada bulur; <a href=\"page:voice-types\">ses türleri rehberi</a> de her birinin neyi kapsadığını gösterir.</p>"
+    },
+    {
+      "q": "Bir rutini ya da ses aralığımı kaydedebilir miyim?",
+      "a": "<p>Burada değil. Bu piyano, Scalita uygulamasından bir örnek; uygulama ise ses aralığını, kendi gamlarını ve rutinlerini ve çalışma geçmişini telefonunda saklar.</p>"
+    },
+    {
+      "q": "Telefonda çalışır mı?",
+      "a": "<p>Evet, telefonda ya da bilgisayarda güncel bir tarayıcıda çalışır. iPhone'da hiçbir şey duymuyorsan zil anahtarının sessizde olmadığını kontrol et.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims ve McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Alexander Holm'un Salamander Grand Piano V3'ü, piyano ses örnekleri",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

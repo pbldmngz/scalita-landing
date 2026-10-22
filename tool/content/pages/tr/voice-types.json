@@ -1,0 +1,76 @@
+{
+  "slug": "ses-turleri",
+  "label": "Ses türleri",
+  "title": "Ses türüm ne? Altı ses türü, aralıklar ve geçişler - Scalita",
+  "description": "Soprano, mezzo-soprano, kontralto, tenor, bariton ve bas bir klavyede; tipik aralıklar, geçiş noktaları ve aralığın ses türünü neden tek başına belirlemediği.",
+  "h1": "Sopranodan basa ses türleri",
+  "lead": "Altı klasik ses türü; her biri bir klavyede, olağan aralığı ve genellikle geçiş yaptığı iki yerle. Onları bir etiket olarak değil, bir başlangıç noktası olarak kullan.",
+  "intro": "<p>Bir ses türü, bir sesin nerede durduğunu ve nasıl davrandığını adlandırır: aralığını, bir şarkının çoğunda rahat olduğu notaları, vites değiştirdiği yerleri, ağırlığını ve rengini. Klasik şan altı ana tür kullanır; Scalita da aynı altısını hazır ayar olarak kullanır. Birini seç; kendi sesini ölçene kadar her egzersiz o aralıktan ve o geçiş noktalarından başlar.</p><p>Rakamlar tipiktir, kural değildir ve her ses farklıdır. Alt türler kelimeleri bilesin diye listelendi; bir sesi bunlardan birine yerleştirmek, aylar boyunca bir öğretmen kulağı ister.</p>",
+  "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Soprano",
+      "html": "<p>Altısının en tizi. Sopranoyu mezzo-sopranodan ayıran şey tepe notasından çok, sesin rahat olduğu yerdir: bir soprano yorulmadan uzun süre tizde kalabilir ve ikinci geçişi daha geç gelir.</p><p>Olağan karışıklık yukarı doğru olur. Tiz notalara kolayca çıkan genç ve hafif bir sese, kimse onun en rahat olduğu yeri duymadan soprano denir; ses olgunlaştıkça daha pese yerleşebilir.</p><p>Alt türler: koloratur, subret, lirik, spinto ve dramatik.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzo-soprano",
+      "html": "<p>Üç tiz sesin ortadakisi. Sopranoyla karşılaştırıldığında mezzo-sopranonun orta bölgesi daha dolgun ve koyudur; tiz notalar yerinde olsa bile, bir şarkı uzun süre tizde kalınca daha çabuk yorulur. Kontraltoyla karşılaştırıldığında pes notaları daha hafiftir ve tepesi daha yukarı uzanır.</p><p>Korolar bu sesi bulanıklaştırır. Seçebileceği yalnızca soprano ve alto partileri olunca mezzo hangisi daha yakınsa onu söyler; pek çoğu da ikisinden biri olduğuna emin olarak büyür. Pek çok öğretmen yeni bir sesi, aksini gösterene kadar orta bir ses, yani mezzo-soprano ya da bariton olarak ele alarak başlar.</p><p>Alt türler: lirik, koloratur ve dramatik.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Kontralto",
+      "html": "<p>Tiz seslerin en pesi. Bir kontraltonun pes notaları bir mezzo-sopranonunkinden daha ağır ve daha kolaydır; ses, bütün şarkılar boyunca aralığının pes bölgesinde rahattır.</p><p>İlk karışıklığa ad yol açar: alto bir koro partisidir, kontralto ise ses türü; pek çok koro altosu aslında mezzo-sopranodur, çünkü koroda mezzo partisi yoktur. İkincisi, burada yalnızca kadınların söylediğini sanmaktır. Kontrtenorlar bu aralıkta söyleyen erkeklerdir; çoğunlukla hafif bir kafa sesiyle ya da falsetle söylerler.</p><p>Alt türler: koloratur, lirik ve dramatik.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Tenor",
+      "html": "<p>Olağan pes seslerin en tizi. Tenor ve bariton aralıklarının çoğunu paylaşır; onları ayıran şey sesin nerede geçiş yaptığı ve en rahat olduğu yerdir. Tenorun geçişleri baritonunkinden birkaç nota sonra gelir ve ses tepeye yakın yerlerde rahatlığını korur.</p><p>Karışıklık iki yönde de olur. Tepesi henüz serbest olmayan genç bir tenor baritonların arasına konur; birkaç kolay tiz notası olan bir bariton da şarkının çoğunda fazla tizde kalan tenor partilerine itilir.</p><p>Hafiften ağıra alt türler: leggero, lirik, spinto, dramatik ve Alman geleneğinden Heldentenor.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Bariton",
+      "html": "<p>Pes seslerin ortadakisi ve mezzo-soprano gibi, pek çok öğretmenin önce varsaydığı orta tür. Bir baritonun pes notaları tenorunkinden daha dolgun, basınkinden daha hafiftir; ses aralığının ortasında en rahattır.</p><p>Korolar pes sesleri genellikle tenor ve bas olarak ayırır; bu yüzden bir bariton, eser hangi partiyi gerektiriyorsa onu söyler ve bazıları seslerinin kendine ait bir adı olduğunu hiç öğrenmez.</p><p>Alt türler arasında lirik, Kavalierbariton, Verdi baritonu, dramatik ve bas-bariton var.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Bas",
+      "html": "<p>Altısının en pesi ve en erken geçiş yapan ses. Bir basın pes notalarında baritonunkilerde olmayan bir ağırlık vardır ve ses orada tek bir nota için değil, bütün bir şarkı boyunca rahat kalır.</p><p>Olağan hata, yalnızca en pes notaya göre karar vermektir: pes bir notaya inebilen bir bariton, sesi orada yoruluyorsa bas değildir. Kalın bir konuşma sesi de bunu belirlemez.</p><p>Alt türler arasında basso profondo, basso cantante, basso buffo ve bas-bariton var. Rus korolarında en pes şarkıcılara oktavist denir.</p>"
+    },
+    {
+      "heading": "Aralık her şey değil",
+      "html": "<p>Aralık ölçmesi en kolay şeydir, bu yüzden en çok ilgiyi o görür. Öğretmenler dört şeye kulak verir: aralık, tessitura (sesin bir şarkının çoğunda rahat olduğu yer), tını (rengi ve ağırlığı) ve passaggio, yani sesin ses bölgeleri arasında geçiş yaptığı bölge. Scalita'nın ses aralığı sonucu bunu açıkça söyler: geçiş bölgen, ses türü için daha güvenilir bir göstergedir. Geçiş bölgesi testi de şunu ekler: ses türü, sesinin en iyi tınladığı bölgeye ve ses rengine de bağlıdır.</p><p>Aralık da kayar. Ses aralığın ısınmayla, çalışmayla ve günün saatiyle değişebilir; bu yüzden ona güvenmeden önce birden fazla kez ölç.</p><p>Acele etmeye de gerek yok. Şan öğretmeni William Vennard, “Yeni başlayan bir öğrenciyi sınıflandırmak için hiçbir zaman acele hissetmem” diye yazmış ve sesin ortasından başlayıp “ses kendini sınıflandırana kadar” yukarı ve aşağı doğru çalışmayı önermişti.</p><p>Buradaki aralıklar, çoğu kaynağın verdiği tipik değerlerdir. Geçiş noktaları Scalita'nın hazır ayarlarıdır: tenor, bariton, bas ve mezzo-soprano için Richard Miller'ın tablolarıyla örtüşür, sopranonunkiler onunkilerden en fazla iki yarım ses uzaktadır; Miller ise kontraltonun ilk geçişini Scalita'dan yaklaşık yarım oktav daha yukarıya koyar.</p>"
+    },
+    {
+      "heading": "Kendininkini nasıl bulursun",
+      "html": "<p>Aralığınla başla. <a href=\"page:vocal-range-test\">Ses aralığı testi</a> rahat söyleyebildiğin en pes ve en tiz notaları dinler ve bu aralığın tipik olduğu türleri söyler. Sonra <a href=\"page:voice-break-finder\">geçiş bölgesi testiyle</a> sesinin nerede geçiş yaptığını bul: piyano notaları birer birer çıkar, sen birlikte söylersin ve sesin vites değiştirmek istediğinde dokunursun. İkisi birlikte, tek başına herhangi birinden daha iyi bir tahmin verir.</p><p>Yine de bu bir tahmin. Seni birkaç ders boyunca dinleyen bir öğretmen, hiçbir testin fark edemediği şeyleri fark eder; en başta da sesinin en iyi tınladığı yeri. Bu arada <a href=\"page:warm-up-piano\">ses açma piyanosunda</a> en yakın hazır ayarı seç; egzersizler sürekli fazla tiz ya da fazla pes geliyorsa komşu türü dene.</p>"
+    },
+    {
+      "heading": "Konuşma sesin türünü söyleyebilir mi?",
+      "html": "<p>Güvenilir biçimde söyleyemez. 75 opera şarkıcısıyla yapılan bir çalışma, konuşma perdesinin ortalamada çoğu ses türü arasında farklı olduğunu ama hepsi arasında olmadığını buldu; vardığı sonuç, konuşma perdesinin bir sınıflandırmayı destekleyebileceği ama asla tek başına yapamayacağıydı. Konuşma perdesi alışkanlığa, ruh hâline ve yorgunluğa göre de kayar. Scalita konuşma sesinden asla bir tür tahmin etmez; senden şarkı söylemeni ister.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bir erkek alto, bir kadın tenor söyleyebilir mi?",
+      "a": "<p>Evet. Bir ses türü sesi tanımlar, onu söyleyen kişiyi değil. Kontrtenorlar alto söyler ve pek çok koroda tenor partisinde kadınlar vardır. Scalita'da, aralığı gerçekten söylediğin notalara uyan hazır ayarı seç.</p>"
+    },
+    {
+      "q": "Ses türü zamanla değişir mi?",
+      "a": "<p>Değişebilir. Sesler ergenlik yılları boyunca değişmeyi sürdürür ve genellikle yirmili yaşların başı ile ortası arasında yerleşir; bazı şarkıcılar birkaç yıllık eğitimden sonra komşu bir türe geçer.</p>"
+    },
+    {
+      "q": "Başka bir ses türü için yazılmış şarkıları söyleyebilir miyim?",
+      "a": "<p>Genellikle evet, sana uyan bir tonda. Bir şarkı uzunluğunun çoğunda fazla tiz ya da fazla pes kalıyorsa tonunu değiştir. Bir şarkının zamanını nerede geçirdiği, tek bir en tiz notasından daha önemlidir.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Wikipedia (İngilizce): Voice type (aralıklar, alt türler, William Vennard'ın sınıflandırma üzerine sözleri)", "url": "https://en.wikipedia.org/wiki/Voice_type"},
+    {"label": "Wikipedia (İngilizce): Passaggio (Richard Miller'ın passaggio tabloları)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (özet)", "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"},
+    {"label": "Wikipedia (İngilizce): Voice change (seslerin ne zaman yerleştiği)", "url": "https://en.wikipedia.org/wiki/Voice_change"}
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

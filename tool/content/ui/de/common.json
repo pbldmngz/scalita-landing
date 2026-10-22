@@ -1,0 +1,23 @@
+{
+  "start": "Start",
+  "stop": "Stopp",
+  "listening": "Hört zu...",
+  "tooQuiet": "Zu leise. Sing etwas lauter oder geh näher ans Mikrofon.",
+  "allow": "Erlaube das Mikrofon, wenn dein Browser fragt.",
+  "result": "Dein Ergebnis",
+  "share": "Teilen",
+  "save": "Bild speichern",
+  "openInBrowser": "Der eingebaute Browser dieser App kann das Mikrofon nicht nutzen. Öffne die Seite stattdessen in Chrome oder Safari.",
+  "androidOnly": "Nur Android",
+  "lastTime": "Letztes Mal",
+  "tryAgain": "Nochmal versuchen",
+  "play": "Abspielen",
+  "loading": "Das Klavier lädt...",
+  "next": "Weiter",
+  "back": "Zurück",
+  "close": "Schließen",
+  "copyLink": "Link kopieren",
+  "copied": "Link kopiert",
+  "privacyLine": "Nichts wird aufgenommen oder gesendet. Dein Browser hört auf deinem Gerät zu, und das Mikrofon geht aus, sobald du auf Stopp drückst.",
+  "noScript": "Dieses Tool braucht JavaScript. Alles andere auf dieser Seite funktioniert auch ohne."
+}

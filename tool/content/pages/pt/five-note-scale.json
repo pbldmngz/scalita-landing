@@ -1,0 +1,58 @@
+{
+  "slug": "vocalize-de-5-notas",
+  "label": "Vocalize de 5 notas",
+  "title": "Vocalize de 5 notas para aquecer: 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "O vocalize de 5 notas, 1 2 3 4 5 4 3 2 1, abre a maioria dos aquecimentos do Scalita. O que é, por que os professores usam e o que cantar nele.",
+  "h1": "O vocalize de cinco notas",
+  "lead": "Cinco notas subindo e quatro descendo: 1 2 3 4 5 4 3 2 1. A maioria dos aquecimentos do Scalita começa com ele, e o piano sobe o padrão meio tom de cada vez para ele percorrer a sua extensão.",
+  "sections": [
+    {
+      "heading": "O padrão",
+      "html": "<p>O vocalize de cinco notas usa as cinco primeiras notas de uma escala maior, cantadas subindo e voltando sem pausa: dó ré mi fá sol fá mi ré dó. Os intervalos entre as notas são tom, tom, semitom, tom, então o padrão cabe numa quinta, sete semitons do fundo ao topo.</p>\n<p>A cada rodada o piano sobe meio tom e você canta de novo no tom novo. É assim que um padrão curto cobre a sua extensão inteira.</p>"
+    },
+    {
+      "heading": "Por que os cantores começam por ele",
+      "html": "<p>Ele pede muito pouco da voz. Não tem saltos, então dá para seguir cada nota de ouvido, e cada tom fica dentro de uma quinta, numa parte só da sua voz, antes de o piano seguir em frente.</p>\n<p>Como ele anda por graus vizinhos, combina com o legato, o canto ligado e suave, e é o veículo natural para os primeiros sons de um aquecimento: vibrações, murmúrios de boca fechada e vogais fechadas.</p>\n<p>Ele também viaja bem. Meio tom de cada vez, ele percorre a sua extensão em passos pequenos e iguais, então você percebe onde a sua voz muda sem forçar nada.</p>"
+    },
+    {
+      "heading": "Como o Scalita usa esse padrão",
+      "html": "<p>Ele é a espinha dorsal do app: 12 das 15 rotinas do Scalita usam esse padrão, e 10 delas abrem com ele, nove dessas com uma vibração. O piano começa num tom confortável para você e sobe meio tom de cada vez pela extensão que você salvou.</p>\n<p>Nas rotinas, ele carrega principalmente vibrações e murmúrios. A <a href=\"page:vocal-cool-down\">Leve / recuperação</a>, o desaquecimento, é feita quase toda com ele.</p>"
+    },
+    {
+      "heading": "Cantando com o nome das notas",
+      "html": "<p>Você também pode cantar o padrão com o nome das notas. No dó móvel, usado nas aulas de música e nos corais dos países de língua inglesa e na Indonésia, o dó fica onde o padrão começa, então todo tom é dó ré mi fá sol fá mi ré dó. A notação em números escreve a mesma coisa como 1 2 3 4 5 4 3 2 1.</p>\n<p>No dó fixo, usado na Espanha, na França, na Itália, no Brasil, na Turquia e na América Latina, o dó é sempre C. Os nomes mudam com o tom, e você canta o nome de cada nota sem o sustenido ou o bemol. A rotina Dó Ré Mi do Scalita mostra o nome de cada nota do jeito que a sua notação escreve, então funciona nos dois casos. Mais sobre isso em <a href=\"page:note-names-octaves\">nomes das notas e oitavas</a>.</p>"
+    },
+    {
+      "heading": "Versões menores e maiores",
+      "html": "<ul>\n<li><strong>3 notas</strong>, 1 2 3 2 1: a mesma ideia em menos espaço.</li>\n<li><strong>5 notas descendente</strong>, 5 4 3 2 1: começa no alto e desce.</li>\n<li><strong>Maior / Oitava</strong>: a escala maior inteira, quando a voz já está aquecida.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "O vocalize de cinco notas é uma escala pentatônica?",
+      "a": "<p>Não. Uma escala pentatônica também tem cinco notas, mas espalhadas por uma oitava inteira: a pentatônica maior deixa de fora a quarta e a sétima notas da escala maior. O padrão de aquecimento usa simplesmente as cinco primeiras notas da escala maior, uma ao lado da outra. O Scalita tem um padrão separado de Pentatônica menor.</p>"
+    },
+    {
+      "q": "Até onde eu devo subir?",
+      "a": "<p>Só até onde ele continua fácil. O Scalita mantém a nota mais aguda dentro da extensão que você salvou, e você pode parar antes. O tom mais agudo não é uma meta.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun e Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (um estudo sobre os exercícios vocais usados por professores dos departamentos de educação musical na Turquia, em turco). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipédia (em inglês): Solfège, sobre dó fixo e dó móvel.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipédia (em inglês): Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>Como os professores na Turquia usam</h2>\n<p>Em 2023, Ece Celasun e Harun Keskin reuniram os exercícios de aquecimento de 16 professores de canto dos departamentos de educação musical de universidades turcas, e publicaram 71 deles em partitura. Contando por essas páginas, cerca de 12 dos 16 professores usam exatamente este padrão, 1 2 3 4 5 4 3 2 1.</p>\n<p>A maioria dos exercícios fica dentro de três ou cinco notas e favorece o canto suave e ligado. Os 16 professores usam o piano, e as sílabas deles são construídas principalmente com y ou m.</p>"
+}

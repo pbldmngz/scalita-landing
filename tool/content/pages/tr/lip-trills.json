@@ -1,0 +1,65 @@
+{
+  "slug": "dudak-trili",
+  "label": "Dudak ve dil trili",
+  "title": "Dudak trili ve dil trili nasıl yapılır? - Scalita",
+  "description": "Dudak trili (dudak titretme) ve dil trili nasıl yapılır, Scalita hangisiyle başlar, ne zaman öbürüne geçilir ve tril sürekli duruyorsa ne denenir.",
+  "h1": "Dudak trili ve dil trili",
+  "lead": "Dudak trilinde sen şarkı söylerken dudakların titreşir; dil trilinde ise dilinin ucu, uzun ve titreyen bir R gibi. Scalita her birini kendi işi için kullanır.",
+  "sections": [
+    {
+      "heading": "Nedir",
+      "html": "<p>Dudak trili motor sesidir: sen içlerinden şarkı söylerken gevşek dudakların titreşir. Şarkıcılar buna dudak titretme de der. Scalita bunu <strong>Prr</strong> diye yazar.</p>\n<p>Dil trili, bir notada tutulan titreyen bir R'dir; İspanyolcadaki <em>perro</em> kelimesinde olduğu gibi. Scalita bunu <strong>Trr</strong> diye yazar, çünkü T demek dilinin ucunu trilin olduğu yere koyar.</p>"
+    },
+    {
+      "heading": "Dudak trili nasıl yapılır",
+      "html": "<ol>\n<li>Dudaklarını B der gibi gevşekçe kapat; dişlerin aralık, çenen gevşek olsun.</li>\n<li>Dudakların titreşene kadar sabit bir hava üfle. Henüz ses yok.</li>\n<li>Sesinin ortasından kısık bir nota ekle ve onu biraz kaydır.</li>\n<li>Titreşim sürmeye başlayınca üzerinde bir kalıp söyle; <a href=\"page:five-note-scale\">beş sesli gamla</a> başla.</li>\n</ol>\n<p>Titreşimi boğazında değil, dudaklarında hissetmelisin. Sesi kısık tut.</p>"
+    },
+    {
+      "heading": "Dil trili nasıl yapılır",
+      "html": "<ol>\n<li>T de, sonra dilinin ucunu üst ön dişlerinin arkasındaki çıkıntının yakınında gevşek bırak.</li>\n<li>Dilinin ucu titreşsin diye o noktadan hava üfle: uzun bir trrr.</li>\n<li>Çenen hareketsizken kısık bir nota ekle.</li>\n</ol>\n<p>Titreşimi dilin değil, hava yapar.</p>"
+    },
+    {
+      "heading": "Önce hangisi: Scalita'nın kuralı",
+      "html": "<p>İngilizce rehberler genellikle dudak triliyle başlar. Scalita iki trile farklı işler verir: her rutinde ilk tril dil trilidir, ondan sonraki her tril dudak trilidir.</p>\n<p>Dudak trili sabit bir nefes desteği ister; Scalita onu gerginliği bırakmak için kullanır. Dil trili gerginlik katabilir; bu yüzden gergin hissediyorsan dudak triline geç. Yalnızca yorgun bir ses için olan <a href=\"page:vocal-cool-down\">Hafif / Toparlanma</a> rutini iki seferde de dudak trilini kullanır.</p>\n<p>Scalita dil triliyle başlar. Konuştuğun dilde titreyen bir R yoksa ve zor geliyorsa, dudak triliyle başla.</p>\n<p>İspanyolca konuşanlar R'yi her gün titretir. Standart İngilizcede, Fransızcada ve Almancada titreyen bir R yoktur, Brezilya aksanlarının çoğunda da yoktur; bu yüzden pek çok yetişkin için bu yeni bir beceridir.</p>"
+    },
+    {
+      "heading": "Şarkıcılar trilleri neden kullanır",
+      "html": "<p>Öğretmenler ile dil ve konuşma terapistleri trilleri, mırıldanma ve pipetle söylemeyle birlikte yarı kapalı ses yolu egzersizleri olarak gruplar: dudaklar, dil ya da bir pipet, dışarı çıkan havayı kısmen engeller.</p>\n<p>2006'da ses bilimci Ingo Titze, bir bilgisayar modeli üzerinde dudaklardaki kısmi bir kapanmanın ses tellerinin üstündeki hava basıncını nasıl artırdığını gösterdi; bu, sesin daha verimli çalışmasını sağlayabilir. Bu tür yedi egzersizi inceleyen 2014 tarihli bir çalışma iki trili birbirine benzer, mırıltıdan ve pipetten ise farklı buldu: dudakların ya da dilin titremesi ikinci bir titreşim ekler.</p>\n<p>İki çalışma da egzersizin kendisine baktı, aylarca süren çalışmaya değil. Öğretmenler trilleri sesi nazikçe başlatmak ve onu pes ile tiz notalar arasında sarsıntısız taşımak için kullanır: bu, popüler olmalarının bir nedeni, bir vaat değil.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Dudak trili neden bu kadar zor?",
+      "a": "<p>Genellikle dudaklar kasıldığı ya da hava sürekli kesildiği için. Dudaklarını gevşet ve havayı yumuşak ve kesintisiz tut. Tril gelene kadar bir mırıltıyla başla.</p>"
+    },
+    {
+      "q": "Dudak trili nefes kontrolüne yardım eder mi?",
+      "a": "<p>Havan dengesiz olduğunda bunu sana gösterir, çünkü hava akışı düştüğü anda tril durur. Sabit hava için iyi bir alıştırma, ama bir nefes egzersizi değil.</p>"
+    },
+    {
+      "q": "Dudak trili mi dil trili mi: hangisi daha iyi?",
+      "a": "<p>Hiçbiri: farklı işler görürler. Scalita dil triliyle açar, sonra ondan sonraki her trilde ve sesin gergin olduğunda dudak trilini kullanır.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Andrade, Wood, Ratcliffe, Epstein, Pijper ve Svec (2014). Electroglottographic study of seven semi-occluded exercises: LaxVox, straw, lip-trill, tongue-trill, humming, hand-over-mouth, and tongue-trill combined with hand-over-mouth. Journal of Voice 28(5).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24560003/"
+    },
+    {
+      "label": "Wikipedia (İngilizce): Guttural R, R'nin titretilmediği yerler üzerine (standart Fransızca ve Almanca, Brezilya'nın çoğu).",
+      "url": "https://en.wikipedia.org/wiki/Guttural_R"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null,
+  "syllables": [
+    "Trr",
+    "Prr"
+  ],
+  "troubleshooting": "<h2>Tril devam etmiyorsa</h2>\n<ul>\n<li><strong>Dudak trili sürekli duruyor ya da yalnızca sert üflediğinde çalışıyor.</strong> Dudakların kasılıyor. Onları gevşek bırak, ıslat ve yumuşak, sabit bir hava kullan. Hâlâ duruyorsa, ağzının köşelerinin yanından birer parmak ucunu yanaklarına bastır ve biraz yukarı kaldır; bu, dudaklarının üstündeki ağırlığı alır.</li>\n<li><strong>Tiz notalarda sönüyor.</strong> Başta yaygındır. Trilin sürdüğü yerde, kısık sesle kal. Kalıbın tepesi bir hedef değil.</li>\n<li><strong>Havan bitiyor.</strong> Tonlar arasında, piyano bir sonraki akoru çalarken nefes al.</li>\n<li><strong>R'yi titretemiyorsun.</strong> T'den başla ve dilin gevşekken o noktadan üfle. Türkçede “araba” kelimesindeki r, dilin tek bir vuruşudur; tril, havanın art arda tekrarladığı bu vuruştur. Gelene kadar dudak trilini kullan.</li>\n<li><strong>Dilin, çenen ya da boğazın kasılıyor.</strong> Dudak triline geç. Scalita'da onun işi bu.</li>\n<li><strong>Gıdıklanma ve tükürük</strong> normaldir.</li>\n<li><strong>Bir yerin acıyor.</strong> Dur. Ağrı asla ısınmanın bir parçası değildir. Tekrar tekrar oluyorsa bir şan öğretmenine danış ya da doktora görün.</li>\n</ul>"
+}

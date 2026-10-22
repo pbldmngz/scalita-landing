@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "In deinem Umfang abspielen"
+  },
+  "tool": {
+    "howTo": "So benutzt du es",
+    "sample": "Ein Beispielergebnis",
+    "notClaimed": "Was es nicht aussagt"
+  },
+  "routine": {
+    "length": "Wie lange es dauert",
+    "steps": "Schritte",
+    "cues": "Während der ganzen Routine",
+    "whyOrder": "Warum diese Reihenfolge",
+    "whatToFeel": "Was du spüren solltest",
+    "whenToStop": "Wann du aufhören solltest",
+    "next": "Wie es weitergeht"
+  },
+  "steps": {
+    "scale": "Tonleiter",
+    "syllable": "Silbe",
+    "style": "Stil",
+    "span": "Spanne",
+    "passaggio": "Registerbruch",
+    "repeat": "Wiederholungen pro Tonart",
+    "wholeRange": "Dein ganzer Umfang",
+    "semitones": "{count} Halbtöne",
+    "minutes": "{minutes} Min",
+    "count": "Schritte",
+    "routines": "Routinen"
+  },
+  "exercise": {
+    "tryIt": "Probier es jetzt",
+    "troubleshooting": "Wenn es nicht klappt",
+    "usage": "Wo diese Übung in Scalita vorkommt"
+  },
+  "pattern": {
+    "degrees": "Stufen",
+    "notes": "Ab {note}",
+    "sung": "Gesungen als",
+    "syllables": "Silben, die Scalita damit verbindet",
+    "routines": "Routinen mit diesem Muster"
+  },
+  "concept": {
+    "shortAnswer": "Die kurze Antwort",
+    "where": "Wo das bei deiner Stimme liegt",
+    "listenFor": "Worauf du achten solltest",
+    "tryIt": "Probier es aus",
+    "exercises": "Übungen, die helfen",
+    "misconceptions": "Häufige Irrtümer",
+    "seeProfessional": "Wann du dir fachlichen Rat holen solltest"
+  },
+  "voices": {
+    "heading": "Die sechs Stimmlagen",
+    "voiceType": "Stimmlage",
+    "range": "Typischer Umfang",
+    "primo": "Erster Wechsel",
+    "secondo": "Zweiter Wechsel",
+    "fromTo": "{low} bis {high}",
+    "keyboard": "{name}: {low} bis {high}",
+    "note": "Das sind typische klassische Umfänge und Registerbrüche. Scalita nutzt dieselben Brüche als erste Schätzung, bis du deine eigenen findest. Echte Stimmen sind verschieden, und der Umfang allein entscheidet nicht über die Stimmlage."
+  },
+  "registers": {
+    "heading": "Unter und über deinem üblichen Umfang",
+    "register": "Register",
+    "span": "Wo es liegt",
+    "note": "In diesen Bereichen trainiert Scalita jedes Register. Beim subharmonischen Register ist der Bereich die Tonhöhe, die andere hören."
+  },
+  "intake": {
+    "appOnly": "Nur in der App"
+  },
+  "notation": {
+    "systems": "Vier Arten, die Töne zu benennen",
+    "system": "System",
+    "names": "Töne",
+    "where": "Wo es verwendet wird",
+    "landmarks": "Mittleres C und Kammerton in jedem System",
+    "middleC": "Mittleres C",
+    "a440": "Kammerton (440 Hz)",
+    "octave": "Eine Oktave in jedem System",
+    "keyboard": "Eine Oktave ab dem mittleren C, in {system}",
+    "octaves": "Drei Arten, Oktaven zu zählen",
+    "style": "Oktavzahlen",
+    "lowest": "Tiefste Taste",
+    "highest": "Höchste Taste",
+    "styles": {
+      "scientific": "Wissenschaftlich",
+      "francoBelgian": "Französisch-belgisch",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

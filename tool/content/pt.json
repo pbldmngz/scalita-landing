@@ -1,6 +1,5 @@
 {
   "currency": "BRL",
-  "proPriceValue": "25.99",
   "nav": {
     "logoAlt": "Logo do Scalita",
     "menuLabel": "Abrir menu",
@@ -8,7 +7,9 @@
     "pricing": "Preço",
     "download": "Baixar",
     "support": "Ajuda",
-    "languageLabel": "Idioma: %s"
+    "languageLabel": "Idioma: %s",
+    "tools": "Ferramentas",
+    "guides": "Guias"
   },
   "footer": {
     "brandLine": "Escalas simples. Piano real. Sem enrolação. Feito com ódio para cantores do mundo todo.",
@@ -19,12 +20,51 @@
     "kofi": "Apoiar no Ko-fi",
     "rights": "Todos os direitos reservados.",
     "madeBy": "Feito com ódio por <a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a>",
-    "backHome": "Voltar ao início"
+    "backHome": "Voltar ao início",
+    "toolsHeading": "Ferramentas grátis",
+    "guidesHeading": "Guias"
+  },
+  "sections": {
+    "tools": "ferramentas",
+    "guides": "guias"
+  },
+  "langBar": {
+    "text": "Ver esta página em português",
+    "close": "Fechar"
+  },
+  "breadcrumb": {
+    "home": "Início",
+    "label": "Trilha de navegação"
+  },
+  "cta": {
+    "heading": "Pratique isto no Scalita",
+    "body": "O Scalita é grátis no Android. Ele guarda a sua extensão, toca cada exercício num piano de verdade, no seu tom, e com fones desenha a sua afinação enquanto você canta e pontua cada escala. O Modo dinâmico monta o aquecimento no caminho, a partir de como foi cada exercício.",
+    "button": "Baixe o Scalita no Google Play",
+    "ios": "Está num iPhone ou num computador? Por enquanto o app é só para Android, mas tudo nesta página funciona no seu navegador."
+  },
+  "credit": {
+    "piano": "Piano: Salamander Grand Piano V3, de Alexander Holm, sob a licença <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"license noopener\">CC BY 3.0</a>. Reafinado, encurtado e comprimido para este site."
+  },
+  "byline": {
+    "name": "Pablo Dominguez",
+    "line": "Cantor, com cinco anos de estudo de canto contemporâneo. É quem faz o Scalita."
+  },
+  "notFound": {
+    "line": "Esta página não existe, ou mudou de endereço.",
+    "homes": "Página inicial"
+  },
+  "related": {
+    "heading": "Páginas relacionadas"
+  },
+  "sources": {
+    "heading": "Fontes"
+  },
+  "faq": {
+    "heading": "Perguntas frequentes"
   },
   "index": {
     "title": "Scalita - Escalas simples. Piano real. Sem enrolação.",
     "description": "App gratuito de aquecimento vocal para Android. 21 escalas, 15 rotinas e um Salamander Grand Piano de verdade nas 88 teclas, transposto para a sua extensão. Novo: Treino de precisão e seu canto pontuado. Offline, sem anúncios, sem conta.",
-    "keywords": "app de aquecimento vocal, escalas para cantar, rotinas vocais, cantar afinado, treino de afinação, pontuação de canto, mira de afinação, ouça e repita, jogo de canto, treino de harmonias, cantar harmonia sozinho, exercícios de registro vocal, canto subharmônico, flageolet, voz de apito, canto rock e metal, detector de escalas, monitor de afinação, escalas de piano para cantores, app de solfejo, aquecimento dó ré mi",
     "ogTitle": "Scalita - 21 escalas, 15 rotinas, piano real. App gratuito de aquecimento vocal.",
     "ogDescription": "Um Salamander Grand Piano de verdade nas 88 teclas, transposto para a sua extensão. Novo: Treino de precisão, quatro jeitos de cantar afinado, e uma pontuação depois de cada escala e rotina. Offline, sem anúncios, sem conta.",
     "screens": [
@@ -34,7 +74,7 @@
       },
       {
         "file": "find_my_warmup",
-        "alt": "Encontrar Meu Aquecimento perguntando como está a sua voz"
+        "alt": "Achar meu aquecimento perguntando como está a sua voz"
       },
       {
         "file": "player",
@@ -86,7 +126,7 @@
         },
         {
           "title": "Escolha uma escala ou rotina",
-          "body": "São 21 escalas e 15 rotinas prontas. Na dúvida? Responda duas perguntas e o Encontrar Meu Aquecimento escolhe por você."
+          "body": "São 21 escalas e 15 rotinas prontas. Na dúvida? Responda duas perguntas e o Achar meu aquecimento escolhe por você."
         },
         {
           "title": "Cante por cima",
@@ -128,10 +168,10 @@
     "groups": [
       {
         "title": "Aquecimentos que respondem",
-        "body": "O Encontrar Meu Aquecimento pergunta como está a sua voz hoje e o que você quer trabalhar, e então escolhe a rotina e ajusta o andamento. O Modo Adaptativo joga o plano fora: depois de cada exercício você diz como foi, e o que pesou se algo pesou, e o próximo se ajusta. Diga que você tem dez minutos e ele distribui a sessão inteira para caber, com desaquecimento incluso.",
+        "body": "O Achar meu aquecimento pergunta como está a sua voz hoje e o que você quer trabalhar, e então escolhe a rotina e ajusta o andamento. O Modo dinâmico joga o plano fora: depois de cada exercício você diz como foi, e o que pesou se algo pesou, e o próximo se ajusta. Diga que você tem dez minutos e ele distribui a sessão inteira para caber, com desaquecimento incluso.",
         "tags": [
-          "Encontrar Meu Aquecimento",
-          "Modo Adaptativo",
+          "Achar meu aquecimento",
+          "Modo dinâmico",
           "Dicas de técnica",
           "Respirar entre os tons"
         ]
@@ -308,7 +348,7 @@
     "navLabel": "Política de Privacidade",
     "title": "Política de Privacidade - Scalita",
     "description": "Política de Privacidade do Scalita, o app de aquecimento vocal para cantores.",
-    "body": "        <h1>Política de Privacidade</h1>\n        <p class=\"legal-meta\">Última atualização: 28 de setembro de 2026</p>\n\n        <p>O Scalita (\"nós\", \"nosso\") leva a sua privacidade a sério. Esta Política de Privacidade explica como as informações são tratadas quando você usa nosso aplicativo Scalita (o \"App\").</p>\n\n        <h2>Nosso compromisso com a privacidade</h2>\n        <p>O Scalita foi feito com a privacidade em primeiro lugar. Você deve poder aquecer a voz sem ser rastreado, perfilado ou monetizado. Nosso compromisso:</p>\n        <ul>\n          <li><strong>Nenhuma conta necessária</strong> - Você não precisa criar conta nem fazer login para usar o Scalita.</li>\n          <li><strong>Nenhuma coleta de dados pessoais</strong> - Não coletamos, armazenamos nem transmitimos nenhuma informação pessoal.</li>\n          <li><strong>Nenhum rastreamento ou analytics</strong> - Não usamos serviços de análise, pixels de rastreamento nem monitoramento de comportamento.</li>\n          <li><strong>Nenhum anúncio</strong> - Não exibimos publicidade e não compartilhamos dados com redes de anúncios.</li>\n          <li><strong>Offline primeiro</strong> - O app funciona inteiramente offline. Seus dados não saem do seu aparelho.</li>\n        </ul>\n\n        <h2>Armazenamento de dados</h2>\n        <p>Tudo o que você cria no Scalita fica guardado apenas no seu aparelho. Isso inclui:</p>\n        <ul>\n          <li>Sua extensão vocal e as configurações de registro</li>\n          <li>As escalas que você cria</li>\n          <li>As rotinas que você cria</li>\n          <li>As tomadas de estudo gravadas na mira de afinação e o áudio de qualquer harmonia que você salvar</li>\n          <li>Seu histórico de estudo: os dias em que você praticou, suas pontuações de afinação e seus recordes no Humming Bird</li>\n          <li>Preferências do app (idioma, notação, andamento)</li>\n        </ul>\n        <p>Esses dados nunca são enviados aos nossos servidores nem a terceiros, porque não temos servidores que coletem dados de usuários.</p>\n\n        <h2>Acesso ao microfone</h2>\n        <p>O Scalita pede permissão de microfone para as funções que escutam você cantar: a detecção de extensão vocal, o monitor de afinação, a mira de afinação, o Detector de Escalas, o treino de harmonias, o Ouça e repita e o Humming Bird. Em todas elas:</p>\n        <ul>\n          <li>O áudio é processado no seu aparelho. Nunca é transmitido para lugar nenhum, e não temos servidores para onde transmitir.</li>\n          <li>A detecção de extensão, o monitor de afinação, o Detector de Escalas, o Ouça e repita e o Humming Bird não guardam o áudio que escutam: ele é analisado conforme chega e descartado.</li>\n          <li><strong>Duas funções salvam áudio no seu aparelho, porque é exatamente para isso que elas servem:</strong> uma tomada de estudo na mira de afinação e as vozes de uma harmonia no treino de harmonias. Essas gravações são escritas no armazenamento privado do Scalita, no seu telefone.</li>\n          <li>As gravações salvas ficam no seu telefone até você apagá-las. Apagar uma tomada, apagar uma harmonia ou desinstalar o app remove tudo.</li>\n          <li>Nada do que você grava é enviado, compartilhado sozinho ou visto por nós. Compartilhar a imagem de uma harmonia pronta é uma escolha sua, e o que sai do telefone é uma imagem.</li>\n          <li>Você pode dispensar todas essas funções e definir sua extensão na mão.</li>\n          <li>Você pode revogar a permissão de microfone quando quiser, nas configurações do aparelho.</li>\n        </ul>\n\n        <h2>Compras no aplicativo</h2>\n        <p>O Scalita oferece uma compra Pro única e opcional pelo Google Play. A transação é feita inteiramente pelo Google Play, e não recebemos nem guardamos nenhuma informação de pagamento. Veja a <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google</a> para saber como o Google trata os dados de compra.</p>\n\n        <h2>Exportar e importar</h2>\n        <p>Você pode exportar suas rotinas e configurações como um arquivo JSON para compartilhar ou fazer backup. Esse arquivo é criado localmente no seu aparelho. Quando você compartilha, você decide para onde ele vai. Nunca vemos nem acessamos esses arquivos.</p>\n\n        <h2>Privacidade das crianças</h2>\n        <p>O Scalita não coleta conscientemente informações pessoais de ninguém, incluindo crianças menores de 13 anos. Como não coletamos dados, não há tratamento especial para crianças.</p>\n\n        <h2>Serviços de terceiros</h2>\n        <p>O Scalita usa os seguintes serviços de terceiros:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - Para processar as compras Pro (opcional). Veja a <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google</a>.</li>\n        </ul>\n        <p>Não usamos nenhum serviço de analytics, relatório de falhas ou publicidade.</p>\n\n        <h2>Alterações nesta política</h2>\n        <p>Podemos atualizar esta Política de Privacidade de tempos em tempos. Vamos avisar sobre mudanças relevantes atualizando a data de \"Última atualização\" no topo desta página. Recomendamos reler esta página de vez em quando.</p>\n\n        <h2>Fale com a gente</h2>\n        <p>Se você tiver qualquer dúvida sobre esta Política de Privacidade, fale com a gente:</p>\n        <ul>\n          <li>E-mail: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Site: <a href=\"https://scalita.com/pt/support.html\">scalita.com/pt/support</a></li>\n        </ul>"
+    "body": "        <h1>Política de Privacidade</h1>\n        <p class=\"legal-meta\">Última atualização: 22 de outubro de 2026</p>\n\n        <p>O Scalita (\"nós\", \"nosso\") leva a sua privacidade a sério. Esta Política de Privacidade explica como as informações são tratadas quando você usa nosso aplicativo Scalita (o \"App\") ou o nosso site, scalita.com.</p>\n\n        <h2>Nosso compromisso com a privacidade</h2>\n        <p>O Scalita foi feito com a privacidade em primeiro lugar. Você deve poder aquecer a voz sem ser rastreado, perfilado ou monetizado. Nosso compromisso:</p>\n        <ul>\n          <li><strong>Nenhuma conta necessária</strong> - Você não precisa criar conta nem fazer login para usar o Scalita.</li>\n          <li><strong>Nenhuma coleta de dados pessoais</strong> - Não coletamos, armazenamos nem transmitimos nenhuma informação pessoal.</li>\n          <li><strong>Nenhum rastreamento ou analytics</strong> - Não usamos serviços de análise, pixels de rastreamento nem monitoramento de comportamento.</li>\n          <li><strong>Nenhum anúncio</strong> - Não exibimos publicidade e não compartilhamos dados com redes de anúncios.</li>\n          <li><strong>Offline primeiro</strong> - O app funciona inteiramente offline. Seus dados não saem do seu aparelho.</li>\n        </ul>\n\n        <h2>Armazenamento de dados</h2>\n        <p>Tudo o que você cria no Scalita fica guardado apenas no seu aparelho. Isso inclui:</p>\n        <ul>\n          <li>Sua extensão vocal e as configurações de registro</li>\n          <li>As escalas que você cria</li>\n          <li>As rotinas que você cria</li>\n          <li>As tomadas de estudo gravadas na mira de afinação e o áudio de qualquer harmonia que você salvar</li>\n          <li>Seu histórico de estudo: os dias em que você praticou, suas pontuações de afinação e seus recordes no Humming Bird</li>\n          <li>Preferências do app (idioma, notação, andamento)</li>\n        </ul>\n        <p>Esses dados nunca são enviados aos nossos servidores nem a terceiros, porque não temos servidores que coletem dados de usuários.</p>\n\n        <h2>Acesso ao microfone</h2>\n        <p>O Scalita pede permissão de microfone para as funções que escutam você cantar: a detecção de extensão vocal, o monitor de afinação, a mira de afinação, o Detector de Escalas, o treino de harmonias, o Ouça e repita e o Humming Bird. Em todas elas:</p>\n        <ul>\n          <li>O áudio é processado no seu aparelho. Nunca é transmitido para lugar nenhum, e não temos servidores para onde transmitir.</li>\n          <li>A detecção de extensão, o monitor de afinação, o Detector de Escalas, o Ouça e repita e o Humming Bird não guardam o áudio que escutam: ele é analisado conforme chega e descartado.</li>\n          <li><strong>Duas funções salvam áudio no seu aparelho, porque é exatamente para isso que elas servem:</strong> uma tomada de estudo na mira de afinação e as vozes de uma harmonia no treino de harmonias. Essas gravações são escritas no armazenamento privado do Scalita, no seu telefone.</li>\n          <li>As gravações salvas ficam no seu telefone até você apagá-las. Apagar uma tomada, apagar uma harmonia ou desinstalar o app remove tudo.</li>\n          <li>Nada do que você grava é enviado, compartilhado sozinho ou visto por nós. Compartilhar a imagem de uma harmonia pronta é uma escolha sua, e o que sai do telefone é uma imagem.</li>\n          <li>Você pode dispensar todas essas funções e definir sua extensão na mão.</li>\n          <li>Você pode revogar a permissão de microfone quando quiser, nas configurações do aparelho.</li>\n        </ul>\n\n        <h2>Compras no aplicativo</h2>\n        <p>O Scalita oferece uma compra Pro única e opcional pelo Google Play. A transação é feita inteiramente pelo Google Play, e não recebemos nem guardamos nenhuma informação de pagamento. Veja a <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google</a> para saber como o Google trata os dados de compra.</p>\n\n        <h2>Exportar e importar</h2>\n        <p>Você pode exportar suas rotinas e configurações como um arquivo JSON para compartilhar ou fazer backup. Esse arquivo é criado localmente no seu aparelho. Quando você compartilha, você decide para onde ele vai. Nunca vemos nem acessamos esses arquivos.</p>\n\n        <h2>Privacidade das crianças</h2>\n        <p>O Scalita não coleta conscientemente informações pessoais de ninguém, incluindo crianças menores de 13 anos. Como não coletamos dados, não há tratamento especial para crianças.</p>\n\n        <h2>Serviços de terceiros</h2>\n        <p>O Scalita usa os seguintes serviços de terceiros:</p>\n        <ul>\n          <li><strong>Google Play Billing</strong> - Para processar as compras Pro (opcional). Veja a <a href=\"https://policies.google.com/privacy\" target=\"_blank\" rel=\"noopener\">Política de Privacidade do Google</a>.</li>\n        </ul>\n        <p>Não usamos nenhum serviço de analytics, relatório de falhas ou publicidade.</p>\n\n        <h2>Alterações nesta política</h2>\n        <p>Podemos atualizar esta Política de Privacidade de tempos em tempos. Vamos avisar sobre mudanças relevantes atualizando a data de \"Última atualização\" no topo desta página. Recomendamos reler esta página de vez em quando.</p>\n\n        <h2>Fale com a gente</h2>\n        <p>Se você tiver qualquer dúvida sobre esta Política de Privacidade, fale com a gente:</p>\n        <ul>\n          <li>E-mail: <a href=\"mailto:hi@dominguezpablo.com\">hi@dominguezpablo.com</a></li>\n          <li>Site: <a href=\"https://scalita.com/pt/support.html\">scalita.com/pt/support</a></li>\n        </ul>"
   },
   "terms": {
     "navLabel": "Termos de Serviço",

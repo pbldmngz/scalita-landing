@@ -1,0 +1,122 @@
+[
+  {
+    "id": "soprano",
+    "isMaleVoice": false,
+    "names": {
+      "de": "Sopran",
+      "en": "Soprano",
+      "es": "Soprano",
+      "fr": "Soprano",
+      "id": "Sopran",
+      "pt": "Soprano",
+      "tr": "Soprano"
+    },
+    "presetHigh": 84,
+    "presetId": "soprano",
+    "presetLow": 60,
+    "primo": 65,
+    "rangeHigh": 84,
+    "rangeLow": 60,
+    "secondo": 77
+  },
+  {
+    "id": "mezzoSoprano",
+    "isMaleVoice": false,
+    "names": {
+      "de": "Mezzosopran",
+      "en": "Mezzo-soprano",
+      "es": "Mezzosoprano",
+      "fr": "Mezzo-soprano",
+      "id": "Mezzo-sopran",
+      "pt": "Mezzo-soprano",
+      "tr": "Mezzo-soprano"
+    },
+    "presetHigh": 81,
+    "presetId": "mezzo",
+    "presetLow": 57,
+    "primo": 64,
+    "rangeHigh": 81,
+    "rangeLow": 57,
+    "secondo": 76
+  },
+  {
+    "id": "contralto",
+    "isMaleVoice": false,
+    "names": {
+      "de": "Contralto",
+      "en": "Contralto",
+      "es": "Contralto",
+      "fr": "Contralto",
+      "id": "Kontralto",
+      "pt": "Contralto",
+      "tr": "Kontralto"
+    },
+    "presetHigh": 77,
+    "presetId": "alto",
+    "presetLow": 53,
+    "primo": 62,
+    "rangeHigh": 77,
+    "rangeLow": 53,
+    "secondo": 74
+  },
+  {
+    "id": "tenor",
+    "isMaleVoice": true,
+    "names": {
+      "de": "Tenor",
+      "en": "Tenor",
+      "es": "Tenor",
+      "fr": "Ténor",
+      "id": "Tenor",
+      "pt": "Tenor",
+      "tr": "Tenor"
+    },
+    "presetHigh": 72,
+    "presetId": "tenor",
+    "presetLow": 48,
+    "primo": 62,
+    "rangeHigh": 72,
+    "rangeLow": 48,
+    "secondo": 67
+  },
+  {
+    "id": "baritone",
+    "isMaleVoice": true,
+    "names": {
+      "de": "Bariton",
+      "en": "Baritone",
+      "es": "Barítono",
+      "fr": "Baryton",
+      "id": "Bariton",
+      "pt": "Barítono",
+      "tr": "Bariton"
+    },
+    "presetHigh": 69,
+    "presetId": "baritone",
+    "presetLow": 45,
+    "primo": 59,
+    "rangeHigh": 69,
+    "rangeLow": 45,
+    "secondo": 64
+  },
+  {
+    "id": "bass",
+    "isMaleVoice": true,
+    "names": {
+      "de": "Bass",
+      "en": "Bass",
+      "es": "Bajo",
+      "fr": "Basse",
+      "id": "Bas",
+      "pt": "Baixo",
+      "tr": "Bas"
+    },
+    "presetHigh": 64,
+    "presetId": "bass",
+    "presetLow": 40,
+    "primo": 56,
+    "rangeHigh": 65,
+    "rangeLow": 41,
+    "secondo": 61
+  }
+]

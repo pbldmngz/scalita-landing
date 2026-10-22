@@ -1,0 +1,58 @@
+{
+  "slug": "kopfstimme-bruststimme",
+  "label": "Kopfstimme und Bruststimme",
+  "title": "Kopfstimme und Bruststimme: Unterschied, Mix, Falsett - Scalita",
+  "description": "Brust- und Kopfstimme sind zwei Schwingungsarten der Stimmlippen, benannt danach, wo du sie spürst. Wie du sie unterscheidest, wo du wechselst, was Mix ist.",
+  "h1": "Kopfstimme und Bruststimme",
+  "lead": "Zwei Register, die jede Stimme hat, benannt danach, wo Sängerinnen und Sänger sie spüren, und beide entstehen am selben Ort. Wie du sie unterscheidest und wo Mischstimme und Falsett hineinpassen.",
+  "shortAnswer": "<p>Die Bruststimme ist das tiefere, vollere Register, in dem die meisten Menschen sprechen. Die Kopfstimme ist das leichtere Register darüber. Beide entstehen an deinen Stimmlippen: Die Namen beschreiben, wo Singende die Schwingung spüren, nicht, wo der Klang herkommt. Die Stimmforschung nennt sie zwei laryngeale Mechanismen, M1 und M2. In der Bruststimme schwingen die Stimmlippen mit mehr von ihrer Masse; in der Kopfstimme sind sie dünner gedehnt und schwingen mit weniger. Die beiden überlappen sich: In der Mitte der meisten Stimmen gibt es eine Strecke, oft etwa eine Oktave, in der derselbe Ton in beiden gesungen werden kann.</p>",
+  "listenFor": "<p>Zeichen, dass du von der Bruststimme in die Kopfstimme gewechselt bist:</p><ul><li>Das Vibrieren wandert aus der Brust hinauf in Gesicht und Kopf.</li><li>Der Klang wird leichter und runder, manchmal behauchter.</li><li>Nicht mehr jeder Schritt nach oben kostet mehr Kraft als der vorige.</li></ul><p>Wenn du stattdessen zu lange an der Bruststimme festhältst, kommt der Wechsel auf einmal, und du merkst eines der Zeichen, bei denen dich der Registerwechsel-Finder von Scalita tippen lässt:</p>",
+  "misconceptions": "<ul><li><strong>„Die Kopfstimme entsteht im Kopf.“</strong> Beide Register entstehen an den Stimmlippen. Kopf und Brust sind dort, wo du die Schwingung spürst, nicht dort, wo der Klang beginnt.</li><li><strong>„Männer haben Falsett, Frauen haben Kopfstimme.“</strong> Jede Stimme hat beide Hauptmechanismen. Die Studien, die sie beschreiben, haben Männer und Frauen gemessen, ausgebildete und unausgebildete.</li><li><strong>„Bruststimme ist falsch für hohe Töne.“</strong> Viele Stile nutzen einen bruststimmigen Klang bis weit nach oben. Entscheidend ist, ob es Kraft kostet, dorthin zu kommen.</li><li><strong>„Mix ist ein drittes Register.“</strong> Die Studie, die die französische voix mixte gemessen hat, fand sie in einem der beiden Hauptmechanismen.</li></ul>",
+  "seeProfessional": "<p>Die meisten Schwierigkeiten mit der Kopfstimme sind eine Frage der Technik, und eine Gesangslehrerin oder ein Gesangslehrer ist die richtige Person dafür. Geh zu einer Ärztin oder einem Arzt, am besten in eine HNO-Praxis oder in die Phoniatrie, wenn Töne in der Kopfstimme, die du früher hattest, fehlen, wenn deine Stimme nach zwei Wochen noch heiser ist, wenn Singen wehtut oder wenn Sprechen anstrengend wird. Eine Logopädin oder ein Logopäde kann dir helfen, deine Stimme anders zu benutzen, nachdem eine Ärztin oder ein Arzt draufgeschaut hat. Wenn du krank bist, schone deine Stimme und lass das Üben warten.</p>",
+  "sections": [
+    {
+      "heading": "Wie sich beide anfühlen und anhören",
+      "html": "<p>Die Bruststimme fühlt sich an wie Sprechen. Das Vibrieren sitzt tief, in Brust und Hals, und der Klang ist voll und nah an der Sprache. Je höher du gehst, desto mehr Kraft kostet es, sie so zu halten.</p><p>Die Kopfstimme fühlt sich leichter an. Das Vibrieren wandert hinauf in Gesicht und Kopf, der Klang wird runder, und hohe Töne kosten weniger. Bei tieferen Stimmen ist der Wechsel oft leicht zu hören; bei höheren Stimmen können die beiden so eng verschmelzen, dass der Wechsel schwer zu bemerken ist.</p><p>Keine von beiden ist die richtige. Die meisten Lieder nutzen beide, und das meiste Training zielt darauf, zwischen ihnen zu wechseln, wenn du es willst, und nicht, wenn deine Stimme es entscheidet.</p>"
+    },
+    {
+      "heading": "Wo du wechselst",
+      "html": "<p>Der Wechsel passiert in der Mitte deines Umfangs, in der Zone, die Sängerinnen und Sänger Passaggio nennen und Scalita deinen Registerbruch. Scalitas Voreinstellungen legen den ersten Wechsel eines Tenors um {{note:D4}} und den eines Soprans um {{note:F4}}, und echte Stimmen landen ein paar Töne daneben. Der Wechsel hängt auch von der Richtung ab: Auf dem Weg nach oben kommt er meist höher als auf dem Weg nach unten. Der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> hilft dir, deinen zu finden, und <a href=\"page:voice-cracks-high-notes\">warum die Stimme beim Singen bricht</a> erklärt, was passiert, wenn der Wechsel plötzlich kommt.</p>"
+    },
+    {
+      "heading": "Finde beide in deiner eigenen Stimme",
+      "html": "<p>Sag ein lockeres „hey“, als würdest du jemanden begrüßen, den du kennst, und sing es dann auf einem bequemen tiefen Ton: Das ist Bruststimme. Mach jetzt ein leises „huu“ wie der Ruf einer Eule, ein paar Töne höher: Das ist Kopfstimme. Dann nimm langsam eine 5-Töne-Übung auf einem leichten Vokal und rück sie jedes Mal einen Halbton höher. Irgendwo in der Mitte spürst du vielleicht den Drang zu drücken. Lass den Klang stattdessen leichter werden und merk dir die Tonart, in der er sich verändert. Das <a href=\"page:warm-up-piano\">Einsing-Klavier</a> spielt die Tonleiter in deinem Umfang.</p>"
+    },
+    {
+      "heading": "Mischstimme und Falsett, zwei Wörter, die Scalita nicht für Register benutzt",
+      "html": "<p><strong>Mischstimme</strong>, oft einfach Mix genannt, meint meist einen Klang, der etwas von der Fülle der Bruststimme dorthin mitnimmt, wo die Kopfstimme übernimmt, sodass der Wechsel schwer zu hören ist. Lehrkräfte meinen mit dem Wort Verschiedenes, und die Forschung hat keinen eigenen Mechanismus dahinter gefunden: Eine Studie mit fünf professionellen Sängerinnen und Sängern, die die französische voix mixte benutzen, fand jeden Ton klar in einem Mechanismus, M1 oder M2, nicht in einem dritten, gemischten. In Scalita ist Mischstimme eine Markierung an Übungen, die den Wechsel zwischen tiefer und hoher Stimme glätten sollen, kein Register.</p><p><strong>Falsett</strong> meint meist den leichtesten, oft behauchten Klang des Kopfstimm-Mechanismus, am bekanntesten von Männerstimmen. Scalita benutzt das Wort nicht: Dein Umfang in der App umfasst Brust- und Kopfstimme, und wie du seine leichte Spitze nennst, klärst du mit deiner Lehrkraft.</p>"
+    },
+    {
+      "heading": "Jenseits von Brust und Kopf",
+      "html": "<p>Scalita hält drei weitere Register aus deinem Hauptumfang heraus, jedes mit einem eigenen, optionalen Bereich und einer eigenen Routine: Subharmonisch, die rasselnden Töne unter deiner Bruststimme; Flageolett, der dünne, flötenartige Klang über der Kopfstimme; und Pfeifstimme, die äußerste Spitze der Stimme, über dem Flageolett. Viele Quellen benutzen Flageolett und Pfeifstimme, auch Pfeifregister genannt, als zwei Namen für dasselbe; Scalita trainiert sie getrennt. Keine dieser Routinen verlangt, einem neuen höchsten Ton nachzujagen, und die Routine Pfeifstimme erkunden bleibt durchgehend leise.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist Kopfstimme dasselbe wie Falsett?",
+      "a": "<p>Das hängt davon ab, wen du fragst. Viele Lehrkräfte sagen Falsett zu einer leichteren, behauchteren Form des Kopfstimm-Mechanismus und Kopfstimme zu einer volleren; andere behandeln die beiden Wörter als eins. Der Gesangspädagoge Richard Miller nannte ein weibliches Falsett unlogisch, während andere Autorinnen und Autoren eines beschreiben. Wenn deine Lehrkraft die Grenze irgendwo zieht, nimm ihre.</p>"
+    },
+    {
+      "q": "Haben Frauen eine Bruststimme?",
+      "a": "<p>Ja. Die meisten Frauen sprechen in der Bruststimme und nutzen sie für den tieferen Teil ihres Singumfangs, unter dem ersten Wechsel.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"},
+    {"label": "Roubeau, Henrich und Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Švec, Schutte und Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Castellengo, Chuberre und Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)", "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"},
+    {"label": "Wikipedia (englisch): Chest voice", "url": "https://en.wikipedia.org/wiki/Chest_voice"},
+    {"label": "Wikipedia (englisch): Head voice", "url": "https://en.wikipedia.org/wiki/Head_voice"},
+    {"label": "Wikipedia (englisch): Falsetto, zur Debatte um das weibliche Falsett", "url": "https://en.wikipedia.org/wiki/Falsetto"},
+    {"label": "Wikipedia (englisch): Whistle register, auch Flageolett genannt", "url": "https://en.wikipedia.org/wiki/Whistle_register"},
+    {"label": "NIDCD (englisch): Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS (englisch): Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

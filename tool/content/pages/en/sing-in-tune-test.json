@@ -1,0 +1,80 @@
+{
+  "slug": "sing-in-tune-test",
+  "label": "Sing-in-tune test",
+  "title": "Am I Tone Deaf? Free Online Sing-in-Tune Test - Scalita",
+  "description": "Am I tone deaf? Hear a piano note, sing it back and see how many cents you landed from it: a free pitch-matching test and voice tuner in your browser.",
+  "h1": "Sing-in-tune test",
+  "lead": "The piano plays a note and stops. You sing it back, and the page shows how close you landed, in cents. Five notes make a round, and tuner mode shows your pitch while you sing anything you like.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>How to take the test</h2><ol><li>Choose your voice type, or use the range you found in the <a href=\"page:vocal-range-test\">vocal range test</a>, so every note sits where you can sing it.</li><li>Press Start and allow the microphone.</li><li>Listen to the note. When the piano stops, sing it back on an easy vowel and hold it.</li><li>The needle and the trail show how far above or below the note you are while you hold it.</li><li>After five notes, read your result.</li></ol><p>For the tuner, switch to tuner mode and sing. It shows the nearest note and how many cents you're from it, and no piano plays.</p>",
+  "sampleResult": "<h2>What a result looks like</h2><p>One round of five notes, and how far each one landed:</p><ul><li>{{note:A3}}: 6 cents flat</li><li>{{note:C4}}: 12 cents sharp</li><li>{{note:B3}}: 9 cents flat</li><li>{{note:D4}}: 31 cents flat</li><li>{{note:G3}}: 4 cents sharp</li></ul><p>Typical miss: 9 cents, the middle value of the five. Four of the five notes were within 25 cents, the line the Scalita app uses for being on the note. The result also shows how steady you held the notes.</p>",
+  "notClaimed": "<h2>What this test doesn't tell you</h2><p>It measures pitch and nothing else: how close each note lands to the one the piano played, and how steady it stays. It says nothing about your tone, your style or how your singing comes across to people. One round on one day is a single reading of your pitch, not a judgment of your ear or your voice, and it isn't a hearing test.</p>",
+  "sections": [
+    {
+      "heading": "What the test measures",
+      "html": "<p>Pitch differences are measured in cents. A semitone, the step from one piano key to the next, is 100 cents. A note above the target is sharp, and one below it is flat. Once you've settled on a note, the test measures how many cents you're from the piano's note and how much your pitch wobbles while you hold it.</p><p>How close is close enough? In the Scalita app, a note counts as off when it's more than a quarter of a semitone, 25 cents, away. Voices move a little on every note, and vibrato swings above and below on purpose, so some wobble around the note is normal.</p>"
+    },
+    {
+      "heading": "Why the piano stops before you sing",
+      "html": "<p>The piano and the microphone take turns. If they worked at the same time, the microphone would hear the piano as well as you, and you'd need headphones. Taking turns means you don't.</p><p>It also tests what matters when you sing: hearing a note, then finding it with your voice alone. In one study, singers who tended to miss the pitch seemed to be thrown off, not helped, when the right note played along with them (Pfordresher and Brown, 2007).</p>"
+    },
+    {
+      "heading": "Missing the note is usually not about your ears",
+      "html": "<p>Studies of people who sing off pitch have found that most of them hear pitch normally. In Pfordresher and Brown's experiments, 10 to 15 percent of the participants sang notes back at least a semitone off, and they told pitches apart as well as the accurate singers did. Hutchins and Peretz (2012) found that people matched notes more accurately with a slider than with their own voice. For most people the hard part is steering the voice onto a note they can hear.</p><p>A lifelong difficulty with hearing pitch does exist. It's called congenital amusia, and a study of 20,000 people put it at about 1.5 percent of the population (Peretz and Vuvan, 2017). This test can't diagnose it and isn't meant to.</p>"
+    },
+    {
+      "heading": "Tuner mode",
+      "html": "<p>The tuner skips the piano. Sing any note and it shows the nearest note name and how many cents sharp or flat you are, as you sing. Use it to check a note you're holding, to watch a slide from one note to another, or to see how wide your vibrato swings.</p>"
+    },
+    {
+      "heading": "A quick listening check",
+      "html": "<p>To check your ear on its own, the listening check plays two notes and asks which one was higher. It's three questions with the answers in words: a quick look, not a hearing test.</p>"
+    },
+    {
+      "heading": "If the microphone doesn't work",
+      "html": "<p>Open the page in Chrome, Safari, Firefox or Edge, not inside Instagram, TikTok, Facebook or Gmail, whose built-in browsers block the microphone. If you pressed Block, allow the microphone in the site settings and reload. Use the phone's own microphone rather than Bluetooth earbuds, and if the level stays low, sing a little louder or move closer.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How do I know if I'm singing in tune?",
+      "a": "<p>It's hard to judge your own pitch by ear while you're singing. A recording helps, and a measurement helps more: this test plays a note, you sing it back, and it tells you how many cents you landed from it. In the Scalita app, within 25 cents counts as on the note.</p>"
+    },
+    {
+      "q": "Why am I flat or sharp?",
+      "a": "<p>Common reasons are a note near the edge of your comfortable range, a tired or cold voice, rushing, and the piano's sound itself: in one study, non-musicians matched a recording of their own voice better than a synthesized tone (Hutchins and Peretz, 2012). Slowing down helps many singers. When occasional singers in another study sang a familiar song more slowly, most of them sang it about as accurately as professionals (Dalla Bella and colleagues, 2007).</p>"
+    },
+    {
+      "q": "Am I tone deaf?",
+      "a": "<p>Probably not. A lifelong difficulty with hearing pitch, congenital amusia, affects about 1.5 percent of people, and most people who sing off pitch hear pitch normally. This test measures one part of singing, landing on the note, and it can't diagnose amusia. Tone, rhythm, words and style count just as much, and no microphone test can rate them. A wide miss in one round only means those five notes landed far from the piano that time.</p>"
+    },
+    {
+      "q": "Do I need headphones?",
+      "a": "<p>No. The piano plays first and stops before the microphone listens, so it only hears you.</p>"
+    },
+    {
+      "q": "How accurate is the reading?",
+      "a": "<p>On a clear, steady note the pitch reading is accurate to a few cents. Background noise, a quiet microphone and Bluetooth earbuds make it less reliable, and the page tells you when your level is too low.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher and Brown (2007), a study of poor-pitch singing and pitch perception, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère and Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins and Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz and Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

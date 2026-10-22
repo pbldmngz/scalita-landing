@@ -1,0 +1,68 @@
+{
+  "slug": "trouver-son-passage-de-voix",
+  "label": "Trouver son passage de voix",
+  "title": "Trouver son passage de voix : le passaggio au piano - Scalita",
+  "description": "Chante pendant que le piano monte et appuie là où ta voix change : ton premier passage et le type de voix dont le passage est le plus proche. Sans micro.",
+  "h1": "Trouver son passage de voix",
+  "lead": "Chante pendant que le piano monte, et appuie quand ta voix veut casser, bascule vers un son plus léger ou demande un effort. Tu obtiens la note de ton premier passage et le type de voix dont le passage est le plus proche.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>Comment trouver ton passage</h2><ol><li>Appuie sur « C'est parti », puis choisis voix plus grave ou voix plus aiguë. Cela fixe où le piano commence et à quels trois types de voix ton résultat est comparé.</li><li>Le piano joue une note toutes les deux secondes, un demi-ton plus haut à chaque fois.</li><li>Chante avec lui sur une voyelle facile comme « a », à volume moyen, et garde le même son tout du long.</li><li>Appuie au moment où ta voix veut casser, bascule vers un son plus léger et soufflé, ou demande soudain plus d'effort.</li><li>Le piano joue trois notes : celle deux demi-tons sous la note où tu as appuyé, cette note, et celle deux demi-tons au-dessus. Si le changement est venu un peu plus tôt ou plus tard, déplace-le d'un demi-ton vers le bas ou vers le haut, puis confirme.</li></ol>",
+  "sampleResult": "<h2>À quoi ressemble un résultat</h2><p>Disons que tu choisis voix plus aiguë et que tu appuies sur {{note:E4}}. Le résultat affiche :</p><ul><li>Premier changement : {{note:E4}}</li><li>Correspondance la plus proche : mezzo-soprano, dont le premier changement se situe en général vers {{note:E4}}</li><li>Deuxième changement, estimé d'après ce type de voix : vers {{note:E5}}</li></ul><p>L'espace entre les deux changements est ta zone de passage. Le type de voix dépend aussi de la zone où ta voix sonne le mieux et de ton timbre, alors prends cette correspondance comme un point de départ.</p>",
+  "notClaimed": "<h2>Ce que cet outil ne te dit pas</h2><p>La note où tu appuies est l'endroit où tu as senti le changement aujourd'hui, sur cette voyelle, à ce volume. Chante plus fort ou change de voyelle, et elle peut bouger. Seul le premier changement se trouve à l'oreille. Le deuxième est une estimation d'après le type de voix trouvé, pas une mesure.</p><p>Il ne tranche pas ton type de voix, et il ne t'apprend pas à lisser le passage. Certaines voix, souvent travaillées, traversent cette zone si souplement qu'il n'y a pas de cassure nette. Si c'est ton cas, appuie là où chanter commence à demander plus d'effort, ou passe cette étape.</p>",
+  "sections": [
+    {
+      "heading": "Ce qu'est un passage de voix",
+      "html": "<p>Quand tu montes une gamme, il y a une zone où ta voix change de vitesse. Elle peut casser, basculer vers un son plus léger, ou demander soudain plus d'effort. Toutes les voix ont ça. Ce n'est pas un défaut, et une bonne partie du travail vocal consiste à le traverser en douceur.</p><p>L'enseignement classique appelle ces changements les passaggi, « passages » en italien : un premier, le primo passaggio, et un deuxième plus haut, le secondo passaggio, avec une zone entre les deux. Cet outil cherche le premier.</p>"
+    },
+    {
+      "heading": "Où il se situe pour chaque type de voix",
+      "html": "<p>Dans le tableau de Scalita, le premier changement se situe vers {{note:F4}} pour une voix de soprano, {{note:E4}} pour une mezzo-soprano, {{note:D4}} pour une contralto comme pour un ténor, {{note:B3}} pour un baryton et {{note:G#3}} pour une basse. Ce sont des moyennes classiques, et les vraies voix varient.</p><p>Une contralto et un ténor partagent un premier changement, mais pas une tessiture. C'est pour ça que l'outil demande une voix plus grave ou plus aiguë : la même note désigne un type de voix différent dans chaque groupe.</p>"
+    },
+    {
+      "heading": "Pourquoi le passage en dit plus que la tessiture",
+      "html": "<p>Deux chanteurs peuvent partager presque toute leur tessiture et pourtant changer à des endroits différents. C'est pour ça que Scalita considère ton passage de voix comme un indicateur plus fiable du type de voix que la tessiture seule. Les professeurs écoutent aussi la zone où une voix est à l'aise et sa couleur, ce qu'un piano ne peut pas mesurer.</p>"
+    },
+    {
+      "heading": "Comment l'outil fonctionne",
+      "html": "<p>Il utilise seulement le piano, jamais le micro. C'est toi qui juges le changement, à la sensation et à l'oreille, donc l'outil marche dans n'importe quel navigateur, avec ou sans micro.</p><p>Le piano part du grave, de {{note:C3}} pour une voix plus grave et de {{note:G#3}} pour une voix plus aiguë, et monte d'un demi-ton toutes les deux secondes. Quand tu appuies, cette note devient ton premier changement. L'outil cherche ensuite, dans ton groupe, le type de voix dont le premier changement est le plus proche, et reprend le deuxième changement de ce type.</p>"
+    },
+    {
+      "heading": "Pour une réponse claire",
+      "html": "<ul><li>Échauffe-toi un peu avant, par exemple avec quelques gammes sur le <a href=\"page:warm-up-piano\">piano pour vocalises</a>.</li><li>Garde la même voyelle et le même volume tout du long. Les deux peuvent déplacer l'endroit où tu sens le changement.</li><li>Ne force pas au-delà du changement pour continuer. Appuie et laisse aller.</li><li>Essaie deux fois. Une note d'écart entre deux essais, c'est normal : le changement est une zone, pas un point précis.</li></ul>"
+    },
+    {
+      "heading": "Une fois que tu l'as trouvé",
+      "html": "<p>Ton passage est l'endroit où se joue une grande partie du travail vocal. Dans l'application Scalita, il façonne les exercices : certains s'arrêtent juste avant le passage, certains le traversent une fois et reviennent, certains se centrent sur la zone de passage, et d'autres te font monter jusqu'au bout, à travers la voix de tête. La routine Passeur de ponts est construite autour. Pour le contexte, lis <a href=\"page:voice-cracks-high-notes\">pourquoi la voix se casse dans l'aigu</a> et <a href=\"page:head-voice-vs-chest-voice\">voix de tête et voix de poitrine</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "C'est grave si ma voix se casse ?",
+      "a": "<p>Non. Toutes les voix ont ces changements, et une cassure, c'est la voix qui en fait un d'un coup au lieu de le faire en douceur. Si chanter fait mal ou si ta voix reste enrouée, repose-la et consulte un médecin ou un orthophoniste. Pour en savoir plus : <a href=\"page:voice-cracks-high-notes\">pourquoi la voix se casse dans l'aigu</a>.</p>"
+    },
+    {
+      "q": "Où est le passaggio d'un ténor ?",
+      "a": "<p>Dans le tableau de Scalita, qui suit des moyennes classiques, le premier changement d'un ténor se situe vers {{note:D4}} et le deuxième vers {{note:G4}}. Pour une voix de soprano, ils se situent vers {{note:F4}} et {{note:F5}}. Les tiens peuvent être un peu plus hauts ou plus bas, et c'est à ça que sert l'outil.</p>"
+    },
+    {
+      "q": "Pourquoi l'outil demande une voix plus grave ou plus aiguë ?",
+      "a": "<p>Pour choisir les trois types de voix auxquels te comparer, ténor, baryton et basse ou soprano, mezzo-soprano et contralto, et pour fixer où le piano commence à monter. Ce n'est pas une question de genre.</p>"
+    },
+    {
+      "q": "Faut-il un micro ?",
+      "a": "<p>Non. L'outil ne fait que jouer du piano. Tu écoutes ta propre voix et tu appuies.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Passaggio, Wikipédia (en anglais) : le primo et le secondo passaggio, avec les zones de registre de Miller pour le ténor lyrique",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

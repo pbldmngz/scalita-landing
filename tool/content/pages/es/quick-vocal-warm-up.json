@@ -1,0 +1,40 @@
+{
+  "slug": "calentamiento-vocal-rapido",
+  "label": "Calentamiento rápido",
+  "title": "Calentamiento vocal rápido antes de cantar - Scalita",
+  "description": "Un calentamiento vocal rápido para justo antes de cantar: cinco ejercicios con un piano real, ajustados a tu rango y explicados paso a paso.",
+  "h1": "Calentamiento vocal rápido",
+  "lead": "Para justo antes de una clase, un ensayo, una audición o una presentación, cuando no hay tiempo para un calentamiento completo. Es la rutina Pre-Presentación Rápido de Scalita: cinco ejercicios en tu rango, breves a propósito.",
+  "routineId": "pre_performance",
+  "whyOrder": "<h2>Por qué este orden</h2><p>Cinco ejercicios, de un sonido ligero al patrón más amplio y de vuelta a uno ligero.</p><ol><li><strong>Una vibración de lengua sobre una escala de cinco notas, por todo tu rango.</strong> Un sonido ligero con el que recorrer mucho terreno antes de abrirte a las vocales. Scalita empieza por la vibración de lengua. Si tu idioma no tiene erre vibrante y te cuesta, empieza por la vibración de labios.</li><li><strong>Un arpegio con M, un tarareo que se abre a una vocal relajada, como al hablar.</strong> El patrón se amplía a una octava.</li><li><strong>El mismo arpegio con N.</strong> Este paso lleva la marca <em>Cruzar una vez</em>: cruza tu quiebre vocal y vuelve una sola vez, para que ya hayas pasado por el cambio antes de que te lo pida una canción.</li><li><strong>Una octava y media con una vocal abierta.</strong> El patrón más amplio de la rutina, cantado cuando la voz ya está en marcha.</li><li><strong>Una vibración de labios en un tramo corto.</strong> Lo último que cantas antes de salir es algo fácil, no lo más exigente.</li></ol><p>Va un poco más rápido que el calentamiento completo y, con un rango de dos octavas, dura de 6 a 8 minutos. Cada ejercicio empieza en una tonalidad cómoda en vez de en la más grave, sube hasta lo alto de su rango y luego vuelve a bajar tonalidad a tonalidad hasta el fondo.</p>",
+  "whatToFeel": "<h2>Qué deberías sentir</h2><p>En las vibraciones, un zumbido uniforme en los labios o en la punta de la lengua, sostenido por un aire constante, no por esfuerzo. En los pasos con M y N, el zumbido que sientes en los labios y la nariz al tararear debería continuar en la vocal. En el paso amplio, una mandíbula suelta que baja un poco, como si empezaras a bostezar.</p><p>Al final, cantar debería resultarte más fácil que al principio. Si te resulta más difícil, lee la parte de cuándo parar.</p><h3>Errores comunes</h3><ul><li><strong>Cantar a volumen de concierto.</strong> Aquí basta con un volumen medio o más suave. Guarda el volumen para el escenario.</li><li><strong>Estirarte para llegar a las tonalidades más agudas.</strong> Si una tonalidad te cuesta, sáltatela y vuelve a entrar en el siguiente ejercicio.</li><li><strong>Levantar la barbilla en los agudos.</strong> Mantén la cabeza recta y deja que se mueva la nota, no el cuello.</li><li><strong>Pelearte con una vibración que se corta.</strong> Afloja los labios o la lengua, mantén el aire constante o cambia a la otra vibración.</li></ul>",
+  "whenToStop": "<h2>Cuándo parar</h2><p>Para si algo te duele, si notas la garganta áspera o con ardor, o si la voz se pone más ronca a medida que avanzas en vez de más clara. Un calentamiento nunca debería ser algo que aguantes a la fuerza.</p><p>Las notas fuera de tu voz no son un examen. El arpegio que cruza tu quiebre está colocado alrededor del quiebre, no dentro de tu rango, así que con algunos tipos de voz empieza por debajo de las notas que puedes cantar. Quédate en silencio en cualquier tonalidad demasiado grave o demasiado aguda, y únete cuando el piano llegue a notas que te resulten fáciles. Cantar más suave siempre está permitido.</p>",
+  "next": "<h2>Qué hacer después</h2><p>Ve a cantar. Los días con más tiempo, el <a href=\"page:full-vocal-warm-up\">calentamiento completo</a> se detiene más en las vibraciones, el tarareo y tu quiebre. Después de una presentación o un ensayo largo, el <a href=\"page:vocal-cool-down\">enfriamiento</a> es lento y suave a propósito.</p><p>Si ningún tipo de voz se parece al tuyo, el <a href=\"page:vocal-range-test\">test de rango vocal</a> encuentra tus notas más grave y más aguda, para que el calentamiento siga tu propio rango. En la app, el Modo Adaptativo también puede crear un calentamiento ajustado a cinco minutos.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "¿Basta con un calentamiento vocal de 5 minutos?",
+      "a": "<p>Es una duración habitual. En una encuesta a 117 cantantes, de 5 a 10 minutos era la duración de calentamiento que más preferían. Esta rutina dura de 6 a 8 minutos con un rango de dos octavas. Antes de un ensayo largo o de un papel exigente, el calentamiento completo te da más tiempo con los patrones amplios y alrededor de tu quiebre.</p>"
+    },
+    {
+      "q": "¿Cuánto antes de una presentación debo calentar?",
+      "a": "<p>Ningún estudio da una cifra. Termina lo bastante cerca del comienzo como para que tu voz no pase mucho tiempo en silencio entre medias. Si tienes que esperar, tararea suave de vez en cuando hasta que salgas.</p>"
+    },
+    {
+      "q": "¿Hay un calentamiento rápido para voces femeninas o masculinas?",
+      "a": "<p>Es el mismo calentamiento para todo el mundo; solo cambia la tonalidad. Elige el tipo de voz más parecido al tuyo o define tu propio rango. Con los tipos de voz predefinidos dura unos 6 minutos para soprano, mezzosoprano y contralto, y de 7 a 8 para tenor, barítono y bajo.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims y McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "7165fbac2860399712ff0467ca1532a567d0a54622ec284650037371a033778e"
+}

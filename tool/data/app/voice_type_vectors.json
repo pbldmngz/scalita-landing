@@ -1,0 +1,1944 @@
+{
+  "closestForPrimo": [
+    {
+      "primo": 36,
+      "type": "bass"
+    },
+    {
+      "primo": 37,
+      "type": "bass"
+    },
+    {
+      "primo": 38,
+      "type": "bass"
+    },
+    {
+      "primo": 39,
+      "type": "bass"
+    },
+    {
+      "primo": 40,
+      "type": "bass"
+    },
+    {
+      "primo": 41,
+      "type": "bass"
+    },
+    {
+      "primo": 42,
+      "type": "bass"
+    },
+    {
+      "primo": 43,
+      "type": "bass"
+    },
+    {
+      "primo": 44,
+      "type": "bass"
+    },
+    {
+      "primo": 45,
+      "type": "bass"
+    },
+    {
+      "primo": 46,
+      "type": "bass"
+    },
+    {
+      "primo": 47,
+      "type": "bass"
+    },
+    {
+      "primo": 48,
+      "type": "bass"
+    },
+    {
+      "primo": 49,
+      "type": "bass"
+    },
+    {
+      "primo": 50,
+      "type": "bass"
+    },
+    {
+      "primo": 51,
+      "type": "bass"
+    },
+    {
+      "primo": 52,
+      "type": "bass"
+    },
+    {
+      "primo": 53,
+      "type": "bass"
+    },
+    {
+      "primo": 54,
+      "type": "bass"
+    },
+    {
+      "primo": 55,
+      "type": "bass"
+    },
+    {
+      "primo": 56,
+      "type": "bass"
+    },
+    {
+      "primo": 57,
+      "type": "bass"
+    },
+    {
+      "primo": 58,
+      "type": "baritone"
+    },
+    {
+      "primo": 59,
+      "type": "baritone"
+    },
+    {
+      "primo": 60,
+      "type": "baritone"
+    },
+    {
+      "primo": 61,
+      "type": "contralto"
+    },
+    {
+      "primo": 62,
+      "type": "contralto"
+    },
+    {
+      "primo": 63,
+      "type": "mezzoSoprano"
+    },
+    {
+      "primo": 64,
+      "type": "mezzoSoprano"
+    },
+    {
+      "primo": 65,
+      "type": "soprano"
+    },
+    {
+      "primo": 66,
+      "type": "soprano"
+    },
+    {
+      "primo": 67,
+      "type": "soprano"
+    },
+    {
+      "primo": 68,
+      "type": "soprano"
+    },
+    {
+      "primo": 69,
+      "type": "soprano"
+    },
+    {
+      "primo": 70,
+      "type": "soprano"
+    },
+    {
+      "primo": 71,
+      "type": "soprano"
+    },
+    {
+      "primo": 72,
+      "type": "soprano"
+    },
+    {
+      "primo": 73,
+      "type": "soprano"
+    },
+    {
+      "primo": 74,
+      "type": "soprano"
+    },
+    {
+      "primo": 75,
+      "type": "soprano"
+    },
+    {
+      "primo": 76,
+      "type": "soprano"
+    },
+    {
+      "primo": 77,
+      "type": "soprano"
+    },
+    {
+      "primo": 78,
+      "type": "soprano"
+    },
+    {
+      "primo": 79,
+      "type": "soprano"
+    },
+    {
+      "primo": 80,
+      "type": "soprano"
+    },
+    {
+      "primo": 81,
+      "type": "soprano"
+    },
+    {
+      "primo": 82,
+      "type": "soprano"
+    },
+    {
+      "primo": 83,
+      "type": "soprano"
+    },
+    {
+      "primo": 84,
+      "type": "soprano"
+    }
+  ],
+  "closestForPrimoAndGender": [
+    {
+      "isMaleVoice": false,
+      "primo": 36,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 36,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 37,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 37,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 38,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 38,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 39,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 39,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 40,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 40,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 41,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 41,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 42,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 42,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 43,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 43,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 44,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 44,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 45,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 45,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 46,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 46,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 47,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 47,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 48,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 48,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 49,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 49,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 50,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 50,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 51,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 51,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 52,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 52,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 53,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 53,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 54,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 54,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 55,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 55,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 56,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 56,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 57,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 57,
+      "type": "bass"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 58,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 58,
+      "type": "baritone"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 59,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 59,
+      "type": "baritone"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 60,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 60,
+      "type": "baritone"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 61,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 61,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 62,
+      "type": "contralto"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 62,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 63,
+      "type": "mezzoSoprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 63,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 64,
+      "type": "mezzoSoprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 64,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 65,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 65,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 66,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 66,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 67,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 67,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 68,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 68,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 69,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 69,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 70,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 70,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 71,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 71,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 72,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 72,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 73,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 73,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 74,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 74,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 75,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 75,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 76,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 76,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 77,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 77,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 78,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 78,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 79,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 79,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 80,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 80,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 81,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 81,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 82,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 82,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 83,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 83,
+      "type": "tenor"
+    },
+    {
+      "isMaleVoice": false,
+      "primo": 84,
+      "type": "soprano"
+    },
+    {
+      "isMaleVoice": true,
+      "primo": 84,
+      "type": "tenor"
+    }
+  ],
+  "closestForRange": [
+    {
+      "high": 21,
+      "low": 21,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 22,
+      "low": 21,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 22,
+      "low": 22,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 23,
+      "low": 22,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 23,
+      "low": 23,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 24,
+      "low": 23,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 24,
+      "low": 24,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 25,
+      "low": 24,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 25,
+      "low": 25,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 26,
+      "low": 25,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 26,
+      "low": 26,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 27,
+      "low": 26,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 27,
+      "low": 27,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 28,
+      "low": 27,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 28,
+      "low": 28,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 29,
+      "low": 28,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 29,
+      "low": 29,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 30,
+      "low": 29,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 30,
+      "low": 30,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 31,
+      "low": 30,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 31,
+      "low": 31,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 32,
+      "low": 31,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 32,
+      "low": 32,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 33,
+      "low": 32,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 33,
+      "low": 33,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 34,
+      "low": 33,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 34,
+      "low": 34,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 35,
+      "low": 34,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 35,
+      "low": 35,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 36,
+      "low": 35,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 36,
+      "low": 36,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 37,
+      "low": 36,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 37,
+      "low": 37,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 38,
+      "low": 37,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 38,
+      "low": 38,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 39,
+      "low": 38,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 39,
+      "low": 39,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 40,
+      "low": 39,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 40,
+      "low": 40,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 41,
+      "low": 40,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 41,
+      "low": 41,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 42,
+      "low": 41,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 42,
+      "low": 42,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 43,
+      "low": 42,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 43,
+      "low": 43,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 44,
+      "low": 43,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 44,
+      "low": 44,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 45,
+      "low": 44,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 45,
+      "low": 45,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 46,
+      "low": 45,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 46,
+      "low": 46,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 47,
+      "low": 46,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 47,
+      "low": 47,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 48,
+      "low": 47,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 48,
+      "low": 48,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 49,
+      "low": 48,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 49,
+      "low": 49,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 50,
+      "low": 49,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 50,
+      "low": 50,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 51,
+      "low": 50,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 51,
+      "low": 51,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 52,
+      "low": 51,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 52,
+      "low": 52,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 53,
+      "low": 52,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 53,
+      "low": 53,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 54,
+      "low": 53,
+      "types": [
+        "bass"
+      ]
+    },
+    {
+      "high": 54,
+      "low": 54,
+      "types": [
+        "bass",
+        "baritone"
+      ]
+    },
+    {
+      "high": 55,
+      "low": 54,
+      "types": [
+        "bass",
+        "baritone"
+      ]
+    },
+    {
+      "high": 55,
+      "low": 55,
+      "types": [
+        "baritone",
+        "bass"
+      ]
+    },
+    {
+      "high": 56,
+      "low": 55,
+      "types": [
+        "baritone",
+        "bass"
+      ]
+    },
+    {
+      "high": 56,
+      "low": 56,
+      "types": [
+        "baritone",
+        "bass"
+      ]
+    },
+    {
+      "high": 57,
+      "low": 56,
+      "types": [
+        "baritone"
+      ]
+    },
+    {
+      "high": 57,
+      "low": 57,
+      "types": [
+        "baritone"
+      ]
+    },
+    {
+      "high": 58,
+      "low": 57,
+      "types": [
+        "baritone",
+        "tenor"
+      ]
+    },
+    {
+      "high": 58,
+      "low": 58,
+      "types": [
+        "baritone",
+        "tenor"
+      ]
+    },
+    {
+      "high": 59,
+      "low": 58,
+      "types": [
+        "tenor",
+        "baritone"
+      ]
+    },
+    {
+      "high": 59,
+      "low": 59,
+      "types": [
+        "tenor",
+        "baritone"
+      ]
+    },
+    {
+      "high": 60,
+      "low": 59,
+      "types": [
+        "tenor",
+        "baritone"
+      ]
+    },
+    {
+      "high": 60,
+      "low": 60,
+      "types": [
+        "tenor"
+      ]
+    },
+    {
+      "high": 61,
+      "low": 60,
+      "types": [
+        "tenor"
+      ]
+    },
+    {
+      "high": 61,
+      "low": 61,
+      "types": [
+        "tenor"
+      ]
+    },
+    {
+      "high": 62,
+      "low": 61,
+      "types": [
+        "tenor",
+        "contralto"
+      ]
+    },
+    {
+      "high": 62,
+      "low": 62,
+      "types": [
+        "tenor",
+        "contralto"
+      ]
+    },
+    {
+      "high": 63,
+      "low": 62,
+      "types": [
+        "contralto",
+        "tenor"
+      ]
+    },
+    {
+      "high": 63,
+      "low": 63,
+      "types": [
+        "contralto",
+        "tenor"
+      ]
+    },
+    {
+      "high": 64,
+      "low": 63,
+      "types": [
+        "contralto",
+        "tenor"
+      ]
+    },
+    {
+      "high": 64,
+      "low": 64,
+      "types": [
+        "contralto"
+      ]
+    },
+    {
+      "high": 65,
+      "low": 64,
+      "types": [
+        "contralto"
+      ]
+    },
+    {
+      "high": 65,
+      "low": 65,
+      "types": [
+        "contralto"
+      ]
+    },
+    {
+      "high": 66,
+      "low": 65,
+      "types": [
+        "contralto"
+      ]
+    },
+    {
+      "high": 66,
+      "low": 66,
+      "types": [
+        "contralto",
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 67,
+      "low": 66,
+      "types": [
+        "contralto",
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 67,
+      "low": 67,
+      "types": [
+        "mezzoSoprano",
+        "contralto"
+      ]
+    },
+    {
+      "high": 68,
+      "low": 67,
+      "types": [
+        "mezzoSoprano",
+        "contralto"
+      ]
+    },
+    {
+      "high": 68,
+      "low": 68,
+      "types": [
+        "mezzoSoprano",
+        "contralto"
+      ]
+    },
+    {
+      "high": 69,
+      "low": 68,
+      "types": [
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 69,
+      "low": 69,
+      "types": [
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 70,
+      "low": 69,
+      "types": [
+        "mezzoSoprano",
+        "soprano"
+      ]
+    },
+    {
+      "high": 70,
+      "low": 70,
+      "types": [
+        "mezzoSoprano",
+        "soprano"
+      ]
+    },
+    {
+      "high": 71,
+      "low": 70,
+      "types": [
+        "soprano",
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 71,
+      "low": 71,
+      "types": [
+        "soprano",
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 72,
+      "low": 71,
+      "types": [
+        "soprano",
+        "mezzoSoprano"
+      ]
+    },
+    {
+      "high": 72,
+      "low": 72,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 73,
+      "low": 72,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 73,
+      "low": 73,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 74,
+      "low": 73,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 74,
+      "low": 74,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 75,
+      "low": 74,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 75,
+      "low": 75,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 76,
+      "low": 75,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 76,
+      "low": 76,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 77,
+      "low": 76,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 77,
+      "low": 77,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 78,
+      "low": 77,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 78,
+      "low": 78,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 79,
+      "low": 78,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 79,
+      "low": 79,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 80,
+      "low": 79,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 80,
+      "low": 80,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 81,
+      "low": 80,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 81,
+      "low": 81,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 82,
+      "low": 81,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 82,
+      "low": 82,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 83,
+      "low": 82,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 83,
+      "low": 83,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 84,
+      "low": 83,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 84,
+      "low": 84,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 85,
+      "low": 84,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 85,
+      "low": 85,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 86,
+      "low": 85,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 86,
+      "low": 86,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 87,
+      "low": 86,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 87,
+      "low": 87,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 88,
+      "low": 87,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 88,
+      "low": 88,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 89,
+      "low": 88,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 89,
+      "low": 89,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 90,
+      "low": 89,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 90,
+      "low": 90,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 91,
+      "low": 90,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 91,
+      "low": 91,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 92,
+      "low": 91,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 92,
+      "low": 92,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 93,
+      "low": 92,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 93,
+      "low": 93,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 94,
+      "low": 93,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 94,
+      "low": 94,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 95,
+      "low": 94,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 95,
+      "low": 95,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 96,
+      "low": 95,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 96,
+      "low": 96,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 97,
+      "low": 96,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 97,
+      "low": 97,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 98,
+      "low": 97,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 98,
+      "low": 98,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 99,
+      "low": 98,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 99,
+      "low": 99,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 100,
+      "low": 99,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 100,
+      "low": 100,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 101,
+      "low": 100,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 101,
+      "low": 101,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 102,
+      "low": 101,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 102,
+      "low": 102,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 103,
+      "low": 102,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 103,
+      "low": 103,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 104,
+      "low": 103,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 104,
+      "low": 104,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 105,
+      "low": 104,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 105,
+      "low": 105,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 106,
+      "low": 105,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 106,
+      "low": 106,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 107,
+      "low": 106,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 107,
+      "low": 107,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 108,
+      "low": 107,
+      "types": [
+        "soprano"
+      ]
+    },
+    {
+      "high": 108,
+      "low": 108,
+      "types": [
+        "soprano"
+      ]
+    }
+  ]
+}

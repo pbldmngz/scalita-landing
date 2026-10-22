@@ -1,0 +1,60 @@
+{
+  "slug": "notennamen-h-oktaven",
+  "label": "Notennamen und Oktaven",
+  "title": "Warum H statt B? Notennamen und Oktaven - Scalita",
+  "description": "Das mittlere C heißt {{note:C4:local}}, {{note:C4:intl}}, Do4 oder Do3, je nach Land. Wie Notennamen und Oktaven zusammenpassen und warum es H statt B heißt.",
+  "h1": "Notennamen und Oktavzahlen",
+  "lead": "Eine Klaviertaste kann mehrere Namen haben, je nachdem, wo du Musik gelernt hast. Hier steht, wie die Benennungssysteme und Oktavzahlen zusammenpassen, damit ein Ton auf dieser Website die Taste meint, die du meinst.",
+  "sections": [
+    {
+      "heading": "Das mittlere C und die Oktavzahlen",
+      "html": "<p>Das mittlere C, das C nahe der Mitte des Klaviers, ist {{note:C4:intl}} in der wissenschaftlichen Tonhöhenschreibweise, dem internationalen System, mit dem diese Website jeden Notennamen paart. Die Zahl steigt bei jedem C um eins: Das tiefste C eines Klaviers mit 88 Tasten ist {{note:C1:intl}}, das mittlere C ist das vierte, und das A, auf das Orchester stimmen, ist {{note:A4:intl}}.</p>\n<p>Scalita schreibt die spanische und die türkische Solmisation mit derselben Zählung, dort ist das mittlere C also Do4. Die französische und die brasilianische Solmisation zählen eins tiefer: Das mittlere C ist Do3 auf Französisch und Dó3 auf brasilianischem Portugiesisch. Die deutschen Notennamen zeigen die Oktave stattdessen mit Groß- und Kleinbuchstaben und kleinen hochgestellten Zahlen: Das mittlere C ist das eingestrichene {{note:C4:local}}, das C darunter ist das kleine {{note:C3:local}}, darunter liegt das große {{note:C2:local}}, und der Kammerton ist {{note:A4:local}}.</p>"
+    },
+    {
+      "heading": "Warum H statt B",
+      "html": "<p>Im Deutschen heißt der Ton, den das Englische B nennt, H, und B ist der Ton einen Halbton tiefer, englisch B flat. Ein Kreuz hängt -is an, ein b hängt -es an: Das englische F sharp ist Fis, E flat ist Es. Wer als deutschsprachige Sängerin oder deutschsprachiger Sänger ein englisches B liest, singt also einen Halbton zu tief, und deshalb benutzt Scalita auf Deutsch deutsche Notennamen.</p>\n<p>Der Grund liegt im Mittelalter: Für diesen Ton gab es zwei Zeichen, ein rundes b für den tieferen und ein eckiges b für den höheren, und das eckige sah einem h so ähnlich, dass es im deutschen Sprachraum zum H wurde.</p>"
+    },
+    {
+      "heading": "Festes und bewegliches Do",
+      "html": "<p>Bei festem Do, der absoluten Solmisation, ist do immer C, re immer D und so weiter: Die Silben sind die Notennamen. So benennen Spanien, Frankreich, Italien, Brasilien, die Türkei und Lateinamerika die Töne.</p>\n<p>Bei beweglichem Do, der relativen Solmisation, ist do der erste Ton der jeweiligen Tonart, sodass eine Melodie, auf do re mi gesungen, in jeder Tonart ihre Silben behält. Musikunterricht und Chöre im englischsprachigen Raum nutzen sie, im deutschsprachigen Raum etwa als Tonika-Do, und in Indonesien und China wird dieselbe Idee in Ziffern geschrieben, 1 für do, unter einer Überschrift, die die Tonart nennt, etwa do = G. Die Notation Ziffern in Scalita funktioniert so.</p>"
+    },
+    {
+      "heading": "Wie diese Website Töne schreibt",
+      "html": "<p>Jeder Notenname hier stammt aus den Tabellen der Scalita-App: zuerst das übliche System deiner Sprache, daneben der internationale Name, wenn sich die beiden unterscheiden. In der App kannst du in den Einstellungen zwischen Englische Buchstaben, Solmisation, Deutsche Notennamen und Ziffern wechseln.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist das mittlere C nun {{note:C4:intl}} oder C3?",
+      "a": "<p>{{note:C4:intl}}, in der wissenschaftlichen Schreibweise, die das meiste Gesangsmaterial benutzt, auf Deutsch das eingestrichene {{note:C4:local}}. Wenn ein Keyboard oder ein Aufnahmeprogramm es C3 oder C5 nennt, ist es dieselbe Taste mit einem anderen Etikett: Der MIDI-Standard legt nur fest, dass das mittlere C die Notennummer 60 hat.</p>"
+    },
+    {
+      "q": "Welche Taste ist das mittlere C auf dem Klavier?",
+      "a": "<p>Auf einem Klavier mit 88 Tasten ist es das vierte C von links, nahe der Mitte. Jedes C ist die weiße Taste direkt links neben einer Zweiergruppe schwarzer Tasten.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (englisch): Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia (englisch): Musical note, zum mittleren C, zu den Helmholtz-Namen und zum deutschen H.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (französisch): La 440, wo la3 dem A4 und do3 dem C4 entspricht.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia (englisch): Solfège, zu festem und beweglichem Do.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association (englisch): MIDI octave and note numbering standard.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

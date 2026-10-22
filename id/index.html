@@ -14,20 +14,17 @@
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/">
   <link rel="alternate" hreflang="fr" href="https://scalita.com/fr/">
   <link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/">
+  <link rel="alternate" hreflang="pt" href="https://scalita.com/pt/">
   <link rel="alternate" hreflang="de" href="https://scalita.com/de/">
   <link rel="alternate" hreflang="tr" href="https://scalita.com/tr/">
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/">
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/logo_32.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="../images/logo_192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
 
-  <link rel="stylesheet" href="../css/style.css">
-
-  <meta name="keywords" content="aplikasi pemanasan vokal, latihan vokal, tangga nada untuk bernyanyi, rutinitas vokal, bernyanyi dengan nada tepat, latihan ketepatan nada, skor bernyanyi, bidik nada, dengar dan tirukan, game bernyanyi, latihan harmoni, latihan register suara, subharmonik, flageolet, whistle register, vokal rock dan metal, rekam tangga nada, monitor nada, tangga nada piano untuk penyanyi, aplikasi solmisasi, pemanasan do re mi">
+  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Scalita - 21 tangga nada, 15 rutinitas, piano asli. Aplikasi pemanasan vokal gratis.">
@@ -54,7 +51,7 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
+  "@type": "MobileApplication",
   "name": "Scalita",
   "operatingSystem": "Android",
   "applicationCategory": "MultimediaApplication",
@@ -68,20 +65,17 @@
     "tr",
     "id"
   ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "IDR",
-      "description": "Gratis"
-    },
-    {
-      "@type": "Offer",
-      "price": "84000",
-      "priceCurrency": "IDR",
-      "description": "Pro"
-    }
-  ]
+  "installUrl": "https://play.google.com/store/apps/details?id=com.scalita.app&hl=id&referrer=utm_source%3Dscalita_id%26utm_medium%3Dweb%26utm_campaign%3Dindex",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "IDR"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Pablo Dominguez",
+    "url": "https://dominguezpablo.com"
+  }
 }
   </script>
 </head>
@@ -89,7 +83,7 @@
   <nav>
     <div class="container">
       <a href="/id/" class="logo">
-        <img src="../images/logo.svg" alt="Logo Scalita" width="32" height="32">
+        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
         Scalita
       </a>
       <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
@@ -101,7 +95,9 @@
         <li><a href="#features">Fitur</a></li>
         <li><a href="#pricing">Harga</a></li>
         <li><a href="#download">Unduh</a></li>
-        <li><a href="support.html">Bantuan</a></li>
+        <li><a href="/id/alat/">Alat</a></li>
+        <li><a href="/id/panduan/latihan-vokal/">Panduan</a></li>
+        <li><a href="/id/support.html">Bantuan</a></li>
         <li class="nav-lang">
           <details class="lang-menu">
             <summary aria-label="Bahasa: Bahasa Indonesia">
@@ -121,7 +117,7 @@
             <a href="/pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
             <a href="/de/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a>
-            <a href="./" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a>
+            <a href="/id/" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a>
             </div>
           </details>
         </li>
@@ -151,14 +147,14 @@
         <div class="phone-mockup">
           <div class="phone-screen">
             <div class="screenshot-carousel">
-              <img src="../images/screenshots/id/home.jpg" alt="Layar beranda Scalita" class="screenshot active" width="560" height="1125">
-              <img src="../images/screenshots/id/find_my_warmup.jpg" alt="Cari Pemanasanku menanyakan kondisi suaramu" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/player.jpg" alt="Latihan yang sedang berjalan dengan jejak nada langsung" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/scored.jpg" alt="Skor di akhir tangga nada: seberapa banyak yang tepat" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/pitch_targeting.jpg" alt="Bidik nada pada satu tuts" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/harmony.jpg" alt="Latihan harmoni dengan empat suara" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/humming_bird.jpg" alt="Humming Bird, permainan menuntun satu nada panjang melewati celah" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/id/all_scales.jpg" alt="Daftar tangga nada" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/home.jpg" alt="Layar beranda Scalita" class="screenshot active" fetchpriority="high" width="560" height="1125">
+              <img src="/images/screenshots/id/find_my_warmup.jpg" alt="Cari Pemanasanku menanyakan kondisi suaramu" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/player.jpg" alt="Latihan yang sedang berjalan dengan jejak nada langsung" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/scored.jpg" alt="Skor di akhir tangga nada: seberapa banyak yang tepat" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/pitch_targeting.jpg" alt="Bidik nada pada satu tuts" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/harmony.jpg" alt="Latihan harmoni dengan empat suara" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/humming_bird.jpg" alt="Humming Bird, permainan menuntun satu nada panjang melewati celah" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/id/all_scales.jpg" alt="Daftar tangga nada" class="screenshot" loading="lazy" width="560" height="1125">
             </div>
           </div>
         </div>
@@ -187,6 +183,7 @@
           <span class="step-mark"><span class="step-number">1</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 00-3 3v6a3 3 0 006 0V5a3 3 0 00-3-3z"/><path d="M5 11a7 7 0 0014 0"/><line x1="12" y1="18" x2="12" y2="22"/></svg></span>
           <h3>Atur jangkauanmu</h3>
           <p>Bernyanyilah ke ponsel dan Scalita menemukan nada terendah dan tertinggimu. Atau pilih jenis suara dan lewati langkah ini.</p>
+          <p class="step-link"><a href="/id/alat/cek-range-vokal/">Tes range vokal</a></p>
         </li>
         <li class="step">
           <span class="step-mark"><span class="step-number">2</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
@@ -201,7 +198,7 @@
       </ol>
       <div class="piano-strip">
         <button type="button" class="piano-button" onclick="playPianoChord()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Dengarkan pianonya</button>
-        <p>Sampel Salamander Grand Piano asli di seluruh 88 tuts, dari A0 sampai C8. Serendah atau setinggi apa pun kamu bernyanyi, ada nada rekaman untuknya.</p>
+        <p>Sampel Salamander Grand Piano asli di seluruh 88 tuts, dari A0 sampai C8. Serendah atau setinggi apa pun kamu bernyanyi, ada nada rekaman untuknya.<br><span class="credit">Piano: Salamander Grand Piano V3 karya Alexander Holm, dengan lisensi <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Ditala ulang, dipendekkan, dan dikompresi untuk situs ini.</span></p>
       </div>
     </div>
   </section>
@@ -233,7 +230,7 @@
         <p class="spotlight-note">Juga baru: dengan earphone kabel atau Bluetooth, setiap tangga nada dan rutinitas berakhir dengan skor. Seberapa banyak yang tepat, seberapa dekat sisanya, dan satu hal untuk dilatih. Semuanya gratis. Pro hanya menambahkan perekam latihan di Bidik nada dan tempat untuk lebih dari satu harmoni tersimpan.</p>
       </div>
       <div class="spotlight-shot">
-        <img src="../images/screenshots/id/listen_repeat.jpg" alt="Dengar &amp; Tirukan: run yang dinyanyikan setelah piano, tergambar di atas kisi nada" loading="lazy" width="560" height="1125">
+        <img src="/images/screenshots/id/listen_repeat.jpg" alt="Dengar &amp; Tirukan: run yang dinyanyikan setelah piano, tergambar di atas kisi nada" loading="lazy" width="560" height="1125">
       </div>
     </div>
   </section>
@@ -324,7 +321,7 @@
               <span class="tag">Lompat Interval (Kuint)</span>
               <span class="tag">Rossini</span>
               <span class="tag">3 Nada</span>
-              <span class="tag">5 Nada</span>
+              <a class="tag" href="/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/">5 Nada</a>
               <span class="tag">5 Nada Menurun</span>
               <span class="tag">Terurai</span>
               <span class="tag">Zigzag Crescendo</span>
@@ -336,10 +333,10 @@
           <div class="catalog-column">
             <h4>Rutinitas</h4>
             <ul class="routine-grid">
-              <li><strong>Pemanasan Umum</strong> <span>Bangunkan suaramu dengan aman, seluruh jangkauan siap.</span></li>
+              <li><strong><a href="/id/panduan/pemanasan-vokal-sebelum-bernyanyi/">Pemanasan Umum</a></strong> <span>Bangunkan suaramu dengan aman, seluruh jangkauan siap.</span></li>
               <li><strong>Do Re Mi (Solfegio)</strong> <span>Pemanasan solfegio klasik, tiap nada dengan namanya.</span></li>
-              <li><strong>Lembut / Pemulihan</strong> <span>Untuk hari yang ringan dan istirahat setelah tampil.</span></li>
-              <li><strong>Cepat Sebelum Tampil</strong> <span>Yang penting-penting saja, di bawah 10 menit.</span></li>
+              <li><strong><a href="/id/panduan/pendinginan-vokal/">Lembut / Pemulihan</a></strong> <span>Untuk hari yang ringan dan istirahat setelah tampil.</span></li>
+              <li><strong><a href="/id/panduan/pemanasan-vokal-cepat/">Cepat Sebelum Tampil</a></strong> <span>Yang penting-penting saja, di bawah 10 menit.</span></li>
               <li><strong>Perluasan Jangkauan</strong> <span>Perluas batas atas dan bawah dengan aman.</span></li>
               <li><strong>Tenaga &amp; Volume</strong> <span>Penutupan pita suara dan proyeksi tanpa tegang.</span></li>
               <li><strong>Kelincahan &amp; Run</strong> <span>Kecepatan dan ketepatan untuk nyanyian melismatis.</span></li>
@@ -405,7 +402,7 @@
       <h2>Siap pemanasan?</h2>
       <p>Gratis di Google Play. Tanpa akun, tanpa iklan, tidak ada yang perlu dibatalkan.</p>
       <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=id" class="store-button" target="_blank" rel="noopener">
+        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=id&amp;referrer=utm_source%3Dscalita_id%26utm_medium%3Dweb%26utm_campaign%3Dindex" class="store-button" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
           </svg>
@@ -424,7 +421,7 @@
       <div class="footer-content">
         <div class="footer-brand">
           <a href="/id/" class="logo">
-            <img src="../images/logo_48.png" alt="Logo Scalita" width="28" height="28">
+            <img src="/images/logo_48.png" alt="Logo Scalita" width="28" height="28">
             Scalita
           </a>
           <p>Tangga nada sederhana. Piano asli. Tanpa basa-basi. Dibuat dengan benci untuk penyanyi di mana pun.</p>
@@ -438,16 +435,41 @@
           </ul>
         </div>
         <div class="footer-links">
+          <h4>Alat gratis</h4>
+          <ul>
+            <li><a href="/id/alat/">Alat gratis</a></li>
+            <li><a href="/id/alat/cek-range-vokal/">Tes range vokal</a></li>
+            <li><a href="/id/alat/cek-suara-fals/">Tes ketepatan nada</a></li>
+            <li><a href="/id/alat/piano-latihan-vokal/">Piano latihan vokal</a></li>
+            <li><a href="/id/alat/tes-passaggio/">Tes passaggio</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Panduan</h4>
+          <ul>
+            <li><a href="/id/panduan/latihan-vokal/">Pemanasan vokal</a></li>
+            <li><a href="/id/panduan/jenis-suara/">Jenis suara</a></li>
+            <li><a href="/id/panduan/pemanasan-vokal-cepat/">Pemanasan cepat</a></li>
+            <li><a href="/id/panduan/pemanasan-vokal-sebelum-bernyanyi/">Pemanasan lengkap</a></li>
+            <li><a href="/id/panduan/pendinginan-vokal/">Pendinginan vokal</a></li>
+            <li><a href="/id/panduan/lip-trill/">Lip trill dan tongue trill</a></li>
+            <li><a href="/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/">Latihan 5 nada</a></li>
+            <li><a href="/id/panduan/suara-pecah-saat-bernyanyi/">Suara pecah dan passaggio</a></li>
+            <li><a href="/id/panduan/suara-kepala-dan-suara-dada/">Suara kepala dan suara dada</a></li>
+            <li><a href="/id/panduan/not-angka-not-huruf/">Nama nada dan oktaf</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
           <h4>Legal</h4>
           <ul>
-            <li><a href="privacy.html">Kebijakan Privasi</a></li>
-            <li><a href="terms.html">Ketentuan Layanan</a></li>
+            <li><a href="/id/privacy.html">Kebijakan Privasi</a></li>
+            <li><a href="/id/terms.html">Ketentuan Layanan</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Bantuan</h4>
           <ul>
-            <li><a href="support.html">Bantuan dan kontak</a></li>
+            <li><a href="/id/support.html">Bantuan dan kontak</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Dukung di Ko-fi</a></li>
           </ul>
         </div>
@@ -474,8 +496,8 @@
             langMenu.querySelector('summary').focus();
           }
         });
-        // Remember a language chosen on purpose, so the redirect on the
-        // English page stops sending this visitor back where they came from.
+        // Remember a language chosen on purpose, so the language bar below
+        // never offers this visitor another one.
         var links = langMenu.querySelectorAll('a');
         for (var l = 0; l < links.length; l++) {
           links[l].addEventListener('click', function () {
@@ -501,6 +523,59 @@
             toggle.setAttribute('aria-expanded', 'false');
           });
         }
+      }
+
+      // Language bar. When the browser prefers another language this page
+      // also exists in, a bar at the bottom offers it, written in that
+      // language. It never redirects. Closing it, or picking a language
+      // from the menu, is remembered, and it does not come back.
+      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
+      var chosen = null;
+      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
+      var own = document.documentElement.lang.toLowerCase().split('-')[0];
+      var have = {};
+      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
+      for (var h = 0; h < alts.length; h++) {
+        var tag = alts[h].getAttribute('hreflang');
+        var primary = tag.toLowerCase().split('-')[0];
+        if (tag !== 'x-default' && !have[primary]) {
+          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
+        }
+      }
+      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var offer = null;
+      for (var w = 0; !chosen && w < wants.length; w++) {
+        var want = String(wants[w]).toLowerCase().split('-')[0];
+        if (want === own) break;
+        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
+      }
+      if (offer) {
+        var remember = function (value) {
+          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
+        };
+        var bar = document.createElement('div');
+        bar.className = 'lang-bar';
+        bar.setAttribute('data-nosnippet', '');
+        bar.lang = offer.tag;
+        var line = document.createElement('p');
+        var go = document.createElement('a');
+        go.href = offer.href;
+        go.hreflang = offer.tag;
+        go.textContent = offer.text.text;
+        go.addEventListener('click', function () { remember(offer.tag); });
+        line.appendChild(go);
+        var shut = document.createElement('button');
+        shut.type = 'button';
+        shut.className = 'lang-bar__close';
+        shut.setAttribute('aria-label', offer.text.close);
+        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
+        shut.addEventListener('click', function () {
+          bar.parentNode.removeChild(bar);
+          remember(document.documentElement.lang);
+        });
+        bar.appendChild(line);
+        bar.appendChild(shut);
+        document.body.appendChild(bar);
       }
 
       // Screenshot carousel. Stops auto-advancing for anyone who asked their
@@ -532,14 +607,14 @@
       }
     });
 
-    // The C major chord under the piano card.
-    var chord = ['60_C4.mp3', '64_E4.mp3', '67_G4.mp3'].map(function (f) {
-      var a = new Audio('../audio/' + f);
-      a.load();
-      return a;
-    });
+    // The C major chord under the piano card. The three notes download on
+    // the first tap, not with the page.
+    var chord = null;
 
     function playPianoChord() {
+      if (!chord) {
+        chord = ['/audio/60_C4.mp3?v=92837bcde0', '/audio/64_E4.mp3?v=dc372ddd93', '/audio/67_G4.mp3?v=9ceadf9eab'].map(function (src) { return new Audio(src); });
+      }
       chord.forEach(function (note, i) {
         note.currentTime = 0;
         setTimeout(function () { note.play(); }, i * 80);

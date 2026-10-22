@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "Ce navigateur ne peut pas utiliser le micro ici. Essaie une version récente de Chrome, Safari, Firefox ou Edge.",
+  "micInApp": "Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.",
+  "micBlocked": "Ton navigateur bloque le micro pour ce site. Autorise-le dans les paramètres du site, souvent derrière l'icône à côté de l'adresse, puis recharge la page.",
+  "micDismissed": "La page a besoin de ton autorisation pour utiliser le micro. Réessaie et choisis Autoriser quand ton navigateur le demande.",
+  "micNotFound": "Aucun micro n'a été trouvé. Branche-en un ou allume-le, puis réessaie.",
+  "micBusy": "Autre chose utilise le micro, comme un appel ou une autre application. Ferme-la et réessaie.",
+  "micInterrupted": "Le micro a coupé, peut-être à cause d'un appel ou d'un casque débranché. Réessaie quand tu veux.",
+  "micHidden": "L'écoute s'arrête quand tu quittes la page. Relance-la quand tu veux.",
+  "micFailed": "Un problème est survenu au démarrage du micro. Recharge la page et réessaie.",
+  "micBluetooth": "On dirait un casque Bluetooth. Son micro passe en qualité d'appel téléphonique, donc le micro du téléphone t'entendra mieux.",
+  "micSilent": "Aucun son n'arrive du micro. Vérifie qu'il n'est pas coupé, puis chante ou fredonne.",
+  "levelQuiet": "Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.",
+  "levelLoud": "C'est assez fort pour saturer. Recule un peu du micro."
+}

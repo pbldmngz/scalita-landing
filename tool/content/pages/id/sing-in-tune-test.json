@@ -1,0 +1,80 @@
+{
+  "slug": "cek-suara-fals",
+  "label": "Tes ketepatan nada",
+  "title": "Cek Suara Fals Online: Tes Ketepatan Nada Gratis - Scalita",
+  "description": "Dengarkan satu nada piano, nyanyikan kembali, dan lihat berapa sen selisihnya. Tes ketepatan nada dan tuner vokal gratis yang berjalan di browser.",
+  "h1": "Cek suara fals: tes ketepatan nada",
+  "lead": "Piano memainkan satu nada lalu berhenti. Kamu menyanyikannya kembali, dan halaman ini menunjukkan seberapa dekat kamu mendarat, dalam sen. Lima nada membentuk satu putaran, dan mode tuner menunjukkan nadamu selagi kamu menyanyikan apa saja.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Pilih jenis suaramu, atau pakai jangkauan yang kamu temukan di <a href=\"page:vocal-range-test\">tes range vokal</a>, supaya setiap nada berada di tempat yang bisa kamu nyanyikan.</li><li>Tekan Mulai dan izinkan mikrofon.</li><li>Dengarkan nadanya. Saat piano berhenti, nyanyikan kembali dengan vokal yang mudah, lalu tahan.</li><li>Jarum dan jejaknya menunjukkan seberapa jauh posisimu di atas atau di bawah nada itu selama kamu menahannya.</li><li>Setelah lima nada, baca hasilmu.</li></ol><p>Untuk tuner, pindah ke mode tuner lalu bernyanyilah. Tuner menunjukkan nada terdekat dan berapa sen jarakmu darinya, tanpa piano.</p>",
+  "sampleResult": "<h2>Contoh hasil</h2><p>Satu putaran lima nada, dan seberapa jauh masing-masing mendarat:</p><ul><li>{{note:A3}}: 6 sen terlalu rendah</li><li>{{note:C4}}: 12 sen terlalu tinggi</li><li>{{note:B3}}: 9 sen terlalu rendah</li><li>{{note:D4}}: 31 sen terlalu rendah</li><li>{{note:G3}}: 4 sen terlalu tinggi</li></ul><p>Selisih tipikal: 9 sen, nilai tengah dari kelima nada. Empat dari lima nada berada dalam 25 sen, batas yang dipakai aplikasi Scalita untuk menganggap sebuah nada tepat. Hasilnya juga menunjukkan seberapa stabil kamu menahan nada-nadanya.</p>",
+  "notClaimed": "<h2>Yang tidak dikatakan tes ini</h2><p>Tes ini mengukur nada dan tidak ada yang lain: seberapa dekat setiap nada mendarat ke nada yang dimainkan piano, dan seberapa stabil nada itu bertahan. Tes ini tidak mengatakan apa pun tentang warna suaramu, gayamu, atau kesan nyanyianmu bagi orang lain. Satu putaran di satu hari adalah satu bacaan nadamu, bukan penilaian atas telinga atau suaramu, dan ini bukan tes pendengaran.</p>",
+  "sections": [
+    {
+      "heading": "Yang diukur tes ini",
+      "html": "<p>Selisih nada diukur dalam sen. Setengah nada, langkah dari satu tuts piano ke tuts berikutnya, sama dengan 100 sen. Nada di atas target disebut terlalu tinggi (sharp), dan nada di bawahnya terlalu rendah (flat). Setelah kamu menetap di sebuah nada, tes ini mengukur berapa sen jarakmu dari nada piano dan seberapa banyak nadamu bergoyang selama kamu menahannya.</p><p>Seberapa dekat itu cukup dekat? Di aplikasi Scalita, sebuah nada dihitung meleset kalau selisihnya lebih dari seperempat setengah nada, yaitu 25 sen. Suara selalu sedikit bergerak di setiap nada, dan vibrato memang sengaja berayun ke atas dan ke bawah, jadi sedikit goyangan di sekitar nada itu wajar.</p>"
+    },
+    {
+      "heading": "Kenapa piano berhenti sebelum kamu bernyanyi",
+      "html": "<p>Piano dan mikrofon bergantian. Kalau keduanya bekerja bersamaan, mikrofon akan mendengar piano selain suaramu, dan kamu jadi butuh headphone. Karena bergantian, kamu tidak butuh.</p><p>Cara ini juga menguji hal yang penting saat bernyanyi: mendengar sebuah nada, lalu menemukannya hanya dengan suaramu. Dalam satu penelitian, penyanyi yang cenderung meleset tampak malah terganggu, bukan terbantu, saat nada yang benar ikut dimainkan bersama mereka (Pfordresher dan Brown, 2007).</p>"
+    },
+    {
+      "heading": "Meleset dari nada biasanya bukan soal telinga",
+      "html": "<p>Penelitian tentang orang yang bernyanyi fals menemukan bahwa sebagian besar dari mereka mendengar nada dengan normal. Dalam eksperimen Pfordresher dan Brown, 10 sampai 15 persen peserta menyanyikan kembali nada dengan selisih setidaknya setengah nada, padahal mereka bisa membedakan nada sebaik penyanyi yang akurat. Hutchins dan Peretz (2012) menemukan bahwa orang mencocokkan nada lebih akurat dengan penggeser (slider) daripada dengan suaranya sendiri. Bagi kebanyakan orang, bagian yang sulit adalah mengarahkan suara ke nada yang bisa mereka dengar.</p><p>Kesulitan mendengar nada seumur hidup memang ada. Namanya amusia kongenital, dan sebuah penelitian terhadap 20.000 orang memperkirakannya sekitar 1,5 persen dari populasi (Peretz dan Vuvan, 2017). Tes ini tidak bisa mendiagnosisnya dan memang tidak dimaksudkan untuk itu.</p>"
+    },
+    {
+      "heading": "Mode tuner",
+      "html": "<p>Tuner melewatkan piano. Nyanyikan nada apa saja, dan tuner menunjukkan nama nada terdekat dan berapa sen kamu terlalu tinggi atau terlalu rendah, selagi kamu bernyanyi. Pakai untuk mengecek nada yang sedang kamu tahan, melihat luncuran dari satu nada ke nada lain, atau melihat seberapa lebar ayunan vibratomu.</p>"
+    },
+    {
+      "heading": "Cek dengar singkat",
+      "html": "<p>Untuk mengecek telingamu saja, cek dengar memainkan dua nada dan menanyakan mana yang lebih tinggi. Isinya tiga pertanyaan dengan jawaban dalam kata-kata: sekadar gambaran singkat, bukan tes pendengaran.</p>"
+    },
+    {
+      "heading": "Kalau mikrofon tidak berfungsi",
+      "html": "<p>Buka halaman ini di Chrome, Safari, Firefox, atau Edge, bukan di dalam Instagram, TikTok, Facebook, atau Gmail, yang browser bawaannya memblokir mikrofon. Kalau kamu menekan Blokir, izinkan mikrofon di pengaturan situs lalu muat ulang. Pakai mikrofon bawaan ponsel, bukan earbud Bluetooth, dan kalau levelnya tetap rendah, bernyanyilah sedikit lebih keras atau lebih dekat.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bagaimana cara tahu suaraku fals atau tidak?",
+      "a": "<p>Sulit menilai nadamu sendiri dengan telinga sambil bernyanyi. Rekaman membantu, dan pengukuran lebih membantu lagi: tes ini memainkan sebuah nada, kamu menyanyikannya kembali, dan tes ini memberi tahu berapa sen selisihmu. Di aplikasi Scalita, selisih sampai 25 sen dihitung tepat di nadanya.</p>"
+    },
+    {
+      "q": "Kenapa nadaku terlalu rendah atau terlalu tinggi?",
+      "a": "<p>Penyebab yang umum adalah nada di dekat batas jangkauan nyamanmu, suara yang lelah atau belum dipanaskan, terburu-buru, dan bunyi piano itu sendiri: dalam satu penelitian, orang yang bukan musisi lebih tepat mencocokkan rekaman suaranya sendiri daripada nada sintetis (Hutchins dan Peretz, 2012). Memperlambat tempo membantu banyak penyanyi. Saat penyanyi awam dalam penelitian lain menyanyikan lagu yang mereka kenal dengan lebih lambat, sebagian besar dari mereka bernyanyi hampir seakurat penyanyi profesional (Dalla Bella dan rekan-rekan, 2007).</p>"
+    },
+    {
+      "q": "Bisakah sebuah tes mengatakan aku bisa bernyanyi atau tidak?",
+      "a": "<p>Tes seperti ini mengukur satu bagian dari bernyanyi: mendarat di nada yang dituju. Warna suara, ritme, lirik, dan gaya sama pentingnya, dan tidak ada tes mikrofon yang bisa menilainya. Selisih yang lebar dalam satu putaran hanya berarti lima nada itu mendarat jauh dari piano pada saat itu.</p>"
+    },
+    {
+      "q": "Apakah perlu headphone?",
+      "a": "<p>Tidak. Piano berbunyi lebih dulu dan berhenti sebelum mikrofon mendengarkan, jadi mikrofon hanya mendengar suaramu.</p>"
+    },
+    {
+      "q": "Seberapa akurat bacaannya?",
+      "a": "<p>Pada nada yang jelas dan stabil, bacaan nadanya akurat sampai beberapa sen. Kebisingan di sekitar, mikrofon yang pelan, dan earbud Bluetooth membuatnya kurang andal, dan halaman ini memberi tahu kalau levelmu terlalu rendah.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher dan Brown (2007), penelitian tentang nyanyian yang meleset dan persepsi nada, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère dan Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins dan Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz dan Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

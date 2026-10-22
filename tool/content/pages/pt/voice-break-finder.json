@@ -1,0 +1,68 @@
+{
+  "slug": "teste-de-passagem-vocal",
+  "label": "Teste de passagem vocal",
+  "title": "Teste de passagem vocal: ache o seu passaggio no piano - Scalita",
+  "description": "Cante junto com o piano subindo e marque onde a sua voz muda. Você recebe a sua primeira passagem e o tipo de voz com a passagem mais próxima. Sem microfone.",
+  "h1": "Teste de passagem vocal",
+  "lead": "Cante junto enquanto o piano sobe e aperte o botão quando a sua voz quiser quebrar, virar para um som mais leve ou pedir mais força. Você recebe a nota onde fica a sua primeira passagem e o tipo de voz com a passagem mais próxima.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>Como achar a sua passagem</h2><ol><li>Aperte “Vamos lá” e escolha voz mais grave ou voz mais aguda. Isso define onde o piano começa e com quais três tipos de voz o seu resultado é comparado.</li><li>O piano toca uma nota a cada dois segundos, meio tom mais aguda a cada vez.</li><li>Cante junto numa vogal fácil como “a”, num volume médio, e mantenha o som igual durante toda a subida.</li><li>Aperte o botão no momento em que a sua voz quiser quebrar, virar para um som mais leve e soproso, ou de repente pedir mais esforço.</li><li>O piano toca três notas: dois semitons abaixo da que você marcou, essa nota e dois acima. Se a mudança veio um pouco antes ou depois, mova meio tom para baixo ou para cima e confirme.</li></ol>",
+  "sampleResult": "<h2>Como fica um resultado</h2><p>Digamos que você escolheu voz mais aguda e marcou em {{note:E4}}. O resultado mostra:</p><ul><li>Primeira mudança: {{note:E4}}</li><li>Mais próximo: mezzo-soprano, cuja primeira mudança costuma ficar perto de {{note:E4}}</li><li>Segunda mudança, estimada a partir desse tipo de voz: perto de {{note:E5}}</li></ul><p>O trecho entre as duas mudanças é a sua zona de passagem. O tipo de voz também depende de onde a sua voz soa melhor e do seu timbre, então use a comparação como ponto de partida.</p>",
+  "notClaimed": "<h2>O que este teste não diz</h2><p>A nota que você marca é onde você sentiu a mudança hoje, naquela vogal, naquele volume. Cante mais forte ou troque a vogal e ela pode se mover. Só a primeira mudança é achada de ouvido. A segunda é uma estimativa a partir do tipo de voz que bateu, não uma medição.</p><p>Ele não define o seu tipo de voz e não ensina a suavizar a passagem. Algumas vozes, muitas vezes as treinadas, atravessam essa zona com tanta suavidade que não há uma quebra clara. Se for o seu caso, marque onde cantar começa a pedir mais esforço, ou pule este teste.</p>",
+  "sections": [
+    {
+      "heading": "O que é a passagem vocal",
+      "html": "<p>Quando você sobe uma escala, existe um trecho em que a sua voz troca de marcha. Ela pode quebrar, virar para um som mais leve ou de repente pedir mais esforço. Toda voz tem isso. Não é defeito, e boa parte do treino vocal é sobre atravessar esse trecho com suavidade.</p><p>O ensino clássico chama essas mudanças de passaggi, “passagens” em italiano: a primeira, o primo passaggio, e uma segunda mais acima, o secondo passaggio, com uma zona entre as duas. Este teste procura a primeira.</p>"
+    },
+    {
+      "heading": "Onde ela fica em cada tipo de voz",
+      "html": "<p>Na tabela do Scalita, a primeira mudança fica perto de {{note:F4}} no soprano, {{note:E4}} no mezzo-soprano, {{note:D4}} no contralto e no tenor, {{note:B3}} no barítono e {{note:G#3}} no baixo. São médias do canto clássico, e vozes reais variam.</p><p>Um contralto e um tenor têm a mesma primeira mudança, mas não a mesma extensão. Por isso o teste pergunta se a voz é mais grave ou mais aguda: a mesma nota aponta para um tipo de voz diferente em cada grupo.</p>"
+    },
+    {
+      "heading": "Por que a passagem diz mais do que a extensão",
+      "html": "<p>Dois cantores podem dividir quase toda a extensão e ainda assim mudar em lugares diferentes. É por isso que o Scalita trata a sua passagem como um guia mais confiável para o tipo de voz do que a extensão sozinha. Os professores também escutam onde a voz fica confortável e o timbre dela, coisas que um piano não consegue medir.</p>"
+    },
+    {
+      "heading": "Como o teste funciona",
+      "html": "<p>Ele usa só o piano, nunca o microfone. Quem julga a mudança é você, pela sensação e de ouvido, então o teste funciona em qualquer navegador, com ou sem microfone.</p><p>O piano começa no grave, em {{note:C3}} para voz mais grave e em {{note:G#3}} para voz mais aguda, e sobe meio tom a cada dois segundos. Quando você aperta o botão, aquela nota vira a sua primeira mudança. O teste então procura, no seu grupo, o tipo de voz cuja primeira mudança fica mais perto, e tira a segunda mudança desse tipo.</p>"
+    },
+    {
+      "heading": "Para ter uma resposta clara",
+      "html": "<ul><li>Aqueça um pouco antes, por exemplo com algumas escalas no <a href=\"page:warm-up-piano\">piano de aquecimento</a>.</li><li>Mantenha a vogal e o volume iguais durante toda a subida. Os dois podem mudar o ponto em que você sente a passagem.</li><li>Não force além da mudança para continuar subindo. Aperte o botão e deixe ir.</li><li>Faça duas vezes. Uma nota de diferença entre as tentativas é normal, porque a mudança é uma zona, não um ponto único.</li></ul>"
+    },
+    {
+      "heading": "Depois de achar",
+      "html": "<p>A passagem é onde acontece boa parte do estudo de canto. No app Scalita, ela dá forma aos exercícios: alguns param logo antes da passagem, alguns cruzam uma vez e voltam, alguns se concentram na zona de passagem, e alguns levam você até o alto, pela voz de cabeça. A rotina Construindo a ponte é montada em volta dela. Para entender o contexto, leia <a href=\"page:voice-cracks-high-notes\">por que a voz falha no agudo</a> e <a href=\"page:head-voice-vs-chest-voice\">voz de cabeça e voz de peito</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "É ruim a minha voz falhar?",
+      "a": "<p>Não. Toda voz tem essas mudanças, e uma falha é a voz fazendo uma delas de repente, em vez de suavemente. Se cantar dói ou a sua voz continua rouca, descanse e procure um médico ou um fonoaudiólogo. Tem mais sobre isso em <a href=\"page:voice-cracks-high-notes\">por que a voz falha no agudo</a>.</p>"
+    },
+    {
+      "q": "Onde fica o passaggio do tenor?",
+      "a": "<p>Na tabela do Scalita, que segue médias do canto clássico, a primeira mudança do tenor fica perto de {{note:D4}} e a segunda perto de {{note:G4}}. No soprano, as duas ficam perto de {{note:F4}} e {{note:F5}}. A sua pode ficar um pouco mais aguda ou mais grave, e é para isso que serve o teste.</p>"
+    },
+    {
+      "q": "Por que ele pergunta se a voz é mais grave ou mais aguda?",
+      "a": "<p>Para escolher com quais três tipos de voz comparar você, tenor, barítono e baixo ou soprano, mezzo-soprano e contralto, e para definir onde o piano começa a subir. Não é uma pergunta sobre gênero.</p>"
+    },
+    {
+      "q": "Preciso de microfone?",
+      "a": "<p>Não. O teste só toca o piano. Você escuta a sua própria voz e aperta o botão.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Wikipédia (em inglês): Passaggio, o primo e o secondo passaggio, com as faixas de registro de Miller para o tenor lírico",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

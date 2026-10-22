@@ -14,24 +14,23 @@
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/support.html">
   <link rel="alternate" hreflang="fr" href="https://scalita.com/fr/support.html">
   <link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/support.html">
+  <link rel="alternate" hreflang="pt" href="https://scalita.com/pt/support.html">
   <link rel="alternate" hreflang="de" href="https://scalita.com/de/support.html">
   <link rel="alternate" hreflang="tr" href="https://scalita.com/tr/support.html">
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/support.html">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html">
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/logo_32.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="../images/logo_192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
 
-  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
 </head>
 <body>
   <nav>
     <div class="container">
       <a href="/id/" class="logo">
-        <img src="../images/logo.svg" alt="Logo Scalita" width="32" height="32">
+        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
         Scalita
       </a>
       <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
@@ -43,7 +42,9 @@
         <li><a href="/id/#features">Fitur</a></li>
         <li><a href="/id/#pricing">Harga</a></li>
         <li><a href="/id/#download">Unduh</a></li>
-        <li><a href="support.html">Bantuan</a></li>
+        <li><a href="/id/alat/">Alat</a></li>
+        <li><a href="/id/panduan/latihan-vokal/">Panduan</a></li>
+        <li><a href="/id/support.html">Bantuan</a></li>
         <li class="nav-lang">
           <details class="lang-menu">
             <summary aria-label="Bahasa: Bahasa Indonesia">
@@ -63,7 +64,7 @@
             <a href="/pt/support.html" hreflang="pt-BR" lang="pt-BR">Português</a>
             <a href="/de/support.html" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/support.html" hreflang="tr" lang="tr">Türkçe</a>
-            <a href="support.html" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a>
+            <a href="/id/support.html" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a>
             </div>
           </details>
         </li>
@@ -179,8 +180,8 @@
             langMenu.querySelector('summary').focus();
           }
         });
-        // Remember a language chosen on purpose, so the redirect on the
-        // English page stops sending this visitor back where they came from.
+        // Remember a language chosen on purpose, so the language bar below
+        // never offers this visitor another one.
         var links = langMenu.querySelectorAll('a');
         for (var l = 0; l < links.length; l++) {
           links[l].addEventListener('click', function () {
@@ -206,6 +207,59 @@
             toggle.setAttribute('aria-expanded', 'false');
           });
         }
+      }
+
+      // Language bar. When the browser prefers another language this page
+      // also exists in, a bar at the bottom offers it, written in that
+      // language. It never redirects. Closing it, or picking a language
+      // from the menu, is remembered, and it does not come back.
+      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
+      var chosen = null;
+      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
+      var own = document.documentElement.lang.toLowerCase().split('-')[0];
+      var have = {};
+      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
+      for (var h = 0; h < alts.length; h++) {
+        var tag = alts[h].getAttribute('hreflang');
+        var primary = tag.toLowerCase().split('-')[0];
+        if (tag !== 'x-default' && !have[primary]) {
+          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
+        }
+      }
+      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var offer = null;
+      for (var w = 0; !chosen && w < wants.length; w++) {
+        var want = String(wants[w]).toLowerCase().split('-')[0];
+        if (want === own) break;
+        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
+      }
+      if (offer) {
+        var remember = function (value) {
+          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
+        };
+        var bar = document.createElement('div');
+        bar.className = 'lang-bar';
+        bar.setAttribute('data-nosnippet', '');
+        bar.lang = offer.tag;
+        var line = document.createElement('p');
+        var go = document.createElement('a');
+        go.href = offer.href;
+        go.hreflang = offer.tag;
+        go.textContent = offer.text.text;
+        go.addEventListener('click', function () { remember(offer.tag); });
+        line.appendChild(go);
+        var shut = document.createElement('button');
+        shut.type = 'button';
+        shut.className = 'lang-bar__close';
+        shut.setAttribute('aria-label', offer.text.close);
+        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
+        shut.addEventListener('click', function () {
+          bar.parentNode.removeChild(bar);
+          remember(document.documentElement.lang);
+        });
+        bar.appendChild(line);
+        bar.appendChild(shut);
+        document.body.appendChild(bar);
       }
     });
   </script>

@@ -1,0 +1,89 @@
+[
+  {
+    "ceiling": 48,
+    "descriptions": {
+      "de": "Rasselnde Töne unter deiner Bruststimme",
+      "en": "Rattling notes below your chest voice",
+      "es": "Notas graves con vibración, por debajo de tu voz de pecho",
+      "fr": "Les notes graves et râpeuses sous ta voix de poitrine",
+      "id": "Nada bergemeretak di bawah suara dadamu",
+      "pt": "Notas que chacoalham abaixo da sua voz de peito",
+      "tr": "Göğüs sesinin altındaki çatırtılı notalar"
+    },
+    "floor": 21,
+    "high": 41,
+    "id": "subharmonic",
+    "low": 33,
+    "minSpan": 7,
+    "names": {
+      "de": "Subharmonisch",
+      "en": "Subharmonic",
+      "es": "Subarmónico",
+      "fr": "Subharmonique",
+      "id": "Subharmonik",
+      "pt": "Subarmônico",
+      "tr": "Subharmonik"
+    },
+    "routinesUsing": [
+      "subharmonic_warmup"
+    ]
+  },
+  {
+    "ceiling": 108,
+    "descriptions": {
+      "de": "Der dünne, flötenartige Klang über der Kopfstimme",
+      "en": "The thin, flute-like tone above head voice",
+      "es": "El tono fino y aflautado por encima de la voz de cabeza",
+      "fr": "Le timbre fin, comme une flûte, au-dessus de la voix de tête",
+      "id": "Warna tipis seperti suling di atas suara kepala",
+      "pt": "O som fino, de flauta, acima da voz de cabeça",
+      "tr": "Kafa sesinin üstündeki ince, flüt gibi tını"
+    },
+    "floor": 74,
+    "high": 88,
+    "id": "flageolet",
+    "low": 79,
+    "minSpan": 5,
+    "names": {
+      "de": "Flageolett",
+      "en": "Flageolet",
+      "es": "Flageolet",
+      "fr": "Flageolet",
+      "id": "Flageolet",
+      "pt": "Flageolet",
+      "tr": "Flajöle"
+    },
+    "routinesUsing": [
+      "flageolet_bridge"
+    ]
+  },
+  {
+    "ceiling": 108,
+    "descriptions": {
+      "de": "Die äußerste Spitze der Stimme, über dem Flageolett",
+      "en": "The very top of the voice, above flageolet",
+      "es": "Lo más alto de la voz, por encima del flageolet",
+      "fr": "Le tout haut de la voix, au-dessus du flageolet",
+      "id": "Bagian paling atas suara, di atas flageolet",
+      "pt": "O extremo agudo da voz, acima do flageolet",
+      "tr": "Sesin en tepesi, flajölenin üstü"
+    },
+    "floor": 84,
+    "high": 96,
+    "id": "whistle",
+    "low": 89,
+    "minSpan": 5,
+    "names": {
+      "de": "Pfeifstimme",
+      "en": "Whistle",
+      "es": "Silbido",
+      "fr": "Sifflet",
+      "id": "Whistle",
+      "pt": "Voz de apito",
+      "tr": "Islık sesi"
+    },
+    "routinesUsing": [
+      "whistle_explorer"
+    ]
+  }
+]

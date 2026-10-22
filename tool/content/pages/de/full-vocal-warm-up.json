@@ -1,0 +1,40 @@
+{
+  "slug": "einsingen-uebungen",
+  "label": "Volles Einsingen",
+  "title": "Volles Einsingen: Einsingübungen für den ganzen Umfang - Scalita",
+  "description": "Ein volles Einsingen: neun Übungen vom Zungentriller bis zu anderthalb Oktaven, auf einem echten Klavier in deinem Umfang, Schritt für Schritt erklärt.",
+  "h1": "Volles Einsingen für den ganzen Umfang",
+  "lead": "Das volle Einsingen, für Übungstage, Unterricht und Proben, wenn du vor dem Singen einmal durch deine ganze Stimme gehen willst. Es ist die Scalita-Routine Allgemeines Einsingen: neun Übungen in drei Etappen, von klein und leicht bis weit.",
+  "routineId": "general_warmup",
+  "whyOrder": "<h2>Warum diese Reihenfolge</h2><p>Die Routine geht in drei Etappen von klein und leicht zu weit. Bei einem Umfang von zwei Oktaven dauert sie 12 bis 14 Minuten.</p><p><strong>Schritte 1 bis 3: ein Triller und zweimal Summen auf fünf Tönen.</strong> Ein Zungentriller über deinen ganzen Umfang, ein Summen, das abwärts geht, dann ein Summen, das sich in einen hellen Vokal öffnet. Die Muster sind nur fünf Töne weit, und die Tempi sind gemäßigt. Scalita beginnt mit dem Zungentriller. Wenn deine Sprache kein gerolltes R hat und er dir schwerfällt, fang mit dem Lippenflattern an.</p><p><strong>Schritte 4 bis 8: Arpeggien um deinen Registerbruch.</strong> Das Muster weitet sich auf eine Oktave, und fünf Silben wechseln sich ab. Zwei sind <em>Nur annähern</em> und hören unter deinem Bruch auf; drei sind <em>Einmal queren</em> und gehen darüber und zurück. Sie sind gemischt, also gehst du mehrmals auf verschiedenen Klängen an den Bruch heran, darüber und zurück. Die Silben mit M und N beginnen mit einem Summen, und das G gibt jedem Ton einen sauberen Einsatz.</p><p><strong>Schritt 9: anderthalb Oktaven auf einem Lippenflattern.</strong> Das weiteste Muster kommt zuletzt, auf einem Triller, um den ganzen Umfang zu einer Linie zu verbinden, wenn alles andere warm ist.</p><p>Innerhalb jeder Übung beginnt das Klavier in einer bequemen Tonart statt auf deinem tiefsten Ton, steigt halbtonweise bis an die Obergrenze ihres Bereichs und kommt dann Tonart für Tonart wieder bis ganz nach unten.</p>",
+  "whatToFeel": "<h2>Was du spüren solltest</h2><p>Bei Trillern und Summen ein Vibrieren in Lippen, Nase und Gesicht und kein Druck im Hals. Die App markiert die Triller und das einfache Summen mit Resonanz: Sing durch ein sanftes Summen, wie durch einen Strohhalm.</p><p>Bei den Arpeggien achte darauf, wo deine Stimme auf dem Weg nach oben den Gang wechseln will. Die Schritte zum Annähern hören davor auf. Bei den Schritten zum Queren lass den Wechsel zu und bleib leicht, statt den tiefen Klang mit mehr Kraft nach oben zu tragen. Der Hinweis Mischstimme in der App verlangt dasselbe: Glätte den Wechsel zwischen tiefer und hoher Stimme. Wenn du nicht weißt, wo dein Registerbruch liegt, hilft dir der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>, ihn zu finden.</p><h3>Häufige Fehler</h3><ul><li><strong>Mit den Tönen lauter werden.</strong> Halte die Lautstärke von unten bis oben ungefähr gleich.</li><li><strong>Ein Umfangstraining daraus machen.</strong> Lass jeden obersten Ton aus, der sich nach Strecken anfühlt. Du singst dich ein, du testest nicht.</li><li><strong>Zwischen den Tonarten die Luft anhalten.</strong> Das Klavier lässt dir nach jedem Akkord einen Moment. Nutz ihn zum Einatmen.</li><li><strong>Einen Triller pressen, der immer wieder abbricht.</strong> Lockere Lippen oder Zunge, halte die Luft ruhig oder wechsle zum anderen Triller.</li></ul>",
+  "whenToStop": "<h2>Wann du aufhören solltest</h2><p>Hör auf bei Schmerzen, bei einem kratzigen oder brennenden Hals oder wenn deine Stimme mit der Zeit rauer wird. Wenn sie sich am Ende des Einsingens müder anfühlt als am Anfang, schone sie für den Rest des Tages.</p><p>Die Arpeggio-Schritte liegen um deinen Registerbruch herum statt innerhalb deines Umfangs, deshalb beginnen sie bei manchen Voreinstellungen unter den Tönen, die du singen kannst. Bleib bei jeder Tonart still, die zu tief oder zu hoch ist, und steig ein, wenn das Muster wieder in deiner Stimme liegt. Nahe der Obergrenze sing lieber leiser als kräftiger.</p>",
+  "next": "<h2>Wie es weitergeht</h2><p>Sing deine Lieder, solange die Stimme warm ist. Nach einer langen Einheit schließ mit dem <a href=\"page:vocal-cool-down\">Cool-down</a> ab. An Tagen mit weniger Zeit behält das <a href=\"page:quick-vocal-warm-up\">kurze Einsingen</a> den Triller, eine Querung deines Registerbruchs und das weite Muster, in fünf Schritten.</p><p>Zwei Seiten erklären die Bausteine: <a href=\"page:lip-trills\">Lippenflattern und Zungentriller</a>, mit denen diese Routine beginnt und endet, und die <a href=\"page:five-note-scale\">5-Töne-Übung</a> ihrer ersten drei Schritte.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Kann ich es auf genau zehn Minuten bringen?",
+      "a": "<p>Nicht mit dieser Routine, so wie sie ist. Mit den sechs Voreinstellungen dauert sie 12 bis 14 Minuten, bei einem kleineren Umfang weniger, weil die erste Übung deinen ganzen Umfang durchläuft. In der App fragt der Adaptive Modus, wie viel Zeit du hast (5, 10 oder 15 Minuten oder ohne Limit), und teilt die Einheit passend ein: ein Einsingen, ein Hauptteil und ein Ausklingen.</p>"
+    },
+    {
+      "q": "Sollte ich mich jeden Tag einsingen?",
+      "a": "<p>Sing dich an den Tagen ein, an denen du singst, und zwar vorher. Wenn du täglich übst, beginnt jedes Üben mit dem Einsingen, und wenn du jeden Tag dieselbe Routine singst, merkst du leichter, wenn sich deine Stimme anders anfühlt.</p>"
+    },
+    {
+      "q": "Wie singe ich mich mit Klavier ein?",
+      "a": "<p>Drück auf dieser Seite auf Abspielen. Das Klavier spielt jedes Muster, gibt dir zwischen den Tonarten einen Akkord und einen Moment Pause und rückt dann einen Halbton weiter. Sing auf der Silbe mit, die für den Schritt angezeigt wird. Wenn du selbst Klavier spielst, folg der Tabelle mit den Schritten: dasselbe Muster und dieselbe Silbe, tief beginnend, wo es sich leicht anfühlt.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims und McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79"
+}

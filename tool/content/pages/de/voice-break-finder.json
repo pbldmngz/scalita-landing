@@ -1,0 +1,68 @@
+{
+  "slug": "registerwechsel-finden",
+  "label": "Registerwechsel-Finder",
+  "title": "Registerwechsel finden: dein Passaggio am Klavier - Scalita",
+  "description": "Sing zum steigenden Klavier und tippe, wo deine Stimme wechselt. Du erfährst dein erstes Passaggio und die Stimmlage mit dem ähnlichsten Bruch. Ohne Mikrofon.",
+  "h1": "Registerwechsel finden",
+  "lead": "Sing mit, während das Klavier steigt, und tippe, wenn deine Stimme kippen will, in einen leichteren Klang umschlägt oder Druck braucht. Du bekommst den Ton, an dem dein erster Registerbruch liegt, und die Stimmlage, deren Bruch am nächsten liegt.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>So findest du deinen Registerbruch</h2><ol><li>Drück auf „Los geht's“ und wähl tiefere oder höhere Stimme. Davon hängt ab, wo das Klavier beginnt und mit welchen drei Stimmlagen dein Ergebnis verglichen wird.</li><li>Das Klavier spielt alle zwei Sekunden einen Ton, jedes Mal einen Halbton höher.</li><li>Sing auf einem leichten Vokal wie „a“ mit, in mittlerer Lautstärke, und lass den Klang auf dem ganzen Weg nach oben gleich.</li><li>Tippe in dem Moment, in dem deine Stimme kippen will, in einen leichteren, behauchten Klang umschlägt oder plötzlich mehr Kraft braucht.</li><li>Das Klavier spielt drei Töne: zwei Halbtöne unter dem getippten, diesen Ton selbst und zwei darüber. Wenn der Wechsel etwas früher oder später kam, verschieb ihn einen Halbton nach unten oder oben und bestätige dann.</li></ol>",
+  "sampleResult": "<h2>So sieht ein Ergebnis aus</h2><p>Angenommen, du hast höhere Stimme gewählt und bei {{note:E4}} getippt. Dann steht im Ergebnis:</p><ul><li>Erster Wechsel: {{note:E4}}</li><li>Am nächsten dran: Mezzosopran, dessen erster Wechsel meist um {{note:E4}} liegt</li><li>Zweiter Wechsel, geschätzt aus dieser Stimmlage: um {{note:E5}}</li></ul><p>Die Strecke zwischen den beiden Wechseln ist deine Bruchzone. Deine Stimmlage hängt auch davon ab, wo deine Stimme am besten klingt, und von deiner Klangfarbe, also nimm den Vergleich als Ausgangspunkt.</p>",
+  "notClaimed": "<h2>Was das nicht aussagt</h2><p>Der Ton, auf den du tippst, ist der, an dem du den Wechsel heute gespürt hast, auf diesem Vokal, in dieser Lautstärke. Sing lauter oder nimm einen anderen Vokal, und er kann sich verschieben. Nur der erste Wechsel wird nach Gehör gefunden. Der zweite ist eine Schätzung aus der passenden Stimmlage, keine Messung.</p><p>Der Finder legt deine Stimmlage nicht fest, und er bringt dir nicht bei, den Bruch zu glätten. Manche Stimmen, oft ausgebildete, gehen so glatt durch diese Zone, dass es keinen deutlichen Kiekser gibt. Wenn das bei dir so ist, tippe dort, wo das Singen anfängt, mehr Mühe zu kosten, oder lass es aus.</p>",
+  "sections": [
+    {
+      "heading": "Was ein Registerbruch ist",
+      "html": "<p>Wenn du eine Tonleiter hinaufsingst, gibt es eine Strecke, auf der deine Stimme den Gang wechselt. Sie kann kippen, in einen leichteren Klang umschlagen oder plötzlich mehr Kraft brauchen. Das hat jede Stimme. Es ist kein Makel, und in der Stimmbildung geht es zu einem großen Teil darum, glatt durch diese Stelle zu kommen.</p><p>Die klassische Gesangslehre nennt diese Wechsel Passaggi, italienisch für Übergänge: einen ersten, das Primo Passaggio, und einen zweiten weiter oben, das Secondo Passaggio, mit einer Zone dazwischen. Dieser Finder sucht den ersten.</p>"
+    },
+    {
+      "heading": "Wo er bei jeder Stimmlage liegt",
+      "html": "<p>In Scalitas Tabelle liegt der erste Wechsel beim Sopran um {{note:F4}}, beim Mezzosopran um {{note:E4}}, bei Contralto und Tenor um {{note:D4}}, beim Bariton um {{note:B3}} und beim Bass um {{note:G#3}}. Das sind klassische Durchschnittswerte, und echte Stimmen sind verschieden.</p><p>Contralto und Tenor teilen sich einen ersten Wechsel, aber keinen Umfang. Deshalb fragt der Finder nach einer tieferen oder höheren Stimme: Derselbe Ton zeigt in jeder Gruppe auf eine andere Stimmlage.</p>"
+    },
+    {
+      "heading": "Warum der Bruch mehr sagt als dein Umfang",
+      "html": "<p>Zwei Menschen können fast denselben Umfang haben und trotzdem an verschiedenen Stellen wechseln. Deshalb sieht Scalita deinen Registerbruch als zuverlässigeren Hinweis auf die Stimmlage als den Umfang allein. Lehrkräfte hören außerdem darauf, wo eine Stimme sich wohlfühlt, und auf ihre Klangfarbe, und beides kann ein Klavier nicht messen.</p>"
+    },
+    {
+      "heading": "So funktioniert der Finder",
+      "html": "<p>Er nutzt nur das Klavier, nie das Mikrofon. Den Wechsel beurteilst du selbst, nach Gefühl und nach Gehör, also funktioniert der Finder in jedem Browser, mit oder ohne Mikrofon.</p><p>Das Klavier beginnt tief, bei {{note:C3}} für eine tiefere Stimme und bei {{note:G#3}} für eine höhere, und steigt alle zwei Sekunden einen Halbton. Wenn du tippst, wird dieser Ton dein erster Wechsel. Dann sucht der Finder die Stimmlage deiner Gruppe, deren erster Wechsel am nächsten liegt, und übernimmt von ihr den zweiten Wechsel.</p>"
+    },
+    {
+      "heading": "Für eine klare Antwort",
+      "html": "<ul><li>Sing dich vorher ein wenig ein, zum Beispiel mit ein paar Tonleitern am <a href=\"page:warm-up-piano\">Einsing-Klavier</a>.</li><li>Lass Vokal und Lautstärke auf dem ganzen Weg nach oben gleich. Beides kann verschieben, wo du den Wechsel spürst.</li><li>Drück nicht über den Wechsel hinweg, nur um weiterzukommen. Tippe und lass los.</li><li>Probier es zweimal. Ein Ton Unterschied zwischen zwei Versuchen ist normal, denn der Wechsel ist eine Zone, kein einzelner Punkt.</li></ul>"
+    },
+    {
+      "heading": "Wenn du ihn gefunden hast",
+      "html": "<p>Um deinen Registerbruch dreht sich beim Üben viel. In der Scalita-App formt er die Übungen: Manche hören kurz vor dem Bruch auf, manche queren ihn einmal und kommen zurück, manche zentrieren sich auf die Bruchzone, und manche führen dich ganz hinauf durch die Kopfstimme. Die Routine Brückenbauer ist darum herum gebaut. Zum Hintergrund lies, <a href=\"page:voice-cracks-high-notes\">warum die Stimme bei hohen Tönen bricht</a>, und mehr über <a href=\"page:head-voice-vs-chest-voice\">Kopfstimme und Bruststimme</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist es schlimm, wenn meine Stimme kippt?",
+      "a": "<p>Nein. Jede Stimme hat diese Wechsel, und bei einem Kiekser vollzieht die Stimme einen davon plötzlich statt fließend. Wenn Singen wehtut oder deine Stimme heiser bleibt, schone sie und geh zu einer Ärztin, einem Arzt oder in die Stimmtherapie. Mehr dazu unter <a href=\"page:voice-cracks-high-notes\">warum die Stimme bei hohen Tönen bricht</a>.</p>"
+    },
+    {
+      "q": "Wo liegt das Passaggio beim Tenor?",
+      "a": "<p>In Scalitas Tabelle, die klassischen Durchschnittswerten folgt, liegt der erste Wechsel des Tenors um {{note:D4}} und der zweite um {{note:G4}}. Beim Sopran liegen die beiden um {{note:F4}} und {{note:F5}}. Deine können etwas höher oder tiefer liegen, und genau dafür ist der Finder da.</p>"
+    },
+    {
+      "q": "Warum fragt er nach einer tieferen oder höheren Stimme?",
+      "a": "<p>Um auszuwählen, mit welchen drei Stimmlagen er dich vergleicht, Tenor, Bariton und Bass oder Sopran, Mezzosopran und Contralto, und um festzulegen, wo das Klavier zu steigen beginnt. Nach dem Geschlecht fragt er nicht.</p>"
+    },
+    {
+      "q": "Brauche ich ein Mikrofon?",
+      "a": "<p>Nein. Der Finder spielt nur Klavier. Du hörst auf deine eigene Stimme und tippst.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Wikipedia (englisch): Passaggio, mit Primo und Secondo Passaggio und Millers Registerbereichen für den lyrischen Tenor",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

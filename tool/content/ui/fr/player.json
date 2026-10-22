@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Ta voix",
+  "custom": "Ta propre tessiture",
+  "lowest": "Note la plus grave",
+  "highest": "Note la plus aiguë",
+  "chooserLabel": "Exercice",
+  "routines": "Routines",
+  "scales": "Gammes",
+  "pickVoice": "Choisis ton type de voix, ou règle ta propre tessiture, puis appuie sur Lire.",
+  "ready": "De {low} à {high}. Appuie sur Lire quand tu veux.",
+  "routineSummary": "{steps} étapes, environ {minutes} min",
+  "scaleSummary": "{keys} tonalités, environ {minutes} min",
+  "usingBreak": "Construit autour de ton passage de voix, à {note}.",
+  "stepCard": "{syllable} à {tempo} bpm",
+  "stepDetail": "{scale}, sur {syllable}. Tempo {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. Tempo {tempo} bpm, {direction}.",
+  "stepOf": "Étape {step} sur {steps}",
+  "keyOf": "Tonalité {key} sur {keys} : {note}",
+  "countIn": "Prépare-toi : {n}",
+  "breathe": "Respire. L'étape suivante commence dans {seconds}.",
+  "done": "C'est fini. Appuie sur Lire pour recommencer.",
+  "noAudio": "Ce navigateur ne peut pas lire l'audio. Essaie une version récente de Chrome, Safari, Firefox ou Edge.",
+  "loadFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.",
+  "keyboard": "Touches de piano de {low} à {high}",
+  "styles": {
+    "struck": "Piqué",
+    "normal": "Normal",
+    "smooth": "Lié"
+  },
+  "directions": {
+    "normal": "Ascendant",
+    "inverted": "Descendant",
+    "mirror": "Miroir"
+  }
+}

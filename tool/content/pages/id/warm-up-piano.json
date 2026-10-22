@@ -1,0 +1,60 @@
+{
+  "slug": "piano-latihan-vokal",
+  "label": "Piano latihan vokal",
+  "title": "Piano Latihan Vokal Online: Tangga Nada di Jangkauanmu - Scalita",
+  "description": "Tangga nada dan rutinitas pemanasan dengan piano asli, dimainkan di jangkauanmu: pilih jenis suara atau nada terendah dan tertinggimu sendiri. Gratis.",
+  "h1": "Piano latihan vokal",
+  "lead": "Video pemanasan direkam di satu deret nada dasar. Piano ini memainkan tangga nada dan rutinitas Scalita di nada dasarmu: pilih jenis suara atau nada terendah dan tertinggimu sendiri, lalu tekan Putar.",
+  "toolId": "player",
+  "instructions": "<h2>Cara memakainya</h2><ol><li>Pilih jenis suara, atau atur sendiri nada terendah dan tertinggimu. Kalau belum tahu, <a href=\"page:vocal-range-test\">tes range vokal</a> menemukannya dalam sekitar satu menit.</li><li>Pilih tangga nada atau rutinitas. Polanya, suku kata yang dinyanyikan, tempo, dan gayanya tampil sebelum kamu mulai.</li><li>Tekan Putar dan ikut bernyanyi. Sebelum setiap nada dasar baru, ada jeda untuk bernapas dan akor pendek untuk mengantarnya.</li><li>Tekan Berhenti kapan pun kamu mau.</li></ol><p>Piano ini tidak memakai mikrofon, dan tidak ada yang diunduh sampai kamu menekan Putar.</p>",
+  "sampleResult": "<h2>Yang akan kamu dengar</h2><p>Pilih Tenor dan tangga nada 5 Nada. Nada dasar pertama mulai di {{note:D3}}: piano memainkan {{note:D3}} naik sampai {{note:A3}} lalu turun kembali, lima nada naik dan empat turun. Setiap pengulangan naik setengah nada sampai puncak polanya mencapai {{note:C5}}. Lalu nada dasarnya turun lagi, melewati titik awal, sampai tangga nadanya mulai di {{note:C3}}, batas bawah jangkauan tenor. Totalnya 33 pengulangan, masing-masing di nada dasar yang baru.</p><p>Kalau memilih rutinitas, misalnya Cepat Sebelum Tampil, piano memainkan latihan-latihannya satu per satu. Dengan preset Tenor, durasinya sekitar 8 menit.</p>",
+  "notClaimed": "<h2>Yang tidak dilakukan piano ini</h2><p>Piano ini hanya bermain dan tidak mendengarkan, jadi tidak bisa memberi tahu apakah nadamu tepat atau kamu terlalu memaksa. Piano ini memainkan satu tangga nada atau rutinitas setiap kali dan tidak menyimpan apa pun di antara kunjungan. Ini juga bukan pelajaran vokal. Kalau ada nada yang terasa sakit atau suaramu terasa lelah, berhentilah.</p>",
+  "sections": [
+    {
+      "heading": "Kenapa jangkauanmu penting",
+      "html": "<p>Kebanyakan video pemanasan punya versi “pria” dan “wanita”, masing-masing dengan nada dasar yang tetap, dan banyak suara yang tidak cocok dengan keduanya. Saat tangga nada di video naik melewati batas atas nyamanmu, kamu hanya bisa memaksa atau berhenti ikut. Di sini kamu memilih jenis suara, atau lewati labelnya dan atur sendiri nada terendah dan tertinggimu. Setiap latihan mulai di nada dasar yang nyaman untuk jangkauan itu dan tetap di dalamnya.</p>"
+    },
+    {
+      "heading": "Yang dimainkan",
+      "html": "<p>Tangga nada dan rutinitas yang sama dengan aplikasi Scalita, dengan pola, suku kata, tempo, dan urutan yang sama. Termasuk pola yang paling sering dipakai penyanyi: dalam survei terhadap 117 mahasiswa vokal dan penyanyi profesional, latihan pemanasan yang paling umum antara lain tangga nada lima nada, tangga nada satu oktaf, dan arpeggio (Gish dan rekan-rekan, 2012).</p><p>Sebuah tangga nada memainkan satu pola di seluruh jangkauanmu. Sebuah rutinitas memainkan beberapa latihan berturut-turut, seperti di aplikasi.</p>"
+    },
+    {
+      "heading": "Pianonya",
+      "html": "<p>Bunyinya adalah Salamander Grand Piano, yang direkam oleh Alexander Holm: piano yang sama dengan yang dimainkan aplikasi, ditala ulang supaya setiap nada tepat di nadanya. Supaya halamannya ringan, piano ini memakai 20 nada rekaman dan menggeser masing-masing paling jauh setengah nada untuk mengisi tuts di antaranya. Hanya nada yang dibutuhkan jangkauanmu yang dimuat, dan baru setelah kamu menekan Putar.</p>"
+    },
+    {
+      "heading": "Ikut bernyanyi",
+      "html": "<ul><li>Nyanyikan suku kata yang ditampilkan, dengan volume sedang. Kalau terasa canggung, humming bisa dipakai di pola apa pun.</li><li>Jaga nada-nada teratas tetap ringan. Kalau ada yang terasa terlalu jauh, berhenti dan atur jangkauan yang lebih sempit daripada memaksa.</li><li>Pakai speaker atau headphone, terserah kamu. Tidak ada yang mendengarkan.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Sebaiknya mulai dari pemanasan yang mana?",
+      "a": "<p>Kalau punya beberapa menit, coba rutinitas singkat seperti Cepat Sebelum Tampil. Kalau hanya ingin membangunkan suara, lakukan humming di tangga nada 5 Nada. <a href=\"page:vocal-warm-ups\">Panduan pemanasan</a> membahas rutinitas aplikasi langkah demi langkah.</p>"
+    },
+    {
+      "q": "Jenis suara mana yang sebaiknya kupilih?",
+      "a": "<p>Yang jangkauannya terasa paling dekat dengan jangkauanmu, atau tidak satu pun: atur saja sendiri nada terendah dan tertinggimu. <a href=\"page:vocal-range-test\">Tes range vokal</a> menemukannya dalam sekitar satu menit, dan <a href=\"page:voice-types\">panduan jenis suara</a> menunjukkan cakupan masing-masing.</p>"
+    },
+    {
+      "q": "Bisakah aku menyimpan rutinitas atau jangkauanku?",
+      "a": "<p>Tidak di sini. Piano ini adalah cuplikan dari aplikasi Scalita, yang menyimpan jangkauanmu, tangga nada dan rutinitas buatanmu, serta riwayat latihanmu di ponsel.</p>"
+    },
+    {
+      "q": "Apakah bisa dipakai di ponsel?",
+      "a": "<p>Bisa, di browser versi terbaru di ponsel atau komputer. Di iPhone, kalau tidak ada suara, pastikan sakelar dering tidak dalam mode senyap.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims dan McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Salamander Grand Piano V3 karya Alexander Holm, sampel pianonya",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

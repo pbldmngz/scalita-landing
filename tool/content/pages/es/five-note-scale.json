@@ -1,0 +1,58 @@
+{
+  "slug": "escala-de-cinco-notas",
+  "label": "Escala de cinco notas",
+  "title": "Escala de 5 notas para vocalizar: 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "La escala de cinco notas, 1 2 3 4 5 4 3 2 1, abre casi todos los calentamientos de Scalita. Qué es, por qué la usan los profesores y qué cantar en ella.",
+  "h1": "La escala de cinco notas para calentar",
+  "lead": "Cinco notas de subida y cuatro de bajada: 1 2 3 4 5 4 3 2 1. La mayoría de los calentamientos de Scalita empiezan con ella, y el piano la mueve de semitono en semitono para que recorra tu rango.",
+  "sections": [
+    {
+      "heading": "El patrón",
+      "html": "<p>La escala de cinco notas está formada por las cinco primeras notas de una escala mayor, cantadas hacia arriba y de vuelta hacia abajo sin pausa: do re mi fa sol fa mi re do. Las distancias entre las notas son tono, tono, semitono y tono, así que el patrón cabe en una quinta, siete semitonos de abajo arriba.</p>\n<p>Después de cada vuelta, el piano sube un semitono y la cantas otra vez en la nueva tonalidad. Así, un patrón corto cubre todo tu rango.</p>"
+    },
+    {
+      "heading": "Por qué los cantantes empiezan con ella",
+      "html": "<p>Le pide muy poco a la voz. No hay saltos, así que puedes seguir cada nota de oído, y cada tonalidad se queda dentro de una quinta, en una sola parte de tu voz, antes de que el piano siga adelante.</p>\n<p>Como avanza por grados conjuntos, se presta al legato, el canto ligado y fluido, y es el vehículo natural para los primeros sonidos de un calentamiento: vibraciones, tarareos y vocales cerradas.</p>\n<p>Además, se desplaza bien. De semitono en semitono, recorre tu rango en pasos pequeños y regulares, así que notas dónde cambia tu voz sin forzar nada.</p>"
+    },
+    {
+      "heading": "Cómo la usa Scalita",
+      "html": "<p>En la app se llama 5 Tonos, y es la columna vertebral de Scalita: 12 de sus 15 rutinas la usan, y 10 empiezan con ella, nueve de esas con una vibración. El piano parte de una tonalidad que te resulta cómoda y sube de semitono en semitono por el rango que guardaste.</p>\n<p>En las rutinas lleva sobre todo vibraciones y tarareos. <a href=\"page:vocal-cool-down\">Suave / Recuperación</a>, el enfriamiento, está construida casi entera sobre ella.</p>"
+    },
+    {
+      "heading": "Cantarla con el nombre de las notas",
+      "html": "<p>También puedes cantar el patrón con el nombre de sus notas. En el do móvil, que se usa en clases de música y coros de los países de habla inglesa y en Indonesia, do es la nota en la que empieza el patrón, así que en cualquier tonalidad se canta do re mi fa sol fa mi re do. La notación numérica escribe lo mismo como 1 2 3 4 5 4 3 2 1.</p>\n<p>En el do fijo, que se usa en España, Francia, Italia, Brasil, Turquía y Latinoamérica, do es siempre la misma nota, la que el cifrado americano llama C. Los nombres cambian con la tonalidad, y cantas el nombre propio de cada nota sin su sostenido ni su bemol. La rutina Do Re Mi de Scalita muestra el nombre de cada nota tal como lo escribe tu notación, así que funciona de las dos maneras. Hay más sobre esto en <a href=\"page:note-names-octaves\">nombres de las notas y octavas</a>.</p>"
+    },
+    {
+      "heading": "Versiones más pequeñas y más grandes",
+      "html": "<ul>\n<li><strong>3 Tonos</strong>, 1 2 3 2 1: la misma idea en menos espacio.</li>\n<li><strong>5 Tonos Descendente</strong>, 5 4 3 2 1: empieza arriba y baja.</li>\n<li><strong>Mayor / Octava</strong>: la escala mayor completa, cuando la voz ya está en marcha.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿La escala de cinco notas es una escala pentatónica?",
+      "a": "<p>No. Una escala pentatónica también tiene cinco notas, pero las reparte a lo largo de una octava entera: la pentatónica mayor deja fuera la cuarta y la séptima notas de la escala mayor. El patrón de calentamiento está formado simplemente por las cinco primeras notas de la escala mayor, una al lado de otra. Scalita tiene aparte un patrón Pentatónica Menor.</p>"
+    },
+    {
+      "q": "¿Hasta dónde debo subirla?",
+      "a": "<p>Solo hasta donde siga siendo fácil. Scalita mantiene la nota más alta dentro del rango que guardaste, y puedes parar antes. La tonalidad más aguda no es una meta.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun y Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (un estudio de los ejercicios vocales que usan los profesores de los departamentos de educación musical de Turquía, en turco). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipedia (en inglés): Solfège, sobre el do fijo y el do móvil.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipedia (en inglés): Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>Cómo la usan los profesores en Turquía</h2>\n<p>En 2023, Ece Celasun y Harun Keskin recopilaron los ejercicios de calentamiento de 16 profesores de canto de los departamentos de educación musical de universidades turcas, y publicaron 71 de ellos en notación musical. Contando esas páginas, unos 12 de los 16 profesores usan exactamente este patrón, 1 2 3 4 5 4 3 2 1.</p>\n<p>La mayoría de los ejercicios se quedan dentro de tres o cinco notas y favorecen el canto ligado y fluido. Los 16 profesores usan el piano, y sus sílabas se construyen sobre todo con y o con m.</p>"
+}

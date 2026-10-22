@@ -1,0 +1,58 @@
+{
+  "slug": "suara-kepala-dan-suara-dada",
+  "label": "Suara kepala dan suara dada",
+  "title": "Suara Kepala dan Suara Dada: Head Voice vs Chest Voice - Scalita",
+  "description": "Suara dada dan suara kepala adalah dua cara pita suara bergetar, dinamai menurut tempat terasanya. Cara membedakannya, di mana kamu beralih, dan apa arti mix.",
+  "h1": "Suara kepala dan suara dada",
+  "lead": "Dua register yang dimiliki setiap suara, dinamai menurut tempat penyanyi merasakannya, dan keduanya dibuat di tempat yang sama. Cara membedakannya, dan di mana posisi mix dan falsetto.",
+  "shortAnswer": "<p>Suara dada (chest voice) adalah register yang lebih rendah dan lebih penuh, yang dipakai kebanyakan orang untuk berbicara. Suara kepala (head voice) adalah register yang lebih ringan di atasnya. Keduanya dibuat oleh pita suaramu: namanya menggambarkan tempat penyanyi merasakan getarannya, bukan asal bunyinya. Peneliti suara menyebutnya dua mekanisme laring, M1 dan M2. Di suara dada, pita suara bergetar dengan lebih banyak massanya; di suara kepala, pita suara teregang lebih tipis dan bergetar dengan massa yang lebih sedikit. Keduanya tumpang tindih: di tengah kebanyakan suara ada bentangan, sering sekitar satu oktaf, di mana nada yang sama bisa dinyanyikan dengan keduanya.</p>",
+  "listenFor": "<p>Tanda-tanda kamu sudah berpindah dari suara dada ke suara kepala:</p><ul><li>Getarannya pindah dari dada naik ke wajah dan kepala.</li><li>Bunyinya jadi lebih ringan dan lebih bulat, kadang lebih berangin.</li><li>Setiap langkah naik tidak lagi butuh usaha lebih besar dari langkah sebelumnya.</li></ul><p>Kalau kamu malah bertahan di suara dada terlalu lama, perpindahannya datang sekaligus, dan kamu merasakan salah satu tanda yang membuat tes passaggio Scalita memintamu mengetuk:</p>",
+  "misconceptions": "<ul><li><strong>“Suara kepala dibuat di kepala.”</strong> Kedua register dibuat oleh pita suara. Kepala dan dada adalah tempat kamu merasakan getarannya, bukan tempat bunyinya bermula.</li><li><strong>“Laki-laki punya falsetto, perempuan punya suara kepala.”</strong> Setiap suara punya kedua mekanisme utama. Penelitian yang menggambarkannya mengukur laki-laki dan perempuan, terlatih maupun tidak.</li><li><strong>“Suara dada salah untuk nada tinggi.”</strong> Banyak gaya memakai bunyi yang berat di suara dada sampai cukup tinggi. Yang penting adalah apakah butuh paksaan untuk sampai ke sana.</li><li><strong>“Mix adalah register ketiga.”</strong> Penelitian yang mengukur voix mixte Prancis mendapati bunyi itu dibuat di salah satu dari dua mekanisme utama.</li></ul>",
+  "seeProfessional": "<p>Kebanyakan masalah suara kepala adalah soal teknik, dan guru vokal adalah orang yang tepat untuk ditanya. Temui dokter, sebaiknya dokter spesialis THT, kalau nada-nada suara kepala yang dulu ada sekarang hilang, kalau suaramu tetap serak setelah dua minggu, kalau bernyanyi terasa sakit, atau kalau berbicara mulai butuh usaha. Terapis wicara bisa membantumu mengubah cara memakai suara setelah dokter memeriksa. Saat sedang sakit, istirahatkan suaramu dan biarkan latihan menunggu.</p>",
+  "sections": [
+    {
+      "heading": "Bagaimana rasa dan bunyi masing-masing",
+      "html": "<p>Suara dada terasa seperti berbicara. Getarannya berada di bawah, di dada dan tenggorokan, dan bunyinya penuh dan dekat dengan suara bicara. Makin tinggi, makin besar usaha untuk mempertahankannya seperti itu.</p><p>Suara kepala terasa lebih ringan. Getarannya pindah ke wajah dan kepala, bunyinya jadi lebih bulat, dan nada tinggi butuh usaha lebih sedikit. Di suara yang lebih rendah, perpindahannya sering mudah terdengar; di suara yang lebih tinggi, keduanya bisa menyatu begitu rapat sampai perpindahannya sulit ditangkap.</p><p>Tidak ada yang paling benar. Kebanyakan lagu memakai keduanya, dan kebanyakan latihan bertujuan agar kamu bisa berpindah di antara keduanya saat kamu yang memilih, bukan saat suaramu yang memutuskan.</p>"
+    },
+    {
+      "heading": "Di mana kamu beralih",
+      "html": "<p>Peralihannya terjadi di tengah jangkauanmu, di zona yang disebut penyanyi passaggio dan disebut Scalita peralihan register. Preset Scalita menempatkan peralihan pertama tenor sekitar {{note:D4}} dan sopran sekitar {{note:F4}}, dan suara sebenarnya bisa beberapa nada di bawah atau di atasnya. Peralihannya juga bergeser menurut arah: cenderung datang lebih tinggi saat naik daripada saat turun. <a href=\"page:voice-break-finder\">Tes passaggio</a> membantumu menemukan milikmu, dan <a href=\"page:voice-cracks-high-notes\">kenapa suara pecah</a> membahas apa yang terjadi saat peralihannya mendadak.</p>"
+    },
+    {
+      "heading": "Temukan masing-masing di suaramu sendiri",
+      "html": "<p>Ucapkan “hei” dengan santai, seperti menyapa teman, lalu nyanyikan di satu nada rendah yang nyaman: itu suara dada. Sekarang buat bunyi “hu” yang pelan seperti burung hantu, beberapa nada lebih tinggi: itu suara kepala. Lalu nyanyikan tangga nada lima nada perlahan dengan vokal yang ringan, naikkan setengah nada setiap kali. Di suatu tempat di tengah, kamu mungkin merasa ingin memaksa. Biarkan bunyinya jadi lebih ringan, dan perhatikan nada dasar tempat bunyinya berubah. <a href=\"page:warm-up-piano\">Piano latihan vokal</a> memainkan tangga nada itu di jangkauanmu.</p>"
+    },
+    {
+      "heading": "Mix dan falsetto, dua kata yang tidak dipakai Scalita untuk register",
+      "html": "<p><strong>Mix</strong>, atau mixed voice (suara campuran), biasanya berarti bunyi yang mempertahankan sebagian kepenuhan suara dada sampai ke wilayah tempat suara kepala mengambil alih, sehingga perpindahannya sulit terdengar. Guru memakai kata ini untuk hal yang berbeda-beda, dan penelitian belum menemukan mekanisme tersendiri di baliknya: sebuah penelitian terhadap lima penyanyi profesional yang memakai voix mixte Prancis mendapati setiap nada jelas dibuat di salah satu mekanisme, M1 atau M2, bukan di mekanisme ketiga yang campuran. Di Scalita, Mix adalah tanda pada latihan yang bertujuan menghaluskan perpindahan antara suara rendah dan tinggimu, bukan sebuah register.</p><p><strong>Falsetto</strong> biasanya berarti bunyi paling ringan, sering berangin, dari mekanisme suara kepala, yang paling dikenal dari suara laki-laki. Scalita tidak memakai kata itu: jangkauanmu di aplikasi mencakup suara dada dan suara kepala, dan bagaimana kamu menamai bagian atasnya yang ringan adalah urusanmu dan gurumu.</p>"
+    },
+    {
+      "heading": "Di luar suara dada dan suara kepala",
+      "html": "<p>Scalita memisahkan tiga register lain dari jangkauan utamamu, masing-masing dengan rentang opsional dan rutinitasnya sendiri: subharmonik, nada bergemeretak di bawah suara dadamu; flageolet, warna tipis seperti suling di atas suara kepala; dan whistle, bagian paling atas suara, di atas flageolet. Banyak sumber memakai flageolet dan whistle sebagai dua nama untuk satu hal; Scalita melatihnya terpisah. Tidak satu pun rutinitas itu memintamu mengejar nada tertinggi yang baru, dan Penjelajah Whistle tetap lirih dari awal sampai akhir.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah suara kepala sama dengan falsetto?",
+      "a": "<p>Tergantung siapa yang ditanya. Banyak guru memakai kata falsetto untuk versi mekanisme suara kepala yang lebih ringan dan berangin, dan suara kepala untuk versi yang lebih penuh; yang lain menganggap kedua kata itu sama. Guru vokal Richard Miller menyebut falsetto perempuan tidak logis, sementara penulis lain menggambarkannya. Kalau gurumu menarik garis di tempat tertentu, pakai garisnya.</p>"
+    },
+    {
+      "q": "Apakah perempuan punya suara dada?",
+      "a": "<p>Punya. Kebanyakan perempuan berbicara dengan suara dada dan memakainya untuk bagian bawah jangkauan nyanyinya, di bawah peralihan pertama.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (abstrak)", "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"},
+    {"label": "Roubeau, Henrich dan Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (abstrak)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Švec, Schutte dan Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (abstrak)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Castellengo, Chuberre dan Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)", "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"},
+    {"label": "Wikipedia: Chest voice", "url": "https://en.wikipedia.org/wiki/Chest_voice"},
+    {"label": "Wikipedia: Head voice", "url": "https://en.wikipedia.org/wiki/Head_voice"},
+    {"label": "Wikipedia: Falsetto (perdebatan tentang falsetto perempuan)", "url": "https://en.wikipedia.org/wiki/Falsetto"},
+    {"label": "Wikipedia: Whistle register (disebut juga flageolet)", "url": "https://en.wikipedia.org/wiki/Whistle_register"},
+    {"label": "NIDCD: Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS: Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

@@ -3,6 +3,9 @@
 
 User-agent: *
 Allow: /
+# The generator and its content files live in the repo, so the site serves
+# them too. They are not pages.
+Disallow: /tool/
 
-# Sitemap location
+# Sitemap location: an index of one sitemap per section
 Sitemap: https://scalita.com/sitemap.xml

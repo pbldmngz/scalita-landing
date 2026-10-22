@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Mainkan di jangkauanmu"
+  },
+  "tool": {
+    "howTo": "Cara memakainya",
+    "sample": "Contoh hasil",
+    "notClaimed": "Yang tidak diklaim"
+  },
+  "routine": {
+    "length": "Berapa lama",
+    "steps": "Langkah",
+    "cues": "Sepanjang rutinitas ini",
+    "whyOrder": "Kenapa urutannya begini",
+    "whatToFeel": "Yang perlu dirasakan",
+    "whenToStop": "Kapan berhenti",
+    "next": "Setelah ini"
+  },
+  "steps": {
+    "scale": "Tangga nada",
+    "syllable": "Suku kata",
+    "style": "Gaya",
+    "span": "Rentang",
+    "passaggio": "Peralihan register",
+    "repeat": "Pengulangan per nada dasar",
+    "wholeRange": "Seluruh jangkauanmu",
+    "semitones": "{count} setengah nada",
+    "minutes": "{minutes} menit",
+    "count": "Langkah",
+    "routines": "Rutinitas"
+  },
+  "exercise": {
+    "tryIt": "Coba sekarang",
+    "troubleshooting": "Kalau belum berhasil",
+    "usage": "Di mana Scalita memakainya"
+  },
+  "pattern": {
+    "degrees": "Tingkat nada",
+    "notes": "Dari {note}",
+    "sung": "Dinyanyikan sebagai",
+    "syllables": "Suku kata yang dipasangkan Scalita",
+    "routines": "Rutinitas yang memakainya"
+  },
+  "concept": {
+    "shortAnswer": "Jawaban singkat",
+    "where": "Letaknya di suaramu",
+    "listenFor": "Yang perlu diperhatikan",
+    "tryIt": "Coba",
+    "exercises": "Latihan yang membantu",
+    "misconceptions": "Salah kaprah yang umum",
+    "seeProfessional": "Kapan perlu menemui profesional"
+  },
+  "voices": {
+    "heading": "Enam jenis suara",
+    "voiceType": "Jenis suara",
+    "range": "Jangkauan umum",
+    "primo": "Peralihan pertama",
+    "secondo": "Peralihan kedua",
+    "fromTo": "{low} sampai {high}",
+    "keyboard": "{name}: {low} sampai {high}",
+    "note": "Ini jangkauan dan titik peralihan klasik yang umum. Scalita memakai titik peralihan yang sama sebagai tebakan awal sampai kamu menemukan titikmu sendiri. Suara tiap orang berbeda, dan jangkauan saja tidak menentukan jenis suara."
+  },
+  "registers": {
+    "heading": "Di bawah dan di atas jangkauanmu yang biasa",
+    "register": "Register",
+    "span": "Letaknya",
+    "note": "Ini rentang tempat Scalita melatih tiap register. Untuk subharmonik, rentangnya adalah nada yang didengar orang."
+  },
+  "intake": {
+    "appOnly": "Hanya di aplikasi"
+  },
+  "notation": {
+    "systems": "Empat cara menamai nada",
+    "system": "Sistem",
+    "names": "Nada",
+    "where": "Dipakai di",
+    "landmarks": "C tengah dan A 440 di tiap sistem",
+    "middleC": "C tengah",
+    "a440": "A 440 Hz",
+    "octave": "Satu oktaf di tiap sistem",
+    "keyboard": "Satu oktaf dari C tengah, dalam {system}",
+    "octaves": "Tiga cara menomori oktaf",
+    "style": "Nomor oktaf",
+    "lowest": "Tuts terendah",
+    "highest": "Tuts tertinggi",
+    "styles": {
+      "scientific": "Ilmiah",
+      "francoBelgian": "Prancis-Belgia",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

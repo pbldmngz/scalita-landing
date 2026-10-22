@@ -1,0 +1,76 @@
+{
+  "slug": "stimmlagen",
+  "label": "Stimmlagen",
+  "title": "Welche Stimmlage habe ich? Umfang und Registerbrüche - Scalita",
+  "description": "Sopran bis Bass: die sechs Stimmlagen auf der Tastatur, mit typischem Umfang und Registerbrüchen, und warum der Umfang allein die Stimmlage nicht entscheidet.",
+  "h1": "Stimmlagen, vom Sopran bis zum Bass",
+  "lead": "Die sechs klassischen Stimmlagen, jede auf einer Tastatur mit ihrem üblichen Umfang und den zwei Stellen, an denen sie meist wechselt. Nimm sie als Ausgangspunkt, nicht als Etikett.",
+  "intro": "<p>Eine Stimmlage beschreibt, wo eine Stimme liegt und wie sie sich verhält: ihren Umfang, die Töne, auf denen sie sich den größten Teil eines Lieds wohlfühlt, die Stellen, an denen sie den Gang wechselt, und ihr Gewicht und ihre Farbe. Der klassische Gesang kennt sechs Hauptstimmlagen, und Scalita nutzt dieselben sechs als Voreinstellungen. Wähl eine, und jede Übung geht von diesem Umfang und diesen Registerbrüchen aus, bis du deine eigenen misst.</p><p>Die Zahlen sind typisch, keine Regeln, und jede Stimme ist anders. Die genannten Untertypen, im Deutschen meist Fächer genannt, stehen hier, damit du die Begriffe kennst; eine Stimme einem Fach zuzuordnen braucht das Ohr einer Lehrkraft, über Monate.</p>",
+  "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Sopran",
+      "html": "<p>Die höchste der sechs. Was einen Sopran von einem Mezzosopran unterscheidet, ist weniger der höchste Ton als die Lage, in der sich die Stimme wohlfühlt: Ein Sopran kann lange in der Höhe bleiben, ohne müde zu werden, und der zweite Wechsel kommt später.</p><p>Die übliche Verwechslung geht nach oben. Eine junge, leichte Stimme, die mühelos hohe Töne erreicht, wird Sopran genannt, bevor jemand gehört hat, wo sie sich am wohlsten fühlt, und sie kann sich beim Reifen tiefer einpendeln.</p><p>Fächer: Koloratursopran, Soubrette, lyrischer Sopran, Spinto (im Deutschen jugendlich-dramatischer Sopran) und dramatischer Sopran.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzosopran",
+      "html": "<p>Die mittlere der drei höheren Stimmen. Neben einem Sopran hat ein Mezzosopran eine vollere, dunklere Mittellage und wird schneller müde, wenn ein Lied lange hoch liegt, auch wenn die hohen Töne da sind. Neben einem Contralto sind die tiefen Töne leichter, und die Höhe reicht weiter.</p><p>Chöre verwischen diese Stimme. Mit nur Sopran und Alt zur Auswahl singt ein Mezzo die Stimme, die näher liegt, und viele wachsen in der festen Überzeugung auf, das eine oder das andere zu sein. Viele Lehrkräfte behandeln eine neue Stimme zuerst als mittlere, also als Mezzosopran oder Bariton, bis sie etwas anderes zeigt.</p><p>Fächer: lyrischer Mezzosopran, Koloratur-Mezzosopran und dramatischer Mezzosopran.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Contralto",
+      "html": "<p>Die tiefste der höheren Stimmen. Die tiefen Töne eines Contralto sind schwerer und kommen leichter als bei einem Mezzosopran, und die Stimme ist ganze Lieder lang tief im Umfang zu Hause.</p><p>Der Name sorgt für die erste Verwechslung: Alt ist eine Chorstimme, Contralto die Stimmlage, und viele Altistinnen im Chor sind Mezzosoprane, weil ein Chor keine Mezzostimme hat. Dass im Deutschen auch die Stimmlage oft einfach Alt heißt, macht es nicht leichter. Die zweite ist die Annahme, dass hier nur Frauen singen. Countertenöre sind Männer, die in diesem Bereich singen, meist in einer leichten Kopfstimme oder im Falsett.</p><p>Fächer: Koloraturalt, lyrischer Alt und dramatischer Alt.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Tenor",
+      "html": "<p>Die höchste der üblichen tieferen Stimmen. Tenor und Bariton teilen sich den größten Teil ihres Umfangs; was sie trennt, ist, wo die Stimme wechselt und wo sie sich am wohlsten fühlt. Die Wechsel eines Tenors kommen ein paar Töne später als die eines Baritons, und die Stimme bleibt nahe der Höhe locker.</p><p>Die Verwechslung passiert in beide Richtungen. Ein junger Tenor, dessen Höhe noch nicht frei ist, landet bei den Baritonen, und ein Bariton mit ein paar leichten hohen Tönen wird in Tenorpartien gedrängt, die den größten Teil des Lieds zu hoch liegen.</p><p>Fächer, von leicht bis schwer: Tenore leggero, lyrischer Tenor, Spinto, dramatischer Tenor und Heldentenor.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Bariton",
+      "html": "<p>Die mittlere der tieferen Stimmen und, wie der Mezzosopran, die mittlere Lage, von der viele Lehrkräfte zuerst ausgehen. Die tiefen Töne eines Baritons sind voller als die eines Tenors und leichter als die eines Basses, und die Stimme fühlt sich in der Mitte ihres Umfangs am wohlsten.</p><p>Chöre teilen die tieferen Stimmen meist in Tenor und Bass, also singt ein Bariton die Stimme, die das Stück gerade braucht, und manche erfahren nie, dass ihre Stimme einen eigenen Namen hat.</p><p>Zu den Fächern gehören lyrischer Bariton, Kavalierbariton, Verdi-Bariton, dramatischer Bariton und Bassbariton.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Bass",
+      "html": "<p>Die tiefste der sechs und die Stimme, die am frühesten wechselt. Die tiefen Töne eines Basses haben ein Gewicht, das einem Bariton fehlt, und die Stimme bleibt dort unten ein ganzes Lied lang bequem, nicht nur für einen Ton.</p><p>Der übliche Fehler ist, nur nach dem tiefsten Ton zu urteilen: Ein Bariton, der einen tiefen Ton erreicht, ist kein Bass, wenn die Stimme dort unten müde wird. Auch eine tiefe Sprechstimme entscheidet es nicht.</p><p>Zu den Fächern gehören Basso profondo, Basso cantante, Basso buffo und Bassbariton. In russischen Chören heißen die allertiefsten Sänger Oktavisten.</p>"
+    },
+    {
+      "heading": "Der Umfang ist nicht alles",
+      "html": "<p>Der Umfang ist am leichtesten zu messen, deshalb bekommt er die meiste Aufmerksamkeit. Lehrkräfte hören auf vier Dinge: Umfang, Tessitur (wo sich die Stimme den größten Teil eines Lieds wohlfühlt), Timbre (ihre Farbe und ihr Gewicht) und das Passaggio, die Zone, in der sie zwischen den Registern wechselt. Scalitas Umfangsergebnis sagt es klar: Dein Registerbruch sagt zuverlässiger etwas über deine Stimmlage. Der Registerwechsel-Finder ergänzt, dass deine Stimmlage auch davon abhängt, wo deine Stimme am besten klingt, und von deiner Klangfarbe.</p><p>Auch der Umfang bewegt sich. Dein Umfang ändert sich mit Einsingen, Training und Tageszeit, also miss ihn mehr als einmal, bevor du ihm traust.</p><p>Und es eilt nicht. Der Gesangspädagoge William Vennard schrieb, er verspüre nie Eile, eine Anfängerin oder einen Anfänger einzuordnen, und riet, in der Mitte der Stimme zu beginnen und von dort nach oben und unten zu arbeiten, „bis die Stimme sich selbst einordnet“.</p><p>Die Umfänge hier sind die typischen Werte, die die meisten Nachschlagewerke nennen. Die Registerbrüche sind Scalitas Voreinstellungen: Für Tenor, Bariton, Bass und Mezzosopran stimmen sie mit Richard Millers Tabellen überein, die des Soprans liegen innerhalb von zwei Halbtönen von seinen, und den ersten Wechsel des Contralto setzt er etwa eine halbe Oktave höher an als Scalita.</p>"
+    },
+    {
+      "heading": "So findest du deine",
+      "html": "<p>Fang mit deinem Umfang an. Der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> hört auf deinen tiefsten und höchsten bequemen Ton und nennt die Stimmlagen, für die dieser Umfang typisch ist. Dann finde mit dem <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> heraus, wo deine Stimme wechselt: Das Klavier steigt Ton für Ton, du singst mit und tippst, wenn deine Stimme den Gang wechseln will. Zusammen ergeben sie eine bessere Schätzung als jeder Test für sich.</p><p>Es bleibt eine Schätzung. Eine Lehrkraft, die dich über ein paar Stunden hört, bemerkt, was kein Test kann, angefangen damit, wo deine Stimme am besten klingt. Bis dahin wähl am <a href=\"page:warm-up-piano\">Einsing-Klavier</a> die Voreinstellung, die am nächsten liegt, und wenn sich die Übungen immer wieder zu hoch oder zu tief anfühlen, probier die benachbarte.</p>"
+    },
+    {
+      "heading": "Verrät deine Sprechstimme deine Stimmlage?",
+      "html": "<p>Nicht zuverlässig. Eine Studie mit 75 Opernsängerinnen und -sängern fand, dass sich die Sprechtonhöhe zwischen den meisten Stimmlagen im Durchschnitt unterschied, aber nicht zwischen allen, und kam zu dem Schluss, dass die Sprechtonhöhe eine Einordnung stützen, sie aber nie allein treffen kann. Die Sprechtonhöhe verschiebt sich außerdem mit Gewohnheit, Stimmung und Müdigkeit. Scalita schätzt nie eine Stimmlage aus deiner Sprechstimme; die App bittet dich zu singen.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Kann ein Mann Alt singen oder eine Frau Tenor?",
+      "a": "<p>Ja. Eine Stimmlage beschreibt eine Stimme, nicht die Person, die singt. Countertenöre singen Alt, und in vielen Chören singen Frauen im Tenor. Wähl in Scalita die Voreinstellung, deren Umfang zu den Tönen passt, die du wirklich singst.</p>"
+    },
+    {
+      "q": "Ändert sich die Stimmlage mit der Zeit?",
+      "a": "<p>Das kann sie. Stimmen verändern sich die ganze Jugend hindurch und festigen sich meist Anfang bis Mitte zwanzig, und manche Sängerinnen und Sänger wechseln nach ein paar Jahren Training in eine benachbarte Stimmlage.</p>"
+    },
+    {
+      "q": "Kann ich Lieder singen, die für eine andere Stimmlage geschrieben sind?",
+      "a": "<p>Meistens ja, in einer Tonart, die dir liegt. Wenn ein Lied den größten Teil der Zeit zu hoch oder zu tief liegt, transponier es. Wo ein Lied seine Zeit verbringt, zählt mehr als sein einziger höchster Ton.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Wikipedia (englisch): Voice type (Umfänge, Untertypen, William Vennard zur Einordnung)", "url": "https://en.wikipedia.org/wiki/Voice_type"},
+    {"label": "Wikipedia (englisch): Passaggio (Richard Millers Passaggio-Tabellen)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"},
+    {"label": "Wikipedia (englisch): Voice change (wann sich Stimmen festigen)", "url": "https://en.wikipedia.org/wiki/Voice_change"}
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

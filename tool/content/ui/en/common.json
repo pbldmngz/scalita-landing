@@ -1,0 +1,23 @@
+{
+  "start": "Start",
+  "stop": "Stop",
+  "listening": "Listening...",
+  "tooQuiet": "Too quiet. Sing a little louder, or move closer to the microphone.",
+  "allow": "Allow the microphone when your browser asks.",
+  "result": "Your result",
+  "share": "Share",
+  "save": "Save image",
+  "openInBrowser": "The browser built into this app can't use the microphone. Open this page in Chrome or Safari instead.",
+  "androidOnly": "Android only",
+  "lastTime": "Last time",
+  "tryAgain": "Try again",
+  "play": "Play",
+  "loading": "Loading the piano...",
+  "next": "Next",
+  "back": "Back",
+  "close": "Close",
+  "copyLink": "Copy link",
+  "copied": "Link copied",
+  "privacyLine": "Nothing is recorded or sent. Your browser listens on your device, and the microphone turns off when you press Stop.",
+  "noScript": "This tool needs JavaScript. Everything else on this page works without it."
+}

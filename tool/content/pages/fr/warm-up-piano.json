@@ -1,0 +1,60 @@
+{
+  "slug": "piano-vocalises",
+  "label": "Piano pour vocalises",
+  "title": "Piano pour vocalises : des gammes dans ta tessiture - Scalita",
+  "description": "Vocalises et routines d'échauffement sur un vrai piano, dans ta tessiture : choisis un type de voix ou ta note la plus grave et la plus aiguë. Gratuit.",
+  "h1": "Piano pour vocalises",
+  "lead": "Une vidéo d'échauffement est enregistrée dans une seule série de tonalités. Ce piano joue les gammes et les routines de Scalita dans les tiennes : choisis un type de voix ou ta propre note la plus grave et la plus aiguë, et appuie sur Lire.",
+  "toolId": "player",
+  "instructions": "<h2>Comment l'utiliser</h2><ol><li>Choisis un type de voix, ou règle ta propre note la plus grave et la plus aiguë. Si tu ne les connais pas, le <a href=\"page:vocal-range-test\">test de tessiture</a> les trouve en une minute environ.</li><li>Choisis une gamme ou une routine. Le motif, la syllabe à chanter, le tempo et le style s'affichent avant de commencer.</li><li>Appuie sur Lire et chante avec le piano. Avant chaque nouvelle tonalité, tu as un moment pour respirer et un court accord pour la poser.</li><li>Appuie sur Arrêter quand tu veux.</li></ol><p>Le piano n'utilise pas le micro, et rien ne se télécharge avant que tu appuies sur Lire.</p>",
+  "sampleResult": "<h2>Ce que tu vas entendre</h2><p>Choisis Ténor et la gamme 5 notes. La première tonalité commence sur {{note:D3}} : le piano joue de {{note:D3}} à {{note:A3}} et redescend, cinq notes en montant et quatre en descendant. Chaque reprise monte d'un demi-ton, jusqu'à ce que le haut du motif atteigne {{note:C5}}. Puis les tonalités redescendent, en passant sous leur point de départ, jusqu'à ce que la gamme commence sur {{note:C3}}, le bas de la tessiture d'un ténor. Cela fait 33 reprises, chacune dans une nouvelle tonalité.</p><p>Choisis plutôt une routine, comme Express avant scène, et le piano joue ses exercices l'un après l'autre. Avec le préréglage Ténor, elle dure environ 8 minutes.</p>",
+  "notClaimed": "<h2>Ce que ce piano ne fait pas</h2><p>Il joue et n'écoute pas, donc il ne peut pas te dire si tu es sur la note ou si tu forces trop. Il joue une gamme ou une routine à la fois et ne garde rien d'une visite à l'autre. Ce n'est pas non plus un cours. Si une note fait mal ou si ta voix est fatiguée, arrête-toi.</p>",
+  "sections": [
+    {
+      "heading": "Pourquoi ta tessiture compte",
+      "html": "<p>La plupart des vidéos d'échauffement existent en version « homme » et en version « femme », chacune dans des tonalités fixes, et beaucoup de voix ne rentrent dans aucune des deux. Quand la gamme d'une vidéo monte au-delà de ton aigu confortable, soit tu forces, soit tu décroches. Ici, tu choisis un type de voix, ou tu laisses les étiquettes de côté et tu règles ta propre note la plus grave et la plus aiguë. Chaque exercice commence dans une tonalité confortable pour cette tessiture et reste à l'intérieur.</p>"
+    },
+    {
+      "heading": "Ce qu'il joue",
+      "html": "<p>Les mêmes gammes et routines que l'application Scalita, avec les mêmes motifs, les mêmes syllabes, les mêmes tempos et le même ordre. On y trouve les motifs que les chanteurs utilisent le plus : dans une enquête auprès de 117 étudiants en chant et chanteurs professionnels, les exercices d'échauffement les plus courants comprenaient les gammes de cinq notes, les gammes d'une octave et les arpèges (Gish et ses collègues, 2012).</p><p>Une gamme joue un seul motif à travers ta tessiture. Une routine joue plusieurs exercices à la suite, comme l'application les enchaîne.</p>"
+    },
+    {
+      "heading": "Le piano",
+      "html": "<p>Le son est celui du Salamander Grand Piano, enregistré par Alexander Holm : le même piano que dans l'application, réaccordé pour que chaque note tombe sur sa hauteur. Pour que la page reste légère, il utilise 20 notes enregistrées et décale chacune d'un demi-ton au plus pour remplir les touches entre elles. Seules les notes dont ta tessiture a besoin se chargent, et seulement après que tu as appuyé sur Lire.</p>"
+    },
+    {
+      "heading": "Chanter avec le piano",
+      "html": "<ul><li>Chante la syllabe affichée, à volume moyen. Si elle te gêne, chanter bouche fermée marche sur n'importe quel motif.</li><li>Garde les tonalités du haut légères. Si l'une d'elles te semble trop loin, arrête-toi et règle plutôt une tessiture plus étroite au lieu de forcer.</li><li>Utilise le haut-parleur ou un casque, comme tu préfères. Rien n'écoute.</li></ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Par quel échauffement commencer ?",
+      "a": "<p>Si tu as quelques minutes, essaie une routine courte comme Express avant scène. Si tu veux juste réveiller ta voix, chante la gamme 5 notes bouche fermée. Les <a href=\"page:vocal-warm-ups\">guides de vocalises</a> détaillent les routines de l'application étape par étape.</p>"
+    },
+    {
+      "q": "Quel type de voix choisir ?",
+      "a": "<p>Celui dont la tessiture est la plus proche de la tienne, ou aucun : règle plutôt ta propre note la plus grave et la plus aiguë. Le <a href=\"page:vocal-range-test\">test de tessiture</a> les trouve en une minute environ, et le <a href=\"page:voice-types\">guide des types de voix</a> montre ce que couvre chacun.</p>"
+    },
+    {
+      "q": "Je peux enregistrer une routine ou ma tessiture ?",
+      "a": "<p>Pas ici. Ce piano est un échantillon de l'application Scalita, qui garde sur ton téléphone ta tessiture, tes propres gammes et routines, et ton historique de pratique.</p>"
+    },
+    {
+      "q": "Ça marche sur téléphone ?",
+      "a": "<p>Oui, dans un navigateur récent, sur téléphone ou sur ordinateur. Sur iPhone, si tu n'entends rien, vérifie que le bouton latéral n'est pas sur silencieux.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims et McWhorter (2012), Vocal warm-up practices and perceptions in vocalists: a pilot survey, Journal of Voice 26(1)",
+      "url": "https://doi.org/10.1016/j.jvoice.2010.10.005"
+    },
+    {
+      "label": "Salamander Grand Piano V3 d'Alexander Holm, les échantillons de piano",
+      "url": "https://archive.org/details/SalamanderGrandPianoV3"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

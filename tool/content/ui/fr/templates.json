@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Au piano, dans ta tessiture"
+  },
+  "tool": {
+    "howTo": "Comment l'utiliser",
+    "sample": "Exemple de résultat",
+    "notClaimed": "Ce qu'il ne prétend pas"
+  },
+  "routine": {
+    "length": "Durée",
+    "steps": "Étapes",
+    "cues": "Pendant toute la routine",
+    "whyOrder": "Pourquoi cet ordre",
+    "whatToFeel": "Ce qu'il faut sentir",
+    "whenToStop": "Quand s'arrêter",
+    "next": "Et ensuite"
+  },
+  "steps": {
+    "scale": "Gamme",
+    "syllable": "Syllabe",
+    "style": "Style",
+    "span": "Étendue",
+    "passaggio": "Passage de voix",
+    "repeat": "Répétitions par tonalité",
+    "wholeRange": "Toute ta tessiture",
+    "semitones": "{count} demi-tons",
+    "minutes": "{minutes} min",
+    "count": "Étapes",
+    "routines": "Routines"
+  },
+  "exercise": {
+    "tryIt": "Essaie maintenant",
+    "troubleshooting": "Si ça ne marche pas",
+    "usage": "Où Scalita l'utilise"
+  },
+  "pattern": {
+    "degrees": "Degrés",
+    "notes": "À partir de {note}",
+    "sung": "Chanté sur",
+    "syllables": "Syllabes que Scalita y associe",
+    "routines": "Routines qui l'utilisent"
+  },
+  "concept": {
+    "shortAnswer": "La réponse courte",
+    "where": "Où il se situe pour ta voix",
+    "listenFor": "Ce qu'il faut repérer",
+    "tryIt": "Essaie",
+    "exercises": "Exercices qui aident",
+    "misconceptions": "Idées reçues",
+    "seeProfessional": "Quand consulter un professionnel"
+  },
+  "voices": {
+    "heading": "Les six types de voix",
+    "voiceType": "Type de voix",
+    "range": "Tessiture typique",
+    "primo": "Premier changement",
+    "secondo": "Deuxième changement",
+    "fromTo": "{low} à {high}",
+    "keyboard": "{name} : {low} à {high}",
+    "note": "Ce sont des tessitures et des passages classiques typiques. Scalita utilise ces mêmes passages comme première estimation, jusqu'à ce que tu trouves les tiens. Les vraies voix varient, et la tessiture seule ne décide pas d'un type de voix."
+  },
+  "registers": {
+    "heading": "Sous et au-dessus de ta tessiture habituelle",
+    "register": "Registre",
+    "span": "Où il se situe",
+    "note": "Ce sont les étendues dans lesquelles Scalita travaille chaque registre. Pour les subharmoniques, l'étendue est la hauteur qu'on entend."
+  },
+  "intake": {
+    "appOnly": "Seulement dans l'application"
+  },
+  "notation": {
+    "systems": "Quatre façons de nommer les notes",
+    "system": "Système",
+    "names": "Notes",
+    "where": "Où on l'utilise",
+    "landmarks": "Le do central et le la 440 dans chaque système",
+    "middleC": "Do central",
+    "a440": "La 440 Hz",
+    "octave": "Une octave dans chaque système",
+    "keyboard": "Une octave à partir du do central, en {system}",
+    "octaves": "Trois façons de numéroter les octaves",
+    "style": "Numéros d'octave",
+    "lowest": "Touche la plus grave",
+    "highest": "Touche la plus aiguë",
+    "styles": {
+      "scientific": "Scientifique",
+      "francoBelgian": "Franco-belge",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

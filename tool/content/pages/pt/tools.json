@@ -1,0 +1,44 @@
+{
+  "label": "Ferramentas grátis",
+  "title": "Ferramentas grátis para cantores, no navegador - Scalita",
+  "description": "Quatro ferramentas grátis para quem canta, direto no navegador: teste de extensão vocal, teste de afinação, piano de aquecimento e teste de passagem vocal.",
+  "h1": "Ferramentas grátis para quem canta",
+  "lead": "Descubra a sua extensão, veja o quão perto da nota você canta, aqueça num piano de verdade nos seus tons e ache onde a sua voz muda. Não precisa criar conta, e nada do que você canta sai do seu aparelho.",
+  "intro": "<p>Estas quatro ferramentas vêm do Scalita, um app de aquecimento vocal para Android. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador.</p><p>Duas regras valem para todas. Uma ferramenta ou escuta ou toca o piano, nunca as duas coisas ao mesmo tempo, então você não precisa de fones. E quando uma ferramenta escuta, quem faz o trabalho é o seu navegador, no seu aparelho: nada é gravado nem enviado para lugar nenhum.</p>",
+  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "sections": [
+    {
+      "heading": "Por onde começar",
+      "html": "<p>Se você está começando agora, vá nesta ordem:</p><ol><li><a href=\"page:vocal-range-test\">Teste de extensão vocal</a>: a nota mais grave e a mais aguda que você canta com conforto, em cerca de um minuto.</li><li><a href=\"page:voice-break-finder\">Teste de passagem vocal</a>: onde a sua voz troca de marcha, o que diz mais sobre o seu tipo de voz do que a extensão.</li><li><a href=\"page:warm-up-piano\">Piano de aquecimento</a>: escalas e rotinas do app, tocadas na sua extensão.</li><li><a href=\"page:sing-in-tune-test\">Teste de afinação</a>: com a voz já aquecida, o quão perto você chega de uma nota que acabou de ouvir.</li></ol>"
+    },
+    {
+      "heading": "Quando uma ferramenta escuta",
+      "html": "<p>O teste de extensão vocal e o teste de afinação usam o microfone. Eles só pedem acesso depois que você aperta Iniciar, leem a altura da sua voz conforme ela chega e não guardam nada. Aperte Parar ou saia da página e o microfone desliga. O piano de aquecimento e o teste de passagem vocal nunca usam o microfone.</p><p>O microfone funciona numa versão recente do Chrome, Safari, Firefox ou Edge. Ele não funciona nos navegadores embutidos em apps como Instagram, TikTok, Facebook ou Gmail, então, se você chegou aqui por um deles, abra a página no navegador do celular primeiro.</p>"
+    },
+    {
+      "heading": "O que elas não dizem",
+      "html": "<p>Nenhuma destas ferramentas avalia a sua voz. Elas medem a altura das notas: que notas você alcança, onde a sua voz muda, o quão perto você chega de uma nota. Elas não julgam o seu timbre, não comparam você com outras pessoas e não tentam adivinhar o seu tipo de voz pelo jeito que você fala. Um resultado é a leitura de um momento, e amanhã a sua voz pode dar uma leitura um pouco diferente.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "As ferramentas são grátis?",
+      "a": "<p>São. Não tem conta, nem e-mail, nem anúncio. Elas servem por si só e mostram o que o app Scalita faz.</p>"
+    },
+    {
+      "q": "Funcionam no iPhone?",
+      "a": "<p>Elas rodam no navegador, então funcionam no iPhone, num celular Android ou no computador, desde que o navegador seja recente. O app Scalita em si, por enquanto, é só para Android.</p>"
+    },
+    {
+      "q": "Preciso de fones?",
+      "a": "<p>Não. Uma ferramenta que toca o piano não está escutando ao mesmo tempo, e uma que escuta não toca, então o microfone só ouve você.</p>"
+    },
+    {
+      "q": "Alguma coisa fica salva?",
+      "a": "<p>Só no seu aparelho. O teste de extensão vocal, o teste de afinação e o teste de passagem vocal guardam o seu último resultado neste navegador, para você comparar da próxima vez. Apagar os dados deste site nas configurações do navegador remove tudo.</p>"
+    }
+  ],
+  "sources": [],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

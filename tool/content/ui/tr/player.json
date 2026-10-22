@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Sesin",
+  "custom": "Kendi aralığın",
+  "lowest": "En pes nota",
+  "highest": "En tiz nota",
+  "chooserLabel": "Egzersiz",
+  "routines": "Rutinler",
+  "scales": "Gamlar",
+  "pickVoice": "Ses türünü seç ya da kendi aralığını belirle, sonra Çal'a bas.",
+  "ready": "{low} ile {high} arası. Hazır olduğunda Çal'a bas.",
+  "routineSummary": "{steps} egzersiz, yaklaşık {minutes} dk",
+  "scaleSummary": "{keys} ton, yaklaşık {minutes} dk",
+  "usingBreak": "Egzersizler {note} notasındaki geçiş bölgene göre kuruldu.",
+  "stepCard": "{syllable}, {tempo} bpm",
+  "stepDetail": "{scale}, {syllable} hecesiyle. {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. {tempo} bpm, {direction}.",
+  "stepOf": "Egzersiz {step} / {steps}",
+  "keyOf": "Ton {key} / {keys}: {note}",
+  "countIn": "Hazır ol: {n}",
+  "breathe": "Nefes al. Sonraki egzersiz {seconds} saniye sonra başlıyor.",
+  "done": "Bitti. Yeniden başlamak için Çal'a bas.",
+  "noAudio": "Bu tarayıcı ses çalamıyor. Chrome, Safari, Firefox ya da Edge'in güncel bir sürümünü dene.",
+  "loadFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene.",
+  "keyboard": "{low} ile {high} arası piyano tuşları",
+  "styles": {
+    "struck": "Keskin",
+    "normal": "Normal",
+    "smooth": "Akıcı"
+  },
+  "directions": {
+    "normal": "Çıkıcı",
+    "inverted": "İnici",
+    "mirror": "Ayna"
+  }
+}

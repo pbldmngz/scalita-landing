@@ -1,0 +1,60 @@
+{
+  "slug": "notas-musicales-do-central",
+  "label": "Notas y octavas",
+  "title": "Do central: ¿{{note:C4:intl}} o C3? Nombres de notas y octavas - Scalita",
+  "description": "El do central es {{note:C4:intl}}, {{note:C4:local}}, Do3 o c¹, según dónde aprendiste música. Cómo se corresponden los nombres de las notas y las octavas, y por qué el alemán escribe H.",
+  "h1": "Nombres de las notas y números de octava",
+  "lead": "Una misma tecla del piano puede tener varios nombres, según dónde aprendiste música. Aquí verás cómo se corresponden los sistemas de nombres y los números de octava, para que una nota de este sitio sea la tecla que crees que es.",
+  "sections": [
+    {
+      "heading": "El do central y los números de octava",
+      "html": "<p>El do central, el do que está cerca del centro del piano, es {{note:C4:intl}} en la notación científica, el sistema internacional con el que este sitio empareja cada nombre de nota. El número sube en uno en cada do: el do más grave de un piano de 88 teclas es C1, el do central es el cuarto, y el la con el que afinan las orquestas es {{note:A4:intl}}.</p>\n<p>Scalita escribe el solfeo español y el turco con la misma cuenta, así que el do central es {{note:C4:local}}. El solfeo francés y el brasileño cuentan uno menos: el do central es Do3 en francés y Dó3 en portugués de Brasil. El alemán marca la octava con mayúsculas, minúsculas y números pequeños: el do central es c¹, y el do de debajo es una c sin más.</p>"
+    },
+    {
+      "heading": "Por qué el alemán escribe H",
+      "html": "<p>En alemán, la nota que el cifrado americano llama B, nuestro si, se escribe H, y B significa si bemol. Los sostenidos añaden -is y los bemoles -es, así que fa sostenido es Fis y mi bemol es Es. Un cantante alemán que leyera una B del cifrado americano cantaría un semitono más grave de lo previsto, y por eso Scalita usa los nombres alemanes en alemán.</p>"
+    },
+    {
+      "heading": "Do fijo y do móvil",
+      "html": "<p>En el do fijo, do es siempre la tecla que el cifrado americano llama C, re es siempre la D, y así con todas: las sílabas son los nombres de las notas. España, Francia, Italia, Brasil, Turquía y Latinoamérica nombran las notas así.</p>\n<p>En el do móvil, do es la primera nota de la tonalidad en la que estés, así que una melodía cantada con do re mi conserva sus sílabas en cualquier tonalidad. Lo usan las clases de música y los coros de los países de habla inglesa, y en Indonesia y China la misma idea se escribe con números, 1 para do, bajo un encabezado que indica la tonalidad, como do = G. La notación Números de Scalita funciona así.</p>"
+    },
+    {
+      "heading": "Cómo escribe las notas este sitio",
+      "html": "<p>Cada nombre de nota de este sitio sale de las propias tablas de la app Scalita: primero el sistema habitual de tu idioma, con el nombre internacional al lado cuando los dos son distintos. En los ajustes de la app puedes cambiar entre Letras, Solfeo, Letras alemanas y Números.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿El do central es {{note:C4:intl}} o C3?",
+      "a": "<p>Es {{note:C4:intl}} en la notación científica que usa la mayor parte del material de canto, y {{note:C4:local}} en el solfeo de Scalita en español. Si un teclado o un programa de grabación lo llama C3, o C5, es la misma tecla con otra etiqueta: el estándar MIDI solo establece que el do central es la nota número 60.</p>"
+    },
+    {
+      "q": "¿Cuál es el do central en el piano?",
+      "a": "<p>En un piano completo de 88 teclas es el cuarto do empezando por la izquierda, cerca del centro. Cada do es la tecla blanca que está justo a la izquierda de un par de teclas negras.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (en inglés): Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia (en inglés): Musical note, sobre el do central, los nombres de Helmholtz y la H alemana.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (en francés): La 440, que empareja la3 con A4 y do3 con C4.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia (en inglés): Solfège, sobre el do fijo y el do móvil.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association: el estándar de numeración de octavas y notas MIDI.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

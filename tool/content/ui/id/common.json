@@ -1,0 +1,23 @@
+{
+  "start": "Mulai",
+  "stop": "Berhenti",
+  "listening": "Mendengarkan...",
+  "tooQuiet": "Terlalu pelan. Bernyanyilah sedikit lebih keras, atau dekatkan dirimu ke mikrofon.",
+  "allow": "Izinkan mikrofon saat browser memintanya.",
+  "result": "Hasilmu",
+  "share": "Bagikan",
+  "save": "Simpan gambar",
+  "openInBrowser": "Browser bawaan aplikasi ini tidak bisa memakai mikrofon. Buka halaman ini di Chrome atau Safari.",
+  "androidOnly": "Hanya Android",
+  "lastTime": "Terakhir kali",
+  "tryAgain": "Coba lagi",
+  "play": "Putar",
+  "loading": "Memuat piano...",
+  "next": "Berikutnya",
+  "back": "Kembali",
+  "close": "Tutup",
+  "copyLink": "Salin tautan",
+  "copied": "Tautan disalin",
+  "privacyLine": "Tidak ada yang direkam atau dikirim. Browser-mu mendengarkan di perangkatmu sendiri, dan mikrofon mati saat kamu menekan Berhenti.",
+  "noScript": "Alat ini butuh JavaScript. Bagian lain halaman ini tetap bisa dipakai tanpanya."
+}

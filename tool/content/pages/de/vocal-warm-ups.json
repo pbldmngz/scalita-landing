@@ -1,0 +1,64 @@
+{
+  "slug": "einsingen",
+  "label": "Einsingen",
+  "title": "Einsingen am echten Klavier, in deinem Umfang - Scalita",
+  "description": "Drei Routinen aus der Scalita-App am echten Klavier, in deinem Umfang: kurz einsingen vor dem Auftritt, ausführlich einsingen und ein Cool-down danach.",
+  "h1": "Einsingen",
+  "lead": "Drei Routinen aus der Scalita-App, auf einem echten Klavier in deinem Umfang gespielt: ein kurzes Einsingen für direkt vor dem Singen, ein volles Einsingen und ein Cool-down für danach. Wähl die Stimmlage, die deiner am nächsten kommt, oder stell deinen eigenen tiefsten und höchsten Ton ein, und drück auf Abspielen.",
+  "intro": "<p>Jede Routine hier ist die aus der App, Schritt für Schritt: dieselben Muster, Silben und Tempi und dieselbe Reihenfolge. Was ein Video nicht kann, ist die Tonart für dich zu wechseln. Hier rückt das Klavier jedes Muster halbtonweise so, dass es in den Umfang passt, den du eingestellt hast. So singst du mit deiner eigenen Stimme und nicht mit der Stimme der Person, die das Video aufgenommen hat.</p><p>Nicht sicher, welche heute passt? Beantworte auf dieser Seite die zwei Fragen von „Einsingen finden“, dieselben, die die App stellt. Wenn du deinen Umfang noch nicht kennst, findet der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> deinen tiefsten und höchsten Ton.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Welche Routine heute?",
+      "html": "<p>„Einsingen finden“ fragt zuerst, wie sich deine Stimme anfühlt, und dann, woran du arbeiten willst, und die erste Antwort kann die zweite überstimmen.</p><ul><li><em>Müde / gepresst</em> führt immer zum <a href=\"page:vocal-cool-down\">Cool-down</a>, etwas langsamer gespielt, egal woran du arbeiten wolltest.</li><li><em>Kurz vor der Show</em> führt zum <a href=\"page:quick-vocal-warm-up\">kurzen Einsingen</a> und <em>Nur einsingen</em> zum <a href=\"page:full-vocal-warm-up\">vollen</a>.</li><li><em>Etwas daneben</em> macht jede Routine etwas langsamer, und die App hält <em>Umfang erweitern</em> und <em>Rauheit / Screaming</em> an diesem Tag zurück.</li><li><em>Bereit</em> spielt die Routinen etwas schneller.</li></ul>"
+    },
+    {
+      "heading": "Wie diese Routinen aufgebaut sind",
+      "html": "<p>Alle drei beginnen mit einem Triller auf der <a href=\"page:five-note-scale\">5-Töne-Übung</a>. Bei Trillern und beim Summen ist der Mund teilweise geschlossen. Gesangslehrkräfte und Stimmtherapeutinnen und -therapeuten nutzen sie seit Langem, und viele Einsing-Routinen, auch diese, beginnen damit. In einer Umfrage unter 117 Sängerinnen und Sängern gehörten Übungen über fünf Töne und Arpeggien zu den meistgenutzten.</p><p>Von dort werden die Muster weiter: fünf Töne, dann ein Arpeggio über eine Oktave, dann, in den beiden Routinen zum Einsingen, anderthalb Oktaven. Jede Übung beginnt in einer bequemen Tonart statt auf deinem tiefsten Ton, steigt bis an die Obergrenze ihres Bereichs und kommt dann Tonart für Tonart wieder bis ganz nach unten.</p><p>Manche Schritte liegen stattdessen um deinen <a href=\"page:voice-cracks-high-notes\">Registerbruch</a> herum. <em>Nur annähern</em> hört knapp unter dem Bruch auf, <em>Einmal queren</em> geht darüber und zurück. Zwischen den Tonarten spielt das Klavier einen kurzen Akkord, der dir die neue Tonart gibt, und lässt dir einen Moment zum Atmen.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie lange sollte man sich einsingen?",
+      "a": "<p>Eine feste Zahl gibt es nicht. In einer Umfrage unter 117 Sängerinnen und Sängern war die beliebteste Dauer 5 bis 10 Minuten. Bei einem Umfang von zwei Oktaven dauern die Routinen hier 6 bis 8 Minuten (kurz), 12 bis 14 (voll) und 7 bis 11 (Cool-down).</p>"
+    },
+    {
+      "q": "Gibt es eigene Einsingübungen für Frauen- und Männerstimmen?",
+      "a": "<p>Die Übungen sind für alle dieselben. Was sich ändert, ist die Tonart: Wähl die Voreinstellung, die deiner Stimme am nächsten kommt, vom Sopran bis zum Bass, oder stell deinen eigenen Umfang ein, und das Klavier legt jedes Muster passend. Eine Voreinstellung bestimmt nur, wo das Klavier spielt, also wähl sie danach, wo deine Stimme liegt, nicht nach dem Geschlecht. Die Seite zu den <a href=\"page:voice-types\">Stimmlagen</a> beschreibt jede einzelne.</p>"
+    },
+    {
+      "q": "Bringt Einsingen wirklich etwas?",
+      "a": "<p>Sängerinnen und Sänger spüren es. In einer Studie bemerkten alle zwölf klassisch ausgebildeten Teilnehmenden nach 25 Minuten Einsingen Veränderungen in Klang und Kontrolle. Zuhörende hörten seltener einen Unterschied, meist bei denen, deren Vibrato gleichmäßiger geworden war. Einsingen ist vor allem für dich: So findest du deine Stimme von heute, bevor es ernst wird.</p>"
+    },
+    {
+      "q": "Soll ich mich einsingen, wenn ich krank bin?",
+      "a": "<p>Nein. Wenn dein Hals wehtut oder deine Stimme heiser ist, schone sie, und geh zu einer Ärztin oder einem Arzt, wenn es nicht besser wird. Das Cool-down ist für eine Stimme, die vom Singen müde ist, nicht für eine kranke.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims und McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft und Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

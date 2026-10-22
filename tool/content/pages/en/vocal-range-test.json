@@ -1,0 +1,72 @@
+{
+  "slug": "vocal-range-test",
+  "label": "Vocal range test",
+  "title": "Vocal Range Test: Find Your Lowest and Highest Notes - Scalita",
+  "description": "Sing or hum your lowest and highest notes and see your vocal range in notes and octaves, with the voice types it's typical for. Free, in your browser.",
+  "h1": "Vocal range test",
+  "lead": "Sing or hum your lowest comfortable note, then your highest. In about a minute you'll see your range in notes and octaves, and the voice types it's typical for.",
+  "toolId": "vocal-range-test",
+  "instructions": "<h2>How to take the test</h2><ol><li>Press Start and allow the microphone when your browser asks.</li><li>Sing or hum your lowest comfortable note on an easy vowel, like “ah” or “oh”. Slide down slowly until you find the bottom, then hold that note for a second or two until it locks.</li><li>Go up to your highest comfortable note and hold it the same way.</li><li>Read your result. From there you can hear your range on the piano or go on to find your voice break.</li></ol><p>Comfortable means a note you could use in a song, not one you can only just squeeze out. Use your phone's own microphone in a quiet room, and warm up for a few minutes first if you can. A cold voice often reads narrower.</p>",
+  "sampleResult": "<h2>What a result looks like</h2><p>Say you sing from {{note:G3}} up to {{note:F5}}. Your result reads:</p><ul><li>Lowest {{note:G3}}, highest {{note:F5}}</li><li>22 semitones, about 1.8 octaves</li><li>Typical for contralto or mezzo-soprano</li></ul><p>Under it come two reminders from the Scalita app: your range may change with warm-up, training and time of day, and your voice break is a more reliable guide to voice type. If you've taken the test before in this browser, your last result shows as well, and you can save the result as an image or share it.</p>",
+  "notClaimed": "<h2>What this test doesn't tell you</h2><p>It doesn't tell you if your voice is any good, and it doesn't decide your voice type. Teachers weigh four things when they classify a voice: its range, where it sits comfortably most of the time, its color, and where it shifts. This test measures the first. The <a href=\"page:voice-break-finder\">voice break finder</a> helps with the last.</p><p>The range it shows is the range you sing in. If your lowest reading is a creaky vocal fry, or your highest is a thin whistle note above your head voice, the result marks it, so you can tell it apart from the notes you sing with.</p>",
+  "sections": [
+    {
+      "heading": "What the test measures",
+      "html": "<p>Your vocal range is the stretch of notes from the lowest you can sing comfortably to the highest. The test finds both ends with your voice and counts the distance between them in semitones, the step from one piano key to the next, and in octaves of twelve semitones. Middle C is {{note:C4}}.</p><p>Then it compares the middle of your range with the voice types in Scalita's table and names the closest one, or the two closest when they're nearly tied. Each type in the table spans two octaves, from {{note:F2}} to {{note:F4}} for a bass up to {{note:C4}} to {{note:C6}} for a soprano.</p>"
+    },
+    {
+      "heading": "How it works",
+      "html": "<p>Your browser listens through the microphone and reads the pitch of your voice about twenty times a second, with the same method the Scalita app uses: YIN, a pitch detector published in 2002. A note only counts once it has held steady for a moment, so slides, cracks and coughs stay out of your result.</p><p>All of it happens on your device. The sound is read as it comes in and then thrown away. Nothing is recorded or sent, and the microphone turns off when you press Stop or leave the page.</p>"
+    },
+    {
+      "heading": "Getting a fair result",
+      "html": "<ul><li>Warm up for a few minutes first. A hum or a few easy scales on the <a href=\"page:warm-up-piano\">warm-up piano</a> will do.</li><li>Find a quiet room and use your phone's own microphone. Bluetooth earbuds switch to a phone-call microphone that hears much less.</li><li>Use an easy vowel and a medium volume. A shouted top note or a whispered bottom one is harder to read.</li><li>Take it twice. Two results within a note or two of each other give you a fair picture of your range today.</li></ul>"
+    },
+    {
+      "heading": "If the microphone doesn't work",
+      "html": "<ul><li><strong>Opened from Instagram, TikTok, Facebook or Gmail?</strong> Their built-in browsers block the microphone. Use the app's menu to open this page in Chrome or Safari.</li><li><strong>Pressed Block by mistake?</strong> Allow the microphone in the site settings, usually behind the icon next to the address, then reload the page.</li><li><strong>Another app using it?</strong> End the call or close the recording app, then press Start again.</li><li><strong>The level stays low?</strong> Sing a little louder or move closer. Laptop microphones need you closer than phones do.</li><li><strong>No microphone at all?</strong> Set your range by hand: play notes on the keyboard and choose the lowest and highest you can sing.</li></ul>"
+    },
+    {
+      "heading": "After the test",
+      "html": "<p>Hear your result on the piano, then try the <a href=\"page:voice-break-finder\">voice break finder</a> to see where your voice shifts, or warm up on the <a href=\"page:warm-up-piano\">warm-up piano</a> with exercises that fit your range. In the Scalita app, your range is the first thing you set, and every exercise after that starts and stops where your voice does.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "How accurate is an online vocal range test?",
+      "a": "<p>Reading the pitch of a held note is the easy part. The test only needs the nearest note, and it waits until your pitch is steady before it counts one. What moves the result is the singing and the setup: whether you're warmed up, how quiet the room is, and which microphone you use.</p>"
+    },
+    {
+      "q": "What voice type am I?",
+      "a": "<p>Your result names the voice types your range is typical for. Take that as a starting point, not a label. The <a href=\"page:voice-break-finder\">voice break finder</a> adds where your voice shifts, and the <a href=\"page:voice-types\">voice types guide</a> explains what else teachers listen for.</p>"
+    },
+    {
+      "q": "Is there a normal vocal range?",
+      "a": "<p>There's no target to hit. The notes you can sing comfortably in a song matter more than the ones you can only just reach.</p>"
+    },
+    {
+      "q": "Can my vocal range change?",
+      "a": "<p>Yes. It shifts with warm-up, training and time of day, so two tests a few hours apart can differ. Training changes which notes feel comfortable, but no one can promise how many you'll gain. If you take the test again in this browser, your last result shows next to the new one.</p>"
+    },
+    {
+      "q": "Do I need headphones or a special microphone?",
+      "a": "<p>No. The test only listens, and the piano plays only after the microphone is off. A phone's built-in microphone works well.</p>"
+    },
+    {
+      "q": "Does humming count?",
+      "a": "<p>Yes. A hum is often the easiest way to find your lowest note. Any steady sound with a clear pitch works.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "de Cheveigné and Kawahara (2002), YIN, a fundamental frequency estimator for speech and music, Journal of the Acoustical Society of America 111(4)",
+      "url": "https://doi.org/10.1121/1.1458024"
+    },
+    {
+      "label": "Voice type, Wikipedia: the qualities teachers weigh when they classify a voice",
+      "url": "https://en.wikipedia.org/wiki/Voice_type"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

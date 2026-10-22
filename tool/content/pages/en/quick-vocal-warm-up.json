@@ -1,0 +1,40 @@
+{
+  "slug": "quick-vocal-warm-up",
+  "label": "Quick warm-up",
+  "title": "Quick vocal warm-up before you sing - Scalita",
+  "description": "A quick vocal warm-up for right before you sing: five exercises on a real piano, moved to your range. Scalita's Pre-Performance Quick routine, step by step.",
+  "h1": "Quick vocal warm-up",
+  "lead": "For right before a lesson, a rehearsal, an audition or a show, when there's no time for a full warm-up. It's the Scalita routine Pre-Performance Quick: five exercises in your range, kept short on purpose.",
+  "routineId": "pre_performance",
+  "whyOrder": "<h2>Why this order</h2><p>Five exercises, from a light sound to the widest pattern and back to a light one.</p><ol><li><strong>A tongue trill on a five-note scale, across your whole range.</strong> A light sound to cover a lot of ground with before you open up to vowels. Scalita starts on the tongue trill. If your language has no rolled R and it feels hard, start on the lip trill.</li><li><strong>An arpeggio on M, a hum that opens into a relaxed, speech-like vowel.</strong> The pattern widens to an octave.</li><li><strong>The same arpeggio on N.</strong> This step is marked <em>Cross once</em>: it goes over your voice break and back a single time, so you have been through the shift before a song asks for it.</li><li><strong>An octave and a half on an open vowel.</strong> The widest pattern of the routine, sung once the voice is moving.</li><li><strong>A lip trill in a small window.</strong> The last thing you sing before you go on is something easy rather than your biggest stretch.</li></ol><p>It runs a little faster than the full warm-up and takes about 6 to 8 minutes on a two-octave range. Every exercise starts on a comfortable key rather than your lowest, climbs to the top of its range, then comes back down through the keys to the bottom.</p>",
+  "whatToFeel": "<h2>What to feel</h2><p>On the trills, an even buzz at the lips or the tip of the tongue, kept going by steady air, not by effort. On the M and N steps, the buzz you feel in your lips and nose while humming should carry on into the vowel. On the wide step, a loose jaw that drops a little, as if you were starting to yawn.</p><p>By the end, singing should feel easier than when you started. If it feels harder, read the part on when to stop.</p><h3>Common mistakes</h3><ul><li><strong>Singing at show volume.</strong> Medium or softer is enough here. Save the volume for the stage.</li><li><strong>Reaching for the top keys.</strong> If a key feels like a stretch, sit it out and come back in on the next exercise.</li><li><strong>Lifting your chin on high notes.</strong> Keep your head level and let the pitch move, not your neck.</li><li><strong>Fighting a trill that keeps stopping.</strong> Ease off with the lips or tongue, keep the air steady, or switch to the other trill.</li></ul>",
+  "whenToStop": "<h2>When to stop</h2><p>Stop if anything hurts, if your throat feels scratchy or burning, or if your voice gets rougher as you go instead of clearer. A warm-up should never be something you push through.</p><p>Notes outside your voice aren't a test. The arpeggio that crosses your break is placed around the break, not inside your range, so on some presets it starts below the notes you can sing. Stay quiet on any key that's too low or too high, and join in when the piano reaches notes that feel easy. Singing softer is always allowed.</p>",
+  "next": "<h2>What to do next</h2><p>Go and sing. On days with more time, the <a href=\"page:full-vocal-warm-up\">full warm-up</a> spends longer on the trills, the hums and your break. After a long show or rehearsal, the <a href=\"page:vocal-cool-down\">cool-down</a> is slow and quiet on purpose.</p><p>If none of the presets matches your voice, the <a href=\"page:vocal-range-test\">vocal range test</a> finds your lowest and highest notes, so the warm-up can follow your own range. In the app, Adaptive Mode can also build a warm-up paced to five minutes.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Is a 5-minute vocal warm-up enough?",
+      "a": "<p>It's a common length. In a survey of 117 singers, 5 to 10 minutes was the warm-up length they preferred most. This routine takes a little longer, about 6 to 8 minutes on the presets. Before a long rehearsal or a demanding part, the full warm-up gives you more time on the wide patterns and around your break.</p>"
+    },
+    {
+      "q": "How long before a performance should I warm up?",
+      "a": "<p>No study gives a number. Finish close enough to the start that your voice doesn't sit silent for long in between. If you have to wait, hum quietly now and then until you go on.</p>"
+    },
+    {
+      "q": "Is there a quick warm-up for female or male voices?",
+      "a": "<p>It's the same warm-up for everyone; only the key changes. Pick the preset closest to your voice or set your own range. On the presets it takes about 6 minutes for soprano, mezzo-soprano and contralto, and 7 to 8 for tenor, baritone and bass.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims and McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "7165fbac2860399712ff0467ca1532a567d0a54622ec284650037371a033778e"
+}

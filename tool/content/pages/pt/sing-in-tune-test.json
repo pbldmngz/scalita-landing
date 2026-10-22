@@ -1,0 +1,80 @@
+{
+  "slug": "teste-de-afinacao-vocal",
+  "label": "Teste de afinação",
+  "title": "Teste de afinação vocal grátis: cante a nota do piano - Scalita",
+  "description": "Ouça uma nota no piano, cante de volta e veja a quantos cents você chegou dela. Um teste de afinação e um afinador de voz grátis, direto no navegador.",
+  "h1": "Teste de afinação vocal",
+  "lead": "O piano toca uma nota e para. Você canta de volta, e a página mostra o quão perto você chegou, em cents. Cinco notas formam uma rodada, e o modo afinador mostra a sua afinação enquanto você canta o que quiser.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>Como fazer o teste</h2><ol><li>Escolha o seu tipo de voz, ou use a extensão que você achou no <a href=\"page:vocal-range-test\">teste de extensão vocal</a>, para que cada nota fique num lugar que você consegue cantar.</li><li>Aperte Iniciar e permita o microfone.</li><li>Ouça a nota. Quando o piano parar, cante de volta numa vogal fácil e segure.</li><li>O ponteiro e o traço mostram o quanto você está acima ou abaixo da nota enquanto segura.</li><li>Depois de cinco notas, veja o resultado.</li></ol><p>Para usar o afinador, mude para o modo afinador e cante. Ele mostra a nota mais próxima e a quantos cents você está dela, e nenhum piano toca.</p>",
+  "sampleResult": "<h2>Como fica um resultado</h2><p>Uma rodada de cinco notas, e a distância de cada uma:</p><ul><li>{{note:A3}}: 6 cents abaixo</li><li>{{note:C4}}: 12 cents acima</li><li>{{note:B3}}: 9 cents abaixo</li><li>{{note:D4}}: 31 cents abaixo</li><li>{{note:G3}}: 4 cents acima</li></ul><p>Distância típica: 9 cents, o valor do meio entre os cinco. Quatro das cinco notas ficaram dentro de 25 cents, o limite que o app Scalita usa para considerar que você está na nota. O resultado também mostra o quanto você segurou as notas firmes.</p>",
+  "notClaimed": "<h2>O que este teste não diz</h2><p>Ele mede a altura e mais nada: o quão perto cada nota chega da que o piano tocou, e o quanto ela fica firme. Ele não diz nada sobre o seu timbre, o seu estilo ou como o seu canto chega às pessoas. Uma rodada num dia é uma única leitura da sua afinação, não um julgamento do seu ouvido nem da sua voz, e não é um exame de audição.</p>",
+  "sections": [
+    {
+      "heading": "O que o teste mede",
+      "html": "<p>Diferenças de altura são medidas em cents. Um semitom, o passo de uma tecla do piano para a seguinte, tem 100 cents. Uma nota acima do alvo está alta, e uma abaixo dele está baixa. Quando você se firma numa nota, o teste mede a quantos cents você está da nota do piano e o quanto a sua afinação oscila enquanto você segura.</p><p>Quão perto é perto o bastante? No app Scalita, uma nota conta como desafinada quando está a mais de um quarto de semitom, 25 cents, de distância. A voz se mexe um pouco em toda nota, e o vibrato oscila acima e abaixo de propósito, então alguma oscilação em volta da nota é normal.</p>"
+    },
+    {
+      "heading": "Por que o piano para antes de você cantar",
+      "html": "<p>O piano e o microfone se revezam. Se funcionassem ao mesmo tempo, o microfone ouviria o piano além de você, e você precisaria de fones. Com o revezamento, não precisa.</p><p>Isso também testa o que importa quando você canta: ouvir uma nota e depois achá-la só com a sua voz. Num estudo, cantores que costumavam errar a altura pareciam atrapalhados, e não ajudados, quando a nota certa tocava junto com eles (Pfordresher e Brown, 2007).</p>"
+    },
+    {
+      "heading": "Errar a nota, na maioria das vezes, não é questão de ouvido",
+      "html": "<p>Estudos com pessoas que cantam fora da nota descobriram que a maioria delas ouve a altura normalmente. Nos experimentos de Pfordresher e Brown, de 10 a 15 por cento dos participantes cantavam as notas de volta com pelo menos um semitom de diferença, e distinguiam alturas tão bem quanto os que cantavam na nota. Hutchins e Peretz (2012) viram que as pessoas acertavam notas com mais precisão usando um controle deslizante do que com a própria voz. Para a maioria, a parte difícil é levar a voz até uma nota que a pessoa consegue ouvir.</p><p>Uma dificuldade de vida inteira para perceber a altura existe, sim. Ela se chama amusia congênita, e um estudo com 20 mil pessoas estimou que ela atinge cerca de 1,5 por cento da população (Peretz e Vuvan, 2017). Este teste não consegue diagnosticar a amusia e nem tem essa intenção.</p>"
+    },
+    {
+      "heading": "Modo afinador",
+      "html": "<p>O afinador pula o piano. Cante qualquer nota e ele mostra o nome da nota mais próxima e quantos cents acima ou abaixo você está, enquanto você canta. Use para conferir uma nota que você está segurando, para acompanhar a voz escorregando de uma nota para outra ou para ver o quanto o seu vibrato oscila.</p>"
+    },
+    {
+      "heading": "Uma escuta rápida",
+      "html": "<p>Para conferir só o ouvido, a escuta rápida toca duas notas e pergunta qual foi mais aguda. São três perguntas, com as respostas em palavras: uma olhada rápida, não um exame de audição.</p>"
+    },
+    {
+      "heading": "Se o microfone não funcionar",
+      "html": "<p>Abra a página no Chrome, Safari, Firefox ou Edge, e não dentro do Instagram, TikTok, Facebook ou Gmail, cujos navegadores embutidos bloqueiam o microfone. Se você apertou Bloquear, permita o microfone nas configurações do site e recarregue. Use o microfone do próprio celular em vez de fones Bluetooth e, se o nível ficar baixo, cante um pouco mais forte ou chegue mais perto.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Como saber se estou cantando afinado?",
+      "a": "<p>É difícil julgar a própria afinação de ouvido enquanto você canta. Uma gravação ajuda, e uma medição ajuda mais: este teste toca uma nota, você canta de volta e ele diz a quantos cents você chegou dela. No app Scalita, até 25 cents de distância conta como estar na nota.</p>"
+    },
+    {
+      "q": "Por que eu fico abaixo ou acima da nota?",
+      "a": "<p>Motivos comuns são uma nota perto do limite da sua extensão confortável, uma voz cansada ou fria, a pressa e o próprio som do piano: num estudo, pessoas sem formação musical imitaram melhor uma gravação da própria voz do que um som sintetizado (Hutchins e Peretz, 2012). Ir mais devagar ajuda muita gente. Quando cantores ocasionais de outro estudo cantaram uma música conhecida mais devagar, a maioria cantou com uma precisão parecida com a de profissionais (Dalla Bella e colegas, 2007).</p>"
+    },
+    {
+      "q": "Como saber se eu canto bem?",
+      "a": "<p>Um teste como este mede uma parte do canto: chegar na nota. Timbre, ritmo, letra e estilo contam tanto quanto, e nenhum teste de microfone consegue avaliar isso. Errar por muito numa rodada só quer dizer que aquelas cinco notas ficaram longe do piano daquela vez.</p>"
+    },
+    {
+      "q": "Preciso de fones?",
+      "a": "<p>Não. O piano toca primeiro e para antes de o microfone escutar, então ele só ouve você.</p>"
+    },
+    {
+      "q": "A leitura é precisa?",
+      "a": "<p>Numa nota limpa e firme, a leitura da altura tem precisão de poucos cents. Barulho de fundo, um microfone fraco e fones Bluetooth deixam a leitura menos confiável, e a página avisa quando o seu nível está baixo demais.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher e Brown (2007), um estudo sobre canto fora da nota e percepção de altura, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère e Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins e Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz e Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

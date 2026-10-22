@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "Este navegador no puede usar el micrófono aquí. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.",
+  "micInApp": "El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.",
+  "micBlocked": "Tu navegador está bloqueando el micrófono en este sitio. Permítelo en la configuración del sitio, normalmente en el icono que hay junto a la dirección, y vuelve a cargar la página.",
+  "micDismissed": "La página necesita tu permiso para usar el micrófono. Vuelve a intentarlo y elige Permitir cuando el navegador te lo pida.",
+  "micNotFound": "No se encontró ningún micrófono. Conecta uno o enciéndelo, y vuelve a intentarlo.",
+  "micBusy": "Algo más está usando el micrófono, como una llamada u otra app. Ciérralo y vuelve a intentarlo.",
+  "micInterrupted": "El micrófono se cortó, quizá por una llamada o porque se desconectaron los auriculares. Vuelve a intentarlo cuando quieras.",
+  "micHidden": "La escucha se detiene cuando cambias a otra pestaña o a otra app. Vuelve a empezar cuando quieras.",
+  "micFailed": "Algo falló al poner en marcha el micrófono. Vuelve a cargar la página e inténtalo de nuevo.",
+  "micBluetooth": "Parece que usas auriculares Bluetooth. Su micrófono baja a calidad de llamada, así que el micrófono del propio teléfono te captará mejor.",
+  "micSilent": "No llega sonido del micrófono. Comprueba que no esté silenciado y luego canta o tararea.",
+  "levelQuiet": "Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.",
+  "levelLoud": "Suena tan fuerte que puede distorsionar. Aléjate un poco del micrófono."
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "test-de-pasaje-vocal",
+  "label": "Test de pasaje vocal",
+  "title": "Test de pasaje vocal: encuentra tu quiebre en el piano - Scalita",
+  "description": "Canta mientras el piano sube y pulsa donde cambia tu voz. Obtienes tu primer passaggio y el tipo de voz con el quiebre más cercano. No necesitas micrófono.",
+  "h1": "Test de pasaje vocal",
+  "lead": "Canta mientras el piano sube, y pulsa cuando tu voz quiera quebrarse, cambie a un sonido más ligero o necesite un empujón. Obtienes la nota donde está tu primer quiebre y el tipo de voz cuyo quiebre queda más cerca.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>Cómo encontrar tu quiebre</h2><ol><li>Pulsa Empezar y elige voz más grave o voz más aguda. Eso decide dónde empieza el piano y con qué tres tipos de voz se compara tu resultado.</li><li>El piano toca una nota cada dos segundos, un semitono más aguda cada vez.</li><li>Canta con él en una vocal fácil, como “a”, a volumen medio, y mantén el mismo sonido todo el camino hacia arriba.</li><li>Pulsa en el momento en que tu voz quiera quebrarse, cambie a un sonido más ligero y aireado, o de repente necesite más esfuerzo.</li><li>El piano toca tres notas: dos semitonos por debajo de la que marcaste, esa nota y dos semitonos por encima. Si el cambio llegó un poco antes o después, muévelo un semitono hacia abajo o hacia arriba, y confirma.</li></ol>",
+  "sampleResult": "<h2>Cómo se ve un resultado</h2><p>Supongamos que elegiste voz más aguda y marcaste {{note:E4}}. El resultado dice:</p><ul><li>Primer cambio: {{note:E4}}</li><li>Coincidencia más cercana: mezzosoprano, cuyo primer cambio suele estar alrededor de {{note:E4}}</li><li>Segundo cambio, estimado a partir de ese tipo de voz: alrededor de {{note:E5}}</li></ul><p>El tramo entre los dos cambios es tu zona de quiebre. El tipo de voz también depende de dónde suena mejor tu voz y de tu timbre, así que toma la coincidencia como un punto de partida.</p>",
+  "notClaimed": "<h2>Lo que esto no te dice</h2><p>La nota que marcas es donde sentiste el cambio hoy, con esa vocal y a ese volumen. Si cantas más fuerte o cambias de vocal, puede moverse. Solo el primer cambio se encuentra de oído. El segundo es una estimación a partir del tipo de voz que coincidió, no una medición.</p><p>No decide tu tipo de voz, ni te enseña a suavizar el quiebre. Algunas voces, a menudo las entrenadas, pasan por esta zona con tanta suavidad que no hay un quiebre claro. Si es tu caso, marca el punto donde cantar empieza a costar más esfuerzo, o sáltate el test.</p>",
+  "sections": [
+    {
+      "heading": "Qué es un quiebre vocal",
+      "html": "<p>Cuando subes una escala, hay un tramo en el que tu voz cambia de marcha. Puede quebrarse, pasar a un sonido más ligero o de repente costar más. Todas las voces lo tienen. No es un defecto, y gran parte del entrenamiento vocal consiste en atravesarlo con suavidad.</p><p>La enseñanza clásica llama a estos cambios passaggi, “pasajes” en italiano (en español se habla también de la zona de pasaje): un primero, el primo passaggio, y un segundo más arriba, el secondo passaggio, con una zona entre los dos. Este test busca el primero.</p>"
+    },
+    {
+      "heading": "Dónde está en cada tipo de voz",
+      "html": "<p>En la tabla de Scalita, el primer cambio está alrededor de {{note:F4}} en la voz de soprano, {{note:E4}} en la de mezzosoprano, {{note:D4}} en la de contralto y en la de tenor, {{note:B3}} en la de barítono y {{note:G#3}} en la de bajo. Son promedios clásicos, y cada voz real es distinta.</p><p>La voz de contralto y la de tenor comparten primer cambio, pero no rango. Por eso el test pregunta si tienes una voz más grave o más aguda: la misma nota apunta a un tipo de voz distinto en cada grupo.</p>"
+    },
+    {
+      "heading": "Por qué el quiebre dice más que tu rango",
+      "html": "<p>Dos cantantes pueden compartir casi todo su rango y aun así cambiar en sitios distintos. Por eso Scalita considera tu quiebre vocal una guía del tipo de voz más confiable que el rango por sí solo. Los profesores también escuchan dónde se siente cómoda una voz y su color, cosas que un piano no puede medir.</p>"
+    },
+    {
+      "heading": "Cómo funciona el test",
+      "html": "<p>Solo usa el piano, nunca el micrófono. El cambio lo juzgas tú, por sensación y de oído, así que el test funciona en cualquier navegador, con micrófono o sin él.</p><p>El piano empieza en grave, en {{note:C3}} para una voz más grave y en {{note:G#3}} para una más aguda, y sube un semitono cada dos segundos. Cuando pulsas, esa nota pasa a ser tu primer cambio. Después el test busca el tipo de voz de tu grupo cuyo primer cambio queda más cerca, y toma el segundo cambio de ese tipo.</p>"
+    },
+    {
+      "heading": "Para obtener una respuesta clara",
+      "html": "<ul><li>Calienta un poco antes, por ejemplo con unas escalas en el <a href=\"page:warm-up-piano\">piano para vocalizar</a>.</li><li>Mantén la misma vocal y el mismo volumen todo el camino hacia arriba. Las dos cosas pueden mover el punto donde sientes el cambio.</li><li>No empujes más allá del cambio para seguir subiendo. Pulsa y suéltalo.</li><li>Hazlo dos veces. Que haya una nota de diferencia entre intentos es normal, porque el cambio es una zona, no un punto exacto.</li></ul>"
+    },
+    {
+      "heading": "Después de encontrarlo",
+      "html": "<p>Tu quiebre es donde ocurre gran parte de la práctica de canto. En la app Scalita da forma a los ejercicios: algunos se detienen justo antes del quiebre, otros lo cruzan una vez y vuelven, otros se centran en la zona de quiebre y otros te llevan hasta arriba por la voz de cabeza. La rutina Constructor de puente está construida a su alrededor. Para entender el fondo, lee <a href=\"page:voice-cracks-high-notes\">por qué se quiebra la voz en los agudos</a> y <a href=\"page:head-voice-vs-chest-voice\">voz de cabeza y voz de pecho</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Es malo que se me quiebre la voz?",
+      "a": "<p>No. Todas las voces tienen estos cambios, y un quiebre es la voz haciendo uno de golpe en vez de con suavidad. Si cantar te duele o la voz se te queda ronca, descansa y consulta a un médico o a un terapeuta de la voz. Hay más en <a href=\"page:voice-cracks-high-notes\">por qué se quiebra la voz en los agudos</a>.</p>"
+    },
+    {
+      "q": "¿Dónde está el passaggio de un tenor?",
+      "a": "<p>En la tabla de Scalita, que sigue promedios clásicos, el primer cambio de un tenor está alrededor de {{note:D4}} y el segundo alrededor de {{note:G4}}. En la voz de soprano, los dos están alrededor de {{note:F4}} y {{note:F5}}. Los tuyos pueden estar un poco más arriba o más abajo, y para eso está el test.</p>"
+    },
+    {
+      "q": "¿Por qué pregunta si mi voz es más grave o más aguda?",
+      "a": "<p>Para elegir con qué tres tipos de voz compararte (tenor, barítono y bajo, o soprano, mezzosoprano y contralto) y para decidir dónde empieza a subir el piano. No pregunta por tu género.</p>"
+    },
+    {
+      "q": "¿Necesito micrófono?",
+      "a": "<p>No. El test solo toca el piano. Tú escuchas tu propia voz y pulsas.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Passaggio, Wikipedia (en inglés): el primo y el secondo passaggio, con los rangos de registro de Miller para el tenor lírico",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

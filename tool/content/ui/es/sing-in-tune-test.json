@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Modo",
+    "sing": "Canta esta nota",
+    "tuner": "Afinador libre",
+    "ear": "Prueba de escucha"
+  },
+  "intro": {
+    "sing": "El piano toca una nota. Después se abre el micrófono y tú la repites cantando, con cualquier vocal o tarareando. Cinco notas, de una en una.",
+    "tuner": "Canta o tararea cualquier nota. La página te muestra qué nota es y a cuántas centésimas estás de su centro.",
+    "ear": "Suenan dos notas de piano, una detrás de otra. ¿La segunda era más aguda o más grave? Son tres pares, y el micrófono sigue apagado."
+  },
+  "voice": {
+    "label": "Notas para",
+    "any": "Cualquier voz",
+    "saved": "Tu rango, de {low} a {high}",
+    "types": "Tipos de voz"
+  },
+  "sing": {
+    "noteOf": "Nota {n} de {total}",
+    "listen": "Escucha el piano.",
+    "now": "Ahora cántala y mantenla.",
+    "again": "Escucharla otra vez",
+    "notHeard": "No se oyó, así que esta nota no cuenta.",
+    "measured": "Nota {n}: {offset}"
+  },
+  "offset": {
+    "high": "{cents} por encima",
+    "low": "{cents} por debajo",
+    "zero": "Justo en la nota",
+    "octaveUp": "{offset}, una octava más arriba",
+    "octaveDown": "{offset}, una octava más abajo"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} centésima",
+      "other": "{n} centésimas"
+    },
+    "semitones": {
+      "one": "{n} semitono",
+      "other": "{n} semitonos"
+    },
+    "short": "{n}c"
+  },
+  "result": {
+    "label": "Desvío típico",
+    "basis": "{judged} de {total} notas medidas",
+    "offSay": "La mitad de tus notas quedaron a más de {cents} del piano, y la otra mitad, más cerca.",
+    "offHigh": "La mayoría quedaron por encima.",
+    "offLow": "La mayoría quedaron por debajo.",
+    "within10": "Dentro de 10 centésimas",
+    "within25": "Dentro de 25 centésimas",
+    "count": "{n} de {total}",
+    "notes": "Nota por nota",
+    "wobble": "Oscilación",
+    "wobbleSay": "Una vez que llegabas a una nota, se movía alrededor de {cents} mientras la mantenías.",
+    "wobbleRead": "Por debajo de unas 10 centésimas, la nota está firme. El vibrato marca más, y eso es parte del sonido, no un error.",
+    "wobbleNone": "Las notas fueron demasiado cortas para ver si se movían mientras las mantenías.",
+    "cent": "100 centésimas son un semitono, de una tecla del piano a la siguiente.",
+    "sample": "Cinco notas son una muestra pequeña. Otra ronda moverá un poco estas cifras.",
+    "tooFew": "El micrófono oyó con claridad {judged} de {total} notas, demasiado pocas para medir. Vuelve a intentarlo un poco más fuerte o más cerca del micrófono. Tararear también vale.",
+    "last": "{label}: {cents}, el {date}",
+    "again": "Otra ronda",
+    "ctaBody": "El Entrenamiento de precisión de Scalita va más allá: afina cualquier nota sobre un trazo de afinación en vivo, o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
+    "ctaButton": "Descarga Scalita en Google Play"
+  },
+  "tuner": {
+    "hint": "Canta o tararea cualquier nota."
+  },
+  "ear": {
+    "label": "Más aguda o más grave",
+    "pairOf": "Par {n} de {total}",
+    "question": "¿La segunda nota era más aguda o más grave?",
+    "higher": "Más aguda",
+    "lower": "Más grave",
+    "again": "Escucharlas otra vez",
+    "wentUp": "La segunda nota era más aguda, {step} por encima.",
+    "wentDown": "La segunda nota era más grave, {step} por debajo.",
+    "score": "Acertaste la dirección en {right} de {total} pares.",
+    "all": "Acertaste incluso con un solo semitono, el paso más pequeño del piano.",
+    "some": "Al principio, los pasos más pequeños son los más difíciles de oír. Ayudan unos auriculares y una habitación tranquila.",
+    "toSing": "Cantar una nota"
+  },
+  "meter": "Nivel del micrófono",
+  "pianoFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo."
+}

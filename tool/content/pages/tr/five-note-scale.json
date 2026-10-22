@@ -1,0 +1,58 @@
+{
+  "slug": "bes-sesli-egzersiz",
+  "label": "Beş sesli egzersiz",
+  "title": "Beş sesli ses açma egzersizi: 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "Beş sesli gam, 1 2 3 4 5 4 3 2 1, Scalita'nın ısınmalarının çoğunu açar. Nedir, öğretmenler neden kullanır, üzerinde ne söylenir; senin aralığında çalınır.",
+  "h1": "Beş sesli egzersiz",
+  "lead": "Beş nota yukarı, dört nota aşağı: 1 2 3 4 5 4 3 2 1. Scalita'nın ısınmalarının çoğu bununla başlar; piyano onu yarım ses yarım ses taşıyarak aralığının boyunca gezdirir.",
+  "sections": [
+    {
+      "heading": "Kalıp",
+      "html": "<p>Beş sesli gam, bir majör gamın ilk beş notasıdır; ara vermeden yukarı ve geri aşağı söylenir: do re mi fa sol fa mi re do. Notalar arasındaki adımlar tam, tam, yarım, tam; bu yüzden kalıp bir beşliye, dipten tepeye yedi yarım sese sığar.</p>\n<p>Her turdan sonra piyano yarım ses kayar ve sen kalıbı yeni tonda yeniden söylersin. Kısa bir kalıp tüm aralığını böyle kapsar.</p>"
+    },
+    {
+      "heading": "Şarkıcılar neden onunla başlar",
+      "html": "<p>Sesten çok az şey ister. Atlama yoktur, bu yüzden her notayı kulakla izleyebilirsin; her ton da piyano ilerlemeden önce bir beşlinin içinde, sesinin tek bir bölümünde kalır.</p>\n<p>Adım adım ilerlediği için legatoya, yani akıcı ve bağlı söylemeye uygundur; bir ısınmanın ilk sesleri için de doğal bir taşıyıcıdır: triller, mırıltılar ve kapalı ünlüler.</p>\n<p>Ayrıca iyi yol alır. Yarım ses yarım ses, küçük ve eşit adımlarla aralığında yürür; böylece hiçbir şeyi zorlamadan sesinin nerede değiştiğini fark edersin.</p>"
+    },
+    {
+      "heading": "Scalita onu nasıl kullanır",
+      "html": "<p>Uygulamanın bel kemiğidir: Scalita'nın 15 rutininden 12'si onu kullanır, 10'u onunla açılır ve bunların dokuzu bir trille açılır. Piyano senin için rahat duran bir tondan başlar ve kaydettiğin aralık boyunca yarım ses yarım ses ilerler.</p>\n<p>Rutinlerde çoğunlukla trilleri ve mırıltıları taşır. Soğuma rutini <a href=\"page:vocal-cool-down\">Hafif / Toparlanma</a> neredeyse tamamen onun üzerine kurulu.</p>"
+    },
+    {
+      "heading": "Nota adlarıyla söylemek",
+      "html": "<p>Kalıbı nota adlarıyla da söyleyebilirsin. İngilizce konuşulan ülkelerde ve Endonezya'da müzik derslerinde ve korolarda kullanılan hareketli do'da do, kalıp nereden başlarsa orasıdır; bu yüzden her tonda do re mi fa sol fa mi re do söylenir. Rakamlı notasyon aynı şeyi 1 2 3 4 5 4 3 2 1 diye yazar.</p>\n<p>İspanya, Fransa, İtalya, Brezilya, Türkiye ve Latin Amerika'da kullanılan sabit do'da do her zaman C'dir. Adlar tona göre değişir ve her notayı diyezsiz ya da bemolsüz, kendi adıyla söylersin. Scalita'nın Do Re Mi rutini her notanın adını senin notasyonunun yazdığı şekilde gösterir; böylece iki şekilde de çalışır. Bu konuda daha fazlası <a href=\"page:note-names-octaves\">nota adları ve oktavlar</a> sayfasında.</p>"
+    },
+    {
+      "heading": "Daha küçük ve daha büyük versiyonlar",
+      "html": "<ul>\n<li><strong>3 Nota</strong>, 1 2 3 2 1: aynı fikir, daha az yerde.</li>\n<li><strong>5 Nota İnici</strong>, 5 4 3 2 1: tepeden başlar ve aşağı iner.</li>\n<li><strong>Majör / Oktav</strong>: ses açıldıktan sonra majör gamın tamamı.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Beş sesli gam pentatonik bir gam mı?",
+      "a": "<p>Hayır. Pentatonik gamda da beş nota vardır ama bu notalar bütün bir oktava yayılır: majör pentatonik, majör gamın dördüncü ve yedinci notalarını atlar. Isınma kalıbı ise majör gamın yan yana duran ilk beş notasıdır. Scalita'da ayrı bir Pentatonik Minör kalıbı vardır.</p>"
+    },
+    {
+      "q": "Ne kadar yukarı çıkmalıyım?",
+      "a": "<p>Yalnızca kolay kaldığı yere kadar. Scalita tepe notayı kaydettiğin aralığın içinde tutar, sen daha önce de durabilirsin. En tiz ton bir hedef değildir.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun ve Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma. Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipedia (İngilizce): Solfège, sabit do ve hareketli do üzerine.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipedia (İngilizce): Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>Türkiye'deki öğretmenler onu nasıl kullanıyor</h2>\n<p>2023'te Ece Celasun ve Harun Keskin, Türkiye'deki üniversitelerin müzik eğitimi bölümlerinde görev yapan 16 ses eğitimcisinin ısınma egzersizlerini derledi ve 71 tanesini notasıyla yayımladı. O sayfalardan sayıldığında, 16 öğretmenden yaklaşık 12'si tam olarak bu kalıbı, 1 2 3 4 5 4 3 2 1'i kullanıyor.</p>\n<p>Egzersizlerin çoğu üç ya da beş notanın içinde kalıyor ve akıcı, bağlı söylemeyi öne çıkarıyor. 16 öğretmenin hepsi piyano kullanıyor ve heceleri çoğunlukla y ya da m üzerine kurulu.</p>"
+}

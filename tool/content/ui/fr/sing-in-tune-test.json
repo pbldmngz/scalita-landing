@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Mode",
+    "sing": "Chante cette note",
+    "tuner": "Accordeur libre",
+    "ear": "Écoute rapide"
+  },
+  "intro": {
+    "sing": "Le piano joue une note. Ensuite le micro s'ouvre et tu la rechantes, sur n'importe quelle voyelle ou bouche fermée. Cinq notes, une à la fois.",
+    "tuner": "Chante ou fredonne n'importe quelle note. La page te montre de quelle note il s'agit et à combien de cents tu es de son centre.",
+    "ear": "Deux notes de piano sonnent l'une après l'autre. La deuxième était-elle plus haute ou plus basse ? Trois paires, et le micro reste coupé."
+  },
+  "voice": {
+    "label": "Notes pour",
+    "any": "Toutes les voix",
+    "saved": "Ta tessiture, de {low} à {high}",
+    "types": "Types de voix"
+  },
+  "sing": {
+    "noteOf": "Note {n} sur {total}",
+    "listen": "Écoute le piano.",
+    "now": "À toi : rechante-la et tiens-la.",
+    "again": "Réécouter",
+    "notHeard": "Pas entendue, donc cette note ne compte pas.",
+    "measured": "Note {n} : {offset}"
+  },
+  "offset": {
+    "high": "{cents} trop haut",
+    "low": "{cents} trop bas",
+    "zero": "Pile sur la note",
+    "octaveUp": "{offset}, une octave au-dessus",
+    "octaveDown": "{offset}, une octave en dessous"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} cent",
+      "other": "{n} cents"
+    },
+    "semitones": {
+      "one": "{n} demi-ton",
+      "other": "{n} demi-tons"
+    },
+    "short": "{n} c"
+  },
+  "result": {
+    "label": "Écart typique",
+    "basis": "{judged} notes mesurées sur {total}",
+    "offSay": "La moitié de tes notes étaient à plus de {cents} du piano, l'autre moitié plus près.",
+    "offHigh": "La plupart étaient trop hautes.",
+    "offLow": "La plupart étaient trop basses.",
+    "within10": "À 10 cents ou moins",
+    "within25": "À 25 cents ou moins",
+    "count": "{n} sur {total}",
+    "notes": "Note par note",
+    "wobble": "Oscillation",
+    "wobbleSay": "Une fois arrivée sur la note, ta voix a bougé d'environ {cents} pendant que tu la tenais.",
+    "wobbleRead": "Sous 10 cents environ, la tenue est stable. Le vibrato donne un chiffre plus élevé, et il fait partie du son : ce n'est pas une erreur.",
+    "wobbleNone": "Les notes étaient trop courtes pour voir si elles bougeaient pendant que tu les tenais.",
+    "cent": "100 cents font un demi-ton, d'une touche du piano à la suivante.",
+    "sample": "Cinq notes, c'est un petit échantillon. Une autre série fera un peu bouger ces chiffres.",
+    "tooFew": "Le micro a entendu clairement {judged} notes sur {total}, c'est trop peu pour mesurer. Réessaie un peu plus fort ou plus près du micro. Fredonner marche aussi.",
+    "last": "{label} : {cents}, {date}",
+    "again": "Une autre série",
+    "ctaBody": "L'Entraînement de précision de Scalita va plus loin : vise n'importe quelle note sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+    "ctaButton": "Télécharger Scalita sur Google Play"
+  },
+  "tuner": {
+    "hint": "Chante ou fredonne n'importe quelle note."
+  },
+  "ear": {
+    "label": "Plus haut ou plus bas",
+    "pairOf": "Paire {n} sur {total}",
+    "question": "La deuxième note était-elle plus haute ou plus basse ?",
+    "higher": "Plus haute",
+    "lower": "Plus basse",
+    "again": "Les réécouter",
+    "wentUp": "La deuxième note était plus haute, de {step}.",
+    "wentDown": "La deuxième note était plus basse, de {step}.",
+    "score": "Tu as entendu dans quel sens allaient {right} paires sur {total}.",
+    "all": "Et ça jusqu'à un seul demi-ton, le plus petit écart sur un piano.",
+    "some": "Les plus petits écarts sont les plus durs à entendre au début. Un casque et une pièce calme aident.",
+    "toSing": "Rechanter une note"
+  },
+  "meter": "Niveau du micro",
+  "pianoFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie."
+}

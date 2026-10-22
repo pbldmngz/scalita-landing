@@ -1,0 +1,1381 @@
+{
+  "de": {
+    "badges": {
+      "blend": {
+        "description": "Glätte den Wechsel zwischen tiefer und hoher Stimme",
+        "label": "Mischstimme"
+      },
+      "closure": {
+        "description": "Halte den Klang sauber und klar, ohne entweichende Luft",
+        "label": "Stimmlippenschluss"
+      },
+      "distortion": {
+        "description": "Kontrolliertes Raspeln - denk an Rocksänger, nicht an Schreien",
+        "label": "Verzerrung"
+      },
+      "falseCordDrone": {
+        "description": "Leichtes Rattern der Taschenfalten - schwere Möbel, die über den Boden schleifen, eine ungeölte Tür, die zufällt. Ein tiefes MMMM zwischen M und R, wie ein Motor im Leerlauf. Nie der enge, hohe Bohrmaschinen-Klang.",
+        "label": "Dröhnen, nicht Bohren"
+      },
+      "forward": {
+        "description": "Spür den Klang hinter der Nase, nicht im Hals",
+        "label": "Vorderer Sitz"
+      },
+      "fryOnset": {
+        "description": "Beginne auf einem leicht komprimierten Fry und löse dann den Einsatz. Dieses Lösen schließt die Stimmlippen wie einen Reißverschluss.",
+        "label": "Fry-Einsatz"
+      },
+      "grit": {
+        "description": "Gib eine raue Kante dazu - wie ein leises Knurren darunter",
+        "label": "Rauheit"
+      },
+      "hotAir": {
+        "description": "Atme aus, als würdest du dir an einem kalten Tag die Hände wärmen. Jede Screaming-Technik braucht das.",
+        "label": "Warme Luft"
+      },
+      "light": {
+        "description": "Nimm deine weichere, höhere Stimme - nicht drücken",
+        "label": "Leicht & sanft"
+      },
+      "lowLarynx": {
+        "description": "Halte den Kehlkopf unten und locker. Wenn er hochsteigt, hast du das Register gewechselt, statt es zu erreichen.",
+        "label": "Tiefer Kehlkopf"
+      },
+      "noNasalAir": {
+        "description": "Nichts durch die Nase. Halte sie kurz zu - der Klang darf sich überhaupt nicht ändern.",
+        "label": "Keine Nasenluft"
+      },
+      "open": {
+        "description": "Lass den Kiefer fallen, wie beim Gähnen im Singen",
+        "label": "Offener Sitz"
+      },
+      "pokerFace": {
+        "description": "Ausdrucksloses, entspanntes Gesicht. Ein verkrampftes Gesicht heißt, dass auch der Hals presst.",
+        "label": "Pokerface"
+      },
+      "power": {
+        "description": "Sing lauter aus dem Bauch, nicht durch Druck im Hals",
+        "label": "Kraft"
+      },
+      "quack": {
+        "description": "Eine quietschende, fast würgende Absicht - aber der Kehlkopf bleibt unten. Es geht um die Absicht, nicht um das Geräusch.",
+        "label": "Quaken"
+      },
+      "sovt": {
+        "description": "Sing durch ein sanftes Summen - wie durch einen Strohhalm",
+        "label": "Resonanz"
+      },
+      "steadySupport": {
+        "description": "Entspannte Bauchatmung mit leichtem Druck nach unten. Stabil, aber nie verriegelt oder verspannt.",
+        "label": "Ruhige Stütze"
+      },
+      "sustain": {
+        "description": "Halte jeden Ton ruhig über die volle Länge",
+        "label": "Atemkontrolle"
+      },
+      "tryInhaled": {
+        "description": "Finde es erst beim Einatmen. Dieses Gefühl nimmst du mit in die ausgeatmete Version.",
+        "label": "Versuch: eingeatmet"
+      },
+      "tryOctaveUp": {
+        "description": "Ziel auf den Ton eine Oktave darüber und lass ihn dann in die Subharmonische sinken. Ein Einstieg, nichts zum Halten.",
+        "label": "Versuch: Oktave höher"
+      },
+      "vocalFry": {
+        "description": "Dieser knarrende, tiefe Klang - als würde die Stimme aufwachen",
+        "label": "Vocal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Etwas höher",
+      "aBitLower": "Etwas tiefer",
+      "breakZone": "Bruchzone",
+      "chestVoice": "Bruststimme",
+      "femaleVoice": "Frauenstimme",
+      "findYourVoiceBreak": "Finde deinen Registerbruch",
+      "firstBreakExplain": "Sing mit dem Klavier mit. Wenn deine Stimme kippen will, in einen leichteren Klang umschlägt oder du plötzlich mehr drücken musst, dann ist es so weit. Tippe irgendwo auf den Bildschirm.",
+      "firstShift": "Erster Wechsel",
+      "headVoice": "Kopfstimme",
+      "maleVoice": "Männerstimme",
+      "matchesVoiceType": "Am nächsten dran: {voiceType}",
+      "tapWhenYouFeel": "Tippe, wenn du den Wechsel spürst",
+      "thisHelpsEstimate": "Damit schätzen wir deinen zweiten Registerübergang.",
+      "voiceBreak": "Registerbruch",
+      "voiceBreakEducational": "Dein Stimmfach hängt auch davon ab, wo deine Stimme am besten klingt, und von deiner Klangfarbe.",
+      "voiceBreakExplain": "Wenn du höher singst, gibt es eine Stelle, an der die Stimme kippen oder umschalten will, wie ein Gangwechsel. Das ist dein Registerbruch. Wir spielen Töne aufwärts. Sing einfach mit und tippe auf den Bildschirm, wenn du diesen Wechsel spürst.",
+      "whatDescribesYourVoice": "Was beschreibt deine Stimme am besten?",
+      "youFeltSomethingAround": "Du hast bei {note} etwas gespürt"
+    },
+    "directions": {
+      "down": "Ab",
+      "inverted": "Abwärts",
+      "label": "Richtung",
+      "mirror": "Gespiegelt",
+      "normal": "Aufwärts",
+      "up": "Auf"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "Du brauchst plötzlich mehr Kraft, um höher zu singen",
+      "voiceFlipsToLighterSound": "Deine Stimme kippt in einen leichteren, behauchten Klang",
+      "voiceWantsToCrack": "Deine Stimme will kippen oder brechen",
+      "whatToListenFor": "Worauf du achten solltest:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "Oktave",
+      "octaves": "Oktaven"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Vor dem Bruch aufhören",
+        "name": "Nur annähern"
+      },
+      "crossOnce": {
+        "description": "Über den Bruch und zurück",
+        "name": "Einmal queren"
+      },
+      "fullJourney": {
+        "description": "Bis in die Kopfstimme einsingen",
+        "name": "Ganze Strecke"
+      },
+      "none": {
+        "description": "Normalen Umfang nutzen",
+        "name": "Keins"
+      },
+      "targetZona": {
+        "description": "Auf die Bruchzone zentrieren",
+        "name": "Bruchzone anpeilen"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Lieber selbst wählen",
+      "findingYourRange": "Umfang bestimmen",
+      "goAsHighAsYouCan": "Geh so hoch, wie es bequem geht",
+      "highest": "Höchster",
+      "holdSteady": "Ruhig halten...",
+      "holdUntilCalm": "Halte den Ton, bis die Wellen ruhig werden",
+      "letsFindYourRange": "Finden wir deinen Umfang",
+      "listenForNotes": "Wir hören erst auf deinen tiefsten Ton, dann auf den höchsten. Sing einfach und halte jeden Ton ruhig.",
+      "locked": "Erfasst!",
+      "lowest": "Tiefster",
+      "mainRangeIsChestAndHead": "Das sind deine Brust- und Kopfstimme - die Töne, die du normal singst.",
+      "nowSingHighest": "Jetzt den höchsten Ton",
+      "rangeBreakMoreReliable": "Dein Registerbruch sagt zuverlässiger etwas über dein Stimmfach.",
+      "rangeMayChange": "Dein Umfang ändert sich mit Einsingen, Training und Tageszeit.",
+      "rangeOctaves": "Etwa {octaves} Oktaven",
+      "rangeTooNarrow": "Das wirkt zu eng - nochmal?",
+      "rangeTypicalFor": "Typisch für {voiceType}",
+      "rangeTypicalForTwo": "Typisch für {voiceType1} oder {voiceType2}",
+      "redoDetection": "Erkennung wiederholen",
+      "singHighestNote": "Sing deinen höchsten bequemen Ton",
+      "singLowestNote": "Sing deinen tiefsten bequemen Ton",
+      "voiceBreakOnboardingDesc": "Damit bauen wir Übungen um deine Registerübergänge herum.",
+      "wantToFindVoiceBreak": "Willst du auch deinen Registerbruch finden?",
+      "yourVocalRange": "Dein Stimmumfang"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Das sind die Töne, die andere hören, nicht die, die du singst. Tippe auf die Lautsprecher, um sie zu hören."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Wiederholen",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Entspannt und sprechnah.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Töne mit einem Gleiten verbinden.",
+        "name": "Weich"
+      },
+      "struck": {
+        "description": "Knackiger Einsatz, klare Trennung.",
+        "name": "Hart"
+      }
+    }
+  },
+  "en": {
+    "badges": {
+      "blend": {
+        "description": "Smooth out the shift between your low and high voice",
+        "label": "Mix"
+      },
+      "closure": {
+        "description": "Keep the sound clean and clear, no air leaking out",
+        "label": "Cord Closure"
+      },
+      "distortion": {
+        "description": "Controlled rasp - think rock singer, not shouting",
+        "label": "Distortion"
+      },
+      "falseCordDrone": {
+        "description": "Light false-cord rattle - heavy furniture dragging, an unoiled door swinging shut. A low MMMM between M and R, like an idling motor. Never the tight, high power-drill sound.",
+        "label": "Drone, not drill"
+      },
+      "forward": {
+        "description": "Feel the sound behind your nose, not in your throat",
+        "label": "Forward Placement"
+      },
+      "fryOnset": {
+        "description": "Start on a lightly compressed fry, then release the attack. That release is what zips the folds.",
+        "label": "Fry onset"
+      },
+      "grit": {
+        "description": "Add a raspy edge - like a quiet growl underneath",
+        "label": "Grit"
+      },
+      "hotAir": {
+        "description": "Breathe out like you are warming your hands on a cold day. Every screaming technique needs this.",
+        "label": "Hot air"
+      },
+      "light": {
+        "description": "Use your softer, higher voice - don't push",
+        "label": "Light & Gentle"
+      },
+      "lowLarynx": {
+        "description": "Keep the larynx down and relaxed. If it climbs, you have swapped registers rather than reached one.",
+        "label": "Low larynx"
+      },
+      "noNasalAir": {
+        "description": "Nothing through the nose. Pinch it shut for a second - the sound should not change at all.",
+        "label": "No nasal air"
+      },
+      "open": {
+        "description": "Drop your jaw, like you're yawning while singing",
+        "label": "Open Placement"
+      },
+      "pokerFace": {
+        "description": "Blank, relaxed expression. Squeezing the face is a sign the throat is squeezing too.",
+        "label": "Poker face"
+      },
+      "power": {
+        "description": "Sing louder from your belly, not by squeezing your throat",
+        "label": "Power"
+      },
+      "quack": {
+        "description": "A squeaky, almost gagging intention - but with the larynx staying down. The intention is the point, not the noise.",
+        "label": "Quack"
+      },
+      "sovt": {
+        "description": "Sing through a gentle buzz - like humming through a straw",
+        "label": "Resonance"
+      },
+      "steadySupport": {
+        "description": "Relaxed belly breathing with gentle downward pressure. Stable, but never locked or braced.",
+        "label": "Steady support"
+      },
+      "sustain": {
+        "description": "Hold each note steady for its full length",
+        "label": "Breath Control"
+      },
+      "tryInhaled": {
+        "description": "Find it breathing in first. That sensation is what you carry back to the exhaled version.",
+        "label": "Try: inhaled"
+      },
+      "tryOctaveUp": {
+        "description": "Aim for the note an octave above, then relax it down into the subharmonic. A way in, not something to hold.",
+        "label": "Try: octave up"
+      },
+      "vocalFry": {
+        "description": "That crackly, low sound - like your voice waking up",
+        "label": "Vocal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "A bit higher",
+      "aBitLower": "A bit lower",
+      "breakZone": "Break zone",
+      "chestVoice": "Chest voice",
+      "femaleVoice": "Female voice",
+      "findYourVoiceBreak": "Find your voice break",
+      "firstBreakExplain": "Sing along with the piano. When your voice feels like it wants to crack, flip to a lighter sound, or you have to push harder - that's it. Tap anywhere on screen.",
+      "firstShift": "First shift",
+      "headVoice": "Head voice",
+      "maleVoice": "Male voice",
+      "matchesVoiceType": "Closest match: {voiceType}",
+      "tapWhenYouFeel": "Tap when you feel the shift",
+      "thisHelpsEstimate": "This helps us estimate your second register transition.",
+      "voiceBreak": "Voice break",
+      "voiceBreakEducational": "Voice type also depends on where your voice sounds best and your tone quality.",
+      "voiceBreakExplain": "As you sing higher, there's a spot where your voice wants to crack or shift - like switching gears. That's your voice break. We'll play notes going up. Just sing along and tap the screen when you feel that shift happen.",
+      "whatDescribesYourVoice": "What best describes your voice?",
+      "youFeltSomethingAround": "You felt something around {note}"
+    },
+    "directions": {
+      "down": "Down",
+      "inverted": "Descending",
+      "label": "Direction",
+      "mirror": "Mirror",
+      "normal": "Ascending",
+      "up": "Up"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "You suddenly need more effort to sing higher",
+      "voiceFlipsToLighterSound": "Your voice flips to a lighter, breathier sound",
+      "voiceWantsToCrack": "Your voice wants to crack or break",
+      "whatToListenFor": "What to listen for:"
+    },
+    "numbers": {
+      "decimalSeparator": ".",
+      "octave": "octave",
+      "octaves": "octaves"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Stop before the break",
+        "name": "Approach only"
+      },
+      "crossOnce": {
+        "description": "Cross the break and back",
+        "name": "Cross once"
+      },
+      "fullJourney": {
+        "description": "Warm up through head voice",
+        "name": "Full journey"
+      },
+      "none": {
+        "description": "Use normal range",
+        "name": "None"
+      },
+      "targetZona": {
+        "description": "Center on the break zone",
+        "name": "Target break zone"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Choose manually instead",
+      "findingYourRange": "Finding your range",
+      "goAsHighAsYouCan": "Go as high as you comfortably can",
+      "highest": "Highest",
+      "holdSteady": "Hold steady...",
+      "holdUntilCalm": "Hold the note until the waves calm down",
+      "letsFindYourRange": "Let's find your range",
+      "listenForNotes": "We'll listen for your lowest note, then your highest. Just sing and hold each note steady.",
+      "locked": "Locked!",
+      "lowest": "Lowest",
+      "mainRangeIsChestAndHead": "This is your chest and head voice - the notes you sing normally.",
+      "nowSingHighest": "Now sing your highest",
+      "rangeBreakMoreReliable": "Your voice break is a more reliable indicator of voice type.",
+      "rangeMayChange": "Your range may change with warmup, training, and time of day.",
+      "rangeOctaves": "About {octaves} octaves",
+      "rangeTooNarrow": "That seems too narrow - try again?",
+      "rangeTypicalFor": "Typical for a {voiceType} voice",
+      "rangeTypicalForTwo": "Typical for {voiceType1} or {voiceType2}",
+      "redoDetection": "Redo detection",
+      "singHighestNote": "Sing your highest comfortable note",
+      "singLowestNote": "Sing your lowest comfortable note",
+      "voiceBreakOnboardingDesc": "This helps build exercises around your register transitions.",
+      "wantToFindVoiceBreak": "Want to find your voice break too?",
+      "yourVocalRange": "Your vocal range"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "These are the notes people hear, not the ones you sing. Tap the speakers to hear each one."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Repeat",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Relaxed and speech-like.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Connect notes with a glide.",
+        "name": "Smooth"
+      },
+      "struck": {
+        "description": "Crisp attack, clear separation.",
+        "name": "Struck"
+      }
+    }
+  },
+  "es": {
+    "badges": {
+      "blend": {
+        "description": "Suaviza el cambio entre tu voz baja y alta",
+        "label": "Mezcla"
+      },
+      "closure": {
+        "description": "Mantén el sonido limpio y claro, sin escape de aire",
+        "label": "Cierre Glótico"
+      },
+      "distortion": {
+        "description": "Aspereza controlada - piensa en rockero, no en gritar",
+        "label": "Distorsión"
+      },
+      "falseCordDrone": {
+        "description": "Vibración ligera de las bandas ventriculares: un mueble arrastrándose, una puerta sin aceitar cerrándose. Un MMMM grave entre M y R, como un motor al ralentí. Nunca el sonido agudo y apretado de un taladro.",
+        "label": "Zumbido, no taladro"
+      },
+      "forward": {
+        "description": "Siente el sonido detrás de tu nariz, no en la garganta",
+        "label": "Colocación Frontal"
+      },
+      "fryOnset": {
+        "description": "Empieza con un fry ligeramente comprimido y suelta el ataque. Esa soltura es lo que cierra las cuerdas como una cremallera.",
+        "label": "Ataque en fry"
+      },
+      "grit": {
+        "description": "Agrega un borde áspero - como un gruñido suave por debajo",
+        "label": "Rasgado"
+      },
+      "hotAir": {
+        "description": "Suelta el aire como si te calentaras las manos en un día frío. Toda técnica de scream lo necesita.",
+        "label": "Aire caliente"
+      },
+      "light": {
+        "description": "Usa tu voz suave y alta - no empujes",
+        "label": "Suave y Ligero"
+      },
+      "lowLarynx": {
+        "description": "Mantén la laringe baja y relajada. Si sube, has cambiado de registro en vez de alcanzarlo.",
+        "label": "Laringe baja"
+      },
+      "noNasalAir": {
+        "description": "Nada de aire por la nariz. Tápatela un segundo: el sonido no debería cambiar nada.",
+        "label": "Sin aire nasal"
+      },
+      "open": {
+        "description": "Deja caer la mandíbula, como bostezando mientras cantas",
+        "label": "Colocación Abierta"
+      },
+      "pokerFace": {
+        "description": "Expresión relajada y neutra. Apretar la cara indica que la garganta también está apretando.",
+        "label": "Cara neutra"
+      },
+      "power": {
+        "description": "Canta más fuerte desde el abdomen, no apretando la garganta",
+        "label": "Potencia"
+      },
+      "quack": {
+        "description": "Intención chillona, casi de arcada, pero con la laringe abajo. Lo importante es la intención, no el ruido.",
+        "label": "Cuack"
+      },
+      "sovt": {
+        "description": "Canta con un zumbido suave - como tararear a través de un popote",
+        "label": "Resonancia"
+      },
+      "steadySupport": {
+        "description": "Respiración abdominal relajada con presión suave hacia abajo. Estable, pero nunca bloqueado.",
+        "label": "Apoyo estable"
+      },
+      "sustain": {
+        "description": "Mantén cada nota firme durante toda su duración",
+        "label": "Control de Aire"
+      },
+      "tryInhaled": {
+        "description": "Encuéntralo primero inhalando. Esa sensación es la que llevas a la versión exhalada.",
+        "label": "Prueba: inhalando"
+      },
+      "tryOctaveUp": {
+        "description": "Apunta a la nota una octava por encima y relájala hacia el subarmónico. Es una vía de entrada, no algo que mantener.",
+        "label": "Prueba: octava arriba"
+      },
+      "vocalFry": {
+        "description": "Ese sonido crepitante y grave - como tu voz despertando",
+        "label": "Vocal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Un poco más agudo",
+      "aBitLower": "Un poco más grave",
+      "breakZone": "Zona de quiebre",
+      "chestVoice": "Voz de pecho",
+      "femaleVoice": "Voz femenina",
+      "findYourVoiceBreak": "Encuentra tu quiebre vocal",
+      "firstBreakExplain": "Canta junto al piano. Cuando tu voz sienta que quiere quebrarse, cambiar a un sonido más ligero, o tengas que hacer más esfuerzo - eso es. Toca cualquier parte de la pantalla.",
+      "firstShift": "Primer cambio",
+      "headVoice": "Voz de cabeza",
+      "maleVoice": "Voz masculina",
+      "matchesVoiceType": "Coincidencia más cercana: {voiceType}",
+      "tapWhenYouFeel": "Toca cuando sientas el cambio",
+      "thisHelpsEstimate": "Esto nos ayuda a estimar tu segunda transición de registro.",
+      "voiceBreak": "Quiebre vocal",
+      "voiceBreakEducational": "El tipo de voz también depende de dónde suena mejor tu voz y tu calidad tonal.",
+      "voiceBreakExplain": "Al cantar más agudo, hay un punto donde tu voz quiere quebrarse o cambiar - como cambiar de marcha. Ese es tu quiebre vocal. Tocaremos notas subiendo. Solo canta junto al piano y toca la pantalla cuando sientas ese cambio.",
+      "whatDescribesYourVoice": "¿Qué describe mejor tu voz?",
+      "youFeltSomethingAround": "Sentiste algo alrededor de {note}"
+    },
+    "directions": {
+      "down": "Baja",
+      "inverted": "Descendente",
+      "label": "Dirección",
+      "mirror": "Espejo",
+      "normal": "Ascendente",
+      "up": "Sube"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "De repente necesitas más esfuerzo para cantar más agudo",
+      "voiceFlipsToLighterSound": "Tu voz cambia a un sonido más ligero y aireado",
+      "voiceWantsToCrack": "Tu voz quiere quebrarse o romperse",
+      "whatToListenFor": "Qué escuchar:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "octava",
+      "octaves": "octavas"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Parar antes del quiebre",
+        "name": "Solo acercarse"
+      },
+      "crossOnce": {
+        "description": "Cruzar el quiebre y volver",
+        "name": "Cruzar una vez"
+      },
+      "fullJourney": {
+        "description": "Calentar hasta voz de cabeza",
+        "name": "Recorrido completo"
+      },
+      "none": {
+        "description": "Usar rango normal",
+        "name": "Ninguno"
+      },
+      "targetZona": {
+        "description": "Centrar en zona de quiebre",
+        "name": "Quiebre vocal"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Elegir manualmente",
+      "findingYourRange": "Encontrando tu rango",
+      "goAsHighAsYouCan": "Sube tan alto como puedas cómodamente",
+      "highest": "Más agudo",
+      "holdSteady": "Mantén firme...",
+      "holdUntilCalm": "Mantén la nota hasta que las ondas se calmen",
+      "letsFindYourRange": "Encontremos tu rango",
+      "listenForNotes": "Escucharemos tu nota más grave, luego la más aguda. Solo canta y mantén cada nota firme.",
+      "locked": "¡Fijado!",
+      "lowest": "Más grave",
+      "mainRangeIsChestAndHead": "Es tu voz de pecho y de cabeza - las notas que cantas normalmente.",
+      "nowSingHighest": "Ahora canta tu nota más aguda",
+      "rangeBreakMoreReliable": "Tu quiebre vocal es un indicador más confiable del tipo de voz.",
+      "rangeMayChange": "Tu rango puede cambiar con el calentamiento, el entrenamiento y la hora del día.",
+      "rangeOctaves": "Aproximadamente {octaves} octavas",
+      "rangeTooNarrow": "Parece muy estrecho - ¿intentar de nuevo?",
+      "rangeTypicalFor": "Típico de una voz de {voiceType}",
+      "rangeTypicalForTwo": "Típico de {voiceType1} o {voiceType2}",
+      "redoDetection": "Repetir detección",
+      "singHighestNote": "Canta tu nota más aguda cómoda",
+      "singLowestNote": "Canta tu nota más grave cómoda",
+      "voiceBreakOnboardingDesc": "Esto ayuda a construir ejercicios alrededor de tus transiciones de registro.",
+      "wantToFindVoiceBreak": "¿Quieres encontrar tu quiebre vocal también?",
+      "yourVocalRange": "Tu rango vocal"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Son las notas que se oyen, no las que cantas. Toca los altavoces para escuchar cada una."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Repetir",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Relajado, como al hablar.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Conecta las notas con un desliz.",
+        "name": "Suave"
+      },
+      "struck": {
+        "description": "Ataque nítido, separación clara.",
+        "name": "Golpeado"
+      }
+    }
+  },
+  "fr": {
+    "badges": {
+      "blend": {
+        "description": "Adoucis le passage entre ta voix grave et ta voix aiguë",
+        "label": "Voix mixte"
+      },
+      "closure": {
+        "description": "Garde un son net et clair, sans fuite d'air",
+        "label": "Fermeture des cordes"
+      },
+      "distortion": {
+        "description": "Rocaille contrôlée, pense chanteur de rock, pas cri",
+        "label": "Distorsion"
+      },
+      "falseCordDrone": {
+        "description": "Vibration légère des bandes ventriculaires : un meuble qu'on traîne, une porte non huilée qui se referme. Un MMMM grave entre M et R, comme un moteur au ralenti. Jamais le son aigu et serré d'une perceuse.",
+        "label": "Bourdon, pas perceuse"
+      },
+      "forward": {
+        "description": "Sens le son derrière ton nez, pas dans la gorge",
+        "label": "Placement avant"
+      },
+      "fryOnset": {
+        "description": "Commence sur un fry légèrement comprimé, puis relâche l'attaque. C'est ce relâchement qui ferme les plis.",
+        "label": "Attaque en fry"
+      },
+      "grit": {
+        "description": "Ajoute un peu de rocaille, comme un grognement discret en dessous",
+        "label": "Grain"
+      },
+      "hotAir": {
+        "description": "Souffle comme pour réchauffer tes mains par temps froid. Toute technique de scream en a besoin.",
+        "label": "Air chaud"
+      },
+      "light": {
+        "description": "Utilise ta voix plus douce et plus haute, ne pousse pas",
+        "label": "Léger et doux"
+      },
+      "lowLarynx": {
+        "description": "Garde le larynx bas et détendu. S'il monte, tu as changé de registre au lieu de l'atteindre.",
+        "label": "Larynx bas"
+      },
+      "noNasalAir": {
+        "description": "Rien par le nez. Pince-le une seconde : le son ne doit pas changer du tout.",
+        "label": "Pas d'air nasal"
+      },
+      "open": {
+        "description": "Descends la mâchoire, comme si tu bâillais en chantant",
+        "label": "Placement ouvert"
+      },
+      "pokerFace": {
+        "description": "Expression détendue et neutre. Serrer le visage signale que la gorge serre aussi.",
+        "label": "Visage neutre"
+      },
+      "power": {
+        "description": "Chante plus fort depuis le ventre, pas en serrant la gorge",
+        "label": "Puissance"
+      },
+      "quack": {
+        "description": "Une intention criarde, presque de haut-le-cœur, mais le larynx reste bas. C'est l'intention qui compte, pas le bruit.",
+        "label": "Couac"
+      },
+      "sovt": {
+        "description": "Chante à travers un léger bourdonnement, comme si tu fredonnais dans une paille",
+        "label": "Résonance"
+      },
+      "steadySupport": {
+        "description": "Respiration ventrale détendue avec une légère pression vers le bas. Stable, jamais bloqué.",
+        "label": "Soutien stable"
+      },
+      "sustain": {
+        "description": "Tiens chaque note bien stable sur toute sa durée",
+        "label": "Contrôle du souffle"
+      },
+      "tryInhaled": {
+        "description": "Trouve-le d'abord en inspirant. C'est cette sensation que tu ramènes vers la version expirée.",
+        "label": "Essaie : en inspirant"
+      },
+      "tryOctaveUp": {
+        "description": "Vise la note à l'octave supérieure, puis détends-la vers le subharmonique. Une porte d'entrée, pas quelque chose à tenir.",
+        "label": "Essaie : octave au-dessus"
+      },
+      "vocalFry": {
+        "description": "Ce son grave et craquant, comme une voix qui se réveille",
+        "label": "Friture vocale"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Un peu plus haut",
+      "aBitLower": "Un peu plus bas",
+      "breakZone": "Zone de passage",
+      "chestVoice": "Voix de poitrine",
+      "femaleVoice": "Voix de femme",
+      "findYourVoiceBreak": "Trouve ton passage de voix",
+      "firstBreakExplain": "Chante avec le piano. Quand ta voix veut casser, qu'elle bascule vers un son plus léger ou que tu dois pousser davantage, c'est là. Touche n'importe où sur l'écran.",
+      "firstShift": "Premier changement",
+      "headVoice": "Voix de tête",
+      "maleVoice": "Voix d'homme",
+      "matchesVoiceType": "Correspondance la plus proche : {voiceType}",
+      "tapWhenYouFeel": "Touche l'écran quand tu sens le changement",
+      "thisHelpsEstimate": "Cela nous aide à estimer ta deuxième transition de registre.",
+      "voiceBreak": "Passage de voix",
+      "voiceBreakEducational": "Le type de voix dépend aussi de la zone où ta voix sonne le mieux et de ton timbre.",
+      "voiceBreakExplain": "En montant, il y a un endroit où ta voix veut casser ou changer, comme un changement de vitesse. C'est ton passage de voix. On va jouer des notes qui montent. Chante avec et touche l'écran quand tu sens ce changement.",
+      "whatDescribesYourVoice": "Qu'est-ce qui décrit le mieux ta voix ?",
+      "youFeltSomethingAround": "Tu as senti quelque chose vers {note}"
+    },
+    "directions": {
+      "down": "Descend",
+      "inverted": "Descendant",
+      "label": "Direction",
+      "mirror": "Miroir",
+      "normal": "Ascendant",
+      "up": "Monte"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "Il te faut soudain plus d'effort pour monter",
+      "voiceFlipsToLighterSound": "Ta voix bascule vers un son plus léger et soufflé",
+      "voiceWantsToCrack": "Ta voix veut casser ou dérailler",
+      "whatToListenFor": "Ce qu'il faut repérer :"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "octave",
+      "octaves": "octaves"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "S'arrêter avant le passage",
+        "name": "Approche seulement"
+      },
+      "crossOnce": {
+        "description": "Traverser le passage et revenir",
+        "name": "Traverser une fois"
+      },
+      "fullJourney": {
+        "description": "S'échauffer jusqu'à la voix de tête",
+        "name": "Parcours complet"
+      },
+      "none": {
+        "description": "Utiliser la tessiture normale",
+        "name": "Aucun"
+      },
+      "targetZona": {
+        "description": "Se centrer sur la zone de passage",
+        "name": "Cibler la zone de passage"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Choisir manuellement plutôt",
+      "findingYourRange": "Recherche de ta tessiture",
+      "goAsHighAsYouCan": "Monte aussi haut que tu le peux confortablement",
+      "highest": "Plus aiguë",
+      "holdSteady": "Tiens la note...",
+      "holdUntilCalm": "Tiens la note jusqu'à ce que les ondes se calment",
+      "letsFindYourRange": "Trouvons ta tessiture",
+      "listenForNotes": "On va écouter ta note la plus grave, puis la plus aiguë. Chante et tiens chaque note bien stable.",
+      "locked": "C'est noté !",
+      "lowest": "Plus grave",
+      "mainRangeIsChestAndHead": "C'est ta voix de poitrine et de tête - les notes que tu chantes normalement.",
+      "nowSingHighest": "Chante maintenant ta plus aiguë",
+      "rangeBreakMoreReliable": "Ton passage de voix est un indicateur plus fiable du type de voix.",
+      "rangeMayChange": "Ta tessiture peut varier selon l'échauffement, l'entraînement et l'heure de la journée.",
+      "rangeOctaves": "Environ {octaves} octaves",
+      "rangeTooNarrow": "Cela semble trop étroit - on réessaie ?",
+      "rangeTypicalFor": "Typique d'une voix de {voiceType}",
+      "rangeTypicalForTwo": "Typique de {voiceType1} ou {voiceType2}",
+      "redoDetection": "Refaire la détection",
+      "singHighestNote": "Chante ta note aiguë la plus confortable",
+      "singLowestNote": "Chante ta note grave la plus confortable",
+      "voiceBreakOnboardingDesc": "Cela permet de construire les exercices autour de tes transitions de registre.",
+      "wantToFindVoiceBreak": "Tu veux aussi trouver ton passage de voix ?",
+      "yourVocalRange": "Ta tessiture"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Ce sont les notes qu'on entend, pas celles que tu chantes. Touche les haut-parleurs pour entendre chacune."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Répétitions",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Détendu, proche de la parole.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Relie les notes par un glissé.",
+        "name": "Lié"
+      },
+      "struck": {
+        "description": "Attaque nette, séparation claire.",
+        "name": "Piqué"
+      }
+    }
+  },
+  "id": {
+    "badges": {
+      "blend": {
+        "description": "Haluskan perpindahan antara suara rendah dan tinggimu",
+        "label": "Mix"
+      },
+      "closure": {
+        "description": "Jaga bunyinya bersih dan jernih, tanpa udara yang bocor",
+        "label": "Pita Suara Rapat"
+      },
+      "distortion": {
+        "description": "Serak terkendali - bayangkan penyanyi rock, bukan berteriak",
+        "label": "Distorsi"
+      },
+      "falseCordDrone": {
+        "description": "Getar pita suara palsu yang ringan - perabot berat diseret, pintu tanpa oli yang menutup. MMMM rendah antara M dan R, seperti mesin yang menyala pelan. Jangan sampai jadi bunyi bor listrik yang tinggi dan tegang.",
+        "label": "Dengung, bukan bor"
+      },
+      "forward": {
+        "description": "Rasakan bunyinya di belakang hidung, bukan di tenggorokan",
+        "label": "Penempatan Depan"
+      },
+      "fryOnset": {
+        "description": "Mulai dari fry yang sedikit terkompresi, lalu lepas awal nadanya. Pelepasan itulah yang merapatkan pita suaramu.",
+        "label": "Awalan fry"
+      },
+      "grit": {
+        "description": "Tambahkan sedikit serak - seperti geraman pelan di bawahnya",
+        "label": "Serak"
+      },
+      "hotAir": {
+        "description": "Embuskan napas seperti sedang menghangatkan tangan di hari dingin. Setiap teknik screaming butuh ini.",
+        "label": "Napas hangat"
+      },
+      "light": {
+        "description": "Pakai suaramu yang lebih lembut dan tinggi - jangan dipaksa",
+        "label": "Ringan & Lembut"
+      },
+      "lowLarynx": {
+        "description": "Jaga laring tetap turun dan santai. Kalau laring naik, kamu berpindah register, bukan mencapainya.",
+        "label": "Laring rendah"
+      },
+      "noNasalAir": {
+        "description": "Tidak ada yang lewat hidung. Jepit hidungmu sebentar - bunyinya harus sama sekali tidak berubah.",
+        "label": "Tanpa udara hidung"
+      },
+      "open": {
+        "description": "Turunkan rahangmu, seperti sedang menguap sambil bernyanyi",
+        "label": "Penempatan Terbuka"
+      },
+      "pokerFace": {
+        "description": "Ekspresi kosong dan santai. Mengencangkan wajah adalah tanda tenggorokan ikut mengencang.",
+        "label": "Poker face"
+      },
+      "power": {
+        "description": "Bernyanyi lebih keras dari perut, bukan dengan menjepit tenggorokan",
+        "label": "Tenaga"
+      },
+      "quack": {
+        "description": "Niat bunyi mencicit, hampir seperti mau muntah - tapi laring tetap turun. Niatnya yang penting, bukan bunyinya.",
+        "label": "Kwek"
+      },
+      "sovt": {
+        "description": "Nyanyi lewat dengung lembut - seperti humming lewat sedotan",
+        "label": "Resonansi"
+      },
+      "steadySupport": {
+        "description": "Napas perut yang santai dengan tekanan lembut ke bawah. Stabil, tapi jangan pernah terkunci atau mengeras.",
+        "label": "Support stabil"
+      },
+      "sustain": {
+        "description": "Tahan tiap nada dengan stabil sepanjang durasinya",
+        "label": "Kontrol Napas"
+      },
+      "tryInhaled": {
+        "description": "Temukan dulu sambil menarik napas. Sensasi itu yang kamu bawa saat mengembuskan napas.",
+        "label": "Coba: saat menghirup"
+      },
+      "tryOctaveUp": {
+        "description": "Bidik nada satu oktaf di atasnya, lalu turunkan dengan santai ke subharmonik. Ini jalan masuk, bukan sesuatu yang ditahan.",
+        "label": "Coba: naik seoktaf"
+      },
+      "vocalFry": {
+        "description": "Bunyi rendah yang gemeretak - seperti suaramu baru bangun",
+        "label": "Vocal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Naik sedikit",
+      "aBitLower": "Turun sedikit",
+      "breakZone": "Zona peralihan",
+      "chestVoice": "Suara dada",
+      "femaleVoice": "Suara wanita",
+      "findYourVoiceBreak": "Temukan peralihan registermu",
+      "firstBreakExplain": "Nyanyi bersama piano. Saat suaramu seperti mau pecah, berpindah ke suara yang lebih ringan, atau kamu harus memaksa lebih keras - itu dia. Ketuk di mana saja di layar.",
+      "firstShift": "Peralihan pertama",
+      "headVoice": "Suara kepala",
+      "maleVoice": "Suara pria",
+      "matchesVoiceType": "Paling mendekati: {voiceType}",
+      "tapWhenYouFeel": "Ketuk saat terasa berpindah",
+      "thisHelpsEstimate": "Ini membantu kami memperkirakan peralihan registermu yang kedua.",
+      "voiceBreak": "Peralihan register",
+      "voiceBreakEducational": "Jenis suara juga bergantung pada di mana suaramu terdengar paling bagus dan pada warna suaramu.",
+      "voiceBreakExplain": "Saat naik makin tinggi, ada titik di mana suaramu seperti mau pecah atau berpindah, seperti pindah gigi. Itulah peralihan registermu. Kami akan memainkan nada yang makin tinggi. Ikut nyanyi saja, lalu ketuk layar saat kamu merasakan perpindahan itu.",
+      "whatDescribesYourVoice": "Mana yang paling menggambarkan suaramu?",
+      "youFeltSomethingAround": "Kamu merasakan sesuatu di sekitar {note}"
+    },
+    "directions": {
+      "down": "Turun",
+      "inverted": "Menurun",
+      "label": "Arah",
+      "mirror": "Naik-turun",
+      "normal": "Menaik",
+      "up": "Naik"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "Tiba-tiba butuh usaha lebih untuk naik",
+      "voiceFlipsToLighterSound": "Suaramu berpindah ke suara yang lebih ringan dan berangin",
+      "voiceWantsToCrack": "Suaramu seperti mau pecah atau putus",
+      "whatToListenFor": "Yang perlu diperhatikan:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "oktaf",
+      "octaves": "oktaf"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Berhenti sebelum peralihan",
+        "name": "Dekati saja"
+      },
+      "crossOnce": {
+        "description": "Lintasi peralihan lalu kembali",
+        "name": "Lintasi sekali"
+      },
+      "fullJourney": {
+        "description": "Pemanasan sampai suara kepala",
+        "name": "Perjalanan penuh"
+      },
+      "none": {
+        "description": "Pakai jangkauan normal",
+        "name": "Tidak ada"
+      },
+      "targetZona": {
+        "description": "Berpusat di zona peralihan",
+        "name": "Di zona peralihan"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Pilih manual saja",
+      "findingYourRange": "Mencari jangkauanmu",
+      "goAsHighAsYouCan": "Naik setinggi yang masih nyaman",
+      "highest": "Tertinggi",
+      "holdSteady": "Tahan stabil...",
+      "holdUntilCalm": "Tahan nadanya sampai gelombangnya tenang",
+      "letsFindYourRange": "Ayo cari jangkauan vokalmu",
+      "listenForNotes": "Kami akan mendengarkan nada terendahmu, lalu yang tertinggi. Nyanyikan dan tahan tiap nada dengan stabil.",
+      "locked": "Terkunci!",
+      "lowest": "Terendah",
+      "mainRangeIsChestAndHead": "Ini suara dada dan suara kepalamu - nada yang biasa kamu nyanyikan.",
+      "nowSingHighest": "Sekarang nada tertinggimu",
+      "rangeBreakMoreReliable": "Peralihan register suaramu adalah penanda jenis suara yang lebih andal.",
+      "rangeMayChange": "Jangkauanmu bisa berubah karena pemanasan, latihan, dan waktu dalam sehari.",
+      "rangeOctaves": "Sekitar {octaves} oktaf",
+      "rangeTooNarrow": "Sepertinya terlalu sempit - coba lagi?",
+      "rangeTypicalFor": "Umum untuk suara {voiceType}",
+      "rangeTypicalForTwo": "Umum untuk {voiceType1} atau {voiceType2}",
+      "redoDetection": "Deteksi ulang",
+      "singHighestNote": "Nyanyikan nada tertinggi yang nyaman",
+      "singLowestNote": "Nyanyikan nada terendah yang nyaman",
+      "voiceBreakOnboardingDesc": "Ini membantu menyusun latihan di sekitar peralihan registermu.",
+      "wantToFindVoiceBreak": "Mau cari peralihan registermu juga?",
+      "yourVocalRange": "Jangkauan Vokalmu"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Ini nada yang didengar orang, bukan yang kamu nyanyikan. Ketuk ikon speaker untuk mendengar tiap nada."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Pengulangan",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Santai dan seperti bicara.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Sambungkan nada dengan luncuran.",
+        "name": "Halus"
+      },
+      "struck": {
+        "description": "Awal nada tegas, pemisahan jelas.",
+        "name": "Langsung"
+      }
+    }
+  },
+  "pt": {
+    "badges": {
+      "blend": {
+        "description": "Suavize a troca entre sua voz grave e a aguda",
+        "label": "Voz mista"
+      },
+      "closure": {
+        "description": "Mantenha o som limpo e claro, sem vazar ar",
+        "label": "Fechamento das pregas"
+      },
+      "distortion": {
+        "description": "Rouquidão controlada - pense em cantor de rock, não em grito",
+        "label": "Distorção"
+      },
+      "falseCordDrone": {
+        "description": "Chacoalho leve das falsas pregas - móvel pesado sendo arrastado, porta sem óleo se fechando. Um MMMM grave entre M e R, como um motor em marcha lenta. Nunca o som apertado e agudo de furadeira.",
+        "label": "Ronco, não furadeira"
+      },
+      "forward": {
+        "description": "Sinta o som atrás do nariz, não na garganta",
+        "label": "Colocação frontal"
+      },
+      "fryOnset": {
+        "description": "Comece num fry levemente comprimido e depois solte o ataque. É essa soltura que fecha as pregas como um zíper.",
+        "label": "Ataque em fry"
+      },
+      "grit": {
+        "description": "Coloque uma borda áspera - como um rosnado baixo por baixo",
+        "label": "Aspereza"
+      },
+      "hotAir": {
+        "description": "Solte o ar como quem esquenta as mãos num dia frio. Toda técnica de scream precisa disso.",
+        "label": "Ar quente"
+      },
+      "light": {
+        "description": "Use sua voz mais leve e aguda - não empurre",
+        "label": "Leve e suave"
+      },
+      "lowLarynx": {
+        "description": "Mantenha a laringe baixa e relaxada. Se ela subir, você trocou de registro em vez de alcançar um.",
+        "label": "Laringe baixa"
+      },
+      "noNasalAir": {
+        "description": "Nada pelo nariz. Tape ele por um segundo - o som não pode mudar nada.",
+        "label": "Sem ar pelo nariz"
+      },
+      "open": {
+        "description": "Solte a mandíbula, como se bocejasse cantando",
+        "label": "Colocação aberta"
+      },
+      "pokerFace": {
+        "description": "Expressão parada e relaxada. Apertar o rosto é sinal de que a garganta está apertando também.",
+        "label": "Rosto neutro"
+      },
+      "power": {
+        "description": "Cante mais alto vindo da barriga, não apertando a garganta",
+        "label": "Potência"
+      },
+      "quack": {
+        "description": "Uma intenção esganiçada, quase de engasgo - mas com a laringe embaixo. O que vale é a intenção, não o barulho.",
+        "label": "Grasnado"
+      },
+      "sovt": {
+        "description": "Cante por um zumbido suave - como cantarolar dentro de um canudo",
+        "label": "Ressonância"
+      },
+      "steadySupport": {
+        "description": "Respiração abdominal relaxada com uma leve pressão para baixo. Estável, mas nunca travada ou dura.",
+        "label": "Apoio constante"
+      },
+      "sustain": {
+        "description": "Segure cada nota firme por toda a duração",
+        "label": "Controle de ar"
+      },
+      "tryInhaled": {
+        "description": "Ache o som inspirando primeiro. É essa sensação que você leva para a versão expirada.",
+        "label": "Tente: inspirando"
+      },
+      "tryOctaveUp": {
+        "description": "Mire a nota uma oitava acima e depois relaxe até o subarmônico. É um caminho de entrada, não algo para segurar.",
+        "label": "Tente: uma oitava acima"
+      },
+      "vocalFry": {
+        "description": "Aquele som grave e estalado - como a voz acordando",
+        "label": "Vocal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Um pouco mais aguda",
+      "aBitLower": "Um pouco mais grave",
+      "breakZone": "Zona de passagem",
+      "chestVoice": "Voz de peito",
+      "femaleVoice": "Voz feminina",
+      "findYourVoiceBreak": "Descubra sua passagem",
+      "firstBreakExplain": "Cante junto com o piano. Quando a voz parecer que vai quebrar, virar para um som mais leve, ou você precisar empurrar mais - é ali. Toque em qualquer lugar da tela.",
+      "firstShift": "Primeira mudança",
+      "headVoice": "Voz de cabeça",
+      "maleVoice": "Voz masculina",
+      "matchesVoiceType": "Mais próximo: {voiceType}",
+      "tapWhenYouFeel": "Toque quando sentir a mudança",
+      "thisHelpsEstimate": "Isso ajuda a estimar sua segunda troca de registro.",
+      "voiceBreak": "Passagem",
+      "voiceBreakEducational": "O tipo de voz também depende de onde sua voz soa melhor e da qualidade do seu timbre.",
+      "voiceBreakExplain": "Conforme você sobe, tem um ponto em que a voz quer quebrar ou mudar, como trocar de marcha. Essa é a sua passagem. Vamos tocar notas subindo. Cante junto e toque a tela quando sentir a mudança acontecer.",
+      "whatDescribesYourVoice": "O que descreve melhor sua voz?",
+      "youFeltSomethingAround": "Você sentiu algo perto de {note}"
+    },
+    "directions": {
+      "down": "Descer",
+      "inverted": "Descendente",
+      "label": "Direção",
+      "mirror": "Espelhada",
+      "normal": "Ascendente",
+      "up": "Subir"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "De repente dá mais trabalho subir",
+      "voiceFlipsToLighterSound": "Sua voz vira para um som mais leve e soproso",
+      "voiceWantsToCrack": "Sua voz quer quebrar ou falhar",
+      "whatToListenFor": "O que observar:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "oitava",
+      "octaves": "oitavas"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Parar antes da passagem",
+        "name": "Só aproximar"
+      },
+      "crossOnce": {
+        "description": "Cruzar a passagem e voltar",
+        "name": "Cruzar uma vez"
+      },
+      "fullJourney": {
+        "description": "Aquecer até a voz de cabeça",
+        "name": "Trajeto completo"
+      },
+      "none": {
+        "description": "Usar a extensão normal",
+        "name": "Nenhuma"
+      },
+      "targetZona": {
+        "description": "Centrar na zona de passagem",
+        "name": "Mirar na zona"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Escolher na mão",
+      "findingYourRange": "Descobrindo sua extensão",
+      "goAsHighAsYouCan": "Suba o quanto der sem forçar",
+      "highest": "Mais aguda",
+      "holdSteady": "Segure firme...",
+      "holdUntilCalm": "Segure a nota até as ondas se acalmarem",
+      "letsFindYourRange": "Vamos descobrir sua extensão",
+      "listenForNotes": "Vamos ouvir sua nota mais grave e depois a mais aguda. É só cantar e segurar cada nota firme.",
+      "locked": "Registrada!",
+      "lowest": "Mais grave",
+      "mainRangeIsChestAndHead": "Esta é sua voz de peito e de cabeça - as notas que você canta normalmente.",
+      "nowSingHighest": "Agora cante a mais aguda",
+      "rangeBreakMoreReliable": "Sua passagem é um indicador mais confiável do tipo de voz.",
+      "rangeMayChange": "Sua extensão muda com o aquecimento, o treino e a hora do dia.",
+      "rangeOctaves": "Cerca de {octaves} oitavas",
+      "rangeTooNarrow": "Parece estreita demais - tentar de novo?",
+      "rangeTypicalFor": "Típica de uma voz {voiceType}",
+      "rangeTypicalForTwo": "Típica de {voiceType1} ou {voiceType2}",
+      "redoDetection": "Refazer a detecção",
+      "singHighestNote": "Cante sua nota aguda mais confortável",
+      "singLowestNote": "Cante sua nota grave mais confortável",
+      "voiceBreakOnboardingDesc": "Isso ajuda a montar exercícios em volta das suas trocas de registro.",
+      "wantToFindVoiceBreak": "Quer descobrir sua passagem também?",
+      "yourVocalRange": "Sua extensão vocal"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Estas são as notas que as pessoas ouvem, não as que você canta. Toque nos alto-falantes para ouvir cada uma."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Repetir",
+      "tempo": "Andamento"
+    },
+    "styles": {
+      "normal": {
+        "description": "Relaxado, parecido com a fala.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Liga as notas com um deslize.",
+        "name": "Suave"
+      },
+      "struck": {
+        "description": "Ataque nítido, separação clara.",
+        "name": "Seco"
+      }
+    }
+  },
+  "tr": {
+    "badges": {
+      "blend": {
+        "description": "Pes ve tiz sesin arasındaki geçişi yumuşat",
+        "label": "Miks Ses"
+      },
+      "closure": {
+        "description": "Sesi temiz ve net tut, hava kaçmasın",
+        "label": "Tel Kapanışı"
+      },
+      "distortion": {
+        "description": "Kontrollü kirli ton - bağırmak değil, rock şarkıcısı gibi",
+        "label": "Distorsiyon"
+      },
+      "falseCordDrone": {
+        "description": "Hafif yalancı tel hırıltısı - ağır mobilya sürüklenmesi, yağsız bir kapının kapanışı. M ile R arası pes bir MMMM, rölantideki motor gibi. Asla o sıkışık, tiz matkap sesi değil.",
+        "label": "Uğultu, matkap değil"
+      },
+      "forward": {
+        "description": "Sesi boğazında değil, burnunun arkasında hisset",
+        "label": "Öne Yerleştirme"
+      },
+      "fryOnset": {
+        "description": "Hafifçe sıkıştırılmış bir fry ile başla, sonra atağı bırak. Telleri fermuar gibi kapatan, o bırakıştır.",
+        "label": "Fry atağı"
+      },
+      "grit": {
+        "description": "Sesine hafif bir kirlilik kat - altta hafif bir hırlama gibi",
+        "label": "Kirli Ton"
+      },
+      "hotAir": {
+        "description": "Soğuk bir günde ellerini ısıtır gibi nefes ver. Her çığlık tekniğinin buna ihtiyacı var.",
+        "label": "Sıcak hava"
+      },
+      "light": {
+        "description": "Daha yumuşak, tiz sesini kullan - zorlama",
+        "label": "Hafif & Nazik"
+      },
+      "lowLarynx": {
+        "description": "Gırtlağı aşağıda ve gevşek tut. Yukarı çıkıyorsa notaya ulaşmamış, ses bölgesi değiştirmişsindir.",
+        "label": "Alçak gırtlak"
+      },
+      "noNasalAir": {
+        "description": "Burundan hiçbir şey geçmesin. Bir saniye burnunu kapat - ses hiç değişmemeli.",
+        "label": "Burundan hava yok"
+      },
+      "open": {
+        "description": "Çeneni bırak, şarkı söylerken esniyormuş gibi",
+        "label": "Açık Yerleştirme"
+      },
+      "pokerFace": {
+        "description": "İfadesiz, gevşek bir yüz. Yüzünü sıkıyorsan boğazın da sıkılıyor demektir.",
+        "label": "Poker suratı"
+      },
+      "power": {
+        "description": "Boğazını sıkarak değil, karnından daha gür söyle",
+        "label": "Güç"
+      },
+      "quack": {
+        "description": "Cıyaklayan, neredeyse öğürür gibi bir niyet - ama gırtlak aşağıda kalarak. Önemli olan niyet, çıkan gürültü değil.",
+        "label": "Ördek sesi"
+      },
+      "sovt": {
+        "description": "Yumuşak bir vızıltıyla söyle - pipetten mırıldanır gibi",
+        "label": "Rezonans"
+      },
+      "steadySupport": {
+        "description": "Karından gevşek nefes, hafif bir aşağı basınç. Sabit, ama asla kilitli ya da kasılı değil.",
+        "label": "Sabit destek"
+      },
+      "sustain": {
+        "description": "Her notayı süresi boyunca sabit tut",
+        "label": "Nefes Kontrolü"
+      },
+      "tryInhaled": {
+        "description": "Önce nefes alırken bul. Nefes verirkenki haline taşıyacağın şey o histir.",
+        "label": "Dene: nefes alarak"
+      },
+      "tryOctaveUp": {
+        "description": "Önce bir oktav yukarıdaki notayı hedefle, sonra gevşetip subharmoniğe indir. Bir giriş yolu, tutulacak bir şey değil.",
+        "label": "Dene: oktav yukarı"
+      },
+      "vocalFry": {
+        "description": "O cızırtılı, pes ses - sesin uyanıyormuş gibi",
+        "label": "Vokal Fry"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Biraz daha tiz",
+      "aBitLower": "Biraz daha pes",
+      "breakZone": "Geçiş bölgesi",
+      "chestVoice": "Göğüs sesi",
+      "femaleVoice": "Kadın sesi",
+      "findYourVoiceBreak": "Geçiş bölgeni bul",
+      "firstBreakExplain": "Piyanoyla birlikte söyle. Sesin çatlamak istediğinde, daha hafif bir tona kaydığında ya da daha çok zorlaman gerektiğinde, işte orası. Ekranda herhangi bir yere dokun.",
+      "firstShift": "İlk geçiş",
+      "headVoice": "Kafa sesi",
+      "maleVoice": "Erkek sesi",
+      "matchesVoiceType": "En yakın eşleşme: {voiceType}",
+      "tapWhenYouFeel": "Değişimi hissettiğinde dokun",
+      "thisHelpsEstimate": "Bu, ikinci ses bölgesi geçişini tahmin etmemize yardımcı olur.",
+      "voiceBreak": "Geçiş bölgesi",
+      "voiceBreakEducational": "Ses türü, sesinin en iyi tınladığı bölgeye ve ses rengine de bağlıdır.",
+      "voiceBreakExplain": "Tizlere çıktıkça sesinin çatlamak ya da değişmek istediği bir nokta gelir, vites değiştirmek gibi. İşte orası senin geçiş bölgen. Yukarı doğru notalar çalacağız. Sen birlikte söyle ve o değişimi hissettiğin an ekrana dokun.",
+      "whatDescribesYourVoice": "Sesini en iyi hangisi tanımlıyor?",
+      "youFeltSomethingAround": "{note} civarında bir şey hissettin"
+    },
+    "directions": {
+      "down": "Aşağı",
+      "inverted": "İnici",
+      "label": "Yön",
+      "mirror": "Ayna",
+      "normal": "Çıkıcı",
+      "up": "Yukarı"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "Tizlere çıkmak birden daha çok çaba istiyor",
+      "voiceFlipsToLighterSound": "Sesin daha hafif, daha nefesli bir tona geçiyor",
+      "voiceWantsToCrack": "Sesin çatlamak ya da kırılmak istiyor",
+      "whatToListenFor": "Nelere kulak vermelisin:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "oktav",
+      "octaves": "oktav"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Geçişten önce dur",
+        "name": "Sadece yaklaş"
+      },
+      "crossOnce": {
+        "description": "Geçişi aş ve geri dön",
+        "name": "Bir kez geç"
+      },
+      "fullJourney": {
+        "description": "Kafa sesini de kapsayarak ısın",
+        "name": "Tam yolculuk"
+      },
+      "none": {
+        "description": "Normal aralığı kullan",
+        "name": "Yok"
+      },
+      "targetZona": {
+        "description": "Geçiş bölgesini merkeze al",
+        "name": "Bölgeyi hedefle"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Bunun yerine elle seç",
+      "findingYourRange": "Ses aralığın bulunuyor",
+      "goAsHighAsYouCan": "Rahatça çıkabildiğin kadar çık",
+      "highest": "En tiz",
+      "holdSteady": "Sabit tut...",
+      "holdUntilCalm": "Dalgalar durulana kadar notayı tut",
+      "letsFindYourRange": "Ses aralığını bulalım",
+      "listenForNotes": "Önce en pes, sonra en tiz notanı dinleyeceğiz. Sadece söyle ve her notayı sabit tut.",
+      "locked": "Kilitlendi!",
+      "lowest": "En pes",
+      "mainRangeIsChestAndHead": "Bu senin göğüs ve kafa sesin - normalde söylediğin notalar.",
+      "nowSingHighest": "Şimdi en tizini söyle",
+      "rangeBreakMoreReliable": "Geçiş bölgen, ses türü için daha güvenilir bir göstergedir.",
+      "rangeMayChange": "Ses aralığın ısınmayla, çalışmayla ve günün saatiyle değişebilir.",
+      "rangeOctaves": "Yaklaşık {octaves} oktav",
+      "rangeTooNarrow": "Bu çok dar görünüyor - tekrar deneyelim mi?",
+      "rangeTypicalFor": "{voiceType} sesi için tipik",
+      "rangeTypicalForTwo": "{voiceType1} ya da {voiceType2} için tipik",
+      "redoDetection": "Ölçümü tekrarla",
+      "singHighestNote": "Rahat söyleyebildiğin en tiz notayı söyle",
+      "singLowestNote": "Rahat söyleyebildiğin en pes notayı söyle",
+      "voiceBreakOnboardingDesc": "Bu, egzersizleri ses bölgesi geçişlerine göre kurmamıza yardımcı olur.",
+      "wantToFindVoiceBreak": "Geçiş bölgeni de bulmak ister misin?",
+      "yourVocalRange": "Ses aralığın"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Bunlar dinleyenin duyduğu notalar, senin söylediklerin değil. Her birini duymak için hoparlörlere dokun."
+    },
+    "step": {
+      "bpm": "bpm",
+      "repeatCount": "Tekrar",
+      "tempo": "Tempo"
+    },
+    "styles": {
+      "normal": {
+        "description": "Rahat ve konuşma gibi.",
+        "name": "Normal"
+      },
+      "smooth": {
+        "description": "Notaları kaydırarak bağla.",
+        "name": "Akıcı"
+      },
+      "struck": {
+        "description": "Keskin atak, net ayrım.",
+        "name": "Keskin"
+      }
+    }
+  }
+}

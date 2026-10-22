@@ -1,0 +1,80 @@
+{
+  "slug": "test-de-afinacion-vocal",
+  "label": "Test de afinación",
+  "title": "Test de afinación vocal y afinador de voz online - Scalita",
+  "description": "Escucha una nota en el piano, cántala y mira a cuántas centésimas quedaste. Un test de afinación gratis y un afinador de voz que funcionan en tu navegador.",
+  "h1": "Test de afinación vocal",
+  "lead": "El piano toca una nota y se calla. Tú la repites cantando, y la página te muestra lo cerca que quedaste, en centésimas. Cinco notas forman una ronda, y el modo afinador te muestra tu afinación mientras cantas lo que quieras.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>Cómo hacer el test</h2><ol><li>Elige tu tipo de voz, o usa el rango que encontraste en el <a href=\"page:vocal-range-test\">test de rango vocal</a>, para que cada nota caiga donde puedes cantarla.</li><li>Pulsa Empezar y permite el micrófono.</li><li>Escucha la nota. Cuando el piano se calle, cántala con una vocal fácil y mantenla.</li><li>Mientras la mantienes, la aguja y el trazo muestran cuánto estás por encima o por debajo de la nota.</li><li>Después de cinco notas, lee tu resultado.</li></ol><p>Para el afinador, cambia al modo afinador y canta. Te muestra la nota más cercana y a cuántas centésimas estás de ella, y no suena ningún piano.</p>",
+  "sampleResult": "<h2>Cómo se ve un resultado</h2><p>Una ronda de cinco notas, y dónde quedó cada una:</p><ul><li>{{note:A3}}: 6 centésimas por debajo</li><li>{{note:C4}}: 12 centésimas por encima</li><li>{{note:B3}}: 9 centésimas por debajo</li><li>{{note:D4}}: 31 centésimas por debajo</li><li>{{note:G3}}: 4 centésimas por encima</li></ul><p>Desvío típico: 9 centésimas, el valor del medio de los cinco. Cuatro de las cinco notas quedaron a 25 centésimas o menos, el límite que usa la app Scalita para estar en la nota. El resultado también muestra lo estables que mantuviste las notas.</p>",
+  "notClaimed": "<h2>Lo que este test no te dice</h2><p>Mide la afinación y nada más: lo cerca que cae cada nota de la que tocó el piano y lo estable que se mantiene. No dice nada de tu timbre, de tu estilo ni de cómo le llega tu canto a la gente. Una ronda en un día es una sola lectura de tu afinación, no un juicio sobre tu oído o tu voz, y tampoco es una prueba de audición.</p>",
+  "sections": [
+    {
+      "heading": "Qué mide el test",
+      "html": "<p>Las diferencias de afinación se miden en centésimas. Un semitono, el paso de una tecla del piano a la siguiente, son 100 centésimas. Una nota por encima del objetivo está alta, y una por debajo, baja. Cuando ya te has asentado en una nota, el test mide a cuántas centésimas estás de la nota del piano y cuánto oscila tu afinación mientras la mantienes.</p><p>¿Cuánto es lo bastante cerca? En la app Scalita, una nota cuenta como desafinada cuando se aleja más de un cuarto de semitono, 25 centésimas. Las voces se mueven un poco en cada nota, y el vibrato oscila por encima y por debajo a propósito, así que es normal cierta oscilación alrededor de la nota.</p>"
+    },
+    {
+      "heading": "Por qué el piano se calla antes de que cantes",
+      "html": "<p>El piano y el micrófono se turnan. Si funcionaran a la vez, el micrófono oiría el piano además de a ti, y necesitarías auriculares. Al turnarse, no los necesitas.</p><p>Además, así se prueba lo que importa al cantar: oír una nota y luego encontrarla solo con tu voz. En un estudio, los cantantes que tendían a fallar la nota parecían despistarse, en vez de ayudarse, cuando la nota correcta sonaba a la vez que ellos (Pfordresher y Brown, 2007).</p>"
+    },
+    {
+      "heading": "Fallar la nota no suele ser cosa del oído",
+      "html": "<p>Los estudios con personas que cantan desafinado han encontrado que la mayoría percibe la altura con normalidad. En los experimentos de Pfordresher y Brown, entre el 10 y el 15 por ciento de los participantes repetía las notas con un semitono de error o más, y distinguía alturas tan bien como quienes cantaban afinado. Hutchins y Peretz (2012) vieron que la gente igualaba notas con más precisión con un deslizador que con su propia voz. Para la mayoría, lo difícil es llevar la voz hasta una nota que sí oye.</p><p>Existe una dificultad de por vida para percibir la altura. Se llama amusia congénita, y un estudio con 20 000 personas la situó en torno al 1,5 por ciento de la población (Peretz y Vuvan, 2017). Este test no puede diagnosticarla, ni lo pretende.</p>"
+    },
+    {
+      "heading": "Modo afinador",
+      "html": "<p>El afinador no usa el piano. Canta cualquier nota y te muestra el nombre de la nota más cercana y a cuántas centésimas estás por encima o por debajo, mientras cantas. Úsalo para comprobar una nota que mantienes, para ver un deslizamiento de una nota a otra o para ver cuánto oscila tu vibrato.</p>"
+    },
+    {
+      "heading": "Una prueba rápida de escucha",
+      "html": "<p>Para comprobar solo el oído, la prueba de escucha toca dos notas y te pregunta cuál era más aguda. Son tres preguntas con las respuestas en palabras: un vistazo rápido, no una prueba de audición.</p>"
+    },
+    {
+      "heading": "Si el micrófono no funciona",
+      "html": "<p>Abre la página en Chrome, Safari, Firefox o Edge, no dentro de Instagram, TikTok, Facebook o Gmail, cuyos navegadores integrados bloquean el micrófono. Si pulsaste Bloquear, permite el micrófono en la configuración del sitio y vuelve a cargar la página. Usa el micrófono del propio teléfono en vez de auriculares Bluetooth y, si el nivel sigue bajo, canta un poco más fuerte o acércate.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Cómo sé si canto afinado?",
+      "a": "<p>Es difícil juzgar tu propia afinación de oído mientras cantas. Una grabación ayuda, y una medición ayuda más: este test toca una nota, tú la cantas y te dice a cuántas centésimas quedaste. En la app Scalita, quedar a 25 centésimas o menos cuenta como estar en la nota.</p>"
+    },
+    {
+      "q": "¿Por qué me quedo por debajo o por encima de la nota?",
+      "a": "<p>Hay razones habituales: una nota cerca del borde de tu rango cómodo, una voz cansada o fría, las prisas y el propio sonido del piano. En un estudio, personas sin formación musical igualaban mejor una grabación de su propia voz que un tono sintetizado (Hutchins y Peretz, 2012). A muchos cantantes les ayuda ir más despacio. En otro estudio, cuando personas que cantan de vez en cuando cantaron más despacio una canción conocida, la mayoría la cantó casi con la misma precisión que los profesionales (Dalla Bella y colaboradores, 2007).</p>"
+    },
+    {
+      "q": "¿Cómo saber si canto bien?",
+      "a": "<p>Un test como este mide una parte del canto: llegar a la nota. El timbre, el ritmo, la letra y el estilo cuentan igual, y ningún test con micrófono puede calificarlos. Un desvío grande en una ronda solo significa que esas cinco notas cayeron lejos del piano esa vez.</p>"
+    },
+    {
+      "q": "¿Necesito auriculares?",
+      "a": "<p>No. El piano suena primero y se calla antes de que el micrófono escuche, así que solo te oye a ti.</p>"
+    },
+    {
+      "q": "¿Es precisa la lectura?",
+      "a": "<p>En una nota clara y estable, la lectura de la afinación tiene un margen de unas pocas centésimas. El ruido de fondo, un micrófono con poco volumen y los auriculares Bluetooth la hacen menos confiable, y la página te avisa cuando tu nivel es demasiado bajo.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher y Brown (2007), estudio sobre el canto impreciso y la percepción de la altura, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère y Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins y Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz y Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

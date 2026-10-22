@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Mode",
+    "sing": "Sing this note",
+    "tuner": "Free tuner",
+    "ear": "Listening check"
+  },
+  "intro": {
+    "sing": "The piano plays a note. Then the microphone opens and you sing the note back, on any vowel or a hum. Five notes, one at a time.",
+    "tuner": "Sing or hum any note. The page shows which note it is and how far you're from its center, in cents.",
+    "ear": "Two piano notes play, one after the other. Was the second one higher or lower? Three pairs, and the microphone stays off."
+  },
+  "voice": {
+    "label": "Notes for",
+    "any": "Any voice",
+    "saved": "Your range, {low} to {high}",
+    "types": "Voice types"
+  },
+  "sing": {
+    "noteOf": "Note {n} of {total}",
+    "listen": "Listen to the piano.",
+    "now": "Now sing it back, and hold it.",
+    "again": "Hear it again",
+    "notHeard": "Not heard, so this note doesn't count.",
+    "measured": "Note {n}: {offset}"
+  },
+  "offset": {
+    "high": "{cents} sharp",
+    "low": "{cents} flat",
+    "zero": "On the note",
+    "octaveUp": "{offset}, an octave up",
+    "octaveDown": "{offset}, an octave down"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} cent",
+      "other": "{n} cents"
+    },
+    "semitones": {
+      "one": "{n} semitone",
+      "other": "{n} semitones"
+    },
+    "short": "{n}c"
+  },
+  "result": {
+    "label": "Typical miss",
+    "basis": "{judged} of {total} notes measured",
+    "offSay": "Half your notes sat further than {cents} from the piano, half closer.",
+    "offHigh": "Most of them were sharp.",
+    "offLow": "Most of them were flat.",
+    "within10": "Within 10 cents",
+    "within25": "Within 25 cents",
+    "count": "{n} of {total}",
+    "notes": "Note by note",
+    "wobble": "Wobble",
+    "wobbleSay": "Once you arrived on a note, it moved about {cents} while you held it.",
+    "wobbleRead": "Under about 10 cents is a steady hold. Vibrato reads higher, and that's part of the sound, not a mistake.",
+    "wobbleNone": "The notes were too short to see whether they moved while you held them.",
+    "cent": "100 cents make a semitone, one piano key to the next.",
+    "sample": "Five notes is a small sample. Another round will move these numbers a little.",
+    "tooFew": "The microphone heard {judged} of {total} notes clearly, which is too few to measure. Try again a little louder or closer to the microphone. Humming works too.",
+    "last": "{label}: {cents}, {date}",
+    "again": "Another round",
+    "ctaBody": "Scalita's Accuracy Training goes further: match any note on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
+    "ctaButton": "Get Scalita on Google Play"
+  },
+  "tuner": {
+    "hint": "Sing or hum any note."
+  },
+  "ear": {
+    "label": "Higher or lower",
+    "pairOf": "Pair {n} of {total}",
+    "question": "Was the second note higher or lower?",
+    "higher": "Higher",
+    "lower": "Lower",
+    "again": "Hear them again",
+    "wentUp": "The second note was higher, {step} up.",
+    "wentDown": "The second note was lower, {step} down.",
+    "score": "You heard the direction of {right} of {total} pairs.",
+    "all": "That held down to one semitone, the smallest step on a piano.",
+    "some": "The smallest steps are the hardest to hear at first. Headphones and a quiet room help.",
+    "toSing": "Sing a note back"
+  },
+  "meter": "Microphone level",
+  "pianoFailed": "The piano didn't load. Check your connection and try again."
+}

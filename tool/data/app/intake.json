@@ -1,0 +1,493 @@
+{
+  "blockedMessage": {
+    "de": "Deine Stimme braucht heute Schonung. Nimm etwas Sanfteres.",
+    "en": "Your voice needs care today. Try a gentler option.",
+    "es": "Tu voz necesita cuidado hoy. Prueba una opción más suave.",
+    "fr": "Ta voix a besoin de ménagement aujourd'hui. Essaie une option plus douce.",
+    "id": "Suaramu perlu dijaga hari ini. Coba pilihan yang lebih lembut.",
+    "pt": "Sua voz precisa de cuidado hoje. Escolha algo mais leve.",
+    "tr": "Sesinin bugün bakıma ihtiyacı var. Daha yumuşak bir seçenek dene."
+  },
+  "feelings": {
+    "label": {
+      "de": "Wie fühlt sich deine Stimme an?",
+      "en": "How does your voice feel?",
+      "es": "¿Cómo sientes tu voz?",
+      "fr": "Comment va ta voix ?",
+      "id": "Bagaimana rasanya suaramu?",
+      "pt": "Como está sua voz hoje?",
+      "tr": "Sesin nasıl?"
+    },
+    "options": [
+      {
+        "description": {
+          "de": "Voll eingesungen oder bestens drauf",
+          "en": "Fully warmed up or feeling great",
+          "es": "Totalmente preparada o sintiéndose genial",
+          "fr": "Déjà échauffée ou au top",
+          "id": "Sudah panas atau terasa prima",
+          "pt": "Já aquecida ou se sentindo ótima",
+          "tr": "Tamamen ısınmış ya da formda"
+        },
+        "id": "ready",
+        "label": {
+          "de": "Bereit",
+          "en": "Ready to go",
+          "es": "Lista para cantar",
+          "fr": "En pleine forme",
+          "id": "Sudah siap",
+          "pt": "Pronta para tudo",
+          "tr": "Hazırım"
+        },
+        "routineId": null,
+        "tempoMultiplier": 1.15
+      },
+      {
+        "description": {
+          "de": "Nichts Besonderes, los geht's",
+          "en": "Nothing special, let's go",
+          "es": "Nada especial, vamos",
+          "fr": "Rien de spécial, on y va",
+          "id": "Biasa saja, ayo mulai",
+          "pt": "Nada de especial, vamos lá",
+          "tr": "Özel bir şey yok, başlayalım"
+        },
+        "id": "normal",
+        "label": {
+          "de": "Normal",
+          "en": "Normal",
+          "es": "Normal",
+          "fr": "Normale",
+          "id": "Normal",
+          "pt": "Normal",
+          "tr": "Normal"
+        },
+        "routineId": null,
+        "tempoMultiplier": 1.0
+      },
+      {
+        "description": {
+          "de": "Heute nicht in Bestform",
+          "en": "Not at my best today",
+          "es": "No estoy en mi mejor momento",
+          "fr": "Pas au mieux aujourd'hui",
+          "id": "Hari ini kurang prima",
+          "pt": "Não estou no meu melhor hoje",
+          "tr": "Bugün en iyi halimde değilim"
+        },
+        "id": "off",
+        "label": {
+          "de": "Etwas daneben",
+          "en": "A bit off",
+          "es": "Un poco mal",
+          "fr": "Un peu à côté",
+          "id": "Kurang fit",
+          "pt": "Meio estranha",
+          "tr": "Biraz tuhaf"
+        },
+        "routineId": null,
+        "tempoMultiplier": 0.85
+      },
+      {
+        "description": {
+          "de": "Braucht sanfte Pflege",
+          "en": "Needs gentle care",
+          "es": "Necesita cuidado suave",
+          "fr": "Besoin de douceur",
+          "id": "Butuh perlakuan lembut",
+          "pt": "Precisa de cuidado",
+          "tr": "Nazik bir yaklaşım gerek"
+        },
+        "id": "tired",
+        "label": {
+          "de": "Müde / gepresst",
+          "en": "Tired / strained",
+          "es": "Cansada / forzada",
+          "fr": "Fatiguée / forcée",
+          "id": "Lelah / terforsir",
+          "pt": "Cansada / forçada",
+          "tr": "Yorgun / zorlanmış"
+        },
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      }
+    ]
+  },
+  "goals": {
+    "label": {
+      "de": "Worauf willst du dich konzentrieren?",
+      "en": "What do you want to focus on?",
+      "es": "¿En qué quieres enfocarte?",
+      "fr": "Sur quoi veux-tu travailler ?",
+      "id": "Mau fokus ke apa?",
+      "pt": "No que você quer focar?",
+      "tr": "Neye odaklanmak istersin?"
+    },
+    "options": [
+      {
+        "appOnly": true,
+        "blockedWhen": [],
+        "description": {
+          "de": "Ich baue dein Einsingen unterwegs auf",
+          "en": "I'll build your warmup as we go",
+          "es": "Construiré tu calentamiento sobre la marcha",
+          "fr": "Je construis ton échauffement au fil de la séance",
+          "id": "Kususun pemanasanmu sambil jalan",
+          "pt": "Eu monto seu aquecimento no caminho",
+          "tr": "Isınmanı ilerledikçe ben kurarım"
+        },
+        "id": "dynamic",
+        "label": {
+          "de": "Adaptiver Modus",
+          "en": "Adaptive Mode",
+          "es": "Modo Adaptativo",
+          "fr": "Mode adaptatif",
+          "id": "Mode Adaptif",
+          "pt": "Modo dinâmico",
+          "tr": "Uyarlanabilir Mod"
+        },
+        "routineId": null
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [],
+        "description": {
+          "de": "Allgemeines Einsingen für alles",
+          "en": "General all-purpose warmup",
+          "es": "Calentamiento general",
+          "fr": "Échauffement général polyvalent",
+          "id": "Pemanasan umum serba guna",
+          "pt": "Aquecimento geral, para tudo",
+          "tr": "Genel amaçlı ısınma"
+        },
+        "id": "warmup",
+        "label": {
+          "de": "Nur einsingen",
+          "en": "Just warm me up",
+          "es": "Solo calentar",
+          "fr": "Juste m'échauffer",
+          "id": "Pemanasan saja",
+          "pt": "Só me aqueça",
+          "tr": "Sadece ısınayım"
+        },
+        "routineId": "general_warmup"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [
+          "off"
+        ],
+        "description": {
+          "de": "Obere und untere Grenzen verschieben",
+          "en": "Push your upper and lower limits",
+          "es": "Empuja tus límites",
+          "fr": "Repousse tes limites hautes et basses",
+          "id": "Perluas batas atas dan bawah suaramu",
+          "pt": "Empurre seus limites agudo e grave",
+          "tr": "Üst ve alt sınırlarını zorla"
+        },
+        "id": "range",
+        "label": {
+          "de": "Umfang erweitern",
+          "en": "Extend my range",
+          "es": "Ampliar mi rango",
+          "fr": "Étendre ma tessiture",
+          "id": "Perluas jangkauanku",
+          "pt": "Ampliar minha extensão",
+          "tr": "Aralığımı genişlet"
+        },
+        "routineId": "range_extension"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [],
+        "description": {
+          "de": "Volumen und Tragfähigkeit",
+          "en": "Volume and projection",
+          "es": "Volumen y proyección",
+          "fr": "Volume et projection",
+          "id": "Volume dan proyeksi",
+          "pt": "Volume e projeção",
+          "tr": "Hacim ve projeksiyon"
+        },
+        "id": "power",
+        "label": {
+          "de": "Mehr Kraft",
+          "en": "More power",
+          "es": "Más potencia",
+          "fr": "Plus de puissance",
+          "id": "Lebih bertenaga",
+          "pt": "Mais potência",
+          "tr": "Daha çok güç"
+        },
+        "routineId": "power_volume"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [],
+        "description": {
+          "de": "Schnelle Läufe und Genauigkeit",
+          "en": "Fast runs and precision",
+          "es": "Pasajes rápidos y precisión",
+          "fr": "Vocalises rapides et précision",
+          "id": "Run cepat dan ketepatan",
+          "pt": "Melismas rápidos e precisão",
+          "tr": "Hızlı pasajlar ve kesinlik"
+        },
+        "id": "agility",
+        "label": {
+          "de": "Tempo & Flexibilität",
+          "en": "Speed & flexibility",
+          "es": "Velocidad y flexibilidad",
+          "fr": "Vitesse et souplesse",
+          "id": "Kecepatan & kelenturan",
+          "pt": "Velocidade e flexibilidade",
+          "tr": "Hız & esneklik"
+        },
+        "routineId": "agility_runs"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [],
+        "description": {
+          "de": "Lange Phrasen und Kontrolle",
+          "en": "Sustained phrases and control",
+          "es": "Frases sostenidas y control",
+          "fr": "Phrases tenues et contrôle",
+          "id": "Frasa panjang dan kendali",
+          "pt": "Frases longas e controle",
+          "tr": "Uzun cümleler ve kontrol"
+        },
+        "id": "breath",
+        "label": {
+          "de": "Atem & Ausdauer",
+          "en": "Breath & stamina",
+          "es": "Respiración y resistencia",
+          "fr": "Souffle et endurance",
+          "id": "Napas & stamina",
+          "pt": "Ar e fôlego",
+          "tr": "Nefes & dayanıklılık"
+        },
+        "routineId": "breath_control"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [],
+        "description": {
+          "de": "Schnell bereit werden",
+          "en": "Get ready fast",
+          "es": "Prepárate rápido",
+          "fr": "Être prêt vite",
+          "id": "Siap dengan cepat",
+          "pt": "Ficar pronto rápido",
+          "tr": "Hızlıca hazır ol"
+        },
+        "id": "quick",
+        "label": {
+          "de": "Kurz vor der Show",
+          "en": "Quick pre-show",
+          "es": "Pre-show rápido",
+          "fr": "Express avant scène",
+          "id": "Cepat sebelum tampil",
+          "pt": "Rápido pré-show",
+          "tr": "Sahne öncesi hızlı"
+        },
+        "routineId": "pre_performance"
+      },
+      {
+        "appOnly": false,
+        "blockedWhen": [
+          "off"
+        ],
+        "description": {
+          "de": "Verzerrung und extreme Vocals",
+          "en": "Distortion and extreme vocals",
+          "es": "Distorsión y vocales extremas",
+          "fr": "Distorsion et voix extrêmes",
+          "id": "Distorsi dan vokal ekstrem",
+          "pt": "Distorção e vocais extremos",
+          "tr": "Distorsiyon ve uç vokaller"
+        },
+        "id": "rock",
+        "label": {
+          "de": "Rauheit / Screaming",
+          "en": "Grit / screaming",
+          "es": "Grit / gritos",
+          "fr": "Grain / cri",
+          "id": "Serak / teriak",
+          "pt": "Aspereza / gritos",
+          "tr": "Kirli ton / çığlık"
+        },
+        "routineId": "heavy_rock"
+      }
+    ]
+  },
+  "results": {
+    "normal": {
+      "agility": {
+        "blocked": false,
+        "routineId": "agility_runs",
+        "tempoMultiplier": 1.0
+      },
+      "breath": {
+        "blocked": false,
+        "routineId": "breath_control",
+        "tempoMultiplier": 1.0
+      },
+      "power": {
+        "blocked": false,
+        "routineId": "power_volume",
+        "tempoMultiplier": 1.0
+      },
+      "quick": {
+        "blocked": false,
+        "routineId": "pre_performance",
+        "tempoMultiplier": 1.0
+      },
+      "range": {
+        "blocked": false,
+        "routineId": "range_extension",
+        "tempoMultiplier": 1.0
+      },
+      "rock": {
+        "blocked": false,
+        "routineId": "heavy_rock",
+        "tempoMultiplier": 1.0
+      },
+      "warmup": {
+        "blocked": false,
+        "routineId": "general_warmup",
+        "tempoMultiplier": 1.0
+      }
+    },
+    "off": {
+      "agility": {
+        "blocked": false,
+        "routineId": "agility_runs",
+        "tempoMultiplier": 0.85
+      },
+      "breath": {
+        "blocked": false,
+        "routineId": "breath_control",
+        "tempoMultiplier": 0.85
+      },
+      "power": {
+        "blocked": false,
+        "routineId": "power_volume",
+        "tempoMultiplier": 0.85
+      },
+      "quick": {
+        "blocked": false,
+        "routineId": "pre_performance",
+        "tempoMultiplier": 0.85
+      },
+      "range": {
+        "blocked": true,
+        "routineId": null,
+        "tempoMultiplier": null
+      },
+      "rock": {
+        "blocked": true,
+        "routineId": null,
+        "tempoMultiplier": null
+      },
+      "warmup": {
+        "blocked": false,
+        "routineId": "general_warmup",
+        "tempoMultiplier": 0.85
+      }
+    },
+    "ready": {
+      "agility": {
+        "blocked": false,
+        "routineId": "agility_runs",
+        "tempoMultiplier": 1.15
+      },
+      "breath": {
+        "blocked": false,
+        "routineId": "breath_control",
+        "tempoMultiplier": 1.15
+      },
+      "power": {
+        "blocked": false,
+        "routineId": "power_volume",
+        "tempoMultiplier": 1.15
+      },
+      "quick": {
+        "blocked": false,
+        "routineId": "pre_performance",
+        "tempoMultiplier": 1.15
+      },
+      "range": {
+        "blocked": false,
+        "routineId": "range_extension",
+        "tempoMultiplier": 1.15
+      },
+      "rock": {
+        "blocked": false,
+        "routineId": "heavy_rock",
+        "tempoMultiplier": 1.15
+      },
+      "warmup": {
+        "blocked": false,
+        "routineId": "general_warmup",
+        "tempoMultiplier": 1.15
+      }
+    },
+    "tired": {
+      "agility": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "breath": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "power": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "quick": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "range": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "rock": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      },
+      "warmup": {
+        "blocked": false,
+        "routineId": "gentle_recovery",
+        "tempoMultiplier": 0.85
+      }
+    }
+  },
+  "subtitle": {
+    "de": "Beantworte ein paar Fragen",
+    "en": "Answer a couple of questions",
+    "es": "Responde un par de preguntas",
+    "fr": "Réponds à deux questions",
+    "id": "Jawab beberapa pertanyaan",
+    "pt": "Responda duas perguntas",
+    "tr": "Birkaç soruya cevap ver"
+  },
+  "title": {
+    "de": "Einsingen finden",
+    "en": "Find My Warmup",
+    "es": "Encuentra Tu Calentamiento",
+    "fr": "Trouve mon échauffement",
+    "id": "Cari Pemanasanku",
+    "pt": "Achar meu aquecimento",
+    "tr": "Isınmamı Bul"
+  }
+}

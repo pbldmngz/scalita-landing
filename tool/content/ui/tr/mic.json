@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "Bu tarayıcı burada mikrofonu kullanamıyor. Chrome, Safari, Firefox ya da Edge'in güncel bir sürümünü dene.",
+  "micInApp": "Bu uygulamanın içindeki tarayıcı mikrofonu kullanamıyor. Bu sayfayı Chrome'da ya da Safari'de aç.",
+  "micBlocked": "Tarayıcın bu site için mikrofonu engelliyor. Site ayarlarından, genellikle adres çubuğunun yanındaki simgeden mikrofona izin ver, sonra sayfayı yeniden yükle.",
+  "micDismissed": "Sayfanın mikrofonu kullanmak için iznine ihtiyacı var. Tekrar dene ve tarayıcın sorduğunda İzin ver'i seç.",
+  "micNotFound": "Mikrofon bulunamadı. Bir mikrofon tak ya da aç, sonra tekrar dene.",
+  "micBusy": "Mikrofonu başka bir şey kullanıyor, örneğin bir arama ya da başka bir uygulama. Onu kapat ve tekrar dene.",
+  "micInterrupted": "Mikrofon kesildi; bir arama gelmiş ya da kulaklığın çıkmış olabilir. Hazır olduğunda tekrar dene.",
+  "micHidden": "Sayfadan başka bir yere geçtiğinde dinleme durur. Hazır olduğunda yeniden başlat.",
+  "micFailed": "Mikrofon başlatılırken bir şeyler ters gitti. Sayfayı yeniden yükle ve tekrar dene.",
+  "micBluetooth": "Bu bir Bluetooth kulaklığa benziyor. Onun mikrofonu telefon görüşmesi kalitesine düşer, bu yüzden telefonun kendi mikrofonu sesini daha iyi alır.",
+  "micSilent": "Mikrofondan hiç ses gelmiyor. Sessize alınmadığından emin ol, sonra söyle ya da mırıldan.",
+  "levelQuiet": "Çok sessiz. Biraz daha yüksek sesle söyle ya da mikrofona yaklaş.",
+  "levelLoud": "Ses o kadar yüksek ki bozulabilir. Mikrofondan biraz uzaklaş."
+}

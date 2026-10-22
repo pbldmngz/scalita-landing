@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Suaramu",
+  "custom": "Jangkauanmu sendiri",
+  "lowest": "Nada terendah",
+  "highest": "Nada tertinggi",
+  "chooserLabel": "Latihan",
+  "routines": "Rutinitas",
+  "scales": "Tangga nada",
+  "pickVoice": "Pilih jenis suaramu, atau atur jangkauanmu sendiri, lalu tekan Putar.",
+  "ready": "{low} sampai {high}. Tekan Putar kalau sudah siap.",
+  "routineSummary": "{steps} langkah, sekitar {minutes} menit",
+  "scaleSummary": "{keys} nada dasar, sekitar {minutes} menit",
+  "usingBreak": "Disusun di sekitar peralihan registermu di {note}.",
+  "stepCard": "{syllable}, {tempo} bpm",
+  "stepDetail": "{scale}, dengan {syllable}. {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. {tempo} bpm, {direction}.",
+  "stepOf": "Langkah {step} dari {steps}",
+  "keyOf": "Nada dasar {key} dari {keys}: {note}",
+  "countIn": "Bersiap: {n}",
+  "breathe": "Tarik napas. Langkah berikutnya mulai dalam {seconds} detik.",
+  "done": "Selesai. Tekan Putar untuk mengulang.",
+  "noAudio": "Browser ini tidak bisa memutar audio. Coba Chrome, Safari, Firefox, atau Edge versi terbaru.",
+  "loadFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi.",
+  "keyboard": "Tuts piano dari {low} sampai {high}",
+  "styles": {
+    "struck": "Langsung",
+    "normal": "Normal",
+    "smooth": "Halus"
+  },
+  "directions": {
+    "normal": "Menaik",
+    "inverted": "Menurun",
+    "mirror": "Naik-turun"
+  }
+}

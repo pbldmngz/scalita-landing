@@ -1,0 +1,65 @@
+{
+  "slug": "vibracion-de-labios",
+  "label": "Vibración de labios y lengua",
+  "title": "Vibración de labios y de lengua: cómo hacerlas - Scalita",
+  "description": "Cómo hacer la vibración de labios y la de lengua, con cuál empieza Scalita, cuándo cambiar de una a otra y qué probar cuando la vibración se corta todo el rato.",
+  "h1": "Vibración de labios y vibración de lengua",
+  "lead": "En la vibración de labios, tus labios vibran mientras cantas; en la de lengua lo hace la punta de la lengua, como una erre larga. Scalita usa cada una para una tarea distinta.",
+  "sections": [
+    {
+      "heading": "Qué son",
+      "html": "<p>La vibración de labios es ese “brrr” de motor que hacen los niños al jugar: los labios sueltos vibran mientras cantas a través de ellos. En las clases de canto también se oye su nombre en inglés, lip trill. Scalita la escribe <strong>Prr</strong>.</p>\n<p>La vibración de lengua es una erre múltiple sostenida en una nota, como la de <em>perro</em>. Scalita la escribe <strong>Trr</strong>, porque al decir T la punta de la lengua queda justo donde se produce la vibración.</p>"
+    },
+    {
+      "heading": "Cómo hacer la vibración de labios",
+      "html": "<ol>\n<li>Junta los labios sin apretar, como para decir B, con los dientes separados y la mandíbula suelta.</li>\n<li>Sopla un aire constante hasta que los labios vibren. Todavía sin voz.</li>\n<li>Añade una nota suave en el centro de tu voz y deslízala un poco.</li>\n<li>Cuando la vibración se mantenga sola, canta un patrón sobre ella, empezando por la <a href=\"page:five-note-scale\">escala de cinco notas</a>.</li>\n</ol>\n<p>Deberías sentir un zumbido en los labios, no en la garganta. Mantén el volumen bajo.</p>"
+    },
+    {
+      "heading": "Cómo hacer la vibración de lengua",
+      "html": "<ol>\n<li>Di T y luego deja la punta de la lengua suelta cerca del borde que hay detrás de los dientes de arriba.</li>\n<li>Sopla a través de ese punto para que la punta vibre: un trrr largo.</li>\n<li>Añade una nota suave, con la mandíbula quieta.</li>\n</ol>\n<p>La vibración la hace el aire, no la lengua.</p>"
+    },
+    {
+      "heading": "Cuál va primero: la regla de Scalita",
+      "html": "<p>Las guías en inglés suelen empezar por la vibración de labios. Scalita da a cada vibración un papel distinto: en todas las rutinas, la primera vibración es la de lengua y todas las que vienen después son de labios.</p>\n<p>La vibración de labios necesita un apoyo respiratorio constante, y Scalita la usa para soltar tensión. La de lengua puede añadir tensión, así que si la notas, cambia a la de labios. Solo <a href=\"page:vocal-cool-down\">Suave / Recuperación</a>, la rutina para una voz cansada, usa la vibración de labios las dos veces.</p>\n<p>Scalita empieza por la vibración de lengua. Si tu idioma no tiene erre vibrante y te cuesta, empieza por la vibración de labios.</p>\n<p>Quien habla español hace vibrar la erre todos los días. El inglés, el francés y el alemán estándar no tienen erre vibrante, y tampoco la mayoría de los acentos de Brasil, así que para muchos adultos es una habilidad nueva.</p>"
+    },
+    {
+      "heading": "Por qué los cantantes usan vibraciones",
+      "html": "<p>Los profesores de canto y los terapeutas de la voz agrupan las vibraciones con el tarareo y el canto con pajita como ejercicios de tracto vocal semiocluido: los labios, la lengua o una pajita bloquean en parte el aire a su salida.</p>\n<p>En 2006, el científico de la voz Ingo Titze mostró con un modelo informático cómo un cierre parcial en los labios eleva la presión del aire por encima de las cuerdas vocales, lo que puede hacer que la voz trabaje con más eficiencia. Un estudio de 2014 sobre siete ejercicios de este tipo encontró que las dos vibraciones se parecían entre sí y se diferenciaban del tarareo y de la pajita: la vibración añade una segunda oscilación.</p>\n<p>Los dos estudios analizaron el ejercicio en sí, no meses de práctica. Los profesores usan las vibraciones para arrancar la voz con suavidad y para llevarla entre graves y agudos sin baches: una razón de su popularidad, no una promesa.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Por qué me cuesta tanto la vibración de labios?",
+      "a": "<p>Normalmente porque los labios están tensos o el aire se corta. Afloja los labios y mantén el aire suave y sin interrupciones. Mientras no te salga, empieza con un tarareo.</p>"
+    },
+    {
+      "q": "¿La vibración de labios ayuda a controlar el aire?",
+      "a": "<p>Te muestra cuándo tu aire es irregular, porque la vibración se corta en cuanto baja el flujo de aire. Es buena práctica para un aire constante, pero no es un ejercicio de respiración.</p>"
+    },
+    {
+      "q": "¿Vibración de labios o de lengua: cuál es mejor?",
+      "a": "<p>Ninguna: hacen trabajos distintos. Scalita empieza con la vibración de lengua, y luego usa la de labios en todas las vibraciones siguientes y siempre que tu voz esté tensa.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Andrade, Wood, Ratcliffe, Epstein, Pijper y Svec (2014). Electroglottographic study of seven semi-occluded exercises: LaxVox, straw, lip-trill, tongue-trill, humming, hand-over-mouth, and tongue-trill combined with hand-over-mouth. Journal of Voice 28(5).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24560003/"
+    },
+    {
+      "label": "Wikipedia (en inglés): Guttural R, sobre dónde no se hace vibrar la erre (francés y alemán estándar, la mayor parte de Brasil).",
+      "url": "https://en.wikipedia.org/wiki/Guttural_R"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null,
+  "syllables": [
+    "Trr",
+    "Prr"
+  ],
+  "troubleshooting": "<h2>Cuando la vibración no se mantiene</h2>\n<ul>\n<li><strong>La vibración de labios se corta todo el rato, o solo funciona si soplas fuerte.</strong> Tus labios están tensos. Suéltalos, humedécelos y usa un aire suave y constante. Si aun así se cortan, apoya la punta de un dedo en cada mejilla, junto a las comisuras de la boca, y levanta un poco, para quitarles peso a los labios.</li>\n<li><strong>Se apaga en las notas agudas.</strong> Es habitual al principio. Quédate donde se mantiene, en voz baja. Lo más alto del patrón no es una meta.</li>\n<li><strong>Te quedas sin aire.</strong> Respira entre tonalidades, mientras el piano toca el siguiente acorde.</li>\n<li><strong>No te sale la erre.</strong> Parte de la T y sopla a través de ella, con la lengua suelta. La r de <em>pero</em> es un solo toque de la lengua; la vibración es ese toque repetido por el aire, como en <em>perro</em>. Mientras no te salga, usa la vibración de labios.</li>\n<li><strong>Se te tensan la lengua, la mandíbula o la garganta.</strong> Cambia a la vibración de labios. En Scalita, ese es su trabajo.</li>\n<li><strong>Las cosquillas y la saliva</strong> son normales.</li>\n<li><strong>Algo duele.</strong> Para. El dolor nunca forma parte de un calentamiento. Si vuelve una y otra vez, consulta a un profesor de canto o a un médico.</li>\n</ul>"
+}

@@ -14,20 +14,17 @@
   <link rel="alternate" hreflang="es" href="https://scalita.com/es/">
   <link rel="alternate" hreflang="fr" href="https://scalita.com/fr/">
   <link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/">
+  <link rel="alternate" hreflang="pt" href="https://scalita.com/pt/">
   <link rel="alternate" hreflang="de" href="https://scalita.com/de/">
   <link rel="alternate" hreflang="tr" href="https://scalita.com/tr/">
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/">
-  <link rel="icon" type="image/png" sizes="32x32" href="../images/logo_32.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="../images/logo_192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
 
-  <link rel="stylesheet" href="../css/style.css">
-
-  <meta name="keywords" content="application échauffement vocal, gammes pour chanter, routines vocales, chanter juste, entraînement de justesse, score de justesse, visée de justesse, écoute et répète, jeu de chant, entraînement aux harmonies, chanter en harmonie, exercices de registre vocal, chant subharmonique, flageolet, registre de sifflet, chant rock et metal, détecteur de gammes, accordeur vocal, gammes de piano pour chanteurs, application solfège, échauffement do ré mi">
+  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Scalita - 21 gammes, 15 routines, vrai piano. Application gratuite d'échauffement vocal.">
@@ -54,7 +51,7 @@
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "SoftwareApplication",
+  "@type": "MobileApplication",
   "name": "Scalita",
   "operatingSystem": "Android",
   "applicationCategory": "MultimediaApplication",
@@ -68,20 +65,17 @@
     "tr",
     "id"
   ],
-  "offers": [
-    {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "EUR",
-      "description": "Gratuit"
-    },
-    {
-      "@type": "Offer",
-      "price": "4.99",
-      "priceCurrency": "EUR",
-      "description": "Pro"
-    }
-  ]
+  "installUrl": "https://play.google.com/store/apps/details?id=com.scalita.app&hl=fr&referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dindex",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Pablo Dominguez",
+    "url": "https://dominguezpablo.com"
+  }
 }
   </script>
 </head>
@@ -89,7 +83,7 @@
   <nav>
     <div class="container">
       <a href="/fr/" class="logo">
-        <img src="../images/logo.svg" alt="Logo Scalita" width="32" height="32">
+        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
         Scalita
       </a>
       <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
@@ -101,7 +95,9 @@
         <li><a href="#features">Fonctionnalités</a></li>
         <li><a href="#pricing">Tarifs</a></li>
         <li><a href="#download">Télécharger</a></li>
-        <li><a href="support.html">Aide</a></li>
+        <li><a href="/fr/outils/">Outils</a></li>
+        <li><a href="/fr/guides/vocalises/">Guides</a></li>
+        <li><a href="/fr/support.html">Aide</a></li>
         <li class="nav-lang">
           <details class="lang-menu">
             <summary aria-label="Langue : Français">
@@ -117,7 +113,7 @@
             <div class="lang-list">
             <a href="/" hreflang="en" lang="en">English</a>
             <a href="/es/" hreflang="es" lang="es">Español</a>
-            <a href="./" hreflang="fr" lang="fr" aria-current="true">Français</a>
+            <a href="/fr/" hreflang="fr" lang="fr" aria-current="true">Français</a>
             <a href="/pt/" hreflang="pt-BR" lang="pt-BR">Português</a>
             <a href="/de/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/" hreflang="tr" lang="tr">Türkçe</a>
@@ -151,20 +147,20 @@
         <div class="phone-mockup">
           <div class="phone-screen">
             <div class="screenshot-carousel">
-              <img src="../images/screenshots/fr/home.jpg" alt="Écran d'accueil de Scalita" class="screenshot active" width="560" height="1125">
-              <img src="../images/screenshots/fr/find_my_warmup.jpg" alt="Trouver mon échauffement demande comment va ta voix" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/player.jpg" alt="Un exercice en cours avec le tracé de justesse en direct" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/scored.jpg" alt="Le score à la fin d'une gamme : ce qui est tombé juste" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/pitch_targeting.jpg" alt="Visée de justesse sur une seule touche" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/harmony.jpg" alt="Entraînement aux harmonies avec quatre voix" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/humming_bird.jpg" alt="Humming Bird, le jeu où tu guides une note tenue entre les trous" class="screenshot" loading="lazy" width="560" height="1125">
-              <img src="../images/screenshots/fr/all_scales.jpg" alt="La liste des gammes" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/home.jpg" alt="Écran d'accueil de Scalita" class="screenshot active" fetchpriority="high" width="560" height="1125">
+              <img src="/images/screenshots/fr/find_my_warmup.jpg" alt="Trouve mon échauffement demande comment va ta voix" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/player.jpg" alt="Un exercice en cours avec le tracé de justesse en direct" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/scored.jpg" alt="Le score à la fin d'une gamme : ce qui est tombé juste" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/pitch_targeting.jpg" alt="Visée de justesse sur une seule touche" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/harmony.jpg" alt="Entraînement aux harmonies avec quatre voix" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/humming_bird.jpg" alt="Humming Bird, le jeu où tu guides une note tenue entre les trous" class="screenshot" loading="lazy" width="560" height="1125">
+              <img src="/images/screenshots/fr/all_scales.jpg" alt="La liste des gammes" class="screenshot" loading="lazy" width="560" height="1125">
             </div>
           </div>
         </div>
         <div class="carousel-dots" role="tablist" aria-label="Captures de l'application">
             <button class="dot active" role="tab" aria-selected="true" aria-label="Écran d'accueil de Scalita"></button>
-            <button class="dot" role="tab" aria-selected="false" aria-label="Trouver mon échauffement demande comment va ta voix"></button>
+            <button class="dot" role="tab" aria-selected="false" aria-label="Trouve mon échauffement demande comment va ta voix"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="Un exercice en cours avec le tracé de justesse en direct"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="Le score à la fin d'une gamme : ce qui est tombé juste"></button>
             <button class="dot" role="tab" aria-selected="false" aria-label="Visée de justesse sur une seule touche"></button>
@@ -187,11 +183,12 @@
           <span class="step-mark"><span class="step-number">1</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2a3 3 0 00-3 3v6a3 3 0 006 0V5a3 3 0 00-3-3z"/><path d="M5 11a7 7 0 0014 0"/><line x1="12" y1="18" x2="12" y2="22"/></svg></span>
           <h3>Règle ta tessiture</h3>
           <p>Chante dans ton téléphone et Scalita trouve ta note la plus grave et la plus aiguë. Ou choisis un type de voix et passe l'étape.</p>
+          <p class="step-link"><a href="/fr/outils/test-tessiture-voix/">Test de tessiture</a></p>
         </li>
         <li class="step">
           <span class="step-mark"><span class="step-number">2</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/></svg></span>
           <h3>Choisis une gamme ou une routine</h3>
-          <p>21 gammes et 15 routines sont incluses. Tu hésites ? Réponds à deux questions et Trouver mon échauffement choisit pour toi.</p>
+          <p>21 gammes et 15 routines sont incluses. Tu hésites ? Réponds à deux questions et Trouve mon échauffement choisit pour toi.</p>
         </li>
         <li class="step">
           <span class="step-mark"><span class="step-number">3</span><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg></span>
@@ -201,7 +198,7 @@
       </ol>
       <div class="piano-strip">
         <button type="button" class="piano-button" onclick="playPianoChord()"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> Écouter le piano</button>
-        <p>De vrais échantillons de Salamander Grand Piano sur les 88 touches, du La-2 au Do7. Aussi grave ou aigu que tu chantes, il existe une note enregistrée pour ça.</p>
+        <p>De vrais échantillons de Salamander Grand Piano sur les 88 touches, du La-2 au Do7. Aussi grave ou aigu que tu chantes, il existe une note enregistrée pour ça.<br><span class="credit">Piano : Salamander Grand Piano V3 d'Alexander Holm, sous licence <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Réaccordé, raccourci et compressé pour ce site.</span></p>
       </div>
     </div>
   </section>
@@ -233,7 +230,7 @@
         <p class="spotlight-note">Nouveau aussi : avec des écouteurs, filaires ou Bluetooth, chaque gamme et chaque routine se termine par un score. Ce qui est tombé juste, la distance du reste, et une chose à travailler. Tout est gratuit. Pro n'ajoute que l'enregistreur de la visée de justesse et la place pour plus d'une harmonie conservée.</p>
       </div>
       <div class="spotlight-shot">
-        <img src="../images/screenshots/fr/listen_repeat.jpg" alt="Écoute et répète : un trait rechanté après le piano, tracé sur une grille de notes" loading="lazy" width="560" height="1125">
+        <img src="/images/screenshots/fr/listen_repeat.jpg" alt="Écoute et répète : un trait rechanté après le piano, tracé sur une grille de notes" loading="lazy" width="560" height="1125">
       </div>
     </div>
   </section>
@@ -248,9 +245,9 @@
         <div class="group">
           <div class="group-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/></svg></div>
           <h3>Des échauffements qui te répondent</h3>
-          <p>Trouver mon échauffement demande comment va ta voix aujourd'hui et ce que tu veux travailler, puis choisit la routine et règle le tempo. Le Mode adaptatif abandonne carrément le plan : après chaque exercice tu dis comment ça s'est passé, et ce qui coince si quelque chose coince, et le suivant s'ajuste. Dis-lui que tu as dix minutes et il répartit toute la séance pour tenir dedans, retour au calme compris.</p>
+          <p>Trouve mon échauffement demande comment va ta voix aujourd'hui et ce que tu veux travailler, puis choisit la routine et règle le tempo. Le Mode adaptatif abandonne carrément le plan : après chaque exercice tu dis comment ça s'est passé, et ce qui coince si quelque chose coince, et le suivant s'ajuste. Dis-lui que tu as dix minutes et il répartit toute la séance pour tenir dedans, retour au calme compris.</p>
           <div class="content-tags">
-            <span class="tag">Trouver mon échauffement</span>
+            <span class="tag">Trouve mon échauffement</span>
             <span class="tag">Mode adaptatif</span>
             <span class="tag">Conseils technique</span>
             <span class="tag">Respirer entre les tons</span>
@@ -324,7 +321,7 @@
               <span class="tag">Saut d'intervalle (quinte)</span>
               <span class="tag">Rossini</span>
               <span class="tag">3 notes</span>
-              <span class="tag">5 notes</span>
+              <a class="tag" href="/fr/guides/vocalise-5-notes/">5 notes</a>
               <span class="tag">5 notes descendantes</span>
               <span class="tag">Brisée</span>
               <span class="tag">Zigzag crescendo</span>
@@ -336,10 +333,10 @@
           <div class="catalog-column">
             <h4>Routines</h4>
             <ul class="routine-grid">
-              <li><strong>Échauffement général</strong> <span>Réveille ta voix en douceur, toute la tessiture.</span></li>
+              <li><strong><a href="/fr/guides/echauffement-vocal-complet/">Échauffement général</a></strong> <span>Réveille ta voix en douceur, toute la tessiture.</span></li>
               <li><strong>Do Ré Mi</strong> <span>L'échauffement classique en solfège, chaque note sur son nom.</span></li>
-              <li><strong>Douceur / Récupération</strong> <span>Jours légers et repos après un concert.</span></li>
-              <li><strong>Express avant scène</strong> <span>L'essentiel en moins de 10 minutes.</span></li>
+              <li><strong><a href="/fr/guides/retour-au-calme-vocal/">Douceur / Récupération</a></strong> <span>Jours légers et repos après un concert.</span></li>
+              <li><strong><a href="/fr/guides/echauffement-vocal-rapide/">Express avant scène</a></strong> <span>L'essentiel en moins de 10 minutes.</span></li>
               <li><strong>Extension de tessiture</strong> <span>Repousse tes limites hautes et basses sans risque.</span></li>
               <li><strong>Puissance et volume</strong> <span>Fermeture des cordes et projection, sans forcer.</span></li>
               <li><strong>Agilité et vocalises</strong> <span>Vitesse et précision pour les mélismes.</span></li>
@@ -405,7 +402,7 @@
       <h2>Prêt à t'échauffer ?</h2>
       <p>Gratuit sur Google Play. Sans compte, sans pub, rien à résilier.</p>
       <div class="store-buttons">
-        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr" class="store-button" target="_blank" rel="noopener">
+        <a href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr&amp;referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dindex" class="store-button" target="_blank" rel="noopener">
           <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
             <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
           </svg>
@@ -424,7 +421,7 @@
       <div class="footer-content">
         <div class="footer-brand">
           <a href="/fr/" class="logo">
-            <img src="../images/logo_48.png" alt="Logo Scalita" width="28" height="28">
+            <img src="/images/logo_48.png" alt="Logo Scalita" width="28" height="28">
             Scalita
           </a>
           <p>Gammes simples. Vrai piano. Sans chichis. Fait avec haine pour les chanteurs du monde entier.</p>
@@ -438,16 +435,41 @@
           </ul>
         </div>
         <div class="footer-links">
+          <h4>Outils gratuits</h4>
+          <ul>
+            <li><a href="/fr/outils/">Outils gratuits</a></li>
+            <li><a href="/fr/outils/test-tessiture-voix/">Test de tessiture</a></li>
+            <li><a href="/fr/outils/test-chanter-juste/">Test de justesse</a></li>
+            <li><a href="/fr/outils/piano-vocalises/">Piano pour vocalises</a></li>
+            <li><a href="/fr/outils/trouver-son-passage-de-voix/">Trouver son passage de voix</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Guides</h4>
+          <ul>
+            <li><a href="/fr/guides/vocalises/">Vocalises</a></li>
+            <li><a href="/fr/guides/types-de-voix/">Types de voix</a></li>
+            <li><a href="/fr/guides/echauffement-vocal-rapide/">Échauffement rapide</a></li>
+            <li><a href="/fr/guides/echauffement-vocal-complet/">Échauffement complet</a></li>
+            <li><a href="/fr/guides/retour-au-calme-vocal/">Retour au calme vocal</a></li>
+            <li><a href="/fr/guides/vibration-des-levres/">Vibration des lèvres et roulement de langue</a></li>
+            <li><a href="/fr/guides/vocalise-5-notes/">Vocalise de 5 notes</a></li>
+            <li><a href="/fr/guides/voix-qui-se-casse/">Voix qui se casse</a></li>
+            <li><a href="/fr/guides/voix-de-tete-voix-de-poitrine/">Voix de tête et de poitrine</a></li>
+            <li><a href="/fr/guides/notes-de-musique-octaves/">Noms des notes et octaves</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
           <h4>Mentions légales</h4>
           <ul>
-            <li><a href="privacy.html">Politique de confidentialité</a></li>
-            <li><a href="terms.html">Conditions d'utilisation</a></li>
+            <li><a href="/fr/privacy.html">Politique de confidentialité</a></li>
+            <li><a href="/fr/terms.html">Conditions d'utilisation</a></li>
           </ul>
         </div>
         <div class="footer-links">
           <h4>Aide</h4>
           <ul>
-            <li><a href="support.html">Aide et contact</a></li>
+            <li><a href="/fr/support.html">Aide et contact</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Soutenir sur Ko-fi</a></li>
           </ul>
         </div>
@@ -474,8 +496,8 @@
             langMenu.querySelector('summary').focus();
           }
         });
-        // Remember a language chosen on purpose, so the redirect on the
-        // English page stops sending this visitor back where they came from.
+        // Remember a language chosen on purpose, so the language bar below
+        // never offers this visitor another one.
         var links = langMenu.querySelectorAll('a');
         for (var l = 0; l < links.length; l++) {
           links[l].addEventListener('click', function () {
@@ -501,6 +523,59 @@
             toggle.setAttribute('aria-expanded', 'false');
           });
         }
+      }
+
+      // Language bar. When the browser prefers another language this page
+      // also exists in, a bar at the bottom offers it, written in that
+      // language. It never redirects. Closing it, or picking a language
+      // from the menu, is remembered, and it does not come back.
+      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
+      var chosen = null;
+      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
+      var own = document.documentElement.lang.toLowerCase().split('-')[0];
+      var have = {};
+      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
+      for (var h = 0; h < alts.length; h++) {
+        var tag = alts[h].getAttribute('hreflang');
+        var primary = tag.toLowerCase().split('-')[0];
+        if (tag !== 'x-default' && !have[primary]) {
+          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
+        }
+      }
+      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
+      var offer = null;
+      for (var w = 0; !chosen && w < wants.length; w++) {
+        var want = String(wants[w]).toLowerCase().split('-')[0];
+        if (want === own) break;
+        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
+      }
+      if (offer) {
+        var remember = function (value) {
+          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
+        };
+        var bar = document.createElement('div');
+        bar.className = 'lang-bar';
+        bar.setAttribute('data-nosnippet', '');
+        bar.lang = offer.tag;
+        var line = document.createElement('p');
+        var go = document.createElement('a');
+        go.href = offer.href;
+        go.hreflang = offer.tag;
+        go.textContent = offer.text.text;
+        go.addEventListener('click', function () { remember(offer.tag); });
+        line.appendChild(go);
+        var shut = document.createElement('button');
+        shut.type = 'button';
+        shut.className = 'lang-bar__close';
+        shut.setAttribute('aria-label', offer.text.close);
+        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
+        shut.addEventListener('click', function () {
+          bar.parentNode.removeChild(bar);
+          remember(document.documentElement.lang);
+        });
+        bar.appendChild(line);
+        bar.appendChild(shut);
+        document.body.appendChild(bar);
       }
 
       // Screenshot carousel. Stops auto-advancing for anyone who asked their
@@ -532,14 +607,14 @@
       }
     });
 
-    // The C major chord under the piano card.
-    var chord = ['60_C4.mp3', '64_E4.mp3', '67_G4.mp3'].map(function (f) {
-      var a = new Audio('../audio/' + f);
-      a.load();
-      return a;
-    });
+    // The C major chord under the piano card. The three notes download on
+    // the first tap, not with the page.
+    var chord = null;
 
     function playPianoChord() {
+      if (!chord) {
+        chord = ['/audio/60_C4.mp3?v=92837bcde0', '/audio/64_E4.mp3?v=dc372ddd93', '/audio/67_G4.mp3?v=9ceadf9eab'].map(function (src) { return new Audio(src); });
+      }
       chord.forEach(function (note, i) {
         note.currentTime = 0;
         setTimeout(function () { note.play(); }, i * 80);

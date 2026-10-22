@@ -1,0 +1,68 @@
+{
+  "slug": "voice-break-finder",
+  "label": "Voice break finder",
+  "title": "Voice Break Test: Find Your Passaggio on a Piano - Scalita",
+  "description": "Sing along as the piano climbs and tap where your voice shifts. You get your first passaggio and the voice type whose break sits nearest. No microphone needed.",
+  "h1": "Voice break finder",
+  "lead": "Sing along as the piano climbs, and tap when your voice wants to crack, flips to a lighter sound or needs a push. You get the note where your first break sits and the voice type whose break is nearest.",
+  "toolId": "voice-break-finder",
+  "instructions": "<h2>How to find your break</h2><ol><li>Press “Let's go”, then choose lower voice or higher voice. This sets where the piano starts and which three voice types your result is compared with.</li><li>The piano plays a note every two seconds, a half step higher each time.</li><li>Sing along on an easy vowel like “ah”, at a medium volume, and keep the sound the same all the way up.</li><li>Tap the moment your voice wants to crack, flips to a lighter, breathier sound, or suddenly needs more effort.</li><li>The piano plays three notes: two half steps below the one you tapped, that note, and two above. If the shift came a little earlier or later, move it a half step down or up, then confirm.</li></ol>",
+  "sampleResult": "<h2>What a result looks like</h2><p>Say you chose higher voice and tapped at {{note:E4}}. The result reads:</p><ul><li>First shift: {{note:E4}}</li><li>Closest match: mezzo-soprano, whose first shift usually sits around {{note:E4}}</li><li>Second shift, estimated from that voice type: around {{note:E5}}</li></ul><p>The stretch between the two shifts is your break zone. Voice type also depends on where your voice sounds best and on your tone, so take the match as a starting point.</p>",
+  "notClaimed": "<h2>What this doesn't tell you</h2><p>The note you tap is where you felt the shift today, on that vowel, at that volume. Sing louder or change the vowel and it can move. Only the first shift is found by ear. The second is an estimate from the voice type that matched, not a measurement.</p><p>It doesn't settle your voice type, and it doesn't teach you to smooth the break. Some voices, often trained ones, move through this zone so smoothly that there's no clear crack. If that's you, tap where singing starts to take more effort, or skip it.</p>",
+  "sections": [
+    {
+      "heading": "What a voice break is",
+      "html": "<p>As you sing up a scale, there's a stretch where your voice changes gear. It may crack, flip to a lighter sound, or suddenly take more effort. Every voice has this. It isn't a flaw, and a lot of voice training is about moving through it smoothly.</p><p>Classical teaching calls these shifts the passaggi, Italian for passages: a first one, the primo passaggio, and a second one higher up, the secondo passaggio, with a zone between them. This finder looks for the first.</p>"
+    },
+    {
+      "heading": "Where it sits for each voice type",
+      "html": "<p>In Scalita's table, the first shift sits around {{note:F4}} for a soprano, {{note:E4}} for a mezzo-soprano, {{note:D4}} for a contralto and for a tenor, {{note:B3}} for a baritone and {{note:G#3}} for a bass. These are classical averages, and real voices vary.</p><p>A contralto and a tenor share a first shift but not a range. That's why the finder asks for a lower or a higher voice: the same note points to a different voice type in each group.</p>"
+    },
+    {
+      "heading": "Why the break says more than your range",
+      "html": "<p>Two singers can share most of a range and still shift in different places. That's why Scalita treats your voice break as a more reliable guide to voice type than range alone. Teachers also listen to where a voice sits comfortably and to its color, which a piano can't measure.</p>"
+    },
+    {
+      "heading": "How the finder works",
+      "html": "<p>It uses the piano only, never the microphone. You judge the shift yourself, by feel and by ear, so the finder works in any browser, with or without a microphone.</p><p>The piano starts low, at {{note:C3}} for a lower voice and {{note:G#3}} for a higher one, and climbs a half step every two seconds. When you tap, that note becomes your first shift. The finder then looks for the voice type in your group whose first shift sits nearest, and takes the second shift from that type.</p>"
+    },
+    {
+      "heading": "Getting a clear answer",
+      "html": "<ul><li>Warm up a little first, for example with a few scales on the <a href=\"page:warm-up-piano\">warm-up piano</a>.</li><li>Keep the vowel and the volume the same all the way up. Both can move where you feel the shift.</li><li>Don't push past the shift to keep going. Tap and let it go.</li><li>Try it twice. A note's difference between tries is normal, since the shift is a zone, not a single point.</li></ul>"
+    },
+    {
+      "heading": "After you find it",
+      "html": "<p>Your break is where a lot of singing practice happens. In the Scalita app it shapes the exercises: some stop just before the break, some cross it once and come back, some center on the break zone, and some carry you all the way up through head voice. The Bridge Builder routine is built around it. For the background, read about <a href=\"page:voice-cracks-high-notes\">why voices crack on high notes</a> and <a href=\"page:head-voice-vs-chest-voice\">head voice and chest voice</a>.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is it bad that my voice cracks?",
+      "a": "<p>No. Every voice has these shifts, and a crack is the voice making one suddenly instead of smoothly. If singing hurts or your voice stays hoarse, rest and see a doctor or a voice therapist. There's more in <a href=\"page:voice-cracks-high-notes\">why voices crack on high notes</a>.</p>"
+    },
+    {
+      "q": "Where is the passaggio for a tenor?",
+      "a": "<p>In Scalita's table, which follows classical averages, a tenor's first shift sits around {{note:D4}} and the second around {{note:G4}}. For a soprano the two sit around {{note:F4}} and {{note:F5}}. Your own may sit a little higher or lower, which is what the finder is for.</p>"
+    },
+    {
+      "q": "Why does it ask for a lower or a higher voice?",
+      "a": "<p>To pick which three voice types to compare you with, tenor, baritone and bass or soprano, mezzo-soprano and contralto, and to set where the piano starts climbing. It isn't asking about gender.</p>"
+    },
+    {
+      "q": "Do I need a microphone?",
+      "a": "<p>No. The finder only plays the piano. You listen to your own voice and tap.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books",
+      "url": "https://archive.org/details/structureofsingi0000mill"
+    },
+    {
+      "label": "Passaggio, Wikipedia: the primo and secondo passaggio, with Miller's register ranges for the lyric tenor",
+      "url": "https://en.wikipedia.org/wiki/Passaggio"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

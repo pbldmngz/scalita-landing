@@ -1,0 +1,92 @@
+{
+  "player": {
+    "heading": "Kendi aralığında çal"
+  },
+  "tool": {
+    "howTo": "Nasıl kullanılır",
+    "sample": "Örnek bir sonuç",
+    "notClaimed": "Neyi iddia etmiyor"
+  },
+  "routine": {
+    "length": "Ne kadar sürer",
+    "steps": "Egzersizler",
+    "cues": "Bu rutin boyunca",
+    "whyOrder": "Neden bu sıra",
+    "whatToFeel": "Ne hissetmelisin",
+    "whenToStop": "Ne zaman durmalısın",
+    "next": "Sonra ne yapmalı"
+  },
+  "steps": {
+    "scale": "Gam",
+    "syllable": "Hece",
+    "style": "Stil",
+    "span": "Aralık",
+    "passaggio": "Geçiş bölgesi",
+    "repeat": "Her tonda tekrar",
+    "wholeRange": "Tüm aralığın",
+    "semitones": "{count} yarım ses",
+    "minutes": "{minutes} dk",
+    "count": "Egzersizler",
+    "routines": "Rutinler"
+  },
+  "exercise": {
+    "tryIt": "Hemen dene",
+    "troubleshooting": "Olmuyorsa",
+    "usage": "Scalita onu nerede kullanıyor"
+  },
+  "pattern": {
+    "degrees": "Dereceler",
+    "notes": "{note} notasından",
+    "sung": "Söylenişi",
+    "syllables": "Scalita'nın onunla eşleştirdiği heceler",
+    "routines": "Onu kullanan rutinler"
+  },
+  "concept": {
+    "shortAnswer": "Kısa cevap",
+    "where": "Senin sesinde nerede durur",
+    "listenFor": "Nelere kulak vermelisin",
+    "tryIt": "Dene",
+    "exercises": "Yardımcı olan egzersizler",
+    "misconceptions": "Yaygın yanlış inanışlar",
+    "seeProfessional": "Ne zaman bir uzmana görünmeli"
+  },
+  "voices": {
+    "heading": "Altı ses türü",
+    "voiceType": "Ses türü",
+    "range": "Tipik aralık",
+    "primo": "İlk geçiş",
+    "secondo": "İkinci geçiş",
+    "fromTo": "{low} - {high}",
+    "keyboard": "{name}: {low} - {high}",
+    "note": "Bunlar tipik klasik aralıklar ve geçişlerdir. Scalita, sen kendininkini bulana kadar ilk tahmin olarak aynı geçişleri kullanır. Gerçek sesler farklılık gösterir ve ses türünü tek başına aralık belirlemez."
+  },
+  "registers": {
+    "heading": "Olağan aralığının altında ve üstünde",
+    "register": "Ses bölgesi",
+    "span": "Nerede durur",
+    "note": "Bunlar Scalita'nın her ses bölgesini çalıştırdığı aralıklardır. Subharmonikte aralık, dinleyenin duyduğu notalardır."
+  },
+  "intake": {
+    "appOnly": "Sadece uygulamada"
+  },
+  "notation": {
+    "systems": "Notaları adlandırmanın dört yolu",
+    "system": "Sistem",
+    "names": "Notalar",
+    "where": "Nerede kullanılır",
+    "landmarks": "Her sistemde orta Do ve La 440",
+    "middleC": "Orta Do",
+    "a440": "La 440 Hz",
+    "octave": "Her sistemde bir oktav",
+    "keyboard": "Orta Do'dan bir oktav: {system}",
+    "octaves": "Oktavları numaralandırmanın üç yolu",
+    "style": "Oktav numaraları",
+    "lowest": "En pes tuş",
+    "highest": "En tiz tuş",
+    "styles": {
+      "scientific": "Bilimsel",
+      "francoBelgian": "Fransız-Belçika",
+      "helmholtz": "Helmholtz"
+    }
+  }
+}

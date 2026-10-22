@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- English -->
+  <url>
+    <loc>https://scalita.com/guides/vocal-warm-ups/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/voice-types/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/quick-vocal-warm-up/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/full-vocal-warm-up/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/vocal-cool-down/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/lip-trills/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/five-note-scale/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/voice-cracks-high-notes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/head-voice-vs-chest-voice/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/guides/note-names-octaves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Español -->
+  <url>
+    <loc>https://scalita.com/es/guias/vocalizaciones/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/tipos-de-voz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/calentamiento-vocal-rapido/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/enfriamiento-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/vibracion-de-labios/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/escala-de-cinco-notas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/quiebre-de-voz-al-cantar/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/es/guias/notas-musicales-do-central/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Français -->
+  <url>
+    <loc>https://scalita.com/fr/guides/vocalises/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/types-de-voix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/echauffement-vocal-rapide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/echauffement-vocal-complet/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/retour-au-calme-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/vibration-des-levres/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/vocalise-5-notes/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/voix-qui-se-casse/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/fr/guides/notes-de-musique-octaves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Português -->
+  <url>
+    <loc>https://scalita.com/pt/guias/aquecimento-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/tipos-de-voz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/aquecimento-vocal-rapido/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/aquecimento-vocal-completo/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/desaquecimento-vocal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/vibracao-de-labios/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/vocalize-de-5-notas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/voz-falhando-no-agudo/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/pt/guias/notas-musicais-do-central/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Deutsch -->
+  <url>
+    <loc>https://scalita.com/de/ratgeber/einsingen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/stimmlagen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/kurz-einsingen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/einsingen-uebungen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/cool-down-stimme/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/lippenflattern/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/fuenf-toene-uebung/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/kopfstimme-bruststimme/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/de/ratgeber/notennamen-h-oktaven/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Türkçe -->
+  <url>
+    <loc>https://scalita.com/tr/rehber/ses-acma-egzersizleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/ses-turleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/san-egzersizleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/dudak-trili/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/bes-sesli-egzersiz/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/tr/rehber/nota-isimleri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <!-- Bahasa Indonesia -->
+  <url>
+    <loc>https://scalita.com/id/panduan/latihan-vokal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vocalizaciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalises/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/latihan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-warm-ups/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/jenis-suara/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-types/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/types-de-voix/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/tipos-de-voz/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimmlagen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-turleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/pemanasan-vokal-cepat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-rapide/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-rapido/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kurz-einsingen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/hizli-ses-acma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-cepat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/quick-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/echauffement-vocal-complet/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/aquecimento-vocal-completo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/einsingen-uebungen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/san-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/pendinginan-vokal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/enfriamiento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/retour-au-calme-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/desaquecimento-vocal/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/cool-down-stimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pendinginan-vokal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/vocal-cool-down/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/lip-trill/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/lip-trills/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/vibracion-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vibration-des-levres/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vibracao-de-labios/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/lippenflattern/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/dudak-trili/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/lip-trill/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/lip-trills/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/five-note-scale/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/escala-de-cinco-notas/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/vocalise-5-notes/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/vocalize-de-5-notas/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/fuenf-toene-uebung/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/bes-sesli-egzersiz/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/five-note-scale/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/quiebre-de-voz-al-cantar/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-qui-se-casse/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-falhando-no-agudo/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/stimme-bricht-beim-singen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/sarki-soylerken-ses-catlamasi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-pecah-saat-bernyanyi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-cracks-high-notes/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/voz-de-cabeca-e-voz-de-peito/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/kopfstimme-bruststimme/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/kafa-sesi-gogus-sesi/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/suara-kepala-dan-suara-dada/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/head-voice-vs-chest-voice/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/panduan/not-angka-not-huruf/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/guides/note-names-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/guias/notas-musicales-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/guides/notes-de-musique-octaves/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/guias/notas-musicais-do-central/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/ratgeber/notennamen-h-oktaven/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/rehber/nota-isimleri/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/"/>
+    <lastmod>2026-10-22</lastmod>
+  </url>
+</urlset>

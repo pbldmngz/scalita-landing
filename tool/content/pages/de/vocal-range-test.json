@@ -1,0 +1,72 @@
+{
+  "slug": "stimmumfang-testen",
+  "label": "Stimmumfang-Test",
+  "title": "Stimmumfang testen: dein tiefster und höchster Ton - Scalita",
+  "description": "Sing oder summ deinen tiefsten und höchsten Ton und sieh deinen Umfang in Tönen und Oktaven, mit den Stimmlagen, für die er typisch ist. Kostenlos im Browser.",
+  "h1": "Stimmumfang testen",
+  "lead": "Sing oder summ deinen tiefsten bequemen Ton, dann deinen höchsten. Nach etwa einer Minute siehst du deinen Umfang in Tönen und Oktaven und die Stimmlagen, für die er typisch ist.",
+  "toolId": "vocal-range-test",
+  "instructions": "<h2>So machst du den Test</h2><ol><li>Drück auf Start und erlaube das Mikrofon, wenn dein Browser fragt.</li><li>Sing oder summ deinen tiefsten bequemen Ton auf einem leichten Vokal, etwa „a“ oder „o“. Gleite langsam nach unten, bis du unten angekommen bist, und halte diesen Ton ein, zwei Sekunden, bis er erfasst ist.</li><li>Geh hinauf zu deinem höchsten bequemen Ton und halte ihn genauso.</li><li>Lies dein Ergebnis. Von dort kannst du deinen Umfang am Klavier hören oder weitermachen und deinen Registerbruch finden.</li></ol><p>Bequem heißt: ein Ton, den du in einem Lied benutzen könntest, nicht einer, den du gerade noch herauspresst. Nimm das eingebaute Mikrofon deines Telefons in einem ruhigen Raum, und sing dich vorher ein paar Minuten ein, wenn du kannst. Eine kalte Stimme zeigt oft einen kleineren Umfang.</p>",
+  "sampleResult": "<h2>So sieht ein Ergebnis aus</h2><p>Angenommen, du singst von {{note:G3}} bis {{note:F5}}. Dann steht in deinem Ergebnis:</p><ul><li>Tiefster Ton {{note:G3}}, höchster {{note:F5}}</li><li>22 Halbtöne, etwa 1,8 Oktaven</li><li>Typisch für Contralto oder Mezzosopran</li></ul><p>Darunter stehen zwei Hinweise aus der Scalita-App: Dein Umfang ändert sich mit Einsingen, Training und Tageszeit, und dein Registerbruch sagt zuverlässiger etwas über deine Stimmlage. Wenn du den Test in diesem Browser schon einmal gemacht hast, siehst du auch dein letztes Ergebnis, und du kannst das Ergebnis als Bild speichern oder teilen.</p>",
+  "notClaimed": "<h2>Was dieser Test dir nicht sagt</h2><p>Er sagt dir nicht, ob deine Stimme gut ist, und er entscheidet nicht über deine Stimmlage. Lehrkräfte achten auf vier Dinge, wenn sie eine Stimme einordnen: ihren Umfang, wo sie sich die meiste Zeit wohlfühlt, ihre Klangfarbe und wo sie wechselt. Dieser Test misst das Erste. Beim Letzten hilft der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>.</p><p>Der Umfang, den er zeigt, ist der Umfang, in dem du singst. Wenn dein tiefster Wert ein knarrender Vocal Fry ist oder dein höchster ein dünner Pfeifton über deiner Kopfstimme, markiert das Ergebnis ihn, damit du ihn von den Tönen unterscheiden kannst, mit denen du singst.</p>",
+  "sections": [
+    {
+      "heading": "Was der Test misst",
+      "html": "<p>Dein Stimmumfang ist die Strecke vom tiefsten Ton, den du bequem singen kannst, bis zum höchsten. Der Test findet beide Enden mit deiner Stimme und zählt den Abstand dazwischen in Halbtönen, dem Schritt von einer Klaviertaste zur nächsten, und in Oktaven zu je zwölf Halbtönen. Das mittlere C ist {{note:C4}}.</p><p>Dann vergleicht er die Mitte deines Umfangs mit den Stimmlagen in Scalitas Tabelle und nennt die nächste, oder die zwei nächsten, wenn sie fast gleichauf liegen. Jede Stimmlage in der Tabelle umfasst zwei Oktaven: der Bass {{note:F2}} bis {{note:F4}}, und so weiter hinauf bis zum Sopran mit {{note:C4}} bis {{note:C6}}.</p>"
+    },
+    {
+      "heading": "So funktioniert er",
+      "html": "<p>Dein Browser hört über das Mikrofon zu und liest die Tonhöhe deiner Stimme etwa zwanzigmal pro Sekunde, mit derselben Methode wie die Scalita-App: YIN, einem 2002 veröffentlichten Verfahren zur Tonhöhenerkennung. Ein Ton zählt erst, wenn er einen Moment ruhig geblieben ist, so bleiben Rutscher, Kiekser und Huster aus deinem Ergebnis draußen.</p><p>All das passiert auf deinem Gerät. Der Ton wird gelesen, während er ankommt, und dann verworfen. Nichts wird aufgenommen oder gesendet, und das Mikrofon geht aus, wenn du auf Stopp drückst oder die Seite verlässt.</p>"
+    },
+    {
+      "heading": "Für ein faires Ergebnis",
+      "html": "<ul><li>Sing dich vorher ein paar Minuten ein. Ein Summen oder ein paar leichte Tonleitern am <a href=\"page:warm-up-piano\">Einsing-Klavier</a> reichen.</li><li>Such dir einen ruhigen Raum und nimm das eingebaute Mikrofon deines Telefons. Bluetooth-Kopfhörer schalten auf ein Telefonie-Mikrofon um, das viel weniger hört.</li><li>Nimm einen leichten Vokal und eine mittlere Lautstärke. Ein geschriener Spitzenton oder ein geflüsterter tiefster Ton ist schwerer zu lesen.</li><li>Mach den Test zweimal. Zwei Ergebnisse, die höchstens ein, zwei Töne auseinanderliegen, geben dir ein faires Bild von deinem Umfang heute.</li></ul>"
+    },
+    {
+      "heading": "Wenn das Mikrofon nicht funktioniert",
+      "html": "<ul><li><strong>Über Instagram, TikTok, Facebook oder Gmail geöffnet?</strong> Ihre eingebauten Browser sperren das Mikrofon. Öffne die Seite über das Menü der App in Chrome oder Safari.</li><li><strong>Aus Versehen auf Blockieren gedrückt?</strong> Erlaube das Mikrofon in den Website-Einstellungen, meist hinter dem Symbol neben der Adresse, und lade die Seite dann neu.</li><li><strong>Nutzt eine andere App das Mikrofon?</strong> Beende den Anruf oder schließ die Aufnahme-App und drück dann nochmal auf Start.</li><li><strong>Der Pegel bleibt niedrig?</strong> Sing etwas lauter oder geh näher heran. An ein Laptop-Mikrofon musst du näher ran als an ein Telefon.</li><li><strong>Gar kein Mikrofon?</strong> Stell deinen Umfang von Hand ein: Spiel Töne auf der Tastatur und wähl den tiefsten und den höchsten, den du singen kannst.</li></ul>"
+    },
+    {
+      "heading": "Nach dem Test",
+      "html": "<p>Hör dir dein Ergebnis am Klavier an, und probier dann den <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>, um zu sehen, wo deine Stimme wechselt, oder sing dich am <a href=\"page:warm-up-piano\">Einsing-Klavier</a> mit Übungen ein, die zu deinem Umfang passen. In der Scalita-App ist dein Umfang das Erste, was du einstellst, und jede Übung danach bleibt zwischen deinem tiefsten und deinem höchsten Ton.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Wie genau ist ein Stimmumfang-Test online?",
+      "a": "<p>Die Tonhöhe eines gehaltenen Tons zu lesen, ist der einfache Teil. Der Test braucht nur den nächstgelegenen Ton, und er wartet, bis deine Tonhöhe ruhig ist, bevor er einen zählt. Was das Ergebnis verschiebt, sind das Singen und die Umgebung: ob du eingesungen bist, wie ruhig der Raum ist und welches Mikrofon du nimmst.</p>"
+    },
+    {
+      "q": "Welche Stimmlage habe ich?",
+      "a": "<p>Dein Ergebnis nennt die Stimmlagen, für die dein Umfang typisch ist. Nimm das als Ausgangspunkt, nicht als Etikett. Der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> ergänzt, wo deine Stimme wechselt, und der <a href=\"page:voice-types\">Ratgeber zu den Stimmlagen</a> erklärt, worauf Lehrkräfte sonst noch hören.</p>"
+    },
+    {
+      "q": "Gibt es einen normalen Stimmumfang?",
+      "a": "<p>Es gibt kein Ziel, das du erreichen musst. Die Töne, die du in einem Lied bequem singen kannst, zählen mehr als die, die du gerade so erreichst.</p>"
+    },
+    {
+      "q": "Kann sich mein Stimmumfang ändern?",
+      "a": "<p>Ja. Er verschiebt sich mit Einsingen, Training und Tageszeit, deshalb können zwei Tests im Abstand von ein paar Stunden verschieden ausfallen. Training verändert, welche Töne sich bequem anfühlen, aber niemand kann dir versprechen, wie viele du dazugewinnst. Wenn du den Test in diesem Browser wiederholst, steht dein letztes Ergebnis neben dem neuen.</p>"
+    },
+    {
+      "q": "Brauche ich Kopfhörer oder ein besonderes Mikrofon?",
+      "a": "<p>Nein. Der Test hört nur zu, und das Klavier spielt erst, wenn das Mikrofon aus ist. Das eingebaute Mikrofon eines Telefons funktioniert gut.</p>"
+    },
+    {
+      "q": "Zählt Summen?",
+      "a": "<p>Ja. Summen ist oft der leichteste Weg, deinen tiefsten Ton zu finden. Jeder ruhige Klang mit klarer Tonhöhe funktioniert.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "de Cheveigné und Kawahara (2002), YIN, a fundamental frequency estimator for speech and music, Journal of the Acoustical Society of America 111(4)",
+      "url": "https://doi.org/10.1121/1.1458024"
+    },
+    {
+      "label": "Wikipedia (englisch): Voice type, zu den Eigenschaften, auf die Lehrkräfte achten, wenn sie eine Stimme einordnen",
+      "url": "https://en.wikipedia.org/wiki/Voice_type"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": null
+}

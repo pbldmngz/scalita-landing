@@ -1,0 +1,54 @@
+{
+  "slug": "stimme-bricht-beim-singen",
+  "label": "Registerbruch und Passaggio",
+  "title": "Warum die Stimme beim Singen bricht: das Passaggio - Scalita",
+  "description": "Ein Kiekser ist ein plötzlicher Sprung zwischen Brust- und Kopfstimme. Wo dein Passaggio liegt, worauf du achtest und wie du den Wechsel übst, ohne zu drücken.",
+  "h1": "Warum bricht meine Stimme beim Singen?",
+  "lead": "Irgendwo in der Mitte deines Umfangs muss deine Stimme den Gang wechseln, und ein Kiekser ist dieser Wechsel, wenn er auf einmal passiert, oft auf dem Weg zu hohen Tönen. Hier steht, wo er liegt und wie du ihn übst.",
+  "shortAnswer": "<p>Deine Stimme bricht, wenn sie von einem Register ins nächste springt, statt hinüberzugleiten. Wenn du höher singst, werden deine Stimmlippen gedehnt, und irgendwo in der Mitte deines Umfangs übergibt die Stimme von der Bruststimme an die Kopfstimme. Im Labor kann eine kleine, allmähliche Änderung dieser Dehnung die Stimmlippen mit einem einzigen Sprung von einer Schwingungsart in die andere kippen lassen. Die Zone, in der das passiert, ist das Passaggio, und jede Stimme hat eins. Für sich genommen ist ein Kiekser ein Ausrutscher in der Koordination, kein Zeichen für einen Schaden, und mit Übung lernen die meisten Sängerinnen und Sänger, die Übergabe weicher zu machen.</p>",
+  "listenFor": "<p>Sing eine langsame 5-Töne-Übung auf einem leichten Vokal und rück sie halbtonweise höher. Der Wechsel zeigt sich meist jedes Mal um dieselben Töne herum, von einem Tag zum nächsten plus oder minus ein Ton. Merk dir die erste Tonart, bei der du eines der drei Zeichen bemerkst, die der Registerwechsel-Finder von Scalita nennt:</p>",
+  "misconceptions": "<ul><li><strong>„Gute Sängerinnen und Sänger haben keinen Bruch.“</strong> Doch. Jede Stimme wechselt das Register; das Training soll den Wechsel so glatt machen, dass man ihn nicht hört.</li><li><strong>„Einfach durchdrücken.“</strong> Bei den meisten wird der Kiekser mit mehr Luft und Lautstärke größer, und wer nachlässt, kommt glatter hinüber.</li><li><strong>„Der Bruch ist die Obergrenze deines Umfangs.“</strong> Er liegt in der Mitte, und die Kopfstimme geht darüber weiter.</li><li><strong>„Halte dich von der Bruchzone fern.“</strong> Wer sie meidet, bleibt in ihr fremd. Lehrkräfte lassen ihre Schülerinnen und Schüler stattdessen leise und oft dorthin gehen.</li><li><strong>„Ein Kiekser heißt, dass du deiner Stimme geschadet hast.“</strong> Für sich genommen nicht. Heiserkeit und Schmerzen sind etwas anderes.</li></ul>",
+  "seeProfessional": "<p>Für Kiekser, die von der Technik kommen, ist eine Gesangslehrerin oder ein Gesangslehrer die richtige Adresse. Geh zu einer Ärztin oder einem Arzt, am besten in eine HNO-Praxis oder in die Phoniatrie, wenn die Kiekser mit einem dieser Zeichen kommen:</p><ul><li>Heiserkeit, die nach zwei Wochen nicht besser geworden ist</li><li>Schmerzen beim Singen oder Schlucken</li><li>hohe Töne, die du früher erreicht hast und die jetzt weg sind</li><li>ein Hals, der sich oft wund, schmerzend oder überanstrengt anfühlt</li></ul><p>Eine Logopädin oder ein Logopäde, die oder der mit Singenden arbeitet, kann helfen, sobald die Ursache bekannt ist. Wenn du krank bist, schone deine Stimme, statt einfach weiterzuüben.</p>",
+  "sections": [
+    {
+      "heading": "Was bei einem Kiekser passiert",
+      "html": "<p>Die Stimmforschung beschreibt zwei Hauptarten, wie die Stimmlippen schwingen, genannt M1 und M2, die Sängerinnen und Sänger als Bruststimme und Kopfstimme kennen. Der Wechsel von der ersten zur zweiten zeigt sich im Labor als plötzlicher Sprung in der Tonhöhe. Ist der Sprung klein, ist der Wechsel glatt und leicht zu verbergen. Ist er groß, hörst du einen Kiekser, ein Umkippen in einen leichteren Klang oder einen Ton, der wegbricht.</p><p>Auch die Richtung spielt eine Rolle. Auf dem Weg nach oben hält die Stimme die Bruststimme länger fest und auf dem Weg nach unten die Kopfstimme, also hängt der Ton, auf dem du kippst, davon ab, ob du hinauf- oder hinuntersingst.</p>"
+    },
+    {
+      "heading": "Warum es an manchen Tagen schlimmer ist",
+      "html": "<p>Bei den meisten werden die Kiekser schlimmer, wenn sie drücken: mehr Luft und mehr Lautstärke, um die Bruststimme über den Punkt hinaus zu halten, an dem sie übergeben will. Hoch singen, ohne sich einzusingen, lange laut singen und müde oder krank sein machen das wahrscheinlicher. Dasselbe gilt für einen weiten, offenen Vokal auf dem höchsten Ton einer Phrase, der zum selben Drücken verleitet.</p>"
+    },
+    {
+      "heading": "Er liegt in der Mitte, nicht oben",
+      "html": "<p>Der Wechsel liegt in der Mitte deines Umfangs, deshalb kann er dich auf Tönen erwischen, die noch gar nicht hoch sind. Die klassische Gesangslehre beschreibt zwei Wechsel mit einer Zone dazwischen, die Scalita Bruchzone nennt. In Scalitas Voreinstellungen liegt der erste Wechsel eines Tenors um {{note:D4}} und der zweite um {{note:G4}}, beim Sopran um {{note:F4}} und {{note:F5}}. Das sind Durchschnittswerte, und deine können ein paar Töne daneben liegen. Die Seite zu den <a href=\"page:voice-types\">Stimmlagen</a> hat die Voreinstellungen für jede Stimmlage, und der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> hilft dir, deinen eigenen ersten Wechsel zu finden.</p>"
+    },
+    {
+      "heading": "So übst du den Wechsel",
+      "html": "<p>Das Ziel ist, den Wechsel weder zu vermeiden noch durchzudrücken, sondern ihn allmählich geschehen zu lassen. Scalitas Routine Brückenbauer arbeitet sich in Etappen darauf zu, und du kannst derselben Reihenfolge an jedem Klavier folgen. Zuerst kommen drei Muster, die vor dem Bruch aufhören, auf leichten Klängen: ein Zungentriller, ein geschlossenes „u“ und ein summendes „n“, das in ein „i“ übergeht. So gewöhnst du dich an die Töne knapp unter dem Wechsel, ohne ihn zu queren. Dann geht ein Muster über den Bruch und kommt zurück, jeder Ton mit einem leichten „g“ begonnen. Danach zentriert sich eine längere Tonleiter auf die Zone zwischen deinen beiden Wechseln, auf einem offenen „a“, und eine weitere führt auf fünf Vokalen durch die Kopfstimme hinauf, jeder mit einem „m“ davor.</p><p>Die Routine endet mit einem Summen, das unter dem Bruch bleibt. Die meisten Schritte beginnen mit einem Konsonanten oder einem Triller statt mit einem bloßen Vokal, ein verbreiteter Weg, den Beginn jedes Tons sanft zu halten. Bleib langsam und leise bis mittellaut: Die frühen Schritte tragen in der App die Markierung Leicht &amp; sanft, die sagt, dass du deine weichere, höhere Stimme nehmen und nicht drücken sollst. Wenn ein Ton kippt, lass ihn kippen und sing den nächsten leichter statt lauter.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist es normal, dass meine Stimme bei hohen Tönen bricht?",
+      "a": "<p>Ja. Jede Sängerin und jeder Sänger hat Stellen, an denen die Stimme das Register wechselt, und die meisten sind dort schon einmal gekippt. Übung macht den Wechsel leichter zu steuern; weg geht er nicht.</p>"
+    },
+    {
+      "q": "Ist ein Kiekser beim Singen dasselbe wie der Stimmbruch in der Pubertät?",
+      "a": "<p>Sie klingen ähnlich, haben aber verschiedene Ursachen. In der Pubertät wachsen Kehlkopf und Stimmlippen schnell, deshalb kippt die Stimme auch beim Sprechen, und das legt sich, wenn die Stimme reift. Der Kiekser, um den es auf dieser Seite geht, passiert auch in einer ausgereiften Stimme, um dieselben Töne herum, wenn du durch den Wechsel hinaufsingst.</p>"
+    },
+    {
+      "q": "Kann ein Test zum Registerbruch mir meine Stimmlage sagen?",
+      "a": "<p>Er gibt einen besseren Hinweis als der Umfang allein. Wie es in Scalitas Umfangsergebnis heißt: Dein Registerbruch sagt zuverlässiger etwas über deine Stimmlage. Der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> nennt die Stimmlage, die am nächsten dran ist, und eine Lehrkraft kann sie bestätigen.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Švec, Schutte und Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Roubeau, Henrich und Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (Abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Wikipedia (englisch): Passaggio (Richard Millers Passaggio-Tabellen)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Wikipedia (englisch): Voice change, zum Stimmbruch", "url": "https://en.wikipedia.org/wiki/Voice_change"},
+    {"label": "NIDCD (englisch): Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS (englisch): Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": "632a9ed9392b82f5e4b5c148b4761426a8658927856c85c4a6c7ffeab5139329"
+}

@@ -1,0 +1,7028 @@
+{
+  "de": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "‚‚A"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "‚‚Ais"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "‚‚H"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "‚C"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "‚Cis"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "‚D"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "‚Dis"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "‚E"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "‚F"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "‚Fis"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "‚G"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "‚Gis"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "‚A"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "‚Ais"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "‚H"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "C"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "Cis"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "D"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "Dis"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "E"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "F"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "Fis"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "G"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "Gis"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "A"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "Ais"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "H"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "c"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "cis"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "d"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "dis"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "e"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "f"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "fis"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "g"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "gis"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "a"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "ais"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "h"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "c¹"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "cis¹"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "d¹"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "dis¹"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "e¹"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "f¹"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "fis¹"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "g¹"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "gis¹"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "a¹"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "ais¹"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "h¹"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "c²"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "cis²"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "d²"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "dis²"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "e²"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "f²"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "fis²"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "g²"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "gis²"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "a²"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "ais²"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "h²"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "c³"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "cis³"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "d³"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "dis³"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "e³"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "f³"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "fis³"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "g³"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "gis³"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "a³"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "ais³"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "h³"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "c⁴"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "cis⁴"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "d⁴"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "dis⁴"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "e⁴"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "f⁴"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "fis⁴"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "g⁴"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "gis⁴"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "a⁴"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "ais⁴"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "h⁴"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "c⁵"
+    }
+  ],
+  "en": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "A0"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "A#0"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "B0"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "C1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "C#1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "D1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "D#1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "E1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "F1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "F#1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "G1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "G#1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "A1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "A#1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "B1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "C2"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "C#2"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "D2"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "D#2"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "E2"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "F2"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "F#2"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "G2"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "G#2"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "A2"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "A#2"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "B2"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "C3"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "C#3"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "D3"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "D#3"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "E3"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "F3"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "F#3"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "G3"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "G#3"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "A3"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "A#3"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "B3"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "C4"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "C#4"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "D4"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "D#4"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "E4"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "F4"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "F#4"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "G4"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "G#4"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "A4"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "A#4"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "B4"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "C5"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "C#5"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "D5"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "D#5"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "E5"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "F5"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "F#5"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "G5"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "G#5"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "A5"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "A#5"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "B5"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "C6"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "C#6"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "D6"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "D#6"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "E6"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "F6"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "F#6"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "G6"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "G#6"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "A6"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "A#6"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "B6"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "C7"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "C#7"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "D7"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "D#7"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "E7"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "F7"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "F#7"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "G7"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "G#7"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "A7"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "A#7"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "B7"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "C8"
+    }
+  ],
+  "es": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "La0"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "La#0"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "Si0"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "Do1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "Do#1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "Re1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "Re#1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "Mi1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "Fa1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "Fa#1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "Sol1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "Sol#1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "La1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "La#1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "Si1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "Do2"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "Do#2"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "Re2"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "Re#2"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "Mi2"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "Fa2"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "Fa#2"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "Sol2"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "Sol#2"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "La2"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "La#2"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "Si2"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "Do3"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "Do#3"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "Re3"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "Re#3"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "Mi3"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "Fa3"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "Fa#3"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "Sol3"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "Sol#3"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "La3"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "La#3"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "Si3"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "Do4"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "Do#4"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "Re4"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "Re#4"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "Mi4"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "Fa4"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "Fa#4"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "Sol4"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "Sol#4"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "La4"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "La#4"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "Si4"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "Do5"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "Do#5"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "Re5"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "Re#5"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "Mi5"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "Fa5"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "Fa#5"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "Sol5"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "Sol#5"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "La5"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "La#5"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "Si5"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "Do6"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "Do#6"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "Re6"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "Re#6"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "Mi6"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "Fa6"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "Fa#6"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "Sol6"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "Sol#6"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "La6"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "La#6"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "Si6"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "Do7"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "Do#7"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "Re7"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "Re#7"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "Mi7"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "Fa7"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "Fa#7"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "Sol7"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "Sol#7"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "La7"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "La#7"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "Si7"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "Do8"
+    }
+  ],
+  "fr": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "La-2"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "La#-2"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "Si-2"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "Do-1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "Do#-1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "Ré-1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "Ré#-1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "Mi-1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "Fa-1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "Fa#-1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "Sol-1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "Sol#-1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "La-1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "La#-1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "Si-1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "Do1"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "Do#1"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "Ré1"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "Ré#1"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "Mi1"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "Fa1"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "Fa#1"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "Sol1"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "Sol#1"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "La1"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "La#1"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "Si1"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "Do2"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "Do#2"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "Ré2"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "Ré#2"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "Mi2"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "Fa2"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "Fa#2"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "Sol2"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "Sol#2"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "La2"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "La#2"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "Si2"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "Do3"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "Do#3"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "Ré3"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "Ré#3"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "Mi3"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "Fa3"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "Fa#3"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "Sol3"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "Sol#3"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "La3"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "La#3"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "Si3"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "Do4"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "Do#4"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "Ré4"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "Ré#4"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "Mi4"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "Fa4"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "Fa#4"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "Sol4"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "Sol#4"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "La4"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "La#4"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "Si4"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "Do5"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "Do#5"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "Ré5"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "Ré#5"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "Mi5"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "Fa5"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "Fa#5"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "Sol5"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "Sol#5"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "La5"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "La#5"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "Si5"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "Do6"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "Do#6"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "Ré6"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "Ré#6"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "Mi6"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "Fa6"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "Fa#6"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "Sol6"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "Sol#6"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "La6"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "La#6"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "Si6"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "Do7"
+    }
+  ],
+  "id": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "A0"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "A#0"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "B0"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "C1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "C#1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "D1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "D#1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "E1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "F1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "F#1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "G1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "G#1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "A1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "A#1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "B1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "C2"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "C#2"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "D2"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "D#2"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "E2"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "F2"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "F#2"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "G2"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "G#2"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "A2"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "A#2"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "B2"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "C3"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "C#3"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "D3"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "D#3"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "E3"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "F3"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "F#3"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "G3"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "G#3"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "A3"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "A#3"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "B3"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "C4"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "C#4"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "D4"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "D#4"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "E4"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "F4"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "F#4"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "G4"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "G#4"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "A4"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "A#4"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "B4"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "C5"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "C#5"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "D5"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "D#5"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "E5"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "F5"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "F#5"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "G5"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "G#5"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "A5"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "A#5"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "B5"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "C6"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "C#6"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "D6"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "D#6"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "E6"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "F6"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "F#6"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "G6"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "G#6"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "A6"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "A#6"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "B6"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "C7"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "C#7"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "D7"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "D#7"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "E7"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "F7"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "F#7"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "G7"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "G#7"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "A7"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "A#7"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "B7"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "C8"
+    }
+  ],
+  "locales": {
+    "de": {
+      "a440": "a¹",
+      "appLanguage": "de",
+      "fixedDo": false,
+      "middleC": "c¹",
+      "movableNames": [
+        "do",
+        "re",
+        "mi",
+        "fa",
+        "so",
+        "la",
+        "ti"
+      ],
+      "notation": "germanLetter",
+      "notationOrder": [
+        "germanLetter",
+        "letter",
+        "solfege",
+        "numbers"
+      ],
+      "octaveStyle": "helmholtz",
+      "pitchLetters": "germanLetter",
+      "solfegeOctaveStyle": "scientific"
+    },
+    "en": {
+      "a440": "A4",
+      "appLanguage": "en",
+      "fixedDo": false,
+      "middleC": "C4",
+      "movableNames": [
+        "do",
+        "re",
+        "mi",
+        "fa",
+        "sol",
+        "la",
+        "ti"
+      ],
+      "notation": "letter",
+      "notationOrder": [
+        "letter",
+        "solfege",
+        "numbers",
+        "germanLetter"
+      ],
+      "octaveStyle": "scientific",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "scientific"
+    },
+    "es": {
+      "a440": "La4",
+      "appLanguage": "es",
+      "fixedDo": true,
+      "middleC": "Do4",
+      "movableNames": [
+        "do",
+        "re",
+        "mi",
+        "fa",
+        "sol",
+        "la",
+        "si"
+      ],
+      "notation": "solfege",
+      "notationOrder": [
+        "solfege",
+        "letter",
+        "germanLetter",
+        "numbers"
+      ],
+      "octaveStyle": "scientific",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "scientific"
+    },
+    "fr": {
+      "a440": "La3",
+      "appLanguage": "fr",
+      "fixedDo": true,
+      "middleC": "Do3",
+      "movableNames": [
+        "do",
+        "ré",
+        "mi",
+        "fa",
+        "sol",
+        "la",
+        "si"
+      ],
+      "notation": "solfege",
+      "notationOrder": [
+        "solfege",
+        "letter",
+        "germanLetter",
+        "numbers"
+      ],
+      "octaveStyle": "francoBelgian",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "francoBelgian"
+    },
+    "id": {
+      "a440": "A4",
+      "appLanguage": "id",
+      "fixedDo": false,
+      "middleC": "C4",
+      "movableNames": [
+        "do",
+        "re",
+        "mi",
+        "fa",
+        "sol",
+        "la",
+        "si"
+      ],
+      "notation": "letter",
+      "notationOrder": [
+        "letter",
+        "numbers",
+        "solfege",
+        "germanLetter"
+      ],
+      "octaveStyle": "scientific",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "scientific"
+    },
+    "pt": {
+      "a440": "Lá3",
+      "appLanguage": "pt_BR",
+      "fixedDo": true,
+      "middleC": "Dó3",
+      "movableNames": [
+        "dó",
+        "ré",
+        "mi",
+        "fá",
+        "sol",
+        "lá",
+        "si"
+      ],
+      "notation": "solfege",
+      "notationOrder": [
+        "solfege",
+        "letter",
+        "germanLetter",
+        "numbers"
+      ],
+      "octaveStyle": "francoBelgian",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "francoBelgian"
+    },
+    "tr": {
+      "a440": "La4",
+      "appLanguage": "tr",
+      "fixedDo": true,
+      "middleC": "Do4",
+      "movableNames": [
+        "do",
+        "re",
+        "mi",
+        "fa",
+        "sol",
+        "la",
+        "si"
+      ],
+      "notation": "solfege",
+      "notationOrder": [
+        "solfege",
+        "letter",
+        "germanLetter",
+        "numbers"
+      ],
+      "octaveStyle": "scientific",
+      "pitchLetters": "letter",
+      "solfegeOctaveStyle": "scientific"
+    }
+  },
+  "octaveStyles": {
+    "francoBelgian": {
+      "a440": "La3",
+      "highest": "Do7",
+      "labels": {
+        "0": "-2",
+        "1": "-1",
+        "2": "1",
+        "3": "2",
+        "4": "3",
+        "5": "4",
+        "6": "5",
+        "7": "6",
+        "8": "7"
+      },
+      "lowest": "La-2",
+      "middleC": "Do3",
+      "usedBy": [
+        {
+          "locale": "fr",
+          "notation": "solfege"
+        },
+        {
+          "locale": "pt",
+          "notation": "solfege"
+        }
+      ]
+    },
+    "helmholtz": {
+      "a440": "a¹",
+      "highest": "c⁵",
+      "labels": {
+        "0": "‚‚C",
+        "1": "‚C",
+        "2": "C",
+        "3": "c",
+        "4": "c¹",
+        "5": "c²",
+        "6": "c³",
+        "7": "c⁴",
+        "8": "c⁵"
+      },
+      "lowest": "‚‚A",
+      "middleC": "c¹",
+      "usedBy": [
+        {
+          "locale": "en",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "es",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "fr",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "pt",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "de",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "de",
+          "notation": "numbers"
+        },
+        {
+          "locale": "tr",
+          "notation": "germanLetter"
+        },
+        {
+          "locale": "id",
+          "notation": "germanLetter"
+        }
+      ]
+    },
+    "scientific": {
+      "a440": "A4",
+      "highest": "C8",
+      "labels": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "3",
+        "4": "4",
+        "5": "5",
+        "6": "6",
+        "7": "7",
+        "8": "8"
+      },
+      "lowest": "A0",
+      "middleC": "C4",
+      "usedBy": [
+        {
+          "locale": "en",
+          "notation": "letter"
+        },
+        {
+          "locale": "en",
+          "notation": "solfege"
+        },
+        {
+          "locale": "en",
+          "notation": "numbers"
+        },
+        {
+          "locale": "es",
+          "notation": "solfege"
+        },
+        {
+          "locale": "es",
+          "notation": "letter"
+        },
+        {
+          "locale": "es",
+          "notation": "numbers"
+        },
+        {
+          "locale": "fr",
+          "notation": "letter"
+        },
+        {
+          "locale": "fr",
+          "notation": "numbers"
+        },
+        {
+          "locale": "pt",
+          "notation": "letter"
+        },
+        {
+          "locale": "pt",
+          "notation": "numbers"
+        },
+        {
+          "locale": "de",
+          "notation": "letter"
+        },
+        {
+          "locale": "de",
+          "notation": "solfege"
+        },
+        {
+          "locale": "tr",
+          "notation": "solfege"
+        },
+        {
+          "locale": "tr",
+          "notation": "letter"
+        },
+        {
+          "locale": "tr",
+          "notation": "numbers"
+        },
+        {
+          "locale": "id",
+          "notation": "letter"
+        },
+        {
+          "locale": "id",
+          "notation": "numbers"
+        },
+        {
+          "locale": "id",
+          "notation": "solfege"
+        }
+      ]
+    }
+  },
+  "pt": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "Lá-2"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "Lá#-2"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "Si-2"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "Dó-1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "Dó#-1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "Ré-1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "Ré#-1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "Mi-1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "Fá-1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "Fá#-1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "Sol-1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "Sol#-1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "Lá-1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "Lá#-1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "Si-1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "Dó1"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "Dó#1"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "Ré1"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "Ré#1"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "Mi1"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "Fá1"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "Fá#1"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "Sol1"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "Sol#1"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "Lá1"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "Lá#1"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "Si1"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "Dó2"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "Dó#2"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "Ré2"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "Ré#2"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "Mi2"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "Fá2"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "Fá#2"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "Sol2"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "Sol#2"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "Lá2"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "Lá#2"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "Si2"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "Dó3"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "Dó#3"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "Ré3"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "Ré#3"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "Mi3"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "Fá3"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "Fá#3"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "Sol3"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "Sol#3"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "Lá3"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "Lá#3"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "Si3"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "Dó4"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "Dó#4"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "Ré4"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "Ré#4"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "Mi4"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "Fá4"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "Fá#4"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "Sol4"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "Sol#4"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "Lá4"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "Lá#4"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "Si4"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "Dó5"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "Dó#5"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "Ré5"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "Ré#5"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "Mi5"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "Fá5"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "Fá#5"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "Sol5"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "Sol#5"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "Lá5"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "Lá#5"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "Si5"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "Dó6"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "Dó#6"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "Ré6"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "Ré#6"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "Mi6"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "Fá6"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "Fá#6"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "Sol6"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "Sol#6"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "Lá6"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "Lá#6"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "Si6"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "Dó7"
+    }
+  ],
+  "systems": {
+    "germanLetter": {
+      "degrees": null,
+      "example": {
+        "de": "C D E F G A H",
+        "en": "C D E F G A H",
+        "es": "C D E F G A H",
+        "fr": "C D E F G A H",
+        "id": "C D E F G A H",
+        "pt": "C D E F G A H",
+        "tr": "C D E F G A H"
+      },
+      "flat": [
+        "C",
+        "Des",
+        "D",
+        "Es",
+        "E",
+        "F",
+        "Ges",
+        "G",
+        "As",
+        "A",
+        "B",
+        "H"
+      ],
+      "keyNames": {
+        "de": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "en": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "es": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "fr": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "id": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "pt": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "tr": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ]
+      },
+      "label": {
+        "de": "Deutsche Notennamen",
+        "en": "German letters",
+        "es": "Letras alemanas",
+        "fr": "Lettres allemandes",
+        "id": "Huruf Jerman",
+        "pt": "Letras alemãs",
+        "tr": "Alman harfleri"
+      },
+      "names": {
+        "de": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "en": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "es": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "fr": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "id": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "pt": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "tr": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ]
+      },
+      "octaveStyle": {
+        "de": "helmholtz",
+        "en": "helmholtz",
+        "es": "helmholtz",
+        "fr": "helmholtz",
+        "id": "helmholtz",
+        "pt": "helmholtz",
+        "tr": "helmholtz"
+      },
+      "pitchClasses": {
+        "de": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "en": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "es": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "fr": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "id": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "pt": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "tr": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ]
+      },
+      "regions": {
+        "de": "In Deutschland, Österreich, Skandinavien und Mitteleuropa üblich",
+        "en": "Used in Germany, Austria, Scandinavia, Central Europe",
+        "es": "Usado en Alemania, Austria, Escandinavia y Europa Central",
+        "fr": "Utilisé en Allemagne, en Autriche, en Scandinavie et en Europe centrale",
+        "id": "Dipakai di Jerman, Austria, Skandinavia, Eropa Tengah",
+        "pt": "Usada na Alemanha, Áustria, Escandinávia e Europa Central",
+        "tr": "Almanya, Avusturya, İskandinavya ve Orta Avrupa'da kullanılır"
+      },
+      "relative": false,
+      "sharp": [
+        "C",
+        "Cis",
+        "D",
+        "Dis",
+        "E",
+        "F",
+        "Fis",
+        "G",
+        "Gis",
+        "A",
+        "Ais",
+        "H"
+      ]
+    },
+    "letter": {
+      "degrees": null,
+      "example": {
+        "de": "C D E F G A B",
+        "en": "C D E F G A B",
+        "es": "C D E F G A B",
+        "fr": "C D E F G A B",
+        "id": "C D E F G A B",
+        "pt": "C D E F G A B",
+        "tr": "C D E F G A B"
+      },
+      "flat": [
+        "C",
+        "Db",
+        "D",
+        "Eb",
+        "E",
+        "F",
+        "Gb",
+        "G",
+        "Ab",
+        "A",
+        "Bb",
+        "B"
+      ],
+      "keyNames": {
+        "de": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "en": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "es": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "fr": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "id": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "pt": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "tr": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ]
+      },
+      "label": {
+        "de": "Englische Buchstaben",
+        "en": "Letters",
+        "es": "Letras",
+        "fr": "Lettres",
+        "id": "Huruf",
+        "pt": "Letras",
+        "tr": "Harfler"
+      },
+      "names": {
+        "de": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "en": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "es": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "fr": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "id": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "pt": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "tr": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ]
+      },
+      "octaveStyle": {
+        "de": "scientific",
+        "en": "scientific",
+        "es": "scientific",
+        "fr": "scientific",
+        "id": "scientific",
+        "pt": "scientific",
+        "tr": "scientific"
+      },
+      "pitchClasses": {
+        "de": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "en": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "es": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "fr": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "id": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "pt": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "tr": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ]
+      },
+      "regions": {
+        "de": "In englischsprachigen Ländern üblich",
+        "en": "Used in English-speaking countries",
+        "es": "Usado en países de habla inglesa",
+        "fr": "Utilisé dans les pays anglophones",
+        "id": "Dipakai di negara berbahasa Inggris",
+        "pt": "Usada em países de língua inglesa",
+        "tr": "İngilizce konuşulan ülkelerde kullanılır"
+      },
+      "relative": false,
+      "sharp": [
+        "C",
+        "C#",
+        "D",
+        "D#",
+        "E",
+        "F",
+        "F#",
+        "G",
+        "G#",
+        "A",
+        "A#",
+        "B"
+      ]
+    },
+    "numbers": {
+      "degrees": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "example": {
+        "de": "1 2 3 4 5 6 7",
+        "en": "1 2 3 4 5 6 7",
+        "es": "1 2 3 4 5 6 7",
+        "fr": "1 2 3 4 5 6 7",
+        "id": "1 2 3 4 5 6 7",
+        "pt": "1 2 3 4 5 6 7",
+        "tr": "1 2 3 4 5 6 7"
+      },
+      "flat": null,
+      "keyNames": {
+        "de": [
+          "C",
+          "Des",
+          "D",
+          "Es",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "As",
+          "A",
+          "B",
+          "H"
+        ],
+        "en": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "es": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "fr": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "id": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "pt": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ],
+        "tr": [
+          "C",
+          "Db",
+          "D",
+          "Eb",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "Ab",
+          "A",
+          "Bb",
+          "B"
+        ]
+      },
+      "label": {
+        "de": "Ziffern",
+        "en": "Numbers",
+        "es": "Números",
+        "fr": "Chiffres",
+        "id": "Angka",
+        "pt": "Números",
+        "tr": "Rakamlar"
+      },
+      "names": {
+        "de": [
+          "‚‚A",
+          "‚‚Ais",
+          "‚‚H",
+          "‚C",
+          "‚Cis",
+          "‚D",
+          "‚Dis",
+          "‚E",
+          "‚F",
+          "‚Fis",
+          "‚G",
+          "‚Gis",
+          "‚A",
+          "‚Ais",
+          "‚H",
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H",
+          "c",
+          "cis",
+          "d",
+          "dis",
+          "e",
+          "f",
+          "fis",
+          "g",
+          "gis",
+          "a",
+          "ais",
+          "h",
+          "c¹",
+          "cis¹",
+          "d¹",
+          "dis¹",
+          "e¹",
+          "f¹",
+          "fis¹",
+          "g¹",
+          "gis¹",
+          "a¹",
+          "ais¹",
+          "h¹",
+          "c²",
+          "cis²",
+          "d²",
+          "dis²",
+          "e²",
+          "f²",
+          "fis²",
+          "g²",
+          "gis²",
+          "a²",
+          "ais²",
+          "h²",
+          "c³",
+          "cis³",
+          "d³",
+          "dis³",
+          "e³",
+          "f³",
+          "fis³",
+          "g³",
+          "gis³",
+          "a³",
+          "ais³",
+          "h³",
+          "c⁴",
+          "cis⁴",
+          "d⁴",
+          "dis⁴",
+          "e⁴",
+          "f⁴",
+          "fis⁴",
+          "g⁴",
+          "gis⁴",
+          "a⁴",
+          "ais⁴",
+          "h⁴",
+          "c⁵"
+        ],
+        "en": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "es": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "fr": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "id": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "pt": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ],
+        "tr": [
+          "A0",
+          "A#0",
+          "B0",
+          "C1",
+          "C#1",
+          "D1",
+          "D#1",
+          "E1",
+          "F1",
+          "F#1",
+          "G1",
+          "G#1",
+          "A1",
+          "A#1",
+          "B1",
+          "C2",
+          "C#2",
+          "D2",
+          "D#2",
+          "E2",
+          "F2",
+          "F#2",
+          "G2",
+          "G#2",
+          "A2",
+          "A#2",
+          "B2",
+          "C3",
+          "C#3",
+          "D3",
+          "D#3",
+          "E3",
+          "F3",
+          "F#3",
+          "G3",
+          "G#3",
+          "A3",
+          "A#3",
+          "B3",
+          "C4",
+          "C#4",
+          "D4",
+          "D#4",
+          "E4",
+          "F4",
+          "F#4",
+          "G4",
+          "G#4",
+          "A4",
+          "A#4",
+          "B4",
+          "C5",
+          "C#5",
+          "D5",
+          "D#5",
+          "E5",
+          "F5",
+          "F#5",
+          "G5",
+          "G#5",
+          "A5",
+          "A#5",
+          "B5",
+          "C6",
+          "C#6",
+          "D6",
+          "D#6",
+          "E6",
+          "F6",
+          "F#6",
+          "G6",
+          "G#6",
+          "A6",
+          "A#6",
+          "B6",
+          "C7",
+          "C#7",
+          "D7",
+          "D#7",
+          "E7",
+          "F7",
+          "F#7",
+          "G7",
+          "G#7",
+          "A7",
+          "A#7",
+          "B7",
+          "C8"
+        ]
+      },
+      "octaveStyle": {
+        "de": "helmholtz",
+        "en": "scientific",
+        "es": "scientific",
+        "fr": "scientific",
+        "id": "scientific",
+        "pt": "scientific",
+        "tr": "scientific"
+      },
+      "pitchClasses": {
+        "de": [
+          "C",
+          "Cis",
+          "D",
+          "Dis",
+          "E",
+          "F",
+          "Fis",
+          "G",
+          "Gis",
+          "A",
+          "Ais",
+          "H"
+        ],
+        "en": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "es": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "fr": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "id": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "pt": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ],
+        "tr": [
+          "C",
+          "C#",
+          "D",
+          "D#",
+          "E",
+          "F",
+          "F#",
+          "G",
+          "G#",
+          "A",
+          "A#",
+          "B"
+        ]
+      },
+      "regions": {
+        "de": "In Indonesien und China üblich",
+        "en": "Used in Indonesia, China",
+        "es": "Usado en Indonesia y China",
+        "fr": "Utilisé en Indonésie et en Chine",
+        "id": "Dipakai di Indonesia, Tiongkok",
+        "pt": "Usada na Indonésia e na China",
+        "tr": "Endonezya ve Çin'de kullanılır"
+      },
+      "relative": true,
+      "sharp": null
+    },
+    "solfege": {
+      "degrees": null,
+      "example": {
+        "de": "Do Re Mi Fa Sol La Si",
+        "en": "Do Re Mi Fa Sol La Si",
+        "es": "Do Re Mi Fa Sol La Si",
+        "fr": "Do Ré Mi Fa Sol La Si",
+        "id": "Do Re Mi Fa Sol La Si",
+        "pt": "Dó Ré Mi Fá Sol Lá Si",
+        "tr": "Do Re Mi Fa Sol La Si"
+      },
+      "flat": [
+        "Do",
+        "Reb",
+        "Re",
+        "Mib",
+        "Mi",
+        "Fa",
+        "Solb",
+        "Sol",
+        "Lab",
+        "La",
+        "Sib",
+        "Si"
+      ],
+      "keyNames": {
+        "de": [
+          "Do",
+          "Reb",
+          "Re",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ],
+        "en": [
+          "Do",
+          "Reb",
+          "Re",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ],
+        "es": [
+          "Do",
+          "Reb",
+          "Re",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ],
+        "fr": [
+          "Do",
+          "Réb",
+          "Ré",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ],
+        "id": [
+          "Do",
+          "Reb",
+          "Re",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ],
+        "pt": [
+          "Dó",
+          "Réb",
+          "Ré",
+          "Mib",
+          "Mi",
+          "Fá",
+          "Fá#",
+          "Sol",
+          "Láb",
+          "Lá",
+          "Sib",
+          "Si"
+        ],
+        "tr": [
+          "Do",
+          "Reb",
+          "Re",
+          "Mib",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Lab",
+          "La",
+          "Sib",
+          "Si"
+        ]
+      },
+      "label": {
+        "de": "Solmisation",
+        "en": "Solfège",
+        "es": "Solfeo",
+        "fr": "Solfège",
+        "id": "Solmisasi (do = C)",
+        "pt": "Solfejo",
+        "tr": "Solfej"
+      },
+      "names": {
+        "de": [
+          "La0",
+          "La#0",
+          "Si0",
+          "Do1",
+          "Do#1",
+          "Re1",
+          "Re#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Re2",
+          "Re#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Re3",
+          "Re#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Re4",
+          "Re#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Re5",
+          "Re#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Re6",
+          "Re#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7",
+          "Do#7",
+          "Re7",
+          "Re#7",
+          "Mi7",
+          "Fa7",
+          "Fa#7",
+          "Sol7",
+          "Sol#7",
+          "La7",
+          "La#7",
+          "Si7",
+          "Do8"
+        ],
+        "en": [
+          "La0",
+          "La#0",
+          "Si0",
+          "Do1",
+          "Do#1",
+          "Re1",
+          "Re#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Re2",
+          "Re#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Re3",
+          "Re#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Re4",
+          "Re#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Re5",
+          "Re#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Re6",
+          "Re#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7",
+          "Do#7",
+          "Re7",
+          "Re#7",
+          "Mi7",
+          "Fa7",
+          "Fa#7",
+          "Sol7",
+          "Sol#7",
+          "La7",
+          "La#7",
+          "Si7",
+          "Do8"
+        ],
+        "es": [
+          "La0",
+          "La#0",
+          "Si0",
+          "Do1",
+          "Do#1",
+          "Re1",
+          "Re#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Re2",
+          "Re#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Re3",
+          "Re#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Re4",
+          "Re#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Re5",
+          "Re#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Re6",
+          "Re#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7",
+          "Do#7",
+          "Re7",
+          "Re#7",
+          "Mi7",
+          "Fa7",
+          "Fa#7",
+          "Sol7",
+          "Sol#7",
+          "La7",
+          "La#7",
+          "Si7",
+          "Do8"
+        ],
+        "fr": [
+          "La-2",
+          "La#-2",
+          "Si-2",
+          "Do-1",
+          "Do#-1",
+          "Ré-1",
+          "Ré#-1",
+          "Mi-1",
+          "Fa-1",
+          "Fa#-1",
+          "Sol-1",
+          "Sol#-1",
+          "La-1",
+          "La#-1",
+          "Si-1",
+          "Do1",
+          "Do#1",
+          "Ré1",
+          "Ré#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Ré2",
+          "Ré#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Ré3",
+          "Ré#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Ré4",
+          "Ré#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Ré5",
+          "Ré#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Ré6",
+          "Ré#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7"
+        ],
+        "id": [
+          "La0",
+          "La#0",
+          "Si0",
+          "Do1",
+          "Do#1",
+          "Re1",
+          "Re#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Re2",
+          "Re#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Re3",
+          "Re#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Re4",
+          "Re#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Re5",
+          "Re#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Re6",
+          "Re#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7",
+          "Do#7",
+          "Re7",
+          "Re#7",
+          "Mi7",
+          "Fa7",
+          "Fa#7",
+          "Sol7",
+          "Sol#7",
+          "La7",
+          "La#7",
+          "Si7",
+          "Do8"
+        ],
+        "pt": [
+          "Lá-2",
+          "Lá#-2",
+          "Si-2",
+          "Dó-1",
+          "Dó#-1",
+          "Ré-1",
+          "Ré#-1",
+          "Mi-1",
+          "Fá-1",
+          "Fá#-1",
+          "Sol-1",
+          "Sol#-1",
+          "Lá-1",
+          "Lá#-1",
+          "Si-1",
+          "Dó1",
+          "Dó#1",
+          "Ré1",
+          "Ré#1",
+          "Mi1",
+          "Fá1",
+          "Fá#1",
+          "Sol1",
+          "Sol#1",
+          "Lá1",
+          "Lá#1",
+          "Si1",
+          "Dó2",
+          "Dó#2",
+          "Ré2",
+          "Ré#2",
+          "Mi2",
+          "Fá2",
+          "Fá#2",
+          "Sol2",
+          "Sol#2",
+          "Lá2",
+          "Lá#2",
+          "Si2",
+          "Dó3",
+          "Dó#3",
+          "Ré3",
+          "Ré#3",
+          "Mi3",
+          "Fá3",
+          "Fá#3",
+          "Sol3",
+          "Sol#3",
+          "Lá3",
+          "Lá#3",
+          "Si3",
+          "Dó4",
+          "Dó#4",
+          "Ré4",
+          "Ré#4",
+          "Mi4",
+          "Fá4",
+          "Fá#4",
+          "Sol4",
+          "Sol#4",
+          "Lá4",
+          "Lá#4",
+          "Si4",
+          "Dó5",
+          "Dó#5",
+          "Ré5",
+          "Ré#5",
+          "Mi5",
+          "Fá5",
+          "Fá#5",
+          "Sol5",
+          "Sol#5",
+          "Lá5",
+          "Lá#5",
+          "Si5",
+          "Dó6",
+          "Dó#6",
+          "Ré6",
+          "Ré#6",
+          "Mi6",
+          "Fá6",
+          "Fá#6",
+          "Sol6",
+          "Sol#6",
+          "Lá6",
+          "Lá#6",
+          "Si6",
+          "Dó7"
+        ],
+        "tr": [
+          "La0",
+          "La#0",
+          "Si0",
+          "Do1",
+          "Do#1",
+          "Re1",
+          "Re#1",
+          "Mi1",
+          "Fa1",
+          "Fa#1",
+          "Sol1",
+          "Sol#1",
+          "La1",
+          "La#1",
+          "Si1",
+          "Do2",
+          "Do#2",
+          "Re2",
+          "Re#2",
+          "Mi2",
+          "Fa2",
+          "Fa#2",
+          "Sol2",
+          "Sol#2",
+          "La2",
+          "La#2",
+          "Si2",
+          "Do3",
+          "Do#3",
+          "Re3",
+          "Re#3",
+          "Mi3",
+          "Fa3",
+          "Fa#3",
+          "Sol3",
+          "Sol#3",
+          "La3",
+          "La#3",
+          "Si3",
+          "Do4",
+          "Do#4",
+          "Re4",
+          "Re#4",
+          "Mi4",
+          "Fa4",
+          "Fa#4",
+          "Sol4",
+          "Sol#4",
+          "La4",
+          "La#4",
+          "Si4",
+          "Do5",
+          "Do#5",
+          "Re5",
+          "Re#5",
+          "Mi5",
+          "Fa5",
+          "Fa#5",
+          "Sol5",
+          "Sol#5",
+          "La5",
+          "La#5",
+          "Si5",
+          "Do6",
+          "Do#6",
+          "Re6",
+          "Re#6",
+          "Mi6",
+          "Fa6",
+          "Fa#6",
+          "Sol6",
+          "Sol#6",
+          "La6",
+          "La#6",
+          "Si6",
+          "Do7",
+          "Do#7",
+          "Re7",
+          "Re#7",
+          "Mi7",
+          "Fa7",
+          "Fa#7",
+          "Sol7",
+          "Sol#7",
+          "La7",
+          "La#7",
+          "Si7",
+          "Do8"
+        ]
+      },
+      "octaveStyle": {
+        "de": "scientific",
+        "en": "scientific",
+        "es": "scientific",
+        "fr": "francoBelgian",
+        "id": "scientific",
+        "pt": "francoBelgian",
+        "tr": "scientific"
+      },
+      "pitchClasses": {
+        "de": [
+          "Do",
+          "Do#",
+          "Re",
+          "Re#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ],
+        "en": [
+          "Do",
+          "Do#",
+          "Re",
+          "Re#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ],
+        "es": [
+          "Do",
+          "Do#",
+          "Re",
+          "Re#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ],
+        "fr": [
+          "Do",
+          "Do#",
+          "Ré",
+          "Ré#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ],
+        "id": [
+          "Do",
+          "Do#",
+          "Re",
+          "Re#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ],
+        "pt": [
+          "Dó",
+          "Dó#",
+          "Ré",
+          "Ré#",
+          "Mi",
+          "Fá",
+          "Fá#",
+          "Sol",
+          "Sol#",
+          "Lá",
+          "Lá#",
+          "Si"
+        ],
+        "tr": [
+          "Do",
+          "Do#",
+          "Re",
+          "Re#",
+          "Mi",
+          "Fa",
+          "Fa#",
+          "Sol",
+          "Sol#",
+          "La",
+          "La#",
+          "Si"
+        ]
+      },
+      "regions": {
+        "de": "In weiten Teilen Europas und Lateinamerikas üblich",
+        "en": "Used in most of Europe, Latin America",
+        "es": "Usado en Europa y Latinoamérica",
+        "fr": "Utilisé dans la majeure partie de l'Europe et en Amérique latine",
+        "id": "Dipakai di sebagian besar Eropa, Amerika Latin",
+        "pt": "Usada na maior parte da Europa e na América Latina",
+        "tr": "Avrupa'nın çoğunda ve Latin Amerika'da kullanılır"
+      },
+      "relative": false,
+      "sharp": [
+        "Do",
+        "Do#",
+        "Re",
+        "Re#",
+        "Mi",
+        "Fa",
+        "Fa#",
+        "Sol",
+        "Sol#",
+        "La",
+        "La#",
+        "Si"
+      ]
+    }
+  },
+  "tr": [
+    {
+      "intl": "A0",
+      "midi": 21,
+      "name": "La0"
+    },
+    {
+      "intl": "A#0",
+      "midi": 22,
+      "name": "La#0"
+    },
+    {
+      "intl": "B0",
+      "midi": 23,
+      "name": "Si0"
+    },
+    {
+      "intl": "C1",
+      "midi": 24,
+      "name": "Do1"
+    },
+    {
+      "intl": "C#1",
+      "midi": 25,
+      "name": "Do#1"
+    },
+    {
+      "intl": "D1",
+      "midi": 26,
+      "name": "Re1"
+    },
+    {
+      "intl": "D#1",
+      "midi": 27,
+      "name": "Re#1"
+    },
+    {
+      "intl": "E1",
+      "midi": 28,
+      "name": "Mi1"
+    },
+    {
+      "intl": "F1",
+      "midi": 29,
+      "name": "Fa1"
+    },
+    {
+      "intl": "F#1",
+      "midi": 30,
+      "name": "Fa#1"
+    },
+    {
+      "intl": "G1",
+      "midi": 31,
+      "name": "Sol1"
+    },
+    {
+      "intl": "G#1",
+      "midi": 32,
+      "name": "Sol#1"
+    },
+    {
+      "intl": "A1",
+      "midi": 33,
+      "name": "La1"
+    },
+    {
+      "intl": "A#1",
+      "midi": 34,
+      "name": "La#1"
+    },
+    {
+      "intl": "B1",
+      "midi": 35,
+      "name": "Si1"
+    },
+    {
+      "intl": "C2",
+      "midi": 36,
+      "name": "Do2"
+    },
+    {
+      "intl": "C#2",
+      "midi": 37,
+      "name": "Do#2"
+    },
+    {
+      "intl": "D2",
+      "midi": 38,
+      "name": "Re2"
+    },
+    {
+      "intl": "D#2",
+      "midi": 39,
+      "name": "Re#2"
+    },
+    {
+      "intl": "E2",
+      "midi": 40,
+      "name": "Mi2"
+    },
+    {
+      "intl": "F2",
+      "midi": 41,
+      "name": "Fa2"
+    },
+    {
+      "intl": "F#2",
+      "midi": 42,
+      "name": "Fa#2"
+    },
+    {
+      "intl": "G2",
+      "midi": 43,
+      "name": "Sol2"
+    },
+    {
+      "intl": "G#2",
+      "midi": 44,
+      "name": "Sol#2"
+    },
+    {
+      "intl": "A2",
+      "midi": 45,
+      "name": "La2"
+    },
+    {
+      "intl": "A#2",
+      "midi": 46,
+      "name": "La#2"
+    },
+    {
+      "intl": "B2",
+      "midi": 47,
+      "name": "Si2"
+    },
+    {
+      "intl": "C3",
+      "midi": 48,
+      "name": "Do3"
+    },
+    {
+      "intl": "C#3",
+      "midi": 49,
+      "name": "Do#3"
+    },
+    {
+      "intl": "D3",
+      "midi": 50,
+      "name": "Re3"
+    },
+    {
+      "intl": "D#3",
+      "midi": 51,
+      "name": "Re#3"
+    },
+    {
+      "intl": "E3",
+      "midi": 52,
+      "name": "Mi3"
+    },
+    {
+      "intl": "F3",
+      "midi": 53,
+      "name": "Fa3"
+    },
+    {
+      "intl": "F#3",
+      "midi": 54,
+      "name": "Fa#3"
+    },
+    {
+      "intl": "G3",
+      "midi": 55,
+      "name": "Sol3"
+    },
+    {
+      "intl": "G#3",
+      "midi": 56,
+      "name": "Sol#3"
+    },
+    {
+      "intl": "A3",
+      "midi": 57,
+      "name": "La3"
+    },
+    {
+      "intl": "A#3",
+      "midi": 58,
+      "name": "La#3"
+    },
+    {
+      "intl": "B3",
+      "midi": 59,
+      "name": "Si3"
+    },
+    {
+      "intl": "C4",
+      "midi": 60,
+      "name": "Do4"
+    },
+    {
+      "intl": "C#4",
+      "midi": 61,
+      "name": "Do#4"
+    },
+    {
+      "intl": "D4",
+      "midi": 62,
+      "name": "Re4"
+    },
+    {
+      "intl": "D#4",
+      "midi": 63,
+      "name": "Re#4"
+    },
+    {
+      "intl": "E4",
+      "midi": 64,
+      "name": "Mi4"
+    },
+    {
+      "intl": "F4",
+      "midi": 65,
+      "name": "Fa4"
+    },
+    {
+      "intl": "F#4",
+      "midi": 66,
+      "name": "Fa#4"
+    },
+    {
+      "intl": "G4",
+      "midi": 67,
+      "name": "Sol4"
+    },
+    {
+      "intl": "G#4",
+      "midi": 68,
+      "name": "Sol#4"
+    },
+    {
+      "intl": "A4",
+      "midi": 69,
+      "name": "La4"
+    },
+    {
+      "intl": "A#4",
+      "midi": 70,
+      "name": "La#4"
+    },
+    {
+      "intl": "B4",
+      "midi": 71,
+      "name": "Si4"
+    },
+    {
+      "intl": "C5",
+      "midi": 72,
+      "name": "Do5"
+    },
+    {
+      "intl": "C#5",
+      "midi": 73,
+      "name": "Do#5"
+    },
+    {
+      "intl": "D5",
+      "midi": 74,
+      "name": "Re5"
+    },
+    {
+      "intl": "D#5",
+      "midi": 75,
+      "name": "Re#5"
+    },
+    {
+      "intl": "E5",
+      "midi": 76,
+      "name": "Mi5"
+    },
+    {
+      "intl": "F5",
+      "midi": 77,
+      "name": "Fa5"
+    },
+    {
+      "intl": "F#5",
+      "midi": 78,
+      "name": "Fa#5"
+    },
+    {
+      "intl": "G5",
+      "midi": 79,
+      "name": "Sol5"
+    },
+    {
+      "intl": "G#5",
+      "midi": 80,
+      "name": "Sol#5"
+    },
+    {
+      "intl": "A5",
+      "midi": 81,
+      "name": "La5"
+    },
+    {
+      "intl": "A#5",
+      "midi": 82,
+      "name": "La#5"
+    },
+    {
+      "intl": "B5",
+      "midi": 83,
+      "name": "Si5"
+    },
+    {
+      "intl": "C6",
+      "midi": 84,
+      "name": "Do6"
+    },
+    {
+      "intl": "C#6",
+      "midi": 85,
+      "name": "Do#6"
+    },
+    {
+      "intl": "D6",
+      "midi": 86,
+      "name": "Re6"
+    },
+    {
+      "intl": "D#6",
+      "midi": 87,
+      "name": "Re#6"
+    },
+    {
+      "intl": "E6",
+      "midi": 88,
+      "name": "Mi6"
+    },
+    {
+      "intl": "F6",
+      "midi": 89,
+      "name": "Fa6"
+    },
+    {
+      "intl": "F#6",
+      "midi": 90,
+      "name": "Fa#6"
+    },
+    {
+      "intl": "G6",
+      "midi": 91,
+      "name": "Sol6"
+    },
+    {
+      "intl": "G#6",
+      "midi": 92,
+      "name": "Sol#6"
+    },
+    {
+      "intl": "A6",
+      "midi": 93,
+      "name": "La6"
+    },
+    {
+      "intl": "A#6",
+      "midi": 94,
+      "name": "La#6"
+    },
+    {
+      "intl": "B6",
+      "midi": 95,
+      "name": "Si6"
+    },
+    {
+      "intl": "C7",
+      "midi": 96,
+      "name": "Do7"
+    },
+    {
+      "intl": "C#7",
+      "midi": 97,
+      "name": "Do#7"
+    },
+    {
+      "intl": "D7",
+      "midi": 98,
+      "name": "Re7"
+    },
+    {
+      "intl": "D#7",
+      "midi": 99,
+      "name": "Re#7"
+    },
+    {
+      "intl": "E7",
+      "midi": 100,
+      "name": "Mi7"
+    },
+    {
+      "intl": "F7",
+      "midi": 101,
+      "name": "Fa7"
+    },
+    {
+      "intl": "F#7",
+      "midi": 102,
+      "name": "Fa#7"
+    },
+    {
+      "intl": "G7",
+      "midi": 103,
+      "name": "Sol7"
+    },
+    {
+      "intl": "G#7",
+      "midi": 104,
+      "name": "Sol#7"
+    },
+    {
+      "intl": "A7",
+      "midi": 105,
+      "name": "La7"
+    },
+    {
+      "intl": "A#7",
+      "midi": 106,
+      "name": "La#7"
+    },
+    {
+      "intl": "B7",
+      "midi": 107,
+      "name": "Si7"
+    },
+    {
+      "intl": "C8",
+      "midi": 108,
+      "name": "Do8"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "latihan-vokal",
+  "label": "Pemanasan vokal",
+  "title": "Latihan Vokal: Pemanasan dengan Piano di Jangkauanmu - Scalita",
+  "description": "Tiga rutinitas dari aplikasi Scalita dengan piano asli, disesuaikan ke jangkauanmu: pemanasan cepat sebelum bernyanyi, pemanasan lengkap, dan pendinginan.",
+  "h1": "Latihan vokal untuk pemanasan",
+  "lead": "Tiga rutinitas dari aplikasi Scalita, dimainkan dengan piano asli di jangkauanmu: pemanasan cepat untuk sesaat sebelum bernyanyi, pemanasan lengkap, dan pendinginan untuk sesudahnya. Pilih jenis suara yang paling dekat dengan suaramu, atau atur sendiri nada terendah dan tertinggimu, lalu tekan Putar.",
+  "intro": "<p>Setiap rutinitas di sini sama dengan yang ada di aplikasi, langkah demi langkah: pola, suku kata, tempo, dan urutan yang sama. Yang tidak bisa dilakukan video adalah mengganti nada dasar untukmu. Di sini piano menggeser setiap pola setengah nada demi setengah nada supaya pas dengan jangkauan yang kamu atur, jadi kamu bernyanyi dengan suaramu sendiri, bukan dengan suara orang yang merekamnya.</p><p>Belum yakin mana yang cocok hari ini? Jawab dua pertanyaan Cari Pemanasanku di halaman ini, pertanyaan yang sama dengan yang diajukan aplikasi. Kalau belum tahu jangkauanmu, <a href=\"page:vocal-range-test\">tes range vokal</a> menemukan nada terendah dan tertinggimu.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Yang mana hari ini?",
+      "html": "<p>Cari Pemanasanku menanyakan kondisi suaramu sebelum menanyakan apa yang ingin kamu latih, dan jawaban pertama bisa mengalahkan jawaban kedua.</p><ul><li><em>Lelah / terforsir</em> selalu mengarah ke <a href=\"page:vocal-cool-down\">pendinginan</a>, dimainkan sedikit lebih lambat, apa pun yang ingin kamu latih.</li><li><em>Cepat sebelum tampil</em> mengarah ke <a href=\"page:quick-vocal-warm-up\">pemanasan cepat</a>, dan <em>Pemanasan saja</em> ke <a href=\"page:full-vocal-warm-up\">pemanasan lengkap</a>.</li><li><em>Kurang fit</em> sedikit memperlambat rutinitas apa pun, dan aplikasi menahan <em>Perluas jangkauanku</em> dan <em>Serak / teriak</em> untuk hari itu.</li><li><em>Sudah siap</em> memainkan rutinitasnya sedikit lebih cepat.</li></ul>"
+    },
+    {
+      "heading": "Cara pemanasan ini disusun",
+      "html": "<p>Ketiganya dimulai dengan trill di <a href=\"page:five-note-scale\">tangga nada lima nada</a>. Trill dan humming menutup sebagian mulut. Guru vokal dan terapis suara sudah lama memakainya, dan banyak pemanasan, termasuk yang ini, dimulai dengannya. Dalam survei terhadap 117 penyanyi, tangga nada lima nada dan arpeggio termasuk latihan yang paling sering dipakai.</p><p>Dari situ polanya melebar: lima nada, lalu arpeggio sepanjang satu oktaf, lalu, di kedua pemanasan, satu setengah oktaf. Setiap latihan mulai di nada dasar yang nyaman, bukan yang terendah, naik sampai batas atas jangkauannya, lalu turun lagi melewati nada-nada dasar sampai ke bawah.</p><p>Sebagian langkah justru ditempatkan di sekitar <a href=\"page:voice-cracks-high-notes\">peralihan registermu</a>. <em>Dekati saja</em> berhenti tepat di bawah peralihan, dan <em>Lintasi sekali</em> melewatinya lalu kembali. Di antara nada dasar, piano memainkan akor pendek untuk memberimu nada dasar yang baru dan satu ketukan untuk bernapas.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Berapa lama sebaiknya pemanasan vokal?",
+      "a": "<p>Tidak ada angka yang disepakati. Dalam survei terhadap 117 penyanyi, durasi pemanasan yang paling banyak dipilih adalah 5 sampai 10 menit. Pada jangkauan dua oktaf, rutinitas di sini butuh 6 sampai 8 menit (cepat), 12 sampai 14 (lengkap), dan 7 sampai 11 (pendinginan).</p>"
+    },
+    {
+      "q": "Apakah ada pemanasan yang berbeda untuk suara wanita dan pria?",
+      "a": "<p>Latihannya sama untuk semua orang. Yang berubah adalah nada dasarnya: pilih preset yang paling dekat dengan suaramu, dari sopran sampai bas, atau atur jangkauanmu sendiri, dan piano menggeser setiap pola supaya pas. Preset hanya menentukan di mana piano bermain, jadi pilihlah berdasarkan letak suaramu, bukan gender. Halaman <a href=\"page:voice-types\">jenis suara</a> menjelaskan masing-masing.</p>"
+    },
+    {
+      "q": "Apakah pemanasan vokal benar-benar ada gunanya?",
+      "a": "<p>Penyanyi merasakannya. Dalam satu penelitian, kedua belas penyanyi klasik terlatih merasakan perubahan pada warna suara dan kontrol mereka setelah 25 menit pemanasan. Pendengar lebih jarang mendengar perbedaannya, terutama pada penyanyi yang vibratonya menjadi lebih rata. Pemanasan terutama untukmu sendiri: cara menemukan suaramu hari ini sebelum nyanyian yang sesungguhnya dimulai.</p>"
+    },
+    {
+      "q": "Apakah sebaiknya tetap pemanasan saat sakit?",
+      "a": "<p>Tidak. Kalau tenggorokanmu sakit atau suaramu serak, istirahatkan, dan temui dokter kalau tidak kunjung membaik. Pendinginan untuk suara yang lelah karena bernyanyi, bukan untuk suara yang sedang sakit.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims dan McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft dan Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

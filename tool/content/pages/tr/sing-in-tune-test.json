@@ -1,0 +1,80 @@
+{
+  "slug": "detone-testi",
+  "label": "Detone testi",
+  "title": "Detone miyim? Ücretsiz online entonasyon testi - Scalita",
+  "description": "Bir piyano notası dinle, geri söyle ve ondan kaç sent saptığını gör. Tarayıcında çalışan ücretsiz bir notayı tutturma testi ve ses akort aracı.",
+  "h1": "Detone testi",
+  "lead": "Piyano bir nota çalar ve susar. Sen o notayı geri söylersin, sayfa da ne kadar yakın söylediğini sent olarak gösterir. Beş nota bir tur eder; serbest akort modunda ise istediğin her şeyi söylerken perdeni görürsün.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Ses türünü seç ya da <a href=\"page:vocal-range-test\">ses aralığı testinde</a> bulduğun aralığı kullan; böylece her nota söyleyebileceğin bir yere düşer.</li><li>Başlat'a bas ve mikrofona izin ver.</li><li>Notayı dinle. Piyano susunca kolay bir ünlüyle geri söyle ve tut.</li><li>Sen tutarken ibre ve iz, notanın ne kadar üstünde ya da altında olduğunu gösterir.</li><li>Beş notadan sonra sonucunu oku.</li></ol><p>Akort için serbest akort moduna geç ve söyle. En yakın notayı ve ondan kaç sent uzakta olduğunu gösterir; piyano çalmaz.</p>",
+  "sampleResult": "<h2>Bir sonuç neye benzer</h2><p>Beş notalık bir tur ve her notanın ne kadar uzağa düştüğü:</p><ul><li>{{note:A3}}: 6 sent pes</li><li>{{note:C4}}: 12 sent tiz</li><li>{{note:B3}}: 9 sent pes</li><li>{{note:D4}}: 31 sent pes</li><li>{{note:G3}}: 4 sent tiz</li></ul><p>Tipik sapma: 9 sent, yani beş değerin ortancası. Beş notanın dördü 25 sent içindeydi; Scalita uygulaması bir notayı tutturulmuş saymak için bu sınırı kullanır. Sonuç, notaları ne kadar sabit tuttuğunu da gösterir.</p>",
+  "notClaimed": "<h2>Bu test sana neyi söylemez</h2><p>Perdeyi ölçer, başka hiçbir şeyi değil: her notanın piyanonun çaldığı notaya ne kadar yakın düştüğünü ve ne kadar sabit kaldığını. Ses rengin, tarzın ya da şarkı söyleyişinin insanlara nasıl geldiği hakkında hiçbir şey söylemez. Bir günde yapılan tek bir tur, perdenin tek bir ölçümüdür; kulağın ya da sesin hakkında bir hüküm değildir, bir işitme testi de değildir.</p>",
+  "sections": [
+    {
+      "heading": "Test neyi ölçer",
+      "html": "<p>Perde farkları sent ile ölçülür. Bir yarım ses, yani bir piyano tuşundan bir sonrakine olan adım, 100 senttir. Hedefin üstündeki bir notaya tiz, altındakine pes denir. Bir notaya oturduktan sonra test, piyanonun notasından kaç sent uzakta olduğunu ve tutarken perdenin ne kadar salındığını ölçer.</p><p>Ne kadar yakın, yeterince yakındır? Scalita uygulamasında bir nota, yarım sesin dörtte birinden, yani 25 sentten fazla uzaktaysa sapmış sayılır. Sesler her notada biraz oynar, vibrato da bilerek notanın üstüne ve altına salınır; bu yüzden notanın çevresinde biraz salınım normaldir.</p>"
+    },
+    {
+      "heading": "Sen söylemeden önce piyano neden susar",
+      "html": "<p>Piyano ve mikrofon sırayla çalışır. Aynı anda çalışsalardı mikrofon senin yanında piyanoyu da duyardı ve kulaklığa ihtiyacın olurdu. Sırayla çalıştıkları için ihtiyacın yok.</p><p>Bu, şarkı söylerken önemli olanı da test eder: bir notayı duymak, sonra onu yalnızca sesinle bulmak. Bir çalışmada, perdeyi kaçırmaya eğilimli şarkıcılar doğru nota onlarla birlikte çaldığında bundan yardım görmek yerine şaşırmış göründüler (Pfordresher ve Brown, 2007).</p>"
+    },
+    {
+      "heading": "Notayı kaçırmak çoğu zaman kulakla ilgili değildir",
+      "html": "<p>Detone söyleyen insanlar üzerine yapılan çalışmalar, çoğunun perdeyi normal duyduğunu gösterdi. Pfordresher ve Brown'un deneylerinde katılımcıların yüzde 10 ila 15'i notaları en az bir yarım ses sapmayla geri söyledi; ama perdeleri, doğru söyleyenler kadar iyi ayırt ettiler. Hutchins ve Peretz (2012), insanların notaları kendi sesleriyle değil, bir kaydırıcıyla daha doğru eşleştirdiğini buldu. Çoğu insan için zor olan, duyabildiği bir notaya sesini yönlendirmektir.</p><p>Ömür boyu süren bir perde duyma güçlüğü gerçekten de var. Adı doğuştan amüzi (konjenital amüzi); 20.000 kişiyle yapılan bir çalışma, bunun nüfusun yaklaşık yüzde 1,5'inde görüldüğünü buldu (Peretz ve Vuvan, 2017). Bu test bunu teşhis edemez, böyle bir amacı da yok.</p>"
+    },
+    {
+      "heading": "Serbest akort modu",
+      "html": "<p>Serbest akort modu piyanoyu atlar. Herhangi bir notayı söyle; sen söyledikçe en yakın notanın adını ve kaç sent tiz ya da pes olduğunu gösterir. Tuttuğun bir notayı kontrol etmek, bir notadan diğerine kaymanı izlemek ya da vibratonun ne kadar geniş salındığını görmek için kullan.</p>"
+    },
+    {
+      "heading": "Hızlı bir dinleme kontrolü",
+      "html": "<p>Kulağını tek başına kontrol etmek için dinleme kontrolü iki nota çalar ve hangisinin daha tiz olduğunu sorar. Cevapları kelimelerle verilen üç soru: hızlı bir bakış, bir işitme testi değil.</p>"
+    },
+    {
+      "heading": "Mikrofon çalışmazsa",
+      "html": "<p>Sayfayı Instagram, TikTok, Facebook ya da Gmail'in içinde değil, Chrome, Safari, Firefox ya da Edge'de aç; o uygulamaların içindeki tarayıcılar mikrofonu engeller. Engelle'ye bastıysan site ayarlarından mikrofona izin ver ve sayfayı yeniden yükle. Bluetooth kulaklık yerine telefonun kendi mikrofonunu kullan; seviye düşük kalıyorsa biraz daha yüksek sesle söyle ya da yaklaş.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Detone olup olmadığımı nasıl anlarım?",
+      "a": "<p>Şarkı söylerken kendi perdeni kulakla değerlendirmek zordur. Bir kayıt yardımcı olur, bir ölçüm daha da çok: bu test bir nota çalar, sen geri söylersin, o da ondan kaç sent uzağa düştüğünü söyler. Scalita uygulamasında 25 sent içinde kalan bir nota tutturulmuş sayılır.</p>"
+    },
+    {
+      "q": "Neden pes ya da tiz söylüyorum?",
+      "a": "<p>Yaygın nedenler şunlar: rahat aralığının kenarına yakın bir nota, yorgun ya da soğuk bir ses, acele etmek ve piyanonun sesinin kendisi. Bir çalışmada müzisyen olmayan kişiler, kendi seslerinin bir kaydını sentetik bir tondan daha iyi eşleştirdi (Hutchins ve Peretz, 2012). Yavaşlamak birçok şarkıcıya yardımcı olur. Başka bir çalışmada ara sıra şarkı söyleyen kişiler bildik bir şarkıyı daha yavaş söylediklerinde, çoğu onu aşağı yukarı profesyoneller kadar doğru söyledi (Dalla Bella ve arkadaşları, 2007).</p>"
+    },
+    {
+      "q": "Şarkı söyleyebilir miyim? Bunu bir test söyleyebilir mi?",
+      "a": "<p>Böyle bir test şarkı söylemenin bir parçasını ölçer: notayı tutturmayı. Ses rengi, ritim, sözler ve tarz da en az onun kadar önemlidir ve hiçbir mikrofon testi bunları puanlayamaz. Bir turdaki büyük bir sapma, yalnızca o beş notanın o sefer piyanodan uzağa düştüğü anlamına gelir.</p>"
+    },
+    {
+      "q": "Kulaklığa ihtiyacım var mı?",
+      "a": "<p>Hayır. Piyano önce çalar ve mikrofon dinlemeden önce susar; bu yüzden mikrofon yalnızca seni duyar.</p>"
+    },
+    {
+      "q": "Ölçüm ne kadar doğru?",
+      "a": "<p>Net ve sabit bir notada perde ölçümü birkaç sentlik bir doğrulukla yapılır. Arka plan gürültüsü, sesi düşük bir mikrofon ve Bluetooth kulaklıklar ölçümü daha az güvenilir yapar; ses seviyen çok düşük kaldığında sayfa bunu sana söyler.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher ve Brown (2007), perdeyi tutturamayan şarkıcılar ve perde algısı üzerine bir çalışma, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère ve Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins ve Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz ve Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "nota-isimleri",
+  "label": "Nota adları ve oktavlar",
+  "title": "Orta Do, {{note:C4:intl}} mü C3 mü? Nota adları ve oktavlar - Scalita",
+  "description": "Orta Do, müziği nerede öğrendiğine göre {{note:C4:intl}}, Do4, Do3 ya da c¹ olarak yazılır. Nota adları ve oktav numaraları nasıl eşleşir, Almancada neden H var.",
+  "h1": "Nota adları ve oktav numaraları",
+  "lead": "Bir piyano tuşunun, müziği nerede öğrendiğine bağlı olarak birkaç adı olabilir. Burada adlandırma sistemlerinin ve oktav numaralarının nasıl eşleştiğini bulacaksın; böylece bu sitedeki bir nota, kastettiğini düşündüğün tuşu gösterir.",
+  "sections": [
+    {
+      "heading": "Orta Do ve oktav numaraları",
+      "html": "<p>Orta Do, yani piyanonun ortasına yakın olan Do, bilimsel perde gösteriminde {{note:C4:intl}} olarak yazılır; bu site her nota adını bu uluslararası sistemle eşleştirir. Numara her Do'da bir artar: 88 tuşlu bir piyanodaki en pes Do C1'dir, orta Do dördüncüsüdür, orkestraların akort ettiği La ise {{note:A4:intl}} olur.</p>\n<p>Scalita İspanyolca ve Türkçe solfeji aynı sayımla yazar; bu yüzden orta Do, Do4'tür. Fransız ve Brezilya solfeji bir eksiğinden sayar: orta Do Fransızcada Do3, Brezilya Portekizcesinde Dó3'tür. Almanca ise oktavı harfin büyük ya da küçük olmasıyla ve küçük rakamlarla gösterir: orta Do c¹'dir, onun altındaki Do ise yalın bir c.</p>"
+    },
+    {
+      "heading": "Almancada neden H var",
+      "html": "<p>Almancada İngilizcenin B dediği nota, yani Si, H diye yazılır; B ise Si bemol demektir. Diyezler -is, bemoller -es eki alır: Fa diyez (F#) Fis, Mi bemol (Eb) Es olur. İngilizce bir B'yi okuyan Alman bir şarkıcı, istenenden yarım ses pes söyler; Scalita Almancada bu yüzden Alman nota adlarını kullanır.</p>"
+    },
+    {
+      "heading": "Sabit do ve hareketli do",
+      "html": "<p>Sabit do'da do her zaman C, re her zaman D'dir ve bu böyle devam eder: heceler nota adlarının ta kendisidir. İspanya, Fransa, İtalya, Brezilya, Türkiye ve Latin Amerika notaları böyle adlandırır.</p>\n<p>Hareketli do'da do, hangi tondaysan onun ilk notasıdır; bu yüzden do re mi ile söylenen bir ezgi her tonda hecelerini korur. İngilizce konuşulan ülkelerde müzik dersleri ve korolar bunu kullanır; Endonezya'da ve Çin'de aynı fikir rakamlarla yazılır: do için 1, tonu belirten bir başlığın altında, örneğin do = G. Scalita'nın Rakamlar notasyonu bu şekilde çalışır.</p>"
+    },
+    {
+      "heading": "Bu site notaları nasıl yazar",
+      "html": "<p>Buradaki her nota adı Scalita uygulamasının kendi tablolarından gelir: önce dilinin olağan sistemi, ikisi farklı olduğunda yanında uluslararası adla. Uygulamada ayarlardan Harfler, Solfej, Alman harfleri ve Rakamlar arasında geçiş yapabilirsin.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Orta Do {{note:C4:intl}} mü C3 mü?",
+      "a": "<p>Şarkı materyallerinin çoğunun kullandığı bilimsel perde gösteriminde {{note:C4:intl}}. Bir klavye ya da kayıt programı ona C3 ya da C5 diyorsa, bu başka bir etiketle aynı tuştur: MIDI standardı yalnızca orta Do'nun 60 numaralı nota olduğunu söyler.</p>"
+    },
+    {
+      "q": "Piyanoda orta Do hangi tuş?",
+      "a": "<p>Tam 88 tuşlu bir piyanoda soldan dördüncü Do'dur, ortaya yakın. Her Do, iki siyah tuştan oluşan bir grubun hemen solundaki beyaz tuştur.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia (İngilizce): Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia (İngilizce): Musical note; orta Do, Helmholtz adları ve Almancadaki H üzerine.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (Fransızca): La 440; la3'ü A4 ile, do3'ü C4 ile eşleştirir.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia (İngilizce): Solfège, sabit do ve hareketli do üzerine.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association: MIDI oktav ve nota numaralandırma standardı.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

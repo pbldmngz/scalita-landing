@@ -1,0 +1,58 @@
+{
+  "slug": "vocalise-5-notes",
+  "label": "Vocalise de 5 notes",
+  "title": "Vocalise d'échauffement de 5 notes : 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "La vocalise de 5 notes, 1 2 3 4 5 4 3 2 1, ouvre la plupart des échauffements de Scalita : ce que c'est, pourquoi on l'utilise, quoi chanter dessus.",
+  "h1": "La vocalise de 5 notes",
+  "lead": "Cinq notes en montant et quatre en redescendant : 1 2 3 4 5 4 3 2 1. La plupart des échauffements de Scalita commencent par elle, et le piano la déplace d'un demi-ton à la fois pour qu'elle parcoure ta tessiture.",
+  "sections": [
+    {
+      "heading": "Le motif",
+      "html": "<p>La gamme de cinq notes, ce sont les cinq premières notes d'une gamme majeure, chantées en montant puis en redescendant sans interruption : do ré mi fa sol fa mi ré do. Les écarts entre les notes sont ton, ton, demi-ton, ton, donc le motif tient dans une quinte, sept demi-tons du bas au haut.</p>\n<p>Après chaque tour, le piano monte d'un demi-ton et tu la rechantes dans la nouvelle tonalité. C'est ainsi qu'un seul motif court couvre toute ta tessiture.</p>"
+    },
+    {
+      "heading": "Pourquoi les chanteurs commencent par elle",
+      "html": "<p>Elle demande très peu à la voix. Il n'y a pas de saut, donc tu peux suivre chaque note à l'oreille, et chaque tonalité reste dans une quinte, dans une seule partie de ta voix, avant que le piano passe à la suivante.</p>\n<p>Comme elle avance note à note, elle se prête au legato, le chant lié et continu, et c'est le support naturel des premiers sons d'un échauffement : vibrations, chant bouche fermée et voyelles fermées.</p>\n<p>Elle voyage bien, aussi. Un demi-ton à la fois, elle parcourt ta tessiture par petits pas réguliers, et tu remarques où ta voix change sans rien forcer.</p>"
+    },
+    {
+      "heading": "Comment Scalita l'utilise",
+      "html": "<p>C'est la colonne vertébrale de l'application : 12 des 15 routines de Scalita l'utilisent, et 10 d'entre elles commencent par elle, dont neuf avec une vibration. Le piano part d'une tonalité confortable pour toi et monte d'un demi-ton à la fois à travers la tessiture que tu as enregistrée.</p>\n<p>Dans les routines, elle porte surtout des vibrations et du chant bouche fermée. <a href=\"page:vocal-cool-down\">Douceur / Récupération</a>, le retour au calme, est construite presque entièrement sur elle.</p>"
+    },
+    {
+      "heading": "La chanter sur le nom des notes",
+      "html": "<p>Tu peux aussi chanter le motif sur le nom de ses notes. En do mobile, utilisé dans les cours de musique et les chorales des pays anglophones et en Indonésie, do est là où le motif commence, donc chaque tonalité donne do ré mi fa sol fa mi ré do. La notation chiffrée écrit la même chose : 1 2 3 4 5 4 3 2 1.</p>\n<p>En do fixe, utilisé en Espagne, en France, en Italie, au Brésil, en Turquie et en Amérique latine, do est toujours la même touche, C en lettres. Les noms changent avec la tonalité, et tu chantes le nom de chaque note sans son dièse ni son bémol. La routine Do Ré Mi de Scalita affiche le nom de chaque note comme ta notation l'écrit, donc elle marche dans les deux cas. Pour en savoir plus : <a href=\"page:note-names-octaves\">noms des notes et octaves</a>.</p>"
+    },
+    {
+      "heading": "Versions plus petites et plus grandes",
+      "html": "<ul>\n<li><strong>3 notes</strong>, 1 2 3 2 1 : la même idée dans moins d'espace.</li>\n<li><strong>5 notes descendantes</strong>, 5 4 3 2 1 : elle part du haut et descend.</li>\n<li><strong>Majeure / Octave</strong> : toute la gamme majeure, une fois la voix lancée.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "La gamme de cinq notes est-elle une gamme pentatonique ?",
+      "a": "<p>Non. Une gamme pentatonique a aussi cinq notes, mais elle les répartit sur toute une octave : la pentatonique majeure laisse de côté la quatrième et la septième note de la gamme majeure. Le motif d'échauffement, ce sont simplement les cinq premières notes de la gamme majeure, côte à côte. Scalita a un motif Pentatonique mineure à part.</p>"
+    },
+    {
+      "q": "Jusqu'où faut-il la monter ?",
+      "a": "<p>Seulement tant qu'elle reste facile. Scalita garde la note du haut dans la tessiture que tu as enregistrée, et tu peux t'arrêter avant. La tonalité la plus haute n'est pas un objectif.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun et Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (une étude sur les exercices vocaux utilisés par les professeurs des départements d'éducation musicale en Turquie, en turc). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Solfège, sur le do fixe et le do mobile.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipédia (en anglais) : Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>Comment les professeurs l'utilisent en Turquie</h2>\n<p>En 2023, Ece Celasun et Harun Keskin ont recueilli les exercices d'échauffement de 16 professeurs de chant des départements d'éducation musicale d'universités turques, et en ont publié 71 en notation. D'après le décompte de ces pages, environ 12 des 16 professeurs utilisent exactement ce motif, 1 2 3 4 5 4 3 2 1.</p>\n<p>La plupart des exercices restent dans trois ou cinq notes et privilégient un chant lié et continu. Les 16 professeurs utilisent tous le piano, et leurs syllabes sont surtout construites sur y ou m.</p>"
+}

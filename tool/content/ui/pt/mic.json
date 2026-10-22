@@ -1,0 +1,15 @@
+{
+  "micUnsupported": "Este navegador não consegue usar o microfone aqui. Tente uma versão recente do Chrome, Safari, Firefox ou Edge.",
+  "micInApp": "O navegador embutido neste app não consegue usar o microfone. Abra esta página no Chrome ou no Safari.",
+  "micBlocked": "O navegador está bloqueando o microfone neste site. Permita nas configurações do site, que costumam ficar no ícone ao lado do endereço, e recarregue a página.",
+  "micDismissed": "A página precisa da sua permissão para usar o microfone. Tente de novo e escolha Permitir quando o navegador perguntar.",
+  "micNotFound": "Nenhum microfone foi encontrado. Conecte ou ligue um e tente de novo.",
+  "micBusy": "Outra coisa está usando o microfone, como uma ligação ou outro app. Feche e tente de novo.",
+  "micInterrupted": "O microfone caiu, talvez por causa de uma ligação ou de um fone que desconectou. Tente de novo quando quiser.",
+  "micHidden": "A escuta é interrompida quando você sai da página. Comece de novo quando quiser.",
+  "micFailed": "Algo deu errado ao ligar o microfone. Recarregue a página e tente de novo.",
+  "micBluetooth": "Parece um fone Bluetooth. O microfone dele cai para a qualidade de uma ligação, então o microfone do próprio celular vai ler você melhor.",
+  "micSilent": "Não está chegando som do microfone. Confira se ele não está no mudo e depois cante ou cantarole de boca fechada.",
+  "levelQuiet": "Muito baixinho. Cante um pouco mais forte ou chegue mais perto do microfone.",
+  "levelLoud": "Está forte a ponto de distorcer. Afaste-se um pouco do microfone."
+}

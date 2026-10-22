@@ -1,0 +1,76 @@
+{
+  "slug": "tipos-de-voz",
+  "label": "Tipos de voz",
+  "title": "Qual é o meu tipo de voz? Seis tipos e suas passagens - Scalita",
+  "description": "Soprano, mezzo-soprano, contralto, tenor, barítono e baixo num teclado, com extensões e passagens típicas, e por que a extensão sozinha não define o seu tipo.",
+  "h1": "Tipos de voz, do soprano ao baixo",
+  "lead": "Os seis tipos de voz do canto clássico, cada um num teclado com a sua extensão usual e os dois pontos em que costuma mudar. Use como ponto de partida, não como rótulo.",
+  "intro": "<p>Um tipo de voz, ou a classificação vocal, diz onde uma voz fica e como ela se comporta: a extensão, as notas em que ela fica confortável durante a maior parte de uma música, os pontos em que ela troca de marcha, e o peso e a cor dela. O canto clássico usa seis tipos principais, e o Scalita usa os mesmos seis como opções. Escolha um, e cada exercício parte dessa extensão e dessas passagens até você medir as suas.</p><p>Os números são típicos, não regras, e cada voz é diferente. Os subtipos aparecem aqui para você conhecer as palavras; encaixar uma voz num deles pede o ouvido de um professor ao longo de meses.</p>",
+  "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
+  "sections": [
+    {
+      "voiceType": "soprano",
+      "heading": "Soprano",
+      "html": "<p>O mais agudo dos seis. O que separa o soprano do mezzo-soprano é menos a nota mais aguda e mais onde a voz fica confortável: uma voz de soprano aguenta ficar no agudo por muito tempo sem cansar, e a segunda mudança vem mais tarde.</p><p>A confusão mais comum vai para cima. Uma voz jovem e leve que chega fácil no agudo é chamada de soprano antes de alguém ouvir onde ela fica mais à vontade, e ela pode se assentar mais grave conforme amadurece.</p><p>Subtipos: coloratura, soubrette, lírico, spinto e dramático.</p>"
+    },
+    {
+      "voiceType": "mezzoSoprano",
+      "heading": "Mezzo-soprano",
+      "html": "<p>O do meio entre as três vozes agudas. Ao lado do soprano, o mezzo-soprano tem um médio mais cheio e mais escuro e cansa antes quando uma música fica muito tempo no agudo, mesmo quando as notas agudas estão lá. Ao lado do contralto, os graves são mais leves e o agudo vai mais longe.</p><p>Os corais embaralham essa voz. Com só as partes de soprano e contralto para escolher, quem é mezzo canta a que ficar mais perto, e muita gente cresce certa de ser uma coisa ou outra. Muitos professores começam tratando uma voz nova como média, mezzo-soprano ou barítono, até ela mostrar outra coisa.</p><p>Subtipos: lírico, coloratura e dramático.</p>"
+    },
+    {
+      "voiceType": "contralto",
+      "heading": "Contralto",
+      "html": "<p>O mais grave entre as vozes agudas. Os graves de um contralto são mais pesados e mais fáceis que os de um mezzo-soprano, e a voz fica à vontade na região grave por músicas inteiras.</p><p>O nome causa a primeira confusão: no coral, contralto (ou alto) é o nome de uma parte, e no canto clássico é um tipo de voz, e muita gente que canta contralto no coral é mezzo-soprano, porque o coral não tem uma parte de mezzo. A segunda é achar que só mulheres cantam aqui. Contratenores são homens que cantam nessa extensão, quase sempre numa voz de cabeça leve ou em falsete.</p><p>Subtipos: coloratura, lírico e dramático.</p>"
+    },
+    {
+      "voiceType": "tenor",
+      "heading": "Tenor",
+      "html": "<p>O mais agudo entre as vozes graves mais comuns. Um tenor e um barítono dividem a maior parte da extensão; o que separa os dois é onde a voz muda e onde ela fica mais à vontade. As mudanças do tenor vêm algumas notas depois das do barítono, e a voz mantém a facilidade perto do topo.</p><p>A confusão acontece nas duas direções. Um tenor jovem cujo agudo ainda não está livre acaba no meio dos barítonos, e um barítono com algumas notas agudas fáceis é empurrado para partes de tenor que ficam agudas demais na maior parte da música.</p><p>Subtipos, do mais leve ao mais pesado: leggero, lírico, spinto, dramático e o Heldentenor alemão.</p>"
+    },
+    {
+      "voiceType": "baritone",
+      "heading": "Barítono",
+      "html": "<p>O do meio entre as vozes graves e, como o mezzo-soprano, o tipo médio que muitos professores supõem primeiro. Os graves de um barítono são mais cheios que os de um tenor e mais leves que os de um baixo, e a voz fica mais confortável no meio da extensão.</p><p>Os corais costumam dividir as vozes graves em tenor e baixo, então um barítono canta a parte que a peça pedir, e alguns nunca descobrem que a sua voz tem um nome próprio.</p><p>Os subtipos incluem lírico, Kavalierbariton, barítono verdiano, dramático e baixo-barítono.</p>"
+    },
+    {
+      "voiceType": "bass",
+      "heading": "Baixo",
+      "html": "<p>O mais grave dos seis, e a voz que muda mais cedo. Os graves de um baixo têm um peso que os de um barítono não têm, e a voz fica confortável lá embaixo por uma música inteira, não só por uma nota.</p><p>O erro mais comum é julgar só pela nota mais grave: um barítono que alcança uma nota grave não é baixo se a voz cansa lá embaixo. Uma voz falada grave também não resolve a questão.</p><p>Os subtipos incluem basso profondo, basso cantante, basso buffo e baixo-barítono. Nos corais russos, os cantores mais graves de todos são chamados de oktavistas.</p>"
+    },
+    {
+      "heading": "A extensão não é tudo",
+      "html": "<p>A extensão é a coisa mais fácil de medir, então é a que recebe mais atenção. Os professores escutam quatro coisas: a extensão, a tessitura (onde a voz fica confortável durante a maior parte de uma música), o timbre (a cor e o peso dela) e o passaggio, a zona em que ela troca de registro. O resultado de extensão do Scalita diz isso com todas as letras: sua passagem é um indicador mais confiável do tipo de voz. O teste de passagem acrescenta que o tipo de voz também depende de onde sua voz soa melhor e da qualidade do seu timbre.</p><p>A extensão também se mexe. Sua extensão pode mudar com o aquecimento, o treino e a hora do dia, então meça mais de uma vez antes de confiar nela.</p><p>E não há pressa. O professor de canto William Vennard escreveu: “Nunca sinto nenhuma urgência em classificar um aluno iniciante”, e aconselhava começar pelo meio da voz e trabalhar para cima e para baixo “até a voz se classificar sozinha”.</p><p>As extensões aqui são os números típicos que a maioria das referências dá. As passagens são as opções do Scalita: para tenor, barítono, baixo e mezzo-soprano elas batem com as tabelas de Richard Miller, as do soprano ficam a até dois semitons das dele, e ele coloca a primeira mudança do contralto cerca de meia oitava acima de onde o Scalita coloca.</p>"
+    },
+    {
+      "heading": "Como descobrir o seu",
+      "html": "<p>Comece pela extensão. O <a href=\"page:vocal-range-test\">teste de extensão vocal</a> escuta a sua nota mais grave e a mais aguda confortáveis e mostra os tipos que costumam ter essa extensão. Depois descubra onde a sua voz muda com o <a href=\"page:voice-break-finder\">teste de passagem vocal</a>: o piano sobe uma nota de cada vez, você canta junto e aperta o botão quando a voz quer trocar de marcha. Juntos, os dois dão um palpite melhor do que cada um sozinho.</p><p>Ainda assim é um palpite. Um professor que ouve você ao longo de algumas aulas vai notar o que nenhum teste consegue, a começar por onde a sua voz soa melhor. Enquanto isso, escolha a opção mais perto no <a href=\"page:warm-up-piano\">piano de aquecimento</a> e, se os exercícios ficarem sempre agudos ou graves demais, experimente a vizinha.</p>"
+    },
+    {
+      "heading": "A voz falada pode dizer o seu tipo?",
+      "html": "<p>Não de um jeito confiável. Um estudo com 75 cantores de ópera viu que a altura da fala era diferente entre a maioria dos tipos de voz, na média, mas não entre todos, e concluiu que a altura da fala pode apoiar uma classificação, nunca fazê-la. A altura da fala também muda com o hábito, o humor e o cansaço. O Scalita nunca adivinha um tipo pela sua voz falada; ele pede para você cantar.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Homem pode cantar contralto, ou mulher pode cantar tenor?",
+      "a": "<p>Pode. Um tipo de voz descreve uma voz, não a pessoa que canta. Contratenores cantam a parte de contralto, e muitos corais têm mulheres no naipe dos tenores. No Scalita, escolha a opção cuja extensão cabe nas notas que você canta de verdade.</p>"
+    },
+    {
+      "q": "O tipo de voz muda com o tempo?",
+      "a": "<p>Pode mudar. A voz continua mudando durante a adolescência e costuma se assentar entre o começo e a metade dos vinte anos, e alguns cantores passam para um tipo vizinho depois de alguns anos de treino.</p>"
+    },
+    {
+      "q": "Posso cantar músicas feitas para outro tipo de voz?",
+      "a": "<p>Normalmente sim, num tom que combine com você. Se uma música fica aguda ou grave demais na maior parte do tempo, mude o tom. Onde a música passa o tempo importa mais do que a nota mais aguda dela.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Wikipédia (em inglês): Voice type (extensões, subtipos, William Vennard sobre classificar)", "url": "https://en.wikipedia.org/wiki/Voice_type"},
+    {"label": "Wikipédia (em inglês): Passaggio (as tabelas de passaggio de Richard Miller)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Chernobel'skiĭ (2010), The speaking fundamental frequency and the singing voice type, Vestnik Otorinolaringologii (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/21311458/"},
+    {"label": "Wikipédia (em inglês): Voice change (quando as vozes se assentam)", "url": "https://en.wikipedia.org/wiki/Voice_change"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

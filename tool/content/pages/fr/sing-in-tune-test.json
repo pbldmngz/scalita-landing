@@ -1,0 +1,80 @@
+{
+  "slug": "test-chanter-juste",
+  "label": "Test de justesse",
+  "title": "Est-ce que je chante juste ? Test de justesse en ligne - Scalita",
+  "description": "Écoute une note au piano, rechante-la et vois ton écart en cents. Un test de justesse gratuit et un accordeur pour la voix, dans ton navigateur.",
+  "h1": "Test : est-ce que je chante juste ?",
+  "lead": "Le piano joue une note et s'arrête. Tu la rechantes, et la page te montre ton écart, en cents. Cinq notes font une série, et le mode accordeur affiche ta hauteur pendant que tu chantes ce que tu veux.",
+  "toolId": "sing-in-tune-test",
+  "instructions": "<h2>Comment passer le test</h2><ol><li>Choisis ton type de voix, ou utilise la tessiture trouvée avec le <a href=\"page:vocal-range-test\">test de tessiture</a>, pour que chaque note tombe là où tu peux la chanter.</li><li>Appuie sur Démarrer et autorise le micro.</li><li>Écoute la note. Quand le piano s'arrête, rechante-la sur une voyelle facile et tiens-la.</li><li>L'aiguille et le tracé montrent de combien tu es au-dessus ou en dessous de la note pendant que tu la tiens.</li><li>Après cinq notes, lis ton résultat.</li></ol><p>Pour l'accordeur, passe en mode accordeur et chante. Il affiche la note la plus proche et à combien de cents tu en es, et aucun piano ne joue.</p>",
+  "sampleResult": "<h2>À quoi ressemble un résultat</h2><p>Une série de cinq notes, et l'écart de chacune :</p><ul><li>{{note:A3}} : 6 cents trop bas</li><li>{{note:C4}} : 12 cents trop haut</li><li>{{note:B3}} : 9 cents trop bas</li><li>{{note:D4}} : 31 cents trop bas</li><li>{{note:G3}} : 4 cents trop haut</li></ul><p>Écart typique : 9 cents, la valeur médiane des cinq. Quatre des cinq notes étaient à 25 cents ou moins, la limite au-delà de laquelle l'application Scalita compte une note comme fausse. Le résultat montre aussi la stabilité de tes notes tenues.</p>",
+  "notClaimed": "<h2>Ce que ce test ne te dit pas</h2><p>Il mesure la hauteur et rien d'autre : à quelle distance chaque note tombe de celle du piano, et à quel point elle reste stable. Il ne dit rien de ton timbre, de ton style ou de la façon dont ton chant est perçu. Une série, un jour donné, c'est une seule mesure de ta justesse, pas un jugement sur ton oreille ou ta voix, et ce n'est pas un test auditif.</p>",
+  "sections": [
+    {
+      "heading": "Ce que le test mesure",
+      "html": "<p>Les écarts de hauteur se mesurent en cents. Un demi-ton, l'écart d'une touche de piano à la suivante, fait 100 cents. Une note au-dessus de la cible est trop haute, une note en dessous est trop basse. Une fois ta voix posée sur une note, le test mesure à combien de cents tu es de la note du piano et à quel point ta hauteur oscille pendant que tu la tiens.</p><p>Assez près, c'est combien ? Dans l'application Scalita, une note compte comme fausse quand elle est à plus d'un quart de demi-ton, soit 25 cents. Les voix bougent un peu sur chaque note, et le vibrato oscille exprès au-dessus et en dessous, donc un peu d'oscillation autour de la note est normal.</p>"
+    },
+    {
+      "heading": "Pourquoi le piano s'arrête avant que tu chantes",
+      "html": "<p>Le piano et le micro se relaient. S'ils travaillaient en même temps, le micro entendrait le piano en plus de toi, et il te faudrait un casque. Comme ils se relaient, tu n'en as pas besoin.</p><p>Ça teste aussi ce qui compte quand tu chantes : entendre une note, puis la retrouver avec ta voix seule. Dans une étude, les chanteurs qui avaient tendance à manquer la note semblaient déstabilisés, et non aidés, quand la bonne note jouait en même temps qu'eux (Pfordresher et Brown, 2007).</p>"
+    },
+    {
+      "heading": "Manquer la note, ce n'est souvent pas une question d'oreille",
+      "html": "<p>Les études sur les personnes qui chantent faux montrent que la plupart d'entre elles perçoivent la hauteur normalement. Dans les expériences de Pfordresher et Brown, 10 à 15 % des participants rechantaient les notes avec au moins un demi-ton d'écart, et ils distinguaient les hauteurs aussi bien que ceux qui chantaient juste. Hutchins et Peretz (2012) ont trouvé que les gens reproduisaient les notes plus justement avec un curseur qu'avec leur propre voix. Pour la plupart des gens, la difficulté est de guider la voix sur une note qu'ils entendent.</p><p>Une difficulté à percevoir la hauteur, présente toute la vie, existe vraiment. Elle s'appelle l'amusie congénitale, et une étude sur 20 000 personnes l'a estimée à environ 1,5 % de la population (Peretz et Vuvan, 2017). Ce test ne peut pas la diagnostiquer et n'est pas fait pour ça.</p>"
+    },
+    {
+      "heading": "Le mode accordeur",
+      "html": "<p>L'accordeur se passe du piano. Chante n'importe quelle note et il affiche le nom de la note la plus proche et de combien de cents tu es trop haut ou trop bas, pendant que tu chantes. Utilise-le pour vérifier une note que tu tiens, pour suivre un glissé d'une note à l'autre, ou pour voir l'amplitude de ton vibrato.</p>"
+    },
+    {
+      "heading": "Une écoute rapide",
+      "html": "<p>Pour vérifier ton oreille seule, l'écoute rapide joue deux notes et te demande laquelle était la plus haute. Trois questions, et la réponse en toutes lettres : un coup d'œil rapide, pas un test auditif.</p>"
+    },
+    {
+      "heading": "Si le micro ne marche pas",
+      "html": "<p>Ouvre la page dans Chrome, Safari, Firefox ou Edge, pas dans Instagram, TikTok, Facebook ou Gmail, dont les navigateurs intégrés bloquent le micro. Si tu as appuyé sur Bloquer, autorise le micro dans les paramètres du site et recharge. Utilise le micro du téléphone plutôt que des écouteurs Bluetooth, et si le niveau reste bas, chante un peu plus fort ou rapproche-toi.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Comment savoir si je chante juste ?",
+      "a": "<p>C'est difficile de juger ta propre justesse à l'oreille pendant que tu chantes. Un enregistrement aide, et une mesure aide encore plus : ce test joue une note, tu la rechantes, et il te dit à combien de cents tu en es. Dans l'application Scalita, une note n'est comptée fausse qu'au-delà de 25 cents.</p>"
+    },
+    {
+      "q": "Pourquoi je chante trop bas ou trop haut ?",
+      "a": "<p>Les raisons courantes : une note près du bord de ta tessiture confortable, une voix fatiguée ou froide, la précipitation, et le son du piano lui-même. Dans une étude, des non-musiciens reproduisaient mieux un enregistrement de leur propre voix qu'un son synthétique (Hutchins et Peretz, 2012). Ralentir aide beaucoup de chanteurs. Quand des chanteurs occasionnels d'une autre étude ont chanté une chanson connue plus lentement, la plupart l'ont chantée presque aussi juste que des professionnels (Dalla Bella et ses collègues, 2007).</p>"
+    },
+    {
+      "q": "Un test peut-il me dire si je sais chanter ?",
+      "a": "<p>Un test comme celui-ci mesure une partie du chant : tomber sur la note. Le timbre, le rythme, les paroles et le style comptent tout autant, et aucun test au micro ne peut les évaluer. Un grand écart sur une série veut seulement dire que ces cinq notes sont tombées loin du piano cette fois-là.</p>"
+    },
+    {
+      "q": "Faut-il un casque ?",
+      "a": "<p>Non. Le piano joue d'abord et s'arrête avant que le micro écoute, donc le micro n'entend que toi.</p>"
+    },
+    {
+      "q": "La mesure est-elle précise ?",
+      "a": "<p>Sur une note claire et stable, la mesure de hauteur est précise à quelques cents près. Le bruit ambiant, un micro faible et les écouteurs Bluetooth la rendent moins fiable, et la page te prévient quand ton niveau est trop bas.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher et Brown (2007), une étude sur le chant faux et la perception de la hauteur, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Dalla Bella, Giguère et Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Hutchins et Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Peretz et Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

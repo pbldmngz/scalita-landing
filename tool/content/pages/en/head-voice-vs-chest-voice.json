@@ -1,0 +1,58 @@
+{
+  "slug": "head-voice-vs-chest-voice",
+  "label": "Head vs chest voice",
+  "title": "Head voice vs chest voice, with mix and falsetto - Scalita",
+  "description": "Chest voice and head voice are two ways your vocal folds vibrate, named for where you feel them. How to tell them apart, where you switch, and what mix means.",
+  "h1": "Head voice vs chest voice",
+  "lead": "Two registers every voice has, named after where singers feel them and both made in the same place. How to tell them apart, and where mix and falsetto fit in.",
+  "shortAnswer": "<p>Chest voice is the lower, fuller register, the one most people speak in. Head voice is the lighter register above it. Both are made by your vocal folds: the names describe where singers feel the vibration, not where the sound comes from. Voice researchers call them two laryngeal mechanisms, M1 and M2. In chest voice the folds vibrate with more of their mass; in head voice they're stretched thinner and vibrate with less. The two overlap: in the middle of most voices there's a stretch, often about an octave, where the same note can be sung in either.</p>",
+  "listenFor": "<p>Signs that you have moved from chest voice into head voice:</p><ul><li>The buzz moves from your chest up into your face and head.</li><li>The sound turns lighter and rounder, sometimes breathier.</li><li>Each step up stops costing more effort than the last.</li></ul><p>If you hold on to chest voice too long instead, the change comes all at once, and you notice one of the signs Scalita's break finder asks you to tap on:</p>",
+  "misconceptions": "<ul><li><strong>“Head voice is made in your head.”</strong> Both registers are made by the vocal folds. Head and chest are where you feel the vibration, not where the sound starts.</li><li><strong>“Men have falsetto, women have head voice.”</strong> Every voice has both main mechanisms. The studies that describe them measured men and women, trained and untrained.</li><li><strong>“Chest voice is wrong for high notes.”</strong> Many styles use a chest-heavy sound well up the range. What matters is whether it takes force to get there.</li><li><strong>“Mix is a third register.”</strong> The study that measured French voix mixte found it made in one of the two main mechanisms.</li></ul>",
+  "seeProfessional": "<p>Most trouble with head voice is technique, and a singing teacher is the person to ask. See a doctor, ideally an ear, nose and throat specialist, if head-voice notes you used to have go missing, if your voice stays hoarse after two weeks, if singing hurts, or if talking starts to take effort. A speech-language pathologist can help you change how you use your voice once a doctor has looked. When you're ill, rest your voice and let practice wait.</p>",
+  "sections": [
+    {
+      "heading": "How each one feels and sounds",
+      "html": "<p>Chest voice feels like talking. The buzz sits low, in your chest and throat, and the sound is full and close to speech. As you go higher, keeping it that way takes more and more effort.</p><p>Head voice feels lighter. The buzz moves up into your face and head, the sound turns rounder, and high notes cost less. In lower voices the change is often easy to hear; in higher voices the two can blend so closely that the switch is hard to spot.</p><p>Neither one is the right one. Most songs use both, and most training aims at moving between them when you choose to, not when your voice decides for you.</p>"
+    },
+    {
+      "heading": "Where you switch",
+      "html": "<p>The switch happens in the middle of your range, in the zone singers call the passaggio and Scalita calls your voice break. Scalita's presets put a tenor's first shift around {{note:D4}} and a soprano's around {{note:F4}}, and real voices land a few notes either side. The switch also moves with direction: it tends to come higher on the way up than on the way down. The <a href=\"page:voice-break-finder\">voice break finder</a> helps you find yours, and <a href=\"page:voice-cracks-high-notes\">why your voice cracks</a> covers what happens when the switch is sudden.</p>"
+    },
+    {
+      "heading": "Find each one in your own voice",
+      "html": "<p>Say a relaxed “hey”, as if greeting a friend, then sing it on one comfortable low note: that's chest voice. Now make a quiet, hooting “hoo”, like an owl, a few notes higher: that's head voice. Then take a five-note scale slowly on a light vowel, raising it by a half step each time. Somewhere in the middle you may feel the urge to push. Let the sound get lighter instead, and notice the key where it changes. The <a href=\"page:warm-up-piano\">warm-up piano</a> plays the scale in your range.</p>"
+    },
+    {
+      "heading": "Mix and falsetto, two words Scalita doesn't use for registers",
+      "html": "<p><strong>Mix</strong>, or mixed voice, usually means a sound that keeps some of chest voice's fullness up where head voice takes over, so the switch is hard to hear. Teachers use the word for different things, and research hasn't found a separate mechanism behind it: a study of five professional singers using the French voix mixte found every note clearly made in one mechanism, M1 or M2, not in a third, mixed one. In Scalita, Mix is a badge on exercises meant to smooth out the shift between your low and high voice, not a register.</p><p><strong>Falsetto</strong> usually means the lightest, often breathy sound of the head-voice mechanism, best known from men's voices. Scalita doesn't use the word: your range in the app covers chest and head voice, and how you name its light top is between you and your teacher.</p>"
+    },
+    {
+      "heading": "Beyond chest and head",
+      "html": "<p>Scalita keeps three more registers out of your main range, each with its own optional span and routine: subharmonic, the rattling notes below your chest voice; flageolet, the thin, flute-like tone above head voice; and whistle, the very top of the voice, above flageolet. Many sources use flageolet and whistle as two names for one thing; Scalita trains them separately. None of these routines asks you to chase a new highest note, and Whistle Explorer stays quiet throughout.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is head voice the same as falsetto?",
+      "a": "<p>It depends on who you ask. Many teachers use falsetto for a lighter, breathier version of the head-voice mechanism and head voice for a fuller one; others treat the two words as one. The voice teacher Richard Miller called a female falsetto illogical, while other writers describe one. If your teacher draws the line somewhere, use theirs.</p>"
+    },
+    {
+      "q": "Do women have a chest voice?",
+      "a": "<p>Yes. Most women speak in chest voice and use it for the lower part of their singing range, below the first shift.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Henrich (2006), Mirroring the voice from Garcia to the present day: some insights into singing voice registers, Logopedics Phoniatrics Vocology (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/16531287/"},
+    {"label": "Roubeau, Henrich and Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Švec, Schutte and Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (abstract)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Castellengo, Chuberre and Henrich (2004), Is voix mixte an independent mechanism? ISMA 2004 (PDF)", "url": "https://www.lam.jussieu.fr/Membres/Castellengo/publications/2004d-Voix%20mixte-ISMA.pdf"},
+    {"label": "Wikipedia: Chest voice", "url": "https://en.wikipedia.org/wiki/Chest_voice"},
+    {"label": "Wikipedia: Head voice", "url": "https://en.wikipedia.org/wiki/Head_voice"},
+    {"label": "Wikipedia: Falsetto (the female falsetto debate)", "url": "https://en.wikipedia.org/wiki/Falsetto"},
+    {"label": "Wikipedia: Whistle register (also called flageolet)", "url": "https://en.wikipedia.org/wiki/Whistle_register"},
+    {"label": "NIDCD: Taking care of your voice", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS: Laryngitis", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Modus",
+    "sing": "Ton nachsingen",
+    "tuner": "Stimmgerät",
+    "ear": "Hörcheck"
+  },
+  "intro": {
+    "sing": "Das Klavier spielt einen Ton. Dann geht das Mikrofon an, und du singst den Ton nach, auf einem beliebigen Vokal oder gesummt. Fünf Töne, einer nach dem anderen.",
+    "tuner": "Sing oder summ einen beliebigen Ton. Die Seite zeigt, welcher Ton es ist und wie weit du von seiner Mitte entfernt bist, in Cent.",
+    "ear": "Zwei Klaviertöne erklingen nacheinander. War der zweite höher oder tiefer? Drei Paare, und das Mikrofon bleibt aus."
+  },
+  "voice": {
+    "label": "Töne für",
+    "any": "Jede Stimme",
+    "saved": "Dein Umfang, {low} bis {high}",
+    "types": "Stimmlagen"
+  },
+  "sing": {
+    "noteOf": "Ton {n} von {total}",
+    "listen": "Hör dem Klavier zu.",
+    "now": "Jetzt sing ihn nach und halte ihn.",
+    "again": "Nochmal hören",
+    "notHeard": "Nicht gehört, deshalb zählt dieser Ton nicht.",
+    "measured": "Ton {n}: {offset}"
+  },
+  "offset": {
+    "high": "{cents} zu hoch",
+    "low": "{cents} zu tief",
+    "zero": "Genau auf dem Ton",
+    "octaveUp": "{offset}, eine Oktave höher",
+    "octaveDown": "{offset}, eine Oktave tiefer"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} Cent",
+      "other": "{n} Cent"
+    },
+    "semitones": {
+      "one": "{n} Halbton",
+      "other": "{n} Halbtöne"
+    },
+    "short": "{n} c"
+  },
+  "result": {
+    "label": "Typische Abweichung",
+    "basis": "{judged} von {total} Tönen gemessen",
+    "offSay": "Die Hälfte deiner Töne lag weiter als {cents} vom Klavier entfernt, die andere Hälfte näher.",
+    "offHigh": "Die meisten waren zu hoch.",
+    "offLow": "Die meisten waren zu tief.",
+    "within10": "Innerhalb von 10 Cent",
+    "within25": "Innerhalb von 25 Cent",
+    "count": "{n} von {total}",
+    "notes": "Ton für Ton",
+    "wobble": "Schwankung",
+    "wobbleSay": "Sobald du auf einem Ton angekommen warst, bewegte er sich beim Halten um etwa {cents}.",
+    "wobbleRead": "Unter etwa 10 Cent ist der Ton ruhig gehalten. Vibrato zeigt mehr, und das gehört zum Klang, es ist kein Fehler.",
+    "wobbleNone": "Die Töne waren zu kurz, um zu sehen, ob sie sich beim Halten bewegt haben.",
+    "cent": "100 Cent sind ein Halbton, von einer Klaviertaste zur nächsten.",
+    "sample": "Fünf Töne sind eine kleine Stichprobe. In einer weiteren Runde ändern sich diese Zahlen ein wenig.",
+    "tooFew": "Das Mikrofon hat {judged} von {total} Tönen deutlich gehört, zu wenige zum Messen. Versuch es nochmal etwas lauter oder näher am Mikrofon. Summen geht auch.",
+    "last": "{label}: {cents}, {date}",
+    "again": "Noch eine Runde",
+    "ctaBody": "Das Präzisionstraining in Scalita geht weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+    "ctaButton": "Scalita bei Google Play laden"
+  },
+  "tuner": {
+    "hint": "Sing oder summ einen beliebigen Ton."
+  },
+  "ear": {
+    "label": "Höher oder tiefer",
+    "pairOf": "Paar {n} von {total}",
+    "question": "War der zweite Ton höher oder tiefer?",
+    "higher": "Höher",
+    "lower": "Tiefer",
+    "again": "Nochmal hören",
+    "wentUp": "Der zweite Ton war höher, {step} nach oben.",
+    "wentDown": "Der zweite Ton war tiefer, {step} nach unten.",
+    "score": "Bei {right} von {total} Paaren hast du die Richtung gehört.",
+    "all": "Das hat bis hinunter zu einem Halbton geklappt, dem kleinsten Schritt auf einem Klavier.",
+    "some": "Die kleinsten Schritte sind am Anfang am schwersten zu hören. Kopfhörer und ein ruhiger Raum helfen.",
+    "toSing": "Einen Ton nachsingen"
+  },
+  "meter": "Mikrofonpegel",
+  "pianoFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal."
+}

@@ -1,0 +1,86 @@
+{
+  "modes": {
+    "label": "Mod",
+    "sing": "Bu notayı söyle",
+    "tuner": "Serbest akort",
+    "ear": "Dinleme kontrolü"
+  },
+  "intro": {
+    "sing": "Piyano bir nota çalar. Sonra mikrofon açılır ve sen o notayı herhangi bir ünlüyle ya da mırıldanarak geri söylersin. Beş nota, tek tek.",
+    "tuner": "Herhangi bir notayı söyle ya da mırıldan. Sayfa hangi nota olduğunu ve merkezinden kaç sent uzakta olduğunu gösterir.",
+    "ear": "Art arda iki piyano notası çalar. İkincisi daha mı tizdi, daha mı pes? Üç çift; mikrofon kapalı kalır."
+  },
+  "voice": {
+    "label": "Hangi ses için",
+    "any": "Herhangi bir ses",
+    "saved": "Senin aralığın: {low} - {high}",
+    "types": "Ses türleri"
+  },
+  "sing": {
+    "noteOf": "Nota {n} / {total}",
+    "listen": "Piyanoyu dinle.",
+    "now": "Şimdi geri söyle ve tut.",
+    "again": "Tekrar dinle",
+    "notHeard": "Duyulmadı, bu nota sayılmıyor.",
+    "measured": "Nota {n}: {offset}"
+  },
+  "offset": {
+    "high": "{cents} tiz",
+    "low": "{cents} pes",
+    "zero": "Tam notada",
+    "octaveUp": "{offset}, bir oktav yukarıda",
+    "octaveDown": "{offset}, bir oktav aşağıda"
+  },
+  "units": {
+    "cents": {
+      "one": "{n} sent",
+      "other": "{n} sent"
+    },
+    "semitones": {
+      "one": "{n} yarım ses",
+      "other": "{n} yarım ses"
+    },
+    "short": "{n}¢"
+  },
+  "result": {
+    "label": "Tipik sapma",
+    "basis": "{total} notanın {judged} tanesi ölçüldü",
+    "offSay": "Notalarının yarısı piyanodan {cents} ya da daha fazla saptı, diğer yarısı daha az.",
+    "offHigh": "Çoğu tizdi.",
+    "offLow": "Çoğu pesti.",
+    "within10": "10 sent içinde",
+    "within25": "25 sent içinde",
+    "count": "{n} / {total}",
+    "notes": "Nota nota",
+    "wobble": "Salınım",
+    "wobbleSay": "Bir notaya vardıktan sonra, tuttuğun süre boyunca yaklaşık {cents} oynadı.",
+    "wobbleRead": "Yaklaşık 10 sentin altı sabit bir tutuştur. Vibrato daha yüksek okunur ve bu bir hata değil, sesin bir parçasıdır.",
+    "wobbleNone": "Notalar, tutarken oynayıp oynamadıklarını görecek kadar uzun değildi.",
+    "cent": "100 sent bir yarım ses eder, bir piyano tuşundan diğerine.",
+    "sample": "Beş nota küçük bir örneklem. Bir tur daha, bu sayıları biraz değiştirir.",
+    "tooFew": "Mikrofon {total} notanın {judged} tanesini net duydu; ölçmek için bu çok az. Biraz daha yüksek sesle ya da mikrofona daha yakın tekrar dene. Mırıldanmak da olur.",
+    "last": "{label}: {cents}, {date}",
+    "again": "Bir tur daha",
+    "ctaBody": "Scalita'nın Entonasyon Çalışması bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+    "ctaButton": "Scalita'yı Google Play'den indir"
+  },
+  "tuner": {
+    "hint": "Herhangi bir notayı söyle ya da mırıldan."
+  },
+  "ear": {
+    "label": "Daha tiz mi, daha pes mi",
+    "pairOf": "Çift {n} / {total}",
+    "question": "İkinci nota daha mı tizdi, daha mı pes?",
+    "higher": "Daha tiz",
+    "lower": "Daha pes",
+    "again": "Tekrar dinle",
+    "wentUp": "İkinci nota daha tizdi, {step} yukarıda.",
+    "wentDown": "İkinci nota daha pesti, {step} aşağıda.",
+    "score": "{total} çiftin {right} tanesinde yönü doğru duydun.",
+    "all": "Aradaki fark bir yarım sese, yani piyanodaki en küçük adıma indiğinde bile böyleydi.",
+    "some": "En küçük adımları duymak başta en zorudur. Kulaklık ve sessiz bir oda işe yarar.",
+    "toSing": "Bir notayı geri söyle"
+  },
+  "meter": "Mikrofon seviyesi",
+  "pianoFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene."
+}

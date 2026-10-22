@@ -1,0 +1,64 @@
+{
+  "slug": "aquecimento-vocal",
+  "label": "Aquecimento vocal",
+  "title": "Aquecimento vocal num piano de verdade, na sua extensão - Scalita",
+  "description": "Três rotinas do app Scalita num piano de verdade, levadas para a sua extensão: um aquecimento rápido para antes de cantar, um completo e um desaquecimento.",
+  "h1": "Aquecimento vocal",
+  "lead": "Três rotinas do app Scalita, tocadas num piano de verdade na sua extensão: um aquecimento rápido para logo antes de cantar, um aquecimento completo e um desaquecimento para depois. Escolha o tipo de voz mais perto do seu, ou defina as suas próprias notas mais grave e mais aguda, e aperte Tocar.",
+  "intro": "<p>Cada rotina aqui é a mesma do app, passo a passo: os mesmos padrões, sílabas, andamentos e ordem. O que um vídeo não consegue fazer é mudar o tom para você. Aqui o piano leva cada padrão meio tom de cada vez para caber na extensão que você definiu, então você canta na sua voz, e não na voz de quem gravou.</p><p>Não sabe qual combina com hoje? Responda às duas perguntas do Achar meu aquecimento nesta página, as mesmas que o app faz. Se ainda não sabe a sua extensão, o <a href=\"page:vocal-range-test\">teste de extensão vocal</a> descobre a sua nota mais grave e a mais aguda.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Qual escolher hoje?",
+      "html": "<p>O Achar meu aquecimento pergunta como está a sua voz antes de perguntar no que você quer focar, e a primeira resposta pode passar por cima da segunda.</p><ul><li><em>Cansada / forçada</em> sempre leva ao <a href=\"page:vocal-cool-down\">desaquecimento</a>, tocado um pouco mais devagar, seja qual for o foco que você queria.</li><li><em>Rápido pré-show</em> leva ao <a href=\"page:quick-vocal-warm-up\">aquecimento rápido</a>, e <em>Só me aqueça</em> ao <a href=\"page:full-vocal-warm-up\">completo</a>.</li><li><em>Meio estranha</em> deixa qualquer rotina um pouco mais lenta, e o app deixa <em>Ampliar minha extensão</em> e <em>Aspereza / gritos</em> de fora naquele dia.</li><li><em>Pronta para tudo</em> toca as rotinas um pouco mais rápido.</li></ul>"
+    },
+    {
+      "heading": "Como estes aquecimentos são montados",
+      "html": "<p>Os três começam com uma vibração num <a href=\"page:five-note-scale\">vocalize de cinco notas</a>. As vibrações e os murmúrios de boca fechada fecham a boca em parte. Professores de canto e fonoaudiólogos usam esses exercícios há muito tempo, e muitos aquecimentos, estes inclusive, começam por eles. Numa pesquisa com 117 cantores, escalas de cinco notas e arpejos estavam entre os exercícios mais usados.</p><p>Dali os padrões se abrem: cinco notas, depois um arpejo de uma oitava e, nos dois aquecimentos, uma oitava e meia. Cada exercício começa num tom confortável em vez do seu mais grave, sobe até o alto da faixa do exercício e depois desce tom por tom até o fundo.</p><p>Alguns passos ficam em volta da sua <a href=\"page:voice-cracks-high-notes\">passagem</a>. <em>Só aproximar</em> fica logo abaixo da passagem, e <em>Cruzar uma vez</em> passa por ela e volta. Entre um tom e outro, o piano toca um acorde curto para dar o tom novo e um tempo para respirar.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Quanto tempo deve durar um aquecimento vocal?",
+      "a": "<p>Não existe um número combinado. Numa pesquisa com 117 cantores, a duração de aquecimento preferida foi de 5 a 10 minutos. Numa extensão de duas oitavas, as rotinas daqui levam de 6 a 8 minutos (rápida), de 12 a 14 (completa) e de 7 a 11 (desaquecimento).</p>"
+    },
+    {
+      "q": "Existem aquecimentos diferentes para voz feminina e masculina?",
+      "a": "<p>Os exercícios são os mesmos para todo mundo. O que muda é o tom: escolha a opção mais perto da sua voz, do soprano ao baixo, ou defina a sua própria extensão, e o piano leva cada padrão para caber nela. A opção só define onde o piano toca, então escolha pela região onde a sua voz fica, e não pelo gênero. A página de <a href=\"page:voice-types\">tipos de voz</a> descreve cada um.</p>"
+    },
+    {
+      "q": "Aquecimento vocal funciona mesmo?",
+      "a": "<p>Quem canta sente. Num estudo, todos os doze cantores de formação clássica notaram mudanças no timbre e no controle depois de 25 minutos de aquecimento. Os ouvintes perceberam diferença com menos frequência, principalmente nos cantores cujo vibrato tinha ficado mais regular. Um aquecimento é principalmente para você: é como você encontra a voz do dia antes de o canto valer.</p>"
+    },
+    {
+      "q": "Devo aquecer quando estou doente?",
+      "a": "<p>Não. Se a garganta dói ou a voz está rouca, descanse e procure um médico se não melhorar. O desaquecimento é para uma voz cansada de cantar, não para uma voz doente.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims e McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft e Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

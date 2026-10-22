@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Your voice",
+  "custom": "Your own range",
+  "lowest": "Lowest note",
+  "highest": "Highest note",
+  "chooserLabel": "Exercise",
+  "routines": "Routines",
+  "scales": "Scales",
+  "pickVoice": "Choose your voice type, or set your own range, then press Play.",
+  "ready": "{low} to {high}. Press Play when you're ready.",
+  "routineSummary": "{steps} steps, about {minutes} min",
+  "scaleSummary": "{keys} keys, about {minutes} min",
+  "usingBreak": "Built around your voice break at {note}.",
+  "stepCard": "{syllable}, {tempo} bpm",
+  "stepDetail": "{scale}, on {syllable}. {tempo} bpm, {style}, {direction}.",
+  "scaleDetail": "{scale}. {tempo} bpm, {direction}.",
+  "stepOf": "Step {step} of {steps}",
+  "keyOf": "Key {key} of {keys}: {note}",
+  "countIn": "Get ready: {n}",
+  "breathe": "Breathe. The next step starts in {seconds}.",
+  "done": "That's the end. Press Play to go again.",
+  "noAudio": "This browser can't play audio. Try a recent Chrome, Safari, Firefox or Edge.",
+  "loadFailed": "The piano didn't load. Check your connection and try again.",
+  "keyboard": "Piano keys from {low} to {high}",
+  "styles": {
+    "struck": "Struck",
+    "normal": "Normal",
+    "smooth": "Smooth"
+  },
+  "directions": {
+    "normal": "Ascending",
+    "inverted": "Descending",
+    "mirror": "Mirror"
+  }
+}

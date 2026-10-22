@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="__LANG__">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Range test fixture</title>
+<link rel="canonical" href="https://scalita.com/tools/vocal-range-test/">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<!-- e2e.py serves this at /tools/vocal-range-test/ with the page data that
+     tool/build.py --page-data writes and the import map a built page has. -->
+<main id="main">
+  <section>
+    <div class="container">
+      <div class="tool-panel" data-tool="vocal-range-test"></div>
+    </div>
+  </section>
+  <div data-below style="height: 1200px"></div>
+</main>
+<script type="application/json" id="page-data">__PAGE_DATA__</script>
+<script type="importmap">__IMPORT_MAP__</script>
+<script type="module" src="__MODULE__"></script>
+</body>
+</html>

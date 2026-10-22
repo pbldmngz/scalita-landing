@@ -1,0 +1,42 @@
+{
+  "about": "What the range test is fed. The takes are Pablo's voice: they stay in scalita_app/test/detector/takes (takesDir, relative to this file, or SCALITA_TAKES) and are read in place; the composed WAVs go to SCALITA_SCRATCH or the temp folder, never here. Times are seconds into each take. The held G2 of 17-46-22 locks at only some window phases, so it is sung four times with gaps that move it a quarter window each time at 44.1 and 48 kHz; 18-50-13 locks its G4 at every phase.",
+  "takesDir": "../../../../scalita_app/test/detector/takes",
+  "twoTakes": {
+    "sung": "a held G2 from take-2026-08-28T17-46-22 (four times), then the 5-4-3-2-1 of take-2026-08-28T18-50-13 from G4",
+    "segments": [
+      {"silence": 1.0},
+      {"take": "take-2026-08-28T17-46-22.wav", "from": 2.75, "to": 4.15},
+      {"silence": 0.19},
+      {"take": "take-2026-08-28T17-46-22.wav", "from": 2.75, "to": 4.15},
+      {"silence": 0.19},
+      {"take": "take-2026-08-28T17-46-22.wav", "from": 2.75, "to": 4.15},
+      {"silence": 0.19},
+      {"take": "take-2026-08-28T17-46-22.wav", "from": 2.75, "to": 4.15},
+      {"silence": 4.0},
+      {"take": "take-2026-08-28T18-50-13.wav"},
+      {"silence": 2.5}
+    ],
+    "low": 43,
+    "high": 67,
+    "fry": false,
+    "whistle": false
+  },
+  "tones": {
+    "sung": "sine tones: 55 Hz (under the 65 Hz floor, read as fry), A3, then F#6 (whistle) and A5",
+    "segments": [
+      {"silence": 1.0},
+      {"hz": 55, "sec": 1.2},
+      {"silence": 0.4},
+      {"hz": 220, "sec": 2.2},
+      {"silence": 4.5},
+      {"hz": 1480, "sec": 1.2},
+      {"silence": 0.4},
+      {"hz": 880, "sec": 2.5},
+      {"silence": 2.5}
+    ],
+    "low": 57,
+    "high": 81,
+    "fry": true,
+    "whistle": true
+  }
+}

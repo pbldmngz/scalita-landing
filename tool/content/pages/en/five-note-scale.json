@@ -1,0 +1,58 @@
+{
+  "slug": "five-note-scale",
+  "label": "Five-note scale",
+  "title": "5-note scale vocal warm-up: 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "The five-note scale, 1 2 3 4 5 4 3 2 1, opens most of Scalita's warm-ups. What it is, why teachers use it and what to sing on it, played in your range.",
+  "h1": "The five-note scale warm-up",
+  "lead": "Five notes up and four back down: 1 2 3 4 5 4 3 2 1. Most of Scalita's warm-ups begin with it, and the piano moves it a half step at a time so it travels through your range.",
+  "sections": [
+    {
+      "heading": "The pattern",
+      "html": "<p>The five-note scale is the first five notes of a major scale, sung up and back down without a break: do re mi fa sol fa mi re do. The steps between the notes are whole, whole, half, whole, so the pattern fits inside a fifth, seven half steps from bottom to top.</p>\n<p>After each round the piano moves a half step and you sing it again in the new key. That's how one short pattern covers your whole range.</p>"
+    },
+    {
+      "heading": "Why singers start with it",
+      "html": "<p>It asks very little of the voice. There are no leaps, so you can follow every note by ear, and each key stays inside a fifth, in one part of your voice, before the piano moves on.</p>\n<p>Because it moves by step, it suits legato, smooth and connected singing, and it's the natural carrier for the first sounds of a warm-up: trills, hums and closed vowels.</p>\n<p>It also travels well. Half a step at a time, it walks through your range in small, even moves, so you notice where your voice changes without forcing anything.</p>"
+    },
+    {
+      "heading": "How Scalita uses it",
+      "html": "<p>It's the backbone of the app: 12 of Scalita's 15 routines use it, and 10 of them open on it, nine of those with a trill. The piano starts from a key that sits comfortably for you and moves a half step at a time through the range you saved.</p>\n<p>In the routines it mostly carries trills and hums. <a href=\"page:vocal-cool-down\">Gentle / Recovery</a>, the cool-down, is built almost entirely on it.</p>"
+    },
+    {
+      "heading": "Singing it on note names",
+      "html": "<p>You can sing the pattern on its note names too. In movable do, used in music classes and choirs in English-speaking countries and in Indonesia, do is wherever the pattern starts, so every key is do re mi fa sol fa mi re do. Numbered notation writes the same thing as 1 2 3 4 5 4 3 2 1.</p>\n<p>In fixed do, used in Spain, France, Italy, Brazil, Turkey and Latin America, do is always C. The names change with the key, and you sing each note's own name without its sharp or flat. Scalita's Do Re Mi routine shows each note's name the way your notation writes it, so it works either way. More on this in <a href=\"page:note-names-octaves\">note names and octaves</a>.</p>"
+    },
+    {
+      "heading": "Smaller and bigger versions",
+      "html": "<ul>\n<li><strong>3 Note</strong>, 1 2 3 2 1: the same idea in less space.</li>\n<li><strong>5 Note Descending</strong>, 5 4 3 2 1: it starts at the top and comes down.</li>\n<li><strong>Major / Octave</strong>: the whole major scale, once the voice is going.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is the five-note scale a pentatonic scale?",
+      "a": "<p>No. A pentatonic scale also has five notes, but it spreads them over a whole octave: the major pentatonic leaves out the fourth and seventh notes of the major scale. The warm-up pattern is simply the first five notes of the major scale, side by side. Scalita has a separate Pentatonic Minor pattern.</p>"
+    },
+    {
+      "q": "How high should I take it?",
+      "a": "<p>Only as high as it stays easy. Scalita keeps the top note inside the range you saved, and you can stop sooner. The highest key isn't a target.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun and Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (a study of the voice exercises used by teachers in Turkish music-education departments, in Turkish). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipedia: Solfège, on fixed do and movable do.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipedia: Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": "<h2>How teachers in Turkey use it</h2>\n<p>In 2023, Ece Celasun and Harun Keskin collected the warm-up exercises of 16 voice teachers in the music-education departments of Turkish universities, and printed 71 of them as notation. Counted from those pages, about 12 of the 16 teachers use exactly this pattern, 1 2 3 4 5 4 3 2 1.</p>\n<p>Most of the exercises stay within three or five notes and favor smooth, connected singing. All 16 teachers use the piano, and their syllables are mostly built on y or m.</p>"
+}

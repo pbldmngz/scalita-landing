@@ -1,0 +1,40 @@
+{
+  "slug": "aquecimento-vocal-rapido",
+  "label": "Aquecimento rápido",
+  "title": "Aquecimento vocal rápido antes de cantar - Scalita",
+  "description": "Um aquecimento vocal rápido para logo antes de cantar: cinco exercícios num piano de verdade, na sua extensão, explicados passo a passo.",
+  "h1": "Aquecimento vocal rápido",
+  "lead": "Para logo antes de uma aula, um ensaio, uma audição ou um show, quando não dá tempo de fazer um aquecimento completo. É a rotina Rápida pré-show do Scalita: cinco exercícios na sua extensão, curtos de propósito.",
+  "routineId": "pre_performance",
+  "whyOrder": "<h2>Por que nesta ordem</h2><p>Cinco exercícios, de um som leve até o padrão mais amplo e de volta a um som leve.</p><ol><li><strong>Uma vibração de língua num vocalize de cinco notas, pela sua extensão inteira.</strong> Um som leve para percorrer bastante terreno antes de abrir para as vogais. O Scalita começa pela vibração de língua. Se o R rolado não existe no seu idioma ou sotaque e ela parecer difícil, comece pela vibração de lábios.</li><li><strong>Um arpejo em M, um murmúrio que se abre numa vogal relaxada, parecida com a fala.</strong> O padrão se abre para uma oitava.</li><li><strong>O mesmo arpejo em N.</strong> Este passo é marcado como <em>Cruzar uma vez</em>: ele passa pela sua passagem e volta uma única vez, para você já ter atravessado a mudança antes que uma música peça isso.</li><li><strong>Uma oitava e meia numa vogal aberta.</strong> O padrão mais amplo da rotina, cantado quando a voz já está em movimento.</li><li><strong>Uma vibração de lábios numa faixa pequena.</strong> A última coisa que você canta antes de entrar em cena é algo fácil, e não o trecho mais puxado.</li></ol><p>Ela é um pouco mais rápida que o aquecimento completo e leva de 6 a 8 minutos numa extensão de duas oitavas. Cada exercício começa num tom confortável em vez do seu mais grave, sobe até o alto da faixa do exercício e depois desce tom por tom até o fundo.</p>",
+  "whatToFeel": "<h2>O que sentir</h2><p>Nas vibrações, um zumbido uniforme nos lábios ou na ponta da língua, mantido por um ar constante, não por esforço. Nos passos em M e N, o zumbido que você sente nos lábios e no nariz ao cantarolar de boca fechada deve continuar na vogal. No passo mais amplo, uma mandíbula solta que cai um pouco, como se você fosse começar a bocejar.</p><p>No fim, cantar deve estar mais fácil do que no começo. Se estiver mais difícil, leia a parte sobre quando parar.</p><h3>Erros comuns</h3><ul><li><strong>Cantar no volume do show.</strong> Volume médio ou menor basta aqui. Guarde o volume para o palco.</li><li><strong>Esticar para alcançar os tons mais agudos.</strong> Se um tom parecer longe demais, fique de fora dele e volte no próximo exercício.</li><li><strong>Levantar o queixo nas notas agudas.</strong> Mantenha a cabeça reta e deixe a nota subir, não o pescoço.</li><li><strong>Brigar com uma vibração que fica parando.</strong> Solte os lábios ou a língua, mantenha o ar constante ou troque para a outra vibração.</li></ul>",
+  "whenToStop": "<h2>Quando parar</h2><p>Pare se alguma coisa doer, se a garganta arranhar ou arder, ou se a voz for ficando mais rouca em vez de mais limpa. Um aquecimento nunca deve ser algo para aguentar na marra.</p><p>Notas fora da sua voz não são um teste. O arpejo que cruza a sua passagem é posicionado em volta da passagem, não dentro da sua extensão, então em algumas opções de tipo de voz ele começa abaixo das notas que você canta. Fique em silêncio em qualquer tom grave ou agudo demais, e volte a cantar quando o piano chegar a notas que parecem fáceis. Cantar mais suave sempre vale.</p>",
+  "next": "<h2>O que fazer depois</h2><p>Vá cantar. Nos dias com mais tempo, o <a href=\"page:full-vocal-warm-up\">aquecimento completo</a> passa mais tempo nas vibrações, nos murmúrios e na sua passagem. Depois de um show ou de um ensaio longo, o <a href=\"page:vocal-cool-down\">desaquecimento</a> é lento e baixinho de propósito.</p><p>Se nenhuma opção de tipo de voz bate com a sua voz, o <a href=\"page:vocal-range-test\">teste de extensão vocal</a> descobre a sua nota mais grave e a mais aguda, para o aquecimento seguir a sua própria extensão. No app, o Modo dinâmico também monta um aquecimento sob medida para cinco minutos.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Um aquecimento vocal de 5 minutos é suficiente?",
+      "a": "<p>É uma duração comum. Numa pesquisa com 117 cantores, de 5 a 10 minutos foi a duração de aquecimento preferida. Esta rotina leva de 6 a 8 minutos numa extensão de duas oitavas. Antes de um ensaio longo ou de um papel exigente, o aquecimento completo dá mais tempo para os padrões amplos e para a região da sua passagem.</p>"
+    },
+    {
+      "q": "Quanto tempo antes de uma apresentação devo aquecer?",
+      "a": "<p>Nenhum estudo dá um número. Termine perto o bastante do início para a sua voz não ficar muito tempo parada no intervalo. Se tiver que esperar, cantarole baixinho de boca fechada de vez em quando até entrar.</p>"
+    },
+    {
+      "q": "Existe aquecimento rápido para voz feminina ou masculina?",
+      "a": "<p>É o mesmo aquecimento para todo mundo; só o tom muda. Escolha a opção mais perto da sua voz ou defina a sua própria extensão. Nas opções de tipo de voz, ele leva cerca de 6 minutos para soprano, mezzo-soprano e contralto, e de 7 a 8 para tenor, barítono e baixo.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims e McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "7165fbac2860399712ff0467ca1532a567d0a54622ec284650037371a033778e"
+}

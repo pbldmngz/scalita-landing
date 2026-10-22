@@ -1,0 +1,40 @@
+{
+  "slug": "full-vocal-warm-up",
+  "label": "Full warm-up",
+  "title": "Full vocal warm-up for your whole range - Scalita",
+  "description": "A full vocal warm-up: nine exercises from a tongue trill to an octave and a half, on a real piano in your range, explained step by step.",
+  "h1": "Full vocal warm-up",
+  "lead": "The full warm-up, for practice days, lessons and rehearsals, when you want to go through your whole voice before you sing. It's the Scalita routine General Warmup: nine exercises that spend longer on the trills, the hums and your voice break.",
+  "routineId": "general_warmup",
+  "whyOrder": "<h2>Why this order</h2><p>The routine goes from small and light to wide, in three stages. On a two-octave range it takes 12 to 14 minutes.</p><p><strong>Steps 1 to 3: a trill and two hums on a five-note scale.</strong> A tongue trill across your whole range, a hum that walks downward, then a hum that opens into a bright vowel. The patterns are only five notes wide and the tempos are moderate. Scalita starts on the tongue trill. If your language has no rolled R and it feels hard, start on the lip trill.</p><p><strong>Steps 4 to 8: arpeggios around your voice break.</strong> The pattern widens to an octave, and five syllables take turns. Two are <em>Approach only</em> and stop under your break; three are <em>Cross once</em> and go over it and back. They are mixed, so you go near the break, over it and back several times on different sounds. The M and N syllables start from a hum, and the G gives each note a clean start.</p><p><strong>Step 9: an octave and a half on a lip trill.</strong> The widest pattern comes last, on a trill, to join the whole range into one line once everything else is warm.</p><p>Inside each exercise the piano starts on a comfortable key rather than your lowest, climbs a half step at a time to the top of its range, then comes back down through the keys to the bottom.</p>",
+  "whatToFeel": "<h2>What to feel</h2><p>On the trills and hums, a buzz in your lips, nose and face, and no squeeze in your throat. The app tags the trills and the plain hum Resonance: sing through a gentle buzz, like humming through a straw.</p><p>On the arpeggios, notice where your voice wants to change gear on the way up. The approach steps stop before it. On the cross steps, let it change and keep it light instead of carrying the low sound up with more force. The app's Mix cue asks for the same thing: smooth out the shift between your low and high voice. If you don't know where your break is, the <a href=\"page:voice-break-finder\">voice break finder</a> helps you find it.</p><h3>Common mistakes</h3><ul><li><strong>Getting louder as the notes get higher.</strong> Keep the volume about the same from bottom to top.</li><li><strong>Treating it as a range workout.</strong> Skip any top key that feels like a reach. You're warming up, not testing.</li><li><strong>Holding your breath between keys.</strong> The piano leaves you a beat after each chord. Use it to breathe in.</li><li><strong>Squeezing a trill that keeps stopping.</strong> Loosen the lips or tongue, keep the air steady, or switch to the other trill.</li></ul>",
+  "whenToStop": "<h2>When to stop</h2><p>Stop for pain, for a scratchy or burning throat, or when your voice gets rougher as you go. If it feels more tired at the end of the warm-up than at the start, rest it for the day.</p><p>The arpeggio steps are placed around your voice break rather than inside your range, so on some presets they start below the notes you can sing. Stay quiet on any key that's too low or too high, and join in when the pattern is back in your voice. Near the top, sing softer before you sing harder.</p>",
+  "next": "<h2>What to do next</h2><p>Sing your songs while the voice is warm. After a long session, finish with the <a href=\"page:vocal-cool-down\">cool-down</a>. On days with less time, the <a href=\"page:quick-vocal-warm-up\">quick warm-up</a> keeps the trill, one crossing of your break and the wide pattern in five steps.</p><p>Two pages explain the pieces: <a href=\"page:lip-trills\">lip and tongue trills</a>, which open and close this routine, and the <a href=\"page:five-note-scale\">five-note scale</a> of its first three steps.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Can I make it exactly ten minutes?",
+      "a": "<p>Not this routine as written. On the six presets it takes 12 to 14 minutes, and less on a narrower range, because the first exercise sweeps your whole range. In the app, Adaptive Mode asks how long you have (5, 10 or 15 minutes, or no limit) and paces the session to fit: a warm-up, the main part and a cool-down.</p>"
+    },
+    {
+      "q": "Should I warm up my voice every day?",
+      "a": "<p>Warm up on the days you sing, before you sing. If you practice daily, the warm-up is how each practice starts, and doing the same routine every day makes it easier to notice when your voice feels different.</p>"
+    },
+    {
+      "q": "How do I do vocal warm-ups with a piano?",
+      "a": "<p>Press play on this page. The piano plays each pattern, gives you a chord and a beat between keys, and moves on a half step at a time. Sing along on the syllable shown for the step. If you play piano yourself, follow the steps table: the same pattern and syllable, starting low where it feels easy.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims and McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79"
+}

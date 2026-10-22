@@ -1,0 +1,40 @@
+{
+  "slug": "aquecimento-vocal-completo",
+  "label": "Aquecimento completo",
+  "title": "Aquecimento vocal completo para a voz inteira - Scalita",
+  "description": "Um aquecimento vocal completo: nove exercícios, da vibração de língua até uma oitava e meia, num piano de verdade na sua extensão, explicados passo a passo.",
+  "h1": "Aquecimento vocal completo",
+  "lead": "O aquecimento completo, para dias de estudo, aulas e ensaios, quando você quer passar pela voz inteira antes de cantar. É a rotina Aquecimento geral do Scalita: nove exercícios que dedicam mais tempo às vibrações, aos murmúrios e à sua passagem.",
+  "routineId": "general_warmup",
+  "whyOrder": "<h2>Por que nesta ordem</h2><p>A rotina vai do pequeno e leve ao amplo, em três etapas. Numa extensão de duas oitavas, ela leva de 12 a 14 minutos.</p><p><strong>Passos 1 a 3: uma vibração e dois murmúrios num vocalize de cinco notas.</strong> Uma vibração de língua pela sua extensão inteira, um murmúrio de boca fechada que vai descendo e depois um murmúrio que se abre numa vogal brilhante. Os padrões têm só cinco notas e os andamentos são moderados. O Scalita começa pela vibração de língua. Se o R rolado não existe no seu idioma ou sotaque e ela parecer difícil, comece pela vibração de lábios.</p><p><strong>Passos 4 a 8: arpejos em volta da sua passagem.</strong> O padrão se abre para uma oitava, e cinco sílabas se revezam. Duas são <em>Só aproximar</em> e param abaixo da passagem; três são <em>Cruzar uma vez</em> e passam por ela e voltam. Elas vêm misturadas, então você chega perto da passagem, passa por ela e volta várias vezes, com sons diferentes. As sílabas com M e N começam com um murmúrio, e o G dá a cada nota um começo limpo.</p><p><strong>Passo 9: uma oitava e meia numa vibração de lábios.</strong> O padrão mais amplo vem por último, numa vibração, para juntar a extensão inteira numa linha só quando todo o resto já está aquecido.</p><p>Dentro de cada exercício, o piano começa num tom confortável em vez do seu mais grave, sobe meio tom de cada vez até o alto da faixa do exercício e depois desce tom por tom até o fundo.</p>",
+  "whatToFeel": "<h2>O que sentir</h2><p>Nas vibrações e nos murmúrios, um zumbido nos lábios, no nariz e no rosto, sem aperto na garganta. O app marca as vibrações e o murmúrio simples como Ressonância: cante por um zumbido suave, como cantarolar dentro de um canudo.</p><p>Nos arpejos, repare onde a sua voz quer trocar de marcha na subida. Os passos de aproximação param antes disso. Nos passos de cruzar, deixe a voz mudar e mantenha o som leve, em vez de carregar o som grave para cima com mais força. A dica Voz mista do app pede a mesma coisa: suavize a troca entre sua voz grave e a aguda. Se você não sabe onde fica a sua passagem, o <a href=\"page:voice-break-finder\">teste de passagem vocal</a> ajuda a achar.</p><h3>Erros comuns</h3><ul><li><strong>Ficar mais forte conforme as notas sobem.</strong> Mantenha o volume mais ou menos igual do grave ao agudo.</li><li><strong>Tratar como um treino de extensão.</strong> Pule qualquer tom agudo que pareça longe demais. Você está aquecendo, não fazendo um teste.</li><li><strong>Prender a respiração entre os tons.</strong> O piano deixa um tempo depois de cada acorde. Use para puxar o ar.</li><li><strong>Apertar uma vibração que fica parando.</strong> Solte os lábios ou a língua, mantenha o ar constante ou troque para a outra vibração.</li></ul>",
+  "whenToStop": "<h2>Quando parar</h2><p>Pare se doer, se a garganta arranhar ou arder, ou quando a voz for ficando mais rouca. Se ela estiver mais cansada no fim do aquecimento do que no começo, descanse por hoje.</p><p>Os passos de arpejo são posicionados em volta da sua passagem, e não dentro da sua extensão, então em algumas opções de tipo de voz eles começam abaixo das notas que você canta. Fique em silêncio em qualquer tom grave ou agudo demais, e volte a cantar quando o padrão voltar para a sua voz. Perto do alto, cante mais suave antes de cantar mais forte.</p>",
+  "next": "<h2>O que fazer depois</h2><p>Cante as suas músicas enquanto a voz está aquecida. Depois de uma sessão longa, termine com o <a href=\"page:vocal-cool-down\">desaquecimento</a>. Nos dias com menos tempo, o <a href=\"page:quick-vocal-warm-up\">aquecimento rápido</a> mantém a vibração, uma travessia da passagem e o padrão amplo em cinco passos.</p><p>Duas páginas explicam as peças: <a href=\"page:lip-trills\">vibração de lábios e de língua</a>, que abrem e fecham esta rotina, e o <a href=\"page:five-note-scale\">vocalize de cinco notas</a> dos três primeiros passos.</p>",
+  "sections": [],
+  "faq": [
+    {
+      "q": "Dá para fazer em exatamente dez minutos?",
+      "a": "<p>Não esta rotina como ela é. Nas seis opções de tipo de voz ela leva de 12 a 14 minutos, e menos numa extensão menor, porque o primeiro exercício percorre a sua extensão inteira. No app, o Modo dinâmico pergunta quanto tempo você tem (5, 10 ou 15 minutos, ou sem limite) e ajusta a sessão para caber: um aquecimento, a parte principal e um desaquecimento.</p>"
+    },
+    {
+      "q": "Devo aquecer a voz todo dia?",
+      "a": "<p>Aqueça nos dias em que você canta, antes de cantar. Se você estuda todo dia, o aquecimento é o jeito de começar cada estudo, e fazer a mesma rotina todo dia facilita notar quando a sua voz está diferente.</p>"
+    },
+    {
+      "q": "Como fazer aquecimento vocal com piano?",
+      "a": "<p>Aperte Tocar nesta página. O piano toca cada padrão, dá um acorde e um tempo entre os tons e sobe meio tom de cada vez. Cante junto na sílaba indicada para o passo. Se você toca piano, siga a tabela de passos: o mesmo padrão e a mesma sílaba, começando no grave, onde for fácil.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims e McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    }
+  ],
+  "reviewed": "2026-10-22",
+  "writtenAgainst": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79"
+}

@@ -1,0 +1,64 @@
+{
+  "slug": "vocalises",
+  "label": "Vocalises",
+  "title": "Vocalises sur un vrai piano, dans ta tessiture - Scalita",
+  "description": "Trois routines de Scalita sur un vrai piano, adaptées à ta tessiture : un échauffement rapide avant de chanter, un échauffement complet et un retour au calme.",
+  "h1": "Vocalises et échauffements vocaux",
+  "lead": "Trois routines de l'application Scalita, jouées sur un vrai piano dans ta tessiture : un échauffement rapide juste avant de chanter, un échauffement complet, et un retour au calme pour après. Choisis le type de voix le plus proche du tien, ou règle ta propre note la plus grave et la plus aiguë, et appuie sur Lire.",
+  "intro": "<p>Chaque routine ici est celle de l'application, étape par étape : les mêmes motifs, les mêmes syllabes, les mêmes tempos et le même ordre. Ce qu'une vidéo ne peut pas faire, c'est changer de tonalité pour toi. Ici, le piano déplace chaque motif d'un demi-ton à la fois pour l'adapter à la tessiture que tu as réglée, et tu chantes avec ta voix, pas avec celle de la personne qui a enregistré la vidéo.</p><p>Tu ne sais pas laquelle choisir aujourd'hui ? Réponds aux deux questions de Trouve mon échauffement sur cette page, les mêmes que pose l'application. Si tu ne connais pas encore ta tessiture, le <a href=\"page:vocal-range-test\">test de tessiture</a> trouve ta note la plus grave et ta note la plus aiguë.</p>",
+  "children": [
+    "quick-vocal-warm-up",
+    "full-vocal-warm-up",
+    "vocal-cool-down",
+    "lip-trills",
+    "five-note-scale"
+  ],
+  "sections": [
+    {
+      "heading": "Laquelle aujourd'hui ?",
+      "html": "<p>Trouve mon échauffement demande comment va ta voix avant de demander sur quoi tu veux travailler, et la première réponse peut l'emporter sur la deuxième.</p><ul><li><em>Fatiguée / forcée</em> mène toujours au <a href=\"page:vocal-cool-down\">retour au calme</a>, joué un peu plus lentement, quel que soit ton objectif.</li><li><em>Express avant scène</em> mène à l'<a href=\"page:quick-vocal-warm-up\">échauffement rapide</a>, et <em>Juste m'échauffer</em> à l'<a href=\"page:full-vocal-warm-up\">échauffement complet</a>.</li><li><em>Un peu à côté</em> ralentit un peu n'importe quelle routine, et l'application met de côté <em>Étendre ma tessiture</em> et <em>Grain / cri</em> pour la journée.</li><li><em>En pleine forme</em> joue les routines un peu plus vite.</li></ul>"
+    },
+    {
+      "heading": "Comment ces échauffements sont construits",
+      "html": "<p>Les trois commencent par une vibration, de la langue ou des lèvres, sur une <a href=\"page:five-note-scale\">gamme de cinq notes</a>. Les vibrations et les fredonnements ferment en partie la bouche. Les professeurs de chant et les orthophonistes les utilisent depuis longtemps, et beaucoup d'échauffements, dont ceux-ci, commencent par là. Dans une enquête auprès de 117 chanteurs, les gammes de cinq notes et les arpèges faisaient partie des exercices les plus utilisés.</p><p>Ensuite, les motifs s'élargissent : cinq notes, puis un arpège sur une octave, puis, dans les deux échauffements, une octave et demie. Chaque exercice commence sur une tonalité confortable plutôt que sur ta note la plus grave, monte jusqu'au haut de son étendue, puis redescend tonalité par tonalité jusqu'en bas.</p><p>Certaines étapes sont placées autour de ton <a href=\"page:voice-cracks-high-notes\">passage de voix</a>. <em>Approche seulement</em> s'arrête juste sous le passage, et <em>Traverser une fois</em> le franchit et revient. Entre les tonalités, le piano joue un court accord pour te donner la nouvelle tonalité, et un temps pour respirer.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Combien de temps doit durer un échauffement vocal ?",
+      "a": "<p>Il n'y a pas de chiffre établi. Dans une enquête auprès de 117 chanteurs, la durée d'échauffement la plus appréciée était de 5 à 10 minutes. Sur une tessiture de deux octaves, les routines ici durent de 6 à 8 minutes (rapide), de 12 à 14 (complet) et de 7 à 11 (retour au calme).</p>"
+    },
+    {
+      "q": "Y a-t-il des échauffements différents pour les voix de femmes et d'hommes ?",
+      "a": "<p>Les exercices sont les mêmes pour tout le monde. Ce qui change, c'est la tonalité : choisis le préréglage le plus proche de ta voix, de soprano à basse, ou règle ta propre tessiture, et le piano déplace chaque motif pour s'y adapter. Un préréglage ne fixe que l'endroit où joue le piano, alors choisis-le selon la zone où se trouve ta voix plutôt que selon ton genre. La page <a href=\"page:voice-types\">types de voix</a> décrit chacun d'eux.</p>"
+    },
+    {
+      "q": "Les vocalises, ça marche vraiment ?",
+      "a": "<p>Les chanteurs le sentent. Dans une étude, les douze chanteurs de formation classique ont tous remarqué des changements dans leur timbre et leur contrôle après 25 minutes d'échauffement. Les auditeurs ont entendu une différence moins souvent, surtout chez les chanteurs dont le vibrato s'était régularisé. Un échauffement sert surtout à toi : c'est ta façon de trouver ta voix du jour avant que le chant compte vraiment.</p>"
+    },
+    {
+      "q": "Faut-il s'échauffer quand on est malade ?",
+      "a": "<p>Non. Si ta gorge te fait mal ou si ta voix est enrouée, repose-la, et consulte un médecin si ça ne passe pas. Le retour au calme est fait pour une voix fatiguée par le chant, pas pour une voix malade.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Gish, Kunduk, Sims et McWhorter (2012). Vocal warm-up practices and perceptions in vocalists: a pilot survey. Journal of Voice 26(1).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21439780/"
+    },
+    {
+      "label": "Moorcroft et Kenny (2013). Singer and listener perception of vocal warm-up. Journal of Voice 27(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23415147/"
+    },
+    {
+      "label": "Titze (2006). Voice training and therapy with a semi-occluded vocal tract: rationale and scientific underpinnings. Journal of Speech, Language, and Hearing Research 49(2).",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16671856/"
+    },
+    {
+      "label": "Ragan (2018). The efficacy of vocal cool-down exercises. Journal of Singing 74(5).",
+      "url": "https://kariragan.com/wp-content/uploads/2014/02/The-Efficacy-of-Vocal-Cool-Down-Exercises-JOS-2018.pdf"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": null
+}

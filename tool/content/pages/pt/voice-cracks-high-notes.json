@@ -1,0 +1,54 @@
+{
+  "slug": "voz-falhando-no-agudo",
+  "label": "Voz falhando no agudo",
+  "title": "Por que a voz falha no agudo, e a passagem vocal - Scalita",
+  "description": "Uma falha na voz é um salto repentino entre a voz de peito e a de cabeça. Onde fica a sua passagem, o que observar e como treinar a travessia sem forçar.",
+  "h1": "Por que a minha voz falha quando eu canto agudo?",
+  "lead": "Em algum ponto no meio da sua extensão, a voz precisa trocar de marcha, e uma falha é essa troca acontecendo de uma vez só. Veja onde ela fica e como treinar.",
+  "shortAnswer": "<p>A voz falha quando pula de um registro para o outro em vez de passar com suavidade. Conforme você sobe, as pregas vocais se alongam, e em algum ponto no meio da sua extensão a voz passa da voz de peito para a voz de cabeça. Em laboratório, uma mudança pequena e gradual nesse alongamento pode fazer as pregas trocarem de um jeito de vibrar para o outro num salto só. A zona onde isso acontece é o passaggio, a passagem, e toda voz tem uma. Sozinha, uma falha é um tropeço de coordenação, não um sinal de lesão, e com prática a maioria dos cantores aprende a deixar essa troca mais suave.</p>",
+  "listenFor": "<p>Cante um vocalize de cinco notas lento numa vogal leve e suba meio tom de cada vez. A mudança costuma aparecer perto das mesmas notas toda vez, com uma nota a mais ou a menos de um dia para o outro. Marque o primeiro tom em que você nota um dos três sinais que o teste de passagem do Scalita lista:</p>",
+  "misconceptions": "<ul><li><strong>“Quem canta bem não tem passagem.”</strong> Tem, sim. Toda voz muda de registro; o treino busca deixar a troca suave o bastante para disfarçar.</li><li><strong>“É só empurrar que passa.”</strong> Para a maioria dos cantores, mais ar e mais volume deixam a falha maior, e aliviar deixa a travessia mais suave.</li><li><strong>“A passagem é o topo da sua extensão.”</strong> Ela fica no meio, e a voz de cabeça continua acima dela.</li><li><strong>“Fique longe da zona de passagem.”</strong> Evitar a zona só faz ela continuar desconhecida. Os professores fazem os cantores visitarem essa zona baixinho e com frequência.</li><li><strong>“Falhar quer dizer que você machucou a voz.”</strong> Sozinha, uma falha não quer dizer isso. Rouquidão e dor são outra história.</li></ul>",
+  "seeProfessional": "<p>Um professor de canto é a pessoa certa para falhas que vêm da técnica. Procure um médico, de preferência um otorrinolaringologista, se as falhas vierem com qualquer uma destas coisas:</p><ul><li>rouquidão que não melhorou depois de duas semanas</li><li>dor ao cantar ou ao engolir</li><li>notas agudas que você alcançava e que sumiram</li><li>uma garganta que muitas vezes fica irritada, dolorida ou cansada</li></ul><p>Um fonoaudiólogo que trabalha com cantores pode ajudar depois que a causa for conhecida. Quando estiver doente, descanse a voz em vez de estudar por cima.</p>",
+  "sections": [
+    {
+      "heading": "O que acontece numa falha",
+      "html": "<p>Pesquisadores da voz descrevem dois jeitos principais de as pregas vocais vibrarem, chamados M1 e M2, que os cantores conhecem como voz de peito e voz de cabeça. Passar do primeiro para o segundo aparece em laboratório como um salto repentino na altura. Quando o salto é pequeno, a troca é suave e fácil de disfarçar. Quando é grande, você ouve uma falha, uma virada para um som mais leve ou uma nota que some.</p><p>A direção também importa. A voz segura a voz de peito por mais tempo na subida e a voz de cabeça por mais tempo na descida, então a nota em que você falha depende de você estar subindo ou descendo.</p>"
+    },
+    {
+      "heading": "Por que piora em alguns dias",
+      "html": "<p>Para a maioria dos cantores, as falhas pioram quando eles forçam: mais ar e mais volume para manter a voz de peito além do ponto em que ela quer passar adiante. Cantar agudo sem aquecer, cantar forte por muito tempo, o cansaço e a doença deixam isso mais provável. Uma vogal larga e aberta na nota mais aguda de uma frase também, porque convida o mesmo empurrão.</p>"
+    },
+    {
+      "heading": "Ela fica no meio, não no topo",
+      "html": "<p>A mudança fica no meio da sua extensão, e por isso ela pode pegar você em notas que nem são agudas. O ensino clássico descreve duas mudanças com uma zona entre elas, que o Scalita chama de zona de passagem. Nas opções do Scalita, a primeira mudança do tenor fica perto de {{note:D4}} e a segunda perto de {{note:G4}}, e as do soprano perto de {{note:F4}} e {{note:F5}}. São médias, e as suas podem ficar algumas notas longe disso. A página de <a href=\"page:voice-types\">tipos de voz</a> tem as opções de cada tipo, e o <a href=\"page:voice-break-finder\">teste de passagem vocal</a> ajuda a achar a sua primeira mudança.</p>"
+    },
+    {
+      "heading": "Como treinar a travessia",
+      "html": "<p>A meta não é evitar a mudança nem atravessar na força, mas deixar ela acontecer aos poucos. A rotina Construindo a ponte do Scalita chega lá por etapas, e você pode seguir a mesma ordem em qualquer piano. Primeiro vêm três padrões que param antes da passagem, com sons fáceis: uma vibração de língua, um “u” fechado e um “n” zumbindo que se abre em “i”. Você se acostuma com as notas logo abaixo da mudança sem atravessar. Depois, um padrão passa pela passagem e volta, com cada nota começando por um “g” leve. Em seguida, uma escala mais longa se concentra na zona entre as suas duas mudanças, num “a” aberto, e outra sobe pela voz de cabeça em cinco vogais, cada uma começando com “m”.</p><p>A rotina termina com um murmúrio de boca fechada que fica abaixo da passagem. A maioria dos passos começa numa consoante ou numa vibração em vez de numa vogal solta, um jeito comum de manter suave o começo de cada nota. Vá devagar e com volume de baixo a médio: os primeiros passos levam a marca Leve e suave do app, que diz para usar sua voz mais leve e aguda e não empurrar. Se uma nota falhar, deixe falhar, e cante a próxima mais leve, não mais forte.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "É normal a voz falhar quando eu canto agudo?",
+      "a": "<p>É. Todo cantor tem pontos em que a voz muda de registro, e a maioria já falhou ali alguma vez. A prática deixa a troca mais fácil de controlar; ela não acaba com a troca.</p>"
+    },
+    {
+      "q": "A falha no canto é a mesma coisa que a muda vocal da adolescência?",
+      "a": "<p>Elas soam parecidas, mas têm causas diferentes. Na puberdade, a laringe e as pregas vocais crescem rápido, então a voz falha também na fala, e isso se acerta quando a voz amadurece. A falha de que esta página fala acontece também numa voz já formada, perto das mesmas notas, quando você sobe pela mudança.</p>"
+    },
+    {
+      "q": "Um teste de passagem pode dizer o meu tipo de voz?",
+      "a": "<p>Ele dá uma pista melhor do que a extensão sozinha. Como diz o resultado de extensão do Scalita, a sua passagem é um indicador mais confiável do tipo de voz. O <a href=\"page:voice-break-finder\">teste de passagem vocal</a> mostra o tipo mais próximo, e um professor pode confirmar.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Švec, Schutte e Miller (1999), On pitch jumps between chest and falsetto registers in voice, Journal of the Acoustical Society of America (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/10489708/"},
+    {"label": "Roubeau, Henrich e Castellengo (2009), Laryngeal vibratory mechanisms: the notion of vocal register revisited, Journal of Voice (resumo)", "url": "https://pubmed.ncbi.nlm.nih.gov/18538982/"},
+    {"label": "Wikipédia (em inglês): Passaggio (as tabelas de passaggio de Richard Miller)", "url": "https://en.wikipedia.org/wiki/Passaggio"},
+    {"label": "Wikipédia (em inglês): Voice change", "url": "https://en.wikipedia.org/wiki/Voice_change"},
+    {"label": "NIDCD: Taking care of your voice (em inglês)", "url": "https://www.nidcd.nih.gov/health/taking-care-your-voice"},
+    {"label": "NHS: Laryngitis (em inglês)", "url": "https://www.nhs.uk/conditions/laryngitis/"}
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": "632a9ed9392b82f5e4b5c148b4761426a8658927856c85c4a6c7ffeab5139329"
+}

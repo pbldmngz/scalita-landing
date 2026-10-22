@@ -1,0 +1,58 @@
+{
+  "slug": "fuenf-toene-uebung",
+  "label": "5-Töne-Übung",
+  "title": "5-Töne-Übung zum Einsingen: 1 2 3 4 5 4 3 2 1 - Scalita",
+  "description": "Die 5-Töne-Übung, 1 2 3 4 5 4 3 2 1, eröffnet die meisten Routinen von Scalita: was sie ist, warum Lehrkräfte sie nutzen und was du darauf singst.",
+  "h1": "Die 5-Töne-Übung zum Einsingen",
+  "lead": "Fünf Töne hinauf und vier wieder hinunter: 1 2 3 4 5 4 3 2 1. Die meisten Routinen von Scalita beginnen damit, und das Klavier rückt sie halbtonweise weiter, sodass sie durch deinen Umfang wandert.",
+  "sections": [
+    {
+      "heading": "Das Muster",
+      "html": "<p>Die 5-Töne-Übung besteht aus den ersten fünf Tönen einer Durtonleiter, ohne abzusetzen hinauf und wieder hinunter gesungen: do re mi fa so fa mi re do. Die Schritte zwischen den Tönen sind ganz, ganz, halb, ganz, also passt das Muster in eine Quinte, sieben Halbtöne von unten bis oben. In der Musikpädagogik heißt dieser Bereich auch Fünftonraum.</p>\n<p>Nach jeder Runde rückt das Klavier einen Halbton weiter, und du singst das Muster in der neuen Tonart noch einmal. So deckt ein kurzes Muster deinen ganzen Umfang ab.</p>"
+    },
+    {
+      "heading": "Warum man damit anfängt",
+      "html": "<p>Sie verlangt der Stimme sehr wenig ab. Es gibt keine Sprünge, also kannst du jedem Ton nach Gehör folgen, und jede Tonart bleibt innerhalb einer Quinte, in einem Teil deiner Stimme, bevor das Klavier weiterrückt.</p>\n<p>Weil sie sich in Schritten bewegt, passt sie zum Legato, dem weichen, verbundenen Singen, und sie ist der natürliche Träger für die ersten Klänge eines Einsingens: Triller, Summen und geschlossene Vokale.</p>\n<p>Außerdem wandert sie gut. Halbton für Halbton geht sie in kleinen, gleichmäßigen Schritten durch deinen Umfang, sodass du merkst, wo deine Stimme wechselt, ohne etwas zu erzwingen.</p>"
+    },
+    {
+      "heading": "Wie Scalita sie nutzt",
+      "html": "<p>Sie ist das Rückgrat der App: 12 der 15 Routinen von Scalita nutzen sie, und 10 davon beginnen damit, neun davon mit einem Triller. Das Klavier startet in einer Tonart, die für dich bequem liegt, und rückt halbtonweise durch den Umfang, den du gespeichert hast.</p>\n<p>In den Routinen trägt sie meist Triller und Summen. <a href=\"page:vocal-cool-down\">Sanft / Erholung</a>, das Cool-down, ist fast ganz auf ihr aufgebaut.</p>"
+    },
+    {
+      "heading": "Auf Notennamen singen",
+      "html": "<p>Du kannst das Muster auch auf seinen Notennamen singen. Bei beweglichem Do, der relativen Solmisation, ist do immer der Ton, auf dem das Muster beginnt, also heißt es in jeder Tonart do re mi fa so fa mi re do. So wird in Musikschulen und Chören im englischsprachigen Raum gesungen, im deutschsprachigen Raum etwa mit Tonika-Do, und in Indonesien. Die Ziffernschreibweise schreibt dasselbe als 1 2 3 4 5 4 3 2 1.</p>\n<p>Bei festem Do, der absoluten Solmisation, wie in Spanien, Frankreich, Italien, Brasilien, der Türkei und Lateinamerika, ist do immer C. Die Namen wechseln mit der Tonart, und du singst den eigenen Namen jedes Tons ohne sein Kreuz oder b. Die Routine Do Re Mi von Scalita zeigt den Namen jedes Tons so, wie deine Notation ihn schreibt, deshalb funktioniert sie auf beide Arten. Mehr dazu unter <a href=\"page:note-names-octaves\">Notennamen und Oktaven</a>.</p>"
+    },
+    {
+      "heading": "Kleinere und größere Varianten",
+      "html": "<ul>\n<li><strong>3 Töne</strong>, 1 2 3 2 1: dieselbe Idee auf weniger Raum.</li>\n<li><strong>5 Töne abwärts</strong>, 5 4 3 2 1: Sie beginnt oben und kommt herunter.</li>\n<li><strong>Dur / Oktave</strong>: die ganze Durtonleiter, wenn die Stimme in Gang ist.</li>\n</ul>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ist die 5-Töne-Übung eine Fünftonleiter?",
+      "a": "<p>Nein. Eine Fünftonleiter, die Pentatonik, hat auch fünf Töne, verteilt sie aber über eine ganze Oktave: Die Dur-Pentatonik lässt den vierten und den siebten Ton der Durtonleiter weg. Das Einsing-Muster sind einfach die ersten fünf Töne der Durtonleiter, direkt nebeneinander. Scalita hat ein eigenes Muster namens Moll-Pentatonik.</p>"
+    },
+    {
+      "q": "Wie hoch sollte ich damit gehen?",
+      "a": "<p>Nur so hoch, wie es leicht bleibt. Scalita hält den höchsten Ton innerhalb des Umfangs, den du gespeichert hast, und du kannst früher aufhören. Die höchste Tonart ist kein Ziel.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Celasun und Keskin (2023). Müzik Eğitimi Anabilim Dallarında Görev Yapan Ses Eğitimcilerinin Kullandıkları Ses Egzersizleri Üzerine Bir Araştırma (eine Studie zu den Stimmübungen von Lehrkräften an musikpädagogischen Fakultäten in der Türkei, auf Türkisch). Uluslararası Anadolu Sosyal Bilimler Dergisi 7(2).",
+      "url": "https://dergipark.org.tr/tr/pub/ulasbid/issue/76634/1266743"
+    },
+    {
+      "label": "Wikipedia (englisch): Solfège, zu festem und beweglichem Do.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "Wikipedia (englisch): Pentatonic scale.",
+      "url": "https://en.wikipedia.org/wiki/Pentatonic_scale"
+    }
+  ],
+  "reviewed": "2026-10-21",
+  "writtenAgainst": "f0b6aa826aa8809d3ea113619988e3cd707c42c921ecce2a5f059fef55905e0d",
+  "scaleId": "five_note",
+  "localBox": null
+}
