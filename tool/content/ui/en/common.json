@@ -19,5 +19,15 @@
   "copyLink": "Copy link",
   "copied": "Link copied",
   "privacyLine": "Nothing is recorded or sent. Your browser listens on your device, and the microphone turns off when you press Stop.",
-  "noScript": "This tool needs JavaScript. Everything else on this page works without it."
+  "noScript": "This tool needs JavaScript. Everything else on this page works without it.",
+  "nothingSent": "Nothing is recorded or sent.",
+  "micOn": "Mic on",
+  "micOff": "Mic off",
+  "level": "Level",
+  "levelGood": "Good",
+  "levelLow": "Low",
+  "levelLoud": "Loud",
+  "pitchTrail": "Pitch trail",
+  "hz": "{hz} Hz",
+  "refPitch": "Ref {note} = 440 Hz"
 }

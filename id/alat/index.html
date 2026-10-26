@@ -20,11 +20,19 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
+  <link rel="manifest" href="/id/site.webmanifest">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/hub.css?v=76042bcc8d">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Alat Bernyanyi Gratis di Browser - Scalita">
   <meta property="og:description" content="Empat alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes ketepatan nada, piano latihan vokal, dan tes passaggio.">
@@ -65,38 +73,22 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/id/" class="logo">
-        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/id/#features">Fitur</a></li>
-        <li><a href="/id/#pricing">Harga</a></li>
-        <li><a href="/id/#download">Unduh</a></li>
-        <li><a href="/id/alat/" aria-current="true">Alat</a></li>
-        <li><a href="/id/panduan/latihan-vokal/">Panduan</a></li>
-        <li><a href="/id/support.html">Bantuan</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Bahasa: Bahasa Indonesia">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Bahasa Indonesia</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--tools">
+  <header class="site-header site-header--tools">
+    <div class="site-header__in">
+      <a class="site-logo" href="/id/" aria-label="Logo Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-switch seg-group" aria-label="Beranda dan alat gratis">
+        <a class="seg seg--home" href="/id/" title="Beranda"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Beranda</span></a>
+        <span class="seg-group__rule" aria-hidden="true"></span>
+        <a class="seg" href="/id/alat/cek-range-vokal/" title="Tes range vokal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span class="seg__full">Tes range vokal</span><span class="seg__short">Range</span></a>
+        <a class="seg" href="/id/alat/cek-suara-fals/" title="Tes ketepatan nada"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span class="seg__full">Tes ketepatan nada</span><span class="seg__short">Ketepatan</span></a>
+        <a class="seg" href="/id/alat/piano-latihan-vokal/" title="Piano latihan vokal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span class="seg__full">Piano latihan vokal</span><span class="seg__short">Piano</span></a>
+        <a class="seg" href="/id/alat/tes-passaggio/" title="Tes passaggio"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span class="seg__full">Tes passaggio</span><span class="seg__short">Peralihan</span></a>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Bahasa: Bahasa Indonesia"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>ID</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/tools/" hreflang="en" lang="en">English</a>
             <a href="/es/herramientas/" hreflang="es" lang="es">Español</a>
             <a href="/fr/outils/" hreflang="fr" lang="fr">Français</a>
@@ -104,14 +96,14 @@
             <a href="/de/tools/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/araclar/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/alat/" hreflang="id" lang="id" aria-current="true">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Unduh aplikasi</span></a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main id="main" class="hub-wrap">
     <nav class="breadcrumb" aria-label="Jejak navigasi">
       <div class="container">
         <ol>
@@ -121,243 +113,156 @@
       </div>
     </nav>
 
-    <div class="container">
-      <article class="prose">
+<div class="hub-title">
 <h1>Alat bernyanyi gratis</h1>
-<p class="lead">Cari jangkauanmu, cek seberapa dekat nyanyianmu dengan sebuah nada, lakukan pemanasan dengan piano asli di nada dasarmu sendiri, dan temukan titik tempat suaramu berpindah. Tidak perlu membuat akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.</p>
+<p class="hub-lead">Empat alat dari aplikasi Scalita, di browser-mu. Suaramu tidak dikirim ke mana pun.</p>
+</div>
 
+<div class="hub-tiles">
+<a class="card tile" href="/id/alat/cek-range-vokal/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span><span class="tile__title">Tes range vokal</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Langkah 1 dari 2: nada terendahmu</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">G2</text><rect class="hub-pv__lane" x="160" y="42" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="64" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="86" width="284" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="108" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="130" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="152" width="284" height="20" rx="3"/><text x="482" y="56" font-size="11" text-anchor="end">A#2</text><text x="482" y="78" font-size="11" text-anchor="end">A2</text><text x="482" y="100" font-size="11" text-anchor="end">G#2</text><text x="482" y="122" font-size="11" class="hub-pv__cur" text-anchor="end">G2</text><text x="482" y="144" font-size="11" text-anchor="end">F#2</text><text x="482" y="166" font-size="11" text-anchor="end">F2</text><polyline class="hub-pv__line" stroke-width="3" points="176,60 200,58 224,66 248,80 272,98 292,112 308,118 330,120 354,118 378,120 402,119 426,120"/><circle class="hub-pv__halo" cx="426" cy="120" r="10"/><circle class="hub-pv__head" cx="426" cy="120" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">G2</text><rect class="hub-pv__lane" x="64" y="10" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="28" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="46" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="64" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="70,18 80,20 90,28 100,40 110,50 120,53 130,52 140,53"/><circle class="hub-pv__head" cx="140" cy="53" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Nada terendah dan tertinggimu, dalam sekitar satu menit.</span><span class="tile__start">Mulai<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/id/alat/cek-suara-fals/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span><span class="tile__title">Tes ketepatan nada</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Nada 1 dari 5</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">A3</text><rect class="hub-pv__band" x="243.5" y="46" width="151" height="20" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="288.8" y="46" width="60.4" height="20" rx="3"/><path class="hub-pv__rule" d="M168 56H470" stroke-width="1.5"/><path class="hub-pv__tick" d="M168 50v12M243.5 52v8M319 48v16M394.5 52v8M470 50v12" stroke-width="1"/><path class="hub-pv__needle" d="M331.08 44v24" stroke-width="3"/><rect class="hub-pv__lane" x="160" y="84" width="290" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="106" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="128" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="150" width="290" height="20" rx="3"/><text x="172" y="120" font-size="11">A3</text><polyline class="hub-pv__line" stroke-width="3" points="300,117 324,115 348,117 372,116 396,117 420,115 444,116"/><circle class="hub-pv__halo" cx="444" cy="116" r="10"/><circle class="hub-pv__head" cx="444" cy="116" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">A3</text><rect class="hub-pv__band" x="84.5" y="12" width="41" height="12" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="96.8" y="12" width="16.4" height="12" rx="3"/><path class="hub-pv__rule" d="M64 18H146" stroke-width="1.5"/><path class="hub-pv__tick" d="M64 14v8M105 12v12M146 14v8" stroke-width="1"/><path class="hub-pv__needle" d="M108.28 10v16" stroke-width="2.2"/><rect class="hub-pv__lane" x="64" y="34" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="52" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="70" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="96,60 106,58 116,59 126,58 136,59 142,58"/><circle class="hub-pv__head" cx="142" cy="58" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Seberapa dekat nyanyianmu dengan nada piano.</span><span class="tile__start">Mulai<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/id/alat/piano-latihan-vokal/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span><span class="tile__title">Piano latihan vokal</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Tanpa mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><text x="24" y="24" font-size="12">5 Nada. 72 bpm, Naik-turun.</text><defs><filter id="hub-kg1" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="4"/></filter></defs><g class="hub-pv__key"><path d="M24 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M56.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M120.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M153.2 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M185.5 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M217.8 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M250.1 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M282.4 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M314.7 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M347 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M379.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M411.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M443.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/></g><path class="hub-pv__glow" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z" filter="url(#hub-kg1)"/><path class="hub-pv__key--on" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><g class="hub-pv__key--b"><path d="M47.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M79.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M144.2 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M176.5 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M208.8 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M273.4 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M305.7 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M370.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M402.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M434.9 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/></g><text x="39.15" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">C4</text><text x="265.25" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">C5</text><text x="24" y="172" font-size="12">Nada dasar 3 dari 18: E4</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg2" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="2.5"/></filter></defs><g class="hub-pv__key"><path d="M6 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M20 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M48 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M62 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M76 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M90 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M104 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M118 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/></g><path class="hub-pv__glow" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z" filter="url(#hub-kg2)"/><path class="hub-pv__key--on" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><g class="hub-pv__key--b"><path d="M15 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M29 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M57 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M71 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M85 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M113 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/></g><text x="12" y="69" font-size="7" class="hub-pv__kl" text-anchor="middle">C4</text><text x="6" y="84" font-size="8">5 Nada. 72 bpm, Naik-turun.</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Tangga nada dan rutinitas aplikasinya, di jangkauanmu.</span><span class="tile__start">Mulai<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/id/alat/tes-passaggio/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg></span><span class="tile__title">Tes passaggio</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Tanpa mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><defs><filter id="hub-kg3" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path class="hub-pv__step" d="M24 110h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M46 100h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M68 90h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__glow" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z" filter="url(#hub-kg3)"/><path class="hub-pv__key--on" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M112 70h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M134 60h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><text x="250" y="24" font-size="12" text-anchor="middle">Peralihan pertama</text><rect class="hub-pv__dash" x="194" y="34" width="112" height="88" rx="20" stroke-width="1.5" stroke-dasharray="4 4"/><text x="250" y="93.4" font-size="44" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">E3</text><rect class="hub-pv__btn" x="112" y="134" width="164" height="36" rx="12" stroke-width="1.5"/><text x="194" y="156.55" font-size="13" class="hub-pv__bt" text-anchor="middle">Terasa berpindah</text><rect class="hub-pv__btn hub-pv__btn--off" x="290" y="134" width="98" height="36" rx="12" stroke-width="1.5"/><text x="339" y="156.55" font-size="13" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Berhenti</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg4" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="2"/></filter></defs><path class="hub-pv__step" d="M6 38h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step" d="M17 32h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__glow" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z" filter="url(#hub-kg4)"/><path class="hub-pv__key--on" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step hub-pv__step--up" d="M39 20h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><text x="98" y="12" font-size="8" text-anchor="middle">Peralihan pertama</text><rect class="hub-pv__dash" x="74" y="16" width="48" height="38" rx="10" stroke-width="1" stroke-dasharray="3 3"/><text x="98" y="42" font-size="20" class="hub-pv__note" text-anchor="middle">E3</text><rect class="hub-pv__btn" x="12.97" y="62" width="80.04" height="20" rx="7" stroke-width="1"/><text x="52.99" y="74.4" font-size="6.86" class="hub-pv__bt" text-anchor="middle">Terasa berpindah</text><rect class="hub-pv__btn hub-pv__btn--off" x="99.01" y="62" width="46.02" height="20" rx="7" stroke-width="1"/><text x="122.02" y="74.4" font-size="6.86" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Berhenti</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Titik tempat suaramu berpindah gigi, saat piano naik.</span><span class="tile__start">Mulai<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+</div>
+
+<a class="hub-newhere" href="#start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/></svg><span>Baru pertama kali? Mulai dari sini</span></a>
+
+<section class="hub-ref" aria-labelledby="hub-ref-h">
+<div class="hub-ref__main">
+<div class="hub-ref__head">
+<p class="hub-kicker">Referensi</p>
+<h2 id="hub-ref-h">Tentang alat-alat ini</h2>
+<p class="hub-ref__date">Ditinjau 21 Oktober 2026</p>
+</div>
+<details class="acc acc--list hub-sec hub-sec--intro" open>
+<summary class="acc__head"><h3>Dua aturan untuk semuanya</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Keempat alat ini berasal dari Scalita, aplikasi pemanasan vokal untuk Android. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasi itu sendiri, dan berjalan di browser, baik di ponsel maupun di komputer.</p><p>Ada dua aturan yang berlaku untuk semuanya. Sebuah alat hanya mendengarkan atau hanya memainkan piano, tidak pernah keduanya sekaligus, jadi kamu tidak perlu headphone. Dan saat sebuah alat mendengarkan, browser-mu yang mengerjakannya di perangkatmu: tidak ada yang direkam atau dikirim ke mana pun.</p>
-
-<ul class="hub-cards">
-  <li><a class="hub-card" href="/id/alat/cek-range-vokal/"><h3>Tes range vokal</h3><p>Nyanyikan nada terendah dan tertinggimu, lalu lihat range vokalmu dalam nada dan oktaf, serta jenis suara yang umum untuknya. Gratis, di browser.</p></a></li>
-  <li><a class="hub-card" href="/id/alat/cek-suara-fals/"><h3>Tes ketepatan nada</h3><p>Dengarkan satu nada piano, nyanyikan kembali, dan lihat berapa sen selisihnya. Tes ketepatan nada dan tuner vokal gratis yang berjalan di browser.</p></a></li>
-  <li><a class="hub-card" href="/id/alat/piano-latihan-vokal/"><h3>Piano latihan vokal</h3><p>Tangga nada dan rutinitas pemanasan dengan piano asli, dimainkan di jangkauanmu: pilih jenis suara atau nada terendah dan tertinggimu sendiri. Gratis.</p></a></li>
-  <li><a class="hub-card" href="/id/alat/tes-passaggio/"><h3>Tes passaggio</h3><p>Ikut bernyanyi saat piano naik dan ketuk saat suaramu berpindah. Kamu mendapat passaggio pertamamu dan jenis suara dengan peralihan terdekat. Tanpa mikrofon.</p></a></li>
-</ul>
-
-<section>
-<h2>Mulai dari mana</h2>
+</div>
+</details>
+<section class="hub-start" id="start">
+<h3>Mulai dari mana</h3>
 <p>Kalau kamu baru mulai, ikuti urutan ini:</p><ol><li><a href="/id/alat/cek-range-vokal/">Tes range vokal</a>: jangkauan vokalmu, dari nada terendah sampai tertinggi yang nyaman, dalam sekitar satu menit.</li><li><a href="/id/alat/tes-passaggio/">Tes passaggio</a>: peralihan registermu, titik tempat suaramu berpindah gigi, yang lebih banyak bercerita tentang jenis suaramu daripada jangkauanmu.</li><li><a href="/id/alat/piano-latihan-vokal/">Piano latihan vokal</a>: tangga nada dan rutinitas dari aplikasi, dimainkan di jangkauanmu.</li><li><a href="/id/alat/cek-suara-fals/">Tes ketepatan nada</a>: setelah pemanasan, seberapa dekat kamu mendarat di nada yang baru saja kamu dengar.</li></ol>
 </section>
-
-<section>
-<h2>Saat alat mendengarkan</h2>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>Saat alat mendengarkan</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Tes range vokal dan tes ketepatan nada memakai mikrofonmu. Keduanya baru memintanya setelah kamu menekan Mulai, membaca nada suaramu saat suara itu masuk, dan tidak menyimpan apa pun. Tekan Berhenti atau tinggalkan halaman, dan mikrofon mati. Piano latihan vokal dan tes passaggio tidak pernah memakainya.</p><p>Mikrofon bisa dipakai di Chrome, Safari, Firefox, atau Edge versi terbaru. Mikrofon tidak bisa dipakai di browser bawaan aplikasi seperti Instagram, TikTok, Facebook, atau Gmail, jadi kalau kamu sampai di sini dari salah satunya, buka dulu halaman ini di browser ponselmu.</p>
-</section>
-
-<section>
-<h2>Yang tidak akan dikatakan alat-alat ini</h2>
+</div>
+</details>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>Yang tidak akan dikatakan alat-alat ini</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Tidak satu pun alat ini menilai suaramu. Semuanya mengukur nada: nada mana yang bisa kamu capai, di mana suaramu berpindah, dan seberapa dekat kamu mendarat di sebuah nada. Alat-alat ini tidak menilai warna suaramu, tidak membandingkanmu dengan orang lain, dan tidak menebak jenis suaramu dari caramu berbicara. Sebuah hasil adalah bacaan dari satu saat, dan besok suaramu bisa terbaca sedikit berbeda.</p>
-</section>
-
+</div>
+</details>
 <section class="faq">
-<h2>Pertanyaan umum</h2>
-<div class="faq-item">
-<h3>Apakah alat-alat ini gratis?</h3>
+<h3>Pertanyaan umum</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Apakah alat-alat ini gratis?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Ya. Tidak perlu akun, tidak perlu email, dan tidak ada iklan. Alat-alat ini berguna dengan sendirinya, dan sekaligus menunjukkan apa yang dilakukan aplikasi Scalita.</p>
 </div>
-<div class="faq-item">
-<h3>Apakah bisa dipakai di iPhone?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Apakah bisa dipakai di iPhone?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Alat-alat ini berjalan di browser, jadi bisa dipakai di iPhone, ponsel Android, atau komputer, asalkan browser-nya versi terbaru. Aplikasi Scalita sendiri untuk saat ini hanya ada di Android.</p>
 </div>
-<div class="faq-item">
-<h3>Apakah perlu headphone?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Apakah perlu headphone?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Tidak. Alat yang memainkan piano tidak mendengarkan pada saat yang sama, dan alat yang mendengarkan tidak memainkan apa pun, jadi mikrofon hanya mendengar suaramu.</p>
 </div>
-<div class="faq-item">
-<h3>Apakah ada yang disimpan?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Apakah ada yang disimpan?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Hanya di perangkatmu. Tes range vokal, tes ketepatan nada, dan tes passaggio mengingat hasil terakhirmu di browser ini, supaya kamu bisa membandingkannya lain kali. Menghapus data situs ini di pengaturan browser akan menghapusnya.</p>
 </div>
+</details>
 </section>
-
-<aside class="cta-block">
-  <h2>Latih ini di Scalita</h2>
-  <p>Scalita gratis di Android. Aplikasinya mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasar yang pas untukmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor. Mode Adaptif menyusun pemanasan sambil jalan, sesuai dengan yang kamu rasakan di setiap latihan.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=id&amp;referrer=utm_source%3Dscalita_id%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener">Unduh Scalita di Google Play</a></p>
-  <p class="cta-block__other">Pakai iPhone atau komputer? Untuk saat ini aplikasinya hanya ada di Android, tapi semua yang ada di halaman ini bisa dipakai di browser.</p>
+</div>
+<aside class="hub-aside" aria-labelledby="hub-guides-h">
+<h3 class="hub-kicker" id="hub-guides-h">Panduan pendamping</h3>
+<ul class="hub-aside__list">
+<li><a class="aside__row" href="/id/panduan/latihan-vokal/"><span>Pemanasan vokal</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/id/panduan/jenis-suara/"><span>Jenis suara</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/id/panduan/suara-pecah-saat-bernyanyi/"><span>Suara pecah dan passaggio</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/id/panduan/suara-kepala-dan-suara-dada/"><span>Suara kepala dan suara dada</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/id/panduan/not-angka-not-huruf/"><span>Nama nada dan oktaf</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+</ul>
+<a class="hub-allguides" href="/id/panduan/latihan-vokal/">Semua 9 panduan<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </aside>
-
-<aside class="related">
-  <h2>Halaman terkait</h2>
-  <ul>
-    <li><a href="/id/panduan/latihan-vokal/">Pemanasan vokal</a></li>
-    <li><a href="/id/panduan/jenis-suara/">Jenis suara</a></li>
-    <li><a href="/id/panduan/not-angka-not-huruf/">Nama nada dan oktaf</a></li>
-    <li><a href="/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/">Latihan 5 nada</a></li>
-  </ul>
-</aside>
+</section>
 
 <aside class="byline">
   <img src="/images/pablo.jpg" alt="" width="80" height="80" loading="lazy">
   <p class="byline__name">Pablo Dominguez</p>
   <p class="byline__line">Penyanyi, sudah lima tahun belajar vokal kontemporer. Dia yang membuat Scalita.</p>
 </aside>
-      </article>
+
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">Aplikasi di balik semua alat ini</h2><span class="pill pill--tag">Gratis</span></div>
+    <p class="band__body">Scalita mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor. Offline, tanpa iklan, tanpa akun.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=id&amp;referrer=utm_source%3Dscalita_id%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Unduh Scalita di Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Segera hadir</span></button>
     </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/id/home.jpg" width="560" height="1125" loading="lazy" alt="Layar beranda Scalita"></div>
+</section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/id/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo Scalita" width="28" height="28">
-            Scalita
-          </a>
-          <p>Tangga nada sederhana. Piano asli. Tanpa basa-basi. Dibuat dengan benci untuk penyanyi di mana pun.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Produk</h4>
-          <ul>
-            <li><a href="/id/#features">Fitur</a></li>
-            <li><a href="/id/#pricing">Harga</a></li>
-            <li><a href="/id/#download">Unduh</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Alat gratis</h4>
-          <ul>
-            <li><a href="/id/alat/">Alat gratis</a></li>
-            <li><a href="/id/alat/cek-range-vokal/">Tes range vokal</a></li>
-            <li><a href="/id/alat/cek-suara-fals/">Tes ketepatan nada</a></li>
-            <li><a href="/id/alat/piano-latihan-vokal/">Piano latihan vokal</a></li>
-            <li><a href="/id/alat/tes-passaggio/">Tes passaggio</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Panduan</h4>
-          <ul>
-            <li><a href="/id/panduan/latihan-vokal/">Pemanasan vokal</a></li>
-            <li><a href="/id/panduan/jenis-suara/">Jenis suara</a></li>
-            <li><a href="/id/panduan/pemanasan-vokal-cepat/">Pemanasan cepat</a></li>
-            <li><a href="/id/panduan/pemanasan-vokal-sebelum-bernyanyi/">Pemanasan lengkap</a></li>
-            <li><a href="/id/panduan/pendinginan-vokal/">Pendinginan vokal</a></li>
-            <li><a href="/id/panduan/lip-trill/">Lip trill dan tongue trill</a></li>
-            <li><a href="/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/">Latihan 5 nada</a></li>
-            <li><a href="/id/panduan/suara-pecah-saat-bernyanyi/">Suara pecah dan passaggio</a></li>
-            <li><a href="/id/panduan/suara-kepala-dan-suara-dada/">Suara kepala dan suara dada</a></li>
-            <li><a href="/id/panduan/not-angka-not-huruf/">Nama nada dan oktaf</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="/id/privacy.html">Kebijakan Privasi</a></li>
-            <li><a href="/id/terms.html">Ketentuan Layanan</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Bantuan</h4>
-          <ul>
-            <li><a href="/id/support.html">Bantuan dan kontak</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Dukung di Ko-fi</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer site-footer--compact">
+    <div class="site-footer__in">
+      <div class="site-footer__row">
+        <a class="site-logo site-logo--sm" href="/id/" aria-label="Logo Scalita"><svg width="24" height="24" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+        <nav class="site-footer__nav" aria-label="Situs">
+          <a href="/id/" class="site-footer__home">Beranda</a>
+          <a href="/id/alat/">Alat gratis</a>
+          <a href="/id/panduan/latihan-vokal/">Panduan</a>
+          <a href="/id/support.html">Bantuan dan kontak</a>
+          <a href="/id/privacy.html">Kebijakan Privasi</a>
+          <a href="/id/terms.html">Ketentuan Layanan</a>
+          <a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Dukung di Ko-fi</a>
+        </nav>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Hak cipta dilindungi undang-undang.</p>
-        <p>Dibuat dengan benci oleh <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <p class="site-footer__credit">Piano: Salamander Grand Piano V3 karya Alexander Holm, dengan lisensi <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Ditala ulang, dipendekkan, dan dikompresi untuk situs ini.</p>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Hak cipta dilindungi undang-undang.</p><p>Dibuat dengan benci oleh <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
+  <nav class="site-tabbar" aria-label="Beranda dan alat gratis">
+    <a class="site-tab" href="/id/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Beranda</span></a>
+    <a class="site-tab" href="/id/alat/cek-range-vokal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span>Range</span></a>
+    <a class="site-tab" href="/id/alat/cek-suara-fals/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Ketepatan</span></a>
+    <a class="site-tab" href="/id/alat/piano-latihan-vokal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span>Piano</span></a>
+    <a class="site-tab" href="/id/alat/tes-passaggio/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span>Peralihan</span></a>
+  </nav>
 
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"}}</script>
 </body>
 </html>

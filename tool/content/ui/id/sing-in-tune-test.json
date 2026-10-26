@@ -1,7 +1,7 @@
 {
   "modes": {
     "label": "Mode",
-    "sing": "Nyanyikan nada ini",
+    "sing": "Nyanyikan nada",
     "tuner": "Tuner bebas",
     "ear": "Cek dengar"
   },
@@ -20,7 +20,7 @@
     "noteOf": "Nada {n} dari {total}",
     "listen": "Dengarkan pianonya.",
     "now": "Sekarang nyanyikan kembali, lalu tahan.",
-    "again": "Dengar lagi",
+    "again": "Putar lagi",
     "notHeard": "Tidak terdengar, jadi nada ini tidak dihitung.",
     "measured": "Nada {n}: {offset}"
   },
@@ -61,11 +61,12 @@
     "tooFew": "Mikrofon mendengar {judged} dari {total} nada dengan jelas, terlalu sedikit untuk diukur. Coba lagi sedikit lebih keras atau lebih dekat ke mikrofon. Humming juga bisa.",
     "last": "{label}: {cents}, {date}",
     "again": "Putaran lagi",
-    "ctaBody": "Latihan Ketepatan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada yang bergerak langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
+    "ctaBody": "Latihan Ketepatan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
     "ctaButton": "Unduh Scalita di Google Play"
   },
   "tuner": {
-    "hint": "Nyanyikan nada apa saja, atau lakukan humming."
+    "hint": "Nyanyikan nada apa saja, atau lakukan humming.",
+    "nearest": "Nada terdekat"
   },
   "ear": {
     "label": "Lebih tinggi atau lebih rendah",
@@ -73,7 +74,7 @@
     "question": "Apakah nada kedua lebih tinggi atau lebih rendah?",
     "higher": "Lebih tinggi",
     "lower": "Lebih rendah",
-    "again": "Dengar lagi",
+    "again": "Putar lagi",
     "wentUp": "Nada kedua lebih tinggi, naik {step}.",
     "wentDown": "Nada kedua lebih rendah, turun {step}.",
     "score": "Kamu menangkap arah {right} dari {total} pasangan.",
@@ -82,5 +83,22 @@
     "toSing": "Nyanyikan kembali sebuah nada"
   },
   "meter": "Level mikrofon",
-  "pianoFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi."
+  "pianoFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi.",
+  "pianoPlayed": "Nada dari piano",
+  "cents": "Sen",
+  "share": {
+    "title": "Ketepatan nadaku",
+    "cents": "sen",
+    "typical": "Selisih tipikal dengan nadanya, dari {n} nada",
+    "within10": "{n} dari {total} dalam 10 sen",
+    "within25": "{n} dari {total} dalam 25 sen",
+    "wobble": "Goyangan {cents}",
+    "bandClose": "dalam 25 sen",
+    "bandIn": "dalam 10 sen",
+    "theNote": "nadanya",
+    "lines": "Setiap garis adalah suaraku sendiri yang mendarat di sebuah nada. Satu sen adalah seperseratus setengah nada.",
+    "ask": "Seberapa tepat nadamu?",
+    "text": "Selisih tipikal nadaku {cents} dari {n} nada. Kamu bisa mengetes punyamu gratis di browser:",
+    "fileName": "ketepatan-nadaku"
+  }
 }

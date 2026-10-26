@@ -19,5 +19,15 @@
   "copyLink": "Copier le lien",
   "copied": "Lien copié",
   "privacyLine": "Rien n'est enregistré ni envoyé. Ton navigateur écoute sur ton appareil, et le micro se coupe quand tu appuies sur Arrêter.",
-  "noScript": "Cet outil a besoin de JavaScript. Tout le reste de la page fonctionne sans."
+  "noScript": "Cet outil a besoin de JavaScript. Tout le reste de la page fonctionne sans.",
+  "nothingSent": "Rien n'est enregistré ni envoyé.",
+  "micOn": "Micro ouvert",
+  "micOff": "Micro coupé",
+  "level": "Niveau",
+  "levelGood": "Bon",
+  "levelLow": "Faible",
+  "levelLoud": "Fort",
+  "pitchTrail": "Tracé de justesse",
+  "hz": "{hz} Hz",
+  "refPitch": "Réf. {note} = 440 Hz"
 }

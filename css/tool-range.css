@@ -1,0 +1,282 @@
+/* The vocal range test's panes (vocal-range-test.js, vocal-range-run.js).
+   Spec 3.9; the shared pieces are style.css */
+
+.rt-idle,
+.rt-listening,
+.rt-manual,
+.rt-result {
+  align-items: stretch;
+  justify-content: flex-start;
+  text-align: left;
+}
+
+.rt-kicker {
+  color: var(--soft);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.rt-idle__intro {
+  max-width: 560px;
+  margin-top: 6px;
+  color: var(--soft);
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.rt-idle-art {
+  position: relative;
+  flex: 1 1 auto;
+  min-height: 220px;
+  margin-top: 16px;
+  border: 1px solid var(--mist);
+  border-radius: var(--r);
+  background: var(--base);
+}
+
+.rt-idle-art::before,
+.rt-idle-art::after {
+  content: '';
+  position: absolute;
+  inset: 12px;
+}
+
+.rt-idle-art::before {
+  opacity: 0.75;
+  background: linear-gradient(rgba(45, 55, 58, 0.5) calc(100% - 1px), transparent 0) 0 0 / 100% 10%;
+}
+
+.rt-idle-art::after {
+  inset: 55% 36px auto;
+  border-top: 2px dashed var(--mist);
+}
+
+.rt-idle-art__go {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 16px;
+  text-align: center;
+}
+
+.rt-idle__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0 16px;
+  margin-top: 12px;
+}
+
+.rt-nomic,
+.rt-aside {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  border: 0;
+  background: none;
+  color: var(--glow);
+  font-size: 13px;
+  font-weight: 500;
+  text-align: left;
+  text-decoration: none;
+}
+
+.rt-aside {
+  color: var(--soft);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rt-nomic:hover,
+.rt-aside:hover {
+  color: var(--cream);
+}
+
+.rt-last {
+  margin-top: 4px;
+  color: var(--soft);
+  font-size: 12px;
+}
+
+.rt-inapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 560px;
+  margin: auto;
+  color: var(--cream);
+  font-size: 15px;
+  text-align: center;
+}
+
+.rt-inapp,
+.rt-error,
+.rt-manual {
+  gap: 14px;
+}
+
+/* no layout shift: room kept, the knob moved by transform */
+.rt-listening .notebox > * {
+  width: 100%;
+}
+
+.rt-listening .note-target__name {
+  line-height: 104px;
+}
+
+.rt-listening .tool-panel__actions {
+  align-self: stretch;
+}
+
+.rt-listening .live-dot {
+  display: inline-block;
+  visibility: hidden;
+}
+
+.tool-panel__state--listening .live-dot {
+  visibility: visible;
+}
+
+/* a .tool-panel__hint too (a test hook) */
+.tool-panel .rt-line {
+  max-width: 640px;
+  color: var(--cream);
+  font-size: 17px;
+}
+
+.rt-manual__title {
+  font-size: 17px;
+  line-height: 1.4;
+}
+
+.rt-chosen {
+  color: var(--soft);
+  font-size: 12px;
+}
+
+.tool-panel .rt-res {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.rt-res > *,
+.rt-res .result-card__note {
+  margin: 0;
+}
+
+.rt-res__keys {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 0;
+}
+
+.rt-res .key {
+  font-size: 9px;
+}
+
+.rt-status {
+  color: var(--soft);
+  font-size: 13px;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.rt-thumb {
+  flex: none;
+  width: 96px;
+  aspect-ratio: 9 / 16;
+  line-height: 0;
+}
+
+.rt-next {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.rt-next > * {
+  flex: 1 1 auto;
+}
+
+@media (min-width: 960px) {
+  /* the result in the middle of the stage's room, its buttons their own width */
+  .rt-result {
+    justify-content: center;
+  }
+
+  .rt-share .share-card__actions {
+    justify-content: flex-start;
+  }
+
+  .rt-share .btn {
+    flex: none;
+  }
+
+  .tool-panel .rt-res {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: "head keys" "mean keys" "cta keys" ". next";
+    align-items: start;
+    gap: 20px 32px;
+    max-width: none;
+  }
+
+  .rt-res__head { grid-area: head; }
+  .rt-res__keys { grid-area: keys; }
+  .rt-res .result__meaning { grid-area: mean; }
+  .rt-next { grid-area: next; }
+  .rt-res .result__cta { grid-area: cta; }
+}
+
+@media (max-width: 599.98px) {
+  .rt-idle-art {
+    min-height: 200px;
+  }
+
+  .rt-notecol {
+    display: grid;
+    grid-template-columns: auto minmax(0, 176px);
+    grid-template-areas: "box kick" "box hold";
+    justify-content: center;
+    align-items: center;
+    gap: 10px 16px;
+  }
+
+  .rt-notecol .notebox { grid-area: box; }
+  .rt-notecol .rt-kicker { grid-area: kick; align-self: end; }
+
+  .rt-notecol .hold {
+    grid-area: hold;
+    align-self: start;
+    width: auto;
+  }
+
+  .rt-notecol .hold__label {
+    text-align: left;
+  }
+
+  .tool-panel .rt-line {
+    font-size: 15px;
+  }
+
+  .rt-listening .note-target__name {
+    line-height: 60px;
+  }
+
+  .rt-thumb {
+    display: none;
+  }
+}

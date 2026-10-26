@@ -20,11 +20,19 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
+  <link rel="manifest" href="/site.webmanifest">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/hub.css?v=76042bcc8d">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Free Singing Tools in Your Browser - Scalita">
   <meta property="og:description" content="Four free tools for singers that run in your browser: a vocal range test, a sing-in-tune test, a warm-up piano and a voice break finder.">
@@ -65,38 +73,22 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/" class="logo">
-        <img src="/images/logo.svg" alt="Scalita logo" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/#features">Features</a></li>
-        <li><a href="/#pricing">Pricing</a></li>
-        <li><a href="/#download">Download</a></li>
-        <li><a href="/tools/" aria-current="true">Tools</a></li>
-        <li><a href="/guides/vocal-warm-ups/">Guides</a></li>
-        <li><a href="/support.html">Support</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Language: English">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>English</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--tools">
+  <header class="site-header site-header--tools">
+    <div class="site-header__in">
+      <a class="site-logo" href="/" aria-label="Scalita logo"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-switch seg-group" aria-label="Home and the free tools">
+        <a class="seg seg--home" href="/" title="Home"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Home</span></a>
+        <span class="seg-group__rule" aria-hidden="true"></span>
+        <a class="seg" href="/tools/vocal-range-test/" title="Vocal range test"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span class="seg__full">Vocal range test</span><span class="seg__short">Range</span></a>
+        <a class="seg" href="/tools/sing-in-tune-test/" title="Sing-in-tune test"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span class="seg__full">Sing-in-tune test</span><span class="seg__short">Tune</span></a>
+        <a class="seg" href="/tools/warm-up-piano/" title="Warm-up piano"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span class="seg__full">Warm-up piano</span><span class="seg__short">Piano</span></a>
+        <a class="seg" href="/tools/voice-break-finder/" title="Voice break finder"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span class="seg__full">Voice break finder</span><span class="seg__short">Break</span></a>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Language: English"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>EN</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/tools/" hreflang="en" lang="en" aria-current="true">English</a>
             <a href="/es/herramientas/" hreflang="es" lang="es">Español</a>
             <a href="/fr/outils/" hreflang="fr" lang="fr">Français</a>
@@ -104,14 +96,14 @@
             <a href="/de/tools/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/araclar/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/alat/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Get the app</span></a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main id="main" class="hub-wrap">
     <nav class="breadcrumb" aria-label="Breadcrumb">
       <div class="container">
         <ol>
@@ -121,243 +113,156 @@
       </div>
     </nav>
 
-    <div class="container">
-      <article class="prose">
+<div class="hub-title">
 <h1>Free singing tools</h1>
-<p class="lead">Find your range, check how close you sing to a note, warm up on a real piano in your own keys, and find where your voice shifts. There's no account to make, and nothing you sing leaves your device.</p>
+<p class="hub-lead">Four from the app, in your browser. Nothing you sing leaves your device.</p>
+</div>
 
+<div class="hub-tiles">
+<a class="card tile" href="/tools/vocal-range-test/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span><span class="tile__title">Vocal range test</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Microphone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Step 1 of 2: your lowest note</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">G2</text><rect class="hub-pv__lane" x="160" y="42" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="64" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="86" width="284" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="108" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="130" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="152" width="284" height="20" rx="3"/><text x="482" y="56" font-size="11" text-anchor="end">A#2</text><text x="482" y="78" font-size="11" text-anchor="end">A2</text><text x="482" y="100" font-size="11" text-anchor="end">G#2</text><text x="482" y="122" font-size="11" class="hub-pv__cur" text-anchor="end">G2</text><text x="482" y="144" font-size="11" text-anchor="end">F#2</text><text x="482" y="166" font-size="11" text-anchor="end">F2</text><polyline class="hub-pv__line" stroke-width="3" points="176,60 200,58 224,66 248,80 272,98 292,112 308,118 330,120 354,118 378,120 402,119 426,120"/><circle class="hub-pv__halo" cx="426" cy="120" r="10"/><circle class="hub-pv__head" cx="426" cy="120" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">G2</text><rect class="hub-pv__lane" x="64" y="10" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="28" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="46" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="64" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="70,18 80,20 90,28 100,40 110,50 120,53 130,52 140,53"/><circle class="hub-pv__head" cx="140" cy="53" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Your lowest and highest note, in about a minute.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/tools/sing-in-tune-test/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span><span class="tile__title">Sing-in-tune test</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Microphone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Note 1 of 5</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">A3</text><rect class="hub-pv__band" x="243.5" y="46" width="151" height="20" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="288.8" y="46" width="60.4" height="20" rx="3"/><path class="hub-pv__rule" d="M168 56H470" stroke-width="1.5"/><path class="hub-pv__tick" d="M168 50v12M243.5 52v8M319 48v16M394.5 52v8M470 50v12" stroke-width="1"/><path class="hub-pv__needle" d="M331.08 44v24" stroke-width="3"/><rect class="hub-pv__lane" x="160" y="84" width="290" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="106" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="128" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="150" width="290" height="20" rx="3"/><text x="172" y="120" font-size="11">A3</text><polyline class="hub-pv__line" stroke-width="3" points="300,117 324,115 348,117 372,116 396,117 420,115 444,116"/><circle class="hub-pv__halo" cx="444" cy="116" r="10"/><circle class="hub-pv__head" cx="444" cy="116" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">A3</text><rect class="hub-pv__band" x="84.5" y="12" width="41" height="12" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="96.8" y="12" width="16.4" height="12" rx="3"/><path class="hub-pv__rule" d="M64 18H146" stroke-width="1.5"/><path class="hub-pv__tick" d="M64 14v8M105 12v12M146 14v8" stroke-width="1"/><path class="hub-pv__needle" d="M108.28 10v16" stroke-width="2.2"/><rect class="hub-pv__lane" x="64" y="34" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="52" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="70" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="96,60 106,58 116,59 126,58 136,59 142,58"/><circle class="hub-pv__head" cx="142" cy="58" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">How close you land to a note you've just heard.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/tools/warm-up-piano/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span><span class="tile__title">Warm-up piano</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>No microphone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><text x="24" y="24" font-size="12">5 Note. 72 bpm, Mirror.</text><defs><filter id="hub-kg1" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="4"/></filter></defs><g class="hub-pv__key"><path d="M24 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M56.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M120.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M153.2 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M185.5 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M217.8 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M250.1 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M282.4 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M314.7 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M347 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M379.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M411.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M443.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/></g><path class="hub-pv__glow" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z" filter="url(#hub-kg1)"/><path class="hub-pv__key--on" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><g class="hub-pv__key--b"><path d="M47.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M79.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M144.2 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M176.5 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M208.8 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M273.4 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M305.7 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M370.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M402.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M434.9 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/></g><text x="39.15" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">C4</text><text x="265.25" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">C5</text><text x="24" y="172" font-size="12">Key 3 of 18: E4</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg2" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="2.5"/></filter></defs><g class="hub-pv__key"><path d="M6 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M20 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M48 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M62 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M76 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M90 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M104 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M118 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/></g><path class="hub-pv__glow" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z" filter="url(#hub-kg2)"/><path class="hub-pv__key--on" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><g class="hub-pv__key--b"><path d="M15 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M29 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M57 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M71 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M85 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M113 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/></g><text x="12" y="69" font-size="7" class="hub-pv__kl" text-anchor="middle">C4</text><text x="6" y="84" font-size="8">5 Note. 72 bpm, Mirror.</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Scales and routines from the app, in your range.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/tools/voice-break-finder/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg></span><span class="tile__title">Voice break finder</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>No microphone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><defs><filter id="hub-kg3" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path class="hub-pv__step" d="M24 110h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M46 100h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M68 90h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__glow" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z" filter="url(#hub-kg3)"/><path class="hub-pv__key--on" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M112 70h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M134 60h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><text x="250" y="24" font-size="12" text-anchor="middle">First shift</text><rect class="hub-pv__dash" x="194" y="34" width="112" height="88" rx="20" stroke-width="1.5" stroke-dasharray="4 4"/><text x="250" y="93.4" font-size="44" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">E3</text><rect class="hub-pv__btn" x="112" y="134" width="164" height="36" rx="12" stroke-width="1.5"/><text x="194" y="156.55" font-size="13" class="hub-pv__bt" text-anchor="middle">I felt the shift</text><rect class="hub-pv__btn hub-pv__btn--off" x="290" y="134" width="98" height="36" rx="12" stroke-width="1.5"/><text x="339" y="156.55" font-size="13" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Stop</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg4" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="2"/></filter></defs><path class="hub-pv__step" d="M6 38h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step" d="M17 32h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__glow" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z" filter="url(#hub-kg4)"/><path class="hub-pv__key--on" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step hub-pv__step--up" d="M39 20h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><text x="98" y="12" font-size="8" text-anchor="middle">First shift</text><rect class="hub-pv__dash" x="74" y="16" width="48" height="38" rx="10" stroke-width="1" stroke-dasharray="3 3"/><text x="98" y="42" font-size="20" class="hub-pv__note" text-anchor="middle">E3</text><rect class="hub-pv__btn" x="14.4" y="62" width="91.36" height="20" rx="7" stroke-width="1"/><text x="60.08" y="74.8" font-size="8" class="hub-pv__bt" text-anchor="middle">I felt the shift</text><rect class="hub-pv__btn hub-pv__btn--off" x="111.76" y="62" width="31.84" height="20" rx="7" stroke-width="1"/><text x="127.68" y="74.8" font-size="8" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Stop</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Where your voice changes gear, as the piano climbs.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+</div>
+
+<a class="hub-newhere" href="#start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/></svg><span>New to this? Where to start</span></a>
+
+<section class="hub-ref" aria-labelledby="hub-ref-h">
+<div class="hub-ref__main">
+<div class="hub-ref__head">
+<p class="hub-kicker">Reference</p>
+<h2 id="hub-ref-h">About the tools</h2>
+<p class="hub-ref__date">Reviewed 20 October 2026</p>
+</div>
+<details class="acc acc--list hub-sec hub-sec--intro" open>
+<summary class="acc__head"><h3>Two rules for all of them</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>These four tools come from Scalita, a vocal warm-up app for Android. They use the app's own pitch reading, its piano and its exercises, and they run in your browser on a phone or a computer.</p><p>Two rules hold for all of them. A tool either listens or plays the piano, never both at once, so you don't need headphones. And when a tool listens, your browser does the work on your device: nothing is recorded or sent anywhere.</p>
-
-<ul class="hub-cards">
-  <li><a class="hub-card" href="/tools/vocal-range-test/"><h3>Vocal range test</h3><p>Sing or hum your lowest and highest notes and see your vocal range in notes and octaves, with the voice types it's typical for. Free, in your browser.</p></a></li>
-  <li><a class="hub-card" href="/tools/sing-in-tune-test/"><h3>Sing-in-tune test</h3><p>Am I tone deaf? Hear a piano note, sing it back and see how many cents you landed from it: a free pitch-matching test and voice tuner in your browser.</p></a></li>
-  <li><a class="hub-card" href="/tools/warm-up-piano/"><h3>Warm-up piano</h3><p>Vocal warm-up scales and routines on a real piano, played in your range: choose a voice type or your own lowest and highest notes. Free, in your browser.</p></a></li>
-  <li><a class="hub-card" href="/tools/voice-break-finder/"><h3>Voice break finder</h3><p>Sing along as the piano climbs and tap where your voice shifts. You get your first passaggio and the voice type whose break sits nearest. No microphone needed.</p></a></li>
-</ul>
-
-<section>
-<h2>Where to start</h2>
+</div>
+</details>
+<section class="hub-start" id="start">
+<h3>Where to start</h3>
 <p>If you're new to this, go in this order:</p><ol><li><a href="/tools/vocal-range-test/">Vocal range test</a>: your lowest and highest comfortable notes, in about a minute.</li><li><a href="/tools/voice-break-finder/">Voice break finder</a>: where your voice changes gear, which says more about your voice type than your range does.</li><li><a href="/tools/warm-up-piano/">Warm-up piano</a>: scales and routines from the app, played in your range.</li><li><a href="/tools/sing-in-tune-test/">Sing-in-tune test</a>: once you're warm, how close you land to a note you've just heard.</li></ol>
 </section>
-
-<section>
-<h2>When a tool listens</h2>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>When a tool listens</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>The range test and the sing-in-tune test use your microphone. They ask for it only after you press Start, read the pitch of your voice as it comes in, and keep nothing. Press Stop or leave the page and the microphone turns off. The warm-up piano and the voice break finder never use it.</p><p>The microphone works in a recent Chrome, Safari, Firefox or Edge. It doesn't work in the browsers built into apps like Instagram, TikTok, Facebook or Gmail, so if you got here from one of those, open the page in your phone's browser first.</p>
-</section>
-
-<section>
-<h2>What they won't tell you</h2>
+</div>
+</details>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>What they won't tell you</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>None of these tools rates your voice. They measure pitch: which notes you reach, where your voice shifts, how close you land to a note. They don't grade your tone, compare you with other people or guess your voice type from how you speak. A result is a reading of one moment, and your voice may read a little differently tomorrow.</p>
-</section>
-
+</div>
+</details>
 <section class="faq">
-<h2>Common questions</h2>
-<div class="faq-item">
-<h3>Are the tools free?</h3>
+<h3>Common questions</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Are the tools free?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Yes. There's no account, no email and no ads. They're useful on their own, and they show what the Scalita app does.</p>
 </div>
-<div class="faq-item">
-<h3>Do they work on an iPhone?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Do they work on an iPhone?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>They run in the browser, so they work on an iPhone, an Android phone or a computer, as long as the browser is recent. The Scalita app itself is Android only for now.</p>
 </div>
-<div class="faq-item">
-<h3>Do I need headphones?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Do I need headphones?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>No. A tool that plays the piano isn't listening at the same time, and one that listens doesn't play, so the microphone only ever hears you.</p>
 </div>
-<div class="faq-item">
-<h3>Is anything saved?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Is anything saved?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Only on your device. The range test, the sing-in-tune test and the voice break finder remember your last result in this browser, so you can compare next time. Clearing this site's data in your browser settings removes it.</p>
 </div>
+</details>
 </section>
-
-<aside class="cta-block">
-  <h2>Practice this in Scalita</h2>
-  <p>Scalita is free on Android. It remembers your range, plays every exercise on a real piano in your key, and with earphones in it draws your pitch as you sing and scores each scale. Adaptive Mode builds the warm-up as you go, from how each exercise felt.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;referrer=utm_source%3Dscalita_en%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener">Get Scalita on Google Play</a></p>
-  <p class="cta-block__other">On an iPhone or a computer? The app is Android only for now, but everything on this page works in your browser.</p>
+</div>
+<aside class="hub-aside" aria-labelledby="hub-guides-h">
+<h3 class="hub-kicker" id="hub-guides-h">Guides that go with them</h3>
+<ul class="hub-aside__list">
+<li><a class="aside__row" href="/guides/vocal-warm-ups/"><span>Vocal warm-ups</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/guides/voice-types/"><span>Voice types</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/guides/voice-cracks-high-notes/"><span>Voice cracks and passaggio</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/guides/head-voice-vs-chest-voice/"><span>Head vs chest voice</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/guides/note-names-octaves/"><span>Note names and octaves</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+</ul>
+<a class="hub-allguides" href="/guides/vocal-warm-ups/">All 9 guides<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </aside>
-
-<aside class="related">
-  <h2>Related pages</h2>
-  <ul>
-    <li><a href="/guides/vocal-warm-ups/">Vocal warm-ups</a></li>
-    <li><a href="/guides/voice-types/">Voice types</a></li>
-    <li><a href="/guides/note-names-octaves/">Note names and octaves</a></li>
-    <li><a href="/guides/five-note-scale/">Five-note scale</a></li>
-  </ul>
-</aside>
+</section>
 
 <aside class="byline">
   <img src="/images/pablo.jpg" alt="" width="80" height="80" loading="lazy">
   <p class="byline__name">Pablo Dominguez</p>
   <p class="byline__line">Singer, with five years of contemporary vocal training. He makes Scalita.</p>
 </aside>
-      </article>
+
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">The app these come from</h2><span class="pill pill--tag">Free</span></div>
+    <p class="band__body">Scalita remembers your range, plays every exercise on a real piano in your key, and with earphones in it draws your pitch as you sing and scores each scale. Offline, no ads, no account.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;referrer=utm_source%3Dscalita_en%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Get Scalita on Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Coming soon</span></button>
     </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/en/home.jpg" width="560" height="1125" loading="lazy" alt="Scalita home screen"></div>
+</section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/" class="logo">
-            <img src="/images/logo_48.png" alt="Scalita logo" width="28" height="28">
-            Scalita
-          </a>
-          <p>Simple scales. Real piano. No nonsense. Made with hate for singers everywhere.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Product</h4>
-          <ul>
-            <li><a href="/#features">Features</a></li>
-            <li><a href="/#pricing">Pricing</a></li>
-            <li><a href="/#download">Download</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Free tools</h4>
-          <ul>
-            <li><a href="/tools/">Free tools</a></li>
-            <li><a href="/tools/vocal-range-test/">Vocal range test</a></li>
-            <li><a href="/tools/sing-in-tune-test/">Sing-in-tune test</a></li>
-            <li><a href="/tools/warm-up-piano/">Warm-up piano</a></li>
-            <li><a href="/tools/voice-break-finder/">Voice break finder</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Guides</h4>
-          <ul>
-            <li><a href="/guides/vocal-warm-ups/">Vocal warm-ups</a></li>
-            <li><a href="/guides/voice-types/">Voice types</a></li>
-            <li><a href="/guides/quick-vocal-warm-up/">Quick warm-up</a></li>
-            <li><a href="/guides/full-vocal-warm-up/">Full warm-up</a></li>
-            <li><a href="/guides/vocal-cool-down/">Vocal cool-down</a></li>
-            <li><a href="/guides/lip-trills/">Lip and tongue trills</a></li>
-            <li><a href="/guides/five-note-scale/">Five-note scale</a></li>
-            <li><a href="/guides/voice-cracks-high-notes/">Voice cracks and passaggio</a></li>
-            <li><a href="/guides/head-voice-vs-chest-voice/">Head vs chest voice</a></li>
-            <li><a href="/guides/note-names-octaves/">Note names and octaves</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="/privacy.html">Privacy Policy</a></li>
-            <li><a href="/terms.html">Terms of Service</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Support</h4>
-          <ul>
-            <li><a href="/support.html">Help and contact</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Support on Ko-fi</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer site-footer--compact">
+    <div class="site-footer__in">
+      <div class="site-footer__row">
+        <a class="site-logo site-logo--sm" href="/" aria-label="Scalita logo"><svg width="24" height="24" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+        <nav class="site-footer__nav" aria-label="Site">
+          <a href="/" class="site-footer__home">Home</a>
+          <a href="/tools/">Free tools</a>
+          <a href="/guides/vocal-warm-ups/">Guides</a>
+          <a href="/support.html">Help and contact</a>
+          <a href="/privacy.html">Privacy Policy</a>
+          <a href="/terms.html">Terms of Service</a>
+          <a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Support on Ko-fi</a>
+        </nav>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. All rights reserved.</p>
-        <p>Made with hate by <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <p class="site-footer__credit">Piano: Salamander Grand Piano V3 by Alexander Holm, licensed under <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Retuned, shortened and compressed for this site.</p>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. All rights reserved.</p><p>Made with hate by <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
+  <nav class="site-tabbar" aria-label="Home and the free tools">
+    <a class="site-tab" href="/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Home</span></a>
+    <a class="site-tab" href="/tools/vocal-range-test/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span>Range</span></a>
+    <a class="site-tab" href="/tools/sing-in-tune-test/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Tune</span></a>
+    <a class="site-tab" href="/tools/warm-up-piano/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span>Piano</span></a>
+    <a class="site-tab" href="/tools/voice-break-finder/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span>Break</span></a>
+  </nav>
 
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

@@ -67,7 +67,18 @@ What a full build writes:
 | `404.html` | one line in each language, with each language's home and section homes |
 | stubs | a redirect page at every published URL whose page moved (see "URLs") |
 | `robots.txt`, `.nojekyll` | `Disallow: /tool/`; no Jekyll, so `tool/` is not rendered as a page |
+| `site.webmanifest`, `<loc>/site.webmanifest` | each locale's web app manifest: Scalita, standalone, the locale's tools hub as `start_url`, the locale as `scope`, a shortcut per tool. Linked from the tools hub and the tools only; no service worker |
 | `tool/lastmod.json` | see "lastmod" |
+
+Where the code lives:
+
+| | |
+|---|---|
+| `tool/build.py` | the build: options, content loading and its checks, URLs, assets, the app's data, tokens, JSON-LD, page data, lastmod, sitemaps, the 404, stubs, writing. It assembles every page |
+| `tool/templates/_chrome.py` | the chrome around every page, in its context: the document shell, the head (the font preloads, the full screen snippet), the landing header with its phone menu, the tools header with its switcher, the phones' tab bar, the language menu, the breadcrumb, the full footer and the compact one, the language bar's words (`#site-langs`), the manifests, and the markup of `ctx.cta()` (the band), `credit()`, `byline()`, `related()`. It reads the build's state as `import build as B`, like `check.py` |
+| `js/site/chrome.js`, `js/site/fullscreen.js` | every page's one script (the language menu's Escape and click-away, the phones' menu, the language bar, a tool page's reference folds), and full screen on a desktop tool page, which loads on the control's first click |
+| `tool/templates/home.py` | the home page's content (`legacy-home`): `render(ctx)` returns its title, description, head extras, JSON-LD, body and script, and `build.py` frames them with the chrome (the module's docstring has the keys) |
+| `tool/templates/<template>.py`, `_parts.py` | every other page's body, and the pieces they share ("Template contract") |
 
 ## Content layout
 
@@ -98,7 +109,7 @@ Write real characters (`é`, `ı`, `c¹`), not entities. No em dashes, anywhere.
 The legacy keys are as they were. A few hold raw HTML because they contain links
 or emphasis: `footer.madeBy`, `index.pricing.*.items`, the `body` of the
 privacy, terms and support pages. Everything else is escaped on the way out.
-`currency` feeds the home page's JSON-LD offer (price 0).
+`currency` is not printed: the home page carries no app markup (Google's software app item needs a rating or a review the page does not show).
 
 Added for the tools and guides (English in every file until a translator
 replaces it; `check.py` lists the ones still in English):
@@ -110,7 +121,12 @@ replaces it; `check.py` lists the ones still in English):
 | `sections.tools`, `sections.guides` | the URL words of the two sections: lowercase ASCII words joined by hyphens (`herramientas`, `guias`). Frozen once published |
 | `langBar.text`, `langBar.close` | the language bar, in this file's language: "Ver esta página en español", and its close button's label |
 | `breadcrumb.home`, `breadcrumb.label` | the breadcrumb's first item, and its `aria-label` |
-| `cta.heading`, `cta.body`, `cta.button`, `cta.ios` | the call to action after the content; `cta.ios` is the line for iPhone and desktop readers |
+| `cta.heading`, `cta.body`, `cta.button`, `cta.ios` | the call to action after the content (the band); `cta.ios` is the line for iPhone and desktop readers |
+| `cta.inApp`, `cta.hubHeading`, `cta.free` | the band's heading on a tool page and on the tools hub, its pill |
+| `cta.iphone`, `cta.comingSoon`, `cta.iphoneLabel` | beside every Google Play link, the iPhone, visibly unavailable: "iPhone · Coming soon", and the sentence a screen reader hears on the home |
+| `nav.home`, `nav.siteLabel`, `nav.toolsLabel`, `nav.getApp`, `nav.closeMenu`, `nav.toolsHint`, `nav.guidesHint`, `nav.tabLabels.<tool id>` | the two navigations: Home, their labels, Get the app, the phone menu's close label and its hints (`{n}` guides), the short names of the tab bar and of the desktop switcher where the full ones do not fit on one row |
+| `nav.fullscreen`, `nav.fullscreenHint`, `nav.exitFullscreen` | the full screen control and its exit |
+| `index.*` | the home (`tool/templates/home.py` reads them; its docstring lists the keys) |
 | `credit.piano` | the Salamander CC BY 3.0 credit (HTML: it links the licence) |
 | `byline.name`, `byline.line` | the author and his one line |
 | `notFound.line`, `notFound.homes` | the 404 page's line, and its link to the home page |
@@ -126,7 +142,7 @@ Common fields, on every page:
 | `label` | text | the short name the nav, footer, breadcrumb, cards and related links use (one to four words) |
 | `title`, `description` | text | `<title>` and meta description, unique in the locale |
 | `h1`, `lead` | text | |
-| `sections` | list of `{heading: text, html: HTML}` | |
+| `sections` | list of `{heading: text, html: HTML}` | a section may carry `id`, its anchor (a slug, the English one in every locale: the range test's `keyboard`) |
 | `faq` | list of `{q: text, a: HTML}` | shown as text, no FAQPage markup |
 | `sources` | list of `{label: text, url}` | full URLs, the same in every locale |
 | `reviewed` | `YYYY-MM-DD` | |
@@ -137,7 +153,8 @@ Per template:
 | template | fields |
 |---|---|
 | `hub`, `voice_types_hub` | `intro` (HTML), `children` (page ids, the cards); on `voice_types_hub` a section may carry `voiceType`, an id from `voice_types.json` (the same in every locale): that section is the type's anchor and gets its keyboard and facts |
-| `tool` | `toolId`, `instructions`, `sampleResult`, `notClaimed` (HTML) |
+| `tool` | `toolId`, `instructions`, `sampleResult`, `notClaimed` (HTML); `tile` (the hub tile's line), `oneLine` (the line under the H1), `appBand` (the band's text), `referenceHeading` (the reference's h2) |
+| `tools_hub` | `intro` (HTML), `children` (the tools), `appBand`, `referenceHeading` |
 | `routine` | `routineId`, `whyOrder`, `whatToFeel`, `whenToStop`, `next` (HTML) |
 | `exercise` | `syllables` (ids from `syllables.json`), `troubleshooting` (HTML) |
 | `pattern` | `scaleId`, `localBox` (HTML or null) |
@@ -179,12 +196,16 @@ judgement of the voice.
 
 `common.json`: `start stop listening tooQuiet allow result share save
 openInBrowser androidOnly lastTime tryAgain play loading next back close copyLink
-copied privacyLine noScript`. `androidOnly` is a short label ("Android only");
-the full sentence is page data's `androidOnlyLine`.
+copied privacyLine noScript nothingSent micOn micOff level levelGood levelLow
+levelLoud pitchTrail hz refPitch`. `androidOnly` is a short label ("Android
+only"); the full sentence is page data's `androidOnlyLine`.
 
 `templates.json` is not a tool's: it holds the fixed headings, table headers and
 labels the page templates print ("Why this order", "Scale", "First shift"),
-read through `ctx.ui["templates"]`. App terms in it are copied from the ARB.
+read through `ctx.ui["templates"]`: among them `tool.howItWorks`, `tool.mic`,
+`tool.noMic`, `tool.next.<tool id>`, `reference.*` (a tool page's and the
+hub's reference), `dates.months` and `dates.pattern` (`_parts.date_text`). App
+terms in it are copied from the ARB.
 
 ## Registry (`tool/pages.json`)
 
@@ -196,18 +217,26 @@ A list, in the order the footer, sitemaps and builds use:
 ```
 
 - `id`: the English slug, also the `utm_campaign` of the page's Play links.
-- `section`: `tools`, `guides` or `legacy` (the four old pages, templates
-  `legacy-home` and `legacy-text`, built inside `build.py`).
+- `section`: `tools`, `guides` or `legacy` (the four old pages: template
+  `legacy-home` is `tool/templates/home.py`, `legacy-text` is built inside
+  `build.py`).
 - `template`: a module in `tool/templates/`.
 - `data`: `{toolId}`, `{routineId}` or `{scaleId}`, or `{}`.
 - `hub`: a hub page (no Article markup, cards for its children).
 - `parent`: the page above it in the breadcrumb, or null.
 - `root: true` (optional, one per section): the section's index, at the
   section word's own URL. `tools` has it.
+- `context: "tools"` (optional): the page takes the tools navigation (Home
+  and the four tools as a switcher, five tabs on a phone, the compact footer,
+  the manifest). The tools hub and the four tools have it; every other page
+  is `landing` (the site's menu and footer; the 404 has the compact footer).
 
 The nav's Tools link goes to the section's root page, Guides to its first hub
-(`vocal-warm-ups`). The footer lists every page of both sections. Pages are
-added by hand, on purpose: no page per key, range or phrasing.
+(`vocal-warm-ups`), which lists every other guide page: its children as cards, the
+rest under More guides (`templates.hub.moreGuides`). The {n} of All {n} guides and
+of the Guides hint is that count (`build.guide_count`). The footer lists every
+page of both sections. Pages are added by hand, on purpose: no page per key,
+range or phrasing.
 
 ## URLs
 
@@ -245,7 +274,11 @@ dates from `lastmod`. No FAQPage, no HowTo, and no WebApplication on the tools:
 Google's software app markup needs a rating or a review, so it would only be
 listed as invalid.
 `head_extra` goes into `<head>`. `page_data` adds to the page data (below).
-Templates import shared pieces with `import _parts`.
+`css` lists the template's own stylesheets under `css/` (`["tool.css",
+"tool-range.css"]`): every page links `style.css` and `chrome.css` first, the
+home `home.css`, and a page that mounts a player `tool-player.css`.
+`main_class` is the `<main>`'s class (`tp-wrap`, `hub-wrap`). Templates import
+shared pieces with `import _parts`.
 
 `ctx` carries:
 
@@ -259,34 +292,44 @@ Templates import shared pieces with `import _parts`.
 | `ui` | `ctx.ui["common"]`: a ui file in this locale |
 | `alternates` | `{code: absolute URL}` of this page in every locale it is built in |
 | `registry` | every registry entry |
+| `locales`, `origin`, `author` | every LOCALES row in menu order, `https://scalita.com`, the JSON-LD Person |
+| `context` | `landing` or `tools`, from the registry |
 
 and helpers: `url(id, frag="")` (root-relative), `url_abs(id)`, `has(id)` (built
 in this locale), `label(id)`, `copy_of(id)` (another page's copy), `asset(path)`,
 `play_link()` (escaped for an attribute) and `play_url()`, `inline_json(obj)`,
 `esc(s)`, `breadcrumbs()` (`[(label, url)]`), `note(midi)` (`(local, intl)`),
 `note_label(midi)` (`Do3 (C4)`, escaped), `localize(obj)`, `player_data(kind,
-id)`, and the blocks `cta()`, `credit()`, `byline()`, `related(ids)`.
+id)`, `section_home(section)` (where the nav's Tools or Guides link goes),
+`guide_count()` (the {n} of All {n} guides), and
+the blocks `cta(heading=None, body=None, shot=None)` (the band: plain text
+heading and body, `cta.heading` and `cta.body` when not given, and the
+screenshot's name), `credit()`, `byline()`, `related(ids)`.
 
-Markup `build.py` writes (W0-CSS styles it):
+Markup `build.py` writes, most of it from `_chrome.py` (W0-CSS styles it):
 
 ```html
 <nav class="breadcrumb" aria-label="..."><div class="container"><ol>
   <li><a href="/es/">Inicio</a></li> ... <li aria-current="page">...</li>
 </ol></div></nav>
-<aside class="cta-block"><h2/><p/><p><a class="btn btn-primary"/></p><p class="cta-block__other"/></aside>
+<section class="band" id="app"><div class="band__main"><div class="band__head"><svg/><h2/><span class="pill pill--tag"/></div>
+  <p class="band__body"/><div class="band__actions"><a class="btn btn--primary" href="(Play)"/>
+  <button class="btn btn--iphone" disabled aria-disabled="true"><svg/><span>iPhone · Coming soon</span></button></div></div>
+  <div class="band__phone"><img/></div></section>
 <p class="credit">...</p>
 <aside class="byline"><img/>?<p class="byline__name"/><p class="byline__line"/></aside>
-<aside class="related"><h2/><ul><li><a/></li></ul></aside>
+<aside class="related"><h2/><ul><li><a class="aside__row"><span/><svg/></a></li></ul></aside>
 <section class="notfound"><div class="container"><h1>404</h1><ul><li lang><p/><p class="notfound__links"><a/>...</p></li></ul></div></section>
 <div class="lang-bar" data-nosnippet lang="es"><p><a hreflang/></p><button class="lang-bar__close" aria-label/></div>
 ```
 
 The language bar is created by the page's script only when it is shown (the
 browser prefers another language this page exists in, and no choice is stored
-under `scalita-lang-choice`), appended to `<body>`, fixed at the bottom. On the
-home page, step 1 of "how it works" gains `<p class="step-link"><a/></p>` to the
-range test, and catalog entries with a page of their own become links
-(`<a class="tag">` and `<strong><a></a></strong>`).
+under `scalita-lang-choice`), appended to `<body>`, fixed at the bottom (above
+the tab bar on a phone in the tools context); its words are the JSON of
+`<script type="application/json" id="site-langs">`. On the home page, catalog
+entries with a page of their own become links (`<a class="tag">` and
+`<strong><a></a></strong>`).
 
 ## Page data contract
 
@@ -316,7 +359,8 @@ every one comes from `strings`.
   "strings": {                    // one object per ui file, by file name
     "common": {...},              // ui/<loc>/common.json
     "mic": {...},                 // ui/<loc>/mic.json, one key per mic.js error code
-    "vocal-range-test": {...}     // ui/<loc>/<toolId>.json for each tool mounted
+    "vocal-range-test": {...},    // ui/<loc>/<toolId>.json for each tool mounted
+    "templates": {"tool": {"noMic": "..."}}  // the warm-up piano's and the finder's pages only: their pill
   },
   "notes": {"21": ["La-2", "A0"], ..., "60": ["Do3", "C4"], ..., "108": ["Do7", "C8"]},
                                   // MIDI 21 to 108 as keys: [local name, international name].
@@ -332,6 +376,7 @@ every one comes from `strings`.
   ],
   "playLink": "https://play.google.com/store/apps/details?id=com.scalita.app&hl=fr&referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dvocal-range-test",
   "androidOnlyLine": "...",       // the site's cta.ios: for iPhone and desktop readers
+  "iphone": "iPhone · Coming soon", // cta.iphone and cta.comingSoon: the disabled button beside a Play link
   "piano": {
     "base": "/audio/piano-web/",
     "manifest": {                 // audio/piano-web/manifest.json, trimmed
@@ -423,16 +468,20 @@ files; required fields present and filled per template; field types; slugs
 section words; ids, data and source URLs the same as English and matching the
 registry; hub children exist; tokens valid; HTML fields close what they open;
 no site link outside `page:`; ui placeholders match English; word ceilings; no
-em dash; verdict words (an error in ui files and sample results, a warning in
+em dash; no HTML entity in a field that is escaped (`&eacute;` would show as
+it is: write `é`); verdict words (an error in ui files and sample results, a warning in
 prose; the tone-deaf words are fine in prose, where a page asks the reader's
 question, never as a result); English left in a translation (an error),
 English placeholders (a warning); a section's `voiceType` known to the export
 and the same as English; export-hash drift (a warning, also for a page whose
 `writtenAgainst` names a routine its registry entry does not play); titles and
 descriptions measured with their note tokens filled in (a note); 80% main-text
-similarity between two pages of a locale.
+similarity between two pages of a locale; a section's `id` a slug and the
+English one; a price stated in a site string (a note: Google Play shows the
+reader's own).
 
-Site: every page parses and closes its tags, ids unique; `<html lang>` matches
+Site: every page parses and closes its tags, ids unique, one h1 (a heading
+level skipped on the way down is a note); `<html lang>` matches
 the locale; one self canonical, equal to its sitemap `<loc>`; hreflang sets
 equal to the sitemap's, complete, reciprocal, `pt` beside `pt-BR`, x-default
 present; titles and descriptions unique per locale; no keywords meta; JSON-LD,
@@ -442,7 +491,7 @@ link, `installUrl` and `playLink` opens `id=com.scalita.app`, with `hl` in
 every locale but English and the referrer `utm_source=scalita_<code>&utm_medium=web&utm_campaign=<page id>`; every local
 asset exists and is root-absolute, `?v=` hashes current (a warning); links only
 to canonical page URLs (never `index.html`, never a stub), anchors exist; no
-orphans; every page within 3 clicks of its locale's home; sitemap index and
+orphans; All {n} guides and the Guides hint count the guides the page they lead to lists; every page within 3 clicks of its locale's home; sitemap index and
 children well formed, no priority or changefreq, lastmods matching
 `tool/lastmod.json`; stubs point at pages; every published URL still answers;
 `robots.txt` disallows `/tool/` and names the index; `.nojekyll` and `404.html`

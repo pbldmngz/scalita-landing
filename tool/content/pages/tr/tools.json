@@ -3,7 +3,9 @@
   "title": "Şarkıcılar için ücretsiz online araçlar - Scalita",
   "description": "Şarkıcılar için tarayıcıda çalışan dört ücretsiz araç: ses aralığı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
   "h1": "Şarkıcılar için ücretsiz araçlar",
-  "lead": "Ses aralığını bul, bir notaya ne kadar yakın söylediğine bak, kendi tonlarında gerçek bir piyanoyla ısın ve sesinin nerede geçiş yaptığını bul. Hesap açman gerekmez, söylediğin hiçbir şey cihazından çıkmaz.",
+  "lead": "Uygulamadan dört araç, tarayıcında. Söylediğin hiçbir şey cihazından çıkmaz.",
+  "appBand": "Scalita ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar. Çevrimdışı, reklamsız, hesapsız.",
+  "referenceHeading": "Araçlar hakkında",
   "intro": "<p>Bu dört araç, Android için bir vokal ısınma uygulaması olan Scalita'dan geliyor. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar.</p><p>Hepsi için iki kural geçerli. Bir araç ya dinler ya piyano çalar, ikisini asla aynı anda yapmaz; bu yüzden kulaklığa ihtiyacın yok. Bir araç dinlediğinde de işi cihazında tarayıcın yapar: hiçbir şey kaydedilmez, hiçbir yere gönderilmez.</p>",
   "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [

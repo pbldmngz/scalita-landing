@@ -1,5 +1,5 @@
 {
-  "appVersion": "1.13.3",
+  "appVersion": "1.13.4",
   "constants": {
     "a4Frequency": 440.0,
     "a4Midi": 69,
@@ -30,20 +30,20 @@
       "sha256": "1acbba38ac6c4b9cd255664afabaafbdff0bed5552ce0b13e1c3ec39f1e35562"
     },
     "routines.json": {
-      "bytes": 425167,
-      "sha256": "293ec4cdeb38e6ca24666a794e45c9f81b850c10ec6e4c654f10c7a4e0b31451"
+      "bytes": 419460,
+      "sha256": "43397e0fafba605db3fb3a122a341f6cb7427150e10cd88058ffdab09a83ac71"
     },
     "scales.json": {
       "bytes": 96921,
       "sha256": "4d0ae2fb973e1c288c281ebd48bcf54f60e1856f2329f280c05928e2ee6196e6"
     },
     "step_range_vectors.json": {
-      "bytes": 190056,
-      "sha256": "5a4e2331cb906e0b2c52ae81453f353b137894995c1b5cd5533a4c47961a88bb"
+      "bytes": 189086,
+      "sha256": "33813a39825a707206af9a8492a1d12cc3740a0ee3464cf62d4638cadee565af"
     },
     "strings.json": {
-      "bytes": 58353,
-      "sha256": "f138ba75cfb8453ece02c319ddff03bbb1b91b31a934c7ef5defadfe1b6d69f8"
+      "bytes": 58356,
+      "sha256": "ad7d014585af21d5dc37623d4c2e5d3ebe0e531e2701f9722d74eaa0ac7767a8"
     },
     "syllables.json": {
       "bytes": 53010,
@@ -54,12 +54,12 @@
       "sha256": "942dcf039e1e1c3e72219c935af2750c97f9684a52fdeaa0018afe7c796bc6e9"
     },
     "voice_type_vectors.json": {
-      "bytes": 27220,
-      "sha256": "baa2dd4dd4f2f560dc356cb2d81aa47fdd391a3c418acac1355e0ba12293a7e7"
+      "bytes": 27224,
+      "sha256": "36478edb796873c7fdb6cba27a8f657d1cc1f72933370d48f54b37fb6cdb4a07"
     },
     "voice_types.json": {
       "bytes": 2319,
-      "sha256": "0c42c7b4ab683afcf743a4a225ba9bfe51d4ad6f7819d56fbcd5ab6eb625862d"
+      "sha256": "1577c2f7492a659ba4ea93c30d10454007e0f0b6c4064b0842ca915707beba67"
     }
   },
   "locales": [

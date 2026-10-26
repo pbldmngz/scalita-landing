@@ -65,7 +65,8 @@
     "ctaButton": "Get Scalita on Google Play"
   },
   "tuner": {
-    "hint": "Sing or hum any note."
+    "hint": "Sing or hum any note.",
+    "nearest": "Nearest note"
   },
   "ear": {
     "label": "Higher or lower",
@@ -82,5 +83,22 @@
     "toSing": "Sing a note back"
   },
   "meter": "Microphone level",
-  "pianoFailed": "The piano didn't load. Check your connection and try again."
+  "pianoFailed": "The piano didn't load. Check your connection and try again.",
+  "pianoPlayed": "The piano played",
+  "cents": "Cents",
+  "share": {
+    "title": "My pitch accuracy",
+    "cents": "cents",
+    "typical": "Typical distance from the note, over {n} notes",
+    "within10": "{n} of {total} within 10 cents",
+    "within25": "{n} of {total} within 25 cents",
+    "wobble": "Wobble {cents}",
+    "bandClose": "within 25 cents",
+    "bandIn": "within 10 cents",
+    "theNote": "the note",
+    "lines": "Each line is my own voice landing on a note. A cent is a hundredth of a semitone.",
+    "ask": "How close can you get?",
+    "text": "My typical miss was {cents} over {n} notes. You can test yours for free in your browser:",
+    "fileName": "my-pitch-accuracy"
+  }
 }

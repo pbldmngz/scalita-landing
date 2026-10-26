@@ -4,11 +4,11 @@
   {"id": "terms", "section": "legacy", "template": "legacy-text", "data": {}, "hub": false, "parent": null},
   {"id": "support", "section": "legacy", "template": "legacy-text", "data": {}, "hub": false, "parent": null},
 
-  {"id": "tools", "section": "tools", "template": "hub", "data": {}, "hub": true, "parent": null, "root": true},
-  {"id": "vocal-range-test", "section": "tools", "template": "tool", "data": {"toolId": "vocal-range-test"}, "hub": false, "parent": "tools"},
-  {"id": "sing-in-tune-test", "section": "tools", "template": "tool", "data": {"toolId": "sing-in-tune-test"}, "hub": false, "parent": "tools"},
-  {"id": "warm-up-piano", "section": "tools", "template": "tool", "data": {"toolId": "player"}, "hub": false, "parent": "tools"},
-  {"id": "voice-break-finder", "section": "tools", "template": "tool", "data": {"toolId": "voice-break-finder"}, "hub": false, "parent": "tools"},
+  {"id": "tools", "section": "tools", "context": "tools", "template": "tools_hub", "data": {}, "hub": true, "parent": null, "root": true},
+  {"id": "vocal-range-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "vocal-range-test"}, "hub": false, "parent": "tools"},
+  {"id": "sing-in-tune-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "sing-in-tune-test"}, "hub": false, "parent": "tools"},
+  {"id": "warm-up-piano", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "player"}, "hub": false, "parent": "tools"},
+  {"id": "voice-break-finder", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "voice-break-finder"}, "hub": false, "parent": "tools"},
 
   {"id": "vocal-warm-ups", "section": "guides", "template": "hub", "data": {}, "hub": true, "parent": null},
   {"id": "voice-types", "section": "guides", "template": "voice_types_hub", "data": {}, "hub": true, "parent": null},

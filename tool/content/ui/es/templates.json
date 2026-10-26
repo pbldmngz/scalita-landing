@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "Cómo se usa",
     "sample": "Un resultado de ejemplo",
-    "notClaimed": "Lo que no afirma"
+    "notClaimed": "Lo que no afirma",
+    "howItWorks": "Paso a paso",
+    "mic": "Micrófono",
+    "noMic": "Sin micrófono",
+    "next": {
+      "vocal-range-test": "Encuentra tu rango",
+      "sing-in-tune-test": "Comprueba tu afinación",
+      "warm-up-piano": "Calienta en tu rango",
+      "voice-break-finder": "Encuentra tu quiebre vocal"
+    }
+  },
+  "reference": {
+    "kicker": "Referencia",
+    "reviewed": "Revisado el {date}",
+    "relatedGuides": "Guías relacionadas",
+    "otherTools": "Las otras tres herramientas",
+    "guidesWith": "Guías que las acompañan",
+    "allGuides": "Las {n} guías",
+    "newHere": "¿Primera vez? Por dónde empezar",
+    "twoRules": "Dos reglas para todas"
   },
   "routine": {
     "length": "Cuánto dura",
@@ -66,6 +85,9 @@
     "span": "Dónde está",
     "note": "Son las zonas en las que Scalita entrena cada registro. En los subarmónicos, la zona es la altura que se oye."
   },
+  "hub": {
+    "moreGuides": "Más guías"
+  },
   "intake": {
     "appOnly": "Solo en la app"
   },
@@ -88,5 +110,22 @@
       "francoBelgian": "Franco-belga",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "enero",
+      "febrero",
+      "marzo",
+      "abril",
+      "mayo",
+      "junio",
+      "julio",
+      "agosto",
+      "septiembre",
+      "octubre",
+      "noviembre",
+      "diciembre"
+    ],
+    "pattern": "{d} de {month} de {y}"
   }
 }

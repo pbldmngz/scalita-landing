@@ -10,7 +10,10 @@
  * The microphone and the piano take turns, never together: a note is
  * scheduled only once every mic track has stopped, and the mic opens only
  * once the piano is silent and has handed the audio session back. Results
- * are pitch in cents and nothing else, never a verdict on the voice.
+ * are pitch in cents and nothing else, never a verdict on the voice. A sing
+ * result draws its share image through share-tune.js (drawTuneCard), each
+ * note's line from the readings measureNote kept, after the microphone is off.
+ * The panes use the stage's markup (css/style.css) and css/tool-tune.css.
  * Tests may set globalThis.__scalitaTest before the page loads: targets (a
  * round's notes), pairs (the listening check's), seed, and events, where
  * every turn is pushed with micLive and pianoBusy as they were then.
@@ -102,7 +105,8 @@ export function pickTargets([lo, hi], n, rand) {
 // One sung note, read as the app reads one (scale_scorer.dart): the median
 // of its middle, head and tail trimmed in time (150 and 75 ms at most), and
 // its wobble, the median movement once the voice arrived within 50 cents
-// (heldSpread). readings: believed {t, hz}, in order. Null if too little.
+// (heldSpread); path, every reading's cents in order, for the share image.
+// readings: believed {t, hz}, in order. Null if too little.
 export function measureNote(readings, midi) {
   if (readings.length < 2) return null;
   const t0 = readings[0].t;
@@ -118,6 +122,7 @@ export function measureNote(readings, midi) {
     cents: median(mid.map((x) => x.cents)),
     octave: round(median(mid.map((x) => x.octave))),
     wobble: held.length >= 5 ? median(held.map((c) => Math.abs(c - centre))) : null,
+    path: all.map((x) => x.cents), // the share image draws it
   };
 }
 
@@ -150,30 +155,57 @@ export function earPairs([lo, hi], rand) {
   });
 }
 
-// The needle along the top and the trail under it, on one canvas, in the
-// colours .pitch-trail sets
-function scope(wrap, h) {
-  const cv = h('canvas', { 'aria-hidden': 'true' });
+// Icons from the site's shared set (24 x 24); ui.icon draws them
+const REDO = 'M3 12a9 9 0 1 0 3-6.7M3 4v5h5';
+const STOP = 'M8 6h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z';
+const IMAGE = 'M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2zM7 10a2 2 0 1 0 4 0a2 2 0 1 0-4 0M21 16l-5-5-8 8';
+const SHARE = 'M12 3v12M8 7l4-4 4 4M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7';
+const DOWNLOAD = 'M12 4v11M7 10l5 5 5-5M4 20h16';
+const IPHONE = 'M8.5 2h7A2.5 2.5 0 0 1 18 4.5v15a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 6 19.5v-15A2.5 2.5 0 0 1 8.5 2zM11 18h2';
+const TUNE = 'M4 12a8 8 0 1 0 16 0a8 8 0 1 0-16 0M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M12 2v4M12 18v4M2 12h4M18 12h4';
+const TICKS = [-50, -25, 0, 25, 50];
+
+// The cents meter along the top and the trail under it, on one canvas, in
+// the colours of the page's tokens and .pitch-trail: the meter spans 50
+// cents either way with the two bands, each lane under it is a semitone, the
+// target's lane is lit and named, the voice draws its line into it. A phone
+// gets the compact face (no padding, three labels, 22 px lanes).
+function scope(wrap, ui) {
+  const cv = ui.h('canvas', { 'aria-hidden': 'true' });
   wrap.append(cv);
   const g = cv.getContext('2d');
   const css = getComputedStyle(wrap);
   const v = (n, d) => css.getPropertyValue(n).trim() || d;
   const col = {
     perfect: v('--trail-perfect', '#8AC4C7'), close: v('--trail-close', '#5A9FA3'), off: v('--trail-off', '#C4A87A'),
-    band: v('--trail-target', 'rgba(90,159,163,.12)'), grid: v('--trail-grid', 'rgba(58,69,72,.7)'), text: v('--slate', '#7A8B91'),
+    lane: v('--trail-lane', 'rgba(45,55,58,.5)'), target: v('--trail-target', 'rgba(90,159,163,.28)'),
+    label: v('--trail-label-on', '#8AC4C7'), head: v('--trail-head', '#E8EDEE'),
+    ocean: v('--ocean', '#5A9FA3'), mist: v('--mist', '#3A4548'), soft: v('--soft', '#A8B5BA'), glow: v('--glow', '#8AC4C7'),
   };
   const moving = v('--trail-motion', '1') !== '0';
   const tone = (c) => (Math.abs(c) <= IN_TUNE ? col.perfect : Math.abs(c) <= CLOSE ? col.close : col.off);
-  const line = (x0, y0, x1, y1) => {
+  const marks = TICKS.map((k) => ui.sign(k));
+  const seg = (x0, y0, x1, y1) => {
+    g.beginPath();
     g.moveTo(x0, y0);
     g.lineTo(x1, y1);
+    g.stroke();
   };
+  const fill = (a, colour, shape) => {
+    g.globalAlpha = a;
+    g.fillStyle = colour;
+    g.beginPath();
+    shape();
+    g.fill();
+  };
+  const rect = (x, y, w, h, r) => () => (g.roundRect && r ? g.roundRect(x, y, w, h, r) : g.rect(x, y, w, h));
+  const disc = (x, y, r) => () => g.arc(x, y, r, 0, 7);
   let pts = [];
   return {
     push: (t, y, c) => pts.push({ t, y, c }),
     clear: () => { pts = []; },
-    // o: needle (cents or null), range (cents at the needle's ends), centre
-    // (MIDI, fractional), span (semitones either side), target, label
+    // o: needle (cents or null), centre (MIDI, fractional), target (the lit
+    // lane, MIDI or null), label (its name)
     draw(now, o) {
       const w = cv.clientWidth;
       const ht = cv.clientHeight;
@@ -185,64 +217,90 @@ function scope(wrap, h) {
       }
       g.setTransform(d, 0, 0, d, 0, 0);
       g.clearRect(0, 0, w, ht);
-      const cx = w / 2;
-      const half = Math.min(w * 0.42, 220);
-      const nx = (c) => cx + Math.max(-1, Math.min(1, c / o.range)) * half;
-      g.fillStyle = col.band;
-      g.fillRect(nx(-CLOSE), 10, nx(CLOSE) - nx(-CLOSE), 16);
-      g.fillRect(nx(-IN_TUNE), 10, nx(IN_TUNE) - nx(-IN_TUNE), 16);
-      g.strokeStyle = col.grid;
-      g.lineWidth = 1;
-      g.beginPath();
-      line(cx - half, 18, cx + half, 18);
-      for (const k of [-1, -0.5, 0, 0.5, 1]) line(cx + k * half, k ? 14 : 8, cx + k * half, k ? 22 : 28);
-      g.stroke();
+      g.lineCap = g.lineJoin = 'round';
+      const small = w < 480;
+      const k = small ? 0.8 : 1;
+      // The meter: the 25 and 10 cent bands, the scale, the needle
+      const base = small ? 26 : 36;
+      const half = w / 2 - Math.max(13, w * 0.052);
+      const nx = (c) => w / 2 + (Math.max(-50, Math.min(50, c)) / 50) * half;
+      const bh = small ? 12 : 14;
+      fill(0.16, col.ocean, rect(nx(-CLOSE), base - bh, nx(CLOSE) - nx(-CLOSE), 2 * bh, 6 * k));
+      fill(0.22, col.ocean, rect(nx(-IN_TUNE), base - bh, nx(IN_TUNE) - nx(-IN_TUNE), 2 * bh, 6 * k));
+      g.globalAlpha = 1;
+      g.strokeStyle = col.mist;
+      g.lineWidth = 2;
+      seg(nx(-50), base, nx(50), base);
+      g.globalAlpha = 0.8;
+      g.strokeStyle = col.soft;
+      g.lineWidth = 1.5;
+      for (const c of TICKS) {
+        const len = (c ? (Math.abs(c) === 50 ? 8 : 6) : 12) * k;
+        seg(nx(c), base - len, nx(c), base + len);
+      }
+      g.globalAlpha = 1;
+      g.fillStyle = col.soft;
+      g.font = (small ? 10 : 11) + 'px Sora, sans-serif';
+      g.textAlign = 'center';
+      g.textBaseline = 'alphabetic';
+      TICKS.forEach((c, i) => (small && i % 2 ? 0 : g.fillText(marks[i], nx(c), base + 24)));
       if (o.needle != null) {
-        g.strokeStyle = tone(o.needle);
+        const x = nx(o.needle);
+        if (!small) fill(0.25, col.glow, disc(x, base, 10));
+        g.globalAlpha = 1;
+        const nl = small ? 16 : 22;
+        g.strokeStyle = col.head;
         g.lineWidth = 3;
-        g.beginPath();
-        line(nx(o.needle), 6, nx(o.needle), 30);
-        g.stroke();
+        seg(x, base - nl, x, base + nl);
       }
-      const top = 44;
-      const bot = ht - 10;
-      const per = (bot - top) / (2 * o.span);
-      const y = (m) => Math.max(top, Math.min(bot, (top + bot) / 2 - (m - o.centre) * per));
-      g.lineWidth = 1;
-      g.strokeStyle = col.grid;
+      // The lanes, a semitone each, around the centre
+      const top = small ? 64 : 72;
+      const bot = ht;
+      if (small) {
+        g.strokeStyle = col.mist;
+        g.lineWidth = 1;
+        seg(0, 62.5, w, 62.5);
+      }
+      const gap = small ? 2 : 1;
+      const n = 2 * Math.max(1, Math.round(((bot - top + gap) / ((small ? 22 : 31) + gap) - 1) / 2)) + 1;
+      const step = (bot - top + gap) / n;
+      const mid = (top + bot) / 2;
+      const y = (m) => mid - (m - o.centre) * step;
+      g.save();
       g.beginPath();
-      for (let m = Math.ceil(o.centre - o.span); m <= o.centre + o.span; m++) line(0, y(m), w, y(m));
-      g.stroke();
-      if (o.target != null) {
-        g.fillStyle = col.band;
-        g.fillRect(0, y(o.target + CLOSE / 100), w, y(o.target - CLOSE / 100) - y(o.target + CLOSE / 100));
+      g.rect(0, top, w, bot - top);
+      g.clip();
+      for (let m = Math.floor(o.centre - n / 2) - 1; m <= Math.ceil(o.centre + n / 2) + 1; m++) {
+        fill(1, m === o.target ? col.target : col.lane, rect(0, y(m) - (step - gap) / 2, w, step - gap, small ? 0 : 4));
       }
-      if (o.label) {
-        g.fillStyle = col.text;
-        g.font = '11px Sora, sans-serif';
-        g.fillText(o.label, 6, y(o.target != null ? o.target : Math.round(o.centre)) - 6);
+      if (o.label && o.target != null) {
+        g.fillStyle = col.label;
+        g.font = '500 ' + (small ? 11 : 12) + 'px Sora, sans-serif';
+        g.textAlign = 'left';
+        g.textBaseline = 'middle';
+        g.fillText(o.label, small ? 10 : 12, y(o.target));
       }
+      // The voice: its line, newest at the head, and the head's dot
       pts = pts.filter((p) => now - p.t <= WINDOW_S + 0.5);
+      const head = w - Math.min(60, w * 0.07);
+      const sx = head / WINDOW_S;
       g.lineWidth = 3;
-      g.lineCap = 'round';
       let prev = null;
       for (const p of moving ? pts : pts.slice(-1)) {
-        const x = moving ? w - ((now - p.t) * w) / WINDOW_S : w - 14;
+        const x = head - (now - p.t) * sx;
         const yy = y(p.y);
         if (prev && p.t - prev.t < 0.15 && Math.abs(p.y - prev.y) < 1.5) {
           g.strokeStyle = tone(p.c);
-          g.beginPath();
-          line(prev.x, prev.yy, x, yy);
-          g.stroke();
+          seg(prev.x, prev.yy, x, yy);
         }
-        prev = { t: p.t, y: p.y, c: p.c, x, yy };
+        prev = { t: p.t, y: p.y, x, yy };
       }
       if (prev && now - prev.t < 0.3) {
-        g.fillStyle = tone(prev.c);
-        g.beginPath();
-        g.arc(prev.x, prev.yy, 4, 0, 7);
-        g.fill();
+        fill(0.22, col.glow, disc(prev.x, prev.yy, small ? 10 : 13));
+        fill(1, col.head, disc(prev.x, prev.yy, small ? 4.5 : 5));
       }
+      g.restore();
+      g.globalAlpha = 1;
     },
   };
 }
@@ -250,11 +308,12 @@ function scope(wrap, h) {
 // One run, from the Start tap to its result. ui: what sing-in-tune-test.js
 // keeps for the mount; my: this run's token; E: the engines.
 export function begin(ui, my, E) {
-  const { t, c, M, h, fmt, pd, test, el } = ui;
+  const { t, c, M, h, fmt, pd, test, icon } = ui;
   const [, runV, resV] = ui.panes;
   const pr = new Intl.PluralRules(ui.lang);
   const plural = (o, n) => (o && (o[pr.select(n)] || o.other)) || '';
   const cents = (n) => fmt(plural(t('units.cents'), n), { n });
+  const hzText = new Intl.NumberFormat(ui.lang, { maximumFractionDigits: 1 });
   const playable = ((pd.piano && pd.piano.manifest && pd.piano.manifest.notes) || []).map((n) => n.midi);
   const pLow = playable.length ? Math.min(...playable) - 1 : 32;
   const pHigh = playable.length ? Math.max(...playable) + 1 : 91;
@@ -316,56 +375,115 @@ export function begin(ui, my, E) {
         else hints.delete(code);
         paintHint();
       },
-      onState: (s) => !gone() && runV.classList.toggle('tool-panel__state--listening', s === 'listening'),
+      onState: (s) => !gone() && mic(s === 'listening'),
     });
+  }
+
+  // Whether a microphone track is live, said three ways: the pane's
+  // listening class (its dot), the Mic on pill (its room kept, so nothing
+  // moves while the piano takes its turn), and a meter at rest when not
+  function mic(on) {
+    const v = view;
+    runV.classList.toggle('tool-panel__state--listening', on);
+    if (!v.pill) return;
+    v.pill.style.visibility = on ? '' : 'hidden';
+    if (!on) level(null);
+  }
+
+  function level(r) {
+    const v = view;
+    const lvl = r ? E.pitch.meterLevel(r.rms) : 0;
+    v.meter.style.setProperty('--level', lvl.toFixed(3));
+    v.meter.setAttribute('aria-valuenow', String(Math.round(lvl * 100)));
+    v.meter.classList.toggle('level-meter--ok', !!r && !r.gated);
+    v.word.textContent = r ? c(r.peak >= 0.99 ? 'levelLoud' : lvl < E.pitch.GATE_LEVEL ? 'levelLow' : 'levelGood') : BLANK;
   }
 
   function paintHint() {
     const code = HINTS.find((k) => hints.has(k));
-    if (view.hint) view.hint.textContent = code ? M[code] || '' : prompt;
-    if (view.meter) view.meter.classList.toggle('level-meter--loud', hints.has('levelLoud'));
+    const v = view;
+    if (v.hint) {
+      if (code && code !== v.hintCode) ui.say(M[code] || '');
+      v.hintCode = code;
+      v.hint.textContent = (code ? M[code] : prompt) || BLANK;
+    }
+    if (v.meter) v.meter.classList.toggle('level-meter--loud', hints.has('levelLoud'));
     if (!gone()) ui.hold();
   }
 
   function setPrompt(text, status) {
     prompt = text;
-    if (status != null) view.status.textContent = status;
+    if (status != null) view.label.textContent = status;
     paintHint();
   }
 
   function setBox(m) {
-    if (view.boxMidi === m) return;
-    view.boxMidi = m;
+    const v = view;
+    if (v.boxMidi === m) return;
+    v.boxMidi = m;
     const [l, i] = m == null ? [BLANK, BLANK] : ui.names(m);
-    view.name.textContent = l;
-    view.intl.textContent = l === i ? BLANK : i;
+    v.name.textContent = l;
+    v.name.style.setProperty('--note-chars', String([...l].length));
+    v.hz.textContent = m == null ? BLANK : fmt(c('hz'), { hz: hzText.format(midiToHz(m)) });
+    v.intl.textContent = i;
+    v.intl.hidden = l === i;
   }
 
-  // The run pane for sing and tuner: status, note box, needle and trail,
-  // readout, level meter, hint, actions
+  // On the note within the app's in-tune band, the exact figure under it
+  function readout(cv) {
+    const r = cv == null ? null : round(cv);
+    const near = r != null && Math.abs(r) <= IN_TUNE;
+    view.main.textContent = r == null ? BLANK : near ? t('offset.zero') : offsetText(r);
+    view.sub.textContent = near && r ? offsetText(r) : BLANK;
+  }
+
+  // The run pane for sing and tuner: the head (status, progress, pill), the
+  // note column (kicker, note box, readout) beside the meter and trail, the
+  // level, the line, the actions
   function runPane(kind) {
-    const wrap = h('div', { class: 'pitch-trail' });
+    const sing = kind === 'sing';
+    const wrap = h('figure', { class: 'stage__figure pitch-trail trail' }, h('figcaption', { text: t('cents') }));
     view = {
       kind,
-      status: h('p', { class: 'tool-panel__status' }),
+      dot: h('span', { class: 'live-dot' }),
+      label: h('span'),
+      pill: h('span', { class: 'pill pill--on' }, icon(ui.I.mic, 14), c('micOn')),
+      steps: sing ? Array.from({ length: ROUND }, () => h('span', { class: 'progress__seg' })) : [],
       name: h('span', { class: 'note-target__name' }),
+      hz: h('span', { class: 'note-target__hz' }),
       intl: h('span', { class: 'note-target__intl' }),
-      readout: h('p', { text: BLANK }),
+      main: h('span', { class: 'st-readout__main' }),
+      sub: h('span', { class: 'st-readout__sub' }),
       meter: h('div', { class: 'level-meter', role: 'meter', 'aria-valuemin': '0', 'aria-valuemax': '100', 'aria-label': t('meter') },
-        h('span', { class: 'level-meter__fill' }), h('span', { class: 'level-meter__gate' })),
-      hint: h('p', { class: 'tool-panel__hint' }),
-      again: kind === 'sing' ? ui.button(t('sing.again'), () => capture && capture.end('again'), false, { disabled: true }) : null,
+        h('span', { class: 'level-meter__fill' }), h('span', { class: 'level-meter__gate' }), h('span', { class: 'level-meter__knob' })),
+      word: h('span', { class: 'meter__word' }),
+      hint: h('p', { class: 'stage__line' }),
+      again: sing ? ui.button(t('sing.again'), () => capture && capture.end('again'), 'btn-secondary btn--lg btn--strong', { disabled: true }, icon(REDO)) : null,
       smooth: 0, lockSince: null, voiceAt: -1, at: 0, said: 0, frozen: null,
     };
-    view.box = h('div', { class: 'note-target' }, view.name, view.intl);
+    view.box = h('div', { class: 'notebox note-target' }, view.name, view.hz, view.intl);
     setBox(null);
-    const stop = ui.button(c('stop'), () => ui.halt(), false);
-    runV.classList.remove('tool-panel__state--listening');
-    runV.replaceChildren(view.status, view.box, wrap, view.readout, view.meter, view.hint,
-      h('div', { class: 'tool-panel__actions' }, view.again, stop));
+    readout(null);
+    const stop = ui.button(c('stop'), () => ui.halt(), 'btn-secondary btn--lg' + (sing ? '' : ' btn--strong'), null, icon(STOP, 18, true));
+    runV.replaceChildren(
+      h('div', { class: 'stage__head' }, h('p', { class: 'stage__status tool-panel__status' }, view.dot, view.label),
+        sing ? h('div', { class: 'progress progress--short', 'aria-hidden': 'true' }, ...view.steps) : null, view.pill),
+      h('div', { class: 'stage__main' },
+        h('div', { class: 'stage__notecol' }, h('p', { class: 'kicker kicker--soft', text: t(sing ? 'pianoPlayed' : 'tuner.nearest') }),
+          view.box, h('p', { class: 'st-readout' }, view.main, view.sub)),
+        wrap),
+      h('div', { class: 'stage__level meter' }, h('span', { class: 'meter__label', text: c('level') }), view.meter, view.word),
+      view.hint,
+      h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, view.again, stop), ui.lockline()));
+    mic(false);
     view.meter.style.setProperty('--gate', E.pitch.GATE_LEVEL.toFixed(3));
-    view.scope = scope(wrap, h);
+    view.scope = scope(wrap, ui);
     ui.show(runV, stop);
+    // On a phone the tab bar floats over the page's foot: Stop is brought
+    // clear of it for the round (the stylesheet's scroll-padding-bottom
+    // keeps the bar's height out of view)
+    const bar = document.querySelector('.site-tabbar');
+    if (bar && bar.getClientRects().length) stop.scrollIntoView({ block: 'nearest' });
     raf = requestAnimationFrame(frame);
   }
 
@@ -379,26 +497,24 @@ export function begin(ui, my, E) {
     // Time-based, so it settles as the app's does at any refresh rate
     if (voiced && view.needle != null) view.smooth += (view.needle - view.smooth) * (1 - (1 - SMOOTH) ** (dt * 60));
     const sing = view.kind === 'sing';
-    const target = sing ? view.boxMidi : null;
+    // Sing lights the piano's note; the tuner, the nearest one
+    const target = sing ? view.boxMidi : view.goal;
     if (!sing && view.centre != null) view.centre += (view.goal - view.centre) * Math.min(1, dt * 4);
     view.scope.draw(now, {
-      needle: view.frozen != null ? view.frozen : voiced ? view.smooth : null, range: sing ? 100 : 50,
+      needle: view.frozen != null ? view.frozen : voiced ? view.smooth : null,
       centre: sing ? (target == null ? 60 : target) : view.centre == null ? 60 : view.centre,
-      span: sing ? 2 : 3, target, label: target == null ? '' : ui.names(target)[0],
+      target, label: target == null ? '' : ui.names(target)[0],
     });
     if (view.frozen == null && ms - view.said > 250) {
       view.said = ms;
-      view.readout.textContent = voiced ? offsetText(view.smooth) : BLANK;
+      readout(voiced ? view.smooth : null);
     }
   }
 
   function reading(r) {
     const v = view;
     if (!v.meter) return;
-    const lvl = E.pitch.meterLevel(r.rms);
-    v.meter.style.setProperty('--level', lvl.toFixed(3));
-    v.meter.setAttribute('aria-valuenow', String(Math.round(lvl * 100)));
-    v.meter.classList.toggle('level-meter--ok', !r.gated);
+    level(r);
     if (r.stable) {
       if (v.lockSince == null) v.lockSince = r.t;
     } else if (!r.outside) v.lockSince = null;
@@ -474,6 +590,7 @@ export function begin(ui, my, E) {
   async function singNote(midi, i, total) {
     const status = fmt(t('sing.noteOf'), { n: i + 1, total });
     const piano = E.piano;
+    view.steps.forEach((s, k) => s.classList.toggle('progress__seg--on', k <= i));
     for (;;) {
       // The piano's turn: no microphone track is live
       view.again.disabled = true;
@@ -482,7 +599,7 @@ export function begin(ui, my, E) {
       view.scope.clear();
       view.voiceAt = -1;
       view.lockSince = view.frozen = null;
-      view.readout.textContent = BLANK;
+      readout(null);
       setPrompt(t('sing.listen'), status);
       ui.say(status + '. ' + t('sing.listen'));
       if (micIsLive()) await listener.stop();
@@ -519,42 +636,96 @@ export function begin(ui, my, E) {
       if (why === 'again') continue;
       const m = measureNote(cap.readings, midi);
       const text = m ? offsetText(m.cents, m.octave) : t('sing.notHeard');
-      setPrompt(text);
+      // the readout already says how far it landed: the line does not repeat it
+      setPrompt(m ? '' : text);
       view.frozen = m ? m.cents : null;
-      view.readout.textContent = m ? ui.short(round(m.cents), true) : BLANK;
+      readout(m ? m.cents : null);
       ui.say(m ? fmt(t('sing.measured'), { n: i + 1, offset: text }) : text);
       await sleep(PAUSE_MS);
       return gone() ? null : m;
     }
   }
 
-  // Back to the panel in another mode: a chip, so it shares a line with the main action
-  function other(mode, text) {
-    return h('button', {
-      type: 'button', class: 'chip', text: text || t('modes.' + mode),
-      onclick: () => {
-        ui.mode = mode;
-        ui.showIdle(true);
-      },
-    });
+  // Back to the idle pane in another mode, beside the result's main action
+  function other(mode, text, ic) {
+    return ui.button(text || t('modes.' + mode), () => {
+      ui.mode = mode;
+      ui.showIdle(true);
+    }, 'btn-secondary', null, ic);
   }
 
   function facts(rows) {
     return h('dl', { class: 'result-card__facts' }, ...rows.map(([k, v]) => h('div', {}, h('dt', { text: k }), h('dd', { text: v }))));
   }
 
+  // The app's offer, where the page has no band of its own: the band (#app),
+  // just under the stage, makes the same offer in the same words with its
+  // Play link, so the result adds none (one Play link, as S2-tune has it)
   function cta() {
+    if (document.getElementById('app')) return '';
     const android = /Android/i.test((globalThis.navigator && navigator.userAgent) || '');
-    return h('div', {}, h('p', { class: 'result-card__note', text: t('result.ctaBody') }),
+    return h('div', { class: 'result__cta' }, h('p', { text: t('result.ctaBody') }),
       android && pd.playLink
-        ? h('p', { class: 'tool-panel__actions' }, h('a', { class: 'btn btn-primary', href: pd.playLink, rel: 'noopener', text: t('result.ctaButton') }))
-        : h('p', { class: 'result-card__note', text: pd.androidOnlyLine || '' }));
+        ? h('p', { class: 'result__buttons' },
+          h('a', { class: 'btn btn-primary', href: pd.playLink, rel: 'noopener' }, icon(DOWNLOAD), t('result.ctaButton')),
+          pd.iphone && h('button', { type: 'button', class: 'btn btn--iphone', disabled: true, 'aria-disabled': 'true' },
+            icon(IPHONE), h('span', { text: pd.iphone })))
+        : h('p', { text: pd.androidOnlyLine || '' }));
+  }
+
+  // One note of the round: its name and how far it landed, a dot for a note
+  // not heard; the reading in words for a screen reader and a pointer
+  function noteCard(m, n) {
+    const full = ui.label(m) + ': ' + (n ? offsetText(n.cents, n.octave) : t('sing.notHeard'));
+    return h('li', { class: 'notecard' + (n && Math.abs(n.cents) > CLOSE ? ' notecard--miss' : ''), title: full },
+      h('span', { class: 'notecard__note', 'aria-hidden': 'true', text: ui.names(m)[0] }),
+      h('span', { class: 'notecard__offset', 'aria-hidden': 'true', text: n ? ui.short(round(n.cents), true) : '·' }),
+      h('span', { class: 'sr-only', text: full }));
+  }
+
+  // The image to share, drawn on this device by share-tune.js once it loads:
+  // Save image and Share wait for it, and go if it cannot be drawn
+  function shareRow(sum, notes, targets) {
+    const d = new Date();
+    const url = (document.querySelector('link[rel=canonical]') || location).href;
+    const half = sum.inTune >= Math.ceil(sum.judged / 2);
+    const data = {
+      lang: ui.lang,
+      date: [d.getFullYear(), d.getMonth() + 1, d.getDate()].map((x) => String(x).padStart(2, '0')).join('-'),
+      off: sum.off, judged: sum.judged, total: sum.total, inTune: sum.inTune, close: sum.close, wobble: sum.wobble,
+      notes: targets.map((m, i) => ({ name: ui.names(m)[0], cents: notes[i] ? round(notes[i].cents) : null, path: notes[i] ? notes[i].path : null })),
+      text: {
+        title: t('share.title'), cents: t('share.cents'), typical: fmt(t('share.typical'), { n: sum.judged }),
+        line2: [fmt(t(half ? 'share.within10' : 'share.within25'), { n: half ? sum.inTune : sum.close, total: sum.judged }),
+          sum.wobble == null ? '' : fmt(t('share.wobble'), { cents: cents(sum.wobble) })].filter(Boolean).join(' · '),
+        bandClose: t('share.bandClose'), bandIn: t('share.bandIn'), theNote: t('share.theNote'), lines: t('share.lines'),
+        ask: t('share.ask'), site: new URL(url).host,
+      },
+    };
+    const cv = h('canvas', { width: 1080, height: 1920, role: 'img', hidden: true,
+      'aria-label': [t('share.title'), cents(sum.off), data.text.typical].join('. ') });
+    const save = ui.button(c('save'), null, 'btn-secondary', { disabled: true }, icon(IMAGE));
+    const send = globalThis.navigator && navigator.share ? ui.button(c('share'), null, 'btn-secondary', { disabled: true }, icon(SHARE)) : null;
+    const row = h('div', { class: 'share share-card' }, cv, h('div', { class: 'share-card__actions' }, save, send));
+    ui.share().then(async (s) => {
+      await s.drawTuneCard(cv, data);
+      const file = await s.toFile(cv, t('share.fileName') + '.png');
+      if (!file) return row.remove();
+      cv.hidden = save.disabled = false;
+      save.onclick = () => s.save(file);
+      if (send) {
+        send.disabled = false;
+        send.onclick = () => s.share(file, { title: t('share.title'), text: fmt(t('share.text'), { cents: cents(sum.off), n: sum.judged }) + ' ' + url, url });
+      }
+    }).catch(() => row.remove());
+    return row;
   }
 
   function result(sum, notes, targets) {
     ui.halt(false);
     const last = ui.load(ui.keys.last);
-    const card = h('div', { class: 'result-card' }, h('p', { class: 'result-card__label', text: t('result.label') }));
+    const card = h('div', { class: 'result result-card' }, h('p', { class: 'result-card__label', text: t('result.label') }));
+    const side = [];
     const count = (n) => fmt(t('result.count'), { n, total: sum.judged });
     if (sum.enough) {
       // "further than 0 cents" only a test tone earns: the figure says it alone
@@ -562,50 +733,49 @@ export function begin(ui, my, E) {
         sum.lean == null ? '' : t(sum.lean > 0 ? 'result.offHigh' : 'result.offLow')].filter(Boolean).join(' ');
       card.append(
         h('p', { class: 'result-card__value' }, ui.short(sum.off) + ' ', h('small', { text: fmt(t('result.basis'), { judged: sum.judged, total: sum.total }) })),
-        line ? h('p', { class: 'result-card__note', text: line }) : '', // append() prints a null as text
+        line ? h('p', { class: 'result-card__note st-say', text: line }) : '', // append() prints a null as text
         facts([[t('result.within10'), count(sum.inTune)], [t('result.within25'), count(sum.close)],
           ...(sum.wobble == null ? [] : [[t('result.wobble'), ui.short(sum.wobble)]])]),
-        // The detail on demand: the result fits where the run was
-        h('details', {}, h('summary', { class: 'result-card__label', text: t('result.notes') }),
-          facts(targets.map((m, i) => {
-            const n = notes[i];
-            const v = n ? ui.short(round(n.cents), true) : t('sing.notHeard');
-            return [ui.label(m), n && n.octave ? fmt(t(n.octave > 0 ? 'offset.octaveUp' : 'offset.octaveDown'), { offset: v }) : v];
-          })),
-          h('p', { class: 'result-card__note', text: sum.wobble == null ? t('result.wobbleNone')
-            : (sum.wobble ? fmt(t('result.wobbleSay'), { cents: cents(sum.wobble) }) + ' ' : '') + t('result.wobbleRead') }),
-          h('p', { class: 'result-card__note', text: t('result.cent') + ' ' + t('result.sample') })));
+        h('p', { class: 'result-card__note', text: sum.wobble == null ? t('result.wobbleNone')
+          : (sum.wobble ? fmt(t('result.wobbleSay'), { cents: cents(sum.wobble) }) + ' ' : '') + t('result.wobbleRead') }),
+        h('p', { class: 'result-card__note', text: t('result.cent') + ' ' + t('result.sample') }));
       const before = ui.lastLine(last);
       if (before) card.append(h('p', { class: 'result-card__note', text: before }));
       ui.store(ui.keys.last, { off: sum.off, inTune: sum.inTune, close: sum.close, judged: sum.judged, at: new Date().toISOString() });
-      ui.say(t('result.label') + ': ' + ui.short(sum.off) + '. ' + line);
+      side.push(h('p', { class: 'kicker kicker--soft', text: t('result.notes') }),
+        h('ol', { class: 'st-notes' }, ...targets.map((m, i) => noteCard(m, notes[i]))),
+        shareRow(sum, notes, targets));
+      ui.say(t('result.label') + '. ' + ui.short(sum.off) + '. ' + line);
     } else {
       const line = fmt(t('result.tooFew'), { judged: sum.judged, total: sum.total });
       card.append(h('p', { class: 'result-card__note', text: line }));
       ui.say(line);
     }
-    const again = ui.button(t('result.again'), ui.start, true);
-    resV.replaceChildren(card, h('div', { class: 'tool-panel__actions' }, again, other('tuner')), cta());
+    const again = ui.button(t('result.again'), ui.start, 'btn--fill', null, icon(REDO));
+    resV.replaceChildren(h('div', { class: 'st-result' }, card, side.length ? h('div', { class: 'st-side' }, ...side) : null),
+      cta(), h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, other('tuner', '', icon(TUNE)))));
     ui.show(resV, again);
   }
 
   // The listening check: the piano only
   async function earRun() {
     const pairs = test && test.pairs ? test.pairs : earPairs(anyBand(ui.types), random(seed));
-    const status = h('p', { class: 'tool-panel__status', text: c('loading') });
-    const answer = h('p', { class: 'tool-panel__hint' });
-    const higher = ui.button(t('ear.higher'), () => answerWith(true), true, { disabled: true });
-    const lower = ui.button(t('ear.lower'), () => answerWith(false), true, { disabled: true });
-    const again = ui.button(t('ear.again'), () => play(), false, { disabled: true });
-    const next = ui.button(c('next'), () => ask(i + 1), true, { hidden: true });
-    const stop = ui.button(c('stop'), () => ui.halt(), false);
+    const status = h('span', { text: c('loading') });
+    const answer = h('p', { class: 'st-answer', text: BLANK });
+    const higher = ui.button(t('ear.higher'), () => answerWith(true), 'btn-secondary btn--lg btn--strong', { disabled: true });
+    const lower = ui.button(t('ear.lower'), () => answerWith(false), 'btn-secondary btn--lg btn--strong', { disabled: true });
+    const again = ui.button(t('ear.again'), () => play(), 'btn-secondary', { disabled: true }, icon(REDO));
+    const next = ui.button(c('next'), () => ask(i + 1), 'btn-primary', { hidden: true });
+    const stop = ui.button(c('stop'), () => ui.halt(), 'btn-secondary', null, icon(STOP, 18, true));
     let i = 0;
     let right = 0;
     let timer = 0;
     view = {};
     runV.classList.remove('tool-panel__state--listening');
-    runV.replaceChildren(status, h('p', { text: t('ear.question') }), h('div', { class: 'tool-panel__actions' }, higher, lower),
-      answer, h('div', { class: 'tool-panel__actions' }, again, next, stop));
+    runV.replaceChildren(h('div', { class: 'stage__head' }, h('p', { class: 'stage__status tool-panel__status' }, status)),
+      h('div', { class: 'st-ear' }, h('p', { class: 'st-question', text: t('ear.question') }),
+        h('div', { class: 'tool-panel__actions' }, higher, lower), answer),
+      h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, next, stop)));
     ui.show(runV, stop);
     const bufs = await Promise.all(pairs.flatMap((p) => [p.a, p.b]).map((m) => E.piano.ensureNote(m)));
     if (gone()) return;
@@ -626,7 +796,7 @@ export function begin(ui, my, E) {
         higher.disabled = lower.disabled = again.disabled = false;
         // A disabled button takes no focus: give it now, unless the reader went elsewhere
         const a = document.activeElement;
-        if (!a || a === document.body || (el.contains(a) && a !== again)) higher.focus({ preventScroll: true });
+        if (!a || a === document.body || (ui.el.contains(a) && a !== again)) higher.focus({ preventScroll: true });
       }, 1050);
     }
 
@@ -635,7 +805,7 @@ export function begin(ui, my, E) {
       if (k >= pairs.length) return earResult(right, pairs.length);
       i = k;
       status.textContent = fmt(t('ear.pairOf'), { n: k + 1, total: pairs.length });
-      answer.textContent = '';
+      answer.textContent = BLANK;
       next.hidden = true;
       higher.disabled = lower.disabled = again.disabled = true;
       ui.say(status.textContent + '. ' + t('ear.question'));
@@ -658,13 +828,13 @@ export function begin(ui, my, E) {
 
   function earResult(right, total) {
     ui.halt(false);
-    const again = ui.button(c('tryAgain'), ui.start, true);
-    resV.replaceChildren(
-      h('div', { class: 'result-card' }, h('p', { class: 'result-card__label', text: t('ear.label') }),
-        h('p', { class: 'result-card__value', text: fmt(t('result.count'), { n: right, total }) }),
-        h('p', { class: 'result-card__note', text: fmt(t('ear.score'), { right, total }) }),
-        h('p', { class: 'result-card__note', text: t(right === total ? 'ear.all' : 'ear.some') })),
-      h('div', { class: 'tool-panel__actions' }, again, other('sing', t('ear.toSing'))));
+    const again = ui.button(c('tryAgain'), ui.start, 'btn--fill', null, icon(REDO));
+    resV.replaceChildren(h('div', { class: 'st-result' }, h('div', { class: 'result result-card' },
+      h('p', { class: 'result-card__label', text: t('ear.label') }),
+      h('p', { class: 'result-card__value', text: fmt(t('result.count'), { n: right, total }) }),
+      h('p', { class: 'result-card__note', text: fmt(t('ear.score'), { right, total }) }),
+      h('p', { class: 'result-card__note', text: t(right === total ? 'ear.all' : 'ear.some') }))),
+    h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, other('sing', t('ear.toSing')))));
     ui.say(fmt(t('ear.score'), { right, total }));
     ui.show(resV, again);
   }

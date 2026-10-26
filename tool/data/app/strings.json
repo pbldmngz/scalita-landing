@@ -538,7 +538,7 @@
       },
       "targetZona": {
         "description": "Centrar en zona de quiebre",
-        "name": "Quiebre vocal"
+        "name": "Zona del quiebre"
       }
     },
     "range": {

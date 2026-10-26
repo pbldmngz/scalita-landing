@@ -3,7 +3,9 @@
   "title": "Ferramentas grátis para cantores, no navegador - Scalita",
   "description": "Quatro ferramentas grátis para quem canta, direto no navegador: teste de extensão vocal, teste de afinação, piano de aquecimento e teste de passagem vocal.",
   "h1": "Ferramentas grátis para quem canta",
-  "lead": "Descubra a sua extensão, veja o quão perto da nota você canta, aqueça num piano de verdade nos seus tons e ache onde a sua voz muda. Não precisa criar conta, e nada do que você canta sai do seu aparelho.",
+  "lead": "Quatro ferramentas do app, direto no navegador. Nada do que você canta sai do seu aparelho.",
+  "appBand": "O Scalita guarda a sua extensão, toca cada exercício num piano de verdade, no seu tom, e com fones desenha a sua afinação enquanto você canta e pontua cada escala. Offline, sem anúncios, sem conta.",
+  "referenceHeading": "Sobre as ferramentas",
   "intro": "<p>Estas quatro ferramentas vêm do Scalita, um app de aquecimento vocal para Android. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador.</p><p>Duas regras valem para todas. Uma ferramenta ou escuta ou toca o piano, nunca as duas coisas ao mesmo tempo, então você não precisa de fones. E quando uma ferramenta escuta, quem faz o trabalho é o seu navegador, no seu aparelho: nada é gravado nem enviado para lugar nenhum.</p>",
   "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [

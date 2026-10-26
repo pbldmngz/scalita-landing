@@ -20,11 +20,18 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/jenis-suara/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/voice-types/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/guides.css?v=703ef4f646">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="¿Qué tipo de voz tengo? Seis tipos, rangos y quiebres - Scalita">
   <meta property="og:description" content="Soprano, mezzosoprano, contralto, tenor, barítono y bajo en un teclado, con rangos y quiebres típicos, y por qué el rango no basta para saber tu tipo de voz.">
@@ -65,38 +72,25 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/es/" class="logo">
-        <img src="/images/logo.svg" alt="Logo de Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/es/#features">Funciones</a></li>
-        <li><a href="/es/#pricing">Precio</a></li>
-        <li><a href="/es/#download">Descargar</a></li>
-        <li><a href="/es/herramientas/">Herramientas</a></li>
-        <li><a href="/es/guias/vocalizaciones/" aria-current="true">Guías</a></li>
-        <li><a href="/es/support.html">Ayuda</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Idioma: Español">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Español</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--landing">
+  <header class="site-header">
+    <div class="site-header__in">
+      <a class="site-logo" href="/es/" aria-label="Logo de Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-nav" aria-label="Sitio">
+        <ul id="nav-menu" class="site-menu">
+        <li><a class="site-menu__row" href="/es/#features"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg><span>Funciones</span></a></li>
+        <li><a class="site-menu__row" href="/es/#pricing"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><span>Precio</span></a></li>
+        <li><a class="site-menu__row" href="/es/#download"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descargar</span></a></li>
+        <li><a class="site-menu__row" href="/es/herramientas/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg><span>Herramientas</span><span class="site-menu__hint">Cuatro, gratis</span></a></li>
+        <li><a class="site-menu__row" href="/es/guias/vocalizaciones/" aria-current="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5c3 0 6 .6 9 2 3-1.4 6-2 9-2v13c-3 0-6 .6-9 2-3-1.4-6-2-9-2zM12 7v13"/></svg><span>Guías</span><span class="site-menu__hint">9 guías</span></a></li>
+        <li><a class="site-menu__row" href="/es/support.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><span>Ayuda</span></a></li>
+        <li class="site-menu__cta"><a class="btn btn--primary btn--wide" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descarga la app</span></a></li>
+        </ul>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Idioma: Español"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>ES</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/guides/voice-types/" hreflang="en" lang="en">English</a>
             <a href="/es/guias/tipos-de-voz/" hreflang="es" lang="es" aria-current="true">Español</a>
             <a href="/fr/guides/types-de-voix/" hreflang="fr" lang="fr">Français</a>
@@ -104,12 +98,13 @@
             <a href="/de/ratgeber/stimmlagen/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/rehber/ses-turleri/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/panduan/jenis-suara/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descarga la app</span></a>
+        <button type="button" class="site-menu__toggle" aria-label="Abrir menú" data-label-close="Cerrar menú" aria-expanded="false" aria-controls="nav-menu"><svg class="i-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="i-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
     </div>
-  </nav>
+  </header>
 
   <main id="main">
     <nav class="breadcrumb" aria-label="Ruta de navegación">
@@ -138,7 +133,7 @@
   <tr><th scope="row"><a href="#contralto">Contralto</a></th><td data-label="Rango típico">Fa3 (F3) a Fa5 (F5)</td><td data-label="Primer cambio">Re4 (D4)</td><td data-label="Segundo cambio">Re5 (D5)</td></tr>
   <tr><th scope="row"><a href="#tenor">Tenor</a></th><td data-label="Rango típico">Do3 (C3) a Do5 (C5)</td><td data-label="Primer cambio">Re4 (D4)</td><td data-label="Segundo cambio">Sol4 (G4)</td></tr>
   <tr><th scope="row"><a href="#baritone">Barítono</a></th><td data-label="Rango típico">La2 (A2) a La4 (A4)</td><td data-label="Primer cambio">Si3 (B3)</td><td data-label="Segundo cambio">Mi4 (E4)</td></tr>
-  <tr><th scope="row"><a href="#bass">Bajo</a></th><td data-label="Rango típico">Fa2 (F2) a Fa4 (F4)</td><td data-label="Primer cambio">Sol#3 (G#3)</td><td data-label="Segundo cambio">Do#4 (C#4)</td></tr>
+  <tr><th scope="row"><a href="#bass">Bajo</a></th><td data-label="Rango típico">Mi2 (E2) a Mi4 (E4)</td><td data-label="Primer cambio">Sol#3 (G#3)</td><td data-label="Segundo cambio">Do#4 (C#4)</td></tr>
 </tbody>
 </table>
 <p>Son rangos y quiebres típicos de la tradición clásica. Scalita usa esos mismos quiebres como primera estimación hasta que encuentres los tuyos. Cada voz es distinta, y el rango por sí solo no decide el tipo de voz.</p>
@@ -211,10 +206,10 @@
 
 <section id="bass">
 <h2>Bajo</h2>
-<div class="keyboard" style="--whites: 19" role="img" aria-label="Bajo: de Fa2 (F2) a Fa4 (F4)"><span class="key"></span><span class="key key--black"></span><span class="key"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range">Do3</span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range key--primo"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range">Do4</span><span class="key key--black key--range key--secondo"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range"></span><span class="key key--black"></span><span class="key"></span><span class="key key--black"></span><span class="key"></span></div>
+<div class="keyboard" style="--whites: 19" role="img" aria-label="Bajo: de Mi2 (E2) a Mi4 (E4)"><span class="key">Do2</span><span class="key key--black"></span><span class="key"></span><span class="key key--black"></span><span class="key key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range">Do3</span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--black key--range key--primo"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key key--range">Do4</span><span class="key key--black key--range key--secondo"></span><span class="key key--range"></span><span class="key key--black key--range"></span><span class="key key--range"></span><span class="key"></span><span class="key key--black"></span><span class="key"></span></div>
 <table>
 <tbody>
-  <tr><th scope="row">Rango típico</th><td>Fa2 (F2) a Fa4 (F4)</td></tr>
+  <tr><th scope="row">Rango típico</th><td>Mi2 (E2) a Mi4 (E4)</td></tr>
   <tr><th scope="row">Primer cambio</th><td>Sol#3 (G#3)</td></tr>
   <tr><th scope="row">Segundo cambio</th><td>Do#4 (C#4)</td></tr>
 </tbody>
@@ -224,12 +219,12 @@
 
 <section>
 <h2>El rango no lo es todo</h2>
-<p>El rango es lo más fácil de medir, así que es lo que más atención recibe. Los profesores escuchan cuatro cosas: el rango, la tesitura (donde la voz está cómoda durante la mayor parte de una canción, que no es lo mismo que el rango aunque a menudo se confundan), el timbre (su color y su peso) y el passaggio, la zona donde cambia de un registro a otro. El resultado de rango de Scalita lo dice claramente: tu quiebre vocal es un indicador más confiable del tipo de voz. El test de pasaje vocal añade que el tipo de voz también depende de dónde suena mejor tu voz y tu calidad tonal.</p><p>Además, el rango se mueve. Tu rango puede cambiar con el calentamiento, el entrenamiento y la hora del día, así que mídelo más de una vez antes de fiarte de él.</p><p>Y no hay prisa. El profesor de canto William Vennard escribió: “nunca siento ninguna urgencia por clasificar a un alumno principiante”, y aconsejaba empezar en el centro de la voz y trabajar hacia arriba y hacia abajo “hasta que la voz se clasifique sola”.</p><p>Los rangos de esta página son las cifras típicas que dan la mayoría de las referencias. Los puntos de quiebre son los ajustes predefinidos de Scalita: para tenor, barítono, bajo y mezzosoprano coinciden con las tablas de Richard Miller, los de soprano quedan a dos semitonos o menos de los suyos, y él sitúa el primer cambio de la contralto aproximadamente media octava más arriba que Scalita.</p>
+<p>El rango es lo más fácil de medir, así que es lo que más atención recibe. Los profesores escuchan cuatro cosas: el rango, la tesitura (donde la voz está cómoda durante la mayor parte de una canción, que no es lo mismo que el rango aunque a menudo se confundan), el timbre (su color y su peso) y el passaggio, la zona donde cambia de un registro a otro. El resultado de rango de Scalita lo dice claramente: tu quiebre vocal es un indicador más confiable del tipo de voz. El test de quiebre vocal añade que el tipo de voz también depende de dónde suena mejor tu voz y tu calidad tonal.</p><p>Además, el rango se mueve. Tu rango puede cambiar con el calentamiento, el entrenamiento y la hora del día, así que mídelo más de una vez antes de fiarte de él.</p><p>Y no hay prisa. El profesor de canto William Vennard escribió: “nunca siento ninguna urgencia por clasificar a un alumno principiante”, y aconsejaba empezar en el centro de la voz y trabajar hacia arriba y hacia abajo “hasta que la voz se clasifique sola”.</p><p>Los rangos de esta página son las cifras típicas que dan la mayoría de las referencias. Los puntos de quiebre son los ajustes predefinidos de Scalita: para tenor, barítono, bajo y mezzosoprano coinciden con las tablas de Richard Miller, los de soprano quedan a dos semitonos o menos de los suyos, y él sitúa el primer cambio de la contralto aproximadamente media octava más arriba que Scalita.</p>
 </section>
 
 <section>
 <h2>Cómo encontrar el tuyo</h2>
-<p>Empieza por tu rango. El <a href="/es/herramientas/test-de-rango-vocal/">test de rango vocal</a> escucha tus notas cómodas más grave y más aguda, y nombra los tipos en los que ese rango es típico. Después busca dónde cambia tu voz con el <a href="/es/herramientas/test-de-pasaje-vocal/">test de pasaje vocal</a>: el piano sube nota a nota, tú cantas con él y pulsas cuando tu voz quiere cambiar de marcha. Juntos dan una estimación mejor que cualquiera de los dos por separado.</p><p>Sigue siendo una estimación. Un profesor que te escuche durante unas cuantas clases notará lo que ningún test puede, empezando por dónde suena mejor tu voz. Mientras tanto, elige el tipo más cercano en el <a href="/es/herramientas/piano-para-vocalizar/">piano para vocalizar</a> y, si los ejercicios te siguen pareciendo demasiado agudos o demasiado graves, prueba el de al lado.</p>
+<p>Empieza por tu rango. El <a href="/es/herramientas/test-de-rango-vocal/">test de rango vocal</a> escucha tus notas cómodas más grave y más aguda, y nombra los tipos en los que ese rango es típico. Después busca dónde cambia tu voz con el <a href="/es/herramientas/test-de-pasaje-vocal/">test de quiebre vocal</a>: el piano sube nota a nota, tú cantas con él y pulsas cuando tu voz quiere cambiar de marcha. Juntos dan una estimación mejor que cualquiera de los dos por separado.</p><p>Sigue siendo una estimación. Un profesor que te escuche durante unas cuantas clases notará lo que ningún test puede, empezando por dónde suena mejor tu voz. Mientras tanto, elige el tipo más cercano en el <a href="/es/herramientas/piano-para-vocalizar/">piano para vocalizar</a> y, si los ejercicios te siguen pareciendo demasiado agudos o demasiado graves, prueba el de al lado.</p>
 </section>
 
 <section>
@@ -238,39 +233,50 @@
 </section>
 
 <ul class="hub-cards">
-  <li><a class="hub-card" href="/es/guias/quiebre-de-voz-al-cantar/"><h3>Quiebres de voz y pasaje</h3><p>Un quiebre de voz, o gallo, es un salto brusco entre la voz de pecho y la de cabeza. Dónde está tu pasaje, qué escuchar y cómo practicar el cruce sin empujar.</p></a></li>
-  <li><a class="hub-card" href="/es/guias/voz-de-cabeza-y-voz-de-pecho/"><h3>Voz de cabeza y pecho</h3><p>La voz de pecho y la de cabeza son dos formas de vibrar de tus cuerdas vocales, con el nombre de donde las sientes. Cómo distinguirlas y qué es la voz mixta.</p></a></li>
+  <li><a class="hub-card" href="/es/guias/quiebre-de-voz-al-cantar/"><h2>Quiebres de voz y pasaje</h2><p>Un quiebre de voz, o gallo, es un salto brusco entre la voz de pecho y la de cabeza. Dónde está tu pasaje, qué escuchar y cómo practicar el cruce sin empujar.</p></a></li>
+  <li><a class="hub-card" href="/es/guias/voz-de-cabeza-y-voz-de-pecho/"><h2>Voz de cabeza y pecho</h2><p>La voz de pecho y la de cabeza son dos formas de vibrar de tus cuerdas vocales, con el nombre de donde las sientes. Cómo distinguirlas y qué es la voz mixta.</p></a></li>
 </ul>
 
 <section class="faq">
 <h2>Preguntas frecuentes</h2>
-<div class="faq-item">
-<h3>¿Puede un hombre cantar de contralto, o una mujer de tenor?</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>¿Puede un hombre cantar de contralto, o una mujer de tenor?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Sí. Un tipo de voz describe una voz, no a la persona que canta. Los contratenores cantan de contralto, y muchos coros tienen mujeres en la cuerda de tenores. En Scalita, elige el tipo cuyo rango se ajuste a las notas que cantas de verdad.</p>
 </div>
-<div class="faq-item">
-<h3>¿El tipo de voz cambia con el tiempo?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>¿El tipo de voz cambia con el tiempo?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Puede cambiar. Las voces siguen cambiando durante la adolescencia y suelen asentarse hacia los veinte o veinticinco años, y algunos cantantes pasan a un tipo vecino después de unos años de entrenamiento.</p>
 </div>
-<div class="faq-item">
-<h3>¿Puedo cantar canciones escritas para otro tipo de voz?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>¿Puedo cantar canciones escritas para otro tipo de voz?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Normalmente sí, en una tonalidad que te venga bien. Si una canción se queda demasiado aguda o demasiado grave casi todo el tiempo, cambia la tonalidad. Importa más por dónde se mueve una canción la mayor parte del tiempo que su nota más aguda.</p>
 </div>
+</details>
 </section>
 
-<aside class="cta-block">
-  <h2>Practica esto en Scalita</h2>
-  <p>Scalita es gratis en Android. Recuerda tu rango, toca cada ejercicio con un piano real transpuesto a tu voz y, con auriculares puestos, dibuja tu afinación mientras cantas y puntúa cada escala. El Modo Adaptativo arma el calentamiento sobre la marcha, según cómo te haya ido cada ejercicio.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=es&amp;referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-types" target="_blank" rel="noopener">Descarga Scalita en Google Play</a></p>
-  <p class="cta-block__other">¿Estás en un iPhone o en una computadora? Por ahora la app es solo para Android, pero todo lo de esta página funciona en tu navegador.</p>
-</aside>
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">Practica esto en Scalita</h2><span class="pill pill--tag">Gratis</span></div>
+    <p class="band__body">Scalita es gratis en Android. Recuerda tu rango, toca cada ejercicio con un piano real transpuesto a tu voz y, con auriculares puestos, dibuja tu afinación mientras cantas y puntúa cada escala. El Modo Adaptativo arma el calentamiento sobre la marcha, según cómo te haya ido cada ejercicio.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=es&amp;referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-types" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descarga Scalita en Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Próximamente</span></button>
+    </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/es/home.jpg" width="560" height="1125" loading="lazy" alt="Pantalla de inicio de Scalita"></div>
+</section>
 
 <aside class="related">
   <h2>Páginas relacionadas</h2>
   <ul>
-    <li><a href="/es/herramientas/test-de-rango-vocal/">Test de rango vocal</a></li>
-    <li><a href="/es/herramientas/test-de-pasaje-vocal/">Test de pasaje vocal</a></li>
-    <li><a href="/es/guias/notas-musicales-do-central/">Notas y octavas</a></li>
+    <li><a class="aside__row" href="/es/herramientas/test-de-rango-vocal/"><span>Test de rango vocal</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/es/herramientas/test-de-pasaje-vocal/"><span>Test de quiebre vocal</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/es/guias/notas-musicales-do-central/"><span>Notas y octavas</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
   </ul>
 </aside>
 
@@ -293,36 +299,33 @@
     </div>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/es/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo de Scalita" width="28" height="28">
-            Scalita
-          </a>
+  <footer class="site-footer">
+    <div class="site-footer__in">
+      <div class="site-footer__cols">
+        <div class="site-footer__brand">
+          <a class="site-logo" href="/es/" aria-label="Logo de Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
           <p>Escalas simples. Piano real. Sin tonterías. Hecho con odio para cantantes de todo el mundo.</p>
         </div>
-        <div class="footer-links">
-          <h4>Producto</h4>
+        <div>
+          <h2>Producto</h2>
           <ul>
             <li><a href="/es/#features">Funciones</a></li>
             <li><a href="/es/#pricing">Precio</a></li>
             <li><a href="/es/#download">Descargar</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Herramientas gratuitas</h4>
+        <div>
+          <h2>Herramientas gratuitas</h2>
           <ul>
             <li><a href="/es/herramientas/">Herramientas gratuitas</a></li>
             <li><a href="/es/herramientas/test-de-rango-vocal/">Test de rango vocal</a></li>
             <li><a href="/es/herramientas/test-de-afinacion-vocal/">Test de afinación</a></li>
             <li><a href="/es/herramientas/piano-para-vocalizar/">Piano para vocalizar</a></li>
-            <li><a href="/es/herramientas/test-de-pasaje-vocal/">Test de pasaje vocal</a></li>
+            <li><a href="/es/herramientas/test-de-pasaje-vocal/">Test de quiebre vocal</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Guías</h4>
+        <div>
+          <h2>Guías</h2>
           <ul>
             <li><a href="/es/guias/vocalizaciones/">Vocalizaciones</a></li>
             <li><a href="/es/guias/tipos-de-voz/">Tipos de voz</a></li>
@@ -336,125 +339,23 @@
             <li><a href="/es/guias/notas-musicales-do-central/">Notas y octavas</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Legal</h4>
+        <div>
+          <h2>Legal</h2>
           <ul>
             <li><a href="/es/privacy.html">Política de Privacidad</a></li>
             <li><a href="/es/terms.html">Términos del Servicio</a></li>
           </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Ayuda</h4>
+          <h2>Ayuda</h2>
           <ul>
             <li><a href="/es/support.html">Ayuda y contacto</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Apoyar en Ko-fi</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p>
-        <p>Hecho con odio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p><p>Hecho con odio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
-
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

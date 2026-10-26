@@ -15,6 +15,7 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import * as S from '../../../js/audio/scheduler.js';
+import { play } from '../../../js/audio/scheduler-play.js';
 import { ringForNote, ringTimeMsForBpm } from '../../../js/audio/piano.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -347,7 +348,7 @@ test('play: every sound is scheduled ahead on the audio clock, never further tha
   const { clock, context, piano, calls } = fakes();
   const tl = S.compile(preSteps.slice(0, 1), { skipFirstChord: true });
   const seen = [];
-  const h = S.play(tl, { piano, context, onEvent: (e) => seen.push({ e, at: clock.now }), timers: clock });
+  const h = play(tl, { piano, context, onEvent: (e) => seen.push({ e, at: clock.now }), timers: clock });
   clock.run(20);
   await flush();
   const notes = calls.filter((c) => c.kind === 'note');
@@ -371,7 +372,7 @@ test('play: every sound is scheduled ahead on the audio clock, never further tha
 test('play: chords carry their volume and ring, the current one capped', async () => {
   const { clock, context, piano, calls } = fakes();
   const tl = S.compile([one({ roots: [48, 50] })], { countIn: 0 });
-  S.play(tl, { piano, context, timers: clock });
+  play(tl, { piano, context, timers: clock });
   clock.run(10);
   await flush();
   const byStart = (t) => calls.filter((c) => c.kind === 'note' && Math.abs(c.when - t) < 1e-9);
@@ -393,7 +394,7 @@ test('play: stop silences what is ahead, fades what sounds, and ends the events'
   const { clock, context, piano, calls } = fakes();
   const tl = S.compile(preSteps.slice(0, 1), { skipFirstChord: true });
   const seen = [];
-  const h = S.play(tl, { piano, context, onEvent: (e) => seen.push(e), timers: clock });
+  const h = play(tl, { piano, context, onEvent: (e) => seen.push(e), timers: clock });
   clock.run(5.3);
   await flush();
   h.stop();
@@ -416,7 +417,7 @@ test('play: done resolves at the end', async () => {
   const { clock, context, piano } = fakes();
   const tl = S.compile([one({ roots: [60] })], { countIn: 1 });
   const seen = [];
-  const h = S.play(tl, { piano, context, onEvent: (e) => seen.push(e.type), timers: clock });
+  const h = play(tl, { piano, context, onEvent: (e) => seen.push(e.type), timers: clock });
   clock.run(tl.countInMs / 1000 + tl.durationMs / 1000 + 1);
   assert.equal(await h.done, 'end');
   assert.equal(seen[0], 'count');
@@ -427,7 +428,7 @@ test('play: done resolves at the end', async () => {
 test('play: rate speeds up the clock and the rings for tests', async () => {
   const { clock, context, piano, calls } = fakes();
   const tl = S.compile([one({ roots: [60] })], { countIn: 0 });
-  const h = S.play(tl, { piano, context, rate: 10, timers: clock });
+  const h = play(tl, { piano, context, rate: 10, timers: clock });
   clock.run(1);
   await flush();
   const notes = calls.filter((c) => c.kind === 'note' && c.velocity === 1);
@@ -440,7 +441,7 @@ test('play: rate speeds up the clock and the rings for tests', async () => {
 test('play: after a stalled timer the rest slides along instead of sounding at once', async () => {
   const { clock, context, piano, calls } = fakes();
   const tl = S.compile([one({ roots: [60, 62] })], { countIn: 0 });
-  S.play(tl, { piano, context, timers: clock });
+  play(tl, { piano, context, timers: clock });
   clock.run(0.5);
   clock.now += 2; // a hidden tab: no timer for two seconds
   clock.run(6);

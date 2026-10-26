@@ -9,7 +9,23 @@
     "support": "Destek",
     "languageLabel": "Dil: %s",
     "tools": "Araçlar",
-    "guides": "Rehberler"
+    "guides": "Rehberler",
+    "home": "Ana sayfa",
+    "siteLabel": "Site menüsü",
+    "toolsLabel": "Ana sayfa ve ücretsiz araçlar",
+    "getApp": "Uygulamayı indir",
+    "closeMenu": "Menüyü kapat",
+    "toolsHint": "Dördü de ücretsiz",
+    "guidesHint": "{n} rehber",
+    "fullscreen": "Tam ekran",
+    "fullscreenHint": "Araç ve araç seçici dışındaki her şeyi gizler",
+    "exitFullscreen": "Tam ekrandan çık",
+    "tabLabels": {
+      "vocal-range-test": "Aralık",
+      "sing-in-tune-test": "Akort",
+      "warm-up-piano": "Piyano",
+      "voice-break-finder": "Geçiş"
+    }
   },
   "footer": {
     "brandLine": "Basit gamlar. Gerçek piyano. Fazlası yok. Her yerdeki şarkıcılar için nefretle yapıldı.",
@@ -20,7 +36,6 @@
     "kofi": "Ko-fi'de destekle",
     "rights": "Tüm hakları saklıdır.",
     "madeBy": "<a href=\"https://dominguezpablo.com\" target=\"_blank\" rel=\"noopener\">Pablo</a> tarafından nefretle yapıldı",
-    "backHome": "Ana sayfaya dön",
     "toolsHeading": "Ücretsiz araçlar",
     "guidesHeading": "Rehberler"
   },
@@ -40,7 +55,13 @@
     "heading": "Bunu Scalita'da çalış",
     "body": "Scalita, Android'de ücretsiz. Ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar. Uyarlanabilir Mod, her egzersizin nasıl hissettirdiğine bakarak ısınmanı sen ilerledikçe kurar.",
     "button": "Scalita'yı Google Play'den indir",
-    "ios": "iPhone'da ya da bilgisayarda mısın? Uygulama şimdilik yalnızca Android'de, ama bu sayfadaki her şey tarayıcında çalışır."
+    "ios": "iPhone'da ya da bilgisayarda mısın? Uygulama şimdilik yalnızca Android'de, ama bu sayfadaki her şey tarayıcında çalışır.",
+    "inApp": "Uygulamada",
+    "hubHeading": "Bu araçların geldiği uygulama",
+    "free": "Ücretsiz",
+    "iphone": "iPhone",
+    "comingSoon": "Yakında",
+    "iphoneLabel": "iPhone sürümü yakında"
   },
   "credit": {
     "piano": "Piyano: Alexander Holm'un Salamander Grand Piano V3 kayıtları, <a href=\"https://creativecommons.org/licenses/by/3.0/\" target=\"_blank\" rel=\"license noopener\">CC BY 3.0</a> lisansıyla. Bu site için yeniden akort edildi, kısaltıldı ve sıkıştırıldı."
@@ -63,42 +84,40 @@
     "heading": "Sık sorulan sorular"
   },
   "index": {
-    "title": "Scalita - Basit gamlar. Gerçek piyano. Fazlası yok.",
-    "description": "Android için ücretsiz vokal ısınma uygulaması. 21 gam, 15 rutin ve 88 tuşun hepsinde gerçek bir Salamander Grand Piano; hepsi ses aralığına göre transpoze edilir. Yeni: Entonasyon Çalışması ve entonasyon puanı. Çevrimdışı çalışır, reklam yok, hesap yok.",
-    "ogTitle": "Scalita - 21 gam, 15 rutin, gerçek piyano. Ücretsiz vokal ısınma uygulaması.",
-    "ogDescription": "88 tuşta gerçek bir Salamander Grand Piano, ses aralığına göre transpoze edilir. Yeni: Entonasyon Çalışması ile temiz söylemenin dört yolu, ayrıca her gam ve rutin bir puanla biter. Çevrimdışı, reklamsız, hesapsız.",
+    "title": "Scalita: ücretsiz ses açma uygulaması, gerçek piyanoyla",
+    "description": "Android için ücretsiz vokal ısınma uygulaması: gerçek piyanoda 21 gam ve 15 rutin, ses aralığına göre transpoze edilir. Çevrimdışı, reklamsız, hesapsız.",
+    "ogTitle": "Scalita: ücretsiz ses açma uygulaması, gerçek piyanoyla",
+    "ogDescription": "88 tuşta gerçek bir Salamander Grand Piano, ses aralığına göre transpoze edilir: 21 gam ve 15 rutin. Çevrimdışı, reklamsız, hesapsız.",
     "screens": [
       {
         "file": "home",
-        "alt": "Scalita ana ekranı"
-      },
-      {
-        "file": "find_my_warmup",
-        "alt": "Isınmamı Bul, sesinin nasıl olduğunu soruyor"
+        "alt": "Scalita ana ekranı",
+        "title": "Bir rutin seç, Çal'a bas",
+        "caption": "15 rutin ve 21 gam, hepsi senin aralığında."
       },
       {
         "file": "player",
-        "alt": "Canlı perde iziyle devam eden bir egzersiz"
+        "alt": "Canlı perde iziyle devam eden bir egzersiz",
+        "title": "Söylerken perdeni gör",
+        "caption": "Kulaklık takılıyken canlı bir iz, her notada nereye oturduğunu gösterir."
       },
       {
         "file": "scored",
-        "alt": "Bir gamın sonundaki puan: ne kadarı temiz oturdu"
+        "alt": "Bir gamın sonundaki puan: ne kadarı temiz oturdu",
+        "title": "Her gamdan sonra bir puan",
+        "caption": "Ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey."
       },
       {
         "file": "pitch_targeting",
-        "alt": "Tek bir tuşta perde hedefleme"
+        "alt": "Tek bir tuşta perde hedefleme",
+        "title": "Bir tuşa dokun, söyle",
+        "caption": "Perde hedefleme, Entonasyon Çalışması'nın dört modundan biri."
       },
       {
-        "file": "harmony",
-        "alt": "Dört partili armoni çalışması"
-      },
-      {
-        "file": "humming_bird",
-        "alt": "Humming Bird: tuttuğun bir notayı boşluklardan geçirdiğin oyun"
-      },
-      {
-        "file": "all_scales",
-        "alt": "Gam listesi"
+        "file": "find_my_warmup",
+        "alt": "Isınmamı Bul, sesinin nasıl olduğunu soruyor",
+        "title": "Sesinin nasıl olduğunu söyle",
+        "caption": "Isınmamı Bul rutini seçer ve tempoyu ayarlar."
       }
     ],
     "hero": {
@@ -106,8 +125,7 @@
       "title": "Gerçek piyano. Senin aralığın. Sadece söyle.",
       "lead": "Sen söylerken Scalita gamları bir Salamander Grand Piano'da çalar. Ses aralığını bir kez belirlersin, her egzersiz ona uyacak şekilde transpoze edilir.",
       "tagline": "Basit gamlar. Gerçek piyano. Fazlası yok.",
-      "ctaPrimary": "Ücretsiz indir",
-      "ctaSecondary": "Yenilikler",
+      "ctaPrimary": "Google Play'den ücretsiz indir",
       "facts": [
         "Ücretsiz",
         "Çevrimdışı çalışır",
@@ -116,9 +134,43 @@
       ],
       "carouselLabel": "Uygulama ekran görüntüleri"
     },
+    "stage": {
+      "meta": "Ücretsiz · Tarayıcında · Yaklaşık bir dakika"
+    },
+    "tools": {
+      "kicker": "Ücretsiz araçlar",
+      "title": "Dört araç, tek stüdyo",
+      "lead": "Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar. Hesap yok, söylediğin hiçbir şey cihazından çıkmaz.",
+      "open": "Aç",
+      "items": [
+        {
+          "page": "vocal-range-test",
+          "meta": "Dinler · Yaklaşık bir dakika",
+          "body": "Rahatça söyleyebildiğin en pes ve en tiz notan, nota ve oktav olarak; bu aralığın tipik olduğu ses türleriyle birlikte."
+        },
+        {
+          "page": "sing-in-tune-test",
+          "meta": "Çalar, sonra dinler",
+          "body": "Bir piyano notası dinle, geri söyle ve ondan kaç sent saptığını gör. Yanında serbest akort modu ve dinleme testi de var."
+        },
+        {
+          "page": "warm-up-piano",
+          "meta": "Çalar · Mikrofonsuz",
+          "body": "Uygulamadaki gamlar ve rutinler, gerçek bir piyanoda senin aralığında çalınır. Bir ses türü ya da kendi en pes ve en tiz notalarını seç."
+        },
+        {
+          "page": "voice-break-finder",
+          "meta": "Çalar · Mikrofonsuz",
+          "body": "Piyano yükselirken birlikte söyle ve sesinin geçiş yaptığı yerde dokun. İlk passaggio'nu ve geçişi en yakın olan ses türünü öğrenirsin."
+        }
+      ]
+    },
+    "app": {
+      "kicker": "Uygulama",
+      "title": "Uygulamanın kattıkları",
+      "lead": "Araçlar tarayıcında çalışır. Uygulama ise ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar."
+    },
     "how": {
-      "title": "Üç adım, uygulama bundan ibaret",
-      "lead": "Önce okuman gereken bir şey yok, üye olman gereken bir yer yok.",
       "steps": [
         {
           "title": "Ses aralığını belirle",
@@ -133,82 +185,8 @@
           "body": "Piyano kalıbı çalar, yarım ses yükselir ve yeniden çalar, hepsi belirlediğin aralığın içinde."
         }
       ],
-      "pianoLabel": "Piyanoyu dinle",
-      "pianoNote": "88 tuşun hepsinde gerçek Salamander Grand Piano kayıtları, La0'dan Do8'e. Ne kadar kalın ya da ince söylersen söyle, o nota için kaydedilmiş bir ses var. Piyano, Batı müziğinin tampere sistemine göre (12 eşit yarım ses) akortludur; Türk makam müziğinin komalı aralıkları yer almaz."
+      "pianoLabel": "Piyanoyu dinle"
     },
-    "harmony": {
-      "badge": "Yeni",
-      "title": "Entonasyon Çalışması",
-      "lead": "Temiz söylemenin dört yolu. Hepsi kulağını ve sesini birlikte çalıştırır: notanın nerede olduğunu duyarsın, sonra sesini tam oraya yerleştirirsin.",
-      "points": [
-        {
-          "title": "Perde hedefleme",
-          "body": "Duymak için bir tuşa dokun, sonra söyle. Tuşu basılı tutarsan nota tekrar tekrar çalar, canlı bir çizgi de ne kadar yakın olduğunu gösterir."
-        },
-        {
-          "title": "Armoni çalışması",
-          "body": "Bir partiyi kaydet, sonrakini üstüne söyle, en fazla dört parti, hepsi senin. Hangi aralığı hedeflediğini söylersen o aralığa göre değerlendirir: tampere piyanoya göre değil, şarkıcıların gerçekten söylediği gibi."
-        },
-        {
-          "title": "Dinle & Tekrarla",
-          "body": "Piyano bir cümle çalar, sen tekrar ederken susar. Bildiğin şarkılardan atlamalar ve pasajlar, hafızadan söylenir."
-        },
-        {
-          "title": "Humming Bird",
-          "body": "Tuttuğun bir notayı birkaç sentlik boşluklardan geçirdiğin bir oyun."
-        }
-      ],
-      "note": "Bir yenilik daha: kablolu ya da Bluetooth kulaklık takılıyken her gam ve her rutin bir puanla biter. Ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Hepsi ücretsiz. Pro yalnızca perde hedeflemedeki çalışma kaydını ve birden fazla armoni saklama imkânını ekler.",
-      "alt": "Dinle & Tekrarla: piyanodan sonra söylenen bir pasaj, nota ızgarasının üzerinde"
-    },
-    "features": {
-      "title": "Daha ileri gitmek istediğinde",
-      "lead": "Uygulamanın geri kalanı, dört parça hâlinde. Hiçbiri ilk gün ayağına dolanmaz."
-    },
-    "groups": [
-      {
-        "title": "Sana cevap veren ısınmalar",
-        "body": "Isınmamı Bul bugün sesinin nasıl olduğunu ve neye çalışmak istediğini sorar, sonra rutini seçip tempoyu ayarlar. Uyarlanabilir Mod ise planı tamamen bırakır: her egzersizden sonra nasıl geçtiğini, bir şey zorladıysa neyin zorladığını söylersin, sonraki egzersiz ona göre ayarlanır. On dakikan olduğunu söylersen bütün oturumu buna sığacak şekilde ayarlar, soğuma dahil.",
-        "tags": [
-          "Isınmamı Bul",
-          "Uyarlanabilir Mod",
-          "Teknik ipuçları",
-          "Tonlar arasında nefes al"
-        ]
-      },
-      {
-        "title": "Kendini gerçekten duy",
-        "body": "Kulaklık tak, canlı bir iz her notada nereye oturduğunu gösterir: temiz olduğunda yeşil, kaydığında kehribar rengi. Kablolu ya da Bluetooth kulaklıkla her gam ve her rutin ayrıca bir puanla biter: ne kadarı temiz oturdu, gerisi ne kadar yakındı ve üzerinde çalışman gereken bir şey. Perde hedefleme bunu her seferinde tek bir tuşa indirir ve kayıtlarını saklar: ses, perde çizgisi ve klavyenin o an ne yaptığı, böylece bir hafta sonra birini açıp bir şeyin değişip değişmediğini duyabilirsin.",
-        "tags": [
-          "Perde göstergesi",
-          "Entonasyon puanı",
-          "Perde hedefleme",
-          "Saklanan kayıtlar"
-        ]
-      },
-      {
-        "title": "Çoğu uygulamanın görmezden geldiği ses bölgeleri",
-        "body": "Çoğu ısınma uygulaması göğüs sesi ve kafa sesinde durur. Gerçekten kullandığın her ses bölgesi için bir aralık belirle, üç ayrı rutin açılır: göğüs sesinin altındaki cızırtı, ses aralığının üstündeki flüt tınısı ve onun da üstündeki ıslık sesi. Geçiş bölgeni de işaretle, egzersizler onun etrafında kurulsun.",
-        "tags": [
-          "Subharmonik",
-          "Flajöle",
-          "Islık sesi",
-          "Geçiş bölgesi",
-          "Rock ve metal"
-        ]
-      },
-      {
-        "title": "Kendin yap",
-        "body": "Gamları ve rutinleri sıfırdan kur: aralıklar, heceler, tempolar, başlangıç notaları. Ya da Gam Kaydı'nı aç, bir kalıbı söyle ya da çal, notaları o senin için yazsın. Baştan yazıldı: gerçek şarkı söylemede yaklaşık yarı yarıya daha az düzeltme gerektirir ve yazı turaya kalmış notaları işaretler, böylece nereye bakacağını bilirsin.",
-        "tags": [
-          "Özel gamlar",
-          "Özel rutinler",
-          "Gam Kaydı",
-          "Dışa ve içe aktarma",
-          "Do Re Mi, C D E, Almanca adlar ya da 1 2 3"
-        ]
-      }
-    ],
     "catalog": {
       "title": "21 gam ve 15 rutin",
       "lead": "Majör, pentatonik, arpejler, Rossini kalıpları, solfej, ses bölgesi köprüleri, rock ve metal, kısa ısınmalar, eksiksiz çalışmalar.",
@@ -301,14 +279,50 @@
       ],
       "note": "Son üçü, o ses bölgesi için bir aralık belirlediğinde açılır."
     },
+    "trust": {
+      "title": "Güvenebileceğin şeyler",
+      "items": [
+        {
+          "id": "free",
+          "title": "Ücretsiz",
+          "body": "Her özellik ödeme yapmadan çalışır."
+        },
+        {
+          "id": "offline",
+          "title": "Çevrimdışı çalışır",
+          "body": "Hiçbir şey için bağlantı gerekmez."
+        },
+        {
+          "id": "noAds",
+          "title": "Reklam yok",
+          "body": "Hiçbir şey seni bölmez."
+        },
+        {
+          "id": "noAccount",
+          "title": "Hesap yok",
+          "body": "Üye olman gereken bir yer yok."
+        },
+        {
+          "id": "piano",
+          "title": "Gerçek piyano",
+          "body": "Salamander Grand Piano, 88 tuşun hepsi."
+        },
+        {
+          "id": "languages",
+          "title": "7 dil",
+          "body": "Türkçe, İngilizce, İspanyolca, Fransızca, Portekizce, Almanca, Endonezce."
+        },
+        {
+          "id": "maker",
+          "title": "Bir şarkıcının elinden",
+          "body": "Pablo Dominguez, beş yıldır modern şan eğitimi alıyor."
+        }
+      ]
+    },
     "pricing": {
-      "title": "Basit, dürüst fiyat",
-      "lead": "Her özellik ücretsiz çalışır. Pro, ne kadar saklayabileceğinin sınırını kaldırır.",
+      "title": "Her özellik ücretsiz çalışır",
+      "lead": "Pro, ne kadar saklayabileceğinin sınırını kaldırır. Tek ödeme, abonelik yok; ülkendeki fiyatı Google Play gösterir.",
       "free": {
-        "name": "Ücretsiz",
-        "price": "0 TL",
-        "period": "sonsuza dek",
-        "cta": "Başla",
         "items": [
           "21 hazır gamın hepsi",
           "15 hazır rutinin hepsi",
@@ -321,11 +335,8 @@
         ]
       },
       "pro": {
-        "name": "Pro",
-        "price": "259,99 TL",
-        "period": "tek seferlik",
-        "badge": "En avantajlı",
-        "cta": "Pro'yu al",
+        "name": "Scalita Pro",
+        "badge": "Tek seferlik",
         "items": [
           "Ücretsiz sürümdeki her şey",
           "<strong>Sınırsız</strong> özel gam ve rutin",
@@ -333,14 +344,14 @@
           "Perde hedeflemede çalışma kaydı",
           "Hazır gam ve rutinleri düzenleme",
           "Geliştirmeye destek"
-        ]
-      },
-      "note": "Tek ödeme, abonelik yok. Her ülkedeki fiyatı Google Play belirler."
+        ],
+        "note": "Uygulamanın içinden, Google Play üzerinden açılır. Hesap gerekmez."
+      }
     },
     "download": {
       "title": "Isınmaya hazır mısın?",
       "lead": "Google Play'de ücretsiz. Hesap yok, reklam yok, iptal edilecek bir şey yok.",
-      "storeSmall": "Hemen indir",
+      "cta": "Google Play'den indir",
       "note": "Şimdilik sadece Android. Türkçe, İngilizce, İspanyolca, Fransızca, Portekizce, Almanca ve Endonezce."
     }
   },
@@ -354,12 +365,12 @@
     "navLabel": "Kullanım Koşulları",
     "title": "Kullanım Koşulları - Scalita",
     "description": "Şarkıcılar için vokal ısınma uygulaması Scalita'nın Kullanım Koşulları.",
-    "body": "        <h1>Kullanım Koşulları</h1>\n        <p class=\"legal-meta\">Son güncelleme: 17 Ekim 2026</p>\n\n        <p>Scalita'ya hoş geldin! Bu Kullanım Koşulları (\"Koşullar\"), Pablo Dominguez (\"biz\", \"bizim\" ya da \"bize\") tarafından sunulan Scalita mobil uygulamasının (\"Uygulama\") kullanımını düzenler. Scalita'yı indirerek, kurarak ya da kullanarak bu Koşulları kabul etmiş olursun.</p>\n\n        <h2>1. Koşulların Kabulü</h2>\n        <p>Scalita'yı kullanarak bu Koşulları okuduğunu, anladığını ve bunlara bağlı kalmayı kabul ettiğini onaylarsın. Bu Koşulları kabul etmiyorsan lütfen Uygulamayı kullanma.</p>\n\n        <h2>2. Hizmetin Tanımı</h2>\n        <p>Scalita, şarkıcılar için tasarlanmış bir vokal ısınma uygulamasıdır. Uygulama şunları sunar:</p>\n        <ul>\n          <li>Çalışmak için hazır ve özel gamlar</li>\n          <li>Ayarları değiştirilebilen ısınma rutinleri</li>\n          <li>Ses aralığı tespiti (isteğe bağlı)</li>\n          <li>Perde göstergesi ve perde hedefleme; çalışma kayıtları cihazında saklanır</li>\n          <li>Kendi vokal partilerini kaydedip üst üste koyduğun armoni çalışması</li>\n          <li>Gam çalışması için piyano çalma</li>\n        </ul>\n\n        <h2>3. Ücretsiz ve Pro Sürümler</h2>\n        <p><strong>Ücretsiz Sürüm:</strong> Scalita'yı indirmek ve kullanmak ücretsizdir; hazır içeriğin tamamına, sınırlı özel içerik oluşturmaya (1 özel gam, 1 özel rutin, 1 saklanan armoni) ve tüm çalma özelliklerine erişim sağlar.</p>\n        <p><strong>Pro Sürüm:</strong> Tek seferlik bir uygulama içi satın alma (259,99 TL) sınırsız özel gam, rutin ve saklanan armoniyi, perde hedeflemedeki çalışma kaydını ve hazır gam ve rutinlerin düzenlenmesini açar. Pro bir abonelik değildir; Pro özelliklerine kalıcı erişim veren tek seferlik bir satın almadır.</p>\n\n        <h2>4. Satın Almalar ve İadeler</h2>\n        <p>Tüm satın almalar Google Play üzerinden işlenir. Satın alma yaparak Google Play'in hizmet koşullarını kabul etmiş olursun. İade talepleri, Google Play'in iade politikasına göre Google Play'e iletilmelidir. Ödemeleri doğrudan işlemeyiz ve ödeme bilgilerine erişimimiz yoktur.</p>\n\n        <h2>5. Kullanım Lisansı</h2>\n        <p>Scalita'yı bu Koşullara uygun olarak kişisel ve ticari olmayan amaçlarla kullanman için sana sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans veriyoruz. Şunları yapamazsın:</p>\n        <ul>\n          <li>Uygulamayı kopyalamak, değiştirmek ya da dağıtmak</li>\n          <li>Uygulamada tersine mühendislik yapmak, kaynak koda dönüştürmek ya da parçalarına ayırmak</li>\n          <li>Telif hakkı ya da mülkiyet bildirimlerini kaldırmak</li>\n          <li>Uygulamayı yasa dışı bir amaçla kullanmak</li>\n          <li>Uygulamanın sistemlerine yetkisiz erişim sağlamaya çalışmak</li>\n        </ul>\n\n        <h2>6. Kullanıcı İçeriği</h2>\n        <p>Uygulamada oluşturduğun özel gamlar, rutinler ve yaptığın kayıtlar gibi her türlü içeriğin sahibi sen olmaya devam edersin. Bu içerik cihazında, yerel olarak saklanır. İçeriği dışa aktarıp paylaştığında, o içeriğin nasıl kullanıldığından sen sorumlusun.</p>\n\n        <h2>7. Ses Örnekleri</h2>\n        <p>Scalita'nın piyanosu, Alexander Holm'un Salamander Grand Piano V3 kaydından hazırlanmıştır. Bu kayıt <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a> lisansıyla sunulur ve Uygulamada, Ayarlar bölümünde adı anılır. Orijinal örnekler bu lisansla kaynağında erişilebilir olmaya devam eder ve bu Koşullardaki hiçbir şey o lisansın tanıdığı hakları kısıtlamaz. Uygulamanın geri kalanı sana 5. bölümde anlatıldığı şekilde lisanslanır.</p>\n\n        <h2>8. Garanti Reddi</h2>\n        <p>SCALITA, AÇIK YA DA ZIMNİ HİÇBİR GARANTİ VERİLMEKSİZİN \"OLDUĞU GİBİ\" VE \"MEVCUT OLDUĞU HALİYLE\" SUNULUR. Şunları garanti etmeyiz:</p>\n        <ul>\n          <li>Uygulamanın özel ihtiyaçlarını karşılayacağını</li>\n          <li>Uygulamanın kesintisiz, zamanında, güvenli ya da hatasız olacağını</li>\n          <li>Uygulamayı kullanarak elde edilen sonuçların doğru ya da güvenilir olacağını</li>\n          <li>Uygulamadaki hataların düzeltileceğini</li>\n        </ul>\n\n        <h2>9. Sorumluluğun Sınırlandırılması</h2>\n        <p>YASANIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, SCALITA'YI KULLANMANDAN KAYNAKLANAN YA DA BUNUNLA BAĞLANTILI HİÇBİR DOLAYLI, ARIZİ, ÖZEL, SONUÇ OLARAK ORTAYA ÇIKAN YA DA CEZAİ ZARARDAN, KÂR, VERİ YA DA KULLANIM KAYBI DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, SORUMLU TUTULAMAYIZ.</p>\n\n        <h2>10. Sağlık Uyarısı</h2>\n        <p>Scalita, şarkıcılar için bir çalışma aracı olarak tasarlanmıştır. Profesyonel şan eğitiminin ya da tıbbi tavsiyenin yerini tutmaz. Uygulamayı kullanırken ağrı, rahatsızlık ya da seste zorlanma hissedersen hemen dur ve bir sağlık uzmanına ya da ses uzmanına danış.</p>\n\n        <h2>11. Uygulamadaki Değişiklikler</h2>\n        <p>Scalita'nın herhangi bir yönünü istediğimiz zaman, önceden bildirmeden güncelleyebilir, değiştirebilir ya da sonlandırabiliriz. Uygulamanın herhangi bir şekilde değiştirilmesinden, askıya alınmasından ya da sonlandırılmasından sorumlu değiliz.</p>\n\n        <h2>12. Koşullardaki Değişiklikler</h2>\n        <p>Bu Koşulları istediğimiz zaman bu sayfayı güncelleyerek değiştirebiliriz. Değişikliklerden sonra Uygulamayı kullanmaya devam etmen, güncellenmiş Koşulları kabul ettiğin anlamına gelir. Bu Koşulları ara sıra gözden geçirmeni öneririz.</p>\n\n        <h2>13. Fesih</h2>\n        <p>Bu Koşulları ihlal etmen dahil herhangi bir nedenle, önceden bildirimde bulunmadan ve hiçbir sorumluluk üstlenmeden Scalita'ya erişimini istediğimiz zaman sonlandırabilir ya da askıya alabiliriz. Fesih durumunda Uygulamayı kullanma lisansın derhal sona erer.</p>\n\n        <h2>14. Uygulanacak Hukuk</h2>\n        <p>Bu Koşullar, kanunlar ihtilafı kuralları dikkate alınmaksızın İspanya yasalarına tabidir ve bu yasalara göre yorumlanır.</p>\n\n        <h2>15. İletişim</h2>\n        <p>Bu Koşullar hakkında soruların varsa bize şuradan ulaşabilirsin:</p>\n        <ul>\n          <li>E-posta: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Web sitesi: <a href=\"https://scalita.com/tr/support.html\">scalita.com/tr/support</a></li>\n        </ul>"
+    "body": "        <h1>Kullanım Koşulları</h1>\n        <p class=\"legal-meta\">Son güncelleme: 26 Ekim 2026</p>\n\n        <p>Scalita'ya hoş geldin! Bu Kullanım Koşulları (\"Koşullar\"), Pablo Dominguez (\"biz\", \"bizim\" ya da \"bize\") tarafından sunulan Scalita mobil uygulamasının (\"Uygulama\") kullanımını düzenler. Scalita'yı indirerek, kurarak ya da kullanarak bu Koşulları kabul etmiş olursun.</p>\n\n        <h2>1. Koşulların Kabulü</h2>\n        <p>Scalita'yı kullanarak bu Koşulları okuduğunu, anladığını ve bunlara bağlı kalmayı kabul ettiğini onaylarsın. Bu Koşulları kabul etmiyorsan lütfen Uygulamayı kullanma.</p>\n\n        <h2>2. Hizmetin Tanımı</h2>\n        <p>Scalita, şarkıcılar için tasarlanmış bir vokal ısınma uygulamasıdır. Uygulama şunları sunar:</p>\n        <ul>\n          <li>Çalışmak için hazır ve özel gamlar</li>\n          <li>Ayarları değiştirilebilen ısınma rutinleri</li>\n          <li>Ses aralığı tespiti (isteğe bağlı)</li>\n          <li>Perde göstergesi ve perde hedefleme; çalışma kayıtları cihazında saklanır</li>\n          <li>Kendi vokal partilerini kaydedip üst üste koyduğun armoni çalışması</li>\n          <li>Gam çalışması için piyano çalma</li>\n        </ul>\n\n        <h2>3. Ücretsiz ve Pro Sürümler</h2>\n        <p><strong>Ücretsiz Sürüm:</strong> Scalita'yı indirmek ve kullanmak ücretsizdir; hazır içeriğin tamamına, sınırlı özel içerik oluşturmaya (1 özel gam, 1 özel rutin, 1 saklanan armoni) ve tüm çalma özelliklerine erişim sağlar.</p>\n        <p><strong>Pro Sürüm:</strong> Tek seferlik bir uygulama içi satın alma, sınırsız özel gam, rutin ve saklanan armoniyi, perde hedeflemedeki çalışma kaydını ve hazır gam ve rutinlerin düzenlenmesini açar. Ülkendeki fiyatı satın almadan önce Google Play gösterir. Pro bir abonelik değildir; Pro özelliklerine kalıcı erişim veren tek seferlik bir satın almadır.</p>\n\n        <h2>4. Satın Almalar ve İadeler</h2>\n        <p>Tüm satın almalar Google Play üzerinden işlenir. Satın alma yaparak Google Play'in hizmet koşullarını kabul etmiş olursun. İade talepleri, Google Play'in iade politikasına göre Google Play'e iletilmelidir. Ödemeleri doğrudan işlemeyiz ve ödeme bilgilerine erişimimiz yoktur.</p>\n\n        <h2>5. Kullanım Lisansı</h2>\n        <p>Scalita'yı bu Koşullara uygun olarak kişisel ve ticari olmayan amaçlarla kullanman için sana sınırlı, münhasır olmayan, devredilemez ve geri alınabilir bir lisans veriyoruz. Şunları yapamazsın:</p>\n        <ul>\n          <li>Uygulamayı kopyalamak, değiştirmek ya da dağıtmak</li>\n          <li>Uygulamada tersine mühendislik yapmak, kaynak koda dönüştürmek ya da parçalarına ayırmak</li>\n          <li>Telif hakkı ya da mülkiyet bildirimlerini kaldırmak</li>\n          <li>Uygulamayı yasa dışı bir amaçla kullanmak</li>\n          <li>Uygulamanın sistemlerine yetkisiz erişim sağlamaya çalışmak</li>\n        </ul>\n\n        <h2>6. Kullanıcı İçeriği</h2>\n        <p>Uygulamada oluşturduğun özel gamlar, rutinler ve yaptığın kayıtlar gibi her türlü içeriğin sahibi sen olmaya devam edersin. Bu içerik cihazında, yerel olarak saklanır. İçeriği dışa aktarıp paylaştığında, o içeriğin nasıl kullanıldığından sen sorumlusun.</p>\n\n        <h2>7. Ses Örnekleri</h2>\n        <p>Scalita'nın piyanosu, Alexander Holm'un Salamander Grand Piano V3 kaydından hazırlanmıştır. Bu kayıt <a href=\"https://creativecommons.org/licenses/by/3.0/\">CC BY 3.0</a> lisansıyla sunulur ve Uygulamada, Ayarlar bölümünde adı anılır. Orijinal örnekler bu lisansla kaynağında erişilebilir olmaya devam eder ve bu Koşullardaki hiçbir şey o lisansın tanıdığı hakları kısıtlamaz. Uygulamanın geri kalanı sana 5. bölümde anlatıldığı şekilde lisanslanır.</p>\n\n        <h2>8. Garanti Reddi</h2>\n        <p>SCALITA, AÇIK YA DA ZIMNİ HİÇBİR GARANTİ VERİLMEKSİZİN \"OLDUĞU GİBİ\" VE \"MEVCUT OLDUĞU HALİYLE\" SUNULUR. Şunları garanti etmeyiz:</p>\n        <ul>\n          <li>Uygulamanın özel ihtiyaçlarını karşılayacağını</li>\n          <li>Uygulamanın kesintisiz, zamanında, güvenli ya da hatasız olacağını</li>\n          <li>Uygulamayı kullanarak elde edilen sonuçların doğru ya da güvenilir olacağını</li>\n          <li>Uygulamadaki hataların düzeltileceğini</li>\n        </ul>\n\n        <h2>9. Sorumluluğun Sınırlandırılması</h2>\n        <p>YASANIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, SCALITA'YI KULLANMANDAN KAYNAKLANAN YA DA BUNUNLA BAĞLANTILI HİÇBİR DOLAYLI, ARIZİ, ÖZEL, SONUÇ OLARAK ORTAYA ÇIKAN YA DA CEZAİ ZARARDAN, KÂR, VERİ YA DA KULLANIM KAYBI DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, SORUMLU TUTULAMAYIZ.</p>\n\n        <h2>10. Sağlık Uyarısı</h2>\n        <p>Scalita, şarkıcılar için bir çalışma aracı olarak tasarlanmıştır. Profesyonel şan eğitiminin ya da tıbbi tavsiyenin yerini tutmaz. Uygulamayı kullanırken ağrı, rahatsızlık ya da seste zorlanma hissedersen hemen dur ve bir sağlık uzmanına ya da ses uzmanına danış.</p>\n\n        <h2>11. Uygulamadaki Değişiklikler</h2>\n        <p>Scalita'nın herhangi bir yönünü istediğimiz zaman, önceden bildirmeden güncelleyebilir, değiştirebilir ya da sonlandırabiliriz. Uygulamanın herhangi bir şekilde değiştirilmesinden, askıya alınmasından ya da sonlandırılmasından sorumlu değiliz.</p>\n\n        <h2>12. Koşullardaki Değişiklikler</h2>\n        <p>Bu Koşulları istediğimiz zaman bu sayfayı güncelleyerek değiştirebiliriz. Değişikliklerden sonra Uygulamayı kullanmaya devam etmen, güncellenmiş Koşulları kabul ettiğin anlamına gelir. Bu Koşulları ara sıra gözden geçirmeni öneririz.</p>\n\n        <h2>13. Fesih</h2>\n        <p>Bu Koşulları ihlal etmen dahil herhangi bir nedenle, önceden bildirimde bulunmadan ve hiçbir sorumluluk üstlenmeden Scalita'ya erişimini istediğimiz zaman sonlandırabilir ya da askıya alabiliriz. Fesih durumunda Uygulamayı kullanma lisansın derhal sona erer.</p>\n\n        <h2>14. Uygulanacak Hukuk</h2>\n        <p>Bu Koşullar, kanunlar ihtilafı kuralları dikkate alınmaksızın İspanya yasalarına tabidir ve bu yasalara göre yorumlanır.</p>\n\n        <h2>15. İletişim</h2>\n        <p>Bu Koşullar hakkında soruların varsa bize şuradan ulaşabilirsin:</p>\n        <ul>\n          <li>E-posta: <a href=\"mailto:legal@scalita.com\">legal@scalita.com</a></li>\n          <li>Web sitesi: <a href=\"https://scalita.com/tr/support.html\">scalita.com/tr/support</a></li>\n        </ul>"
   },
   "support": {
     "navLabel": "Destek",
     "title": "Destek - Scalita",
     "description": "Şarkıcılar için vokal ısınma uygulaması Scalita için yardım ve destek.",
-    "body": "        <h1>Nasıl yardımcı olabilirim?</h1>\n        <p>Aklına takılan bir şey mi var, bir hata mı buldun, yoksa sadece merhaba mı demek istiyorsun? Senden haber almayı çok isterim.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=tr&amp;type=bug\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z\"/>\n                <path d=\"M2 12h5M17 12h5M4 6l3 2M20 6l-3 2M4 18l3-2M20 18l-3-2\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Hata bildir</h3>\n              <p>Bir şey ters gidiyor, düzelmesini istiyorum. Ekran görüntüsü de gönderebilirsin.</p>\n            </div>\n          </a>\n\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=tr&amp;type=suggestion\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M9 18h6M10 22h4\"/>\n                <path d=\"M12 2a7 7 0 0 0-4 12.7V16h8v-1.3A7 7 0 0 0 12 2z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Özellik öner</h3>\n              <p>Bir şey eksik. Ne kullanırdın, bana anlat.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h3>Ko-fi'de destekle</h3>\n              <p>Scalita'yı seviyor musun? Geliştirmenin sürmesine destek ol</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Sık Sorulan Sorular</h2>\n\n          <div class=\"faq-item\">\n            <h3>Scalita gerçekten ücretsiz mi?</h3>\n            <p>Evet! Scalita'yı ücretsiz kullanabilirsin: 21 hazır gamın hepsi, 15 hazır rutinin hepsi ve tüm çalma özellikleri dahil. Entonasyon Çalışması'nın dört modu, entonasyon puanı ve Gam Kaydı da mikrofonuyla birlikte ücretsiz. Ücretsiz olarak 1 özel gam, 1 özel rutin ve 1 armoni saklayabilirsin. Pro (259,99 TL, tek seferlik) bu sınırları kaldırır ve perde hedeflemedeki çalışma kaydını açar.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita çevrimdışı çalışır mı?</h3>\n            <p>Kesinlikle. Scalita tamamen çevrimdışı çalışacak şekilde tasarlandı. Piyano sesleri uygulamanın içinde gelir, böylece internet olmadan her yerde çalışabilirsin.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Pro satın alımımı nasıl geri yüklerim?</h3>\n            <p>Dokunman gereken bir şey yok. Scalita her açıldığında satın alımını Google Play ile kontrol eder ve Pro'yu kendiliğinden yeniden açar. Satın alırken kullandığın Google hesabıyla oturum açtığından emin ol ve uygulamayı bir kez internete bağlıyken aç.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>iOS sürümü var mı?</h3>\n            <p>Henüz yok ama planlarda var! iOS sürümünün ne zaman çıkacağını öğrenmek için bizi takip et.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita kayıtlarımı saklıyor mu?</h3>\n            <p>Çalışma kayıtları ve saklanan armoniler, sonra tekrar dinleyebilmen için telefonunda tutulur. Hiçbir şey hiçbir yere yüklenmez. Ses aralığı tespiti, perde göstergesi ve Gam Kaydı hiç ses saklamaz. Bir kaydı ya da armoniyi istediğin zaman uygulamanın içinden silebilirsin.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Ses aralığı tespitim çalışmıyor</h3>\n            <p>Cihaz ayarlarında mikrofon izni verdiğinden emin ol. Sessiz bir ortamda söyle ve her notayı birkaç saniye sabit tut. Tespit işine yaramazsa ses aralığını her zaman elle belirleyebilirsin.</p>\n          </div>\n        </div>"
+    "body": "        <h1>Nasıl yardımcı olabilirim?</h1>\n        <p>Aklına takılan bir şey mi var, bir hata mı buldun, yoksa sadece merhaba mı demek istiyorsun? Senden haber almayı çok isterim.</p>\n\n        <div class=\"support-options\">\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=tr&amp;type=bug\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M12 2a5 5 0 0 1 5 5v3a5 5 0 0 1-10 0V7a5 5 0 0 1 5-5z\"/>\n                <path d=\"M2 12h5M17 12h5M4 6l3 2M20 6l-3 2M4 18l3-2M20 18l-3-2\"/>\n              </svg>\n            </div>\n            <div>\n              <h2>Hata bildir</h2>\n              <p>Bir şey ters gidiyor, düzelmesini istiyorum. Ekran görüntüsü de gönderebilirsin.</p>\n            </div>\n          </a>\n\n          <a href=\"https://www.dominguezpablo.com/support/scalita?lang=tr&amp;type=suggestion\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M9 18h6M10 22h4\"/>\n                <path d=\"M12 2a7 7 0 0 0-4 12.7V16h8v-1.3A7 7 0 0 0 12 2z\"/>\n              </svg>\n            </div>\n            <div>\n              <h2>Özellik öner</h2>\n              <p>Bir şey eksik. Ne kullanırdın, bana anlat.</p>\n            </div>\n          </a>\n\n          <a href=\"https://ko-fi.com/pablodm9\" target=\"_blank\" rel=\"noopener\" class=\"support-option\">\n            <div class=\"support-icon\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\">\n                <path d=\"M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z\"/>\n              </svg>\n            </div>\n            <div>\n              <h2>Ko-fi'de destekle</h2>\n              <p>Scalita'yı seviyor musun? Geliştirmenin sürmesine destek ol</p>\n            </div>\n          </a>\n        </div>\n\n        <div class=\"faq\">\n          <h2>Sık Sorulan Sorular</h2>\n\n          <div class=\"faq-item\">\n            <h3>Scalita gerçekten ücretsiz mi?</h3>\n            <p>Evet! Scalita'yı ücretsiz kullanabilirsin: 21 hazır gamın hepsi, 15 hazır rutinin hepsi ve tüm çalma özellikleri dahil. Entonasyon Çalışması'nın dört modu, entonasyon puanı ve Gam Kaydı da mikrofonuyla birlikte ücretsiz. Ücretsiz olarak 1 özel gam, 1 özel rutin ve 1 armoni saklayabilirsin. Tek seferlik bir satın alma olan Pro, bu sınırları kaldırır ve perde hedeflemedeki çalışma kaydını açar. Ülkendeki fiyatı Google Play gösterir.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita çevrimdışı çalışır mı?</h3>\n            <p>Kesinlikle. Scalita tamamen çevrimdışı çalışacak şekilde tasarlandı. Piyano sesleri uygulamanın içinde gelir, böylece internet olmadan her yerde çalışabilirsin.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Pro satın alımımı nasıl geri yüklerim?</h3>\n            <p>Dokunman gereken bir şey yok. Scalita her açıldığında satın alımını Google Play ile kontrol eder ve Pro'yu kendiliğinden yeniden açar. Satın alırken kullandığın Google hesabıyla oturum açtığından emin ol ve uygulamayı bir kez internete bağlıyken aç.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>iOS sürümü var mı?</h3>\n            <p>Henüz yok ama planlarda var! iOS sürümünün ne zaman çıkacağını öğrenmek için bizi takip et.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Scalita kayıtlarımı saklıyor mu?</h3>\n            <p>Çalışma kayıtları ve saklanan armoniler, sonra tekrar dinleyebilmen için telefonunda tutulur. Hiçbir şey hiçbir yere yüklenmez. Ses aralığı tespiti, perde göstergesi ve Gam Kaydı hiç ses saklamaz. Bir kaydı ya da armoniyi istediğin zaman uygulamanın içinden silebilirsin.</p>\n          </div>\n\n          <div class=\"faq-item\">\n            <h3>Ses aralığı tespitim çalışmıyor</h3>\n            <p>Cihaz ayarlarında mikrofon izni verdiğinden emin ol. Sessiz bir ortamda söyle ve her notayı birkaç saniye sabit tut. Tespit işine yaramazsa ses aralığını her zaman elle belirleyebilirsin.</p>\n          </div>\n        </div>"
   }
 }

@@ -17,6 +17,7 @@ import _parts as p
 RELATED = ["vocal-range-test", "voice-types", "sing-in-tune-test", "five-note-scale", "voice-break-finder"]
 MIDDLE_C, A440 = 60, 69
 STYLES = ["scientific", "francoBelgian", "helmholtz"]
+CSS = ["guides.css"]
 
 
 def systems_order(n):
@@ -63,4 +64,4 @@ def render(ctx):
          p.L(ctx, "notation.lowest"), p.L(ctx, "notation.highest")], rows, cards=True))
 
     blocks = [p.prose(ctx, ctx.copy.get("sections")), systems, landmarks, octave, octaves]
-    return p.result(p.finish(ctx, blocks, RELATED))
+    return dict(p.result(p.finish(ctx, blocks, RELATED)), css=CSS)

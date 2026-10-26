@@ -1,11 +1,11 @@
 {
   "slug": "stimmlagen",
-  "label": "Stimmlagen",
-  "title": "Welche Stimmlage habe ich? Umfang und Registerbrüche - Scalita",
-  "description": "Sopran bis Bass: die sechs Stimmlagen auf der Tastatur, mit typischem Umfang und Registerbrüchen, und warum der Umfang allein die Stimmlage nicht entscheidet.",
-  "h1": "Stimmlagen, vom Sopran bis zum Bass",
-  "lead": "Die sechs klassischen Stimmlagen, jede auf einer Tastatur mit ihrem üblichen Umfang und den zwei Stellen, an denen sie meist wechselt. Nimm sie als Ausgangspunkt, nicht als Etikett.",
-  "intro": "<p>Eine Stimmlage beschreibt, wo eine Stimme liegt und wie sie sich verhält: ihren Umfang, die Töne, auf denen sie sich den größten Teil eines Lieds wohlfühlt, die Stellen, an denen sie den Gang wechselt, und ihr Gewicht und ihre Farbe. Der klassische Gesang kennt sechs Hauptstimmlagen, und Scalita nutzt dieselben sechs als Voreinstellungen. Wähl eine, und jede Übung geht von diesem Umfang und diesen Registerbrüchen aus, bis du deine eigenen misst.</p><p>Die Zahlen sind typisch, keine Regeln, und jede Stimme ist anders. Die genannten Untertypen, im Deutschen meist Fächer genannt, stehen hier, damit du die Begriffe kennst; eine Stimme einem Fach zuzuordnen braucht das Ohr einer Lehrkraft, über Monate.</p>",
+  "label": "Stimmfächer",
+  "title": "Welches Stimmfach habe ich? Umfang und Registerbrüche - Scalita",
+  "description": "Sopran bis Bass: die sechs Stimmfächer auf der Tastatur, mit typischem Umfang und Registerbrüchen, und warum der Umfang allein das Stimmfach nicht entscheidet.",
+  "h1": "Stimmfächer, vom Sopran bis zum Bass",
+  "lead": "Die sechs klassischen Stimmfächer, jedes auf einer Tastatur mit seinem üblichen Umfang und den zwei Stellen, an denen es meist wechselt. Nimm sie als Ausgangspunkt, nicht als Etikett.",
+  "intro": "<p>Ein Stimmfach beschreibt, wo eine Stimme liegt und wie sie sich verhält: ihren Umfang, die Töne, auf denen sie sich den größten Teil eines Lieds wohlfühlt, die Stellen, an denen sie den Gang wechselt, und ihr Gewicht und ihre Farbe. Der klassische Gesang kennt sechs Hauptstimmfächer, und Scalita nutzt dieselben sechs als Voreinstellungen. Wähl eine, und jede Übung geht von diesem Umfang und diesen Registerbrüchen aus, bis du deine eigenen misst.</p><p>Die Zahlen sind typisch, keine Regeln, und jede Stimme ist anders. Die genannten Untertypen, im Deutschen meist Fächer genannt, stehen hier, damit du die Begriffe kennst; eine Stimme einem Fach zuzuordnen braucht das Ohr einer Lehrkraft, über Monate.</p>",
   "children": ["voice-cracks-high-notes", "head-voice-vs-chest-voice"],
   "sections": [
     {
@@ -21,7 +21,7 @@
     {
       "voiceType": "contralto",
       "heading": "Contralto",
-      "html": "<p>Die tiefste der höheren Stimmen. Die tiefen Töne eines Contralto sind schwerer und kommen leichter als bei einem Mezzosopran, und die Stimme ist ganze Lieder lang tief im Umfang zu Hause.</p><p>Der Name sorgt für die erste Verwechslung: Alt ist eine Chorstimme, Contralto die Stimmlage, und viele Altistinnen im Chor sind Mezzosoprane, weil ein Chor keine Mezzostimme hat. Dass im Deutschen auch die Stimmlage oft einfach Alt heißt, macht es nicht leichter. Die zweite ist die Annahme, dass hier nur Frauen singen. Countertenöre sind Männer, die in diesem Bereich singen, meist in einer leichten Kopfstimme oder im Falsett.</p><p>Fächer: Koloraturalt, lyrischer Alt und dramatischer Alt.</p>"
+      "html": "<p>Die tiefste der höheren Stimmen. Die tiefen Töne eines Contralto sind schwerer und kommen leichter als bei einem Mezzosopran, und die Stimme ist ganze Lieder lang tief im Umfang zu Hause.</p><p>Der Name sorgt für die erste Verwechslung: Alt ist eine Chorstimme, Contralto das Stimmfach, und viele Altistinnen im Chor sind Mezzosoprane, weil ein Chor keine Mezzostimme hat. Dass im Deutschen auch das Stimmfach oft einfach Alt heißt, macht es nicht leichter. Die zweite ist die Annahme, dass hier nur Frauen singen. Countertenöre sind Männer, die in diesem Bereich singen, meist in einer leichten Kopfstimme oder im Falsett.</p><p>Fächer: Koloraturalt, lyrischer Alt und dramatischer Alt.</p>"
     },
     {
       "voiceType": "tenor",
@@ -40,28 +40,28 @@
     },
     {
       "heading": "Der Umfang ist nicht alles",
-      "html": "<p>Der Umfang ist am leichtesten zu messen, deshalb bekommt er die meiste Aufmerksamkeit. Lehrkräfte hören auf vier Dinge: Umfang, Tessitur (wo sich die Stimme den größten Teil eines Lieds wohlfühlt), Timbre (ihre Farbe und ihr Gewicht) und das Passaggio, die Zone, in der sie zwischen den Registern wechselt. Scalitas Umfangsergebnis sagt es klar: Dein Registerbruch sagt zuverlässiger etwas über deine Stimmlage. Der Registerwechsel-Finder ergänzt, dass deine Stimmlage auch davon abhängt, wo deine Stimme am besten klingt, und von deiner Klangfarbe.</p><p>Auch der Umfang bewegt sich. Dein Umfang ändert sich mit Einsingen, Training und Tageszeit, also miss ihn mehr als einmal, bevor du ihm traust.</p><p>Und es eilt nicht. Der Gesangspädagoge William Vennard schrieb, er verspüre nie Eile, eine Anfängerin oder einen Anfänger einzuordnen, und riet, in der Mitte der Stimme zu beginnen und von dort nach oben und unten zu arbeiten, „bis die Stimme sich selbst einordnet“.</p><p>Die Umfänge hier sind die typischen Werte, die die meisten Nachschlagewerke nennen. Die Registerbrüche sind Scalitas Voreinstellungen: Für Tenor, Bariton, Bass und Mezzosopran stimmen sie mit Richard Millers Tabellen überein, die des Soprans liegen innerhalb von zwei Halbtönen von seinen, und den ersten Wechsel des Contralto setzt er etwa eine halbe Oktave höher an als Scalita.</p>"
+      "html": "<p>Der Umfang ist am leichtesten zu messen, deshalb bekommt er die meiste Aufmerksamkeit. Lehrkräfte hören auf vier Dinge: Umfang, Tessitur (wo sich die Stimme den größten Teil eines Lieds wohlfühlt), Timbre (ihre Farbe und ihr Gewicht) und das Passaggio, die Zone, in der sie zwischen den Registern wechselt. Scalitas Umfangsergebnis sagt es klar: Dein Registerbruch sagt zuverlässiger etwas über dein Stimmfach. Der Registerwechsel-Finder ergänzt, dass dein Stimmfach auch davon abhängt, wo deine Stimme am besten klingt, und von deiner Klangfarbe.</p><p>Auch der Umfang bewegt sich. Dein Umfang ändert sich mit Einsingen, Training und Tageszeit, also miss ihn mehr als einmal, bevor du ihm traust.</p><p>Und es eilt nicht. Der Gesangspädagoge William Vennard schrieb, er verspüre nie Eile, eine Anfängerin oder einen Anfänger einzuordnen, und riet, in der Mitte der Stimme zu beginnen und von dort nach oben und unten zu arbeiten, „bis die Stimme sich selbst einordnet“.</p><p>Die Umfänge hier sind die typischen Werte, die die meisten Nachschlagewerke nennen. Die Registerbrüche sind Scalitas Voreinstellungen: Für Tenor, Bariton, Bass und Mezzosopran stimmen sie mit Richard Millers Tabellen überein, die des Soprans liegen innerhalb von zwei Halbtönen von seinen, und den ersten Wechsel des Contralto setzt er etwa eine halbe Oktave höher an als Scalita.</p>"
     },
     {
       "heading": "So findest du deine",
-      "html": "<p>Fang mit deinem Umfang an. Der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> hört auf deinen tiefsten und höchsten bequemen Ton und nennt die Stimmlagen, für die dieser Umfang typisch ist. Dann finde mit dem <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> heraus, wo deine Stimme wechselt: Das Klavier steigt Ton für Ton, du singst mit und tippst, wenn deine Stimme den Gang wechseln will. Zusammen ergeben sie eine bessere Schätzung als jeder Test für sich.</p><p>Es bleibt eine Schätzung. Eine Lehrkraft, die dich über ein paar Stunden hört, bemerkt, was kein Test kann, angefangen damit, wo deine Stimme am besten klingt. Bis dahin wähl am <a href=\"page:warm-up-piano\">Einsing-Klavier</a> die Voreinstellung, die am nächsten liegt, und wenn sich die Übungen immer wieder zu hoch oder zu tief anfühlen, probier die benachbarte.</p>"
+      "html": "<p>Fang mit deinem Umfang an. Der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> hört auf deinen tiefsten und höchsten bequemen Ton und nennt die Stimmfächer, für die dieser Umfang typisch ist. Dann finde mit dem <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> heraus, wo deine Stimme wechselt: Das Klavier steigt Ton für Ton, du singst mit und tippst, wenn deine Stimme den Gang wechseln will. Zusammen ergeben sie eine bessere Schätzung als jeder Test für sich.</p><p>Es bleibt eine Schätzung. Eine Lehrkraft, die dich über ein paar Stunden hört, bemerkt, was kein Test kann, angefangen damit, wo deine Stimme am besten klingt. Bis dahin wähl am <a href=\"page:warm-up-piano\">Einsing-Klavier</a> die Voreinstellung, die am nächsten liegt, und wenn sich die Übungen immer wieder zu hoch oder zu tief anfühlen, probier die benachbarte.</p>"
     },
     {
-      "heading": "Verrät deine Sprechstimme deine Stimmlage?",
-      "html": "<p>Nicht zuverlässig. Eine Studie mit 75 Opernsängerinnen und -sängern fand, dass sich die Sprechtonhöhe zwischen den meisten Stimmlagen im Durchschnitt unterschied, aber nicht zwischen allen, und kam zu dem Schluss, dass die Sprechtonhöhe eine Einordnung stützen, sie aber nie allein treffen kann. Die Sprechtonhöhe verschiebt sich außerdem mit Gewohnheit, Stimmung und Müdigkeit. Scalita schätzt nie eine Stimmlage aus deiner Sprechstimme; die App bittet dich zu singen.</p>"
+      "heading": "Verrät deine Sprechstimme dein Stimmfach?",
+      "html": "<p>Nicht zuverlässig. Eine Studie mit 75 Opernsängerinnen und -sängern fand, dass sich die Sprechtonhöhe zwischen den meisten Stimmfächern im Durchschnitt unterschied, aber nicht zwischen allen, und kam zu dem Schluss, dass die Sprechtonhöhe eine Einordnung stützen, sie aber nie allein treffen kann. Die Sprechtonhöhe verschiebt sich außerdem mit Gewohnheit, Stimmung und Müdigkeit. Scalita schätzt nie ein Stimmfach aus deiner Sprechstimme; die App bittet dich zu singen.</p>"
     }
   ],
   "faq": [
     {
       "q": "Kann ein Mann Alt singen oder eine Frau Tenor?",
-      "a": "<p>Ja. Eine Stimmlage beschreibt eine Stimme, nicht die Person, die singt. Countertenöre singen Alt, und in vielen Chören singen Frauen im Tenor. Wähl in Scalita die Voreinstellung, deren Umfang zu den Tönen passt, die du wirklich singst.</p>"
+      "a": "<p>Ja. Ein Stimmfach beschreibt eine Stimme, nicht die Person, die singt. Countertenöre singen Alt, und in vielen Chören singen Frauen im Tenor. Wähl in Scalita die Voreinstellung, deren Umfang zu den Tönen passt, die du wirklich singst.</p>"
     },
     {
-      "q": "Ändert sich die Stimmlage mit der Zeit?",
-      "a": "<p>Das kann sie. Stimmen verändern sich die ganze Jugend hindurch und festigen sich meist Anfang bis Mitte zwanzig, und manche Sängerinnen und Sänger wechseln nach ein paar Jahren Training in eine benachbarte Stimmlage.</p>"
+      "q": "Ändert sich das Stimmfach mit der Zeit?",
+      "a": "<p>Das kann es. Stimmen verändern sich die ganze Jugend hindurch und festigen sich meist Anfang bis Mitte zwanzig, und manche Sängerinnen und Sänger wechseln nach ein paar Jahren Training in ein benachbartes Stimmfach.</p>"
     },
     {
-      "q": "Kann ich Lieder singen, die für eine andere Stimmlage geschrieben sind?",
+      "q": "Kann ich Lieder singen, die für ein anderes Stimmfach geschrieben sind?",
       "a": "<p>Meistens ja, in einer Tonart, die dir liegt. Wenn ein Lied den größten Teil der Zeit zu hoch oder zu tief liegt, transponier es. Wo ein Lied seine Zeit verbringt, zählt mehr als sein einziger höchster Ton.</p>"
     }
   ],

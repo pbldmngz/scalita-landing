@@ -1,0 +1,118 @@
+/* The tools hub, tool/templates/tools_hub.py (its docstring has the layout).
+   style.css skins the components; this file places them. */
+
+.hub-wrap { max-width: var(--w-tools, 1184px); margin: 0 auto; padding: 0 32px; }
+.hub-title { padding-top: 12px; }
+.hub-title h1 { margin: 0; font-size: 36px; font-weight: 300; line-height: 1.15; letter-spacing: -.02em; }
+.hub-lead { margin: 6px 0 0; font-size: 16px; line-height: 1.5; color: var(--soft); }
+.hub-tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; margin-top: 24px; }
+.hub-tiles .tile__title { flex: 1 1 auto; min-width: 0; }
+.hub-tiles .tile__foot { margin-top: auto; }
+.hub-tiles .tile__preview { overflow: hidden; }
+.hub-tiles .tile__preview--phone, .hub-newhere { display: none; }
+
+.hub-ref { display: grid; grid-template-columns: minmax(0, 1fr) 300px; gap: 72px; align-items: start; margin-top: 80px; }
+.hub-ref__main { max-width: 720px; min-width: 0; }
+.hub-ref .hub-kicker { margin: 0 0 6px; font-size: 12px; font-weight: 500; letter-spacing: .1em; text-transform: uppercase; color: var(--seafoam); }
+.hub-ref__head h2 { margin: 0 0 8px; font-size: 28px; font-weight: 300; line-height: 1.2; letter-spacing: -.02em; }
+.hub-ref .hub-ref__date { margin: 0 0 36px; font-size: 13px; color: var(--soft); }
+.hub-ref__main :is(p, li) { font-size: 15px; line-height: 1.7; color: var(--soft); }
+.hub-ref__main p { margin: 0 0 12px; }
+.hub-start h3 { margin: 0 0 10px; font-size: 19px; font-weight: 500; line-height: 1.3; }
+.hub-start ol { margin: 0 0 32px; padding-left: 20px; }
+.hub-start li + li { margin-top: 6px; }
+.hub-ref .hub-sec { border-top: 0; border-bottom: 1px solid var(--mist); }
+.hub-ref .hub-sec--intro { border-top: 1px solid var(--mist); }
+.hub-ref .acc[open] > .acc__head > svg { transform: rotate(180deg); }
+.hub-ref .acc__body > :last-child { margin-bottom: 0; }
+.hub-ref .faq > h3 { margin: 16px 0 6px; font-size: 22px; font-weight: 300; letter-spacing: -.01em; }
+.hub-ref .faq .acc__body p { font-size: 14px; line-height: 1.65; }
+.hub-aside .hub-kicker { margin-bottom: 10px; }
+.hub-aside__list { margin: 0; padding: 0; list-style: none; border-bottom: 1px solid var(--mist); }
+.hub-aside__list .aside__row { border-bottom: 0; }
+.hub-allguides { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-size: 13px; font-weight: 500; color: var(--glow); }
+.hub-wrap > .byline { margin-top: 40px; }
+.hub-wrap > .band { margin-top: 64px; }
+
+@media (max-width: 959.98px) {
+  .hub-tiles, .hub-ref { grid-template-columns: minmax(0, 1fr); }
+  .hub-ref { gap: 48px; }
+}
+@media (min-width: 1180px) {
+  .hub-aside { position: sticky; top: 88px; }
+}
+
+/* Prose on wide screens where a closed <details> can show its content. */
+@media (min-width: 600px) {
+  @supports selector(::details-content) {
+    .hub-ref .hub-sec { border: 0; }
+    .hub-sec::details-content { display: block; content-visibility: visible; }
+    .hub-ref .hub-sec > .acc__head { display: block; min-height: 0; margin: 0 0 10px; padding: 0; cursor: auto; pointer-events: none; }
+    .hub-sec > .acc__head > svg, .hub-ref .hub-sec--intro > .acc__head { display: none; }
+    .hub-ref .hub-sec > .acc__head h3 { font-size: 19px; line-height: 1.3; }
+    .hub-ref .hub-sec > .acc__body { padding: 0 0 32px; }
+  }
+}
+
+@media (max-width: 599.98px) {
+  .hub-wrap { display: flex; flex-direction: column; padding: 0 16px; }
+  .hub-title { padding-top: 6px; }
+  .hub-title h1 { font-size: 24px; font-weight: 400; line-height: 1.25; letter-spacing: -.01em; }
+  .hub-lead { margin-top: 4px; font-size: 14px; line-height: 1.45; }
+  .hub-tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+  .hub-tiles :is(.icon-box, .pill, .tile__preview--desktop) { display: none; }
+  .hub-tiles .tile__preview--phone { display: block; order: -1; }
+  .hub-tiles .tile__title { font-size: 15px; line-height: 1.3; }
+  .hub-tiles .tile__foot { flex-direction: column; align-items: stretch; gap: 8px; }
+  .hub-tiles .tile__line { min-height: 34px; font-size: 12px; line-height: 1.4; }
+  .hub-tiles .tile__start { justify-content: center; height: auto; min-height: 40px; font-size: 13px; }
+  .hub-newhere { display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; min-height: 44px; margin-top: 10px; font-size: 13px; color: var(--soft); }
+  .hub-ref { display: block; margin-top: 24px; }
+  .hub-ref__main { display: flex; flex-direction: column; }
+  .hub-start { order: -1; padding: 20px; border: 1px solid var(--mist); border-radius: 20px; background: var(--surface); }
+  .hub-start h3 { margin-bottom: 6px; font-size: 17px; }
+  .hub-start :is(p, li) { font-size: 14px; line-height: 1.5; }
+  .hub-start ol { margin: 0; padding: 0; list-style: none; counter-reset: hub-step; }
+  .hub-start li { position: relative; min-height: 26px; padding-left: 38px; counter-increment: hub-step; }
+  .hub-start li + li { margin-top: 10px; }
+  .hub-start li::before { content: counter(hub-step); position: absolute; top: 0; left: 0; width: 26px; line-height: 26px; border-radius: 50%; background: var(--surface-light); color: var(--glow); font-size: 12px; font-weight: 500; text-align: center; }
+  .hub-start a { font-weight: 500; }
+  .hub-ref__head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin: 28px 0 4px; }
+  .hub-ref__head h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .hub-ref__head .hub-kicker, .hub-ref .hub-ref__date { margin: 0; font-size: 12px; }
+  .hub-ref .acc__head > svg { transform: rotate(-90deg); }
+  .hub-ref .acc[open] > .acc__head > svg { transform: none; }
+  .hub-ref__main .acc__body p { font-size: 15px; line-height: 1.6; }
+  .hub-ref .faq { margin-top: 32px; }
+  .hub-ref .faq > h3 { margin: 0 0 4px; font-size: 20px; font-weight: 400; letter-spacing: 0; }
+  .hub-aside { margin-top: 32px; }
+  .hub-wrap > .band { order: 1; margin-top: 32px; }
+  .hub-wrap > .byline { order: 2; margin-top: 28px; }
+}
+
+/* The tile previews. Keys have no outline, ever. */
+.hub-pv { display: block; width: 100%; height: auto; fill: var(--soft); }
+.hub-pv__dot { fill: var(--coral); }
+.hub-pv__box { fill: var(--surface-light); stroke: var(--ocean); }
+.hub-pv__note { fill: var(--cream); font-weight: 300; }
+.hub-pv__lane { fill: var(--surface-light); opacity: .5; }
+.hub-pv__lane--on { fill: var(--ocean); opacity: .28; }
+.hub-pv__cur, .hub-pv__bt { fill: var(--glow); font-weight: 500; }
+.hub-pv__line { fill: none; stroke: var(--glow); stroke-linecap: round; stroke-linejoin: round; }
+.hub-pv__halo { fill: var(--glow); opacity: .22; }
+.hub-pv__head { fill: var(--cream); }
+.hub-pv__band { fill: var(--ocean); opacity: .16; }
+.hub-pv__band--in { opacity: .22; }
+.hub-pv__rule { stroke: var(--mist); }
+.hub-pv__tick { stroke: var(--soft); opacity: .7; }
+.hub-pv__needle { stroke: var(--cream); stroke-linecap: round; }
+.hub-pv__key, .hub-pv__step { fill: var(--ocean); }
+.hub-pv__key--b, .hub-pv__kl { fill: var(--base); }
+.hub-pv__key--on { fill: var(--glow); }
+.hub-pv__glow { fill: var(--glow); opacity: .55; }
+.hub-pv__step { opacity: .45; }
+.hub-pv__step--up { opacity: .22; }
+.hub-pv__dash { fill: none; stroke: var(--soft); }
+.hub-pv__btn { fill: none; stroke: var(--ocean); }
+.hub-pv__btn--off { stroke: var(--mist); }
+.hub-pv__bt--off { fill: var(--soft); }

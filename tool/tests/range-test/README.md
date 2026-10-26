@@ -1,6 +1,9 @@
 # Vocal range test
 
-`js/tools/vocal-range-test.js` and `js/tools/share-card.js`, the tool's UI.
+`js/tools/vocal-range-test.js` (the entry: the mount, idle, in-app and error
+panes, `mic.js` only before a tap) and `js/tools/vocal-range-run.js` (loaded on
+the first tap: the session, the listening view, the picker, the result). The
+share image, `js/tools/share-card.js`, has its own suite in `../share/`.
 
 ```bash
 node --test tool/tests/range-test/*.test.mjs   # logic, strings, budget; the fake-mic input at every window phase
@@ -9,7 +12,7 @@ python3 -B tool/tests/range-test/e2e.py         # the tool in headless Chromium 
 
 | File | What it holds |
 |---|---|
-| `range.test.mjs` | the voice-type match against `voice_type_vectors.json`, the two phases over the app's lock (timing, the highest above the lowest, fry and whistle tallied and hinted, the hold-steady hint), every string the code names present in `ui/en/vocal-range-test.json` and none unused, the static imports and the 15 KB budget, no dashes. With the takes present, each `fixtures.json` input through the real pitch reader at 16 window phases, 44.1 and 48 kHz |
+| `range.test.mjs` | the voice-type match against `voice_type_vectors.json`, a type named only for 12 to 35 semitones (`VoiceType.rangeNamesAType`) and the voice types a range of three octaves holds whole, as the app's picture counts them, the two phases over the app's lock (timing, the highest above the lowest, fry and whistle tallied and hinted, the hold-steady hint), every string the code names present in `ui/en/vocal-range-test.json` and none unused, the entry's static imports (`mic.js`, the run module on the tap) and the 15 KB budget, no dashes. With the takes present, each `fixtures.json` input through the real pitch reader at 16 window phases, 44.1 and 48 kHz |
 | `e2e.py` | six runs, listed at its top: two takes on an Android phone, sine tones on a computer, an in-app browser, every error code, the keyboard-only path, the weight before a tap |
 | `fixture.html` | the page the browser test serves at `/tools/vocal-range-test/`, filled with `tool/build.py --page-data` and the import map a built page has |
 | `fixtures.json` | the fake-mic inputs as segments of takes, tones and silence, and the notes each must lock |

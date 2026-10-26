@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "Comment l'utiliser",
     "sample": "Exemple de résultat",
-    "notClaimed": "Ce qu'il ne prétend pas"
+    "notClaimed": "Ce qu'il ne prétend pas",
+    "howItWorks": "Comment ça marche",
+    "mic": "Micro",
+    "noMic": "Sans micro",
+    "next": {
+      "vocal-range-test": "Trouve ta tessiture",
+      "sing-in-tune-test": "Mesure ta justesse",
+      "warm-up-piano": "Échauffe-toi dans ta tessiture",
+      "voice-break-finder": "Trouve ton passage de voix"
+    }
+  },
+  "reference": {
+    "kicker": "En détail",
+    "reviewed": "Vérifié le {date}",
+    "relatedGuides": "Guides associés",
+    "otherTools": "Les trois autres outils",
+    "guidesWith": "Les guides qui vont avec",
+    "allGuides": "Voir les {n} guides",
+    "newHere": "Tu débutes ? Par où commencer",
+    "twoRules": "Deux règles pour les quatre outils"
   },
   "routine": {
     "length": "Durée",
@@ -66,6 +85,9 @@
     "span": "Où il se situe",
     "note": "Ce sont les étendues dans lesquelles Scalita travaille chaque registre. Pour les subharmoniques, l'étendue est la hauteur qu'on entend."
   },
+  "hub": {
+    "moreGuides": "Autres guides"
+  },
   "intake": {
     "appOnly": "Seulement dans l'application"
   },
@@ -88,5 +110,22 @@
       "francoBelgian": "Franco-belge",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "janvier",
+      "février",
+      "mars",
+      "avril",
+      "mai",
+      "juin",
+      "juillet",
+      "août",
+      "septembre",
+      "octobre",
+      "novembre",
+      "décembre"
+    ],
+    "pattern": "{d} {month} {y}"
   }
 }

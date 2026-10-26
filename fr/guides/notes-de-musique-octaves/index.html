@@ -20,11 +20,18 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/not-angka-not-huruf/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/note-names-octaves/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/guides.css?v=703ef4f646">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Do central : Do3 ou Do4 ? Noms des notes et octaves - Scalita">
   <meta property="og:description" content="Le do central s'écrit Do3, C4, Do4 ou c¹ selon où tu as appris la musique : comment noms de notes et octaves se correspondent, et le H allemand.">
@@ -74,7 +81,7 @@
   "mainEntityOfPage": "https://scalita.com/fr/guides/notes-de-musique-octaves/",
   "inLanguage": "fr",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-10-26",
   "author": {
     "@type": "Person",
     "name": "Pablo Dominguez",
@@ -84,38 +91,25 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/fr/" class="logo">
-        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/fr/#features">Fonctionnalités</a></li>
-        <li><a href="/fr/#pricing">Tarifs</a></li>
-        <li><a href="/fr/#download">Télécharger</a></li>
-        <li><a href="/fr/outils/">Outils</a></li>
-        <li><a href="/fr/guides/vocalises/" aria-current="true">Guides</a></li>
-        <li><a href="/fr/support.html">Aide</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Langue : Français">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Français</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--landing">
+  <header class="site-header">
+    <div class="site-header__in">
+      <a class="site-logo" href="/fr/" aria-label="Logo Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-nav" aria-label="Site">
+        <ul id="nav-menu" class="site-menu">
+        <li><a class="site-menu__row" href="/fr/#features"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg><span>Fonctionnalités</span></a></li>
+        <li><a class="site-menu__row" href="/fr/#pricing"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><span>Tarifs</span></a></li>
+        <li><a class="site-menu__row" href="/fr/#download"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Télécharger</span></a></li>
+        <li><a class="site-menu__row" href="/fr/outils/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg><span>Outils</span><span class="site-menu__hint">Quatre, gratuits</span></a></li>
+        <li><a class="site-menu__row" href="/fr/guides/vocalises/" aria-current="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5c3 0 6 .6 9 2 3-1.4 6-2 9-2v13c-3 0-6 .6-9 2-3-1.4-6-2-9-2zM12 7v13"/></svg><span>Guides</span><span class="site-menu__hint">9 guides</span></a></li>
+        <li><a class="site-menu__row" href="/fr/support.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><span>Aide</span></a></li>
+        <li class="site-menu__cta"><a class="btn btn--primary btn--wide" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Obtenir l'appli</span></a></li>
+        </ul>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Langue : Français"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>FR</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/guides/note-names-octaves/" hreflang="en" lang="en">English</a>
             <a href="/es/guias/notas-musicales-do-central/" hreflang="es" lang="es">Español</a>
             <a href="/fr/guides/notes-de-musique-octaves/" hreflang="fr" lang="fr" aria-current="true">Français</a>
@@ -123,12 +117,13 @@
             <a href="/de/ratgeber/notennamen-h-oktaven/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/rehber/nota-isimleri/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/panduan/not-angka-not-huruf/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Obtenir l'appli</span></a>
+        <button type="button" class="site-menu__toggle" aria-label="Ouvrir le menu" data-label-close="Fermer le menu" aria-expanded="false" aria-controls="nav-menu"><svg class="i-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="i-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
     </div>
-  </nav>
+  </header>
 
   <main id="main">
     <nav class="breadcrumb" aria-label="Fil d'Ariane">
@@ -228,31 +223,40 @@
 
 <section class="faq">
 <h2>Questions fréquentes</h2>
-<div class="faq-item">
-<h3>Le do central, c'est Do3 ou Do4 ?</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>Le do central, c'est Do3 ou Do4 ?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Do3 en notation française, ce qui correspond à C4 dans la notation scientifique qu'utilise la plupart du matériel de chant. Si un clavier ou un logiciel d'enregistrement l'appelle C3, ou C5, ou si tu le vois écrit do4, c'est la même touche avec une autre étiquette : la norme MIDI dit seulement que le do central est la note numéro 60.</p>
 </div>
-<div class="faq-item">
-<h3>Quelle touche est le do central sur un piano ?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>Quelle touche est le do central sur un piano ?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Sur un piano complet de 88 touches, c'est le quatrième do en partant de la gauche, près du milieu. Chaque do est la touche blanche juste à gauche d'un groupe de deux touches noires.</p>
 </div>
+</details>
 </section>
 
-<aside class="cta-block">
-  <h2>Entraîne-toi avec Scalita</h2>
-  <p>Scalita est gratuite sur Android. Elle retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Le Mode adaptatif construit l'échauffement au fil de la séance, selon ton ressenti sur chaque exercice.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr&amp;referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dnote-names-octaves" target="_blank" rel="noopener">Télécharger Scalita sur Google Play</a></p>
-  <p class="cta-block__other">Sur iPhone ou sur ordinateur ? L'application n'existe que sur Android pour l'instant, mais tout ce qui se trouve sur cette page fonctionne dans ton navigateur.</p>
-</aside>
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">Entraîne-toi avec Scalita</h2><span class="pill pill--tag">Gratuit</span></div>
+    <p class="band__body">Scalita est gratuite sur Android. Elle retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Le Mode adaptatif construit l'échauffement au fil de la séance, selon ton ressenti sur chaque exercice.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr&amp;referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dnote-names-octaves" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Télécharger sur Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Bientôt disponible</span></button>
+    </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/fr/home.jpg" width="560" height="1125" loading="lazy" alt="Écran d'accueil de Scalita"></div>
+</section>
 
 <aside class="related">
   <h2>Pages associées</h2>
   <ul>
-    <li><a href="/fr/outils/test-tessiture-voix/">Test de tessiture</a></li>
-    <li><a href="/fr/guides/types-de-voix/">Types de voix</a></li>
-    <li><a href="/fr/outils/test-chanter-juste/">Test de justesse</a></li>
-    <li><a href="/fr/guides/vocalise-5-notes/">Vocalise de 5 notes</a></li>
-    <li><a href="/fr/outils/trouver-son-passage-de-voix/">Trouver son passage de voix</a></li>
+    <li><a class="aside__row" href="/fr/outils/test-tessiture-voix/"><span>Test de tessiture</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/guides/types-de-voix/"><span>Types de voix</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/outils/test-chanter-juste/"><span>Test de justesse</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/guides/vocalise-5-notes/"><span>Vocalise de 5 notes</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/outils/trouver-son-passage-de-voix/"><span>Trouver son passage de voix</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
   </ul>
 </aside>
 
@@ -276,26 +280,23 @@
     </div>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/fr/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo Scalita" width="28" height="28">
-            Scalita
-          </a>
+  <footer class="site-footer">
+    <div class="site-footer__in">
+      <div class="site-footer__cols">
+        <div class="site-footer__brand">
+          <a class="site-logo" href="/fr/" aria-label="Logo Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
           <p>Gammes simples. Vrai piano. Sans chichis. Fait avec haine pour les chanteurs du monde entier.</p>
         </div>
-        <div class="footer-links">
-          <h4>Produit</h4>
+        <div>
+          <h2>Produit</h2>
           <ul>
             <li><a href="/fr/#features">Fonctionnalités</a></li>
             <li><a href="/fr/#pricing">Tarifs</a></li>
             <li><a href="/fr/#download">Télécharger</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Outils gratuits</h4>
+        <div>
+          <h2>Outils gratuits</h2>
           <ul>
             <li><a href="/fr/outils/">Outils gratuits</a></li>
             <li><a href="/fr/outils/test-tessiture-voix/">Test de tessiture</a></li>
@@ -304,8 +305,8 @@
             <li><a href="/fr/outils/trouver-son-passage-de-voix/">Trouver son passage de voix</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Guides</h4>
+        <div>
+          <h2>Guides</h2>
           <ul>
             <li><a href="/fr/guides/vocalises/">Vocalises</a></li>
             <li><a href="/fr/guides/types-de-voix/">Types de voix</a></li>
@@ -319,125 +320,23 @@
             <li><a href="/fr/guides/notes-de-musique-octaves/">Noms des notes et octaves</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Mentions légales</h4>
+        <div>
+          <h2>Mentions légales</h2>
           <ul>
             <li><a href="/fr/privacy.html">Politique de confidentialité</a></li>
             <li><a href="/fr/terms.html">Conditions d'utilisation</a></li>
           </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Aide</h4>
+          <h2>Aide</h2>
           <ul>
             <li><a href="/fr/support.html">Aide et contact</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Soutenir sur Ko-fi</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Tous droits réservés.</p>
-        <p>Fait avec haine par <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Tous droits réservés.</p><p>Fait avec haine par <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
-
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

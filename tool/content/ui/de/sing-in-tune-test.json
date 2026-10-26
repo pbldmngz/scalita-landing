@@ -14,13 +14,13 @@
     "label": "Töne für",
     "any": "Jede Stimme",
     "saved": "Dein Umfang, {low} bis {high}",
-    "types": "Stimmlagen"
+    "types": "Stimmfächer"
   },
   "sing": {
     "noteOf": "Ton {n} von {total}",
     "listen": "Hör dem Klavier zu.",
     "now": "Jetzt sing ihn nach und halte ihn.",
-    "again": "Nochmal hören",
+    "again": "Erneut hören",
     "notHeard": "Nicht gehört, deshalb zählt dieser Ton nicht.",
     "measured": "Ton {n}: {offset}"
   },
@@ -65,7 +65,8 @@
     "ctaButton": "Scalita bei Google Play laden"
   },
   "tuner": {
-    "hint": "Sing oder summ einen beliebigen Ton."
+    "hint": "Sing oder summ einen beliebigen Ton.",
+    "nearest": "Nächstgelegener Ton"
   },
   "ear": {
     "label": "Höher oder tiefer",
@@ -73,7 +74,7 @@
     "question": "War der zweite Ton höher oder tiefer?",
     "higher": "Höher",
     "lower": "Tiefer",
-    "again": "Nochmal hören",
+    "again": "Erneut hören",
     "wentUp": "Der zweite Ton war höher, {step} nach oben.",
     "wentDown": "Der zweite Ton war tiefer, {step} nach unten.",
     "score": "Bei {right} von {total} Paaren hast du die Richtung gehört.",
@@ -82,5 +83,22 @@
     "toSing": "Einen Ton nachsingen"
   },
   "meter": "Mikrofonpegel",
-  "pianoFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal."
+  "pianoFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal.",
+  "pianoPlayed": "Das Klavier spielte",
+  "cents": "Cent",
+  "share": {
+    "title": "Meine Treffsicherheit",
+    "cents": "Cent",
+    "typical": "Typische Abweichung vom Ton, bei {n} Tönen",
+    "within10": "{n} von {total} innerhalb von 10 Cent",
+    "within25": "{n} von {total} innerhalb von 25 Cent",
+    "wobble": "Schwankung {cents}",
+    "bandClose": "± 25 Cent",
+    "bandIn": "± 10 Cent",
+    "theNote": "der Ton",
+    "lines": "Jede Linie ist meine eigene Stimme, die auf einem Ton landet. Ein Cent ist ein Hundertstel Halbton.",
+    "ask": "Wie genau triffst du?",
+    "text": "Meine typische Abweichung bei {n} Tönen: {cents}. Teste deine kostenlos im Browser:",
+    "fileName": "meine-treffsicherheit"
+  }
 }

@@ -20,7 +20,7 @@
     },
     {
       "heading": "Er liegt in der Mitte, nicht oben",
-      "html": "<p>Der Wechsel liegt in der Mitte deines Umfangs, deshalb kann er dich auf Tönen erwischen, die noch gar nicht hoch sind. Die klassische Gesangslehre beschreibt zwei Wechsel mit einer Zone dazwischen, die Scalita Bruchzone nennt. In Scalitas Voreinstellungen liegt der erste Wechsel eines Tenors um {{note:D4}} und der zweite um {{note:G4}}, beim Sopran um {{note:F4}} und {{note:F5}}. Das sind Durchschnittswerte, und deine können ein paar Töne daneben liegen. Die Seite zu den <a href=\"page:voice-types\">Stimmlagen</a> hat die Voreinstellungen für jede Stimmlage, und der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> hilft dir, deinen eigenen ersten Wechsel zu finden.</p>"
+      "html": "<p>Der Wechsel liegt in der Mitte deines Umfangs, deshalb kann er dich auf Tönen erwischen, die noch gar nicht hoch sind. Die klassische Gesangslehre beschreibt zwei Wechsel mit einer Zone dazwischen, die Scalita Bruchzone nennt. In Scalitas Voreinstellungen liegt der erste Wechsel eines Tenors um {{note:D4}} und der zweite um {{note:G4}}, beim Sopran um {{note:F4}} und {{note:F5}}. Das sind Durchschnittswerte, und deine können ein paar Töne daneben liegen. Die Seite zu den <a href=\"page:voice-types\">Stimmfächern</a> hat die Voreinstellungen für jedes Stimmfach, und der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> hilft dir, deinen eigenen ersten Wechsel zu finden.</p>"
     },
     {
       "heading": "So übst du den Wechsel",
@@ -37,8 +37,8 @@
       "a": "<p>Sie klingen ähnlich, haben aber verschiedene Ursachen. In der Pubertät wachsen Kehlkopf und Stimmlippen schnell, deshalb kippt die Stimme auch beim Sprechen, und das legt sich, wenn die Stimme reift. Der Kiekser, um den es auf dieser Seite geht, passiert auch in einer ausgereiften Stimme, um dieselben Töne herum, wenn du durch den Wechsel hinaufsingst.</p>"
     },
     {
-      "q": "Kann ein Test zum Registerbruch mir meine Stimmlage sagen?",
-      "a": "<p>Er gibt einen besseren Hinweis als der Umfang allein. Wie es in Scalitas Umfangsergebnis heißt: Dein Registerbruch sagt zuverlässiger etwas über deine Stimmlage. Der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> nennt die Stimmlage, die am nächsten dran ist, und eine Lehrkraft kann sie bestätigen.</p>"
+      "q": "Kann ein Test zum Registerbruch mir mein Stimmfach sagen?",
+      "a": "<p>Er gibt einen besseren Hinweis als der Umfang allein. Wie es in Scalitas Umfangsergebnis heißt: Dein Registerbruch sagt zuverlässiger etwas über dein Stimmfach. Der <a href=\"page:voice-break-finder\">Registerwechsel-Finder</a> nennt das Stimmfach, das am nächsten dran ist, und eine Lehrkraft kann es bestätigen.</p>"
     }
   ],
   "sources": [

@@ -1,9 +1,5 @@
 {
   "intro": "As you sing higher, there's a spot where your voice wants to crack or shift, like switching gears. That's your voice break. The piano plays notes going up, one every two seconds. Sing along, and press the button when you feel the shift.",
-  "whatToListenFor": "What to listen for:",
-  "voiceWantsToCrack": "Your voice wants to crack or break",
-  "suddenlyNeedMoreEffort": "You suddenly need more effort to sing higher",
-  "voiceFlipsToLighterSound": "Your voice flips to a lighter, breathier sound",
   "letsGo": "Let's go",
   "lastResult": "Last time: {note}, closest to {voiceType}",
   "whatDescribesYourVoice": "What best describes your voice?",
@@ -30,8 +26,6 @@
   "saved": "Kept in this browser, so the warm-up piano can build its exercises around it.",
   "redo": "Try again",
   "useInPiano": "Warm up with it",
-  "cta": "In Scalita, your voice break shapes the exercises: some stop just under it, some cross it once and come back.",
-  "getApp": "Get Scalita on Google Play",
   "noAudio": "This browser can't play audio. Try a recent Chrome, Safari, Firefox or Edge.",
   "loadFailed": "The piano didn't load. Check your connection and try again."
 }

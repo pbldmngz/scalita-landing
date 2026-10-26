@@ -5,6 +5,10 @@
   "description": "Cante ou cantarole a nota mais grave e a mais aguda e veja a sua extensão vocal em notas e oitavas, com os tipos de voz típicos dela. Grátis, no navegador.",
   "h1": "Teste de extensão vocal",
   "lead": "Cante ou cantarole de boca fechada a nota mais grave que você alcança com conforto, depois a mais aguda. Em cerca de um minuto você vê a sua extensão em notas e oitavas, e os tipos de voz que costumam ter essa extensão.",
+  "tile": "Sua nota mais grave e a mais aguda, em cerca de um minuto.",
+  "oneLine": "Cante sua nota mais grave, depois a mais aguda. Leva cerca de um minuto.",
+  "appBand": "A sua extensão é a primeira coisa que você configura no Scalita. Depois disso, cada aquecimento começa e termina dentro da sua voz, num piano de verdade, offline e sem conta.",
+  "referenceHeading": "Sobre o teste",
   "toolId": "vocal-range-test",
   "instructions": "<h2>Como fazer o teste</h2><ol><li>Aperte Iniciar e permita o microfone quando o navegador pedir.</li><li>Cante ou cantarole de boca fechada a sua nota grave mais confortável, numa vogal fácil como “a” ou “ô”. Desça devagar até achar o fundo e segure essa nota por um ou dois segundos, até ela ficar registrada.</li><li>Suba até a sua nota aguda mais confortável e segure do mesmo jeito.</li><li>Veja o resultado. Dali você pode ouvir a sua extensão no piano ou seguir para descobrir a sua passagem.</li></ol><p>Confortável quer dizer uma nota que você usaria numa música, não uma que mal sai. Use o microfone do próprio celular num lugar silencioso e, se puder, aqueça alguns minutos antes. Uma voz fria costuma dar uma extensão menor.</p>",
   "sampleResult": "<h2>Como fica um resultado</h2><p>Digamos que você cante de {{note:G3}} até {{note:F5}}. O resultado mostra:</p><ul><li>Mais grave {{note:G3}}, mais aguda {{note:F5}}</li><li>22 semitons, cerca de 1,8 oitava</li><li>Típica de contralto ou mezzo-soprano</li></ul><p>Abaixo vêm dois lembretes do app Scalita: a sua extensão pode mudar com o aquecimento, o treino e a hora do dia, e a sua passagem é um guia mais confiável para o tipo de voz. Se você já fez o teste antes neste navegador, o último resultado também aparece, e dá para salvar o resultado como imagem ou compartilhar.</p>",
@@ -12,10 +16,10 @@
   "sections": [
     {
       "heading": "O que o teste mede",
-      "html": "<p>A sua extensão vocal é o trecho de notas que vai da mais grave que você canta com conforto até a mais aguda. O teste acha as duas pontas com a sua voz e conta a distância entre elas em semitons, o passo de uma tecla do piano para a seguinte, e em oitavas de doze semitons. O dó central é {{note:C4}}.</p><p>Depois ele compara o meio da sua extensão com os tipos de voz da tabela do Scalita e mostra o mais próximo, ou os dois mais próximos quando estão quase empatados. Cada tipo da tabela cobre duas oitavas, de {{note:F2}} a {{note:F4}} no baixo até {{note:C4}} a {{note:C6}} no soprano.</p>"
+      "html": "<p>A sua extensão vocal é o trecho de notas que vai da mais grave que você canta com conforto até a mais aguda. O teste acha as duas pontas com a sua voz e conta a distância entre elas em semitons, o passo de uma tecla do piano para a seguinte, e em oitavas de doze semitons. O dó central é {{note:C4}}.</p><p>Depois ele compara o meio da sua extensão com os tipos de voz da tabela do Scalita e mostra o mais próximo, ou os dois mais próximos quando estão quase empatados. Cada tipo da tabela cobre duas oitavas, de {{note:E2}} a {{note:E4}} no baixo até {{note:C4}} a {{note:C6}} no soprano.</p>"
     },
     {
-      "heading": "Como funciona",
+      "heading": "Como o teste lê a sua voz",
       "html": "<p>O seu navegador escuta pelo microfone e lê a altura da sua voz cerca de vinte vezes por segundo, com o mesmo método que o app Scalita usa: o YIN, um detector de altura publicado em 2002. Uma nota só conta depois de ficar firme por um instante, então escorregadas, falhas e tosses ficam fora do resultado.</p><p>Tudo acontece no seu aparelho. O som é lido conforme chega e depois descartado. Nada é gravado nem enviado, e o microfone desliga quando você aperta Parar ou sai da página.</p>"
     },
     {
@@ -23,8 +27,9 @@
       "html": "<ul><li>Aqueça alguns minutos antes. Um murmúrio de boca fechada ou algumas escalas fáceis no <a href=\"page:warm-up-piano\">piano de aquecimento</a> já bastam.</li><li>Procure um lugar silencioso e use o microfone do próprio celular. Fones Bluetooth trocam para um microfone de ligação, que ouve bem menos.</li><li>Use uma vogal fácil e um volume médio. Um agudo gritado ou um grave sussurrado é mais difícil de ler.</li><li>Faça duas vezes. Dois resultados a uma ou duas notas um do outro dão uma boa ideia da sua extensão hoje.</li></ul>"
     },
     {
+      "id": "keyboard",
       "heading": "Se o microfone não funcionar",
-      "html": "<ul><li><strong>Abriu pelo Instagram, TikTok, Facebook ou Gmail?</strong> Os navegadores embutidos neles bloqueiam o microfone. Use o menu do app para abrir esta página no Chrome ou no Safari.</li><li><strong>Apertou Bloquear sem querer?</strong> Permita o microfone nas configurações do site, que costumam ficar no ícone ao lado do endereço, e recarregue a página.</li><li><strong>Outro app está usando o microfone?</strong> Encerre a ligação ou feche o app de gravação e aperte Iniciar de novo.</li><li><strong>O nível fica baixo?</strong> Cante um pouco mais forte ou chegue mais perto. O microfone do notebook pede que você fique mais perto do que o do celular.</li><li><strong>Não tem microfone?</strong> Defina a sua extensão na mão: toque notas no teclado e escolha a mais grave e a mais aguda que você canta.</li></ul>"
+      "html": "<ul><li><strong>Abriu pelo Instagram, TikTok, Facebook ou Gmail?</strong> Os navegadores embutidos neles bloqueiam o microfone. Use o menu do app para abrir esta página no Chrome ou no Safari.</li><li><strong>Apertou Bloquear sem querer?</strong> Permita o microfone nas configurações do site, que costumam ficar no ícone ao lado do endereço, e recarregue a página.</li><li><strong>Outro app está usando o microfone?</strong> Encerre a ligação ou feche o app de gravação e aperte Iniciar de novo.</li><li><strong>O nível fica baixo?</strong> Cante um pouco mais forte ou chegue mais perto. O microfone do notebook pede que você fique mais perto do que o do celular.</li><li><strong>Não tem microfone?</strong> Defina a sua extensão manualmente: toque notas no teclado e escolha a mais grave e a mais aguda que você canta.</li></ul>"
     },
     {
       "heading": "Depois do teste",

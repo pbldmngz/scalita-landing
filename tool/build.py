@@ -13,7 +13,9 @@ links. Kept by hand that drifts within a release. Kept here it cannot.
     python3 tool/build.py --allow-missing  # skips what is not written yet
 
 Edit tool/content/, never the generated .html. tool/README.md has the
-layout, the contracts and the checks (python3 tool/check.py).
+layout, the contracts and the checks (python3 tool/check.py). The chrome
+around every page is tool/templates/_chrome.py, the home page's content
+tool/templates/home.py, every other page's body a template beside them.
 """
 
 import argparse
@@ -37,6 +39,15 @@ TEMPLATES = os.path.join(TOOL, "templates")
 DATA = os.path.join(TOOL, "data", "app")
 SITE = "https://scalita.com"
 PLAY = "https://play.google.com/store/apps/details?id=com.scalita.app"
+
+# The chrome (tool/templates/_chrome.py) reads this module's state as
+# `import build`, the way check.py does. Run as a script this module is
+# __main__, so it answers to "build" too: otherwise that import would load a
+# second copy of it, one with no build in it.
+sys.modules.setdefault("build", sys.modules[__name__])
+if TEMPLATES not in sys.path:
+    sys.path.insert(0, TEMPLATES)   # so build.py and the templates import _chrome and _parts
+import _chrome  # noqa: E402
 
 # Order matters: it is the order of the language menu, and English is first
 # because it is the default the bare domain serves.
@@ -264,18 +275,6 @@ def play_link(code, page_id):
     return esc(play_url(code, page_id))
 
 
-def head_links(loc, page):
-    """canonical + the hreflang set of the locales this page is built in."""
-    code = loc[0]
-    out = ['  <link rel="canonical" href="%s">' % url_abs(page, code)]
-    for c, href in alternates(page):
-        for hl in hreflangs(c):
-            out.append('  <link rel="alternate" hreflang="%s" href="%s">' % (hl, href))
-    if built(page, "en"):
-        out.append('  <link rel="alternate" hreflang="x-default" href="%s">' % url_abs(page, "en"))
-    return "\n".join(out)
-
-
 def page_label(page_id, code):
     """The short name a page goes by in the nav, footer, breadcrumb and cards."""
     page = S.by_id[page_id]
@@ -300,780 +299,107 @@ def section_home(section, code):
     return None
 
 
-def font_preload():
-    """A preload for the weight the body text is set in, if style.css hosts it."""
-    if S.font is None:
-        S.font = ""
-        try:
-            with open(os.path.join(ROOT, "css", "style.css"), encoding="utf-8") as fh:
-                css = fh.read()
-        except OSError:
-            css = ""
-        for block in re.findall(r"@font-face\s*\{([^}]*)\}", css):
-            src = re.search(r"url\(\s*['\"]?([^'\")]+\.woff2)['\"]?\s*\)", block)
-            weight = re.search(r"font-weight:\s*(\d+)(?:\s+(\d+))?", block)
-            if not src:
-                continue
-            lo = int(weight.group(1)) if weight else 400
-            hi = int(weight.group(2)) if weight and weight.group(2) else lo
-            if lo <= 400 <= hi:
-                href = src.group(1)
-                if not href.startswith("/"):
-                    href = os.path.normpath(os.path.join("/css", href))
-                S.font = href
-                break
-    if not S.font:
-        return ""
-    return '  <link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>\n\n' % esc(S.font)
+def guide_count(code):
+    """The {n} of All {n} guides and of the Guides hint: the guides the page
+    they lead to lists, every guide page but itself (tool/templates/hub.py)."""
+    home = section_home("guides", code)
+    return len([i for i in section_pages("guides", code) if i != home])
 
 
-def lang_menu(loc, page, c):
-    """A disclosure menu, not a row of buttons.
+# --------------------------------------------------------------------------
+# the frame: the chrome around a page's main content
+# --------------------------------------------------------------------------
 
-    <details> is the only native HTML that opens and closes a panel with no
-    script at all: the summary is focusable, Enter and Space toggle it, and
-    the links inside leave the tab order when it shuts. The script at the
-    bottom of the page only adds Escape and click-outside, which are polish.
+# A page with the full screen control (spec 3.5): its button, written by the
+# tool page's template.
+FS_BUTTON = re.compile(r'<button\b[^>]*\bclass="[^"]*(?<![\w-])tp-fs(?![\w-])')
 
-    It lists the locales this page exists in; a page that exists in none
-    (the 404) offers the homes instead.
-    """
-    code, loc_path, _, _, _, native = loc
-    if not built(page, code):
-        page = "index"
-    items = []
-    for c2, p2, lang2, hl2, _, native2 in LOCALES:
-        if not built(page, c2):
+CSS_NAME = re.compile(r"^[a-z0-9][a-z0-9-]*\.css$")
+
+
+def context_of(page_id):
+    """"tools" or "landing": the navigation a page gets. tool/pages.json's
+    "context", landing when a page has none; the 404 is landing."""
+    return (S.by_id.get(page_id) or {}).get("context", "landing")
+
+
+def stylesheets(names=(), tools=()):
+    """The stylesheets a page links, in order: style.css and chrome.css on
+    every page, then the page's own (a template's render() "css", the
+    home's home.css), then tool-player.css wherever a player mounts. A file
+    that does not exist yet is left out (an error unless --allow-missing)."""
+    want = ["style.css", "chrome.css"] + list(names or [])
+    if "player" in tools:
+        want.append("tool-player.css")
+    out = []
+    for n in want:
+        if not isinstance(n, str) or not CSS_NAME.match(n):
+            raise BuildError("a page's stylesheet is a file name under css/, not %r" % (n,))
+        if n in out:
             continue
-        current = ' aria-current="true"' if c2 == code else ""
-        href = url(page, c2)
-        items.append(
-            '            <a href="%s" hreflang="%s" lang="%s"%s>%s</a>'
-            % (href, hl2, lang2, current, native2)
-        )
-    return """        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="%s">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>%s</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
-%s
-            </div>
-          </details>
-        </li>""" % (esc(c["nav"]["languageLabel"] % native), esc(native), "\n".join(items))
-
-
-def nav_sections(loc, page, c, indent):
-    """The Tools and Guides links, for the sections this locale has pages in."""
-    code = loc[0]
-    here = S.by_id[page]["section"] if page in S.by_id else None
-    out = ""
-    for section in SECTIONS:
-        home = section_home(section, code)
-        if home:
-            current = ' aria-current="true"' if here == section else ""
-            out += '%s<li><a href="%s"%s>%s</a></li>\n' % (indent, url(home, code), current, esc(c["nav"][section]))
+        if file_hash("css/" + n) is None:
+            missing("css/%s does not exist yet, so no page links it" % n)
+            continue
+        out.append(n)
     return out
 
 
-def nav(loc, page, c):
-    code, loc_path, _, _, _, _ = loc
-    home = loc_path
-    n = c["nav"]
-    # On the sub-pages the section anchors have to reach back to that
-    # locale's own home page, not the English one.
-    anchor = (lambda a: "#" + a) if page == "index" else (lambda a: loc_path + "#" + a)
-    return """  <nav>
-    <div class="container">
-      <a href="%s" class="logo">
-        <img src="%s" alt="%s" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="%s" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="%s">%s</a></li>
-        <li><a href="%s">%s</a></li>
-        <li><a href="%s">%s</a></li>
-%s        <li><a href="%s">%s</a></li>
-%s
-      </ul>
-    </div>
-  </nav>""" % (
-        home, asset("images/logo.svg"), esc(n["logoAlt"]), esc(n["menuLabel"]),
-        anchor("features"), esc(n["features"]),
-        anchor("pricing"), esc(n["pricing"]),
-        anchor("download"), esc(n["download"]),
-        nav_sections(loc, page, c, "        "),
-        url("support", code), esc(n["support"]),
-        lang_menu(loc, page, c),
-    )
+def get_app_href(page_id, code, main):
+    """Where Get the app goes: to the page's band when it has one (its Play
+    link is tagged with the page, and the iPhone note sits beside it), else
+    to the download section of the locale's home, which has both."""
+    if page_id == "index":
+        return "#download"
+    if 'id="%s"' % _chrome.BAND_ID in main:
+        return "#" + _chrome.BAND_ID
+    return url("index", code, "#download")
 
 
-def footer_sections(loc, c):
-    """A column per section with every page this locale has in it."""
+def manifest_path(code):
+    """Each locale's web app manifest, beside its home: /site.webmanifest, /es/site.webmanifest."""
+    return LOC[code][1] + "site.webmanifest"
+
+
+def frame(loc, page_id, main, banner, title, description, extra="", links=None, css=(), end="",
+          ready="", top="", tools=()):
+    """A whole page around its main content: the head, the header of the
+    page's context, the footer (the compact one in the tools context and on
+    the 404), the tab bar in the tools context, and what closes the body.
+    end goes first there (the page data); ready and top are a page's own
+    inline code, if it brings any."""
     code = loc[0]
-    f = c["footer"]
-    out = ""
-    for section, heading in zip(SECTIONS, (f["toolsHeading"], f["guidesHeading"])):
-        pages = section_pages(section, code)
-        if not pages:
-            continue
-        links = "\n".join('            <li><a href="%s">%s</a></li>' % (url(p, code), esc(page_label(p, code)))
-                          for p in pages)
-        out += """        <div class="footer-links">
-          <h4>%s</h4>
-          <ul>
-%s
-          </ul>
-        </div>
-""" % (esc(heading), links)
-    return out
-
-
-def footer(loc, page, c):
-    code, loc_path, _, _, _, _ = loc
-    f = c["footer"]
-    n = c["nav"]
-    anchor = (lambda a: "#" + a) if page == "index" else (lambda a: loc_path + "#" + a)
-    return """  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="%s" class="logo">
-            <img src="%s" alt="%s" width="28" height="28">
-            Scalita
-          </a>
-          <p>%s</p>
-        </div>
-        <div class="footer-links">
-          <h4>%s</h4>
-          <ul>
-            <li><a href="%s">%s</a></li>
-            <li><a href="%s">%s</a></li>
-            <li><a href="%s">%s</a></li>
-          </ul>
-        </div>
-%s        <div class="footer-links">
-          <h4>%s</h4>
-          <ul>
-            <li><a href="%s">%s</a></li>
-            <li><a href="%s">%s</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>%s</h4>
-          <ul>
-            <li><a href="%s">%s</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">%s</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. %s</p>
-        <p>%s</p>
-      </div>
-    </div>
-  </footer>""" % (
-        loc_path, asset("images/logo_48.png"), esc(n["logoAlt"]), esc(f["brandLine"]),
-        esc(f["productHeading"]),
-        anchor("features"), esc(n["features"]),
-        anchor("pricing"), esc(n["pricing"]),
-        anchor("download"), esc(n["download"]),
-        footer_sections(loc, c),
-        esc(f["legalHeading"]),
-        url("privacy", code), esc(c["privacy"]["navLabel"]),
-        url("terms", code), esc(c["terms"]["navLabel"]),
-        esc(f["supportHeading"]),
-        url("support", code), esc(f["supportLink"]),
-        esc(f["kofi"]),
-        esc(f["rights"]), f["madeBy"],
-    )
-
-
-def small_footer(loc, c):
-    """The one-line footer the legal and support pages use."""
-    f = c["footer"]
-    return """  <footer>
-    <div class="container">
-      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
-        <p>&copy; 2026 Pablo Dominguez. %s</p>
-        <p>%s</p>
-      </div>
-    </div>
-  </footer>""" % (esc(f["rights"]), f["madeBy"])
-
-
-def head(loc, page, c, title, description, extra="", links=None):
-    """The <head>. Sora is self-hosted (css/style.css has the @font-face
-    rules): no request leaves the site, and the privacy policy stays true."""
-    code, loc_path, lang, hl, og, native = loc
-    return """<!DOCTYPE html>
-<html lang="%s">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>%s</title>
-  <meta name="description" content="%s">
-%s
-  <link rel="icon" type="image/png" sizes="32x32" href="%s">
-  <link rel="apple-touch-icon" sizes="192x192" href="%s">
-
-%s  <link rel="stylesheet" href="%s">
-%s</head>""" % (
-        lang, esc(title), esc(description), head_links(loc, page) if links is None else links,
-        asset("images/logo_32.png"),
-        asset("images/logo_192.png"),
-        font_preload(),
-        asset("css/style.css"),
-        extra,
-    )
+    c = S.site[code]
+    context = context_of(page_id)
+    fs = context == "tools" and bool(FS_BUTTON.search(main))
+    head = _chrome.head(loc, page_id, c, title, description, extra, links, stylesheets(css, tools),
+                        manifest_path(code) if context == "tools" else None, fs)
+    parts = [_chrome.header(loc, page_id, c, context, get_app_href(page_id, code, main), fs), main]
+    if context == "tools":
+        parts += [_chrome.compact_footer(loc, page_id, c), _chrome.tabbar(loc, page_id, c)]
+    elif page_id == "404":
+        parts.append(_chrome.compact_footer(loc, page_id, c, credit=False))
+    else:
+        parts.append(_chrome.footer(loc, page_id, c))
+    return _chrome.document(banner, head, parts, end + _chrome.scripts(loc, page_id, ready, top),
+                            "site--" + context)
 
 
 # --------------------------------------------------------------------------
-# the shared scripts
+# the home page (tool/templates/home.py)
 # --------------------------------------------------------------------------
-
-def scripts(loc, index=False):
-    """One script block, no framework, everything optional.
-
-    The page works with JavaScript off: the carousel shows its first slide,
-    the language menu opens because <details> opens, and the mobile menu is
-    the only thing that needs it.
-    """
-    code, loc_path, _, _, _, _ = loc
-    carousel = ""
-    if index:
-        carousel = """
-      // Screenshot carousel. Stops auto-advancing for anyone who asked their
-      // system for less motion; the dots still work.
-      var slides = document.querySelectorAll('.screenshot');
-      var dots = document.querySelectorAll('.dot');
-      var current = 0;
-
-      function show(i) {
-        for (var s = 0; s < slides.length; s++) {
-          slides[s].classList.toggle('active', s === i);
-        }
-        for (var d = 0; d < dots.length; d++) {
-          dots[d].classList.toggle('active', d === i);
-          dots[d].setAttribute('aria-selected', d === i ? 'true' : 'false');
-        }
-        current = i;
-      }
-
-      for (var d = 0; d < dots.length; d++) {
-        (function (i) {
-          dots[i].addEventListener('click', function () { show(i); });
-        })(d);
-      }
-
-      var still = window.matchMedia('(prefers-reduced-motion: reduce)');
-      if (slides.length > 1 && !still.matches) {
-        setInterval(function () { show((current + 1) % slides.length); }, 4500);
-      }
-"""
-    return """  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
-
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = %s;
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-%s    });
-%s  </script>
-""" % (lang_bar_strings(), carousel, piano_script(loc) if index else "")
-
-
-def lang_bar_strings():
-    """What the bar says in each language, keyed like the hreflang's language."""
-    out = {}
-    for code, _, _, hl, _, _ in LOCALES:
-        if code in S.site:
-            out[hl.split("-")[0].lower()] = S.site[code]["langBar"]
-    return inline_json(out)
-
-
-def piano_script(loc):
-    files = ", ".join("'%s'" % asset("audio/" + f, v=True) for f in ("60_C4.mp3", "64_E4.mp3", "67_G4.mp3"))
-    return """
-    // The C major chord under the piano card. The three notes download on
-    // the first tap, not with the page.
-    var chord = null;
-
-    function playPianoChord() {
-      if (!chord) {
-        chord = [%s].map(function (src) { return new Audio(src); });
-      }
-      chord.forEach(function (note, i) {
-        note.currentTime = 0;
-        setTimeout(function () { note.play(); }, i * 80);
-      });
-    }
-""" % files
-
-
-# --------------------------------------------------------------------------
-# index
-# --------------------------------------------------------------------------
-
-def icon(name, size=24):
-    paths = {
-        "range": '<path d="M12 2a3 3 0 00-3 3v6a3 3 0 006 0V5a3 3 0 00-3-3z"/><path d="M5 11a7 7 0 0014 0"/><line x1="12" y1="18" x2="12" y2="22"/>',
-        "list": '<line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><circle cx="4" cy="6" r="1"/><circle cx="4" cy="12" r="1"/><circle cx="4" cy="18" r="1"/>',
-        "piano": '<path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>',
-        "layers": '<polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>',
-        "spark": '<path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>',
-        "wave": '<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>',
-        "updown": '<line x1="12" y1="3" x2="12" y2="21"/><polyline points="8 6 12 2 16 6"/><polyline points="8 18 12 22 16 18"/>',
-        "pencil": '<path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 013 3L7 19l-4 1 1-4L16.5 3.5z"/>',
-        "download": '<path d="M12 15V3M12 15L8 11M12 15L16 11M3 17V19C3 20.1 3.9 21 5 21H19C20.1 21 21 20.1 21 19V17"/>',
-    }
-    return ('<svg width="%d" height="%d" viewBox="0 0 24 24" fill="none" stroke="currentColor" '
-            'stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">%s</svg>'
-            % (size, size, paths[name]))
-
 
 def build_index(loc, c):
-    """The home page. Returns the HTML and its main content (for lastmod)."""
-    code, loc_path, lang, hl, og, native = loc
-    i = c["index"]
-    sc = asset("images/screenshots/%s/" % code)
-
-    og_alts = "\n".join(
-        '  <meta property="og:locale:alternate" content="%s">' % o
-        for cc, _, _, _, o, _ in LOCALES if cc != code and cc in S.site
-    )
-    # The app as it is: free, on Android, by its author. The Pro price is not
-    # the app's price and it differs per market, so it is not an Offer.
-    app = {
-        "@context": "https://schema.org",
-        "@type": "MobileApplication",
-        "name": "Scalita",
-        "operatingSystem": "Android",
-        "applicationCategory": "MultimediaApplication",
-        "description": i["ogDescription"],
-        "inLanguage": [l[3] for l in LOCALES],
-        "installUrl": play_url(code, "index"),
-        "offers": {"@type": "Offer", "price": "0", "priceCurrency": c["currency"]},
-        "author": AUTHOR,
-    }
-    # The site name is read from the home page at the domain root only.
-    site = {"@context": "https://schema.org", "@type": "WebSite", "name": "Scalita", "url": SITE + "/"}
-    extra = """
-  <!-- Open Graph -->
-  <meta property="og:title" content="%s">
-  <meta property="og:description" content="%s">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="%s">
-  <meta property="og:image" content="%s/images/og-image-%s.png">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="%s">
-%s
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="%s">
-  <meta name="twitter:description" content="%s">
-  <meta name="twitter:image" content="%s/images/og-image-%s.png">
-
-%s
-""" % (
-        esc(i["ogTitle"]), esc(i["ogDescription"]),
-        url_abs("index", code), SITE, code, og, og_alts,
-        esc(i["ogTitle"]), esc(i["ogDescription"]), SITE, code,
-        ld_scripts(([site] if code == "en" else []) + [app]),
-    )
-
-    # --- hero -------------------------------------------------------------
-    # The first screenshot is the largest thing above the fold.
-    shots = "\n".join(
-        '              <img src="%s%s.jpg" alt="%s" class="screenshot%s"%s width="560" height="1125">'
-        % (sc, s["file"], esc(s["alt"]), " active" if n == 0 else "",
-           ' fetchpriority="high"' if n == 0 else ' loading="lazy"')
-        for n, s in enumerate(i["screens"])
-    )
-    dots = "\n".join(
-        '            <button class="dot%s" role="tab" aria-selected="%s" aria-label="%s"></button>'
-        % (" active" if n == 0 else "", "true" if n == 0 else "false", esc(s["alt"]))
-        for n, s in enumerate(i["screens"])
-    )
-    facts = "\n".join('          <li>%s</li>' % esc(f) for f in i["hero"]["facts"])
-
-    hero = """  <section class="hero">
-    <div class="container">
-      <div class="hero-content">
-        <span class="hero-badge">%s</span>
-        <h1>%s</h1>
-        <p class="hero-lead">%s</p>
-        <p class="tagline">%s</p>
-        <div class="hero-buttons">
-          <a href="#download" class="btn btn-primary">%s %s</a>
-          <a href="#new" class="btn btn-secondary">%s</a>
-        </div>
-        <ul class="hero-facts">
-%s
-        </ul>
-      </div>
-      <div class="hero-visual">
-        <div class="phone-mockup">
-          <div class="phone-screen">
-            <div class="screenshot-carousel">
-%s
-            </div>
-          </div>
-        </div>
-        <div class="carousel-dots" role="tablist" aria-label="%s">
-%s
-        </div>
-      </div>
-    </div>
-  </section>""" % (
-        esc(i["hero"]["badge"]), esc(i["hero"]["title"]), esc(i["hero"]["lead"]),
-        esc(i["hero"]["tagline"]), icon("download", 20), esc(i["hero"]["ctaPrimary"]),
-        esc(i["hero"]["ctaSecondary"]), facts, shots,
-        esc(i["hero"]["carouselLabel"]), dots,
-    )
-
-    # --- how it works -----------------------------------------------------
-    icons = ["range", "list", "piano"]
-
-    def step_link(n):
-        # Setting your range is the app's first step; the site can do it now.
-        if n == 0 and built("vocal-range-test", code):
-            return '\n          <p class="step-link"><a href="%s">%s</a></p>' % (
-                url("vocal-range-test", code), esc(page_label("vocal-range-test", code)))
-        return ""
-
-    steps = "\n".join(
-        """        <li class="step">
-          <span class="step-mark"><span class="step-number">%d</span>%s</span>
-          <h3>%s</h3>
-          <p>%s</p>%s
-        </li>""" % (n + 1, icon(icons[n], 22), esc(s["title"]), esc(s["body"]), step_link(n))
-        for n, s in enumerate(i["how"]["steps"])
-    )
-    how = """  <section class="how" id="how">
-    <div class="container">
-      <div class="section-header">
-        <h2>%s</h2>
-        <p>%s</p>
-      </div>
-      <ol class="steps">
-%s
-      </ol>
-      <div class="piano-strip">
-        <button type="button" class="piano-button" onclick="playPianoChord()">%s %s</button>
-        <p>%s<br><span class="credit">%s</span></p>
-      </div>
-    </div>
-  </section>""" % (esc(i["how"]["title"]), esc(i["how"]["lead"]), steps,
-                   icon("piano", 18), esc(i["how"]["pianoLabel"]), esc(i["how"]["pianoNote"]),
-                   c["credit"]["piano"])
-
-    # --- Accuracy Training, the one highlight ----------------------------
-    # The content key is still "harmony", the section it grew out of. The shot
-    # is Listen & Repeat: harmony is one of the four modes now, not the headline.
-    points = "\n".join(
-        """          <li>
-            <strong>%s</strong>
-            <span>%s</span>
-          </li>""" % (esc(p["title"]), esc(p["body"]))
-        for p in i["harmony"]["points"]
-    )
-    harmony = """  <section class="spotlight" id="new">
-    <div class="container">
-      <div class="spotlight-body">
-        <span class="badge-new">%s</span>
-        <h2>%s</h2>
-        <p class="spotlight-lead">%s</p>
-        <ul class="spotlight-points">
-%s
-        </ul>
-        <p class="spotlight-note">%s</p>
-      </div>
-      <div class="spotlight-shot">
-        <img src="%slisten_repeat.jpg" alt="%s" loading="lazy" width="560" height="1125">
-      </div>
-    </div>
-  </section>""" % (
-        esc(i["harmony"]["badge"]), esc(i["harmony"]["title"]), esc(i["harmony"]["lead"]),
-        points, esc(i["harmony"]["note"]), sc, esc(i["harmony"]["alt"]),
-    )
-
-    # --- the rest, in four groups ----------------------------------------
-    gicons = ["spark", "wave", "updown", "pencil"]
-    groups = []
-    for n, g in enumerate(i["groups"]):
-        tags = "\n".join('            <span class="tag">%s</span>' % esc(t) for t in g["tags"])
-        piano = ' clickable" id="piano-card" onclick="playPianoChord()' if g.get("piano") else ""
-        hint = '\n          <p class="play-hint">%s</p>' % esc(g["pianoHint"]) if g.get("piano") else ""
-        groups.append("""        <div class="group%s">
-          <div class="group-icon">%s</div>
-          <h3>%s</h3>
-          <p>%s</p>
-          <div class="content-tags">
-%s
-          </div>%s
-        </div>""" % (piano, icon(gicons[n], 22), esc(g["title"]), esc(g["body"]), tags, hint))
-
-    # the catalog, still behind a disclosure; a scale or routine with a page
-    # of its own links to it
-    pages = catalog_links(code)
-
-    def tag(s):
-        href = pages.get(name_key(s))
-        if href:
-            return '              <a class="tag" href="%s">%s</a>' % (href, esc(s))
-        return '              <span class="tag">%s</span>' % esc(s)
-
-    def routine(r):
-        href = pages.get(name_key(r[0]))
-        name = '<a href="%s">%s</a>' % (href, esc(r[0])) if href else esc(r[0])
-        return '              <li><strong>%s</strong> <span>%s</span></li>' % (name, esc(r[1]))
-
-    scales = "\n".join(tag(s) for s in i["catalog"]["scales"])
-    routines = "\n".join(routine(r) for r in i["catalog"]["routines"])
-    features = """  <section class="features" id="features">
-    <div class="container">
-      <div class="section-header">
-        <h2>%s</h2>
-        <p>%s</p>
-      </div>
-      <div class="groups">
-%s
-      </div>
-
-      <details class="catalog-expand">
-        <summary>
-          <div class="catalog-summary">
-            <div class="catalog-summary-icon">%s</div>
-            <div>
-              <h3>%s</h3>
-              <p>%s</p>
-            </div>
-            <svg class="catalog-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <polyline points="6 9 12 15 18 9"/>
-            </svg>
-          </div>
-        </summary>
-        <div class="catalog-details">
-          <div class="catalog-column">
-            <h4>%s</h4>
-            <div class="content-tags">
-%s
-            </div>
-          </div>
-          <div class="catalog-column">
-            <h4>%s</h4>
-            <ul class="routine-grid">
-%s
-            </ul>
-            <p class="catalog-note">%s</p>
-          </div>
-        </div>
-      </details>
-    </div>
-  </section>""" % (
-        esc(i["features"]["title"]), esc(i["features"]["lead"]), "\n".join(groups),
-        icon("piano", 22), esc(i["catalog"]["title"]), esc(i["catalog"]["lead"]),
-        esc(i["catalog"]["scalesHeading"]), scales,
-        esc(i["catalog"]["routinesHeading"]), routines, esc(i["catalog"]["note"]),
-    )
-
-    # --- pricing ----------------------------------------------------------
-    def plan(p, featured):
-        # The li is a flex row, so the text needs one wrapper: bare, its words
-        # and a <strong> inside it became separate flex items and split into
-        # columns whenever the line wrapped ("sin | límite").
-        items = "\n".join(
-            '            <li><span class="check" aria-hidden="true">&#10003;</span> <span>%s</span></li>' % it
-            for it in p["items"]
-        )
-        badge = '<span class="pricing-badge">%s</span>\n          ' % esc(p["badge"]) if p.get("badge") else ""
-        return """        <div class="pricing-card%s">
-          %s<h3>%s</h3>
-          <div class="price">%s <span>%s</span></div>
-          <ul class="pricing-features">
-%s
-          </ul>
-          <a href="#download" class="btn %s pricing-cta">%s</a>
-        </div>""" % (
-            " featured" if featured else "", badge, esc(p["name"]), esc(p["price"]), esc(p["period"]),
-            items, "btn-primary" if featured else "btn-secondary", esc(p["cta"]),
-        )
-
-    pricing = """  <section class="pricing" id="pricing">
-    <div class="container">
-      <div class="section-header">
-        <h2>%s</h2>
-        <p>%s</p>
-      </div>
-      <div class="pricing-cards">
-%s
-%s
-      </div>
-      <p class="pricing-note">%s</p>
-    </div>
-  </section>""" % (
-        esc(i["pricing"]["title"]), esc(i["pricing"]["lead"]),
-        plan(i["pricing"]["free"], False), plan(i["pricing"]["pro"], True),
-        esc(i["pricing"]["note"]),
-    )
-
-    # --- download ---------------------------------------------------------
-    # The store opens in the language of the page being read, now that every
-    # language the site speaks has its own Play listing; English stays bare,
-    # as it always was, and Play picks the reader's own
-    store = play_link(code, "index")
-    download = """  <section class="download" id="download">
-    <div class="container">
-      <h2>%s</h2>
-      <p>%s</p>
-      <div class="store-buttons">
-        <a href="%s" class="store-button" target="_blank" rel="noopener">
-          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-            <path d="M3.609 1.814L13.792 12 3.609 22.186a.996.996 0 01-.609-.92V2.734a1 1 0 01.609-.92zm10.89 10.893l2.302 2.302-10.937 6.333 8.635-8.635zm3.199-3.199l2.807 1.626a1 1 0 010 1.732l-2.807 1.626L15.206 12l2.492-2.492zM5.864 2.658L16.801 8.99l-2.302 2.303-8.635-8.635z"/>
-          </svg>
-          <div class="store-text">
-            <small>%s</small>
-            <strong>Google Play</strong>
-          </div>
-        </a>
-      </div>
-      <p class="download-note">%s</p>
-    </div>
-  </section>""" % (
-        esc(i["download"]["title"]), esc(i["download"]["lead"]), store,
-        esc(i["download"]["storeSmall"]), esc(i["download"]["note"]),
-    )
-
-    main = [hero, how, harmony, features, pricing, download]
-    body = "\n\n".join([nav(loc, "index", c)] + main + [footer(loc, "index", c)])
-    return "%s%s\n<body>\n%s\n\n%s</body>\n</html>\n" % (
-        BANNER.format(code=code), head(loc, "index", c, i["title"], i["description"], extra),
-        body, scripts(loc, index=True),
-    ), "\n\n".join(main)
-
-
-def name_key(s):
-    return " ".join(s.split()).casefold()
-
-
-def catalog_links(code):
-    """{scale or routine name: URL} for the ones with a page built in this
-    locale. The names come from the app export, the same ARB strings the
-    home's catalog was written from; a name that does not match stays text."""
-    out = {}
-    for page in S.registry:
-        d = page.get("data") or {}
-        for key, stem in (("scaleId", "scales"), ("routineId", "routines")):
-            if key in d and built(page["id"], code):
-                entry = find_entry(stem, d[key])
-                name = localize(entry.get("names"), code) if entry else None
-                if isinstance(name, str):
-                    out[name_key(name)] = url(page["id"], code)
-    return out
+    """The home page: tool/templates/home.py renders its content and the
+    chrome frames it. Returns the HTML and its main content (for lastmod)."""
+    code = loc[0]
+    out = load_template("home").render(Ctx(loc, S.by_id["index"]))
+    if not isinstance(out, dict) or not all(isinstance(out.get(k), str) for k in ("title", "description", "body")):
+        raise BuildError("tool/templates/home.py: render() must return a dict with a title, a description and a body")
+    lds = list(out.get("jsonld") or [])
+    extra = (out.get("head_extra") or "") + ("\n" + ld_scripts(lds) + "\n" if lds else "")
+    return frame(loc, "index", out["body"], BANNER.format(code=code), out["title"], out["description"], extra,
+                 css=["home.css"] + list(out.get("css") or []),
+                 ready=out.get("script_ready") or "", top=out.get("script_top") or ""), out["body"]
 
 
 # --------------------------------------------------------------------------
@@ -1082,7 +408,7 @@ def catalog_links(code):
 
 def build_text_page(loc, c, page):
     """Privacy, terms or support. Returns the HTML and its main content."""
-    code, loc_path, _, _, _, _ = loc
+    code = loc[0]
     p = c[page]
     wrapper = "legal" if page in ("privacy", "terms") else "support"
     body = p["body"]
@@ -1091,20 +417,17 @@ def build_text_page(loc, c, page):
         # The website's own section: what the free tools do with the microphone.
         body = body.rstrip("\n") + '\n\n        <h2 id="website">%s</h2>\n%s' % (
             esc(web["heading"]), web["html"].rstrip("\n"))
-    back = '\n        <p class="back-home"><a href="%s">&larr; %s</a></p>' % (
-        loc_path, esc(c["footer"]["backHome"]))
     section = """  <section class="%s-page">
     <div class="container">
       <div class="%s-content">
-%s%s
+%s
       </div>
     </div>
-  </section>""" % (wrapper, wrapper, body, back)
-    parts = "\n\n".join([nav(loc, page, c), section, small_footer(loc, c)])
-    return "%s%s\n<body>\n%s\n\n%s</body>\n</html>\n" % (
-        BANNER.format(code=code), head(loc, page, c, p["title"], p["description"]),
-        parts, scripts(loc),
-    ), section
+  </section>""" % (wrapper, wrapper, body)
+    main = '  <main id="main">\n%s\n  </main>' % section
+    # Open Graph and the Twitter card, as every other page has them
+    og = _chrome.og_tags(loc, {"id": page, "section": "legacy", "hub": False}, p)
+    return frame(loc, page, main, BANNER.format(code=code), p["title"], p["description"], og), section
 
 
 # --------------------------------------------------------------------------
@@ -1164,6 +487,10 @@ class Ctx:
         self.ui = UiView(self.code)
         self.alternates = dict(alternates(page["id"]))
         self.registry = S.registry
+        self.locales = LOCALES      # every locale's row, menu order
+        self.origin = SITE          # https://scalita.com
+        self.author = AUTHOR        # the JSON-LD Person
+        self.context = context_of(page["id"])   # "landing" or "tools"
 
     def url(self, page_id, frag=""):
         return url(page_id, self.code, frag)
@@ -1173,6 +500,14 @@ class Ctx:
 
     def has(self, page_id):
         return built(page_id, self.code)
+
+    def section_home(self, section):
+        """Where the nav's Tools or Guides link goes in this locale (a page id, or None)."""
+        return section_home(section, self.code)
+
+    def guide_count(self):
+        """The {n} of All {n} guides in this locale."""
+        return guide_count(self.code)
 
     def asset(self, path, v=None):
         return asset(path, v)
@@ -1210,51 +545,29 @@ class Ctx:
     def player_data(self, kind, item_id):
         return player_data(kind, item_id, self.code)
 
-    def credit(self):
-        return '<p class="credit">%s</p>' % self.site["credit"]["piano"]
+    # The blocks: their markup is the chrome's (tool/templates/_chrome.py).
 
-    def cta(self):
-        t = self.site["cta"]
-        return """<aside class="cta-block">
-  <h2>%s</h2>
-  <p>%s</p>
-  <p><a class="btn btn-primary" href="%s" target="_blank" rel="noopener">%s</a></p>
-  <p class="cta-block__other">%s</p>
-</aside>""" % (esc(t["heading"]), esc(t["body"]), self.play_link(), esc(t["button"]), esc(t["ios"]))
+    def credit(self):
+        return _chrome.credit(self)
+
+    def cta(self, heading=None, body=None, shot=None):
+        """The band: heading and body as plain text (the guides' cta.heading
+        and cta.body when not given), shot a screenshot's name."""
+        return _chrome.cta(self, heading, body, shot)
 
     def byline(self):
-        b = self.site["byline"]
-        photo = ""
-        if os.path.exists(os.path.join(ROOT, "images", "pablo.jpg")):
-            photo = '\n  <img src="%s" alt="" width="80" height="80" loading="lazy">' % asset("images/pablo.jpg")
-        return """<aside class="byline">%s
-  <p class="byline__name">%s</p>
-  <p class="byline__line">%s</p>
-</aside>""" % (photo, esc(b["name"]), esc(b["line"]))
+        return _chrome.byline(self)
 
     def related(self, ids):
-        for i in ids:
-            if i not in S.by_id:
-                raise BuildError("related(): %r is not in tool/pages.json" % i)
-        items = [i for i in ids if i != self.page["id"] and built(i, self.code)]
-        if not items:
-            return ""
-        links = "\n".join('    <li><a href="%s">%s</a></li>' % (url(i, self.code), esc(page_label(i, self.code)))
-                          for i in items)
-        return """<aside class="related">
-  <h2>%s</h2>
-  <ul>
-%s
-  </ul>
-</aside>""" % (esc(self.site["related"]["heading"]), links)
+        return _chrome.related(self, ids)
 
 
 def load_template(name):
     if name not in S.templates:
-        if TEMPLATES not in sys.path:
-            sys.path.insert(0, TEMPLATES)   # so a template can import _parts
-        spec = importlib.util.spec_from_file_location("scalita_template_" + name,
-                                                      os.path.join(TEMPLATES, name + ".py"))
+        path = os.path.join(TEMPLATES, name + ".py")
+        if not os.path.exists(path):
+            raise BuildError("tool/templates/%s.py does not exist" % name)
+        spec = importlib.util.spec_from_file_location("scalita_template_" + name, path)
         mod = importlib.util.module_from_spec(spec)
         spec.loader.exec_module(mod)
         if not callable(getattr(mod, "render", None)):
@@ -1275,22 +588,6 @@ def breadcrumbs(page_id, code):
         if built(pid, code):
             out.append((page_label(pid, code), url(pid, code)))
     return out
-
-
-def breadcrumb_html(crumbs, c):
-    items = []
-    for n, (label, href) in enumerate(crumbs):
-        if n == len(crumbs) - 1:
-            items.append('          <li aria-current="page">%s</li>' % esc(label))
-        else:
-            items.append('          <li><a href="%s">%s</a></li>' % (href, esc(label)))
-    return """    <nav class="breadcrumb" aria-label="%s">
-      <div class="container">
-        <ol>
-%s
-        </ol>
-      </div>
-    </nav>""" % (esc(c["breadcrumb"]["label"]), "\n".join(items))
 
 
 def breadcrumb_ld(crumbs):
@@ -1327,29 +624,6 @@ def page_ld(page, code, copy, stamp):
     }]
 
 
-def og_tags(loc, page, copy):
-    code, og = loc[0], loc[4]
-    u = url_abs(page["id"], code)
-    img = "%s/images/og-image-%s.png" % (SITE, code)
-    alts = "".join('\n  <meta property="og:locale:alternate" content="%s">' % LOC[c][4]
-                   for c, _ in alternates(page["id"]) if c != code)
-    kind = "article" if page["section"] == "guides" and not page["hub"] else "website"
-    return """  <meta property="og:title" content="%s">
-  <meta property="og:description" content="%s">
-  <meta property="og:type" content="%s">
-  <meta property="og:url" content="%s">
-  <meta property="og:image" content="%s">
-  <meta property="og:image:width" content="1200">
-  <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="%s">%s
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="%s">
-  <meta name="twitter:description" content="%s">
-  <meta name="twitter:image" content="%s">""" % (
-        esc(copy["title"]), esc(copy["description"]), kind, u, img, og, alts,
-        esc(copy["title"]), esc(copy["description"]), img)
-
-
 TOOL_MOUNT = re.compile(r'\bdata-tool="([a-z0-9-]+)"')
 
 
@@ -1372,19 +646,47 @@ def asset_map():
     return {"/" + p: asset(p) for p in js_files()}
 
 
+STATIC_IMPORT = re.compile(r"""^\s*(?:import|export)\s+(?:[\w*${}\s,]+?\s+from\s+)?['"]([^'"]+)['"]""", re.M)
+
+
+def static_imports(path, seen=None):
+    """Every module a module needs before it runs, its static imports walked
+    down (an import() loads later, on a tap, and is left out), repo paths."""
+    seen = [] if seen is None else seen
+    try:
+        with open(os.path.join(ROOT, path), encoding="utf-8") as fh:
+            src = fh.read()
+    except OSError:
+        return seen
+    for spec in STATIC_IMPORT.findall(src):
+        if not spec.startswith((".", "/")):
+            continue
+        dep = (spec.lstrip("/") if spec.startswith("/")
+               else os.path.normpath(os.path.join(os.path.dirname(path), spec)).replace(os.sep, "/"))
+        if dep not in seen:
+            seen.append(dep)
+            static_imports(dep, seen)
+    return seen
+
+
 def module_tags(tools):
-    """The import map, then one module script per tool mounted on the page."""
-    srcs = []
+    """The import map, a modulepreload for each module the tools import
+    before they run (fetched with the page, not one round trip after its
+    importer), then one module script per tool mounted on the page."""
+    srcs, deps = [], []
     for t in tools:
         p = "js/tools/%s.js" % t
         if file_hash(p) is None:
             missing("%s does not exist yet, so its mount point gets no script" % p)
             continue
         srcs.append(asset(p))
+        deps += [d for d in static_imports(p) if d not in deps and file_hash(d) is not None]
     if not srcs:
         return ""
-    return '  <script type="importmap">%s</script>\n%s' % (
+    entries = {"js/tools/%s.js" % t for t in tools}
+    return '  <script type="importmap">%s</script>\n%s%s' % (
         inline_json({"imports": asset_map()}),
+        "".join('  <link rel="modulepreload" href="%s">\n' % asset(d) for d in deps if d not in entries),
         "\n".join('  <script type="module" src="%s"></script>' % s for s in srcs))
 
 
@@ -1462,6 +764,8 @@ def page_data(code, page, tools, extra=None):
         "registers": localize(export_list("registers"), code),
         "playLink": play_url(code, page["id"]),
         "androidOnlyLine": S.site[code]["cta"]["ios"],
+        # the visibly unavailable button beside a Play link, as the band writes it
+        "iphone": "%s · %s" % (S.site[code]["cta"]["iphone"], S.site[code]["cta"]["comingSoon"]),
         "piano": {"base": "/audio/piano-web/", "manifest": piano_manifest()},
         "links": {p["id"]: url(p["id"], code) for p in S.registry if built(p["id"], code)},
         "assets": asset_map(),
@@ -1499,18 +803,17 @@ def build_template_page(loc, page):
     tools = mounted_tools(body)
     lds = [breadcrumb_ld(crumbs)] + page_ld(page, code, copy, stamp) + list(out.get("jsonld") or [])
     # the import map comes before any module script, a template's included
-    extra = "\n".join(x for x in (og_tags(loc, page, copy), module_tags(tools), ld_scripts(lds),
+    extra = "\n".join(x for x in (_chrome.og_tags(loc, page, copy), module_tags(tools), ld_scripts(lds),
                                   (out.get("head_extra") or "").rstrip("\n")) if x)
     tail = ""
     if tools or out.get("page_data"):
         tail = '  <script type="application/json" id="page-data">%s</script>\n' % inline_json(
             page_data(code, page, tools, out.get("page_data")))
-    main = '  <main id="main">\n%s\n\n%s\n  </main>' % (breadcrumb_html(crumbs, c), body)
-    parts = "\n\n".join([nav(loc, page["id"], c), main, footer(loc, page["id"], c)])
-    return "%s%s\n<body>\n%s\n\n%s%s</body>\n</html>\n" % (
-        PAGE_BANNER.format(code=code, page=page["id"]),
-        head(loc, page["id"], c, copy["title"], copy["description"], "\n" + extra + "\n"),
-        parts, tail, scripts(loc))
+    cls = out.get("main_class") or ""
+    main = '  <main id="main"%s>\n%s\n\n%s\n  </main>' % (' class="%s"' % esc(cls) if cls else "",
+                                                      _chrome.breadcrumb_html(crumbs, c), body)
+    return frame(loc, page["id"], main, PAGE_BANNER.format(code=code, page=page["id"]), copy["title"],
+                 copy["description"], "\n" + extra + "\n", css=out.get("css") or [], end=tail, tools=tools)
 
 
 def dump_page_data(page_id, code):
@@ -1726,6 +1029,8 @@ def load_registry():
             raise BuildError("tool/pages.json: %s: the legacy templates are for legacy pages only" % p["id"])
         if p["section"] != "legacy" and not re.fullmatch(r"[a-z_]+", p["template"]):
             raise BuildError("tool/pages.json: %s has template %r" % (p["id"], p["template"]))
+        if p.get("context", "landing") not in ("landing", "tools"):
+            raise BuildError("tool/pages.json: %s has context %r, not landing or tools" % (p["id"], p["context"]))
         ids[p["id"]] = p
     if [p["id"] for p in reg if p["template"] == "legacy-home"] != ["index"]:
         raise BuildError("tool/pages.json: the home page is id 'index' with template 'legacy-home'")
@@ -2031,20 +1336,18 @@ def build_404():
           <p>%s</p>
           <p class="notfound__links">%s</p>
         </li>""" % (lang, esc(s["notFound"]["line"]), "\n            ".join(links)))
-    section = """  <section class="notfound">
+    main = """  <main id="main">
+  <section class="notfound">
     <div class="container">
       <h1>404</h1>
       <ul>
 %s
       </ul>
     </div>
-  </section>""" % "\n".join(rows)
-    parts = "\n\n".join([nav(loc, "404", c), section, small_footer(loc, c)])
-    return "%s%s\n<body>\n%s\n\n%s</body>\n</html>\n" % (
-        BANNER_404,
-        head(loc, "404", c, "%s - Scalita" % c["notFound"]["line"], c["notFound"]["line"],
-             links='  <meta name="robots" content="noindex">'),
-        parts, scripts(loc))
+  </section>
+  </main>""" % "\n".join(rows)
+    return frame(loc, "404", main, BANNER_404, "%s - Scalita" % c["notFound"]["line"], c["notFound"]["line"],
+                 links='  <meta name="robots" content="noindex">')
 
 
 STUB = """<!--
@@ -2265,6 +1568,8 @@ def run(args):
                 stamp_lastmod(url_abs(page["id"], code), main)
             write(S.paths[(page["id"], code)], html)
 
+    for code in S.site:
+        write(manifest_path(code), _chrome.manifest(code))
     write("/404.html", build_404())
     write_stubs(published)
     write_sitemaps()

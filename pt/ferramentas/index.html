@@ -20,11 +20,19 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
+  <link rel="manifest" href="/pt/site.webmanifest">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/hub.css?v=76042bcc8d">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Ferramentas grátis para cantores, no navegador - Scalita">
   <meta property="og:description" content="Quatro ferramentas grátis para quem canta, direto no navegador: teste de extensão vocal, teste de afinação, piano de aquecimento e teste de passagem vocal.">
@@ -65,38 +73,22 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/pt/" class="logo">
-        <img src="/images/logo.svg" alt="Logo do Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/pt/#features">Recursos</a></li>
-        <li><a href="/pt/#pricing">Preço</a></li>
-        <li><a href="/pt/#download">Baixar</a></li>
-        <li><a href="/pt/ferramentas/" aria-current="true">Ferramentas</a></li>
-        <li><a href="/pt/guias/aquecimento-vocal/">Guias</a></li>
-        <li><a href="/pt/support.html">Ajuda</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Idioma: Português">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Português</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--tools">
+  <header class="site-header site-header--tools">
+    <div class="site-header__in">
+      <a class="site-logo" href="/pt/" aria-label="Logo do Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-switch seg-group" aria-label="Início e as ferramentas grátis">
+        <a class="seg seg--home" href="/pt/" title="Início"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Início</span></a>
+        <span class="seg-group__rule" aria-hidden="true"></span>
+        <a class="seg" href="/pt/ferramentas/teste-de-extensao-vocal/" title="Teste de extensão vocal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span class="seg__full">Teste de extensão vocal</span><span class="seg__short">Extensão</span></a>
+        <a class="seg" href="/pt/ferramentas/teste-de-afinacao-vocal/" title="Teste de afinação"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span class="seg__full">Teste de afinação</span><span class="seg__short">Afinação</span></a>
+        <a class="seg" href="/pt/ferramentas/piano-para-vocalizar/" title="Piano de aquecimento"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span class="seg__full">Piano de aquecimento</span><span class="seg__short">Piano</span></a>
+        <a class="seg" href="/pt/ferramentas/teste-de-passagem-vocal/" title="Teste de passagem vocal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span class="seg__full">Teste de passagem vocal</span><span class="seg__short">Passagem</span></a>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Idioma: Português"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>PT</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/tools/" hreflang="en" lang="en">English</a>
             <a href="/es/herramientas/" hreflang="es" lang="es">Español</a>
             <a href="/fr/outils/" hreflang="fr" lang="fr">Français</a>
@@ -104,14 +96,14 @@
             <a href="/de/tools/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/araclar/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/alat/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Baixe o app</span></a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main id="main" class="hub-wrap">
     <nav class="breadcrumb" aria-label="Trilha de navegação">
       <div class="container">
         <ol>
@@ -121,243 +113,156 @@
       </div>
     </nav>
 
-    <div class="container">
-      <article class="prose">
+<div class="hub-title">
 <h1>Ferramentas grátis para quem canta</h1>
-<p class="lead">Descubra a sua extensão, veja o quão perto da nota você canta, aqueça num piano de verdade nos seus tons e ache onde a sua voz muda. Não precisa criar conta, e nada do que você canta sai do seu aparelho.</p>
+<p class="hub-lead">Quatro ferramentas do app, direto no navegador. Nada do que você canta sai do seu aparelho.</p>
+</div>
 
+<div class="hub-tiles">
+<a class="card tile" href="/pt/ferramentas/teste-de-extensao-vocal/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span><span class="tile__title">Teste de extensão vocal</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Microfone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Passo 1 de 2: sua nota mais grave</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="113.55" font-size="38.71" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">Sol1</text><rect class="hub-pv__lane" x="160" y="42" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="64" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="86" width="284" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="108" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="130" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="152" width="284" height="20" rx="3"/><text x="482" y="56" font-size="11" text-anchor="end">Lá#1</text><text x="482" y="78" font-size="11" text-anchor="end">Lá1</text><text x="482" y="100" font-size="11" text-anchor="end">Sol#1</text><text x="482" y="122" font-size="11" class="hub-pv__cur" text-anchor="end">Sol1</text><text x="482" y="144" font-size="11" text-anchor="end">Fá#1</text><text x="482" y="166" font-size="11" text-anchor="end">Fá1</text><polyline class="hub-pv__line" stroke-width="3" points="176,60 200,58 224,66 248,80 272,98 292,112 308,118 330,120 354,118 378,120 402,119 426,120"/><circle class="hub-pv__halo" cx="426" cy="120" r="10"/><circle class="hub-pv__head" cx="426" cy="120" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="42.65" font-size="16.13" class="hub-pv__note" text-anchor="middle">Sol1</text><rect class="hub-pv__lane" x="64" y="10" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="28" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="46" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="64" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="70,18 80,20 90,28 100,40 110,50 120,53 130,52 140,53"/><circle class="hub-pv__head" cx="140" cy="53" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Sua nota mais grave e a mais aguda, em cerca de um minuto.</span><span class="tile__start">Iniciar<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/pt/ferramentas/teste-de-afinacao-vocal/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span><span class="tile__title">Teste de afinação</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Microfone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Nota 1 de 5</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.06" font-size="51.61" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">Lá2</text><rect class="hub-pv__band" x="243.5" y="46" width="151" height="20" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="288.8" y="46" width="60.4" height="20" rx="3"/><path class="hub-pv__rule" d="M168 56H470" stroke-width="1.5"/><path class="hub-pv__tick" d="M168 50v12M243.5 52v8M319 48v16M394.5 52v8M470 50v12" stroke-width="1"/><path class="hub-pv__needle" d="M331.08 44v24" stroke-width="3"/><rect class="hub-pv__lane" x="160" y="84" width="290" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="106" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="128" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="150" width="290" height="20" rx="3"/><text x="172" y="120" font-size="11">Lá2</text><polyline class="hub-pv__line" stroke-width="3" points="300,117 324,115 348,117 372,116 396,117 420,115 444,116"/><circle class="hub-pv__halo" cx="444" cy="116" r="10"/><circle class="hub-pv__head" cx="444" cy="116" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="44.53" font-size="21.51" class="hub-pv__note" text-anchor="middle">Lá2</text><rect class="hub-pv__band" x="84.5" y="12" width="41" height="12" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="96.8" y="12" width="16.4" height="12" rx="3"/><path class="hub-pv__rule" d="M64 18H146" stroke-width="1.5"/><path class="hub-pv__tick" d="M64 14v8M105 12v12M146 14v8" stroke-width="1"/><path class="hub-pv__needle" d="M108.28 10v16" stroke-width="2.2"/><rect class="hub-pv__lane" x="64" y="34" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="52" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="70" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="96,60 106,58 116,59 126,58 136,59 142,58"/><circle class="hub-pv__head" cx="142" cy="58" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Quão perto você chega de uma nota que acabou de ouvir.</span><span class="tile__start">Iniciar<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/pt/ferramentas/piano-para-vocalizar/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span><span class="tile__title">Piano de aquecimento</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Sem microfone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><text x="24" y="24" font-size="12">5 notas. 72 bpm, direção Espelhada.</text><defs><filter id="hub-kg1" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="4"/></filter></defs><g class="hub-pv__key"><path d="M24 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M56.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M120.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M153.2 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M185.5 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M217.8 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M250.1 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M282.4 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M314.7 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M347 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M379.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M411.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M443.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/></g><path class="hub-pv__glow" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z" filter="url(#hub-kg1)"/><path class="hub-pv__key--on" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><g class="hub-pv__key--b"><path d="M47.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M79.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M144.2 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M176.5 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M208.8 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M273.4 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M305.7 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M370.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M402.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M434.9 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/></g><text x="39.15" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">Dó3</text><text x="265.25" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">Dó4</text><text x="24" y="172" font-size="12">Tom 3 de 18: Mi3</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg2" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="2.5"/></filter></defs><g class="hub-pv__key"><path d="M6 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M20 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M48 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M62 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M76 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M90 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M104 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M118 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/></g><path class="hub-pv__glow" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z" filter="url(#hub-kg2)"/><path class="hub-pv__key--on" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><g class="hub-pv__key--b"><path d="M15 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M29 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M57 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M71 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M85 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M113 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/></g><text x="12" y="69" font-size="5.91" class="hub-pv__kl" text-anchor="middle">Dó3</text><text x="6" y="84" font-size="6.36">5 notas. 72 bpm, direção Espelhada.</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Escalas e rotinas do app, na sua extensão.</span><span class="tile__start">Iniciar<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/pt/ferramentas/teste-de-passagem-vocal/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg></span><span class="tile__title">Teste de passagem vocal</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Sem microfone</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><defs><filter id="hub-kg3" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path class="hub-pv__step" d="M24 110h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M46 100h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M68 90h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__glow" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z" filter="url(#hub-kg3)"/><path class="hub-pv__key--on" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M112 70h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M134 60h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><text x="250" y="24" font-size="12" text-anchor="middle">Primeira mudança</text><rect class="hub-pv__dash" x="194" y="34" width="112" height="88" rx="20" stroke-width="1.5" stroke-dasharray="4 4"/><text x="250" y="93.4" font-size="44" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">Mi2</text><rect class="hub-pv__btn" x="112" y="134" width="164" height="36" rx="12" stroke-width="1.5"/><text x="194" y="156.55" font-size="13" class="hub-pv__bt" text-anchor="middle">Senti a mudança</text><rect class="hub-pv__btn hub-pv__btn--off" x="290" y="134" width="98" height="36" rx="12" stroke-width="1.5"/><text x="339" y="156.55" font-size="13" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Parar</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg4" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="2"/></filter></defs><path class="hub-pv__step" d="M6 38h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step" d="M17 32h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__glow" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z" filter="url(#hub-kg4)"/><path class="hub-pv__key--on" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step hub-pv__step--up" d="M39 20h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><text x="98" y="12" font-size="8" text-anchor="middle">Primeira mudança</text><rect class="hub-pv__dash" x="74" y="16" width="48" height="38" rx="10" stroke-width="1" stroke-dasharray="3 3"/><text x="98" y="42" font-size="20" class="hub-pv__note" text-anchor="middle">Mi2</text><rect class="hub-pv__btn" x="12.8" y="62" width="86.4" height="20" rx="7" stroke-width="1"/><text x="56" y="74.8" font-size="8" class="hub-pv__bt" text-anchor="middle">Senti a mudança</text><rect class="hub-pv__btn hub-pv__btn--off" x="105.2" y="62" width="40" height="20" rx="7" stroke-width="1"/><text x="125.2" y="74.8" font-size="8" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Parar</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Onde a sua voz troca de marcha, enquanto o piano sobe.</span><span class="tile__start">Iniciar<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+</div>
+
+<a class="hub-newhere" href="#start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/></svg><span>Primeira vez? Por onde começar</span></a>
+
+<section class="hub-ref" aria-labelledby="hub-ref-h">
+<div class="hub-ref__main">
+<div class="hub-ref__head">
+<p class="hub-kicker">Referência</p>
+<h2 id="hub-ref-h">Sobre as ferramentas</h2>
+<p class="hub-ref__date">Revisado em 20 de outubro de 2026</p>
+</div>
+<details class="acc acc--list hub-sec hub-sec--intro" open>
+<summary class="acc__head"><h3>Duas regras que valem para todas</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Estas quatro ferramentas vêm do Scalita, um app de aquecimento vocal para Android. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador.</p><p>Duas regras valem para todas. Uma ferramenta ou escuta ou toca o piano, nunca as duas coisas ao mesmo tempo, então você não precisa de fones. E quando uma ferramenta escuta, quem faz o trabalho é o seu navegador, no seu aparelho: nada é gravado nem enviado para lugar nenhum.</p>
-
-<ul class="hub-cards">
-  <li><a class="hub-card" href="/pt/ferramentas/teste-de-extensao-vocal/"><h3>Teste de extensão vocal</h3><p>Cante ou cantarole a nota mais grave e a mais aguda e veja a sua extensão vocal em notas e oitavas, com os tipos de voz típicos dela. Grátis, no navegador.</p></a></li>
-  <li><a class="hub-card" href="/pt/ferramentas/teste-de-afinacao-vocal/"><h3>Teste de afinação</h3><p>Ouça uma nota no piano, cante de volta e veja a quantos cents você chegou dela. Um teste de afinação e um afinador de voz grátis, direto no navegador.</p></a></li>
-  <li><a class="hub-card" href="/pt/ferramentas/piano-para-vocalizar/"><h3>Piano de aquecimento</h3><p>Escalas e rotinas de aquecimento vocal num piano de verdade, tocadas na sua extensão: escolha um tipo de voz ou as suas notas mais grave e mais aguda. Grátis.</p></a></li>
-  <li><a class="hub-card" href="/pt/ferramentas/teste-de-passagem-vocal/"><h3>Teste de passagem vocal</h3><p>Cante junto com o piano subindo e marque onde a sua voz muda. Você recebe a sua primeira passagem e o tipo de voz com a passagem mais próxima. Sem microfone.</p></a></li>
-</ul>
-
-<section>
-<h2>Por onde começar</h2>
+</div>
+</details>
+<section class="hub-start" id="start">
+<h3>Por onde começar</h3>
 <p>Se você está começando agora, vá nesta ordem:</p><ol><li><a href="/pt/ferramentas/teste-de-extensao-vocal/">Teste de extensão vocal</a>: a nota mais grave e a mais aguda que você canta com conforto, em cerca de um minuto.</li><li><a href="/pt/ferramentas/teste-de-passagem-vocal/">Teste de passagem vocal</a>: onde a sua voz troca de marcha, o que diz mais sobre o seu tipo de voz do que a extensão.</li><li><a href="/pt/ferramentas/piano-para-vocalizar/">Piano de aquecimento</a>: escalas e rotinas do app, tocadas na sua extensão.</li><li><a href="/pt/ferramentas/teste-de-afinacao-vocal/">Teste de afinação</a>: com a voz já aquecida, o quão perto você chega de uma nota que acabou de ouvir.</li></ol>
 </section>
-
-<section>
-<h2>Quando uma ferramenta escuta</h2>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>Quando uma ferramenta escuta</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>O teste de extensão vocal e o teste de afinação usam o microfone. Eles só pedem acesso depois que você aperta Iniciar, leem a altura da sua voz conforme ela chega e não guardam nada. Aperte Parar ou saia da página e o microfone desliga. O piano de aquecimento e o teste de passagem vocal nunca usam o microfone.</p><p>O microfone funciona numa versão recente do Chrome, Safari, Firefox ou Edge. Ele não funciona nos navegadores embutidos em apps como Instagram, TikTok, Facebook ou Gmail, então, se você chegou aqui por um deles, abra a página no navegador do celular primeiro.</p>
-</section>
-
-<section>
-<h2>O que elas não dizem</h2>
+</div>
+</details>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>O que elas não dizem</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Nenhuma destas ferramentas avalia a sua voz. Elas medem a altura das notas: que notas você alcança, onde a sua voz muda, o quão perto você chega de uma nota. Elas não julgam o seu timbre, não comparam você com outras pessoas e não tentam adivinhar o seu tipo de voz pelo jeito que você fala. Um resultado é a leitura de um momento, e amanhã a sua voz pode dar uma leitura um pouco diferente.</p>
-</section>
-
+</div>
+</details>
 <section class="faq">
-<h2>Perguntas frequentes</h2>
-<div class="faq-item">
-<h3>As ferramentas são grátis?</h3>
+<h3>Perguntas frequentes</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>As ferramentas são grátis?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>São. Não tem conta, nem e-mail, nem anúncio. Elas servem por si só e mostram o que o app Scalita faz.</p>
 </div>
-<div class="faq-item">
-<h3>Funcionam no iPhone?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Funcionam no iPhone?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Elas rodam no navegador, então funcionam no iPhone, num celular Android ou no computador, desde que o navegador seja recente. O app Scalita em si, por enquanto, é só para Android.</p>
 </div>
-<div class="faq-item">
-<h3>Preciso de fones?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Preciso de fones?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Não. Uma ferramenta que toca o piano não está escutando ao mesmo tempo, e uma que escuta não toca, então o microfone só ouve você.</p>
 </div>
-<div class="faq-item">
-<h3>Alguma coisa fica salva?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Alguma coisa fica salva?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Só no seu aparelho. O teste de extensão vocal, o teste de afinação e o teste de passagem vocal guardam o seu último resultado neste navegador, para você comparar da próxima vez. Apagar os dados deste site nas configurações do navegador remove tudo.</p>
 </div>
+</details>
 </section>
-
-<aside class="cta-block">
-  <h2>Pratique isto no Scalita</h2>
-  <p>O Scalita é grátis no Android. Ele guarda a sua extensão, toca cada exercício num piano de verdade, no seu tom, e com fones desenha a sua afinação enquanto você canta e pontua cada escala. O Modo dinâmico monta o aquecimento no caminho, a partir de como foi cada exercício.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=pt-BR&amp;referrer=utm_source%3Dscalita_pt%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener">Baixe o Scalita no Google Play</a></p>
-  <p class="cta-block__other">Está num iPhone ou num computador? Por enquanto o app é só para Android, mas tudo nesta página funciona no seu navegador.</p>
+</div>
+<aside class="hub-aside" aria-labelledby="hub-guides-h">
+<h3 class="hub-kicker" id="hub-guides-h">Guias que combinam com elas</h3>
+<ul class="hub-aside__list">
+<li><a class="aside__row" href="/pt/guias/aquecimento-vocal/"><span>Aquecimento vocal</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/pt/guias/tipos-de-voz/"><span>Tipos de voz</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/pt/guias/voz-falhando-no-agudo/"><span>Voz falhando no agudo</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/pt/guias/voz-de-cabeca-e-voz-de-peito/"><span>Voz de cabeça e voz de peito</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/pt/guias/notas-musicais-do-central/"><span>Nomes das notas e oitavas</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+</ul>
+<a class="hub-allguides" href="/pt/guias/aquecimento-vocal/">Todos os 9 guias<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </aside>
-
-<aside class="related">
-  <h2>Páginas relacionadas</h2>
-  <ul>
-    <li><a href="/pt/guias/aquecimento-vocal/">Aquecimento vocal</a></li>
-    <li><a href="/pt/guias/tipos-de-voz/">Tipos de voz</a></li>
-    <li><a href="/pt/guias/notas-musicais-do-central/">Nomes das notas e oitavas</a></li>
-    <li><a href="/pt/guias/vocalize-de-5-notas/">Vocalize de 5 notas</a></li>
-  </ul>
-</aside>
+</section>
 
 <aside class="byline">
   <img src="/images/pablo.jpg" alt="" width="80" height="80" loading="lazy">
   <p class="byline__name">Pablo Dominguez</p>
   <p class="byline__line">Cantor, com cinco anos de estudo de canto contemporâneo. É quem faz o Scalita.</p>
 </aside>
-      </article>
+
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">O app de onde elas vêm</h2><span class="pill pill--tag">Grátis</span></div>
+    <p class="band__body">O Scalita guarda a sua extensão, toca cada exercício num piano de verdade, no seu tom, e com fones desenha a sua afinação enquanto você canta e pontua cada escala. Offline, sem anúncios, sem conta.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=pt-BR&amp;referrer=utm_source%3Dscalita_pt%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Baixe o Scalita no Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Em breve</span></button>
     </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/pt/home.jpg" width="560" height="1125" loading="lazy" alt="Tela inicial do Scalita"></div>
+</section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/pt/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo do Scalita" width="28" height="28">
-            Scalita
-          </a>
-          <p>Escalas simples. Piano real. Sem enrolação. Feito com ódio para cantores do mundo todo.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Produto</h4>
-          <ul>
-            <li><a href="/pt/#features">Recursos</a></li>
-            <li><a href="/pt/#pricing">Preço</a></li>
-            <li><a href="/pt/#download">Baixar</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Ferramentas grátis</h4>
-          <ul>
-            <li><a href="/pt/ferramentas/">Ferramentas grátis</a></li>
-            <li><a href="/pt/ferramentas/teste-de-extensao-vocal/">Teste de extensão vocal</a></li>
-            <li><a href="/pt/ferramentas/teste-de-afinacao-vocal/">Teste de afinação</a></li>
-            <li><a href="/pt/ferramentas/piano-para-vocalizar/">Piano de aquecimento</a></li>
-            <li><a href="/pt/ferramentas/teste-de-passagem-vocal/">Teste de passagem vocal</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Guias</h4>
-          <ul>
-            <li><a href="/pt/guias/aquecimento-vocal/">Aquecimento vocal</a></li>
-            <li><a href="/pt/guias/tipos-de-voz/">Tipos de voz</a></li>
-            <li><a href="/pt/guias/aquecimento-vocal-rapido/">Aquecimento rápido</a></li>
-            <li><a href="/pt/guias/aquecimento-vocal-completo/">Aquecimento completo</a></li>
-            <li><a href="/pt/guias/desaquecimento-vocal/">Desaquecimento vocal</a></li>
-            <li><a href="/pt/guias/vibracao-de-labios/">Vibração de lábios e de língua</a></li>
-            <li><a href="/pt/guias/vocalize-de-5-notas/">Vocalize de 5 notas</a></li>
-            <li><a href="/pt/guias/voz-falhando-no-agudo/">Voz falhando no agudo</a></li>
-            <li><a href="/pt/guias/voz-de-cabeca-e-voz-de-peito/">Voz de cabeça e voz de peito</a></li>
-            <li><a href="/pt/guias/notas-musicais-do-central/">Nomes das notas e oitavas</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Jurídico</h4>
-          <ul>
-            <li><a href="/pt/privacy.html">Política de Privacidade</a></li>
-            <li><a href="/pt/terms.html">Termos de Serviço</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Ajuda</h4>
-          <ul>
-            <li><a href="/pt/support.html">Ajuda e contato</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Apoiar no Ko-fi</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer site-footer--compact">
+    <div class="site-footer__in">
+      <div class="site-footer__row">
+        <a class="site-logo site-logo--sm" href="/pt/" aria-label="Logo do Scalita"><svg width="24" height="24" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+        <nav class="site-footer__nav" aria-label="Site">
+          <a href="/pt/" class="site-footer__home">Início</a>
+          <a href="/pt/ferramentas/">Ferramentas grátis</a>
+          <a href="/pt/guias/aquecimento-vocal/">Guias</a>
+          <a href="/pt/support.html">Ajuda e contato</a>
+          <a href="/pt/privacy.html">Política de Privacidade</a>
+          <a href="/pt/terms.html">Termos de Serviço</a>
+          <a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Apoiar no Ko-fi</a>
+        </nav>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Todos os direitos reservados.</p>
-        <p>Feito com ódio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <p class="site-footer__credit">Piano: Salamander Grand Piano V3, de Alexander Holm, sob a licença <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Reafinado, encurtado e comprimido para este site.</p>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Todos os direitos reservados.</p><p>Feito com ódio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
+  <nav class="site-tabbar" aria-label="Início e as ferramentas grátis">
+    <a class="site-tab" href="/pt/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Início</span></a>
+    <a class="site-tab" href="/pt/ferramentas/teste-de-extensao-vocal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span>Extensão</span></a>
+    <a class="site-tab" href="/pt/ferramentas/teste-de-afinacao-vocal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Afinação</span></a>
+    <a class="site-tab" href="/pt/ferramentas/piano-para-vocalizar/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span>Piano</span></a>
+    <a class="site-tab" href="/pt/ferramentas/teste-de-passagem-vocal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span>Passagem</span></a>
+  </nav>
 
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

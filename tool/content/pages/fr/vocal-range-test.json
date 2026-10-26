@@ -5,6 +5,10 @@
   "description": "Chante ou fredonne ta note la plus grave puis la plus aiguë : ta tessiture en notes et en octaves, et les types de voix typiques. Gratuit, dans ton navigateur.",
   "h1": "Test de tessiture vocale",
   "lead": "Chante ou fredonne ta note confortable la plus grave, puis la plus aiguë. En une minute environ, tu vois ta tessiture en notes et en octaves, et les types de voix pour lesquels elle est typique.",
+  "tile": "Ta note la plus grave et la plus aiguë, en une minute environ.",
+  "oneLine": "Chante ta note la plus grave, puis la plus aiguë. Une minute environ.",
+  "appBand": "Ta tessiture est la première chose que tu règles dans Scalita. Ensuite, chaque échauffement commence et s'arrête aux limites de ta voix, sur un vrai piano, hors ligne, sans compte.",
+  "referenceHeading": "À propos du test",
   "toolId": "vocal-range-test",
   "instructions": "<h2>Comment passer le test</h2><ol><li>Appuie sur Démarrer et autorise le micro quand ton navigateur le demande.</li><li>Chante ou fredonne ta note confortable la plus grave sur une voyelle facile, comme « a » ou « o ». Descends lentement jusqu'à trouver le bas, puis tiens cette note une ou deux secondes, jusqu'à ce que la page la retienne.</li><li>Monte jusqu'à ta note confortable la plus aiguë et tiens-la de la même façon.</li><li>Lis ton résultat. De là, tu peux écouter ta tessiture au piano ou passer à la recherche de ton passage de voix.</li></ol><p>Confortable veut dire une note que tu pourrais utiliser dans une chanson, pas une note que tu arraches tout juste. Utilise le micro intégré de ton téléphone dans une pièce calme, et échauffe-toi quelques minutes avant si tu peux. Une voix froide donne souvent une tessiture plus étroite.</p>",
   "sampleResult": "<h2>À quoi ressemble un résultat</h2><p>Disons que tu chantes de {{note:G3}} à {{note:F5}}. Ton résultat affiche :</p><ul><li>Plus grave : {{note:G3}}, plus aiguë : {{note:F5}}</li><li>22 demi-tons, environ 1,8 octave</li><li>Typique de contralto ou de mezzo-soprano</li></ul><p>En dessous viennent deux rappels de l'application Scalita : ta tessiture peut varier selon l'échauffement, l'entraînement et l'heure de la journée, et ton passage de voix est un indicateur plus fiable du type de voix. Si tu as déjà passé le test dans ce navigateur, ton dernier résultat s'affiche aussi, et tu peux enregistrer le résultat en image ou le partager.</p>",
@@ -12,10 +16,10 @@
   "sections": [
     {
       "heading": "Ce que le test mesure",
-      "html": "<p>Ta tessiture, c'est l'étendue des notes que tu chantes confortablement, de la plus grave à la plus aiguë. Le test trouve les deux bouts avec ta voix et compte la distance entre eux en demi-tons, l'écart d'une touche de piano à la suivante, et en octaves de douze demi-tons. Le do central est {{note:C4}}.</p><p>Ensuite, il compare le milieu de ta tessiture aux types de voix du tableau de Scalita et nomme le plus proche, ou les deux plus proches quand ils sont presque à égalité. Chaque type du tableau couvre deux octaves, de {{note:F2}} à {{note:F4}} pour une basse jusqu'à {{note:C4}} à {{note:C6}} pour une soprano.</p>"
+      "html": "<p>Ta tessiture, c'est l'étendue des notes que tu chantes confortablement, de la plus grave à la plus aiguë. Le test trouve les deux bouts avec ta voix et compte la distance entre eux en demi-tons, l'écart d'une touche de piano à la suivante, et en octaves de douze demi-tons. Le do central est {{note:C4}}.</p><p>Ensuite, il compare le milieu de ta tessiture aux types de voix du tableau de Scalita et nomme le plus proche, ou les deux plus proches quand ils sont presque à égalité. Chaque type du tableau couvre deux octaves, de {{note:E2}} à {{note:E4}} pour une basse jusqu'à {{note:C4}} à {{note:C6}} pour une soprano.</p>"
     },
     {
-      "heading": "Comment ça marche",
+      "heading": "Comment le test lit ta voix",
       "html": "<p>Ton navigateur écoute par le micro et lit la hauteur de ta voix une vingtaine de fois par seconde, avec la même méthode que l'application Scalita : YIN, un détecteur de hauteur publié en 2002. Une note ne compte qu'une fois restée stable un moment, donc les glissés, les cassures et les toux ne comptent pas dans ton résultat.</p><p>Tout se passe sur ton appareil. Le son est lu au fur et à mesure, puis jeté. Rien n'est enregistré ni envoyé, et le micro se coupe quand tu appuies sur Arrêter ou que tu quittes la page.</p>"
     },
     {
@@ -23,6 +27,7 @@
       "html": "<ul><li>Échauffe-toi quelques minutes avant. Un peu de chant bouche fermée ou quelques gammes faciles sur le <a href=\"page:warm-up-piano\">piano pour vocalises</a> suffisent.</li><li>Trouve une pièce calme et utilise le micro intégré de ton téléphone. Les écouteurs Bluetooth passent sur un micro d'appel téléphonique qui entend beaucoup moins bien.</li><li>Prends une voyelle facile et un volume moyen. Une note aiguë criée ou une note grave chuchotée est plus difficile à lire.</li><li>Fais-le deux fois. Deux résultats à une ou deux notes près te donnent une image juste de ta tessiture du jour.</li></ul>"
     },
     {
+      "id": "keyboard",
       "heading": "Si le micro ne marche pas",
       "html": "<ul><li><strong>Ouvert depuis Instagram, TikTok, Facebook ou Gmail ?</strong> Leurs navigateurs intégrés bloquent le micro. Utilise le menu de l'application pour ouvrir cette page dans Chrome ou Safari.</li><li><strong>Tu as appuyé sur Bloquer par erreur ?</strong> Autorise le micro dans les paramètres du site, souvent derrière l'icône à côté de l'adresse, puis recharge la page.</li><li><strong>Une autre application l'utilise ?</strong> Termine l'appel ou ferme l'application d'enregistrement, puis appuie de nouveau sur Démarrer.</li><li><strong>Le niveau reste bas ?</strong> Chante un peu plus fort ou rapproche-toi. Le micro d'un ordinateur portable demande d'être plus près que celui d'un téléphone.</li><li><strong>Pas de micro du tout ?</strong> Règle ta tessiture à la main : joue des notes sur le clavier et choisis la plus grave et la plus aiguë que tu peux chanter.</li></ul>"
     },

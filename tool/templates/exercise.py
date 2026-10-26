@@ -19,6 +19,7 @@ import _parts as p
 # The patterns "try it now" offers, in order: five-note, arpeggio, octave
 # and a half (plan 4.2, T2).
 TRY_SCALES = ["five_note", "arpeggio_triad", "octave_and_half"]
+CSS = ["guides.css"]
 
 
 def sounds(ctx):
@@ -51,4 +52,4 @@ def render(ctx):
     ]
     related = [p.page_for(ctx, "routine", r) for s in items for r in s["usage"]["routines"]]
     related += [p.page_for(ctx, "scale", s) for s in TRY_SCALES] + ["warm-up-piano", "vocal-warm-ups"]
-    return p.result(p.finish(ctx, blocks, related), players)
+    return dict(p.result(p.finish(ctx, blocks, related), players), css=CSS)

@@ -20,11 +20,19 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/panduan/pemanasan-vokal-sebelum-bernyanyi/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/guides/full-vocal-warm-up/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/guides.css?v=703ef4f646">
+  <link rel="stylesheet" href="/css/tool-player.css?v=44671822b3">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Échauffement vocal complet, pour toute ta voix - Scalita">
   <meta property="og:description" content="Un échauffement vocal complet : neuf exercices, du roulement de langue à l'octave et demie, sur un vrai piano dans ta tessiture, expliqués pas à pas.">
@@ -44,8 +52,9 @@
   <meta name="twitter:title" content="Échauffement vocal complet, pour toute ta voix - Scalita">
   <meta name="twitter:description" content="Un échauffement vocal complet : neuf exercices, du roulement de langue à l'octave et demie, sur un vrai piano dans ta tessiture, expliqués pas à pas.">
   <meta name="twitter:image" content="https://scalita.com/images/og-image-fr.png">
-  <script type="importmap">{"imports":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=76ac592bec","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/tools/player.js":"/js/tools/player.js?v=2ff84407c3","/js/tools/share-card.js":"/js/tools/share-card.js?v=8e88096231","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=ef1a07e4c1","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=3e8e472c1a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=b2b044690f","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=dc41014a17"}}</script>
-  <script type="module" src="/js/tools/player.js?v=2ff84407c3"></script>
+  <script type="importmap">{"imports":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler-play.js":"/js/audio/scheduler-play.js?v=6571747d56","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=a32e31c478","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/site/chrome.js":"/js/site/chrome.js?v=d12313984e","/js/site/fullscreen.js":"/js/site/fullscreen.js?v=aebd4d1878","/js/tools/player.js":"/js/tools/player.js?v=c07a296e74","/js/tools/share-card.js":"/js/tools/share-card.js?v=e477a61cd2","/js/tools/share-tune.js":"/js/tools/share-tune.js?v=bf4d747131","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=1bcb1659ce","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=8ad5d44220","/js/tools/vocal-range-run.js":"/js/tools/vocal-range-run.js?v=66f968bb6a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=95bf37afe1","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=9b8d0c4d9a"}}</script>
+  <link rel="modulepreload" href="/js/audio/scheduler.js?v=a32e31c478">
+  <script type="module" src="/js/tools/player.js?v=c07a296e74"></script>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -82,7 +91,7 @@
   "mainEntityOfPage": "https://scalita.com/fr/guides/echauffement-vocal-complet/",
   "inLanguage": "fr",
   "datePublished": "2026-10-22",
-  "dateModified": "2026-10-22",
+  "dateModified": "2026-10-26",
   "author": {
     "@type": "Person",
     "name": "Pablo Dominguez",
@@ -92,38 +101,25 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/fr/" class="logo">
-        <img src="/images/logo.svg" alt="Logo Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/fr/#features">Fonctionnalités</a></li>
-        <li><a href="/fr/#pricing">Tarifs</a></li>
-        <li><a href="/fr/#download">Télécharger</a></li>
-        <li><a href="/fr/outils/">Outils</a></li>
-        <li><a href="/fr/guides/vocalises/" aria-current="true">Guides</a></li>
-        <li><a href="/fr/support.html">Aide</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Langue : Français">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Français</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--landing">
+  <header class="site-header">
+    <div class="site-header__in">
+      <a class="site-logo" href="/fr/" aria-label="Logo Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-nav" aria-label="Site">
+        <ul id="nav-menu" class="site-menu">
+        <li><a class="site-menu__row" href="/fr/#features"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/></svg><span>Fonctionnalités</span></a></li>
+        <li><a class="site-menu__row" href="/fr/#pricing"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/></svg><span>Tarifs</span></a></li>
+        <li><a class="site-menu__row" href="/fr/#download"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Télécharger</span></a></li>
+        <li><a class="site-menu__row" href="/fr/outils/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/><rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/></svg><span>Outils</span><span class="site-menu__hint">Quatre, gratuits</span></a></li>
+        <li><a class="site-menu__row" href="/fr/guides/vocalises/" aria-current="true"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 5c3 0 6 .6 9 2 3-1.4 6-2 9-2v13c-3 0-6 .6-9 2-3-1.4-6-2-9-2zM12 7v13"/></svg><span>Guides</span><span class="site-menu__hint">9 guides</span></a></li>
+        <li><a class="site-menu__row" href="/fr/support.html"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5h16v11H9l-5 4z"/></svg><span>Aide</span></a></li>
+        <li class="site-menu__cta"><a class="btn btn--primary btn--wide" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Obtenir l'appli</span></a></li>
+        </ul>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Langue : Français"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>FR</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/guides/full-vocal-warm-up/" hreflang="en" lang="en">English</a>
             <a href="/es/guias/calentamiento-vocal-antes-de-cantar/" hreflang="es" lang="es">Español</a>
             <a href="/fr/guides/echauffement-vocal-complet/" hreflang="fr" lang="fr" aria-current="true">Français</a>
@@ -131,12 +127,13 @@
             <a href="/de/ratgeber/einsingen-uebungen/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/rehber/san-egzersizleri/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/panduan/pemanasan-vokal-sebelum-bernyanyi/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Obtenir l'appli</span></a>
+        <button type="button" class="site-menu__toggle" aria-label="Ouvrir le menu" data-label-close="Fermer le menu" aria-expanded="false" aria-controls="nav-menu"><svg class="i-menu" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg><svg class="i-close" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+      </div>
     </div>
-  </nav>
+  </header>
 
   <main id="main">
     <nav class="breadcrumb" aria-label="Fil d'Ariane">
@@ -158,11 +155,11 @@
 <h2>Durée</h2>
 <table>
 <tbody>
-  <tr><th scope="row">Soprano</th><td>12 min</td></tr>
-  <tr><th scope="row">Mezzo-soprano</th><td>12 min</td></tr>
-  <tr><th scope="row">Contralto</th><td>12 min</td></tr>
-  <tr><th scope="row">Ténor</th><td>14 min</td></tr>
-  <tr><th scope="row">Baryton</th><td>14 min</td></tr>
+  <tr><th scope="row">Soprano</th><td>9 min</td></tr>
+  <tr><th scope="row">Mezzo-soprano</th><td>10 min</td></tr>
+  <tr><th scope="row">Contralto</th><td>10 min</td></tr>
+  <tr><th scope="row">Ténor</th><td>13 min</td></tr>
+  <tr><th scope="row">Baryton</th><td>13 min</td></tr>
   <tr><th scope="row">Basse</th><td>13 min</td></tr>
 </tbody>
 </table>
@@ -214,35 +211,46 @@
 
 <section class="faq">
 <h2>Questions fréquentes</h2>
-<div class="faq-item">
-<h3>Je peux le faire durer exactement dix minutes ?</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>Je peux le faire durer exactement dix minutes ?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Pas cette routine telle quelle. Avec les six préréglages, elle dure de 12 à 14 minutes, et moins sur une tessiture plus étroite, parce que le premier exercice balaie toute ta tessiture. Dans l'application, le Mode adaptatif demande combien de temps tu as (5, 10 ou 15 minutes, ou sans limite) et cale la séance en conséquence : un échauffement, la partie principale et un retour au calme.</p>
 </div>
-<div class="faq-item">
-<h3>Faut-il échauffer sa voix tous les jours ?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>Faut-il échauffer sa voix tous les jours ?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Échauffe-toi les jours où tu chantes, avant de chanter. Si tu pratiques tous les jours, l'échauffement est la façon dont chaque séance commence, et faire la même routine chaque jour aide à remarquer quand ta voix est différente.</p>
 </div>
-<div class="faq-item">
-<h3>Comment faire des vocalises avec un piano ?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h3>Comment faire des vocalises avec un piano ?</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Appuie sur Lire sur cette page. Le piano joue chaque motif, te donne un accord et un temps entre les tonalités, et monte d'un demi-ton à la fois. Chante avec lui sur la syllabe indiquée pour l'étape. Si tu joues toi-même du piano, suis le tableau des étapes : le même motif et la même syllabe, en partant du grave, là où c'est facile.</p>
 </div>
+</details>
 </section>
 
-<aside class="cta-block">
-  <h2>Entraîne-toi avec Scalita</h2>
-  <p>Scalita est gratuite sur Android. Elle retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Le Mode adaptatif construit l'échauffement au fil de la séance, selon ton ressenti sur chaque exercice.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr&amp;referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dfull-vocal-warm-up" target="_blank" rel="noopener">Télécharger Scalita sur Google Play</a></p>
-  <p class="cta-block__other">Sur iPhone ou sur ordinateur ? L'application n'existe que sur Android pour l'instant, mais tout ce qui se trouve sur cette page fonctionne dans ton navigateur.</p>
-</aside>
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">Entraîne-toi avec Scalita</h2><span class="pill pill--tag">Gratuit</span></div>
+    <p class="band__body">Scalita est gratuite sur Android. Elle retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Le Mode adaptatif construit l'échauffement au fil de la séance, selon ton ressenti sur chaque exercice.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=fr&amp;referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dfull-vocal-warm-up" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Télécharger sur Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Bientôt disponible</span></button>
+    </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/fr/player.jpg" width="560" height="1125" loading="lazy" alt="Un exercice en cours avec le tracé de justesse en direct"></div>
+</section>
 
 <aside class="related">
   <h2>Pages associées</h2>
   <ul>
-    <li><a href="/fr/guides/vocalise-5-notes/">Vocalise de 5 notes</a></li>
-    <li><a href="/fr/guides/vibration-des-levres/">Vibration des lèvres et roulement de langue</a></li>
-    <li><a href="/fr/outils/trouver-son-passage-de-voix/">Trouver son passage de voix</a></li>
-    <li><a href="/fr/guides/voix-qui-se-casse/">Voix qui se casse</a></li>
-    <li><a href="/fr/outils/piano-vocalises/">Piano pour vocalises</a></li>
+    <li><a class="aside__row" href="/fr/guides/vocalise-5-notes/"><span>Vocalise de 5 notes</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/guides/vibration-des-levres/"><span>Vibration des lèvres et roulement de langue</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/outils/trouver-son-passage-de-voix/"><span>Trouver son passage de voix</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/guides/voix-qui-se-casse/"><span>Voix qui se casse</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+    <li><a class="aside__row" href="/fr/outils/piano-vocalises/"><span>Piano pour vocalises</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
   </ul>
 </aside>
 
@@ -263,26 +271,23 @@
     </div>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/fr/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo Scalita" width="28" height="28">
-            Scalita
-          </a>
+  <footer class="site-footer">
+    <div class="site-footer__in">
+      <div class="site-footer__cols">
+        <div class="site-footer__brand">
+          <a class="site-logo" href="/fr/" aria-label="Logo Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
           <p>Gammes simples. Vrai piano. Sans chichis. Fait avec haine pour les chanteurs du monde entier.</p>
         </div>
-        <div class="footer-links">
-          <h4>Produit</h4>
+        <div>
+          <h2>Produit</h2>
           <ul>
             <li><a href="/fr/#features">Fonctionnalités</a></li>
             <li><a href="/fr/#pricing">Tarifs</a></li>
             <li><a href="/fr/#download">Télécharger</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Outils gratuits</h4>
+        <div>
+          <h2>Outils gratuits</h2>
           <ul>
             <li><a href="/fr/outils/">Outils gratuits</a></li>
             <li><a href="/fr/outils/test-tessiture-voix/">Test de tessiture</a></li>
@@ -291,8 +296,8 @@
             <li><a href="/fr/outils/trouver-son-passage-de-voix/">Trouver son passage de voix</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Guides</h4>
+        <div>
+          <h2>Guides</h2>
           <ul>
             <li><a href="/fr/guides/vocalises/">Vocalises</a></li>
             <li><a href="/fr/guides/types-de-voix/">Types de voix</a></li>
@@ -306,126 +311,24 @@
             <li><a href="/fr/guides/notes-de-musique-octaves/">Noms des notes et octaves</a></li>
           </ul>
         </div>
-        <div class="footer-links">
-          <h4>Mentions légales</h4>
+        <div>
+          <h2>Mentions légales</h2>
           <ul>
             <li><a href="/fr/privacy.html">Politique de confidentialité</a></li>
             <li><a href="/fr/terms.html">Conditions d'utilisation</a></li>
           </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Aide</h4>
+          <h2>Aide</h2>
           <ul>
             <li><a href="/fr/support.html">Aide et contact</a></li>
             <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Soutenir sur Ko-fi</a></li>
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Tous droits réservés.</p>
-        <p>Fait avec haine par <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Tous droits réservés.</p><p>Fait avec haine par <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script type="application/json" id="page-data">{"locale":"fr","lang":"fr","pageId":"full-vocal-warm-up","strings":{"common":{"start":"Démarrer","stop":"Arrêter","listening":"Écoute...","tooQuiet":"Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.","allow":"Autorise le micro quand ton navigateur le demande.","result":"Ton résultat","share":"Partager","save":"Enregistrer l'image","openInBrowser":"Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.","androidOnly":"Android uniquement","lastTime":"La dernière fois","tryAgain":"Réessayer","play":"Lire","loading":"Chargement du piano...","next":"Suivant","back":"Retour","close":"Fermer","copyLink":"Copier le lien","copied":"Lien copié","privacyLine":"Rien n'est enregistré ni envoyé. Ton navigateur écoute sur ton appareil, et le micro se coupe quand tu appuies sur Arrêter.","noScript":"Cet outil a besoin de JavaScript. Tout le reste de la page fonctionne sans."},"mic":{"micUnsupported":"Ce navigateur ne peut pas utiliser le micro ici. Essaie une version récente de Chrome, Safari, Firefox ou Edge.","micInApp":"Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.","micBlocked":"Ton navigateur bloque le micro pour ce site. Autorise-le dans les paramètres du site, souvent derrière l'icône à côté de l'adresse, puis recharge la page.","micDismissed":"La page a besoin de ton autorisation pour utiliser le micro. Réessaie et choisis Autoriser quand ton navigateur le demande.","micNotFound":"Aucun micro n'a été trouvé. Branche-en un ou allume-le, puis réessaie.","micBusy":"Autre chose utilise le micro, comme un appel ou une autre application. Ferme-la et réessaie.","micInterrupted":"Le micro a coupé, peut-être à cause d'un appel ou d'un casque débranché. Réessaie quand tu veux.","micHidden":"L'écoute s'arrête quand tu quittes la page. Relance-la quand tu veux.","micFailed":"Un problème est survenu au démarrage du micro. Recharge la page et réessaie.","micBluetooth":"On dirait un casque Bluetooth. Son micro passe en qualité d'appel téléphonique, donc le micro du téléphone t'entendra mieux.","micSilent":"Aucun son n'arrive du micro. Vérifie qu'il n'est pas coupé, puis chante ou fredonne.","levelQuiet":"Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.","levelLoud":"C'est assez fort pour saturer. Recule un peu du micro."},"player":{"voiceLabel":"Ta voix","custom":"Ta propre tessiture","lowest":"Note la plus grave","highest":"Note la plus aiguë","chooserLabel":"Exercice","routines":"Routines","scales":"Gammes","pickVoice":"Choisis ton type de voix, ou règle ta propre tessiture, puis appuie sur Lire.","ready":"De {low} à {high}. Appuie sur Lire quand tu veux.","routineSummary":"{steps} étapes, environ {minutes} min","scaleSummary":"{keys} tonalités, environ {minutes} min","usingBreak":"Construit autour de ton passage de voix, à {note}.","stepCard":"{syllable} à {tempo} bpm","stepDetail":"{scale}, sur {syllable}. Tempo {tempo} bpm, {style}, {direction}.","scaleDetail":"{scale}. Tempo {tempo} bpm, {direction}.","stepOf":"Étape {step} sur {steps}","keyOf":"Tonalité {key} sur {keys} : {note}","countIn":"Prépare-toi : {n}","breathe":"Respire. L'étape suivante commence dans {seconds}.","done":"C'est fini. Appuie sur Lire pour recommencer.","noAudio":"Ce navigateur ne peut pas lire l'audio. Essaie une version récente de Chrome, Safari, Firefox ou Edge.","loadFailed":"Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.","keyboard":"Touches de piano de {low} à {high}","styles":{"struck":"Piqué","normal":"Normal","smooth":"Lié"},"directions":{"normal":"Ascendant","inverted":"Descendant","mirror":"Miroir"}}},"notes":{"21":["La-2","A0"],"22":["La#-2","A#0"],"23":["Si-2","B0"],"24":["Do-1","C1"],"25":["Do#-1","C#1"],"26":["Ré-1","D1"],"27":["Ré#-1","D#1"],"28":["Mi-1","E1"],"29":["Fa-1","F1"],"30":["Fa#-1","F#1"],"31":["Sol-1","G1"],"32":["Sol#-1","G#1"],"33":["La-1","A1"],"34":["La#-1","A#1"],"35":["Si-1","B1"],"36":["Do1","C2"],"37":["Do#1","C#2"],"38":["Ré1","D2"],"39":["Ré#1","D#2"],"40":["Mi1","E2"],"41":["Fa1","F2"],"42":["Fa#1","F#2"],"43":["Sol1","G2"],"44":["Sol#1","G#2"],"45":["La1","A2"],"46":["La#1","A#2"],"47":["Si1","B2"],"48":["Do2","C3"],"49":["Do#2","C#3"],"50":["Ré2","D3"],"51":["Ré#2","D#3"],"52":["Mi2","E3"],"53":["Fa2","F3"],"54":["Fa#2","F#3"],"55":["Sol2","G3"],"56":["Sol#2","G#3"],"57":["La2","A3"],"58":["La#2","A#3"],"59":["Si2","B3"],"60":["Do3","C4"],"61":["Do#3","C#4"],"62":["Ré3","D4"],"63":["Ré#3","D#4"],"64":["Mi3","E4"],"65":["Fa3","F4"],"66":["Fa#3","F#4"],"67":["Sol3","G4"],"68":["Sol#3","G#4"],"69":["La3","A4"],"70":["La#3","A#4"],"71":["Si3","B4"],"72":["Do4","C5"],"73":["Do#4","C#5"],"74":["Ré4","D5"],"75":["Ré#4","D#5"],"76":["Mi4","E5"],"77":["Fa4","F5"],"78":["Fa#4","F#5"],"79":["Sol4","G5"],"80":["Sol#4","G#5"],"81":["La4","A5"],"82":["La#4","A#5"],"83":["Si4","B5"],"84":["Do5","C6"],"85":["Do#5","C#6"],"86":["Ré5","D6"],"87":["Ré#5","D#6"],"88":["Mi5","E6"],"89":["Fa5","F6"],"90":["Fa#5","F#6"],"91":["Sol5","G6"],"92":["Sol#5","G#6"],"93":["La5","A6"],"94":["La#5","A#6"],"95":["Si5","B6"],"96":["Do6","C7"],"97":["Do#6","C#7"],"98":["Ré6","D7"],"99":["Ré#6","D#7"],"100":["Mi6","E7"],"101":["Fa6","F7"],"102":["Fa#6","F#7"],"103":["Sol6","G7"],"104":["Sol#6","G#7"],"105":["La6","A7"],"106":["La#6","A#7"],"107":["Si6","B7"],"108":["Do7","C8"]},"voiceTypes":[{"id":"soprano","isMaleVoice":false,"name":"Soprano","presetHigh":84,"presetId":"soprano","presetLow":60,"primo":65,"rangeHigh":84,"rangeLow":60,"secondo":77},{"id":"mezzoSoprano","isMaleVoice":false,"name":"Mezzo-soprano","presetHigh":81,"presetId":"mezzo","presetLow":57,"primo":64,"rangeHigh":81,"rangeLow":57,"secondo":76},{"id":"contralto","isMaleVoice":false,"name":"Contralto","presetHigh":77,"presetId":"alto","presetLow":53,"primo":62,"rangeHigh":77,"rangeLow":53,"secondo":74},{"id":"tenor","isMaleVoice":true,"name":"Ténor","presetHigh":72,"presetId":"tenor","presetLow":48,"primo":62,"rangeHigh":72,"rangeLow":48,"secondo":67},{"id":"baritone","isMaleVoice":true,"name":"Baryton","presetHigh":69,"presetId":"baritone","presetLow":45,"primo":59,"rangeHigh":69,"rangeLow":45,"secondo":64},{"id":"bass","isMaleVoice":true,"name":"Basse","presetHigh":64,"presetId":"bass","presetLow":40,"primo":56,"rangeHigh":65,"rangeLow":41,"secondo":61}],"registers":[{"ceiling":48,"description":"Les notes graves et râpeuses sous ta voix de poitrine","floor":21,"high":41,"id":"subharmonic","low":33,"minSpan":7,"name":"Subharmonique","routinesUsing":["subharmonic_warmup"]},{"ceiling":108,"description":"Le timbre fin, comme une flûte, au-dessus de la voix de tête","floor":74,"high":88,"id":"flageolet","low":79,"minSpan":5,"name":"Flageolet","routinesUsing":["flageolet_bridge"]},{"ceiling":108,"description":"Le tout haut de la voix, au-dessus du flageolet","floor":84,"high":96,"id":"whistle","low":89,"minSpan":5,"name":"Sifflet","routinesUsing":["whistle_explorer"]}],"playLink":"https://play.google.com/store/apps/details?id=com.scalita.app&hl=fr&referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dfull-vocal-warm-up","androidOnlyLine":"Sur iPhone ou sur ordinateur ? L'application n'existe que sur Android pour l'instant, mais tout ce qui se trouve sur cette page fonctionne dans ton navigateur.","piano":{"base":"/audio/piano-web/","manifest":{"credit":"Salamander Grand Piano V3 by Alexander Holm, CC BY 3.0","license":"https://creativecommons.org/licenses/by/3.0/","maxShift":1,"notes":[{"midi":33,"file":"33_A1.mp3","duration":5.0,"v":"b7f13a0cef"},{"midi":36,"file":"36_C2.mp3","duration":5.0,"v":"98a6d6e1c5"},{"midi":39,"file":"39_Ds2.mp3","duration":5.0,"v":"b45a445b19"},{"midi":42,"file":"42_Fs2.mp3","duration":5.0,"v":"12b043b4a0"},{"midi":45,"file":"45_A2.mp3","duration":5.0,"v":"1e75395f04"},{"midi":48,"file":"48_C3.mp3","duration":5.0,"v":"b6098ab9e5"},{"midi":51,"file":"51_Ds3.mp3","duration":5.0,"v":"4dc5f3aa77"},{"midi":54,"file":"54_Fs3.mp3","duration":5.0,"v":"469b56ef85"},{"midi":57,"file":"57_A3.mp3","duration":5.0,"v":"fb3a08e647"},{"midi":60,"file":"60_C4.mp3","duration":5.0,"v":"92837bcde0"},{"midi":63,"file":"63_Ds4.mp3","duration":5.0,"v":"d29dc9222c"},{"midi":66,"file":"66_Fs4.mp3","duration":5.0,"v":"77a36ce1c5"},{"midi":69,"file":"69_A4.mp3","duration":5.0,"v":"0e3d31c593"},{"midi":72,"file":"72_C5.mp3","duration":5.0,"v":"8a822d8ad2"},{"midi":75,"file":"75_Ds5.mp3","duration":5.0,"v":"0d261181ef"},{"midi":78,"file":"78_Fs5.mp3","duration":5.0,"v":"e0b213a128"},{"midi":81,"file":"81_A5.mp3","duration":5.0,"v":"c1c6156494"},{"midi":84,"file":"84_C6.mp3","duration":5.0,"v":"11be216c2c"},{"midi":87,"file":"87_Ds6.mp3","duration":5.0,"v":"347b15805b"},{"midi":90,"file":"90_Fs6.mp3","duration":5.0,"v":"6aa7418647"}]}},"links":{"index":"/fr/","privacy":"/fr/privacy.html","terms":"/fr/terms.html","support":"/fr/support.html","tools":"/fr/outils/","vocal-range-test":"/fr/outils/test-tessiture-voix/","sing-in-tune-test":"/fr/outils/test-chanter-juste/","warm-up-piano":"/fr/outils/piano-vocalises/","voice-break-finder":"/fr/outils/trouver-son-passage-de-voix/","vocal-warm-ups":"/fr/guides/vocalises/","voice-types":"/fr/guides/types-de-voix/","quick-vocal-warm-up":"/fr/guides/echauffement-vocal-rapide/","full-vocal-warm-up":"/fr/guides/echauffement-vocal-complet/","vocal-cool-down":"/fr/guides/retour-au-calme-vocal/","lip-trills":"/fr/guides/vibration-des-levres/","five-note-scale":"/fr/guides/vocalise-5-notes/","voice-cracks-high-notes":"/fr/guides/voix-qui-se-casse/","head-voice-vs-chest-voice":"/fr/guides/voix-de-tete-voix-de-poitrine/","note-names-octaves":"/fr/guides/notes-de-musique-octaves/"},"assets":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=76ac592bec","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/tools/player.js":"/js/tools/player.js?v=2ff84407c3","/js/tools/share-card.js":"/js/tools/share-card.js?v=8e88096231","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=ef1a07e4c1","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=3e8e472c1a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=b2b044690f","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=dc41014a17"},"players":{"main":{"kind":"routine","description":"Réveille ta voix en douceur et retrouve toute ta tessiture.","hash":"6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79","id":"general_warmup","isRegisterRoutine":false,"name":"Échauffement général","presets":{"baritone":{"durationMs":800000,"minutes":14,"roots":[[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45],[47,48,49,50,51,50,49,48,47,46],[47,48,49,50,51,52,53,54,55,56,57,58,57,56,55,54,53,52,51,50,49,48,47,46,45],[41,42,43,44,45,46],[44,45,46,47,48,49,50,51,52,53,54,55],[44,45,46,47,48,49,50,51,52,53,54,55],[41,42,43,44,45,46],[44,45,46,47,48,49,50,51,52,53,54,55],[45,46,47,48,49,50]]},"bass":{"durationMs":772000,"minutes":13,"roots":[[44,45,46,47,48,49,50,51,52,53,54,55,56,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40],[44,45,46,47,48,47,46,45,44,43],[44,45,46,47,48,49,50,51,52,53,52,51,50,49,48,47,46,45,44,43,42,41,40],[38,39,40,41,42,43],[41,42,43,44,45,46,47,48,49,50,51,52],[41,42,43,44,45,46,47,48,49,50,51,52],[38,39,40,41,42,43],[41,42,43,44,45,46,47,48,49,50,51,52],[40,41,42,43,44,45]]},"contralto":{"durationMs":719000,"minutes":12,"roots":[[53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70],[53,54,55,56,57,58],[53,54,55,56,57,58,59,60,61,62,63,64,65,66],[44,45,46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[44,45,46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[53,54,55,56,57,58]]},"mezzoSoprano":{"durationMs":719000,"minutes":12,"roots":[[57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74],[57,58,59,60,61,62],[57,58,59,60,61,62,63,64,65,66,67,68,69,70],[46,47,48,49,50,51],[49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67],[49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67],[46,47,48,49,50,51],[49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67],[57,58,59,60,61,62]]},"soprano":{"durationMs":719000,"minutes":12,"roots":[[60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77],[60,61,62,63,64,65],[60,61,62,63,64,65,66,67,68,69,70,71,72,73],[47,48,49,50,51,52],[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68],[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68],[47,48,49,50,51,52],[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68],[60,61,62,63,64,65]]},"tenor":{"durationMs":800000,"minutes":14,"roots":[[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48],[50,51,52,53,54,53,52,51,50,49],[50,51,52,53,54,55,56,57,58,59,60,61,60,59,58,57,56,55,54,53,52,51,50,49,48],[44,45,46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58],[47,48,49,50,51,52,53,54,55,56,57,58],[44,45,46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58],[48,49,50,51,52,53]]}},"setupCues":[],"steps":[{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"},{"id":"light","intensity":null,"label":"Léger et doux"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":null,"style":"smooth","syllable":"Trr","syllableLocal":"Trr","tempo":90,"tips":"Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).","trill":"tongue","useVocalRange":true},{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"}],"direction":"inverted","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":12,"style":"normal","syllable":"Hmm","syllableLocal":"Hmm","tempo":80,"tips":"Bouche fermée. Sens le bourdonnement dans le nez et le front.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":20,"style":"normal","syllable":"Mee","syllableLocal":"Mi","tempo":100,"tips":"Bourdonnement vers un I clair. Résonance en avant, son net.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"open","intensity":null,"label":"Placement ouvert"}],"direction":"mirror","passaggioIntent":"approachOnly","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Mah","syllableLocal":"Mah","tempo":90,"tips":"Bourdonnement vers un Ah ouvert. Attaque facile, son chaud et résonant.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"blend","intensity":null,"label":"Voix mixte"},{"id":"closure","intensity":null,"label":"Fermeture des cordes"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Mum","syllableLocal":"Mam","tempo":90,"tips":"Bourdonnement vers un A fermé. Détendu, proche de la parole.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"},{"id":"closure","intensity":null,"label":"Fermeture des cordes"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Nay","syllableLocal":"Né","tempo":100,"tips":"N nasal vers un É clair. Placement avant, projette bien.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"}],"direction":"mirror","passaggioIntent":"approachOnly","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Noh","syllableLocal":"Noh","tempo":90,"tips":"N nasal vers un O. Résonance en avant avec de la chaleur.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"closure","intensity":null,"label":"Fermeture des cordes"},{"id":"blend","intensity":null,"label":"Voix mixte"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Goog","syllableLocal":"Goug","tempo":90,"tips":"Attaque en G vers un Ou profond. Stabilise le larynx, exercice d'ancrage.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"octave_and_half","semitoneStep":null,"span":24,"style":"smooth","syllable":"Prr","syllableLocal":"Prr","tempo":110,"tips":"Vibration des lèvres. Lèvres souples, air régulier, mâchoire détendue. Elle demande un bon soutien du souffle et détend une voix crispée.","trill":"lip","useVocalRange":false}],"scales":{"five_note":{"beats":null,"depth":0,"id":"five_note","intervals":[0,2,4,5,7],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":2,"numeral":"2","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":4,"numeral":"4","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0}],"doOffset":0,"minor":false},"name":"5 notes","naturalDirection":"mirror","noteCount":5,"span":7},"arpeggio_triad":{"beats":null,"depth":0,"id":"arpeggio_triad","intervals":[0,4,7,12],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0},{"accidental":0,"number":1,"numeral":"1","octave":1}],"doOffset":0,"minor":false},"name":"Arpège (triade)","naturalDirection":"normal","noteCount":4,"span":12},"octave_and_half":{"beats":null,"depth":0,"id":"octave_and_half","intervals":[0,4,7,12,16,19],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0},{"accidental":0,"number":1,"numeral":"1","octave":1},{"accidental":0,"number":3,"numeral":"3","octave":1},{"accidental":0,"number":5,"numeral":"5","octave":1}],"doOffset":0,"minor":false},"name":"Octave et demie","naturalDirection":"normal","noteCount":6,"span":19}}}}}</script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
-
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="page-data">{"locale":"fr","lang":"fr","pageId":"full-vocal-warm-up","strings":{"common":{"start":"Démarrer","stop":"Arrêter","listening":"Écoute...","tooQuiet":"Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.","allow":"Autorise le micro quand ton navigateur le demande.","result":"Ton résultat","share":"Partager","save":"Enregistrer l'image","openInBrowser":"Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.","androidOnly":"Android uniquement","lastTime":"La dernière fois","tryAgain":"Réessayer","play":"Lire","loading":"Chargement du piano...","next":"Suivant","back":"Retour","close":"Fermer","copyLink":"Copier le lien","copied":"Lien copié","privacyLine":"Rien n'est enregistré ni envoyé. Ton navigateur écoute sur ton appareil, et le micro se coupe quand tu appuies sur Arrêter.","noScript":"Cet outil a besoin de JavaScript. Tout le reste de la page fonctionne sans.","nothingSent":"Rien n'est enregistré ni envoyé.","micOn":"Micro ouvert","micOff":"Micro coupé","level":"Niveau","levelGood":"Bon","levelLow":"Faible","levelLoud":"Fort","pitchTrail":"Tracé de justesse","hz":"{hz} Hz","refPitch":"Réf. {note} = 440 Hz"},"mic":{"micUnsupported":"Ce navigateur ne peut pas utiliser le micro ici. Essaie une version récente de Chrome, Safari, Firefox ou Edge.","micInApp":"Le navigateur intégré à cette application ne peut pas utiliser le micro. Ouvre plutôt cette page dans Chrome ou Safari.","micBlocked":"Ton navigateur bloque le micro pour ce site. Autorise-le dans les paramètres du site, souvent derrière l'icône à côté de l'adresse, puis recharge la page.","micDismissed":"La page a besoin de ton autorisation pour utiliser le micro. Réessaie et choisis Autoriser quand ton navigateur le demande.","micNotFound":"Aucun micro n'a été trouvé. Branche-en un ou allume-le, puis réessaie.","micBusy":"Autre chose utilise le micro, comme un appel ou une autre application. Ferme-la et réessaie.","micInterrupted":"Le micro a coupé, peut-être à cause d'un appel ou d'un casque débranché. Réessaie quand tu veux.","micHidden":"L'écoute s'arrête quand tu quittes la page. Relance-la quand tu veux.","micFailed":"Un problème est survenu au démarrage du micro. Recharge la page et réessaie.","micBluetooth":"On dirait un casque Bluetooth. Son micro passe en qualité d'appel téléphonique, donc le micro du téléphone t'entendra mieux.","micSilent":"Aucun son n'arrive du micro. Vérifie qu'il n'est pas coupé, puis chante ou fredonne.","levelQuiet":"Trop faible. Chante un peu plus fort, ou rapproche-toi du micro.","levelLoud":"C'est assez fort pour saturer. Recule un peu du micro."},"player":{"voiceLabel":"Ta voix","custom":"Ta propre tessiture","lowest":"Note la plus grave","highest":"Note la plus aiguë","chooserLabel":"Exercice","routines":"Routines","scales":"Gammes","pickVoice":"Choisis ton type de voix, ou règle ta propre tessiture, puis appuie sur Lire.","ready":"De {low} à {high}. Appuie sur Lire quand tu veux.","routineSummary":"{steps} étapes, environ {minutes} min","scaleSummary":"{keys} tonalités, environ {minutes} min","usingBreak":"Construit autour de ton passage de voix, à {note}.","stepCard":"{syllable} à {tempo} bpm","stepDetail":"{scale}, sur {syllable}. Tempo {tempo} bpm, {style}, {direction}.","scaleDetail":"{scale}. Tempo {tempo} bpm, {direction}.","stepOf":"Étape {step} sur {steps}","keyOf":"Tonalité {key} sur {keys} : {note}","countIn":"Prépare-toi : {n}","breathe":"Respire. L'étape suivante commence dans {seconds}.","done":"C'est fini. Appuie sur Lire pour recommencer.","noAudio":"Ce navigateur ne peut pas lire l'audio. Essaie une version récente de Chrome, Safari, Firefox ou Edge.","loadFailed":"Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.","keyboard":"Touches de piano de {low} à {high}","styles":{"struck":"Piqué","normal":"Normal","smooth":"Lié"},"directions":{"normal":"Ascendant","inverted":"Descendant","mirror":"Miroir"}}},"notes":{"21":["La-2","A0"],"22":["La#-2","A#0"],"23":["Si-2","B0"],"24":["Do-1","C1"],"25":["Do#-1","C#1"],"26":["Ré-1","D1"],"27":["Ré#-1","D#1"],"28":["Mi-1","E1"],"29":["Fa-1","F1"],"30":["Fa#-1","F#1"],"31":["Sol-1","G1"],"32":["Sol#-1","G#1"],"33":["La-1","A1"],"34":["La#-1","A#1"],"35":["Si-1","B1"],"36":["Do1","C2"],"37":["Do#1","C#2"],"38":["Ré1","D2"],"39":["Ré#1","D#2"],"40":["Mi1","E2"],"41":["Fa1","F2"],"42":["Fa#1","F#2"],"43":["Sol1","G2"],"44":["Sol#1","G#2"],"45":["La1","A2"],"46":["La#1","A#2"],"47":["Si1","B2"],"48":["Do2","C3"],"49":["Do#2","C#3"],"50":["Ré2","D3"],"51":["Ré#2","D#3"],"52":["Mi2","E3"],"53":["Fa2","F3"],"54":["Fa#2","F#3"],"55":["Sol2","G3"],"56":["Sol#2","G#3"],"57":["La2","A3"],"58":["La#2","A#3"],"59":["Si2","B3"],"60":["Do3","C4"],"61":["Do#3","C#4"],"62":["Ré3","D4"],"63":["Ré#3","D#4"],"64":["Mi3","E4"],"65":["Fa3","F4"],"66":["Fa#3","F#4"],"67":["Sol3","G4"],"68":["Sol#3","G#4"],"69":["La3","A4"],"70":["La#3","A#4"],"71":["Si3","B4"],"72":["Do4","C5"],"73":["Do#4","C#5"],"74":["Ré4","D5"],"75":["Ré#4","D#5"],"76":["Mi4","E5"],"77":["Fa4","F5"],"78":["Fa#4","F#5"],"79":["Sol4","G5"],"80":["Sol#4","G#5"],"81":["La4","A5"],"82":["La#4","A#5"],"83":["Si4","B5"],"84":["Do5","C6"],"85":["Do#5","C#6"],"86":["Ré5","D6"],"87":["Ré#5","D#6"],"88":["Mi5","E6"],"89":["Fa5","F6"],"90":["Fa#5","F#6"],"91":["Sol5","G6"],"92":["Sol#5","G#6"],"93":["La5","A6"],"94":["La#5","A#6"],"95":["Si5","B6"],"96":["Do6","C7"],"97":["Do#6","C#7"],"98":["Ré6","D7"],"99":["Ré#6","D#7"],"100":["Mi6","E7"],"101":["Fa6","F7"],"102":["Fa#6","F#7"],"103":["Sol6","G7"],"104":["Sol#6","G#7"],"105":["La6","A7"],"106":["La#6","A#7"],"107":["Si6","B7"],"108":["Do7","C8"]},"voiceTypes":[{"id":"soprano","isMaleVoice":false,"name":"Soprano","presetHigh":84,"presetId":"soprano","presetLow":60,"primo":65,"rangeHigh":84,"rangeLow":60,"secondo":77},{"id":"mezzoSoprano","isMaleVoice":false,"name":"Mezzo-soprano","presetHigh":81,"presetId":"mezzo","presetLow":57,"primo":64,"rangeHigh":81,"rangeLow":57,"secondo":76},{"id":"contralto","isMaleVoice":false,"name":"Contralto","presetHigh":77,"presetId":"alto","presetLow":53,"primo":62,"rangeHigh":77,"rangeLow":53,"secondo":74},{"id":"tenor","isMaleVoice":true,"name":"Ténor","presetHigh":72,"presetId":"tenor","presetLow":48,"primo":62,"rangeHigh":72,"rangeLow":48,"secondo":67},{"id":"baritone","isMaleVoice":true,"name":"Baryton","presetHigh":69,"presetId":"baritone","presetLow":45,"primo":59,"rangeHigh":69,"rangeLow":45,"secondo":64},{"id":"bass","isMaleVoice":true,"name":"Basse","presetHigh":64,"presetId":"bass","presetLow":40,"primo":56,"rangeHigh":64,"rangeLow":40,"secondo":61}],"registers":[{"ceiling":48,"description":"Les notes graves et râpeuses sous ta voix de poitrine","floor":21,"high":41,"id":"subharmonic","low":33,"minSpan":7,"name":"Subharmonique","routinesUsing":["subharmonic_warmup"]},{"ceiling":108,"description":"Le timbre fin, comme une flûte, au-dessus de la voix de tête","floor":74,"high":88,"id":"flageolet","low":79,"minSpan":5,"name":"Flageolet","routinesUsing":["flageolet_bridge"]},{"ceiling":108,"description":"Le tout haut de la voix, au-dessus du flageolet","floor":84,"high":96,"id":"whistle","low":89,"minSpan":5,"name":"Sifflet","routinesUsing":["whistle_explorer"]}],"playLink":"https://play.google.com/store/apps/details?id=com.scalita.app&hl=fr&referrer=utm_source%3Dscalita_fr%26utm_medium%3Dweb%26utm_campaign%3Dfull-vocal-warm-up","androidOnlyLine":"Sur iPhone ou sur ordinateur ? L'application n'existe que sur Android pour l'instant, mais tout ce qui se trouve sur cette page fonctionne dans ton navigateur.","iphone":"iPhone · Bientôt disponible","piano":{"base":"/audio/piano-web/","manifest":{"credit":"Salamander Grand Piano V3 by Alexander Holm, CC BY 3.0","license":"https://creativecommons.org/licenses/by/3.0/","maxShift":1,"notes":[{"midi":33,"file":"33_A1.mp3","duration":5.0,"v":"b7f13a0cef"},{"midi":36,"file":"36_C2.mp3","duration":5.0,"v":"98a6d6e1c5"},{"midi":39,"file":"39_Ds2.mp3","duration":5.0,"v":"b45a445b19"},{"midi":42,"file":"42_Fs2.mp3","duration":5.0,"v":"12b043b4a0"},{"midi":45,"file":"45_A2.mp3","duration":5.0,"v":"1e75395f04"},{"midi":48,"file":"48_C3.mp3","duration":5.0,"v":"b6098ab9e5"},{"midi":51,"file":"51_Ds3.mp3","duration":5.0,"v":"4dc5f3aa77"},{"midi":54,"file":"54_Fs3.mp3","duration":5.0,"v":"469b56ef85"},{"midi":57,"file":"57_A3.mp3","duration":5.0,"v":"fb3a08e647"},{"midi":60,"file":"60_C4.mp3","duration":5.0,"v":"92837bcde0"},{"midi":63,"file":"63_Ds4.mp3","duration":5.0,"v":"d29dc9222c"},{"midi":66,"file":"66_Fs4.mp3","duration":5.0,"v":"77a36ce1c5"},{"midi":69,"file":"69_A4.mp3","duration":5.0,"v":"0e3d31c593"},{"midi":72,"file":"72_C5.mp3","duration":5.0,"v":"8a822d8ad2"},{"midi":75,"file":"75_Ds5.mp3","duration":5.0,"v":"0d261181ef"},{"midi":78,"file":"78_Fs5.mp3","duration":5.0,"v":"e0b213a128"},{"midi":81,"file":"81_A5.mp3","duration":5.0,"v":"c1c6156494"},{"midi":84,"file":"84_C6.mp3","duration":5.0,"v":"11be216c2c"},{"midi":87,"file":"87_Ds6.mp3","duration":5.0,"v":"347b15805b"},{"midi":90,"file":"90_Fs6.mp3","duration":5.0,"v":"6aa7418647"}]}},"links":{"index":"/fr/","privacy":"/fr/privacy.html","terms":"/fr/terms.html","support":"/fr/support.html","tools":"/fr/outils/","vocal-range-test":"/fr/outils/test-tessiture-voix/","sing-in-tune-test":"/fr/outils/test-chanter-juste/","warm-up-piano":"/fr/outils/piano-vocalises/","voice-break-finder":"/fr/outils/trouver-son-passage-de-voix/","vocal-warm-ups":"/fr/guides/vocalises/","voice-types":"/fr/guides/types-de-voix/","quick-vocal-warm-up":"/fr/guides/echauffement-vocal-rapide/","full-vocal-warm-up":"/fr/guides/echauffement-vocal-complet/","vocal-cool-down":"/fr/guides/retour-au-calme-vocal/","lip-trills":"/fr/guides/vibration-des-levres/","five-note-scale":"/fr/guides/vocalise-5-notes/","voice-cracks-high-notes":"/fr/guides/voix-qui-se-casse/","head-voice-vs-chest-voice":"/fr/guides/voix-de-tete-voix-de-poitrine/","note-names-octaves":"/fr/guides/notes-de-musique-octaves/"},"assets":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler-play.js":"/js/audio/scheduler-play.js?v=6571747d56","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=a32e31c478","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/site/chrome.js":"/js/site/chrome.js?v=d12313984e","/js/site/fullscreen.js":"/js/site/fullscreen.js?v=aebd4d1878","/js/tools/player.js":"/js/tools/player.js?v=c07a296e74","/js/tools/share-card.js":"/js/tools/share-card.js?v=e477a61cd2","/js/tools/share-tune.js":"/js/tools/share-tune.js?v=bf4d747131","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=1bcb1659ce","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=8ad5d44220","/js/tools/vocal-range-run.js":"/js/tools/vocal-range-run.js?v=66f968bb6a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=95bf37afe1","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=9b8d0c4d9a"},"players":{"main":{"kind":"routine","description":"Réveille ta voix en douceur et retrouve toute ta tessiture.","hash":"6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79","id":"general_warmup","isRegisterRoutine":false,"name":"Échauffement général","presets":{"baritone":{"durationMs":776000,"minutes":13,"roots":[[47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48,47,46,45],[47,48,49,50,51,50,49,48,47,46],[47,48,49,50,51,52,53,54,55,56,57,58,57,56,55,54,53,52,51,50,49,48,47,46,45],[43,44,45,46],[44,45,46,47,48,49,50,51,52,53,54,55],[44,45,46,47,48,49,50,51,52,53,54,55],[43,44,45,46],[44,45,46,47,48,49,50,51,52,53,54,55],[45,46,47,48,49,50]]},"bass":{"durationMs":772000,"minutes":13,"roots":[[44,45,46,47,48,49,50,51,52,53,54,55,56,57,56,55,54,53,52,51,50,49,48,47,46,45,44,43,42,41,40],[44,45,46,47,48,47,46,45,44,43],[44,45,46,47,48,49,50,51,52,53,52,51,50,49,48,47,46,45,44,43,42,41,40],[38,39,40,41,42,43],[41,42,43,44,45,46,47,48,49,50,51,52],[41,42,43,44,45,46,47,48,49,50,51,52],[38,39,40,41,42,43],[41,42,43,44,45,46,47,48,49,50,51,52],[40,41,42,43,44,45]]},"contralto":{"durationMs":589000,"minutes":10,"roots":[[53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70],[53,54,55,56,57,58],[53,54,55,56,57,58,59,60,61,62,63,64,65,66],[51],[51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[51],[51,52,53,54,55,56,57,58,59,60,61,62,63,64,65],[53,54,55,56,57,58]]},"mezzoSoprano":{"durationMs":554000,"minutes":10,"roots":[[57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74],[57,58,59,60,61,62],[57,58,59,60,61,62,63,64,65,66,67,68,69,70],[55],[55,56,57,58,59,60,61,62,63,64,65,66,67],[55,56,57,58,59,60,61,62,63,64,65,66,67],[55],[55,56,57,58,59,60,61,62,63,64,65,66,67],[57,58,59,60,61,62]]},"soprano":{"durationMs":519000,"minutes":9,"roots":[[60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77],[60,61,62,63,64,65],[60,61,62,63,64,65,66,67,68,69,70,71,72,73],[58],[58,59,60,61,62,63,64,65,66,67,68],[58,59,60,61,62,63,64,65,66,67,68],[58],[58,59,60,61,62,63,64,65,66,67,68],[60,61,62,63,64,65]]},"tenor":{"durationMs":776000,"minutes":13,"roots":[[50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,64,63,62,61,60,59,58,57,56,55,54,53,52,51,50,49,48],[50,51,52,53,54,53,52,51,50,49],[50,51,52,53,54,55,56,57,58,59,60,61,60,59,58,57,56,55,54,53,52,51,50,49,48],[46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58],[47,48,49,50,51,52,53,54,55,56,57,58],[46,47,48,49],[47,48,49,50,51,52,53,54,55,56,57,58],[48,49,50,51,52,53]]}},"setupCues":[],"steps":[{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"},{"id":"light","intensity":null,"label":"Léger et doux"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":null,"style":"smooth","syllable":"Trr","syllableLocal":"Trr","tempo":90,"tips":"Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).","trill":"tongue","useVocalRange":true},{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"}],"direction":"inverted","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":12,"style":"normal","syllable":"Hmm","syllableLocal":"Hmm","tempo":80,"tips":"Bouche fermée. Sens le bourdonnement dans le nez et le front.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"five_note","semitoneStep":null,"span":20,"style":"normal","syllable":"Mee","syllableLocal":"Mi","tempo":100,"tips":"Bourdonnement vers un I clair. Résonance en avant, son net.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"open","intensity":null,"label":"Placement ouvert"}],"direction":"mirror","passaggioIntent":"approachOnly","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Mah","syllableLocal":"Mah","tempo":90,"tips":"Bourdonnement vers un Ah ouvert. Attaque facile, son chaud et résonant.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"blend","intensity":null,"label":"Voix mixte"},{"id":"closure","intensity":null,"label":"Fermeture des cordes"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Mum","syllableLocal":"Mam","tempo":90,"tips":"Bourdonnement vers un A fermé. Détendu, proche de la parole.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"},{"id":"closure","intensity":null,"label":"Fermeture des cordes"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Nay","syllableLocal":"Né","tempo":100,"tips":"N nasal vers un É clair. Placement avant, projette bien.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"forward","intensity":null,"label":"Placement avant"}],"direction":"mirror","passaggioIntent":"approachOnly","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Noh","syllableLocal":"Noh","tempo":90,"tips":"N nasal vers un O. Résonance en avant avec de la chaleur.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"closure","intensity":null,"label":"Fermeture des cordes"},{"id":"blend","intensity":null,"label":"Voix mixte"}],"direction":"mirror","passaggioIntent":"crossOnce","register":null,"repeatCount":1,"scaleId":"arpeggio_triad","semitoneStep":null,"span":18,"style":"normal","syllable":"Goog","syllableLocal":"Goug","tempo":90,"tips":"Attaque en G vers un Ou profond. Stabilise le larynx, exercice d'ancrage.","trill":null,"useVocalRange":false},{"anchorHigh":false,"badges":[{"id":"sovt","intensity":null,"label":"Résonance"}],"direction":"mirror","passaggioIntent":"none","register":null,"repeatCount":1,"scaleId":"octave_and_half","semitoneStep":null,"span":24,"style":"smooth","syllable":"Prr","syllableLocal":"Prr","tempo":110,"tips":"Vibration des lèvres. Lèvres souples, air régulier, mâchoire détendue. Elle demande un bon soutien du souffle et détend une voix crispée.","trill":"lip","useVocalRange":false}],"scales":{"five_note":{"beats":null,"depth":0,"id":"five_note","intervals":[0,2,4,5,7],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":2,"numeral":"2","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":4,"numeral":"4","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0}],"doOffset":0,"minor":false},"name":"5 notes","naturalDirection":"mirror","noteCount":5,"span":7},"arpeggio_triad":{"beats":null,"depth":0,"id":"arpeggio_triad","intervals":[0,4,7,12],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0},{"accidental":0,"number":1,"numeral":"1","octave":1}],"doOffset":0,"minor":false},"name":"Arpège (triade)","naturalDirection":"normal","noteCount":4,"span":12},"octave_and_half":{"beats":null,"depth":0,"id":"octave_and_half","intervals":[0,4,7,12,16,19],"movableDo":{"degrees":[{"accidental":0,"number":1,"numeral":"1","octave":0},{"accidental":0,"number":3,"numeral":"3","octave":0},{"accidental":0,"number":5,"numeral":"5","octave":0},{"accidental":0,"number":1,"numeral":"1","octave":1},{"accidental":0,"number":3,"numeral":"3","octave":1},{"accidental":0,"number":5,"numeral":"5","octave":1}],"doOffset":0,"minor":false},"name":"Octave et demie","naturalDirection":"normal","noteCount":6,"span":19}}}}}</script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

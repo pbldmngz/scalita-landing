@@ -22,6 +22,81 @@ import re
 BLACK = {1, 3, 6, 8, 10}
 
 # --------------------------------------------------------------------------
+# icons
+# --------------------------------------------------------------------------
+
+# The site's one icon set (docs/specs/site-redesign-spec.md, section 7): 24 x
+# 24, outlined, drawn in currentColor. Sizes: 18 in the nav, 22 in the tab bar
+# and on tiles, 16 small, 14 in pills. A name in FILLED is a solid shape.
+ICONS = {
+    "home": '<path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/>',
+    "range": '<path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/>',
+    "tune": '<circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/>',
+    "piano": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/>'
+             '<rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/>',
+    "break": '<path d="M3 20h5v-5h4v-5h4V5h5"/>',
+    "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
+    "download": '<path d="M12 4v11M7 10l5 5 5-5M4 20h16"/>',
+    "iphone": '<rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/>',
+    "fullscreen": '<path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/>',
+    "exit": '<path d="M9 4v4a1 1 0 0 1-1 1H4M15 4v4a1 1 0 0 0 1 1h4M20 15h-4a1 1 0 0 0-1 1v4M4 15h4a1 1 0 0 1 1 1v4"/>',
+    "chevron-down": '<path d="M5 9l7 7 7-7"/>',
+    "chevron-right": '<path d="M9 6l6 6-6 6"/>',
+    "arrow-right": '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    "mic": '<rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/>',
+    "headphones": '<path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/>',
+    "lock": '<rect x="5" y="10.5" width="14" height="10.5" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/>',
+    "info": '<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/>',
+    "play": '<path d="M7 4.5v15l12.5-7.5z"/>',
+    "stop": '<rect x="6" y="6" width="12" height="12" rx="2"/>',
+    "redo": '<path d="M3 12a9 9 0 1 0 3-6.7M3 4v5h5"/>',
+    "image": '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-8 8"/>',
+    "share": '<path d="M12 3v12M8 7l4-4 4 4M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7"/>',
+    "check": '<path d="M5 12.5l4.5 4.5L19 7"/>',
+    "clock": '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    "menu": '<path d="M4 7h16M4 12h16M4 17h16"/>',
+    "close": '<path d="M6 6l12 12M18 6L6 18"/>',
+    "features": '<path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5L18 18M6 18l2.5-2.5M15.5 8.5L18 6"/>',
+    "pricing": '<path d="M3 12V4h8l10 10-8 8z"/><circle cx="7.5" cy="8.5" r="1.5"/>',
+    "tools": '<rect x="4" y="4" width="6" height="6" rx="1.5"/><rect x="14" y="4" width="6" height="6" rx="1.5"/>'
+             '<rect x="4" y="14" width="6" height="6" rx="1.5"/><rect x="14" y="14" width="6" height="6" rx="1.5"/>',
+    "guides": '<path d="M3 5c3 0 6 .6 9 2 3-1.4 6-2 9-2v13c-3 0-6 .6-9 2-3-1.4-6-2-9-2zM12 7v13"/>',
+    "support": '<path d="M4 5h16v11H9l-5 4z"/>',
+    "wifi-off": '<path d="M5 10.5a10 10 0 0 1 14 0M8.5 14a5 5 0 0 1 7 0M12 17.5h.01M4 4l16 16"/>',
+    "no-ads": '<circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/>',
+    "user-off": '<circle cx="12" cy="8.5" r="4"/><path d="M4.5 20.5a7.5 7.5 0 0 1 15 0M4 4l16 16"/>',
+}
+# the names the spec gives in brackets
+for _alias, _name in (("sparkle", "features"), ("tag", "pricing"), ("grid", "tools"), ("book", "guides"),
+                      ("chat", "support"), ("keyboard", "piano"), ("no-mic", "headphones")):
+    ICONS[_alias] = ICONS[_name]
+FILLED = {"play", "stop"}
+
+# Each tool's icon, by page id: the switcher, the tab bar, the hub's tiles.
+TOOL_ICONS = {"vocal-range-test": "range", "sing-in-tune-test": "tune", "warm-up-piano": "piano",
+              "voice-break-finder": "break"}
+
+# The mark: four bars, the colours of --logo-a and --logo-b.
+LOGO = ('<rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/>'
+        '<rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/>'
+        '<rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/>'
+        '<rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/>')
+
+
+def icon(name, size=24, cls=""):
+    """An icon of the set as inline SVG, hidden from assistive technology:
+    the text beside it, or its control's label, says what it means.
+    "logo" is the four-bar mark."""
+    c = ' class="%s"' % cls if cls else ""
+    if name == "logo":
+        return '<svg%s width="%d" height="%d" viewBox="0 0 1024 1024" aria-hidden="true">%s</svg>' % (c, size, size, LOGO)
+    paint = ('fill="currentColor"' if name in FILLED else
+             'fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"')
+    return '<svg%s width="%d" height="%d" viewBox="0 0 24 24" %s aria-hidden="true">%s</svg>' % (
+        c, size, size, paint, ICONS[name])
+
+
+# --------------------------------------------------------------------------
 # strings and data
 # --------------------------------------------------------------------------
 
@@ -83,6 +158,20 @@ def from_to(ctx, low, high):
     return L(ctx, "voices.fromTo", low=note(ctx, low), high=note(ctx, high))
 
 
+def date_text(ctx, iso):
+    """A YYYY-MM-DD date as the locale writes it, from templates.json's
+    dates (months and pattern): "25 October 2026". Not escaped. The date
+    as it is when the file is not written yet (an --allow-missing build)."""
+    y, m, d = (int(x) for x in iso.split("-"))
+    dates = (ctx.ui["templates"] or {}).get("dates") or {}
+    months = dates.get("months") or []
+    if len(months) != 12 or not dates.get("pattern"):
+        return iso
+    # French writes the first of a month as an ordinal: "1er octobre"
+    day = "1er" if ctx.code == "fr" and d == 1 else str(d)
+    return dates["pattern"].replace("{d}", day).replace("{month}", months[m - 1]).replace("{y}", str(y))
+
+
 # --------------------------------------------------------------------------
 # page frame
 # --------------------------------------------------------------------------
@@ -137,23 +226,24 @@ def field(ctx, key, heading_path, sid=None):
     return section(L(ctx, heading_path), html, sid)
 
 
-def box(html, heading=None, caution=False):
+def box(html, heading=None, caution=False, level=3):
     """Copy HTML as a boxed aside (.callout). A heading the copy opens with
-    becomes the box's <h3>, as the stylesheet styles it; else heading
-    (escaped text), if any."""
+    becomes the box's heading, an <h3> (level 2 for a box that follows the
+    page's h1, so no level is skipped); else heading (escaped text), if any."""
     own, rest = split_heading(html)
+    tag = "h%d" % level
     if own:
-        head = re.sub(r"^<h2\b", "<h3", re.sub(r"</h2>$", "</h3>", own, flags=re.I), flags=re.I)
+        head = re.sub(r"^<h[23]\b", "<" + tag, re.sub(r"</h[23]>$", "</%s>" % tag, own, flags=re.I), flags=re.I)
     else:
-        head = "<h3>%s</h3>" % heading if heading else ""
+        head = "<%s>%s</%s>" % (tag, heading, tag) if heading else ""
     cls = "callout callout--caution" if caution else "callout"
     return '<aside class="%s">\n%s%s\n</aside>' % (cls, head + "\n" if head else "", boxed(rest))
 
 
-def callout(ctx, key, heading_path, caution=False):
+def callout(ctx, key, heading_path, caution=False, level=3):
     """A copy field as a boxed aside, under its own heading or the template's."""
     html = ctx.copy.get(key)
-    return box(html, L(ctx, heading_path), caution) if html else ""
+    return box(html, L(ctx, heading_path), caution, level) if html else ""
 
 
 def prose(ctx, sections):
@@ -165,25 +255,43 @@ def intro(ctx):
     return ctx.copy.get("intro") or ""
 
 
-def cards(ctx, ids):
-    """One card per page: its label and its description. Pages this build
-    does not have in the locale are left out."""
+def cards(ctx, ids, level=2):
+    """One card per page: its label (an h2: on a hub the cards follow the h1
+    directly; level 3 for cards under a section's h2) and its description.
+    Pages this build does not have in the locale are left out."""
     items = []
     for pid in ids:
         other = ctx.copy_of(pid) if ctx.has(pid) else None
         if other is None:
             continue
-        items.append('  <li><a class="hub-card" href="%s"><h3>%s</h3><p>%s</p></a></li>'
-                     % (ctx.url(pid), ctx.esc(other["label"]), ctx.esc(other["description"])))
+        items.append('  <li><a class="hub-card" href="%s"><h%d>%s</h%d><p>%s</p></a></li>'
+                     % (ctx.url(pid), level, ctx.esc(other["label"]), level, ctx.esc(other["description"])))
     return '<ul class="hub-cards">\n%s\n</ul>' % "\n".join(items) if items else ""
 
 
-def faq(ctx, items):
-    """The copy's FAQ, as plain headings and answers (no FAQPage markup)."""
+def accordion(head, body, open_=False, face="list", cls="", attrs=""):
+    """A disclosure the stylesheet draws as .acc (spec 2.6): head is the
+    summary's HTML (on the list face a real heading, never a link or a
+    button: a summary holds nothing interactive), body the HTML it opens on.
+    face "list" is a row of a reference or FAQ list, "pill" the How it works
+    button. attrs: more attributes for the <details>, written as they go."""
+    return '<details %sclass="acc acc--%s%s"%s>\n<summary class="acc__head">%s%s</summary>\n' \
+           '<div class="acc__body">\n%s\n</div>\n</details>' % (
+               attrs + " " if attrs else "", face, " " + cls if cls else "", " open" if open_ else "", head,
+               icon("chevron-down", 16 if face == "pill" else 20, "acc__chev"), (body or "").strip("\n"))
+
+
+def faq(ctx, items, level=2, heading=True):
+    """The copy's FAQ as closed .acc--list accordions (no FAQPage markup):
+    the section's heading at <h{level}>, each question an <h{level+1}> in
+    its summary, the answer in the body. heading=False leaves the section's
+    own heading out, for a template that prints it elsewhere."""
     if not items:
         return ""
-    qa = "\n".join('<div class="faq-item">\n<h3>%s</h3>\n%s\n</div>' % (ctx.esc(i["q"]), i["a"]) for i in items)
-    return '<section class="faq">\n<h2>%s</h2>\n%s\n</section>' % (ctx.esc(ctx.site["faq"]["heading"]), qa)
+    q = level + 1
+    rows = "\n".join(accordion("<h%d>%s</h%d>" % (q, ctx.esc(i["q"]), q), i["a"]) for i in items)
+    head = "<h%d>%s</h%d>\n" % (level, ctx.esc(ctx.site["faq"]["heading"]), level) if heading else ""
+    return '<section class="faq">\n%s%s\n</section>' % (head, rows)
 
 
 def sources(ctx, items):
@@ -277,16 +385,27 @@ def noscript(ctx, cls):
     return '<noscript><p class="%s">%s</p></noscript>' % (cls, ctx.esc(ctx.ui["common"].get("noScript", "")))
 
 
-# The height a tool's panel reserves before its script runs (the stylesheet's
-# --panel-min, 460px by default), measured by the tool's own package so that
-# starting a run does not push the page down.
-PANEL_MIN = {"vocal-range-test": 560, "sing-in-tune-test": 580}
+# The height a tool's panel reserves before its script runs is the
+# stylesheet's --panel-min (460px by default). The two tools that listen keep
+# more, per width, so that starting a run does not push the page down: each
+# value is the tallest any locale's run reached there (from 960 to 1099 px
+# the range test's result, which a desktop shows in the same room), measured
+# through the fake microphone (tool/tests/e2e/run.py holds them still at 360,
+# 768 and 900 px). The range test's are in css/style.css, as its own
+# stylesheet is at its budget; the sing-in-tune test's in css/tool-tune.css.
 
 
 def tool_panel(ctx, tool_id):
     """A tool's mount point: build.py adds its module script for it."""
-    style = ' style="--panel-min:%dpx"' % PANEL_MIN[tool_id] if tool_id in PANEL_MIN else ""
-    return '<div class="tool-panel" data-tool="%s"%s>%s</div>' % (tool_id, style, noscript(ctx, "tool-panel__hint"))
+    return '<div class="tool-panel" data-tool="%s">%s</div>' % (tool_id, noscript(ctx, "tool-panel__hint"))
+
+
+def tool_aside(ctx, tool_id, inner=""):
+    """The slot beside How it works that a tool fills from its script (spec
+    3.7): the range test's no-microphone link, the sing-in-tune test's voice
+    choice. inner is what it holds before the script runs, if anything (a
+    plain link that works without it keeps the row from shifting)."""
+    return '<div class="tp-side" data-tool-slot="aside" data-for="%s">%s</div>' % (tool_id, inner)
 
 
 def player_mount(ctx, key="main"):

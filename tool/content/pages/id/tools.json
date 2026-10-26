@@ -3,7 +3,9 @@
   "title": "Alat Bernyanyi Gratis di Browser - Scalita",
   "description": "Empat alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
   "h1": "Alat bernyanyi gratis",
-  "lead": "Cari jangkauanmu, cek seberapa dekat nyanyianmu dengan sebuah nada, lakukan pemanasan dengan piano asli di nada dasarmu sendiri, dan temukan titik tempat suaramu berpindah. Tidak perlu membuat akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
+  "lead": "Empat alat dari aplikasi Scalita, di browser-mu. Suaramu tidak dikirim ke mana pun.",
+  "appBand": "Scalita mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor. Offline, tanpa iklan, tanpa akun.",
+  "referenceHeading": "Tentang alat-alat ini",
   "intro": "<p>Keempat alat ini berasal dari Scalita, aplikasi pemanasan vokal untuk Android. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasi itu sendiri, dan berjalan di browser, baik di ponsel maupun di komputer.</p><p>Ada dua aturan yang berlaku untuk semuanya. Sebuah alat hanya mendengarkan atau hanya memainkan piano, tidak pernah keduanya sekaligus, jadi kamu tidak perlu headphone. Dan saat sebuah alat mendengarkan, browser-mu yang mengerjakannya di perangkatmu: tidak ada yang direkam atau dikirim ke mana pun.</p>",
   "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [

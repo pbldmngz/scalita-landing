@@ -12,7 +12,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
-import { RangeSession, fill, scaleRun, typicalFor } from '../../../js/tools/vocal-range-test.js';
+import { RangeSession, fill, namesAType, scaleRun, typesIn, typicalFor } from '../../../js/tools/vocal-range-run.js';
 import { NoteLock, PitchReader } from '../../../js/audio/pitch.js';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -20,7 +20,9 @@ const REPO = resolve(HERE, '../../..');
 const read = (p) => readFileSync(join(REPO, p), 'utf8');
 const json = (p) => JSON.parse(read(p));
 const FX = JSON.parse(readFileSync(join(HERE, 'fixtures.json'), 'utf8'));
-const SRC = read('js/tools/vocal-range-test.js');
+const ENTRY = read('js/tools/vocal-range-test.js');
+const RUN = read('js/tools/vocal-range-run.js');
+const SRC = ENTRY + RUN;
 
 test('typicalFor is VoiceType.closestForRange on every exported vector', () => {
   const types = json('tool/data/app/voice_types.json');
@@ -29,6 +31,30 @@ test('typicalFor is VoiceType.closestForRange on every exported vector', () => {
   for (const v of vectors) {
     assert.deepEqual(typicalFor(types, v.low, v.high).map((t) => t.id), v.types, `${v.low} to ${v.high}`);
   }
+});
+
+test('a voice type is named for a span of 12 to 35 semitones only, as VoiceType.rangeNamesAType', () => {
+  const dart = join(REPO, '..', 'scalita_app', 'lib', 'core', 'models', 'voice_type.dart');
+  if (existsSync(dart)) assert.match(readFileSync(dart, 'utf8'), /span >= 12 && span < 36/, 'the app rule this mirrors');
+  for (const [low, high, named] of [[48, 59, false], [48, 60, true], [40, 75, true], [40, 76, false], [36, 72, false], [36, 84, false]]) {
+    assert.equal(namesAType(low, high), named, `${low} to ${high}`);
+  }
+});
+
+test('the voice types a range of three octaves holds whole, by their low note, as RangeShareCard counts them', () => {
+  const types = json('tool/data/app/voice_types.json');
+  const ids = (low, high) => typesIn(types, low, high).map((t) => t.id);
+  // the app's own ranges, bass E2 to E4 (voice_type.dart) up to soprano C4 to C6
+  assert.deepEqual(types.map((t) => [t.id, t.rangeLow, t.rangeHigh]).sort((a, b) => a[1] - b[1]),
+    [['bass', 40, 64], ['baritone', 45, 69], ['tenor', 48, 72], ['contralto', 53, 77], ['mezzoSoprano', 57, 81], ['soprano', 60, 84]]);
+  assert.deepEqual(ids(36, 84), ['bass', 'baritone', 'tenor', 'contralto', 'mezzoSoprano', 'soprano'], 'C2 to C6: all six');
+  assert.deepEqual(ids(36, 72), ['bass', 'baritone', 'tenor'], 'C2 to C5: bass to tenor');
+  assert.deepEqual(ids(40, 79), ['bass', 'baritone', 'tenor', 'contralto']);
+  assert.deepEqual(ids(41, 77), ['baritone', 'tenor', 'contralto'], 'F2 holds no bass whole');
+  assert.deepEqual(ids(52, 88), ['contralto', 'mezzoSoprano', 'soprano']);
+  assert.deepEqual(ids(61, 97), [], 'above every type: more than one voice type, none whole');
+  // with the microphone's C2 to E6, every span of three octaves holds one at least
+  for (let low = 36; low + 36 <= 88; low++) assert.ok(ids(low, low + 36).length, low + ' to ' + (low + 36));
 });
 
 test('scaleRun climbs a major scale and lands on the top note', () => {
@@ -145,14 +171,17 @@ test('every string the code names is in ui/en/vocal-range-test.json, and nothing
     'micInterrupted', 'micHidden', 'micFailed', 'micBluetooth', 'micSilent', 'levelQuiet', 'levelLoud']) {
     assert.ok(mic[code], 'mic.' + code);
   }
-  for (const [k, v] of Object.entries(ui)) assert.ok(v.trim(), k + ' is empty');
+  const filled = (k, v) => (typeof v === 'string' ? assert.ok(v.trim(), k + ' is empty')
+    : Object.entries(v).forEach(([k2, v2]) => filled(k + '.' + k2, v2)));
+  for (const [k, v] of Object.entries(ui)) filled(k, v);
 });
 
 test('before a tap the page needs this module and mic.js only, under 15 KB gzipped', () => {
-  const statics = [...SRC.matchAll(/^import .* from '([^']+)';$/gm)].map((m) => m[1]);
+  const statics = [...ENTRY.matchAll(/^import .* from '([^']+)';$/gm)].map((m) => m[1]);
   assert.deepEqual(statics, ['../audio/mic.js']);
+  assert.ok(ENTRY.includes("import('./vocal-range-run.js')"), 'the run module loads on the first tap');
   for (const lazy of ['../audio/listener.js', '../audio/pitch.js', '../audio/piano.js', './share-card.js']) {
-    assert.ok(SRC.includes(`import('${lazy}')`), lazy + ' loads on demand');
+    assert.ok(RUN.includes(`import('${lazy}')`), lazy + ' loads on demand');
   }
   const gz = (p) => gzipSync(readFileSync(join(REPO, p)), { level: 9 }).length;
   const total = gz('js/tools/vocal-range-test.js') + gz('js/audio/mic.js');
@@ -161,7 +190,7 @@ test('before a tap the page needs this module and mic.js only, under 15 KB gzipp
 
 test('no em or en dashes in what this package wrote', () => {
   const dash = new RegExp('[\\u2014\\u2013]|&' + 'mdash;|&' + 'ndash;');
-  for (const p of ['js/tools/vocal-range-test.js', 'js/tools/share-card.js', 'tool/content/ui/en/vocal-range-test.json',
+  for (const p of ['js/tools/vocal-range-test.js', 'js/tools/vocal-range-run.js', 'js/tools/share-card.js', 'tool/content/ui/en/vocal-range-test.json',
     'tool/tests/range-test/fixtures.json', 'tool/tests/range-test/range.test.mjs', 'tool/tests/range-test/e2e.py',
     'tool/tests/range-test/fixture.html', 'tool/tests/range-test/README.md']) {
     if (existsSync(join(REPO, p))) assert.ok(!dash.test(read(p)), p);

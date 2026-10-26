@@ -1,8 +1,8 @@
 {
   "modes": {
     "label": "Mode",
-    "sing": "Chante cette note",
-    "tuner": "Accordeur libre",
+    "sing": "Chante la note",
+    "tuner": "Accordeur",
     "ear": "Écoute rapide"
   },
   "intro": {
@@ -65,7 +65,8 @@
     "ctaButton": "Télécharger Scalita sur Google Play"
   },
   "tuner": {
-    "hint": "Chante ou fredonne n'importe quelle note."
+    "hint": "Chante ou fredonne n'importe quelle note.",
+    "nearest": "Note la plus proche"
   },
   "ear": {
     "label": "Plus haut ou plus bas",
@@ -82,5 +83,22 @@
     "toSing": "Rechanter une note"
   },
   "meter": "Niveau du micro",
-  "pianoFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie."
+  "pianoFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.",
+  "pianoPlayed": "Le piano a joué",
+  "cents": "Cents",
+  "share": {
+    "title": "Ma justesse",
+    "cents": "cents",
+    "typical": "Écart typique par rapport à la note, sur {n} notes",
+    "within10": "{n} sur {total} à 10 cents près",
+    "within25": "{n} sur {total} à 25 cents près",
+    "wobble": "Oscillation de {cents}",
+    "bandClose": "à 25 cents près",
+    "bandIn": "à 10 cents près",
+    "theNote": "la note",
+    "lines": "Chaque ligne, c'est ma propre voix qui se pose sur une note. Un cent est un centième de demi-ton.",
+    "ask": "Et toi, tu es à combien de la note ?",
+    "text": "Sur {n} notes, mon écart typique était de {cents}. Tu peux tester le tien gratuitement dans ton navigateur :",
+    "fileName": "ma-justesse"
+  }
 }

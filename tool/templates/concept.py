@@ -16,6 +16,7 @@ import _parts as p
 ROUTINE = "bridge_builder"
 SIGNS = ["voiceWantsToCrack", "voiceFlipsToLighterSound", "suddenlyNeedMoreEffort"]
 INTENTS = ["approachOnly", "crossOnce", "targetZona", "fullJourney"]
+CSS = ["guides.css"]
 
 
 def where(ctx):
@@ -51,7 +52,7 @@ def exercises(ctx, entry):
 def render(ctx):
     entry = ctx.player_data("routine", ROUTINE)
     blocks = [
-        p.callout(ctx, "shortAnswer", "concept.shortAnswer"),
+        p.callout(ctx, "shortAnswer", "concept.shortAnswer", level=2),  # right under the h1
         p.prose(ctx, ctx.copy.get("sections")),
         where(ctx),
         listen(ctx),
@@ -62,4 +63,4 @@ def render(ctx):
     ]
     related = ["voice-break-finder"] + p.pages_of(ctx, "concept") + ["voice-types", p.page_for(ctx, "routine", ROUTINE),
                                                                      "vocal-range-test"]
-    return p.result(p.finish(ctx, blocks, related), {"main": entry})
+    return dict(p.result(p.finish(ctx, blocks, related), {"main": entry}), css=CSS)

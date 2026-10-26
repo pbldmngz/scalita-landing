@@ -4,7 +4,7 @@
   "title": "Einsingen am echten Klavier, in deinem Umfang - Scalita",
   "description": "Drei Routinen aus der Scalita-App am echten Klavier, in deinem Umfang: kurz einsingen vor dem Auftritt, ausführlich einsingen und ein Cool-down danach.",
   "h1": "Einsingen",
-  "lead": "Drei Routinen aus der Scalita-App, auf einem echten Klavier in deinem Umfang gespielt: ein kurzes Einsingen für direkt vor dem Singen, ein volles Einsingen und ein Cool-down für danach. Wähl die Stimmlage, die deiner am nächsten kommt, oder stell deinen eigenen tiefsten und höchsten Ton ein, und drück auf Abspielen.",
+  "lead": "Drei Routinen aus der Scalita-App, auf einem echten Klavier in deinem Umfang gespielt: ein kurzes Einsingen für direkt vor dem Singen, ein volles Einsingen und ein Cool-down für danach. Wähl das Stimmfach, das deiner Stimme am nächsten kommt, oder stell deinen eigenen tiefsten und höchsten Ton ein, und drück auf Abspielen.",
   "intro": "<p>Jede Routine hier ist die aus der App, Schritt für Schritt: dieselben Muster, Silben und Tempi und dieselbe Reihenfolge. Was ein Video nicht kann, ist die Tonart für dich zu wechseln. Hier rückt das Klavier jedes Muster halbtonweise so, dass es in den Umfang passt, den du eingestellt hast. So singst du mit deiner eigenen Stimme und nicht mit der Stimme der Person, die das Video aufgenommen hat.</p><p>Nicht sicher, welche heute passt? Beantworte auf dieser Seite die zwei Fragen von „Einsingen finden“, dieselben, die die App stellt. Wenn du deinen Umfang noch nicht kennst, findet der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> deinen tiefsten und höchsten Ton.</p>",
   "children": [
     "quick-vocal-warm-up",
@@ -30,7 +30,7 @@
     },
     {
       "q": "Gibt es eigene Einsingübungen für Frauen- und Männerstimmen?",
-      "a": "<p>Die Übungen sind für alle dieselben. Was sich ändert, ist die Tonart: Wähl die Voreinstellung, die deiner Stimme am nächsten kommt, vom Sopran bis zum Bass, oder stell deinen eigenen Umfang ein, und das Klavier legt jedes Muster passend. Eine Voreinstellung bestimmt nur, wo das Klavier spielt, also wähl sie danach, wo deine Stimme liegt, nicht nach dem Geschlecht. Die Seite zu den <a href=\"page:voice-types\">Stimmlagen</a> beschreibt jede einzelne.</p>"
+      "a": "<p>Die Übungen sind für alle dieselben. Was sich ändert, ist die Tonart: Wähl die Voreinstellung, die deiner Stimme am nächsten kommt, vom Sopran bis zum Bass, oder stell deinen eigenen Umfang ein, und das Klavier legt jedes Muster passend. Eine Voreinstellung bestimmt nur, wo das Klavier spielt, also wähl sie danach, wo deine Stimme liegt, nicht nach dem Geschlecht. Die Seite zu den <a href=\"page:voice-types\">Stimmfächern</a> beschreibt jedes einzelne.</p>"
     },
     {
       "q": "Bringt Einsingen wirklich etwas?",

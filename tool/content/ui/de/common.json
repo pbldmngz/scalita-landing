@@ -19,5 +19,15 @@
   "copyLink": "Link kopieren",
   "copied": "Link kopiert",
   "privacyLine": "Nichts wird aufgenommen oder gesendet. Dein Browser hört auf deinem Gerät zu, und das Mikrofon geht aus, sobald du auf Stopp drückst.",
-  "noScript": "Dieses Tool braucht JavaScript. Alles andere auf dieser Seite funktioniert auch ohne."
+  "noScript": "Dieses Tool braucht JavaScript. Alles andere auf dieser Seite funktioniert auch ohne.",
+  "nothingSent": "Keine Aufnahme, keine Übertragung.",
+  "micOn": "Mikro an",
+  "micOff": "Mikro aus",
+  "level": "Pegel",
+  "levelGood": "Gut",
+  "levelLow": "Leise",
+  "levelLoud": "Laut",
+  "pitchTrail": "Tonspur",
+  "hz": "{hz} Hz",
+  "refPitch": "Kammerton {note} = 440 Hz"
 }

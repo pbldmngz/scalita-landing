@@ -7,7 +7,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test de pasaje vocal: encuentra tu quiebre en el piano - Scalita</title>
+  <title>Test de quiebre vocal: encuéntralo con el piano - Scalita</title>
   <meta name="description" content="Canta mientras el piano sube y pulsa donde cambia tu voz. Obtienes tu primer passaggio y el tipo de voz con el quiebre más cercano. No necesitas micrófono.">
   <link rel="canonical" href="https://scalita.com/es/herramientas/test-de-pasaje-vocal/">
   <link rel="alternate" hreflang="en" href="https://scalita.com/tools/voice-break-finder/">
@@ -20,13 +20,23 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/tes-passaggio/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/voice-break-finder/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
+  <link rel="manifest" href="/es/site.webmanifest">
+  <script>(function(d,r){function L(f){var s=d.createElement('script');s.src='/js/site/fullscreen.js?v=aebd4d1878';s.onload=f;d.head.appendChild(s)}try{if(sessionStorage.getItem('scalita-fs')){r.setAttribute('data-fs','on');return L()}}catch(e){}d.addEventListener('click',function c(e){var b=e.target.closest&&e.target.closest('.tp-fs');if(b){d.removeEventListener('click',c,!0);L(function(){b.click()})}},!0)})(document,document.documentElement)</script>
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/tool.css?v=f04b3a67f7">
+  <link rel="stylesheet" href="/css/tool-player.css?v=44671822b3">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
-  <meta property="og:title" content="Test de pasaje vocal: encuentra tu quiebre en el piano - Scalita">
+  <meta property="og:title" content="Test de quiebre vocal: encuéntralo con el piano - Scalita">
   <meta property="og:description" content="Canta mientras el piano sube y pulsa donde cambia tu voz. Obtienes tu primer passaggio y el tipo de voz con el quiebre más cercano. No necesitas micrófono.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://scalita.com/es/herramientas/test-de-pasaje-vocal/">
@@ -41,10 +51,11 @@
   <meta property="og:locale:alternate" content="tr_TR">
   <meta property="og:locale:alternate" content="id_ID">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Test de pasaje vocal: encuentra tu quiebre en el piano - Scalita">
+  <meta name="twitter:title" content="Test de quiebre vocal: encuéntralo con el piano - Scalita">
   <meta name="twitter:description" content="Canta mientras el piano sube y pulsa donde cambia tu voz. Obtienes tu primer passaggio y el tipo de voz con el quiebre más cercano. No necesitas micrófono.">
   <meta name="twitter:image" content="https://scalita.com/images/og-image-es.png">
-  <script type="importmap">{"imports":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=76ac592bec","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/tools/player.js":"/js/tools/player.js?v=2ff84407c3","/js/tools/share-card.js":"/js/tools/share-card.js?v=8e88096231","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=ef1a07e4c1","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=3e8e472c1a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=b2b044690f","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=dc41014a17"}}</script>
+  <script type="importmap">{"imports":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler-play.js":"/js/audio/scheduler-play.js?v=6571747d56","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=a32e31c478","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/site/chrome.js":"/js/site/chrome.js?v=d12313984e","/js/site/fullscreen.js":"/js/site/fullscreen.js?v=aebd4d1878","/js/tools/player.js":"/js/tools/player.js?v=c07a296e74","/js/tools/share-card.js":"/js/tools/share-card.js?v=e477a61cd2","/js/tools/share-tune.js":"/js/tools/share-tune.js?v=bf4d747131","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=1bcb1659ce","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=8ad5d44220","/js/tools/vocal-range-run.js":"/js/tools/vocal-range-run.js?v=66f968bb6a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=95bf37afe1","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=9b8d0c4d9a"}}</script>
+  <link rel="modulepreload" href="/js/tools/voice-break.js?v=9b8d0c4d9a">
   <script type="module" src="/js/tools/voice-break-finder.js?v=423f60af29"></script>
   <script type="application/ld+json">
 {
@@ -66,45 +77,29 @@
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Test de pasaje vocal",
+      "name": "Test de quiebre vocal",
       "item": "https://scalita.com/es/herramientas/test-de-pasaje-vocal/"
     }
   ]
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/es/" class="logo">
-        <img src="/images/logo.svg" alt="Logo de Scalita" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/es/#features">Funciones</a></li>
-        <li><a href="/es/#pricing">Precio</a></li>
-        <li><a href="/es/#download">Descargar</a></li>
-        <li><a href="/es/herramientas/" aria-current="true">Herramientas</a></li>
-        <li><a href="/es/guias/vocalizaciones/">Guías</a></li>
-        <li><a href="/es/support.html">Ayuda</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Idioma: Español">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Español</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--tools">
+  <header class="site-header site-header--tools">
+    <div class="site-header__in">
+      <a class="site-logo" href="/es/" aria-label="Logo de Scalita"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-switch seg-group" aria-label="Inicio y las herramientas gratuitas">
+        <a class="seg seg--home" href="/es/" title="Inicio"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Inicio</span></a>
+        <span class="seg-group__rule" aria-hidden="true"></span>
+        <a class="seg" href="/es/herramientas/test-de-rango-vocal/" title="Test de rango vocal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span class="seg__full">Test de rango vocal</span><span class="seg__short">Rango</span></a>
+        <a class="seg" href="/es/herramientas/test-de-afinacion-vocal/" title="Test de afinación"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span class="seg__full">Test de afinación</span><span class="seg__short">Afinación</span></a>
+        <a class="seg" href="/es/herramientas/piano-para-vocalizar/" title="Piano para vocalizar"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span class="seg__full">Piano para vocalizar</span><span class="seg__short">Piano</span></a>
+        <a class="seg" href="/es/herramientas/test-de-pasaje-vocal/" aria-current="page" title="Test de quiebre vocal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span class="seg__full">Test de quiebre vocal</span><span class="seg__short">Quiebre</span></a>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Idioma: Español"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>ES</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/tools/voice-break-finder/" hreflang="en" lang="en">English</a>
             <a href="/es/herramientas/test-de-pasaje-vocal/" hreflang="es" lang="es" aria-current="true">Español</a>
             <a href="/fr/outils/trouver-son-passage-de-voix/" hreflang="fr" lang="fr">Français</a>
@@ -112,298 +107,226 @@
             <a href="/de/tools/registerwechsel-finden/" hreflang="de" lang="de">Deutsch</a>
             <a href="/tr/araclar/gecis-bolgesi-testi/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/alat/tes-passaggio/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descarga la app</span></a>
+      </div>
+      <button type="button" class="btn btn--secondary btn--sm site-fs-exit"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 4v4a1 1 0 0 1-1 1H4M15 4v4a1 1 0 0 0 1 1h4M20 15h-4a1 1 0 0 0-1 1v4M4 15h4a1 1 0 0 1 1 1v4"/></svg><span>Salir de pantalla completa</span></button>
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main id="main" class="tp-wrap">
     <nav class="breadcrumb" aria-label="Ruta de navegación">
       <div class="container">
         <ol>
           <li><a href="/es/">Inicio</a></li>
           <li><a href="/es/herramientas/">Herramientas gratuitas</a></li>
-          <li aria-current="page">Test de pasaje vocal</li>
+          <li aria-current="page">Test de quiebre vocal</li>
         </ol>
       </div>
     </nav>
 
-    <div class="container">
-      <article class="prose">
-<h1>Test de pasaje vocal</h1>
-<p class="lead">Canta mientras el piano sube, y pulsa cuando tu voz quiera quebrarse, cambie a un sonido más ligero o necesite un empujón. Obtienes la nota donde está tu primer quiebre y el tipo de voz cuyo quiebre queda más cerca.</p>
-
-<div class="tool-panel" data-tool="voice-break-finder"><noscript><p class="tool-panel__hint">Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él.</p></noscript></div>
-<p class="credit">Piano: Salamander Grand Piano V3 de Alexander Holm, con licencia <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Reafinado, recortado y comprimido para este sitio.</p>
-
-<section>
-<h2>Cómo encontrar tu quiebre</h2>
-<ol><li>Pulsa Empezar y elige voz más grave o voz más aguda. Eso decide dónde empieza el piano y con qué tres tipos de voz se compara tu resultado.</li><li>El piano toca una nota cada dos segundos, un semitono más aguda cada vez.</li><li>Canta con él en una vocal fácil, como “a”, a volumen medio, y mantén el mismo sonido todo el camino hacia arriba.</li><li>Pulsa en el momento en que tu voz quiera quebrarse, cambie a un sonido más ligero y aireado, o de repente necesite más esfuerzo.</li><li>El piano toca tres notas: dos semitonos por debajo de la que marcaste, esa nota y dos semitonos por encima. Si el cambio llegó un poco antes o después, muévelo un semitono hacia abajo o hacia arriba, y confirma.</li></ol>
-</section>
-
-<section>
-<h2>Cómo se ve un resultado</h2>
-<div class="result-card result-card--sample">
-<section>
-<p>Supongamos que elegiste voz más aguda y marcaste Mi4 (E4). El resultado dice:</p><ul><li>Primer cambio: Mi4 (E4)</li><li>Coincidencia más cercana: mezzosoprano, cuyo primer cambio suele estar alrededor de Mi4 (E4)</li><li>Segundo cambio, estimado a partir de ese tipo de voz: alrededor de Mi5 (E5)</li></ul><p>El tramo entre los dos cambios es tu zona de quiebre. El tipo de voz también depende de dónde suena mejor tu voz y de tu timbre, así que toma la coincidencia como un punto de partida.</p>
-</section>
+<div class="tp-title">
+  <div>
+    <h1>Test de quiebre vocal</h1>
+    <p class="tp-line">Canta mientras el piano sube. Pulsa cuando cambie tu voz.</p>
+  </div>
+  <button type="button" class="btn btn--secondary btn--sm tp-fs" title="Oculta todo menos la herramienta y el selector"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9V5a1 1 0 0 1 1-1h4M15 4h4a1 1 0 0 1 1 1v4M20 15v4a1 1 0 0 1-1 1h-4M9 20H5a1 1 0 0 1-1-1v-4"/></svg>Pantalla completa</button>
 </div>
+
+<section class="stage" aria-label="Test de quiebre vocal">
+<div class="tool-panel" data-tool="voice-break-finder"><noscript><p class="tool-panel__hint">Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él.</p></noscript></div>
 </section>
 
-<section>
-<h2>Qué es un quiebre vocal</h2>
+<div class="tp-under">
+<details class="acc acc--pill tp-how">
+<summary class="acc__head"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/></svg>Paso a paso<svg class="acc__chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
+<ol><li>Pulsa Empezar y elige voz más grave o voz más aguda. Eso decide dónde empieza el piano y con qué tres tipos de voz se compara tu resultado.</li><li>El piano toca una nota cada dos segundos, un semitono más aguda cada vez.</li><li>Canta con él en una vocal fácil, como “a”, a volumen medio, y mantén el mismo sonido todo el camino hacia arriba.</li><li>Pulsa en el momento en que tu voz quiera quebrarse, cambie a un sonido más ligero y aireado, o de repente necesite más esfuerzo.</li><li>El piano toca tres notas: dos semitonos por debajo de la que marcaste, esa nota y dos semitonos por encima. Si el cambio llegó un poco antes o después, muévelo un semitono hacia abajo o hacia arriba, y confirma.</li></ol>
+</div>
+</details>
+<div class="tp-side" data-tool-slot="aside" data-for="voice-break-finder"></div>
+</div>
+
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">En la app</h2><span class="pill pill--tag">Gratis</span></div>
+    <p class="band__body">En Scalita, tu quiebre vocal da forma a los ejercicios: algunos se quedan justo por debajo, otros lo cruzan una vez y vuelven. Gratis en Android y sin cuenta.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=es&amp;referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-break-finder" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Descarga Scalita en Google Play</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Próximamente</span></button>
+    </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/es/player.jpg" width="560" height="1125" loading="lazy" alt="Un ejercicio en marcha con el trazo de afinación en vivo"></div>
+</section>
+
+<section class="tp-ref" aria-labelledby="tp-ref-h">
+<div class="tp-ref__main">
+<div class="tp-ref__head">
+<p class="tp-kicker">Referencia</p>
+<h2 id="tp-ref-h">Sobre el test</h2>
+<p class="tp-reviewed">Revisado el <time datetime="2026-10-22">22 de octubre de 2026</time></p>
+</div>
+
+<p class="tp-lead">Canta mientras el piano sube, y pulsa cuando tu voz quiera quebrarse, cambie a un sonido más ligero o necesite un empujón. Obtienes la nota donde está tu primer quiebre y el tipo de voz cuyo quiebre queda más cerca.</p>
+
+<details data-fold="open" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Qué es un quiebre vocal</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Cuando subes una escala, hay un tramo en el que tu voz cambia de marcha. Puede quebrarse, pasar a un sonido más ligero o de repente costar más. Todas las voces lo tienen. No es un defecto, y gran parte del entrenamiento vocal consiste en atravesarlo con suavidad.</p><p>La enseñanza clásica llama a estos cambios passaggi, “pasajes” en italiano (en español se habla también de la zona de pasaje): un primero, el primo passaggio, y un segundo más arriba, el secondo passaggio, con una zona entre los dos. Este test busca el primero.</p>
-</section>
+</div>
+</details>
 
-<section>
-<h2>Dónde está en cada tipo de voz</h2>
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Cómo se ve un resultado</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
+<div class="result-card result-card--sample">
+<p>Supongamos que elegiste voz más aguda y marcaste Mi4 (E4). El resultado dice:</p><ul><li>Primer cambio: Mi4 (E4)</li><li>Coincidencia más cercana: mezzosoprano, cuyo primer cambio suele estar alrededor de Mi4 (E4)</li><li>Segundo cambio, estimado a partir de ese tipo de voz: alrededor de Mi5 (E5)</li></ul><p>El tramo entre los dos cambios es tu zona de quiebre. El tipo de voz también depende de dónde suena mejor tu voz y de tu timbre, así que toma la coincidencia como un punto de partida.</p>
+</div>
+</div>
+</details>
+
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Dónde está en cada tipo de voz</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>En la tabla de Scalita, el primer cambio está alrededor de Fa4 (F4) en la voz de soprano, Mi4 (E4) en la de mezzosoprano, Re4 (D4) en la de contralto y en la de tenor, Si3 (B3) en la de barítono y Sol#3 (G#3) en la de bajo. Son promedios clásicos, y cada voz real es distinta.</p><p>La voz de contralto y la de tenor comparten primer cambio, pero no rango. Por eso el test pregunta si tienes una voz más grave o más aguda: la misma nota apunta a un tipo de voz distinto en cada grupo.</p>
-</section>
+</div>
+</details>
 
-<section>
-<h2>Por qué el quiebre dice más que tu rango</h2>
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Por qué el quiebre dice más que tu rango</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Dos cantantes pueden compartir casi todo su rango y aun así cambiar en sitios distintos. Por eso Scalita considera tu quiebre vocal una guía del tipo de voz más confiable que el rango por sí solo. Los profesores también escuchan dónde se siente cómoda una voz y su color, cosas que un piano no puede medir.</p>
-</section>
+</div>
+</details>
 
-<section>
-<h2>Cómo funciona el test</h2>
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Cómo funciona el test</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Solo usa el piano, nunca el micrófono. El cambio lo juzgas tú, por sensación y de oído, así que el test funciona en cualquier navegador, con micrófono o sin él.</p><p>El piano empieza en grave, en Do3 (C3) para una voz más grave y en Sol#3 (G#3) para una más aguda, y sube un semitono cada dos segundos. Cuando pulsas, esa nota pasa a ser tu primer cambio. Después el test busca el tipo de voz de tu grupo cuyo primer cambio queda más cerca, y toma el segundo cambio de ese tipo.</p>
-</section>
+</div>
+</details>
 
-<section>
-<h2>Para obtener una respuesta clara</h2>
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Para obtener una respuesta clara</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <ul><li>Calienta un poco antes, por ejemplo con unas escalas en el <a href="/es/herramientas/piano-para-vocalizar/">piano para vocalizar</a>.</li><li>Mantén la misma vocal y el mismo volumen todo el camino hacia arriba. Las dos cosas pueden mover el punto donde sientes el cambio.</li><li>No empujes más allá del cambio para seguir subiendo. Pulsa y suéltalo.</li><li>Hazlo dos veces. Que haya una nota de diferencia entre intentos es normal, porque el cambio es una zona, no un punto exacto.</li></ul>
-</section>
+</div>
+</details>
 
-<section>
-<h2>Después de encontrarlo</h2>
-<p>Tu quiebre es donde ocurre gran parte de la práctica de canto. En la app Scalita da forma a los ejercicios: algunos se detienen justo antes del quiebre, otros lo cruzan una vez y vuelven, otros se centran en la zona de quiebre y otros te llevan hasta arriba por la voz de cabeza. La rutina Constructor de puente está construida a su alrededor. Para entender el fondo, lee <a href="/es/guias/quiebre-de-voz-al-cantar/">por qué se quiebra la voz en los agudos</a> y <a href="/es/guias/voz-de-cabeza-y-voz-de-pecho/">voz de cabeza y voz de pecho</a>.</p>
-</section>
-
-<section>
-<h2>Lo que esto no te dice</h2>
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Lo que esto no te dice</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>La nota que marcas es donde sentiste el cambio hoy, con esa vocal y a ese volumen. Si cantas más fuerte o cambias de vocal, puede moverse. Solo el primer cambio se encuentra de oído. El segundo es una estimación a partir del tipo de voz que coincidió, no una medición.</p><p>No decide tu tipo de voz, ni te enseña a suavizar el quiebre. Algunas voces, a menudo las entrenadas, pasan por esta zona con tanta suavidad que no hay un quiebre claro. Si es tu caso, marca el punto donde cantar empieza a costar más esfuerzo, o sáltate el test.</p>
-</section>
+</div>
+</details>
+
+<details data-fold="shut" class="acc acc--list tp-fold" open>
+<summary class="acc__head"><h3>Después de encontrarlo</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
+<p>Tu quiebre es donde ocurre gran parte de la práctica de canto. En la app Scalita da forma a los ejercicios: algunos se detienen justo antes del quiebre, otros lo cruzan una vez y vuelven, otros se centran en la zona de quiebre y otros te llevan hasta arriba por la voz de cabeza. La rutina Constructor de puente está construida a su alrededor. Para entender el fondo, lee <a href="/es/guias/quiebre-de-voz-al-cantar/">por qué se quiebra la voz en los agudos</a> y <a href="/es/guias/voz-de-cabeza-y-voz-de-pecho/">voz de cabeza y voz de pecho</a>.</p>
+</div>
+</details>
+
+<div class="tp-next">
+  <a class="btn btn--secondary" href="/es/herramientas/test-de-rango-vocal/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg>Encuentra tu rango</a>
+  <a class="btn btn--secondary" href="/es/herramientas/piano-para-vocalizar/"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg>Calienta en tu rango</a>
+</div>
 
 <section class="faq">
-<h2>Preguntas frecuentes</h2>
-<div class="faq-item">
-<h3>¿Es malo que se me quiebre la voz?</h3>
+<h3>Preguntas frecuentes</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>¿Es malo que se me quiebre la voz?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>No. Todas las voces tienen estos cambios, y un quiebre es la voz haciendo uno de golpe en vez de con suavidad. Si cantar te duele o la voz se te queda ronca, descansa y consulta a un médico o a un terapeuta de la voz. Hay más en <a href="/es/guias/quiebre-de-voz-al-cantar/">por qué se quiebra la voz en los agudos</a>.</p>
 </div>
-<div class="faq-item">
-<h3>¿Dónde está el passaggio de un tenor?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>¿Dónde está el passaggio de un tenor?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>En la tabla de Scalita, que sigue promedios clásicos, el primer cambio de un tenor está alrededor de Re4 (D4) y el segundo alrededor de Sol4 (G4). En la voz de soprano, los dos están alrededor de Fa4 (F4) y Fa5 (F5). Los tuyos pueden estar un poco más arriba o más abajo, y para eso está el test.</p>
 </div>
-<div class="faq-item">
-<h3>¿Por qué pregunta si mi voz es más grave o más aguda?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>¿Por qué pregunta si mi voz es más grave o más aguda?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Para elegir con qué tres tipos de voz compararte (tenor, barítono y bajo, o soprano, mezzosoprano y contralto) y para decidir dónde empieza a subir el piano. No pregunta por tu género.</p>
 </div>
-<div class="faq-item">
-<h3>¿Necesito micrófono?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>¿Necesito micrófono?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>No. El test solo toca el piano. Tú escuchas tu propia voz y pulsas.</p>
 </div>
+</details>
 </section>
-
-<aside class="cta-block">
-  <h2>Practica esto en Scalita</h2>
-  <p>Scalita es gratis en Android. Recuerda tu rango, toca cada ejercicio con un piano real transpuesto a tu voz y, con auriculares puestos, dibuja tu afinación mientras cantas y puntúa cada escala. El Modo Adaptativo arma el calentamiento sobre la marcha, según cómo te haya ido cada ejercicio.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=es&amp;referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-break-finder" target="_blank" rel="noopener">Descarga Scalita en Google Play</a></p>
-  <p class="cta-block__other">¿Estás en un iPhone o en una computadora? Por ahora la app es solo para Android, pero todo lo de esta página funciona en tu navegador.</p>
+</div>
+<aside class="tp-aside" aria-label="Páginas relacionadas">
+<div class="tp-guides">
+<h3 class="tp-kicker">Guías relacionadas</h3>
+<ul>
+  <li><a class="aside__row" href="/es/guias/quiebre-de-voz-al-cantar/">Quiebres de voz y pasaje<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+  <li><a class="aside__row" href="/es/guias/voz-de-cabeza-y-voz-de-pecho/">Voz de cabeza y pecho<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+  <li><a class="aside__row" href="/es/guias/tipos-de-voz/">Tipos de voz<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+  <li><a class="aside__row" href="/es/guias/vibracion-de-labios/">Vibración de labios y lengua<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+  <li><a class="aside__row" href="/es/guias/vocalizaciones/">Vocalizaciones<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+  <li><a class="tp-all" href="/es/guias/vocalizaciones/">Las 9 guías<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></li>
+</ul>
+</div>
+<div class="tp-tools">
+<h3 class="tp-kicker">Las otras tres herramientas</h3>
+<ul>
+  <li><a class="row" href="/es/herramientas/test-de-rango-vocal/"><span class="icon-box icon-box--sm"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span><span class="row__text"><span class="row__title">Test de rango vocal</span><span class="row__line">Tu nota más grave y la más aguda, en más o menos un minuto.</span></span></a></li>
+  <li><a class="row" href="/es/herramientas/piano-para-vocalizar/"><span class="icon-box icon-box--sm"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span><span class="row__text"><span class="row__title">Piano para vocalizar</span><span class="row__line">Escalas y rutinas de la app, en tu rango.</span></span></a></li>
+  <li><a class="row" href="/es/herramientas/test-de-afinacion-vocal/"><span class="icon-box icon-box--sm"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span><span class="row__text"><span class="row__title">Test de afinación</span><span class="row__line">Cuánto te acercas a una nota que acabas de oír.</span></span></a></li>
+</ul>
+</div>
 </aside>
-
-<aside class="related">
-  <h2>Páginas relacionadas</h2>
-  <ul>
-    <li><a href="/es/guias/quiebre-de-voz-al-cantar/">Quiebres de voz y pasaje</a></li>
-    <li><a href="/es/guias/voz-de-cabeza-y-voz-de-pecho/">Voz de cabeza y pecho</a></li>
-    <li><a href="/es/guias/tipos-de-voz/">Tipos de voz</a></li>
-    <li><a href="/es/herramientas/test-de-rango-vocal/">Test de rango vocal</a></li>
-  </ul>
-</aside>
-
+<div class="tp-ref__end">
 <section class="sources">
-<h2>Fuentes</h2>
+<h3>Fuentes</h3>
 <ol>
   <li><a href="https://archive.org/details/structureofsingi0000mill" target="_blank" rel="noopener">Richard Miller (1986), The Structure of Singing: System and Art in Vocal Technique, Schirmer Books</a></li>
   <li><a href="https://en.wikipedia.org/wiki/Passaggio" target="_blank" rel="noopener">Passaggio, Wikipedia (en inglés): el primo y el secondo passaggio, con los rangos de registro de Miller para el tenor lírico</a></li>
 </ol>
 </section>
-
 <aside class="byline">
   <img src="/images/pablo.jpg" alt="" width="80" height="80" loading="lazy">
   <p class="byline__name">Pablo Dominguez</p>
   <p class="byline__line">Cantante, con cinco años de formación en canto contemporáneo. Es el creador de Scalita.</p>
 </aside>
-      </article>
-    </div>
+</div>
+</section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/es/" class="logo">
-            <img src="/images/logo_48.png" alt="Logo de Scalita" width="28" height="28">
-            Scalita
-          </a>
-          <p>Escalas simples. Piano real. Sin tonterías. Hecho con odio para cantantes de todo el mundo.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Producto</h4>
-          <ul>
-            <li><a href="/es/#features">Funciones</a></li>
-            <li><a href="/es/#pricing">Precio</a></li>
-            <li><a href="/es/#download">Descargar</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Herramientas gratuitas</h4>
-          <ul>
-            <li><a href="/es/herramientas/">Herramientas gratuitas</a></li>
-            <li><a href="/es/herramientas/test-de-rango-vocal/">Test de rango vocal</a></li>
-            <li><a href="/es/herramientas/test-de-afinacion-vocal/">Test de afinación</a></li>
-            <li><a href="/es/herramientas/piano-para-vocalizar/">Piano para vocalizar</a></li>
-            <li><a href="/es/herramientas/test-de-pasaje-vocal/">Test de pasaje vocal</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Guías</h4>
-          <ul>
-            <li><a href="/es/guias/vocalizaciones/">Vocalizaciones</a></li>
-            <li><a href="/es/guias/tipos-de-voz/">Tipos de voz</a></li>
-            <li><a href="/es/guias/calentamiento-vocal-rapido/">Calentamiento rápido</a></li>
-            <li><a href="/es/guias/calentamiento-vocal-antes-de-cantar/">Calentamiento completo</a></li>
-            <li><a href="/es/guias/enfriamiento-vocal/">Enfriamiento vocal</a></li>
-            <li><a href="/es/guias/vibracion-de-labios/">Vibración de labios y lengua</a></li>
-            <li><a href="/es/guias/escala-de-cinco-notas/">Escala de cinco notas</a></li>
-            <li><a href="/es/guias/quiebre-de-voz-al-cantar/">Quiebres de voz y pasaje</a></li>
-            <li><a href="/es/guias/voz-de-cabeza-y-voz-de-pecho/">Voz de cabeza y pecho</a></li>
-            <li><a href="/es/guias/notas-musicales-do-central/">Notas y octavas</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="/es/privacy.html">Política de Privacidad</a></li>
-            <li><a href="/es/terms.html">Términos del Servicio</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Ayuda</h4>
-          <ul>
-            <li><a href="/es/support.html">Ayuda y contacto</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Apoyar en Ko-fi</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer site-footer--compact">
+    <div class="site-footer__in">
+      <div class="site-footer__row">
+        <a class="site-logo site-logo--sm" href="/es/" aria-label="Logo de Scalita"><svg width="24" height="24" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+        <nav class="site-footer__nav" aria-label="Sitio">
+          <a href="/es/" class="site-footer__home">Inicio</a>
+          <a href="/es/herramientas/">Herramientas gratuitas</a>
+          <a href="/es/guias/vocalizaciones/">Guías</a>
+          <a href="/es/support.html">Ayuda y contacto</a>
+          <a href="/es/privacy.html">Política de Privacidad</a>
+          <a href="/es/terms.html">Términos del Servicio</a>
+          <a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Apoyar en Ko-fi</a>
+        </nav>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p>
-        <p>Hecho con odio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <p class="site-footer__credit">Piano: Salamander Grand Piano V3 de Alexander Holm, con licencia <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Reafinado, recortado y comprimido para este sitio.</p>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Todos los derechos reservados.</p><p>Hecho con odio por <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script type="application/json" id="page-data">{"locale":"es","lang":"es","pageId":"voice-break-finder","strings":{"common":{"start":"Empezar","stop":"Detener","listening":"Escuchando...","tooQuiet":"Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.","allow":"Permite el micrófono cuando el navegador te lo pida.","result":"Tu resultado","share":"Compartir","save":"Guardar imagen","openInBrowser":"El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.","androidOnly":"Solo Android","lastTime":"La última vez","tryAgain":"Intentar de nuevo","play":"Reproducir","loading":"Cargando el piano...","next":"Siguiente","back":"Atrás","close":"Cerrar","copyLink":"Copiar enlace","copied":"Enlace copiado","privacyLine":"No se graba ni se envía nada. Tu navegador escucha en tu dispositivo, y el micrófono se apaga cuando pulsas Detener.","noScript":"Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él."},"mic":{"micUnsupported":"Este navegador no puede usar el micrófono aquí. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.","micInApp":"El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.","micBlocked":"Tu navegador está bloqueando el micrófono en este sitio. Permítelo en la configuración del sitio, normalmente en el icono que hay junto a la dirección, y vuelve a cargar la página.","micDismissed":"La página necesita tu permiso para usar el micrófono. Vuelve a intentarlo y elige Permitir cuando el navegador te lo pida.","micNotFound":"No se encontró ningún micrófono. Conecta uno o enciéndelo, y vuelve a intentarlo.","micBusy":"Algo más está usando el micrófono, como una llamada u otra app. Ciérralo y vuelve a intentarlo.","micInterrupted":"El micrófono se cortó, quizá por una llamada o porque se desconectaron los auriculares. Vuelve a intentarlo cuando quieras.","micHidden":"La escucha se detiene cuando cambias a otra pestaña o a otra app. Vuelve a empezar cuando quieras.","micFailed":"Algo falló al poner en marcha el micrófono. Vuelve a cargar la página e inténtalo de nuevo.","micBluetooth":"Parece que usas auriculares Bluetooth. Su micrófono baja a calidad de llamada, así que el micrófono del propio teléfono te captará mejor.","micSilent":"No llega sonido del micrófono. Comprueba que no esté silenciado y luego canta o tararea.","levelQuiet":"Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.","levelLoud":"Suena tan fuerte que puede distorsionar. Aléjate un poco del micrófono."},"voice-break-finder":{"intro":"Al cantar más agudo, hay un punto donde tu voz quiere quebrarse o cambiar, como al cambiar de marcha. Ese es tu quiebre vocal. El piano toca notas que van subiendo, una cada dos segundos. Canta con él y pulsa el botón cuando sientas el cambio.","whatToListenFor":"Qué escuchar:","voiceWantsToCrack":"Tu voz quiere quebrarse o romperse","suddenlyNeedMoreEffort":"De repente necesitas más esfuerzo para cantar más agudo","voiceFlipsToLighterSound":"Tu voz cambia a un sonido más ligero y aireado","letsGo":"Empezar","lastResult":"La última vez: {note}, más cerca de {voiceType}","whatDescribesYourVoice":"¿Qué describe mejor tu voz?","voiceHint":"Esto decide dónde empieza el piano y con qué tipos de voz se compara tu quiebre.","lowerVoice":"Voz más grave","higherVoice":"Voz más aguda","firstShift":"Primer cambio","climbHelp":"Canta cada nota con el piano. Cuando tu voz quiera quebrarse, cambie a un sonido más ligero o tengas que empujar más, pulsa el botón.","feltIt":"Sentí el cambio","climbTop":"Hasta aquí llega la búsqueda. Si sentiste el cambio en las últimas notas, pulsa el botón. Si no, vuelve a intentarlo.","youFeltSomethingAround":"Sentiste algo alrededor de {note}","matchesVoiceType":"Coincidencia más cercana: {voiceType}","confirmHelp":"Oíste una nota un poco más grave, la nota misma y una un poco más aguda. Muévela hasta que quede donde ocurrió el cambio.","aBitLower":"Un poco más grave","aBitHigher":"Un poco más agudo","yes":"Ahí es","voiceBreak":"Quiebre vocal","closestMatch":"Coincidencia más cercana","secondShift":"Segundo cambio, estimado","zone":"Teclado con tu primer cambio en {primo} y el segundo, estimado, en {secondo}","announce":"Tu quiebre vocal está alrededor de {note}; el tipo de voz más cercano es {voiceType}.","voiceBreakEducational":"El tipo de voz también depende de dónde suena mejor tu voz y tu calidad tonal.","averages":"La comparación usa promedios clásicos de cada tipo de voz. Cada voz es distinta, y el punto donde cambias puede moverse con el calentamiento y el entrenamiento.","saved":"Se guarda en este navegador, para que el piano para vocalizar arme sus ejercicios a su alrededor.","redo":"Intentar de nuevo","useInPiano":"Calentar con este resultado","cta":"En Scalita, tu quiebre vocal da forma a los ejercicios: algunos se detienen justo antes, otros lo cruzan una vez y vuelven.","getApp":"Descarga Scalita en Google Play","noAudio":"Este navegador no puede reproducir audio. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.","loadFailed":"El piano no se cargó. Revisa tu conexión y vuelve a intentarlo."}},"notes":{"21":["La0","A0"],"22":["La#0","A#0"],"23":["Si0","B0"],"24":["Do1","C1"],"25":["Do#1","C#1"],"26":["Re1","D1"],"27":["Re#1","D#1"],"28":["Mi1","E1"],"29":["Fa1","F1"],"30":["Fa#1","F#1"],"31":["Sol1","G1"],"32":["Sol#1","G#1"],"33":["La1","A1"],"34":["La#1","A#1"],"35":["Si1","B1"],"36":["Do2","C2"],"37":["Do#2","C#2"],"38":["Re2","D2"],"39":["Re#2","D#2"],"40":["Mi2","E2"],"41":["Fa2","F2"],"42":["Fa#2","F#2"],"43":["Sol2","G2"],"44":["Sol#2","G#2"],"45":["La2","A2"],"46":["La#2","A#2"],"47":["Si2","B2"],"48":["Do3","C3"],"49":["Do#3","C#3"],"50":["Re3","D3"],"51":["Re#3","D#3"],"52":["Mi3","E3"],"53":["Fa3","F3"],"54":["Fa#3","F#3"],"55":["Sol3","G3"],"56":["Sol#3","G#3"],"57":["La3","A3"],"58":["La#3","A#3"],"59":["Si3","B3"],"60":["Do4","C4"],"61":["Do#4","C#4"],"62":["Re4","D4"],"63":["Re#4","D#4"],"64":["Mi4","E4"],"65":["Fa4","F4"],"66":["Fa#4","F#4"],"67":["Sol4","G4"],"68":["Sol#4","G#4"],"69":["La4","A4"],"70":["La#4","A#4"],"71":["Si4","B4"],"72":["Do5","C5"],"73":["Do#5","C#5"],"74":["Re5","D5"],"75":["Re#5","D#5"],"76":["Mi5","E5"],"77":["Fa5","F5"],"78":["Fa#5","F#5"],"79":["Sol5","G5"],"80":["Sol#5","G#5"],"81":["La5","A5"],"82":["La#5","A#5"],"83":["Si5","B5"],"84":["Do6","C6"],"85":["Do#6","C#6"],"86":["Re6","D6"],"87":["Re#6","D#6"],"88":["Mi6","E6"],"89":["Fa6","F6"],"90":["Fa#6","F#6"],"91":["Sol6","G6"],"92":["Sol#6","G#6"],"93":["La6","A6"],"94":["La#6","A#6"],"95":["Si6","B6"],"96":["Do7","C7"],"97":["Do#7","C#7"],"98":["Re7","D7"],"99":["Re#7","D#7"],"100":["Mi7","E7"],"101":["Fa7","F7"],"102":["Fa#7","F#7"],"103":["Sol7","G7"],"104":["Sol#7","G#7"],"105":["La7","A7"],"106":["La#7","A#7"],"107":["Si7","B7"],"108":["Do8","C8"]},"voiceTypes":[{"id":"soprano","isMaleVoice":false,"name":"Soprano","presetHigh":84,"presetId":"soprano","presetLow":60,"primo":65,"rangeHigh":84,"rangeLow":60,"secondo":77},{"id":"mezzoSoprano","isMaleVoice":false,"name":"Mezzosoprano","presetHigh":81,"presetId":"mezzo","presetLow":57,"primo":64,"rangeHigh":81,"rangeLow":57,"secondo":76},{"id":"contralto","isMaleVoice":false,"name":"Contralto","presetHigh":77,"presetId":"alto","presetLow":53,"primo":62,"rangeHigh":77,"rangeLow":53,"secondo":74},{"id":"tenor","isMaleVoice":true,"name":"Tenor","presetHigh":72,"presetId":"tenor","presetLow":48,"primo":62,"rangeHigh":72,"rangeLow":48,"secondo":67},{"id":"baritone","isMaleVoice":true,"name":"Barítono","presetHigh":69,"presetId":"baritone","presetLow":45,"primo":59,"rangeHigh":69,"rangeLow":45,"secondo":64},{"id":"bass","isMaleVoice":true,"name":"Bajo","presetHigh":64,"presetId":"bass","presetLow":40,"primo":56,"rangeHigh":65,"rangeLow":41,"secondo":61}],"registers":[{"ceiling":48,"description":"Notas graves con vibración, por debajo de tu voz de pecho","floor":21,"high":41,"id":"subharmonic","low":33,"minSpan":7,"name":"Subarmónico","routinesUsing":["subharmonic_warmup"]},{"ceiling":108,"description":"El tono fino y aflautado por encima de la voz de cabeza","floor":74,"high":88,"id":"flageolet","low":79,"minSpan":5,"name":"Flageolet","routinesUsing":["flageolet_bridge"]},{"ceiling":108,"description":"Lo más alto de la voz, por encima del flageolet","floor":84,"high":96,"id":"whistle","low":89,"minSpan":5,"name":"Silbido","routinesUsing":["whistle_explorer"]}],"playLink":"https://play.google.com/store/apps/details?id=com.scalita.app&hl=es&referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-break-finder","androidOnlyLine":"¿Estás en un iPhone o en una computadora? Por ahora la app es solo para Android, pero todo lo de esta página funciona en tu navegador.","piano":{"base":"/audio/piano-web/","manifest":{"credit":"Salamander Grand Piano V3 by Alexander Holm, CC BY 3.0","license":"https://creativecommons.org/licenses/by/3.0/","maxShift":1,"notes":[{"midi":33,"file":"33_A1.mp3","duration":5.0,"v":"b7f13a0cef"},{"midi":36,"file":"36_C2.mp3","duration":5.0,"v":"98a6d6e1c5"},{"midi":39,"file":"39_Ds2.mp3","duration":5.0,"v":"b45a445b19"},{"midi":42,"file":"42_Fs2.mp3","duration":5.0,"v":"12b043b4a0"},{"midi":45,"file":"45_A2.mp3","duration":5.0,"v":"1e75395f04"},{"midi":48,"file":"48_C3.mp3","duration":5.0,"v":"b6098ab9e5"},{"midi":51,"file":"51_Ds3.mp3","duration":5.0,"v":"4dc5f3aa77"},{"midi":54,"file":"54_Fs3.mp3","duration":5.0,"v":"469b56ef85"},{"midi":57,"file":"57_A3.mp3","duration":5.0,"v":"fb3a08e647"},{"midi":60,"file":"60_C4.mp3","duration":5.0,"v":"92837bcde0"},{"midi":63,"file":"63_Ds4.mp3","duration":5.0,"v":"d29dc9222c"},{"midi":66,"file":"66_Fs4.mp3","duration":5.0,"v":"77a36ce1c5"},{"midi":69,"file":"69_A4.mp3","duration":5.0,"v":"0e3d31c593"},{"midi":72,"file":"72_C5.mp3","duration":5.0,"v":"8a822d8ad2"},{"midi":75,"file":"75_Ds5.mp3","duration":5.0,"v":"0d261181ef"},{"midi":78,"file":"78_Fs5.mp3","duration":5.0,"v":"e0b213a128"},{"midi":81,"file":"81_A5.mp3","duration":5.0,"v":"c1c6156494"},{"midi":84,"file":"84_C6.mp3","duration":5.0,"v":"11be216c2c"},{"midi":87,"file":"87_Ds6.mp3","duration":5.0,"v":"347b15805b"},{"midi":90,"file":"90_Fs6.mp3","duration":5.0,"v":"6aa7418647"}]}},"links":{"index":"/es/","privacy":"/es/privacy.html","terms":"/es/terms.html","support":"/es/support.html","tools":"/es/herramientas/","vocal-range-test":"/es/herramientas/test-de-rango-vocal/","sing-in-tune-test":"/es/herramientas/test-de-afinacion-vocal/","warm-up-piano":"/es/herramientas/piano-para-vocalizar/","voice-break-finder":"/es/herramientas/test-de-pasaje-vocal/","vocal-warm-ups":"/es/guias/vocalizaciones/","voice-types":"/es/guias/tipos-de-voz/","quick-vocal-warm-up":"/es/guias/calentamiento-vocal-rapido/","full-vocal-warm-up":"/es/guias/calentamiento-vocal-antes-de-cantar/","vocal-cool-down":"/es/guias/enfriamiento-vocal/","lip-trills":"/es/guias/vibracion-de-labios/","five-note-scale":"/es/guias/escala-de-cinco-notas/","voice-cracks-high-notes":"/es/guias/quiebre-de-voz-al-cantar/","head-voice-vs-chest-voice":"/es/guias/voz-de-cabeza-y-voz-de-pecho/","note-names-octaves":"/es/guias/notas-musicales-do-central/"},"assets":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=76ac592bec","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/tools/player.js":"/js/tools/player.js?v=2ff84407c3","/js/tools/share-card.js":"/js/tools/share-card.js?v=8e88096231","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=ef1a07e4c1","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=3e8e472c1a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=b2b044690f","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=dc41014a17"},"players":{}}</script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
+  <nav class="site-tabbar" aria-label="Inicio y las herramientas gratuitas">
+    <a class="site-tab" href="/es/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Inicio</span></a>
+    <a class="site-tab" href="/es/herramientas/test-de-rango-vocal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span>Rango</span></a>
+    <a class="site-tab" href="/es/herramientas/test-de-afinacion-vocal/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Afinación</span></a>
+    <a class="site-tab" href="/es/herramientas/piano-para-vocalizar/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span>Piano</span></a>
+    <a class="site-tab" href="/es/herramientas/test-de-pasaje-vocal/" aria-current="page"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span>Quiebre</span></a>
+  </nav>
 
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="page-data">{"locale":"es","lang":"es","pageId":"voice-break-finder","strings":{"common":{"start":"Empezar","stop":"Detener","listening":"Escuchando...","tooQuiet":"Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.","allow":"Permite el micrófono cuando el navegador te lo pida.","result":"Tu resultado","share":"Compartir","save":"Guardar imagen","openInBrowser":"El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.","androidOnly":"Solo Android","lastTime":"La última vez","tryAgain":"Intentar de nuevo","play":"Reproducir","loading":"Cargando el piano...","next":"Siguiente","back":"Atrás","close":"Cerrar","copyLink":"Copiar enlace","copied":"Enlace copiado","privacyLine":"No se graba ni se envía nada. Tu navegador escucha en tu dispositivo, y el micrófono se apaga cuando pulsas Detener.","noScript":"Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él.","nothingSent":"No se graba ni se envía nada.","micOn":"Micro encendido","micOff":"Micro apagado","level":"Nivel","levelGood":"Bien","levelLow":"Bajo","levelLoud":"Muy alto","pitchTrail":"Trazo de afinación","hz":"{hz} Hz","refPitch":"Ref. {note} = 440 Hz"},"mic":{"micUnsupported":"Este navegador no puede usar el micrófono aquí. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.","micInApp":"El navegador integrado de esta app no puede usar el micrófono. Abre esta página en Chrome o Safari.","micBlocked":"Tu navegador está bloqueando el micrófono en este sitio. Permítelo en la configuración del sitio, normalmente en el icono que hay junto a la dirección, y vuelve a cargar la página.","micDismissed":"La página necesita tu permiso para usar el micrófono. Vuelve a intentarlo y elige Permitir cuando el navegador te lo pida.","micNotFound":"No se encontró ningún micrófono. Conecta uno o enciéndelo, y vuelve a intentarlo.","micBusy":"Algo más está usando el micrófono, como una llamada u otra app. Ciérralo y vuelve a intentarlo.","micInterrupted":"El micrófono se cortó, quizá por una llamada o porque se desconectaron los auriculares. Vuelve a intentarlo cuando quieras.","micHidden":"La escucha se detiene cuando cambias a otra pestaña o a otra app. Vuelve a empezar cuando quieras.","micFailed":"Algo falló al poner en marcha el micrófono. Vuelve a cargar la página e inténtalo de nuevo.","micBluetooth":"Parece que usas auriculares Bluetooth. Su micrófono baja a calidad de llamada, así que el micrófono del propio teléfono te captará mejor.","micSilent":"No llega sonido del micrófono. Comprueba que no esté silenciado y luego canta o tararea.","levelQuiet":"Se oye muy bajo. Canta un poco más fuerte o acércate al micrófono.","levelLoud":"Suena tan fuerte que puede distorsionar. Aléjate un poco del micrófono."},"voice-break-finder":{"intro":"Al cantar más agudo, hay un punto donde tu voz quiere quebrarse o cambiar, como al cambiar de marcha. Ese es tu quiebre vocal. El piano toca notas que van subiendo, una cada dos segundos. Canta con él y pulsa el botón cuando sientas el cambio.","letsGo":"Empezar","lastResult":"La última vez: {note}, más cerca de {voiceType}","whatDescribesYourVoice":"¿Qué describe mejor tu voz?","voiceHint":"Esto decide dónde empieza el piano y con qué tipos de voz se compara tu quiebre.","lowerVoice":"Voz más grave","higherVoice":"Voz más aguda","firstShift":"Primer cambio","climbHelp":"Canta cada nota con el piano. Cuando tu voz quiera quebrarse, cambie a un sonido más ligero o tengas que empujar más, pulsa el botón.","feltIt":"Sentí el cambio","climbTop":"Hasta aquí llega la búsqueda. Si sentiste el cambio en las últimas notas, pulsa el botón. Si no, vuelve a intentarlo.","youFeltSomethingAround":"Sentiste algo alrededor de {note}","matchesVoiceType":"Coincidencia más cercana: {voiceType}","confirmHelp":"Oíste una nota un poco más grave, la nota misma y una un poco más aguda. Muévela hasta que quede donde ocurrió el cambio.","aBitLower":"Un poco más grave","aBitHigher":"Un poco más agudo","yes":"Ahí es","voiceBreak":"Quiebre vocal","closestMatch":"Coincidencia más cercana","secondShift":"Segundo cambio, estimado","zone":"Teclado con tu primer cambio en {primo} y el segundo, estimado, en {secondo}","announce":"Tu quiebre vocal está alrededor de {note}; el tipo de voz más cercano es {voiceType}.","voiceBreakEducational":"El tipo de voz también depende de dónde suena mejor tu voz y tu calidad tonal.","averages":"La comparación usa promedios clásicos de cada tipo de voz. Cada voz es distinta, y el punto donde cambias puede moverse con el calentamiento y el entrenamiento.","saved":"Se guarda en este navegador, para que el piano para vocalizar arme sus ejercicios a su alrededor.","redo":"Intentar de nuevo","useInPiano":"Calentar con este resultado","noAudio":"Este navegador no puede reproducir audio. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.","loadFailed":"El piano no se cargó. Revisa tu conexión y vuelve a intentarlo."},"templates":{"tool":{"noMic":"Sin micrófono"}}},"notes":{"21":["La0","A0"],"22":["La#0","A#0"],"23":["Si0","B0"],"24":["Do1","C1"],"25":["Do#1","C#1"],"26":["Re1","D1"],"27":["Re#1","D#1"],"28":["Mi1","E1"],"29":["Fa1","F1"],"30":["Fa#1","F#1"],"31":["Sol1","G1"],"32":["Sol#1","G#1"],"33":["La1","A1"],"34":["La#1","A#1"],"35":["Si1","B1"],"36":["Do2","C2"],"37":["Do#2","C#2"],"38":["Re2","D2"],"39":["Re#2","D#2"],"40":["Mi2","E2"],"41":["Fa2","F2"],"42":["Fa#2","F#2"],"43":["Sol2","G2"],"44":["Sol#2","G#2"],"45":["La2","A2"],"46":["La#2","A#2"],"47":["Si2","B2"],"48":["Do3","C3"],"49":["Do#3","C#3"],"50":["Re3","D3"],"51":["Re#3","D#3"],"52":["Mi3","E3"],"53":["Fa3","F3"],"54":["Fa#3","F#3"],"55":["Sol3","G3"],"56":["Sol#3","G#3"],"57":["La3","A3"],"58":["La#3","A#3"],"59":["Si3","B3"],"60":["Do4","C4"],"61":["Do#4","C#4"],"62":["Re4","D4"],"63":["Re#4","D#4"],"64":["Mi4","E4"],"65":["Fa4","F4"],"66":["Fa#4","F#4"],"67":["Sol4","G4"],"68":["Sol#4","G#4"],"69":["La4","A4"],"70":["La#4","A#4"],"71":["Si4","B4"],"72":["Do5","C5"],"73":["Do#5","C#5"],"74":["Re5","D5"],"75":["Re#5","D#5"],"76":["Mi5","E5"],"77":["Fa5","F5"],"78":["Fa#5","F#5"],"79":["Sol5","G5"],"80":["Sol#5","G#5"],"81":["La5","A5"],"82":["La#5","A#5"],"83":["Si5","B5"],"84":["Do6","C6"],"85":["Do#6","C#6"],"86":["Re6","D6"],"87":["Re#6","D#6"],"88":["Mi6","E6"],"89":["Fa6","F6"],"90":["Fa#6","F#6"],"91":["Sol6","G6"],"92":["Sol#6","G#6"],"93":["La6","A6"],"94":["La#6","A#6"],"95":["Si6","B6"],"96":["Do7","C7"],"97":["Do#7","C#7"],"98":["Re7","D7"],"99":["Re#7","D#7"],"100":["Mi7","E7"],"101":["Fa7","F7"],"102":["Fa#7","F#7"],"103":["Sol7","G7"],"104":["Sol#7","G#7"],"105":["La7","A7"],"106":["La#7","A#7"],"107":["Si7","B7"],"108":["Do8","C8"]},"voiceTypes":[{"id":"soprano","isMaleVoice":false,"name":"Soprano","presetHigh":84,"presetId":"soprano","presetLow":60,"primo":65,"rangeHigh":84,"rangeLow":60,"secondo":77},{"id":"mezzoSoprano","isMaleVoice":false,"name":"Mezzosoprano","presetHigh":81,"presetId":"mezzo","presetLow":57,"primo":64,"rangeHigh":81,"rangeLow":57,"secondo":76},{"id":"contralto","isMaleVoice":false,"name":"Contralto","presetHigh":77,"presetId":"alto","presetLow":53,"primo":62,"rangeHigh":77,"rangeLow":53,"secondo":74},{"id":"tenor","isMaleVoice":true,"name":"Tenor","presetHigh":72,"presetId":"tenor","presetLow":48,"primo":62,"rangeHigh":72,"rangeLow":48,"secondo":67},{"id":"baritone","isMaleVoice":true,"name":"Barítono","presetHigh":69,"presetId":"baritone","presetLow":45,"primo":59,"rangeHigh":69,"rangeLow":45,"secondo":64},{"id":"bass","isMaleVoice":true,"name":"Bajo","presetHigh":64,"presetId":"bass","presetLow":40,"primo":56,"rangeHigh":64,"rangeLow":40,"secondo":61}],"registers":[{"ceiling":48,"description":"Notas graves con vibración, por debajo de tu voz de pecho","floor":21,"high":41,"id":"subharmonic","low":33,"minSpan":7,"name":"Subarmónico","routinesUsing":["subharmonic_warmup"]},{"ceiling":108,"description":"El tono fino y aflautado por encima de la voz de cabeza","floor":74,"high":88,"id":"flageolet","low":79,"minSpan":5,"name":"Flageolet","routinesUsing":["flageolet_bridge"]},{"ceiling":108,"description":"Lo más alto de la voz, por encima del flageolet","floor":84,"high":96,"id":"whistle","low":89,"minSpan":5,"name":"Silbido","routinesUsing":["whistle_explorer"]}],"playLink":"https://play.google.com/store/apps/details?id=com.scalita.app&hl=es&referrer=utm_source%3Dscalita_es%26utm_medium%3Dweb%26utm_campaign%3Dvoice-break-finder","androidOnlyLine":"¿Estás en un iPhone o en un navegador de escritorio? Por ahora la app es solo para Android, pero todo lo de esta página funciona en tu navegador.","iphone":"iPhone · Próximamente","piano":{"base":"/audio/piano-web/","manifest":{"credit":"Salamander Grand Piano V3 by Alexander Holm, CC BY 3.0","license":"https://creativecommons.org/licenses/by/3.0/","maxShift":1,"notes":[{"midi":33,"file":"33_A1.mp3","duration":5.0,"v":"b7f13a0cef"},{"midi":36,"file":"36_C2.mp3","duration":5.0,"v":"98a6d6e1c5"},{"midi":39,"file":"39_Ds2.mp3","duration":5.0,"v":"b45a445b19"},{"midi":42,"file":"42_Fs2.mp3","duration":5.0,"v":"12b043b4a0"},{"midi":45,"file":"45_A2.mp3","duration":5.0,"v":"1e75395f04"},{"midi":48,"file":"48_C3.mp3","duration":5.0,"v":"b6098ab9e5"},{"midi":51,"file":"51_Ds3.mp3","duration":5.0,"v":"4dc5f3aa77"},{"midi":54,"file":"54_Fs3.mp3","duration":5.0,"v":"469b56ef85"},{"midi":57,"file":"57_A3.mp3","duration":5.0,"v":"fb3a08e647"},{"midi":60,"file":"60_C4.mp3","duration":5.0,"v":"92837bcde0"},{"midi":63,"file":"63_Ds4.mp3","duration":5.0,"v":"d29dc9222c"},{"midi":66,"file":"66_Fs4.mp3","duration":5.0,"v":"77a36ce1c5"},{"midi":69,"file":"69_A4.mp3","duration":5.0,"v":"0e3d31c593"},{"midi":72,"file":"72_C5.mp3","duration":5.0,"v":"8a822d8ad2"},{"midi":75,"file":"75_Ds5.mp3","duration":5.0,"v":"0d261181ef"},{"midi":78,"file":"78_Fs5.mp3","duration":5.0,"v":"e0b213a128"},{"midi":81,"file":"81_A5.mp3","duration":5.0,"v":"c1c6156494"},{"midi":84,"file":"84_C6.mp3","duration":5.0,"v":"11be216c2c"},{"midi":87,"file":"87_Ds6.mp3","duration":5.0,"v":"347b15805b"},{"midi":90,"file":"90_Fs6.mp3","duration":5.0,"v":"6aa7418647"}]}},"links":{"index":"/es/","privacy":"/es/privacy.html","terms":"/es/terms.html","support":"/es/support.html","tools":"/es/herramientas/","vocal-range-test":"/es/herramientas/test-de-rango-vocal/","sing-in-tune-test":"/es/herramientas/test-de-afinacion-vocal/","warm-up-piano":"/es/herramientas/piano-para-vocalizar/","voice-break-finder":"/es/herramientas/test-de-pasaje-vocal/","vocal-warm-ups":"/es/guias/vocalizaciones/","voice-types":"/es/guias/tipos-de-voz/","quick-vocal-warm-up":"/es/guias/calentamiento-vocal-rapido/","full-vocal-warm-up":"/es/guias/calentamiento-vocal-antes-de-cantar/","vocal-cool-down":"/es/guias/enfriamiento-vocal/","lip-trills":"/es/guias/vibracion-de-labios/","five-note-scale":"/es/guias/escala-de-cinco-notas/","voice-cracks-high-notes":"/es/guias/quiebre-de-voz-al-cantar/","head-voice-vs-chest-voice":"/es/guias/voz-de-cabeza-y-voz-de-pecho/","note-names-octaves":"/es/guias/notas-musicales-do-central/"},"assets":{"/js/audio/capture.worklet.js":"/js/audio/capture.worklet.js?v=1790da0759","/js/audio/listener.js":"/js/audio/listener.js?v=e2dcbf6e7a","/js/audio/mic.js":"/js/audio/mic.js?v=afb932c590","/js/audio/piano.js":"/js/audio/piano.js?v=dc27607cc5","/js/audio/pitch.js":"/js/audio/pitch.js?v=7c5385525f","/js/audio/scheduler-play.js":"/js/audio/scheduler-play.js?v=6571747d56","/js/audio/scheduler.js":"/js/audio/scheduler.js?v=a32e31c478","/js/audio/yin.js":"/js/audio/yin.js?v=e4ceb5c094","/js/site/chrome.js":"/js/site/chrome.js?v=d12313984e","/js/site/fullscreen.js":"/js/site/fullscreen.js?v=aebd4d1878","/js/tools/player.js":"/js/tools/player.js?v=c07a296e74","/js/tools/share-card.js":"/js/tools/share-card.js?v=e477a61cd2","/js/tools/share-tune.js":"/js/tools/share-tune.js?v=bf4d747131","/js/tools/sing-in-tune-test.js":"/js/tools/sing-in-tune-test.js?v=1bcb1659ce","/js/tools/sing-in-tune.js":"/js/tools/sing-in-tune.js?v=8ad5d44220","/js/tools/vocal-range-run.js":"/js/tools/vocal-range-run.js?v=66f968bb6a","/js/tools/vocal-range-test.js":"/js/tools/vocal-range-test.js?v=95bf37afe1","/js/tools/voice-break-finder.js":"/js/tools/voice-break-finder.js?v=423f60af29","/js/tools/voice-break.js":"/js/tools/voice-break.js?v=9b8d0c4d9a"},"players":{}}</script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

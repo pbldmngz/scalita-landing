@@ -155,21 +155,16 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 55,
+      "endMidi": 61,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 38
+      "startMidi": 49
     },
     "repeatCount": 1,
     "roots": [
-      38,
-      39,
-      40,
-      41,
-      42,
-      43
+      49
     ],
     "tempo": 90
   },
@@ -225,34 +220,16 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 72,
+      "endMidi": 62,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 42
+      "startMidi": 50
     },
     "repeatCount": 1,
     "roots": [
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51,
-      52,
-      53,
-      54,
-      55,
-      56,
-      57,
-      58,
-      59,
-      60
+      50
     ],
     "tempo": 100
   },
@@ -929,7 +906,7 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 74,
+      "endMidi": 70,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
@@ -943,11 +920,7 @@
       55,
       56,
       57,
-      58,
-      59,
-      60,
-      61,
-      62
+      58
     ],
     "tempo": 90
   },
@@ -2527,33 +2500,17 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 63,
+      "endMidi": 53,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 34
+      "startMidi": 40
     },
     "repeatCount": 1,
     "roots": [
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
       40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51
+      41
     ],
     "tempo": 100
   },
@@ -2572,7 +2529,7 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 63,
+      "endMidi": 56,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
@@ -2591,14 +2548,7 @@
       41,
       42,
       43,
-      44,
-      45,
-      46,
-      47,
-      48,
-      49,
-      50,
-      51
+      44
     ],
     "tempo": 90
   },
@@ -2767,15 +2717,10 @@
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 7,
-      "startMidi": 43
+      "startMidi": 48
     },
     "repeatCount": 1,
     "roots": [
-      43,
-      44,
-      45,
-      46,
-      47,
       48,
       49,
       50,
@@ -7399,34 +7344,19 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 63,
+      "endMidi": 61,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 33
+      "startMidi": 46
     },
     "repeatCount": 1,
     "roots": [
-      33,
-      34,
-      35,
-      36,
-      37,
-      38,
-      39,
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
       46,
       47,
       48,
-      49,
-      50,
-      51
+      49
     ],
     "tempo": 100
   },
@@ -8516,19 +8446,15 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 57,
+      "endMidi": 56,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 7,
-      "startMidi": 38
+      "startMidi": 42
     },
     "repeatCount": 1,
     "roots": [
-      38,
-      39,
-      40,
-      41,
       42,
       43,
       44,
@@ -8536,8 +8462,7 @@
       46,
       47,
       48,
-      49,
-      50
+      49
     ],
     "tempo": 90
   },
@@ -8556,7 +8481,7 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 47,
+      "endMidi": 44,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
@@ -8567,10 +8492,7 @@
     "roots": [
       35,
       36,
-      37,
-      38,
-      39,
-      40
+      37
     ],
     "tempo": 48
   },
@@ -8839,28 +8761,18 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 59,
+      "endMidi": 58,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 7,
-      "startMidi": 40
+      "startMidi": 49
     },
     "repeatCount": 1,
     "roots": [
-      40,
-      41,
-      42,
-      43,
-      44,
-      45,
-      46,
-      47,
-      48,
       49,
       50,
-      51,
-      52
+      51
     ],
     "tempo": 90
   },
@@ -9465,14 +9377,10 @@
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 44
+      "startMidi": 48
     },
     "repeatCount": 1,
     "roots": [
-      44,
-      45,
-      46,
-      47,
       48,
       49,
       50,
@@ -9639,21 +9547,16 @@
     "range": {
       "comfortMidi": null,
       "depth": 0,
-      "endMidi": 47,
+      "endMidi": 46,
       "returnToComfort": false,
       "semitoneStep": 1,
       "settleFromMidi": null,
       "span": 12,
-      "startMidi": 30
+      "startMidi": 34
     },
     "repeatCount": 1,
     "roots": [
-      30,
-      31,
-      32,
-      33,
-      34,
-      35
+      34
     ],
     "tempo": 90
   },

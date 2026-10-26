@@ -16,6 +16,8 @@ targets the voice break, then the tools and the other routine pages.
 
 import _parts as p
 
+CSS = ["guides.css"]
+
 
 def related(ctx, entry):
     steps = entry.get("steps") or []
@@ -41,4 +43,4 @@ def render(ctx):
         p.prose(ctx, ctx.copy.get("sections")),
         p.field(ctx, "next", "routine.next"),
     ]
-    return p.result(p.finish(ctx, blocks, related(ctx, entry)), {"main": entry})
+    return dict(p.result(p.finish(ctx, blocks, related(ctx, entry)), {"main": entry}), css=CSS)

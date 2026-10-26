@@ -19,5 +19,15 @@
   "copyLink": "Bağlantıyı kopyala",
   "copied": "Bağlantı kopyalandı",
   "privacyLine": "Hiçbir şey kaydedilmez ya da gönderilmez. Sesi cihazında tarayıcın dinler ve Durdur'a bastığında mikrofon kapanır.",
-  "noScript": "Bu araç JavaScript gerektiriyor. Sayfadaki diğer her şey onsuz da çalışır."
+  "noScript": "Bu araç JavaScript gerektiriyor. Sayfadaki diğer her şey onsuz da çalışır.",
+  "nothingSent": "Hiçbir şey kaydedilmez, gönderilmez.",
+  "micOn": "Mikrofon açık",
+  "micOff": "Mikrofon kapalı",
+  "level": "Seviye",
+  "levelGood": "İyi",
+  "levelLow": "Düşük",
+  "levelLoud": "Yüksek",
+  "pitchTrail": "Perde izi",
+  "hz": "{hz} Hz",
+  "refPitch": "Ref. {note} = 440 Hz"
 }

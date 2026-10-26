@@ -20,11 +20,19 @@
   <link rel="alternate" hreflang="id" href="https://scalita.com/id/alat/">
   <link rel="alternate" hreflang="x-default" href="https://scalita.com/tools/">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/logo_32.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/images/logo_192.png">
   <link rel="apple-touch-icon" sizes="192x192" href="/images/logo_192.png">
+  <meta name="theme-color" content="#1E2628">
+  <link rel="manifest" href="/de/site.webmanifest">
 
   <link rel="preload" href="/fonts/sora-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-500.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin media="(min-width: 600px)">
 
-  <link rel="stylesheet" href="/css/style.css?v=bca2fb5993">
+  <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
+  <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
+  <link rel="stylesheet" href="/css/hub.css?v=76042bcc8d">
+  <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <meta property="og:title" content="Kostenlose Gesangs-Tools im Browser - Scalita">
   <meta property="og:description" content="Vier kostenlose Tools für Sängerinnen und Sänger, direkt im Browser: Stimmumfang testen, Töne treffen, mit Klavier einsingen und deinen Registerwechsel finden.">
@@ -65,38 +73,22 @@
 }
   </script>
 </head>
-<body>
-  <nav>
-    <div class="container">
-      <a href="/de/" class="logo">
-        <img src="/images/logo.svg" alt="Scalita-Logo" width="32" height="32">
-        Scalita
-      </a>
-      <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <ul id="nav-menu">
-        <li><a href="/de/#features">Funktionen</a></li>
-        <li><a href="/de/#pricing">Preis</a></li>
-        <li><a href="/de/#download">Herunterladen</a></li>
-        <li><a href="/de/tools/" aria-current="true">Tools</a></li>
-        <li><a href="/de/ratgeber/einsingen/">Ratgeber</a></li>
-        <li><a href="/de/support.html">Hilfe</a></li>
-        <li class="nav-lang">
-          <details class="lang-menu">
-            <summary aria-label="Sprache: Deutsch">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
-                <circle cx="12" cy="12" r="9"/>
-                <path d="M3 12h18M12 3a15 15 0 010 18M12 3a15 15 0 000 18"/>
-              </svg>
-              <span>Deutsch</span>
-              <svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-                <polyline points="6 9 12 15 18 9"/>
-              </svg>
-            </summary>
-            <div class="lang-list">
+<body class="site--tools">
+  <header class="site-header site-header--tools">
+    <div class="site-header__in">
+      <a class="site-logo" href="/de/" aria-label="Scalita-Logo"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+      <nav class="site-switch seg-group" aria-label="Startseite und die kostenlosen Tools">
+        <a class="seg seg--home" href="/de/" title="Start"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Start</span></a>
+        <span class="seg-group__rule" aria-hidden="true"></span>
+        <a class="seg" href="/de/tools/stimmumfang-testen/" title="Stimmumfang-Test"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span class="seg__full">Stimmumfang-Test</span><span class="seg__short">Umfang</span></a>
+        <a class="seg" href="/de/tools/toene-treffen-test/" title="Töne-treffen-Test"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span class="seg__full">Töne-treffen-Test</span><span class="seg__short">Intonation</span></a>
+        <a class="seg" href="/de/tools/einsingen-klavier/" title="Einsing-Klavier"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span class="seg__full">Einsing-Klavier</span><span class="seg__short">Klavier</span></a>
+        <a class="seg" href="/de/tools/registerwechsel-finden/" title="Registerwechsel-Finder"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span class="seg__full">Registerwechsel-Finder</span><span class="seg__short">Bruch</span></a>
+      </nav>
+      <div class="site-header__right">
+        <details class="lang-menu">
+          <summary aria-label="Sprache: Deutsch"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span>DE</span><svg class="lang-chevron" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+          <div class="lang-list">
             <a href="/tools/" hreflang="en" lang="en">English</a>
             <a href="/es/herramientas/" hreflang="es" lang="es">Español</a>
             <a href="/fr/outils/" hreflang="fr" lang="fr">Français</a>
@@ -104,14 +96,14 @@
             <a href="/de/tools/" hreflang="de" lang="de" aria-current="true">Deutsch</a>
             <a href="/tr/araclar/" hreflang="tr" lang="tr">Türkçe</a>
             <a href="/id/alat/" hreflang="id" lang="id">Bahasa Indonesia</a>
-            </div>
-          </details>
-        </li>
-      </ul>
+          </div>
+        </details>
+        <a class="btn btn--primary site-getapp" href="#app"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>App laden</span></a>
+      </div>
     </div>
-  </nav>
+  </header>
 
-  <main id="main">
+  <main id="main" class="hub-wrap">
     <nav class="breadcrumb" aria-label="Brotkrümelnavigation">
       <div class="container">
         <ol>
@@ -121,243 +113,156 @@
       </div>
     </nav>
 
-    <div class="container">
-      <article class="prose">
+<div class="hub-title">
 <h1>Kostenlose Tools zum Singen</h1>
-<p class="lead">Finde deinen Umfang, prüf, wie genau du einen Ton triffst, sing dich an einem echten Klavier in deinen eigenen Tonarten ein und finde, wo deine Stimme wechselt. Du brauchst kein Konto, und nichts, was du singst, verlässt dein Gerät.</p>
+<p class="hub-lead">Vier Tools aus der App, direkt im Browser. Nichts, was du singst, verlässt dein Gerät.</p>
+</div>
 
+<div class="hub-tiles">
+<a class="card tile" href="/de/tools/stimmumfang-testen/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span><span class="tile__title">Stimmumfang-Test</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Schritt 1 von 2: dein tiefster Ton</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">G</text><rect class="hub-pv__lane" x="160" y="42" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="64" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="86" width="284" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="108" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="130" width="284" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="152" width="284" height="20" rx="3"/><text x="482" y="56" font-size="11" text-anchor="end">Ais</text><text x="482" y="78" font-size="11" text-anchor="end">A</text><text x="482" y="100" font-size="11" text-anchor="end">Gis</text><text x="482" y="122" font-size="11" class="hub-pv__cur" text-anchor="end">G</text><text x="482" y="144" font-size="11" text-anchor="end">Fis</text><text x="482" y="166" font-size="11" text-anchor="end">F</text><polyline class="hub-pv__line" stroke-width="3" points="176,60 200,58 224,66 248,80 272,98 292,112 308,118 330,120 354,118 378,120 402,119 426,120"/><circle class="hub-pv__halo" cx="426" cy="120" r="10"/><circle class="hub-pv__head" cx="426" cy="120" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">G</text><rect class="hub-pv__lane" x="64" y="10" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="28" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="46" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="64" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="70,18 80,20 90,28 100,40 110,50 120,53 130,52 140,53"/><circle class="hub-pv__head" cx="140" cy="53" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Dein tiefster und höchster Ton, in etwa einer Minute.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/de/tools/toene-treffen-test/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></span><span class="tile__title">Töne-treffen-Test</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><circle class="hub-pv__dot" cx="30" cy="20" r="4"/><text x="42" y="24" font-size="12">Ton 1 von 5</text><rect class="hub-pv__box" x="24" y="44" width="112" height="112" rx="22" stroke-width="1.5"/><text x="80" y="118.2" font-size="52" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">a</text><rect class="hub-pv__band" x="243.5" y="46" width="151" height="20" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="288.8" y="46" width="60.4" height="20" rx="3"/><path class="hub-pv__rule" d="M168 56H470" stroke-width="1.5"/><path class="hub-pv__tick" d="M168 50v12M243.5 52v8M319 48v16M394.5 52v8M470 50v12" stroke-width="1"/><path class="hub-pv__needle" d="M331.08 44v24" stroke-width="3"/><rect class="hub-pv__lane" x="160" y="84" width="290" height="20" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="160" y="106" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="128" width="290" height="20" rx="3"/><rect class="hub-pv__lane" x="160" y="150" width="290" height="20" rx="3"/><text x="172" y="120" font-size="11">a</text><polyline class="hub-pv__line" stroke-width="3" points="300,117 324,115 348,117 372,116 396,117 420,115 444,116"/><circle class="hub-pv__halo" cx="444" cy="116" r="10"/><circle class="hub-pv__head" cx="444" cy="116" r="4"/></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><rect class="hub-pv__box" x="6" y="12" width="50" height="50" rx="12" stroke-width="1.2"/><text x="31" y="45.4" font-size="24" class="hub-pv__note" text-anchor="middle">a</text><rect class="hub-pv__band" x="84.5" y="12" width="41" height="12" rx="3"/><rect class="hub-pv__band hub-pv__band--in" x="96.8" y="12" width="16.4" height="12" rx="3"/><path class="hub-pv__rule" d="M64 18H146" stroke-width="1.5"/><path class="hub-pv__tick" d="M64 14v8M105 12v12M146 14v8" stroke-width="1"/><path class="hub-pv__needle" d="M108.28 10v16" stroke-width="2.2"/><rect class="hub-pv__lane" x="64" y="34" width="82" height="14" rx="3"/><rect class="hub-pv__lane hub-pv__lane--on" x="64" y="52" width="82" height="14" rx="3"/><rect class="hub-pv__lane" x="64" y="70" width="82" height="14" rx="3"/><polyline class="hub-pv__line" stroke-width="2.2" points="96,60 106,58 116,59 126,58 136,59 142,58"/><circle class="hub-pv__head" cx="142" cy="58" r="3"/></svg></span>
+<span class="tile__foot"><span class="tile__line">Wie nah du einen Ton triffst, den du gerade gehört hast.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/de/tools/einsingen-klavier/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span><span class="tile__title">Einsing-Klavier</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Ohne Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><text x="24" y="24" font-size="12">5 Töne. 72 bpm, Gespiegelt.</text><defs><filter id="hub-kg1" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="4"/></filter></defs><g class="hub-pv__key"><path d="M24 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M56.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M120.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M153.2 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M185.5 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M217.8 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M250.1 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M282.4 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M314.7 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M347 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M379.3 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M411.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><path d="M443.9 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/></g><path class="hub-pv__glow" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z" filter="url(#hub-kg1)"/><path class="hub-pv__key--on" d="M88.6 38h30.3v106a6 6 0 0 1-6 6h-18.3a6 6 0 0 1-6-6z"/><g class="hub-pv__key--b"><path d="M47.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M79.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M144.2 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M176.5 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M208.8 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M273.4 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M305.7 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M370.3 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M402.6 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/><path d="M434.9 38h16v62a4 4 0 0 1-4 4h-8a4 4 0 0 1-4-4z"/></g><text x="39.15" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">c¹</text><text x="265.25" y="142" font-size="11" class="hub-pv__kl" text-anchor="middle">c²</text><text x="24" y="172" font-size="12">Tonart 3 von 18: e¹</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg2" x="-30%" y="-10%" width="160%" height="120%"><feGaussianBlur stdDeviation="2.5"/></filter></defs><g class="hub-pv__key"><path d="M6 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M20 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M48 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M62 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M76 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M90 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M104 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><path d="M118 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/></g><path class="hub-pv__glow" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z" filter="url(#hub-kg2)"/><path class="hub-pv__key--on" d="M34 8h12v63a3 3 0 0 1-3 3h-6a3 3 0 0 1-3-3z"/><g class="hub-pv__key--b"><path d="M15 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M29 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M57 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M71 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M85 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/><path d="M113 8h8v38a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2z"/></g><text x="12" y="69" font-size="7" class="hub-pv__kl" text-anchor="middle">c¹</text><text x="6" y="84" font-size="8">5 Töne. 72 bpm, Gespiegelt.</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Tonleitern und Routinen aus der App, in deinem Umfang.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+<a class="card tile" href="/de/tools/registerwechsel-finden/">
+<span class="tile__head"><span class="icon-box"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg></span><span class="tile__title">Registerwechsel-Finder</span><span class="pill"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 0 1 16 0v5a2 2 0 0 1-2 2h-1v-6h3M4 12h3v7H6a2 2 0 0 1-2-2z"/></svg>Ohne Mikrofon</span></span>
+<span class="tile__preview tile__preview--desktop"><svg class="hub-pv" viewBox="0 0 500 176" width="500" height="176" aria-hidden="true"><defs><filter id="hub-kg3" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="3"/></filter></defs><path class="hub-pv__step" d="M24 110h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M46 100h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step" d="M68 90h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__glow" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z" filter="url(#hub-kg3)"/><path class="hub-pv__key--on" d="M90 80h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M112 70h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><path class="hub-pv__step hub-pv__step--up" d="M134 60h20v39a5 5 0 0 1-5 5h-10a5 5 0 0 1-5-5z"/><text x="250" y="24" font-size="12" text-anchor="middle">Erster Wechsel</text><rect class="hub-pv__dash" x="194" y="34" width="112" height="88" rx="20" stroke-width="1.5" stroke-dasharray="4 4"/><text x="250" y="93.4" font-size="44" class="hub-pv__note" text-anchor="middle" letter-spacing="-1">e</text><rect class="hub-pv__btn" x="96.98" y="134" width="225.49" height="36" rx="12" stroke-width="1.5"/><text x="209.72" y="155.9" font-size="11.15" class="hub-pv__bt" text-anchor="middle">Ich habe den Wechsel gespürt</text><rect class="hub-pv__btn hub-pv__btn--off" x="336.47" y="134" width="66.55" height="36" rx="12" stroke-width="1.5"/><text x="369.75" y="155.9" font-size="11.15" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Stopp</text></svg></span>
+<span class="tile__preview tile__preview--phone"><svg class="hub-pv" viewBox="0 0 150 86" width="150" height="86" aria-hidden="true"><defs><filter id="hub-kg4" x="-40%" y="-20%" width="180%" height="140%"><feGaussianBlur stdDeviation="2"/></filter></defs><path class="hub-pv__step" d="M6 38h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step" d="M17 32h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__glow" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z" filter="url(#hub-kg4)"/><path class="hub-pv__key--on" d="M28 26h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><path class="hub-pv__step hub-pv__step--up" d="M39 20h9v19.75a2.25 2.25 0 0 1-2.25 2.25h-4.5a2.25 2.25 0 0 1-2.25-2.25z"/><text x="98" y="12" font-size="8" text-anchor="middle">Erster Wechsel</text><rect class="hub-pv__dash" x="74" y="16" width="48" height="38" rx="10" stroke-width="1" stroke-dasharray="3 3"/><text x="98" y="42" font-size="20" class="hub-pv__note" text-anchor="middle">e</text><rect class="hub-pv__btn" x="12.42" y="62" width="99.53" height="20" rx="7" stroke-width="1"/><text x="62.18" y="73.76" font-size="5.04" class="hub-pv__bt" text-anchor="middle">Ich habe den Wechsel gespürt</text><rect class="hub-pv__btn hub-pv__btn--off" x="117.95" y="62" width="27.63" height="20" rx="7" stroke-width="1"/><text x="131.76" y="73.76" font-size="5.04" class="hub-pv__bt hub-pv__bt--off" text-anchor="middle">Stopp</text></svg></span>
+<span class="tile__foot"><span class="tile__line">Wo deine Stimme den Gang wechselt, während das Klavier steigt.</span><span class="tile__start">Start<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+</a>
+</div>
+
+<a class="hub-newhere" href="#start"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .8-1 1.5M12 17h.01"/></svg><span>Neu dabei? So fängst du an</span></a>
+
+<section class="hub-ref" aria-labelledby="hub-ref-h">
+<div class="hub-ref__main">
+<div class="hub-ref__head">
+<p class="hub-kicker">Zum Nachlesen</p>
+<h2 id="hub-ref-h">Über die Tools</h2>
+<p class="hub-ref__date">Geprüft am 21. Oktober 2026</p>
+</div>
+<details class="acc acc--list hub-sec hub-sec--intro" open>
+<summary class="acc__head"><h3>Zwei Regeln für alle</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Diese vier Tools stammen aus Scalita, einer Einsing-App für Android. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, und sie laufen im Browser, auf dem Telefon oder am Computer.</p><p>Für alle gelten zwei Regeln. Ein Tool hört entweder zu oder spielt Klavier, nie beides gleichzeitig, deshalb brauchst du keine Kopfhörer. Und wenn ein Tool zuhört, erledigt dein Browser die Arbeit auf deinem Gerät: Nichts wird aufgenommen oder irgendwohin gesendet.</p>
-
-<ul class="hub-cards">
-  <li><a class="hub-card" href="/de/tools/stimmumfang-testen/"><h3>Stimmumfang-Test</h3><p>Sing oder summ deinen tiefsten und höchsten Ton und sieh deinen Umfang in Tönen und Oktaven, mit den Stimmlagen, für die er typisch ist. Kostenlos im Browser.</p></a></li>
-  <li><a class="hub-card" href="/de/tools/toene-treffen-test/"><h3>Töne-treffen-Test</h3><p>Hör einen Klavierton, sing ihn nach und sieh, wie viele Cent du danebenlagst. Ein kostenloser Töne-treffen-Test mit Stimmgerät-Modus, direkt im Browser.</p></a></li>
-  <li><a class="hub-card" href="/de/tools/einsingen-klavier/"><h3>Einsing-Klavier</h3><p>Einsingen mit Tonleitern und Routinen am echten Klavier, in deinem Umfang: Wähl eine Stimmlage oder deinen tiefsten und höchsten Ton. Kostenlos im Browser.</p></a></li>
-  <li><a class="hub-card" href="/de/tools/registerwechsel-finden/"><h3>Registerwechsel-Finder</h3><p>Sing zum steigenden Klavier und tippe, wo deine Stimme wechselt. Du erfährst dein erstes Passaggio und die Stimmlage mit dem ähnlichsten Bruch. Ohne Mikrofon.</p></a></li>
-</ul>
-
-<section>
-<h2>Wo du anfängst</h2>
-<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href="/de/tools/stimmumfang-testen/">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href="/de/tools/registerwechsel-finden/">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über deine Stimmlage als dein Umfang.</li><li><a href="/de/tools/einsingen-klavier/">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href="/de/tools/toene-treffen-test/">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol>
+</div>
+</details>
+<section class="hub-start" id="start">
+<h3>Wo du anfängst</h3>
+<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href="/de/tools/stimmumfang-testen/">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href="/de/tools/registerwechsel-finden/">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über dein Stimmfach als dein Umfang.</li><li><a href="/de/tools/einsingen-klavier/">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href="/de/tools/toene-treffen-test/">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol>
 </section>
-
-<section>
-<h2>Wenn ein Tool zuhört</h2>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>Wenn ein Tool zuhört</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Der Stimmumfang-Test und der Töne-treffen-Test nutzen dein Mikrofon. Sie bitten erst um das Mikrofon, wenn du auf Start gedrückt hast, lesen die Tonhöhe deiner Stimme, während sie ankommt, und behalten nichts. Drück auf Stopp oder verlass die Seite, und das Mikrofon geht aus. Das Einsing-Klavier und der Registerwechsel-Finder nutzen es nie.</p><p>Das Mikrofon funktioniert in aktuellen Versionen von Chrome, Safari, Firefox und Edge. In den eingebauten Browsern von Apps wie Instagram, TikTok, Facebook oder Gmail funktioniert es nicht. Wenn du also über eine dieser Apps hierhergekommen bist, öffne die Seite zuerst im Browser deines Telefons.</p>
-</section>
-
-<section>
-<h2>Was sie dir nicht sagen</h2>
-<p>Keines dieser Tools bewertet deine Stimme. Sie messen Tonhöhe: welche Töne du erreichst, wo deine Stimme wechselt, wie nah du an einen Ton kommst. Sie beurteilen nicht deinen Klang, vergleichen dich nicht mit anderen und raten deine Stimmlage nicht aus deiner Sprechstimme. Ein Ergebnis ist eine Momentaufnahme, und morgen kann deine Stimme etwas anders ausfallen.</p>
-</section>
-
+</div>
+</details>
+<details class="acc acc--list hub-sec">
+<summary class="acc__head"><h3>Was sie dir nicht sagen</h3><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
+<p>Keines dieser Tools bewertet deine Stimme. Sie messen Tonhöhe: welche Töne du erreichst, wo deine Stimme wechselt, wie nah du an einen Ton kommst. Sie beurteilen nicht deinen Klang, vergleichen dich nicht mit anderen und raten dein Stimmfach nicht aus deiner Sprechstimme. Ein Ergebnis ist eine Momentaufnahme, und morgen kann deine Stimme etwas anders ausfallen.</p>
+</div>
+</details>
 <section class="faq">
-<h2>Häufige Fragen</h2>
-<div class="faq-item">
-<h3>Sind die Tools kostenlos?</h3>
+<h3>Häufige Fragen</h3>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Sind die Tools kostenlos?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Ja. Kein Konto, keine E-Mail, keine Werbung. Sie sind für sich allein nützlich, und sie zeigen, was die Scalita-App kann.</p>
 </div>
-<div class="faq-item">
-<h3>Funktionieren sie auf dem iPhone?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Funktionieren sie auf dem iPhone?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Sie laufen im Browser, also funktionieren sie auf einem iPhone, einem Android-Telefon oder einem Computer, solange der Browser aktuell ist. Die Scalita-App selbst gibt es vorerst nur für Android.</p>
 </div>
-<div class="faq-item">
-<h3>Brauche ich Kopfhörer?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Brauche ich Kopfhörer?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Nein. Ein Tool, das Klavier spielt, hört nicht gleichzeitig zu, und eines, das zuhört, spielt nicht. Das Mikrofon hört also immer nur dich.</p>
 </div>
-<div class="faq-item">
-<h3>Wird etwas gespeichert?</h3>
+</details>
+<details class="acc acc--list">
+<summary class="acc__head"><h4>Wird etwas gespeichert?</h4><svg class="acc__chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 9l7 7 7-7"/></svg></summary>
+<div class="acc__body">
 <p>Nur auf deinem Gerät. Der Stimmumfang-Test, der Töne-treffen-Test und der Registerwechsel-Finder merken sich dein letztes Ergebnis in diesem Browser, damit du beim nächsten Mal vergleichen kannst. Wenn du in den Browser-Einstellungen die Daten dieser Website löschst, ist es weg.</p>
 </div>
+</details>
 </section>
-
-<aside class="cta-block">
-  <h2>Übe das in Scalita</h2>
-  <p>Scalita ist auf Android kostenlos. Die App merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet sie deine Tonhöhe beim Singen als Linie mit und bewertet jede Tonleiter. Der Adaptive Modus baut dein Einsingen Schritt für Schritt auf, je nachdem, wie sich jede Übung angefühlt hat.</p>
-  <p><a class="btn btn-primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=de&amp;referrer=utm_source%3Dscalita_de%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener">Scalita bei Google Play laden</a></p>
-  <p class="cta-block__other">Auf einem iPhone oder am Computer? Die App gibt es vorerst nur für Android, aber alles auf dieser Seite funktioniert in deinem Browser.</p>
+</div>
+<aside class="hub-aside" aria-labelledby="hub-guides-h">
+<h3 class="hub-kicker" id="hub-guides-h">Ratgeber, die dazu passen</h3>
+<ul class="hub-aside__list">
+<li><a class="aside__row" href="/de/ratgeber/einsingen/"><span>Einsingen</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/de/ratgeber/stimmlagen/"><span>Stimmfächer</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/de/ratgeber/stimme-bricht-beim-singen/"><span>Registerbruch und Passaggio</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/de/ratgeber/kopfstimme-bruststimme/"><span>Kopfstimme und Bruststimme</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+<li><a class="aside__row" href="/de/ratgeber/notennamen-h-oktaven/"><span>Notennamen und Oktaven</span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></a></li>
+</ul>
+<a class="hub-allguides" href="/de/ratgeber/einsingen/">Alle 9 Ratgeber<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
 </aside>
-
-<aside class="related">
-  <h2>Mehr zum Thema</h2>
-  <ul>
-    <li><a href="/de/ratgeber/einsingen/">Einsingen</a></li>
-    <li><a href="/de/ratgeber/stimmlagen/">Stimmlagen</a></li>
-    <li><a href="/de/ratgeber/notennamen-h-oktaven/">Notennamen und Oktaven</a></li>
-    <li><a href="/de/ratgeber/fuenf-toene-uebung/">5-Töne-Übung</a></li>
-  </ul>
-</aside>
+</section>
 
 <aside class="byline">
   <img src="/images/pablo.jpg" alt="" width="80" height="80" loading="lazy">
   <p class="byline__name">Pablo Dominguez</p>
   <p class="byline__line">Sänger, mit fünf Jahren Unterricht in modernem Gesang. Er entwickelt Scalita.</p>
 </aside>
-      </article>
+
+<section class="band" id="app" aria-labelledby="app-h">
+  <div class="band__main">
+    <div class="band__head"><svg width="28" height="28" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><h2 id="app-h">Die App dahinter</h2><span class="pill pill--tag">Kostenlos</span></div>
+    <p class="band__body">Scalita merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet die App deine Tonhöhe beim Singen mit und bewertet jede Tonleiter. Offline, ohne Werbung, ohne Konto.</p>
+    <div class="band__actions">
+      <a class="btn btn--primary" href="https://play.google.com/store/apps/details?id=com.scalita.app&amp;hl=de&amp;referrer=utm_source%3Dscalita_de%26utm_medium%3Dweb%26utm_campaign%3Dtools" target="_blank" rel="noopener"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 4v11M7 10l5 5 5-5M4 20h16"/></svg><span>Scalita bei Google Play laden</span></a>
+      <button type="button" class="btn btn--iphone" disabled aria-disabled="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><path d="M11 18h2"/></svg><span>iPhone &middot; Demnächst</span></button>
     </div>
+  </div>
+  <div class="band__phone"><img src="/images/screenshots/de/home.jpg" width="560" height="1125" loading="lazy" alt="Startbildschirm von Scalita"></div>
+</section>
   </main>
 
-  <footer>
-    <div class="container">
-      <div class="footer-content">
-        <div class="footer-brand">
-          <a href="/de/" class="logo">
-            <img src="/images/logo_48.png" alt="Scalita-Logo" width="28" height="28">
-            Scalita
-          </a>
-          <p>Einfache Skalen. Echtes Klavier. Kein Quatsch. Mit Hass gemacht, für Sängerinnen und Sänger überall.</p>
-        </div>
-        <div class="footer-links">
-          <h4>Produkt</h4>
-          <ul>
-            <li><a href="/de/#features">Funktionen</a></li>
-            <li><a href="/de/#pricing">Preis</a></li>
-            <li><a href="/de/#download">Herunterladen</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Kostenlose Tools</h4>
-          <ul>
-            <li><a href="/de/tools/">Kostenlose Tools</a></li>
-            <li><a href="/de/tools/stimmumfang-testen/">Stimmumfang-Test</a></li>
-            <li><a href="/de/tools/toene-treffen-test/">Töne-treffen-Test</a></li>
-            <li><a href="/de/tools/einsingen-klavier/">Einsing-Klavier</a></li>
-            <li><a href="/de/tools/registerwechsel-finden/">Registerwechsel-Finder</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Ratgeber</h4>
-          <ul>
-            <li><a href="/de/ratgeber/einsingen/">Einsingen</a></li>
-            <li><a href="/de/ratgeber/stimmlagen/">Stimmlagen</a></li>
-            <li><a href="/de/ratgeber/kurz-einsingen/">Kurzes Einsingen</a></li>
-            <li><a href="/de/ratgeber/einsingen-uebungen/">Volles Einsingen</a></li>
-            <li><a href="/de/ratgeber/cool-down-stimme/">Cool-down für die Stimme</a></li>
-            <li><a href="/de/ratgeber/lippenflattern/">Lippenflattern und Zungentriller</a></li>
-            <li><a href="/de/ratgeber/fuenf-toene-uebung/">5-Töne-Übung</a></li>
-            <li><a href="/de/ratgeber/stimme-bricht-beim-singen/">Registerbruch und Passaggio</a></li>
-            <li><a href="/de/ratgeber/kopfstimme-bruststimme/">Kopfstimme und Bruststimme</a></li>
-            <li><a href="/de/ratgeber/notennamen-h-oktaven/">Notennamen und Oktaven</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Rechtliches</h4>
-          <ul>
-            <li><a href="/de/privacy.html">Datenschutz</a></li>
-            <li><a href="/de/terms.html">Nutzungsbedingungen</a></li>
-          </ul>
-        </div>
-        <div class="footer-links">
-          <h4>Hilfe</h4>
-          <ul>
-            <li><a href="/de/support.html">Hilfe und Kontakt</a></li>
-            <li><a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Auf Ko-fi unterstützen</a></li>
-          </ul>
-        </div>
+  <footer class="site-footer site-footer--compact">
+    <div class="site-footer__in">
+      <div class="site-footer__row">
+        <a class="site-logo site-logo--sm" href="/de/" aria-label="Scalita-Logo"><svg width="24" height="24" viewBox="0 0 1024 1024" aria-hidden="true"><rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/><rect x="378" y="288" width="104" height="352" rx="32" fill="#6FAAA9"/><rect x="542" y="384" width="104" height="352" rx="32" fill="#549296"/><rect x="706" y="192" width="104" height="352" rx="32" fill="#6FAAA9"/></svg><span>Scalita</span></a>
+        <nav class="site-footer__nav" aria-label="Website">
+          <a href="/de/" class="site-footer__home">Start</a>
+          <a href="/de/tools/">Kostenlose Tools</a>
+          <a href="/de/ratgeber/einsingen/">Ratgeber</a>
+          <a href="/de/support.html">Hilfe und Kontakt</a>
+          <a href="/de/privacy.html">Datenschutz</a>
+          <a href="/de/terms.html">Nutzungsbedingungen</a>
+          <a href="https://ko-fi.com/pablodm9" target="_blank" rel="noopener">Auf Ko-fi unterstützen</a>
+        </nav>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Pablo Dominguez. Alle Rechte vorbehalten.</p>
-        <p>Mit Hass gemacht von <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p>
-      </div>
+      <p class="site-footer__credit">Klavier: Salamander Grand Piano V3 von Alexander Holm, lizenziert unter <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>. Für diese Website neu gestimmt, gekürzt und komprimiert.</p>
+      <div class="site-footer__bottom"><p>&copy; 2026 Pablo Dominguez. Alle Rechte vorbehalten.</p><p>Mit Hass gemacht von <a href="https://dominguezpablo.com" target="_blank" rel="noopener">Pablo</a></p></div>
     </div>
   </footer>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      // Language menu. <details> already opens and closes on its own; this
-      // only adds Escape and clicking away, which HTML has no answer for.
-      var langMenu = document.querySelector('.lang-menu');
-      if (langMenu) {
-        document.addEventListener('click', function (e) {
-          if (langMenu.open && !langMenu.contains(e.target)) langMenu.open = false;
-        });
-        langMenu.addEventListener('keydown', function (e) {
-          if (e.key === 'Escape' && langMenu.open) {
-            langMenu.open = false;
-            langMenu.querySelector('summary').focus();
-          }
-        });
-        // Remember a language chosen on purpose, so the language bar below
-        // never offers this visitor another one.
-        var links = langMenu.querySelectorAll('a');
-        for (var l = 0; l < links.length; l++) {
-          links[l].addEventListener('click', function () {
-            try { localStorage.setItem('scalita-lang-choice', this.getAttribute('hreflang')); } catch (err) {}
-          });
-        }
-      }
+  <nav class="site-tabbar" aria-label="Startseite und die kostenlosen Tools">
+    <a class="site-tab" href="/de/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 11.5l8-7 8 7V20a1 1 0 0 1-1 1h-4.5v-6h-5v6H5a1 1 0 0 1-1-1z"/></svg><span>Start</span></a>
+    <a class="site-tab" href="/de/tools/stimmumfang-testen/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg><span>Umfang</span></a>
+    <a class="site-tab" href="/de/tools/toene-treffen-test/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg><span>Intonation</span></a>
+    <a class="site-tab" href="/de/tools/einsingen-klavier/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg><span>Klavier</span></a>
+    <a class="site-tab" href="/de/tools/registerwechsel-finden/"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h5v-5h4v-5h4V5h5"/></svg><span>Bruch</span></a>
+  </nav>
 
-      // Mobile menu.
-      var toggle = document.querySelector('.menu-toggle');
-      var menu = document.getElementById('nav-menu');
-      if (toggle && menu) {
-        toggle.addEventListener('click', function () {
-          var open = menu.classList.toggle('open');
-          toggle.classList.toggle('active', open);
-          toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-        });
-        var items = menu.querySelectorAll('a');
-        for (var i = 0; i < items.length; i++) {
-          items[i].addEventListener('click', function () {
-            menu.classList.remove('open');
-            toggle.classList.remove('active');
-            toggle.setAttribute('aria-expanded', 'false');
-          });
-        }
-      }
-
-      // Language bar. When the browser prefers another language this page
-      // also exists in, a bar at the bottom offers it, written in that
-      // language. It never redirects. Closing it, or picking a language
-      // from the menu, is remembered, and it does not come back.
-      var said = {"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"de":{"text":"Diese Seite auf Deutsch ansehen","close":"Schließen"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}};
-      var chosen = null;
-      try { chosen = localStorage.getItem('scalita-lang-choice'); } catch (err) { chosen = 'unknown'; }
-      var own = document.documentElement.lang.toLowerCase().split('-')[0];
-      var have = {};
-      var alts = document.querySelectorAll('link[rel="alternate"][hreflang]');
-      for (var h = 0; h < alts.length; h++) {
-        var tag = alts[h].getAttribute('hreflang');
-        var primary = tag.toLowerCase().split('-')[0];
-        if (tag !== 'x-default' && !have[primary]) {
-          have[primary] = { tag: tag, href: new URL(alts[h].href).pathname };
-        }
-      }
-      var wants = navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || ''];
-      var offer = null;
-      for (var w = 0; !chosen && w < wants.length; w++) {
-        var want = String(wants[w]).toLowerCase().split('-')[0];
-        if (want === own) break;
-        if (have[want] && said[want]) { offer = have[want]; offer.text = said[want]; break; }
-      }
-      if (offer) {
-        var remember = function (value) {
-          try { localStorage.setItem('scalita-lang-choice', value); } catch (err) {}
-        };
-        var bar = document.createElement('div');
-        bar.className = 'lang-bar';
-        bar.setAttribute('data-nosnippet', '');
-        bar.lang = offer.tag;
-        var line = document.createElement('p');
-        var go = document.createElement('a');
-        go.href = offer.href;
-        go.hreflang = offer.tag;
-        go.textContent = offer.text.text;
-        go.addEventListener('click', function () { remember(offer.tag); });
-        line.appendChild(go);
-        var shut = document.createElement('button');
-        shut.type = 'button';
-        shut.className = 'lang-bar__close';
-        shut.setAttribute('aria-label', offer.text.close);
-        shut.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>';
-        shut.addEventListener('click', function () {
-          bar.parentNode.removeChild(bar);
-          remember(document.documentElement.lang);
-        });
-        bar.appendChild(line);
-        bar.appendChild(shut);
-        document.body.appendChild(bar);
-      }
-    });
-  </script>
+  <script type="application/json" id="site-langs">{"en":{"text":"View this page in English","close":"Close"},"es":{"text":"Ver esta página en español","close":"Cerrar"},"fr":{"text":"Voir cette page en français","close":"Fermer"},"pt":{"text":"Ver esta página em português","close":"Fechar"},"tr":{"text":"Bu sayfayı Türkçe görüntüle","close":"Kapat"},"id":{"text":"Lihat halaman ini dalam bahasa Indonesia","close":"Tutup"}}</script>
 </body>
 </html>

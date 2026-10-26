@@ -19,5 +19,15 @@
   "copyLink": "Copiar enlace",
   "copied": "Enlace copiado",
   "privacyLine": "No se graba ni se envía nada. Tu navegador escucha en tu dispositivo, y el micrófono se apaga cuando pulsas Detener.",
-  "noScript": "Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él."
+  "noScript": "Esta herramienta necesita JavaScript. Todo lo demás de esta página funciona sin él.",
+  "nothingSent": "No se graba ni se envía nada.",
+  "micOn": "Micro encendido",
+  "micOff": "Micro apagado",
+  "level": "Nivel",
+  "levelGood": "Bien",
+  "levelLow": "Bajo",
+  "levelLoud": "Muy alto",
+  "pitchTrail": "Trazo de afinación",
+  "hz": "{hz} Hz",
+  "refPitch": "Ref. {note} = 440 Hz"
 }

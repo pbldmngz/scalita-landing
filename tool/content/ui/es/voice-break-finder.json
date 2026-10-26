@@ -1,9 +1,5 @@
 {
   "intro": "Al cantar más agudo, hay un punto donde tu voz quiere quebrarse o cambiar, como al cambiar de marcha. Ese es tu quiebre vocal. El piano toca notas que van subiendo, una cada dos segundos. Canta con él y pulsa el botón cuando sientas el cambio.",
-  "whatToListenFor": "Qué escuchar:",
-  "voiceWantsToCrack": "Tu voz quiere quebrarse o romperse",
-  "suddenlyNeedMoreEffort": "De repente necesitas más esfuerzo para cantar más agudo",
-  "voiceFlipsToLighterSound": "Tu voz cambia a un sonido más ligero y aireado",
   "letsGo": "Empezar",
   "lastResult": "La última vez: {note}, más cerca de {voiceType}",
   "whatDescribesYourVoice": "¿Qué describe mejor tu voz?",
@@ -30,8 +26,6 @@
   "saved": "Se guarda en este navegador, para que el piano para vocalizar arme sus ejercicios a su alrededor.",
   "redo": "Intentar de nuevo",
   "useInPiano": "Calentar con este resultado",
-  "cta": "En Scalita, tu quiebre vocal da forma a los ejercicios: algunos se detienen justo antes, otros lo cruzan una vez y vuelven.",
-  "getApp": "Descarga Scalita en Google Play",
   "noAudio": "Este navegador no puede reproducir audio. Prueba con una versión reciente de Chrome, Safari, Firefox o Edge.",
   "loadFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo."
 }

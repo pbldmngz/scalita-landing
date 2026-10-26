@@ -9,10 +9,11 @@
  * (VoiceType.closestForPrimoAndGender), and its second shift.
  *
  * Mounts on [data-tool="voice-break-finder"]. Strings:
- * strings["voice-break-finder"] and strings.common. The result is kept in
- * this browser (BREAK_KEY) for the warm-up piano. Each step also reaches the
+ * strings["voice-break-finder"], strings.common, and strings.templates.tool
+ * (noMic, the pill, when the page has it). The result is kept in this
+ * browser (BREAK_KEY) for the warm-up piano. Each step also reaches the
  * mount as a "scalita:finder" CustomEvent; data-rate="N" runs N times faster
- * (tests only).
+ * (tests only). Looks: css/tool-player.css (.vb-*).
  */
 
 export const BREAK_KEY = 'scalita-voice-break';
@@ -27,6 +28,17 @@ const clamp = (x, lo, hi) => (x < lo ? lo : x > hi ? hi : x);
 const fmt = (s, v) => String(s == null ? '' : s).replace(/\{(\w+)\}/g, (m, k) => (k in v ? v[k] : m));
 const BLACK = [1, 3, 6, 8, 10];
 const isBlack = (m) => BLACK.includes(((m % 12) + 12) % 12);
+// The site's icons (24 x 24): stop is filled
+const STOP = 'M8 6h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z';
+const REDO = 'M3 12a9 9 0 1 0 3-6.7M3 4v5h5';
+const ARROW = 'M5 12h14M13 6l6 6-6 6';
+
+function icon(d, size, filled) {
+  const t = document.createElement('template');
+  t.innerHTML = '<svg viewBox="0 0 24 24" width="' + size + '" height="' + size + '" aria-hidden="true" ' + (filled ? 'fill="currentColor"'
+    : 'fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"') + '><path d="' + d + '"/></svg>';
+  return t.content.firstChild;
+}
 
 export const startNote = (lower) => clamp((lower ? RANGE_LOW.lower : RANGE_LOW.higher) + 8, PRIMO_MIN, PRIMO_MAX);
 
@@ -100,6 +112,7 @@ export function mount(el, pd) {
   if (el.scalitaFinder) return el.scalitaFinder;
   const S = (pd.strings && pd.strings['voice-break-finder']) || {};
   const C = (pd.strings && pd.strings.common) || {};
+  const T = (pd.strings && pd.strings.templates && pd.strings.templates.tool) || {};
   const types = pd.voiceTypes || [];
   const rate = Math.max(1, Number(el.dataset.rate) || 1);
   const note = (m) => (pd.notes && pd.notes[String(m)]) || [String(m), String(m)];
@@ -110,67 +123,79 @@ export function mount(el, pd) {
   const st = { lower: null, midi: null, primo: null, timer: null, token: 0, piano: null };
 
   const live = h('p', { class: 'sr-only', 'aria-live': 'polite' });
+  // The note box: the note, its international name when the local one
+  // differs, and its frequency
   const target = (locked) => {
     const name = h('span', { class: 'note-target__name' });
     const intl = h('span', { class: 'note-target__intl' });
-    return { box: h('div', { class: 'note-target' + (locked ? ' note-target--locked' : '') }, name, intl), name, intl };
+    const hz = h('span', { class: 'note-target__hz' });
+    return { box: h('div', { class: 'note-target notebox' + (locked ? ' note-target--locked' : '') }, name, intl, hz), name, intl, hz };
   };
   const setTarget = (t, m) => {
     const [l, i] = note(m);
     t.name.textContent = l;
+    t.box.style.setProperty('--note-chars', l.length); // a long local name shrinks to fit
     t.intl.textContent = l === i ? '' : i;
+    t.intl.hidden = l === i;
+    t.hz.textContent = fmt(C.hz, { hz: (440 * 2 ** ((m - 69) / 12)).toLocaleString(pd.lang, { maximumFractionDigits: 1 }) });
   };
-  const btn = (text, primary, onclick) => h('button', { type: 'button', class: 'btn ' + (primary ? 'btn-primary' : 'btn-secondary'), onclick }, text);
+  const btn = (text, kind, onclick, ic) => h('button', { type: 'button', class: 'btn btn--' + kind, onclick }, ic, text);
   const actions = (...b) => h('div', { class: 'tool-panel__actions' }, ...b);
-  const hint = (text, cls = '') => h('p', { class: ('tool-panel__hint ' + cls).trim() }, text);
+  const p = (cls, text) => h('p', { class: cls }, text);
 
   // intro
-  const last = hint('');
-  const startBtn = btn(S.letsGo, true, () => show('voice'));
+  const last = p('vb-last', '');
+  const startBtn = btn(S.letsGo, 'fill', () => show('voice'));
   const introError = h('p', { class: 'tool-panel__error', role: 'alert', hidden: true });
+  // what to listen for is said where it is needed, under the climb
   const intro = h('div', { class: 'tool-panel__state tool-panel__state--idle' },
-    hint(S.intro),
-    h('div', { class: 'result-card' }, h('p', { class: 'result-card__label' }, S.whatToListenFor),
-      h('ul', null, h('li', null, S.voiceWantsToCrack), h('li', null, S.suddenlyNeedMoreEffort), h('li', null, S.voiceFlipsToLighterSound))),
-    last, introError, actions(startBtn));
+    p('vb-text', S.intro), last, introError, actions(startBtn));
 
   // voice question
-  const lowerBtn = btn(S.lowerVoice, false, () => begin(true));
+  const lowerBtn = btn(S.lowerVoice, 'secondary btn--lg btn--strong vb-big', () => begin(true));
   const voice = h('div', { class: 'tool-panel__state', hidden: true },
-    h('h3', null, S.whatDescribesYourVoice), hint(S.voiceHint),
-    actions(lowerBtn, btn(S.higherVoice, false, () => begin(false))));
+    h('h3', { class: 'vb-title' }, S.whatDescribesYourVoice), p('vb-hint', S.voiceHint),
+    actions(lowerBtn, btn(S.higherVoice, 'secondary btn--lg btn--strong vb-big', () => begin(false))));
 
-  // the climb
+  // the climb: the note box beside a staircase of every step, the one
+  // sounding lit. No --listening modifier and no red dot: nothing listens
   const climbNote = target(false);
-  const climbHint = hint(S.climbHelp);
-  const feltBtn = btn(S.feltIt, true, () => felt());
-  const climbStatus = h('p', { class: 'tool-panel__status' }, S.firstShift);
-  // No --listening modifier: its red dot means a live microphone, and there is none
+  const climbHint = p('stage__line', S.climbHelp);
+  const feltBtn = btn(S.feltIt, 'fill', () => felt());
+  const climbStatus = p('stage__status', S.firstShift);
+  const stairs = h('div', { class: 'vb-climb', 'aria-hidden': 'true' });
   const climbing = h('div', { class: 'tool-panel__state', hidden: true },
-    climbStatus, climbNote.box, climbHint, actions(feltBtn, btn(C.stop, false, () => show('intro'))));
+    h('div', { class: 'stage__head vb-head' }, climbStatus, T.noMic && h('span', { class: 'pill pill--off' }, T.noMic)),
+    h('div', { class: 'vb-main' }, stairs, climbNote.box), climbHint,
+    actions(feltBtn, btn(C.stop, 'secondary', () => show('intro'), icon(STOP, 16, true))));
 
   // confirm
   const confirmNote = target(true);
-  const confirmTitle = h('h3');
-  const confirmMatch = hint('');
-  const yesBtn = btn(S.yes, true, () => confirm());
+  const confirmTitle = h('h3', { class: 'vb-title' });
+  const confirmMatch = p('vb-match', '');
+  const yesBtn = btn(S.yes, 'fill', () => confirm());
   const confirming = h('div', { class: 'tool-panel__state', hidden: true },
     confirmTitle, confirmNote.box, confirmMatch,
-    actions(btn(S.aBitLower, false, () => adjust(-1)), btn(S.aBitHigher, false, () => adjust(1))),
-    hint(S.confirmHelp), actions(yesBtn, btn(C.tryAgain, false, () => begin(st.lower))));
+    actions(btn(S.aBitLower, 'secondary', () => adjust(-1)), btn(S.aBitHigher, 'secondary', () => adjust(1))),
+    p('vb-hint', S.confirmHelp), actions(yesBtn, btn(C.tryAgain, 'secondary', () => begin(st.lower), icon(REDO, 16))));
 
-  // result
-  const value = h('p', { class: 'result-card__value' });
+  // result: the value and facts, the zone on its keyboard, the notes, the
+  // next steps (two columns on a wide stage). The app's offer is the band
+  // right under the stage, with its Play and iPhone buttons, so the result
+  // does not repeat it
+  const value = p('result-card__value');
   const facts = h('dl', { class: 'result-card__facts' });
   const board = h('div', { class: 'keyboard', role: 'img' });
-  const redoBtn = btn(S.redo, false, () => show('intro'));
-  const cta = h('p', { class: 'tool-panel__hint' });
+  const bed = h('div', { class: 'keyboard-bed vb-bed' }, board);
+  const redoBtn = btn(S.redo, 'secondary', () => show('intro'), icon(REDO, 16));
   const result = h('div', { class: 'tool-panel__state tool-panel__state--result', hidden: true },
-    h('div', { class: 'result-card' }, h('p', { class: 'result-card__label' }, S.voiceBreak), value, facts, board,
-      h('p', { class: 'result-card__note' }, S.voiceBreakEducational), h('p', { class: 'result-card__note' }, S.averages),
-      h('p', { class: 'result-card__note' }, S.saved)),
-    actions(redoBtn, pd.links && pd.links['warm-up-piano'] ? h('a', { class: 'btn btn-secondary', href: pd.links['warm-up-piano'] }, S.useInPiano) : null),
-    cta);
+    h('div', { class: 'vb-result' },
+      h('div', { class: 'result result-card' }, p('result-card__label', S.voiceBreak), value, facts),
+      bed,
+      h('div', { class: 'vb-notes' }, p('result-card__note', S.voiceBreakEducational), p('result-card__note', S.averages),
+        p('result-card__note', S.saved)),
+      actions(redoBtn, pd.links && pd.links['warm-up-piano']
+        ? h('a', { class: 'btn btn--secondary btn--accent', href: pd.links['warm-up-piano'] }, S.useInPiano, icon(ARROW, 16)) : null)));
 
   const states = { intro, voice, climbing, confirming, result };
   const focusOf = { intro: startBtn, voice: lowerBtn, climbing: feltBtn, confirming: yesBtn, result: redoBtn };
@@ -215,6 +240,10 @@ export function mount(el, pd) {
     climbStatus.textContent = C.loading;
     climbHint.textContent = S.climbHelp;
     setTarget(climbNote, startNote(lower));
+    // one step per note the climb can sound, up to C5
+    const n = PRIMO_MAX - startNote(lower) + 1;
+    stairs.style.setProperty('--n', String(n));
+    stairs.replaceChildren(...Array.from({ length: n }, (_, i) => h('span', { class: 'vb-step', style: '--i:' + i })));
     feltBtn.disabled = true;
     try {
       const piano = await loadPiano();
@@ -249,6 +278,8 @@ export function mount(el, pd) {
 
   function step() {
     setTarget(climbNote, st.midi);
+    const at = st.midi - startNote(st.lower);
+    [...stairs.children].forEach((b, i) => (b.className = 'vb-step' + (i < at ? ' vb-step--past' : i === at ? ' vb-step--on' : '')));
     sound(st.midi, 0.7);
     emit({ type: 'note', midi: st.midi });
   }
@@ -307,12 +338,6 @@ export function mount(el, pd) {
       h('div', null, h('dt', null, S.closestMatch), h('dd', null, t.name)),
       h('div', null, h('dt', null, S.secondShift), h('dd', null, label(secondo))));
     drawZone(primo, secondo);
-    cta.replaceChildren(S.cta, ' ');
-    if (/Android/i.test(globalThis.navigator ? navigator.userAgent : '')) {
-      cta.append(h('a', { class: 'btn btn-primary', href: pd.playLink }, S.getApp));
-    } else {
-      cta.append(pd.androidOnlyLine || '');
-    }
     store({ primo, secondo, type: t.id, voice: st.lower ? 'lower' : 'higher', at: new Date().toISOString().slice(0, 10) });
     show('result');
     live.textContent = fmt(S.announce, { note: label(primo), voiceType: t.name });
@@ -338,7 +363,7 @@ export function mount(el, pd) {
       keys.push(k);
     }
     board.replaceChildren(...keys);
-    board.style.setProperty('--whites', String(whites));
+    for (const x of [board, bed]) x.style.setProperty('--whites', String(whites));
     board.setAttribute('aria-label', fmt(S.zone, { primo: label(primo), secondo: label(secondo) }));
   }
 

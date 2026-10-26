@@ -1,9 +1,5 @@
 {
   "intro": "Tizlere çıktıkça sesinin çatlamak ya da değişmek istediği bir nokta gelir, vites değiştirmek gibi. İşte orası senin geçiş bölgen. Piyano yukarı doğru notalar çalar, iki saniyede bir. Birlikte söyle ve değişimi hissettiğin an düğmeye bas.",
-  "whatToListenFor": "Nelere kulak vermelisin:",
-  "voiceWantsToCrack": "Sesin çatlamak ya da kırılmak istiyor",
-  "suddenlyNeedMoreEffort": "Tizlere çıkmak birden daha çok çaba istiyor",
-  "voiceFlipsToLighterSound": "Sesin daha hafif, daha nefesli bir tona geçiyor",
   "letsGo": "Başlayalım",
   "lastResult": "Geçen sefer: {note}, en yakın: {voiceType}",
   "whatDescribesYourVoice": "Sesini en iyi hangisi tanımlıyor?",
@@ -30,8 +26,6 @@
   "saved": "Bu tarayıcıda saklandı; böylece ses açma piyanosu egzersizlerini buna göre kurabilir.",
   "redo": "Tekrar dene",
   "useInPiano": "Buna göre ısın",
-  "cta": "Scalita'da geçiş bölgen egzersizleri şekillendirir: bazıları hemen altında durur, bazıları onu bir kez geçip geri döner.",
-  "getApp": "Scalita'yı Google Play'den indir",
   "noAudio": "Bu tarayıcı ses çalamıyor. Chrome, Safari, Firefox ya da Edge'in güncel bir sürümünü dene.",
   "loadFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene."
 }

@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "How to use it",
     "sample": "A sample result",
-    "notClaimed": "What it doesn't claim"
+    "notClaimed": "What it doesn't claim",
+    "howItWorks": "How it works",
+    "mic": "Microphone",
+    "noMic": "No microphone",
+    "next": {
+      "vocal-range-test": "Find your range",
+      "sing-in-tune-test": "Check how close you sing",
+      "warm-up-piano": "Warm up in your range",
+      "voice-break-finder": "Find your voice break"
+    }
+  },
+  "reference": {
+    "kicker": "Reference",
+    "reviewed": "Reviewed {date}",
+    "relatedGuides": "Related guides",
+    "otherTools": "The other three tools",
+    "guidesWith": "Guides that go with them",
+    "allGuides": "All {n} guides",
+    "newHere": "New to this? Where to start",
+    "twoRules": "Two rules for all of them"
   },
   "routine": {
     "length": "How long it takes",
@@ -66,6 +85,9 @@
     "span": "Where it sits",
     "note": "These are the spans Scalita trains each register in. For subharmonics, the span is the pitch people hear."
   },
+  "hub": {
+    "moreGuides": "More guides"
+  },
   "intake": {
     "appOnly": "Only in the app"
   },
@@ -88,5 +110,22 @@
       "francoBelgian": "Franco-Belgian",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "January",
+      "February",
+      "March",
+      "April",
+      "May",
+      "June",
+      "July",
+      "August",
+      "September",
+      "October",
+      "November",
+      "December"
+    ],
+    "pattern": "{d} {month} {y}"
   }
 }

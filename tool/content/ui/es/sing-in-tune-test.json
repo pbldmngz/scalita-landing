@@ -2,7 +2,7 @@
   "modes": {
     "label": "Modo",
     "sing": "Canta esta nota",
-    "tuner": "Afinador libre",
+    "tuner": "Afinador",
     "ear": "Prueba de escucha"
   },
   "intro": {
@@ -20,7 +20,7 @@
     "noteOf": "Nota {n} de {total}",
     "listen": "Escucha el piano.",
     "now": "Ahora cántala y mantenla.",
-    "again": "Escucharla otra vez",
+    "again": "Otra vez",
     "notHeard": "No se oyó, así que esta nota no cuenta.",
     "measured": "Nota {n}: {offset}"
   },
@@ -65,7 +65,8 @@
     "ctaButton": "Descarga Scalita en Google Play"
   },
   "tuner": {
-    "hint": "Canta o tararea cualquier nota."
+    "hint": "Canta o tararea cualquier nota.",
+    "nearest": "Nota más cercana"
   },
   "ear": {
     "label": "Más aguda o más grave",
@@ -82,5 +83,22 @@
     "toSing": "Cantar una nota"
   },
   "meter": "Nivel del micrófono",
-  "pianoFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo."
+  "pianoFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo.",
+  "pianoPlayed": "El piano tocó",
+  "cents": "Centésimas",
+  "share": {
+    "title": "Mi precisión de afinación",
+    "cents": "centésimas",
+    "typical": "Distancia típica a la nota, en {n} notas",
+    "within10": "{n} de {total} dentro de 10 centésimas",
+    "within25": "{n} de {total} dentro de 25 centésimas",
+    "wobble": "Oscilación: {cents}",
+    "bandClose": "±25 centésimas",
+    "bandIn": "±10 centésimas",
+    "theNote": "la nota",
+    "lines": "Cada línea es mi propia voz llegando a una nota. 100 centésimas son un semitono.",
+    "ask": "¿Y tú, cuánto te acercas?",
+    "text": "Mi desvío típico fue de {cents} en {n} notas. Puedes medir el tuyo gratis en tu navegador:",
+    "fileName": "mi-precision-de-afinacion"
+  }
 }

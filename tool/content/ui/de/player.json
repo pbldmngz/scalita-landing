@@ -6,7 +6,7 @@
   "chooserLabel": "Übung",
   "routines": "Routinen",
   "scales": "Tonleitern",
-  "pickVoice": "Wähl deine Stimmlage oder stell deinen eigenen Umfang ein und drück dann auf Abspielen.",
+  "pickVoice": "Wähl dein Stimmfach oder stell deinen eigenen Umfang ein und drück dann auf Abspielen.",
   "ready": "{low} bis {high}. Drück auf Abspielen, wenn du bereit bist.",
   "routineSummary": "{steps} Schritte, etwa {minutes} Min",
   "scaleSummary": "{keys} Tonarten, etwa {minutes} Min",

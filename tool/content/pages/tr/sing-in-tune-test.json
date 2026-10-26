@@ -5,6 +5,10 @@
   "description": "Bir piyano notası dinle, geri söyle ve ondan kaç sent saptığını gör. Tarayıcında çalışan ücretsiz bir notayı tutturma testi ve ses akort aracı.",
   "h1": "Detone testi",
   "lead": "Piyano bir nota çalar ve susar. Sen o notayı geri söylersin, sayfa da ne kadar yakın söylediğini sent olarak gösterir. Beş nota bir tur eder; serbest akort modunda ise istediğin her şeyi söylerken perdeni görürsün.",
+  "tile": "Az önce duyduğun notaya ne kadar yaklaştığını gör.",
+  "oneLine": "Bir notayı dinle, geri söyle, ne kadar yaklaştığını gör.",
+  "appBand": "Scalita'nın Entonasyon Çalışması bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+  "referenceHeading": "Test hakkında",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Ses türünü seç ya da <a href=\"page:vocal-range-test\">ses aralığı testinde</a> bulduğun aralığı kullan; böylece her nota söyleyebileceğin bir yere düşer.</li><li>Başlat'a bas ve mikrofona izin ver.</li><li>Notayı dinle. Piyano susunca kolay bir ünlüyle geri söyle ve tut.</li><li>Sen tutarken ibre ve iz, notanın ne kadar üstünde ya da altında olduğunu gösterir.</li><li>Beş notadan sonra sonucunu oku.</li></ol><p>Akort için serbest akort moduna geç ve söyle. En yakın notayı ve ondan kaç sent uzakta olduğunu gösterir; piyano çalmaz.</p>",
   "sampleResult": "<h2>Bir sonuç neye benzer</h2><p>Beş notalık bir tur ve her notanın ne kadar uzağa düştüğü:</p><ul><li>{{note:A3}}: 6 sent pes</li><li>{{note:C4}}: 12 sent tiz</li><li>{{note:B3}}: 9 sent pes</li><li>{{note:D4}}: 31 sent pes</li><li>{{note:G3}}: 4 sent tiz</li></ul><p>Tipik sapma: 9 sent, yani beş değerin ortancası. Beş notanın dördü 25 sent içindeydi; Scalita uygulaması bir notayı tutturulmuş saymak için bu sınırı kullanır. Sonuç, notaları ne kadar sabit tuttuğunu da gösterir.</p>",
@@ -27,8 +31,8 @@
       "html": "<p>Serbest akort modu piyanoyu atlar. Herhangi bir notayı söyle; sen söyledikçe en yakın notanın adını ve kaç sent tiz ya da pes olduğunu gösterir. Tuttuğun bir notayı kontrol etmek, bir notadan diğerine kaymanı izlemek ya da vibratonun ne kadar geniş salındığını görmek için kullan.</p>"
     },
     {
-      "heading": "Hızlı bir dinleme kontrolü",
-      "html": "<p>Kulağını tek başına kontrol etmek için dinleme kontrolü iki nota çalar ve hangisinin daha tiz olduğunu sorar. Cevapları kelimelerle verilen üç soru: hızlı bir bakış, bir işitme testi değil.</p>"
+      "heading": "Hızlı bir dinleme testi",
+      "html": "<p>Kulağını tek başına kontrol etmek için dinleme testi iki nota çalar ve hangisinin daha tiz olduğunu sorar. Cevapları kelimelerle verilen üç soru: hızlı bir bakış, bir işitme testi değil.</p>"
     },
     {
       "heading": "Mikrofon çalışmazsa",

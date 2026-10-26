@@ -1,0 +1,68 @@
+/* The sing-in-tune test's st- pieces; the stage and its parts are style.css's */
+
+/* The run's height, reserved from the first paint: Start moves nothing.
+   From 600 px, any locale's tallest run, loading and hints included */
+.tool-panel[data-tool="sing-in-tune-test"] { min-height: 590px; }
+@media (max-width: 1059.98px) { .tool-panel[data-tool="sing-in-tune-test"] { min-height: 640px; } }
+.st-panel > .tool-panel__state { gap: 0; align-items: stretch; justify-content: flex-start; text-align: left; }
+.st-panel .stage__head:empty { display: none; }
+.st-modes + .stage__status { margin-left: auto; }
+
+/* Idle and errors over the trail's lanes, waiting; the listening check */
+.st-idle, .st-ear { position: relative; flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; padding: 28px 16px; text-align: center; }
+.st-idle { margin-top: 24px; border: 1px solid var(--mist); border-radius: var(--r-trail, 18px); background: var(--base); }
+.st-idle::before { content: ''; position: absolute; inset: 14px; background: repeating-linear-gradient(var(--surface-light) 0 30px, transparent 30px 32px); opacity: .4; mask-image: linear-gradient(transparent, #000 25%, #000 75%, transparent); }
+.st-idle > * { position: relative; }
+.st-intro, .st-question { color: var(--cream); font-size: 15px; line-height: 1.6; }
+.st-idle > p, .st-question { max-width: 560px; }
+.st-question { font-size: 17px; }
+.st-voice { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 8px 10px; min-height: 44px; color: var(--soft); font-size: 14px; }
+.st-voice select { max-width: 100%; }
+.st-last, .st-answer { color: var(--soft); font-size: 12px; }
+.st-answer { min-height: 3em; font-size: 14px; }
+
+/* The run: boxes that keep their place while their words change */
+.st-panel .stage__line { width: 100%; }
+.st-readout { width: 216px; max-width: 100%; text-align: center; }
+.st-readout span { display: block; color: var(--soft); font-size: 13px; }
+.st-readout .st-readout__main { color: var(--cream); font-size: 20px; line-height: 1.4; }
+
+/* Results: the figures beside the five notes and the share row */
+.st-result { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 32px; align-items: start; }
+.st-result > :only-child { grid-column: 1 / -1; }
+.st-side { display: flex; flex-direction: column; gap: 12px; }
+.st-say { font-size: 14px; }
+.st-notes { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; padding: 0; list-style: none; }
+
+@media (max-width: 959.98px) {
+  .tool-panel[data-tool="sing-in-tune-test"] { min-height: 811px; }
+  .stage__notecol .kicker { display: none; }
+  .st-result { grid-template-columns: minmax(0, 1fr); width: 100%; max-width: 640px; margin: 0 auto; }
+}
+
+@media (max-width: 743.98px) {
+  .tool-panel[data-tool="sing-in-tune-test"] { min-height: 854px; }
+}
+
+@media (max-width: 599.98px) {
+  .tool-panel[data-tool="sing-in-tune-test"] { min-height: 632px; }
+  /* The mode switcher above the stage, its room kept before the script puts it there */
+  .stage:has(> [data-tool="sing-in-tune-test"]) { margin-top: 72px; }
+  /* one row, its long names wrapping inside their buttons (Spanish at 360) */
+  .st-modes { flex-wrap: nowrap; margin-top: 10px; }
+  .st-modes + .stage { margin-top: 12px; }
+  /* Start near the top, clear of the tab bar on a short screen */
+  .st-idle { justify-content: flex-start; margin-top: 0; }
+  /* Note box, then the meter and lanes edge to edge, then the readout */
+  .st-panel .stage__notecol { display: contents; }
+  .st-panel :is(.notebox, .st-readout) { justify-self: center; }
+  .st-panel .trail { order: 1; width: 100%; height: 182px; padding: 0; }
+  .st-panel .trail canvas { inset: 0; width: 100%; height: 100%; }
+  .st-panel figcaption { display: none; }
+  .st-readout { order: 2; }
+  .st-readout .st-readout__main { font-size: 19px; }
+  .st-notes { gap: 6px; }
+  .st-panel .tool-panel__actions .btn--lg { padding: 0 16px; }
+  /* As the range result on a phone: two buttons, no thumbnail */
+  .st-panel .share canvas { display: none; }
+}

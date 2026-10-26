@@ -3,13 +3,15 @@
   "title": "Kostenlose Gesangs-Tools im Browser - Scalita",
   "description": "Vier kostenlose Tools für Sängerinnen und Sänger, direkt im Browser: Stimmumfang testen, Töne treffen, mit Klavier einsingen und deinen Registerwechsel finden.",
   "h1": "Kostenlose Tools zum Singen",
-  "lead": "Finde deinen Umfang, prüf, wie genau du einen Ton triffst, sing dich an einem echten Klavier in deinen eigenen Tonarten ein und finde, wo deine Stimme wechselt. Du brauchst kein Konto, und nichts, was du singst, verlässt dein Gerät.",
+  "lead": "Vier Tools aus der App, direkt im Browser. Nichts, was du singst, verlässt dein Gerät.",
+  "appBand": "Scalita merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet die App deine Tonhöhe beim Singen mit und bewertet jede Tonleiter. Offline, ohne Werbung, ohne Konto.",
+  "referenceHeading": "Über die Tools",
   "intro": "<p>Diese vier Tools stammen aus Scalita, einer Einsing-App für Android. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, und sie laufen im Browser, auf dem Telefon oder am Computer.</p><p>Für alle gelten zwei Regeln. Ein Tool hört entweder zu oder spielt Klavier, nie beides gleichzeitig, deshalb brauchst du keine Kopfhörer. Und wenn ein Tool zuhört, erledigt dein Browser die Arbeit auf deinem Gerät: Nichts wird aufgenommen oder irgendwohin gesendet.</p>",
   "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [
     {
       "heading": "Wo du anfängst",
-      "html": "<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href=\"page:vocal-range-test\">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über deine Stimmlage als dein Umfang.</li><li><a href=\"page:warm-up-piano\">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol>"
+      "html": "<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href=\"page:vocal-range-test\">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über dein Stimmfach als dein Umfang.</li><li><a href=\"page:warm-up-piano\">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol>"
     },
     {
       "heading": "Wenn ein Tool zuhört",
@@ -17,7 +19,7 @@
     },
     {
       "heading": "Was sie dir nicht sagen",
-      "html": "<p>Keines dieser Tools bewertet deine Stimme. Sie messen Tonhöhe: welche Töne du erreichst, wo deine Stimme wechselt, wie nah du an einen Ton kommst. Sie beurteilen nicht deinen Klang, vergleichen dich nicht mit anderen und raten deine Stimmlage nicht aus deiner Sprechstimme. Ein Ergebnis ist eine Momentaufnahme, und morgen kann deine Stimme etwas anders ausfallen.</p>"
+      "html": "<p>Keines dieser Tools bewertet deine Stimme. Sie messen Tonhöhe: welche Töne du erreichst, wo deine Stimme wechselt, wie nah du an einen Ton kommst. Sie beurteilen nicht deinen Klang, vergleichen dich nicht mit anderen und raten dein Stimmfach nicht aus deiner Sprechstimme. Ein Ergebnis ist eine Momentaufnahme, und morgen kann deine Stimme etwas anders ausfallen.</p>"
     }
   ],
   "faq": [

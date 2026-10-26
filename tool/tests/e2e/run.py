@@ -12,24 +12,36 @@ repo: composed WAVs go to SCALITA_SCRATCH, else the temp folder. The takes are
 Pablo's voice and are read in place from scalita_app/test/detector/takes
 (SCALITA_TAKES overrides the folder); without them the range group is skipped.
 
-  pages     every page in the sitemaps (and 404.html) at 360 px, English also
-            at 1280: no console error or warning, no failed request, nothing
-            wider than the screen, every tool mount filled with no stray
-            value, the page data contract, every Play link tagged with the
-            page's locale and id, no audio before a tap, and the budget:
-            scripts before a tap 15 KB gzipped, a tool page's HTML too
+  pages     every page in the sitemaps (and 404.html) on a 360 px phone, English
+            also at 1280: no console error or warning, no failed request,
+            nothing wider than the screen, every tool mount filled with no
+            stray value, the page data contract, every Play link tagged with
+            the page's locale and id and the iPhone "Coming soon" beside it,
+            the band's buttons each on one line,
+            the navigation of the page's context, no piano key with a border,
+            no audio before a tap, no layout shift, and the budgets: scripts
+            before a tap 15 KB gzipped, a tool page's HTML too (the hub's 18),
+            its stylesheets 20 together
   links     every local URL those pages name answers 200, without a redirect
   notfound  404.html is noindex and its links resolve; a missing deep URL
             gets it with its styles and scripts
   langbar   a browser that prefers another language the page exists in gets
             the bar in that language; closed, it stays closed
+  chrome    a phone's landing menu, full screen on every desktop tool page,
+            the tools header on one row from 960 to 1920 px in every locale,
+            the web app manifests, no service worker
   decode    every audio/piano-web/*.mp3 in the manifest, and only those,
             decodes gaplessly in Chromium with its attack where ffmpeg has it
   range     the vocal range test locks G2 and G4 from two takes through the
-            fake microphone, processing off, no request while listening, the
-            result and the tagged Play link; an in-app browser's panel
+            fake microphone, processing off, no request while listening, no
+            layout shift and nothing under the stage pushed down (at 360, 768
+            and 900 px), the result and the tagged Play link, the 1080 x 1920
+            image; three octaves on the keyboard name no voice type; an in-app
+            browser's panel
   tune      sing this note with a steady A4: near 0 cents, five of five,
-            the piano and the microphone never at once, no request while live
+            the piano and the microphone never at once, no request while live,
+            no layout shift and nothing under the stage pushed down (at 360,
+            768 and 900 px), the 1080 x 1920 image
   player    Pre-Performance Quick for the tenor preset on the quick warm-up page,
             and the five-note scale for soprano on the warm-up piano, play
             the export's roots in order; audio only after Play
@@ -37,7 +49,8 @@ Pablo's voice and are read in place from scalita_app/test/detector/takes
             warm-up piano built around it
   locales   every tool in every other built locale, to its result without a
             microphone (the keyboard, the listening check, the finder, the
-            piano): nothing stray on it, nothing wider than 360 px
+            piano): nothing stray on it, nothing wider than 360 px, no key
+            with a border
   firefox   geckodriver and Firefox: every English page mounts cleanly, the free
             tuner reads Firefox's fake 1 kHz tone, the warm-up piano plays,
             every MP3 decodes
@@ -73,8 +86,16 @@ sys.dont_write_bytecode = True  # everything in this repo is served: leave no __
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 BUDGET = 15 * 1024  # gzipped: scripts before a tap on any page, and a tool page's HTML
-GROUPS = ("pages", "links", "notfound", "langbar", "decode", "range", "tune", "player", "finder", "locales", "firefox",
-          "webkit")
+HUB_BUDGET = 18 * 1024  # the tools hub's HTML, which carries eight preview drawings (the spec, section 6)
+CSS_BUDGET = 20 * 1024  # every stylesheet a page links, together
+CLS_BUDGET = 0.01  # layout shift while a page loads: decision 11 asks for none, this leaves rounding
+THEME = "#1E2628"
+# Each file's own budget, gzipped KB (docs/specs/site-redesign-spec.md, section 6)
+FILE_BUDGETS = {"css/style.css": 11, "css/chrome.css": 4, "css/home.css": 4, "css/hub.css": 2, "css/tool.css": 2,
+                "css/tool-range.css": 1.5, "css/tool-tune.css": 1.5, "css/tool-player.css": 1.5, "css/guides.css": 2,
+                "js/site/chrome.js": 2}
+GROUPS = ("pages", "links", "notfound", "langbar", "chrome", "decode", "range", "tune", "player", "finder", "locales",
+          "firefox", "webkit")
 ANDROID = ("Mozilla/5.0 (Linux; Android 14; SM-A725F) AppleWebKit/537.36 (KHTML, like Gecko) "
            "Chrome/151.0.0.0 Mobile Safari/537.36")
 INSTAGRAM = ("Mozilla/5.0 (iPhone; CPU iPhone OS 18_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) "
@@ -143,6 +164,9 @@ class Server:
         notfound = root / "404.html"
 
         class Handler(http.server.SimpleHTTPRequestHandler):
+            extensions_map = {**http.server.SimpleHTTPRequestHandler.extensions_map,
+                              ".webmanifest": "application/manifest+json"}  # as Pages serves it
+
             def __init__(self, *a, **k):
                 super().__init__(*a, directory=str(root), **k)
 
@@ -204,6 +228,7 @@ class Site:
             for loc in ET.parse(self.root / urlparse(child.text).path.lstrip("/")).getroot().iter(ns + "loc"):
                 paths.append(urlparse(loc.text).path)
         self.pages = [(p,) + self.ident(p) for p in paths]  # (path, locale, page id)
+        self._content = {}
 
     def file(self, path):
         f = self.root / path.lstrip("/")
@@ -230,6 +255,20 @@ class Site:
 
     def locales(self):
         return sorted({c for _, c, _ in self.pages}, key=lambda c: "0" if c == "en" else c)
+
+    def content(self, code):
+        """tool/content/<code>.json: the words the chrome prints."""
+        if code not in self._content:
+            self._content[code] = json.loads((REPO / "tool" / "content" / ("%s.json" % code)).read_text(encoding="utf-8"))
+        return self._content[code]
+
+    def tools(self):
+        """The four tools in registry order: the tools section without its root."""
+        return [e["id"] for e in self.registry if e["section"] == "tools" and not e.get("root")]
+
+    def context(self, page_id):
+        """tools (the hub and the four tools) or landing (everything else, the 404 included)."""
+        return (self.by_id.get(page_id) or {}).get("context") or "landing"
 
 
 def data(name):
@@ -263,8 +302,10 @@ class Tab:
     """A fresh context and page that record console errors and warnings,
     page errors and failed requests."""
 
-    def __init__(self, browser, width=360, ua=None, locale=None, init=()):
+    def __init__(self, browser, width=360, ua=None, locale=None, init=(), mobile=False):
         opts = {"viewport": {"width": width, "height": 800}}
+        if mobile:  # a phone's touch screen: pointer coarse, hover none
+            opts.update(has_touch=True, is_mobile=True)
         if ua:
             opts["user_agent"] = ua
         if locale:
@@ -346,12 +387,133 @@ PAGE_JS = """() => {
   return { scroll: de.scrollWidth, client: de.clientWidth, wide, mounts, urls };
 }"""
 
+# Layout shift from the first byte, as the page reports it (an input's own shifts left out)
+CLS = """(() => {
+  window.__cls = { value: 0, sources: [] };
+  try {
+    new PerformanceObserver((list) => {
+      for (const e of list.getEntries()) {
+        if (e.hadRecentInput) continue;
+        window.__cls.value += e.value;
+        for (const s of e.sources || []) if (s.node && s.node.nodeType === 1 && window.__cls.sources.length < 6)
+          window.__cls.sources.push(s.node.tagName.toLowerCase() + '.' + String(s.node.className).split(' ').join('.')
+            + ' ' + e.value.toFixed(4));
+      }
+    }).observe({ type: 'layout-shift', buffered: true });
+  } catch (e) {}
+})();"""
+
+# Where the page under the stage sits, every frame from the test's mark on. A
+# run taller than the room its stage reserves pushes it down, and the layout
+# shift API forgives a push that lands in the half second after the tap on Start
+STILL = """(() => {
+  const P = window.__still = { lo: null, hi: null };
+  const look = () => {
+    const u = document.querySelector('.stage + *');
+    if (!u) return;
+    const y = u.getBoundingClientRect().top + scrollY;
+    P.lo = P.lo === null ? y : Math.min(P.lo, y);
+    P.hi = P.hi === null ? y : Math.max(P.hi, y);
+  };
+  P.mark = () => { P.lo = P.hi = null; look(); };
+  const frame = () => { look(); requestAnimationFrame(frame); };
+  requestAnimationFrame(frame);
+})();"""
+TABLETS = (768, 900)  # a run must hold still on a tablet too, not only on the phone's 360
+
+# The chrome a page shows: the header, its navigation, the tab bar, the footer
+NAV_JS = """() => {
+  const shown = (el) => !!el && el.getClientRects().length > 0 && getComputedStyle(el).visibility !== 'hidden';
+  const q = (s) => document.querySelector(s);
+  const links = (s) => [...document.querySelectorAll(s)].map((a) => ({ href: a.getAttribute('href'),
+    current: a.getAttribute('aria-current'), text: a.textContent.trim(), shown: shown(a) }));
+  const bar = q('nav.site-tabbar');
+  const box = bar && bar.getBoundingClientRect();
+  const get = q('header .site-getapp');
+  const href = get && get.getAttribute('href');
+  const target = href && href.startsWith('#') ? document.getElementById(href.slice(1)) : null;
+  return {
+    header: (q('body > header.site-header') || {}).className || null,
+    switcher: links('header nav.site-switch a'), switcherShown: shown(q('header nav.site-switch')),
+    tabs: links('nav.site-tabbar a.site-tab'), tabsShown: shown(bar),
+    tabsCut: [...document.querySelectorAll('nav.site-tabbar a.site-tab span')].filter((x) => shown(x)
+      && x.scrollWidth > x.clientWidth).map((x) => x.textContent.trim()),
+    tabBox: box ? [box.left, box.top, box.right, box.bottom, innerWidth, innerHeight] : null,
+    siteNav: !!q('header nav.site-nav'), rows: links('#nav-menu a.site-menu__row'),
+    menuGetApp: !!q('#nav-menu .site-menu__cta a'), toggle: shown(q('.site-menu__toggle[aria-controls="nav-menu"]')),
+    lang: shown(q('header .lang-menu')), getApp: href, getAppShown: shown(get),
+    getAppPlay: target ? !!target.querySelector('a[href^="https://play.google.com/"]') : null,
+    footer: (q('footer.site-footer') || {}).className || null,
+    footerText: ((q('footer.site-footer') || {}).textContent || '').replace(/\\s+/g, ' '),
+    manifest: (q('link[rel="manifest"]') || {}).href || null,
+    theme: (q('meta[name="theme-color"]') || {}).content || null,
+    fs: shown(q('.tp-fs')), fsExit: !!q('.site-fs-exit'),
+    // decision 3, the first screen: the tool in it, the reference below it, How it works shut
+    stage: (q('.stage') || q('.hub-tiles') || { getBoundingClientRect: () => ({ top: null }) }).getBoundingClientRect().top,
+    ref: (q('.tp-ref') || { getBoundingClientRect: () => ({ top: null }) }).getBoundingClientRect().top,
+    how: (q('.tp-under details') || {}).open, vh: innerHeight,
+  };
+}"""
+
+# Decision 8: beside every Google Play link that shows, the iPhone, visibly
+# unavailable (no link, no working button) and saying it is coming soon
+PLAY_JS = """([root, soon]) => [...document.querySelectorAll(root + ' a[href^="https://play.google.com/"]')]
+  .filter((a) => a.getClientRects().length).map((a) => {
+    const i = a.parentElement.querySelector('.btn--iphone');
+    const ok = i && i.tagName !== 'A' && (i.tagName !== 'BUTTON' || i.disabled) && i.getClientRects().length
+      && getComputedStyle(i).visibility !== 'hidden' && i.textContent.includes(soon);
+    return ok ? null : (a.closest('[id]') || { id: 'page' }).id + ': ' + a.textContent.trim().slice(0, 50)
+      + (i ? ' (' + i.outerHTML.slice(0, 120) + ')' : ' (no iPhone beside it)');
+  }).filter(Boolean)"""
+
+# The band's buttons keep their words on one line (each label measured as it
+# wraps and unwrapped, in the same frame, so nothing paints in between)
+BAND_JS = """() => [...document.querySelectorAll('.band__actions .btn')].filter((b) => b.getClientRects().length).map((b) => {
+  const s = b.querySelector('span');
+  if (!s) return null;
+  const h = s.getBoundingClientRect().height, old = s.getAttribute('style');
+  s.style.whiteSpace = 'nowrap';
+  const one = s.getBoundingClientRect().height;
+  old === null ? s.removeAttribute('style') : s.setAttribute('style', old);
+  return h > one * 1.5 ? '"' + s.textContent.trim() + '" takes ' + Math.round(h / one) + ' lines' : null;
+}).filter(Boolean)"""
+
+# Decision 5: no piano key has a border or an outline; a gap parts the keys,
+# the ends round to about a quarter of a key's width (6 px at most on a white
+# key, 4 on a black one), a lit key glows from its fill (no inset line)
+KEYS_JS = """(root) => {
+  const bad = [];
+  const px = (v) => parseFloat(v) || 0;
+  const name = (el) => (el.getAttribute('class') || el.tagName) + (el.dataset && el.dataset.midi ? '[' + el.dataset.midi + ']' : '');
+  const keys = [...document.querySelectorAll(root + ' :is(.key, .vb-step)')];
+  for (const k of keys) {
+    const s = getComputedStyle(k), r = k.getBoundingClientRect();
+    if (!r.width) continue;
+    const sides = ['Top', 'Right', 'Bottom', 'Left'].filter((d) => s['border' + d + 'Style'] !== 'none' && px(s['border' + d + 'Width']) > 0);
+    if (sides.length) bad.push(name(k) + ' has a border (' + sides.join(', ') + ')');
+    if (s.outlineStyle !== 'none' && px(s.outlineWidth) > 0) bad.push(name(k) + ' has an outline');
+    if (/inset/.test(s.boxShadow)) bad.push(name(k) + ' has an inset shadow: ' + s.boxShadow);
+    const black = k.classList.contains('key--black');
+    const cap = Math.min(black ? 4 : 6, r.width / 4) + 0.5;
+    for (const c of ['borderBottomLeftRadius', 'borderBottomRightRadius'])
+      if (px(s[c]) > cap) bad.push(name(k) + ' ' + c + ' ' + s[c] + ' on a ' + r.width.toFixed(1) + ' px key');
+    if (bad.length > 6) break;
+  }
+  // the tools hub's drawings: filled shapes, never a stroke
+  for (const k of document.querySelectorAll(root + ' :is(.hub-pv__key path, .hub-pv__key--b path, .hub-pv__key--on, .hub-pv__step)')) {
+    const s = getComputedStyle(k);
+    if (s.stroke !== 'none' && px(s.strokeWidth) > 0) bad.push('a drawn key (' + name(k) + ') has a stroke ' + s.stroke);
+    if (bad.length > 6) break;
+  }
+  return { n: keys.length, bad };
+}"""
+
 
 def contract(site, pd, html, code, pid, mounts):
     """The page data contract (tool/README.md) for one page: its problems."""
     bad = []
     keys = {"locale", "lang", "pageId", "strings", "notes", "voiceTypes", "registers", "playLink",
-            "androidOnlyLine", "piano", "links", "assets", "players"}
+            "androidOnlyLine", "iphone", "piano", "links", "assets", "players"}
     if keys - set(pd):
         bad.append("page data lacks %s" % sorted(keys - set(pd)))
     if (pd.get("locale"), pd.get("pageId")) != (code, pid):
@@ -372,6 +534,9 @@ def contract(site, pd, html, code, pid, mounts):
         bad.append("playLink is not tagged for %s/%s: %s" % (code, pid, pd.get("playLink")))
     if not pd.get("androidOnlyLine"):
         bad.append("no androidOnlyLine")
+    cta = site.content(code)["cta"]
+    if pd.get("iphone") != "%s \u00b7 %s" % (cta["iphone"], cta["comingSoon"]):
+        bad.append("iphone is %r, not the band's words" % pd.get("iphone"))
     piano = pd.get("piano") or {}
     notes = (piano.get("manifest") or {}).get("notes") or []
     if piano.get("base") != "/audio/piano-web/" or len(notes) != 20 or not all(
@@ -397,17 +562,114 @@ def contract(site, pd, html, code, pid, mounts):
     return bad
 
 
+def nav_problems(site, nav, code, pid, width):
+    """The navigation of a page's context (decision 2), and Get the app: what is
+    wrong. Landing pages keep the site's menu (Features, Pricing, Download,
+    Tools, Guides, Support, the language menu, Get the app; a menu on a
+    phone); the tools hub and the tools show Home and the four tools, as a
+    switcher on a desktop and as five floating tabs on a phone."""
+    words = site.content(code)["nav"]
+    home = site.url("index", code) or "/"
+    tools = site.tools()
+    want = [home] + [site.url(t, code) for t in tools]
+    here = [site.url(pid, code)] if pid in tools else []
+    phone = width < 960
+    bad = []
+    if site.context(pid) == "tools":
+        if "site-header--tools" not in (nav["header"] or ""):
+            bad.append("no tools header: %s" % nav["header"])
+        got = [x["href"] for x in nav["switcher"]]
+        if got != want:
+            bad.append("the switcher links %s, not Home and the four tools %s" % (got, want))
+        lit = [x["href"] for x in nav["switcher"] if x["current"] == "page"]
+        if lit != here:
+            bad.append("the switcher marks %s as this page" % lit)
+        tabs = [[x["href"], x["text"]] for x in nav["tabs"]]
+        labels = [words["home"]] + [words["tabLabels"][t] for t in tools]
+        if tabs != [list(x) for x in zip(want, labels)]:
+            bad.append("the tab bar is %s, not the five tabs %s" % (tabs, list(zip(want, labels))))
+        if [x["href"] for x in nav["tabs"] if x["current"] == "page"] != here:
+            bad.append("the tab bar marks another page")
+        if nav["siteNav"] or nav["rows"] or nav["toggle"]:
+            bad.append("a tools page carries the landing menu")
+        if phone:
+            if not nav["tabsShown"] or nav["switcherShown"] or nav["getAppShown"]:
+                bad.append("on a phone: the tab bar %s, the switcher %s, Get the app %s in the header" % (
+                    nav["tabsShown"], nav["switcherShown"], nav["getAppShown"]))
+            if nav["tabsCut"]:
+                bad.append("the tab bar cuts %s" % nav["tabsCut"])
+            box = nav["tabBox"] or [0, 0, 0, 0, 1, 1]
+            if box[0] < 0 or box[2] > box[4] or box[3] > box[5] or box[1] < box[5] / 2:
+                bad.append("the tab bar does not float at the bottom of the screen: %s" % box)
+        elif not nav["switcherShown"] or nav["tabsShown"] or not nav["getAppShown"]:
+            bad.append("on a desktop: the switcher %s, the tab bar %s, Get the app %s" % (
+                nav["switcherShown"], nav["tabsShown"], nav["getAppShown"]))
+        if "site-footer--compact" not in (nav["footer"] or ""):
+            bad.append("no compact footer: %s" % nav["footer"])
+        man = "/site.webmanifest" if code == "en" else "/%s/site.webmanifest" % code
+        if not (nav["manifest"] or "").endswith(man):
+            bad.append("the web app manifest is %s, not %s" % (nav["manifest"], man))
+        if nav["fsExit"] != (pid in tools) or nav["fs"] != (pid in tools and not phone):
+            bad.append("the full screen control: %s, its exit %s" % (nav["fs"], nav["fsExit"]))
+        if nav["stage"] is None or nav["stage"] > nav["vh"] * 0.4:
+            bad.append("the tool starts at %s px on a %d px screen, not on its first part" % (nav["stage"], nav["vh"]))
+        if pid in tools and (nav["ref"] is None or nav["ref"] < nav["vh"] or nav["how"] is not False):
+            bad.append("the first screen holds the reference (at %s px) or an open How it works (%s)" % (nav["ref"], nav["how"]))
+    else:
+        if nav["header"] != "site-header":
+            bad.append("no landing header: %s" % nav["header"])
+        anchor = (lambda a: "#" + a) if pid == "index" else (lambda a: home + "#" + a)
+        rows = [anchor("features"), anchor("pricing"), anchor("download"), site.url("tools", code),
+                site.url("vocal-warm-ups", code), site.url("support", code)]
+        got = [x["href"] for x in nav["rows"]]
+        if got != rows:
+            bad.append("the menu links %s, not today's %s" % (got, rows))
+        if not nav["menuGetApp"]:
+            bad.append("the phone menu has no Get the app")
+        if nav["switcher"] or nav["tabs"]:
+            bad.append("a landing page carries the tools navigation")
+        shown = [x["shown"] for x in nav["rows"]]
+        if phone and (not nav["toggle"] or any(shown)):
+            bad.append("on a phone the menu is %s, its toggle %s" % (shown, nav["toggle"]))
+        if not phone and (nav["toggle"] or not all(shown) or not nav["getAppShown"]):
+            bad.append("on a desktop the menu is %s, its toggle %s, Get the app %s" % (shown, nav["toggle"], nav["getAppShown"]))
+        footer = "site-footer site-footer--compact" if pid == "404" else "site-footer"
+        if nav["footer"] != footer:
+            bad.append("the footer is %s, not %s" % (nav["footer"], footer))
+        if nav["manifest"] or nav["fs"] or nav["fsExit"]:
+            bad.append("a landing page links the manifest or has full screen")
+    if not nav["lang"]:
+        bad.append("no language menu in the header")
+    joke = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", site.content(code)["footer"]["madeBy"])).strip()
+    if joke not in nav["footerText"]:
+        bad.append("the footer lost its line %r" % joke)
+    if (nav["theme"] or "").upper() != THEME:
+        bad.append("theme-color %s" % nav["theme"])
+    get = nav["getApp"] or ""
+    if not (nav["getAppPlay"] if get.startswith("#") else get == home + "#download"):
+        bad.append("Get the app goes to %s, which holds no Play link" % get)
+    return bad
+
+
+def css_size(site, html):
+    """Every stylesheet a page links, gzipped one by one, together."""
+    return sum(gz(site.file(h).read_bytes()) for h in re.findall(r'<link rel="stylesheet" href="(/[^"?]+)', html))
+
+
 def group_pages(p, srv, site, codes, urls):
     tools = {e["id"] for e in site.registry if e["template"] == "tool"}
     browser = chromium(p)
     try:
         todo = [(path, c, i) for path, c, i in site.pages if c in codes] + [("/404.html", "en", "404")]
         for path, code, pid in todo:
+            soon = site.content(code)["cta"]["comingSoon"]
             for width in ((360, 1280) if code == "en" else (360,)):
-                t = Tab(browser, width)
+                t = Tab(browser, width, init=[CLS], mobile=width < 600)
                 t0 = now()
                 t.page.goto(srv.origin + path, wait_until="load")
                 t.page.wait_for_timeout(400)
+                shift = t.page.evaluate("window.__cls")
+                nav = t.page.evaluate(NAV_JS)
                 t.page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
                 t.page.wait_for_timeout(500)
                 info = t.page.evaluate(PAGE_JS)
@@ -427,26 +689,53 @@ def group_pages(p, srv, site, codes, urls):
                 untagged = [u for u in info["urls"] if u and u.startswith("https://play.google.com/") and tag not in u]
                 if untagged:
                     bad.append("Play links not tagged for %s/%s: %s" % (code, pid, untagged))
-                extra = ""
+                badges = [u for u in info["urls"] if u and re.search(r"apple\.com|app-?store|badge", u, re.I)]
+                if badges:  # decision 8: no store badge and no Apple anything, the iPhone is "Coming soon"
+                    bad.append("a store badge or an Apple link: %s" % badges)
+                bad += nav_problems(site, nav, code, pid, width)
+                bad += ["no iPhone beside a Play link: %s" % x for x in t.page.evaluate(PLAY_JS, ["", soon])]
+                bad += ["the band's button %s" % x for x in t.page.evaluate(BAND_JS)]
+                keys = t.page.evaluate(KEYS_JS, "")
+                bad += keys["bad"]
+                if shift["value"] > CLS_BUDGET:
+                    bad.append("layout shift %.4f while it loads: %s" % (shift["value"], shift["sources"]))
+                js = sum(gz(r.body()) for r in t.scripts)
+                if js > BUDGET:
+                    bad.append("scripts before a tap are %d bytes gzipped at %d px, over %d" % (js, width, BUDGET))
+                extra = " (scripts %.1f KB" % (js / 1024)
                 if width == 360:
                     urls.update((u, path) for u in info["urls"])
-                    js = sum(gz(r.body()) for r in t.scripts)
                     html = site.html(path)
-                    size = gz(html.encode("utf-8"))
-                    extra = " (scripts %.1f KB, HTML %.1f KB gzipped)" % (js / 1024, size / 1024)
-                    if js > BUDGET:
-                        bad.append("scripts before a tap are %d bytes gzipped, over %d" % (js, BUDGET))
-                    if pid in tools and size > BUDGET:
-                        bad.append("a tool page's HTML is %d bytes gzipped, over %d" % (size, BUDGET))
+                    size, css = gz(html.encode("utf-8")), css_size(site, html)
+                    extra += ", HTML %.1f KB, CSS %.1f KB gzipped" % (size / 1024, css / 1024)
+                    ceiling = HUB_BUDGET if pid == "tools" else BUDGET
+                    if (pid in tools or pid == "tools") and size > ceiling:
+                        bad.append("a tools page's HTML is %d bytes gzipped, over %d" % (size, ceiling))
                     elif size > BUDGET:
                         R.info("%s HTML is %.1f KB gzipped (the 15 KB budget is a tool page's)" % (path, size / 1024))
+                    if css > CSS_BUDGET:
+                        bad.append("its stylesheets are %d bytes gzipped together, over %d" % (css, CSS_BUDGET))
+                    if pid in tools:  # the reference a crawler reads, in the HTML itself (decision 11)
+                        ref = re.search(r'<section class="tp-ref".*?</section>\s*</main>', html, re.S)
+                        words = len(re.sub(r"<[^>]+>", " ", ref.group(0)).split()) if ref else 0
+                        if words < 300:
+                            bad.append("the static reference holds %d words" % words)
                     pd = site.page_data(path)
                     if info["mounts"] and pd is None:
                         bad.append("tool mounts but no page data")
                     elif pd is not None:
                         bad += contract(site, pd, html, code, pid, info["mounts"])
+                extra += ")" + (", %d keys" % keys["n"] if keys["n"] else "")
                 R.check("%s at %d px%s" % (path, width, extra), not bad, bad)
                 t.close()
+        # Each stylesheet, and the script every page loads, within its own budget
+        sizes = {n: gz((site.root / n).read_bytes()) for n in FILE_BUDGETS if (site.root / n).is_file()}
+        new = sorted(str(f.relative_to(site.root)) for f in (site.root / "css").glob("*.css")
+                     if str(f.relative_to(site.root)) not in FILE_BUDGETS)
+        R.check("every stylesheet and js/site/chrome.js within its own budget (%s)" % ", ".join(
+            "%s %.1f" % (n.split("/")[-1], v / 1024) for n, v in sizes.items()),
+            not new and all(v <= FILE_BUDGETS[n] * 1024 for n, v in sizes.items()),
+            {"over": {n: v for n, v in sizes.items() if v > FILE_BUDGETS[n] * 1024}, "no budget": new})
         # The home page's chord: its three notes load on the tap, not before
         t = Tab(browser, 360)
         t.page.goto(srv.origin + "/")
@@ -520,7 +809,7 @@ def group_notfound(p, srv, site):
 
 
 def group_langbar(p, srv, site):
-    said = re.search(r"var said = (\{.*?\});\n", site.html("/"))  # what the built page's script offers
+    said = re.search(r'<script type="application/json" id="site-langs">(.*?)</script>', site.html("/"))  # what the bar offers
     es = json.loads(said.group(1))["es"]
     browser = chromium(p)
     try:
@@ -563,7 +852,230 @@ def group_langbar(p, srv, site):
             n = t.page.locator(".lang-bar").count()
             R.check("the range test offers Spanish %s" % ("(it exists in es)" if exists else "never (no es page yet)"),
                     n == (1 if exists else 0), n)
+            if n:
+                box = t.page.evaluate("() => [document.querySelector('.lang-bar').getBoundingClientRect().bottom,"
+                                      " document.querySelector('.site-tabbar').getBoundingClientRect().top]")
+                R.check("in the tools a phone's bar sits above the tab bar", box[0] <= box[1] + 1, box)
             t.close()
+    finally:
+        browser.close()
+
+
+# Full screen as a page shows it (spec 3.5): what still shows that should not
+FS_JS = """() => {
+  const shown = (el) => !!el && el.getClientRects().length > 0 && getComputedStyle(el).visibility !== 'hidden';
+  const away = ['.breadcrumb', '.tp-title', '.tp-under', '.tp-ref', '.band', '.site-footer', '.site-header__right'];
+  let stored = null;
+  try { stored = sessionStorage.getItem('scalita-fs'); } catch (e) {}
+  return { on: document.documentElement.getAttribute('data-fs'),
+    still: away.filter((s) => [...document.querySelectorAll(s)].some(shown)),
+    tool: shown(document.querySelector('.stage [data-tool]')), switcher: shown(document.querySelector('header nav.site-switch')),
+    exit: shown(document.querySelector('.site-fs-exit')), button: shown(document.querySelector('.tp-fs')),
+    focus: document.activeElement ? String(document.activeElement.className) : null, stored };
+}"""
+
+
+# The tools header at a desktop width: one row (the logo, the switcher and the
+# buttons, or Exit in full screen, side by side), nothing scrolled out of the
+# switcher or out of the bar, and each tool's names: the full one as the
+# link's aria-label and title, the one it shows
+HEADER_JS = """() => {
+  const hd = document.querySelector('header.site-header--tools'), h = hd.querySelector('.site-header__in');
+  const fs = document.documentElement.getAttribute('data-fs') === 'on';
+  const sw = h.querySelector('nav.site-switch');
+  const box = (el) => el.getBoundingClientRect();
+  const parts = [h.querySelector('.site-logo'), sw, h.querySelector(fs ? '.site-fs-exit' : '.site-header__right')];
+  const mids = parts.map((el) => box(el).top + box(el).height / 2);
+  const bad = [];
+  if (box(hd).height > (fs ? 57 : 66)) bad.push('the bar is ' + box(hd).height.toFixed(1) + ' px tall');
+  if (Math.max(...mids) - Math.min(...mids) > 3) bad.push('not one row: the middles at ' + mids.map(Math.round).join(', '));
+  if (sw.scrollWidth > sw.clientWidth + 1) bad.push('the switcher hides ' + (sw.scrollWidth - sw.clientWidth) + ' px');
+  const inner = box(h), s = box(sw);
+  for (const el of parts) if (box(el).left < inner.left - 0.5 || box(el).right > inner.right + 0.5)
+    bad.push(String(el.className) + ' leaves the bar');
+  const segs = [...sw.querySelectorAll('a.seg')];
+  for (const a of segs) if (box(a).left < s.left - 0.5 || box(a).right > s.right + 0.5) bad.push('"' + a.textContent.trim() + '" is cut');
+  const de = document.documentElement;
+  if (de.scrollWidth > de.clientWidth) bad.push('the page is ' + de.scrollWidth + ' px wide');
+  const tools = segs.filter((a) => !a.classList.contains('seg--home'));
+  return { bad, names: tools.map((a) => [a.getAttribute('aria-label'), a.getAttribute('title')]),
+    shown: tools.map((a) => [...a.querySelectorAll('span')].filter((x) => x.getClientRects().length).map((x) => x.textContent).join('|')) };
+}"""
+
+
+def png_size(b):
+    """(width, height) of a PNG's bytes, or None."""
+    return struct.unpack(">II", b[16:24]) if b[:8] == b"\x89PNG\r\n\x1a\n" and len(b) > 24 else None
+
+
+def group_chrome(p, srv, site):
+    """The chrome as it behaves: a phone's menu on a landing page, full screen
+    on a desktop tool page (decision 4), the web app manifests and no
+    service worker."""
+    tools = site.tools()
+    words = site.content("en")["nav"]
+    browser = chromium(p)
+    try:
+        # A phone's menu on the landing pages: closed, then the six rows and Get the app
+        t = Tab(browser, 360, mobile=True)
+        t.page.goto(srv.origin + "/")
+        menu = """() => { const m = document.getElementById('nav-menu'), b = document.querySelector('.site-menu__toggle');
+          return { open: m.classList.contains('site-menu--open'), expanded: b.getAttribute('aria-expanded'),
+            label: b.getAttribute('aria-label'), focus: String(document.activeElement.className),
+            rows: [...m.querySelectorAll('a.site-menu__row')].filter((a) => a.getClientRects().length).length,
+            getApp: [...m.querySelectorAll('.site-menu__cta a')].filter((a) => a.getClientRects().length).length }; }"""
+        shut = t.page.evaluate(menu)
+        t.page.click(".site-menu__toggle")
+        opened = t.page.evaluate(menu)
+        R.check("a phone's landing menu opens from its toggle: the six rows and Get the app, the toggle now closes it",
+                not shut["open"] and not shut["rows"] and opened["open"] and opened["expanded"] == "true"
+                and opened["label"] == words["closeMenu"] and opened["rows"] == 6 and opened["getApp"] == 1, [shut, opened])
+        over = t.page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
+        t.page.keyboard.press("Escape")
+        closed = t.page.evaluate(menu)
+        R.check("Escape closes it and gives the toggle its focus back, nothing too wide",
+                not closed["open"] and closed["label"] == words["menuLabel"] and "site-menu__toggle" in closed["focus"]
+                and over <= 0, [closed, over])
+        t.page.click(".site-menu__toggle")
+        t.page.click('#nav-menu a.site-menu__row[href="#pricing"]')
+        R.check("a row closes the menu as it goes", not t.page.evaluate(menu)["open"])
+        R.check("menu: console clean", not t.clean(), t.clean())
+        t.close()
+
+        # Full screen, on a desktop: only the tool and the switcher, Escape or Exit leaves
+        for pid in tools:
+            path = site.url(pid)
+            t = Tab(browser, 1280)
+            t0 = now()
+            t.page.goto(srv.origin + path)
+            t.page.wait_for_timeout(300)
+            early = srv.since(t0, "/js/site/fullscreen.js")
+            t.page.click(".tp-fs")
+            t.page.wait_for_function("document.documentElement.getAttribute('data-fs') === 'on'", timeout=5000)
+            t.page.wait_for_timeout(100)
+            on = t.page.evaluate(FS_JS)
+            R.check("%s: Full screen leaves the tool and the switcher, and Exit has the focus (its script loads on the "
+                    "click, not before)" % path,
+                    not early and on["on"] == "on" and not on["still"] and on["tool"] and on["switcher"] and on["exit"]
+                    and "site-fs-exit" in on["focus"] and on["stored"] == "1", [early, on])
+            t.page.keyboard.press("Escape")
+            off = t.page.evaluate(FS_JS)
+            R.check("%s: Escape brings the page back and the focus to Full screen" % path,
+                    off["on"] is None and not off["exit"] and off["button"] and "tp-fs" in off["focus"] and off["stored"] is None,
+                    off)
+            if pid == tools[0]:
+                t.page.click(".tp-fs")
+                t.page.wait_for_function("document.documentElement.getAttribute('data-fs') === 'on'")
+                t.page.reload()
+                t.page.wait_for_selector(".site-fs-exit", state="visible", timeout=5000)
+                kept = t.page.evaluate(FS_JS)
+                t.page.click(".site-fs-exit")
+                left = t.page.evaluate(FS_JS)
+                R.check("full screen holds over a reload, and Exit leaves it", kept["on"] == "on" and not kept["still"]
+                        and left["on"] is None and left["stored"] is None and bool(left["still"]), [kept, left])
+                t.page.click(".tp-fs")
+                t.page.wait_for_function("document.documentElement.getAttribute('data-fs') === 'on'")
+                with t.page.expect_navigation():
+                    t.page.click('header nav.site-switch a[href="%s"]' % site.url(tools[1]))
+                moved = t.page.evaluate(FS_JS)
+                with t.page.expect_navigation():
+                    t.page.click("header nav.site-switch a.seg--home")
+                home = t.page.evaluate("document.documentElement.getAttribute('data-fs')")
+                t.page.goto(srv.origin + path)
+                again = t.page.evaluate(FS_JS)
+                R.check("the switcher keeps full screen from tool to tool; Home leaves it", moved["on"] == "on"
+                        and not moved["still"] and home is None and again["on"] is None, [moved, home, again])
+            R.check("%s: full screen, console clean" % path, not t.clean(), t.clean())
+            t.close()
+
+        # The tools header: one row at every desktop width in every locale, in
+        # the page and in full screen, nothing cut; short names (the tab bar's)
+        # where the full ones do not fit, the full ones at 1920
+        for code in site.locales():
+            path = site.url(tools[0], code)
+            full = [json.loads((REPO / "tool" / "content" / "pages" / code / ("%s.json" % i)).read_text(
+                encoding="utf-8"))["label"] for i in tools]
+            short = [site.content(code)["nav"]["tabLabels"][i] for i in tools]
+            bad, first = [], {}
+            for width in (960, 1024, 1280, 1366, 1440, 1600, 1920):
+                t = Tab(browser, width)
+                t.page.goto(srv.origin + path)
+                t.page.evaluate("document.fonts.ready")
+                for mode in ("page", "full screen"):
+                    if mode == "full screen":
+                        t.page.click(".tp-fs")
+                        t.page.wait_for_function("document.documentElement.getAttribute('data-fs') === 'on'", timeout=5000)
+                    got = t.page.evaluate(HEADER_JS)
+                    where = "%d px, %s: " % (width, mode)
+                    bad += [where + x for x in got["bad"]]
+                    # No aria-label: a link is named by the label it shows (the
+                    # other is display: none), so what a speech-input user reads
+                    # is what they can say (WCAG 2.5.3); its title keeps the full name
+                    if got["names"] != [[None, n] for n in full]:
+                        bad.append(where + "the links' [aria-label, title] are %s, not [None, full name] for %s" % (
+                            got["names"], full))
+                    if got["shown"] not in (full, short) or (width == 1920 and got["shown"] != full):
+                        bad.append(where + "the switcher shows %s" % got["shown"])
+                    if got["shown"] == full:
+                        first.setdefault(mode, width)
+                bad += t.clean()
+                t.close()
+            R.check("%s: the tools header is one row from 960 to 1920 px, in the page and in full screen, nothing cut "
+                    "(the full names from %s px, %s in full screen)" % (path, first.get("page"), first.get("full screen")),
+                    not bad, bad)
+
+        # Phones never see the control, nor load its script
+        t = Tab(browser, 360, mobile=True)
+        t0 = now()
+        t.page.goto(srv.origin + site.url(tools[0]))
+        t.page.wait_for_timeout(300)
+        R.check("a phone shows no Full screen and loads none of it", not t.page.evaluate(FS_JS)["button"]
+                and not srv.since(t0, "/js/site/fullscreen.js"))
+        t.close()
+
+        # The web app manifests: Android Chrome adds the tools to a home screen, no service worker
+        for code in site.locales():
+            hub, root = site.url("tools", code), site.url("index", code)
+            path = root + "site.webmanifest"
+            bad = []
+            try:
+                man = json.loads(site.file(path).read_text(encoding="utf-8"))
+            except (OSError, ValueError) as e:
+                R.check("%s parses" % path, False, str(e))
+                continue
+            want = {"name": "Scalita", "start_url": hub, "scope": root, "display": "standalone",
+                    "background_color": THEME, "theme_color": THEME}
+            bad += ["%s is %r, not %r" % (k, man.get(k), v) for k, v in want.items() if str(man.get(k)).upper() != str(v).upper()]
+            pd = site.page_data(hub) or {}
+            if man.get("lang") != pd.get("lang", man.get("lang")):
+                bad.append("lang %r" % man.get("lang"))
+            icons = man.get("icons") or []
+            for i in icons + [x for s in man.get("shortcuts") or [] for x in s.get("icons") or []]:
+                f = site.file(i.get("src", ""))
+                size = png_size(f.read_bytes()) if f.is_file() else None
+                if not size or "%dx%d" % size != i.get("sizes"):
+                    bad.append("icon %s is %s, not %s" % (i.get("src"), size, i.get("sizes")))
+            if not any(i.get("purpose") == "maskable" and i.get("sizes") == "512x512" for i in icons) or not any(
+                    i.get("sizes") == "192x192" for i in icons):
+                bad.append("no 192 icon or no maskable 512")
+            for sc in man.get("shortcuts") or []:
+                if sc.get("url") not in [site.url(t, code) for t in tools]:
+                    bad.append("a shortcut to %s" % sc.get("url"))
+            R.check("%s: Scalita, standalone, opens the tools hub %s, every icon there" % (path, hub), not bad, bad)
+        t = Tab(browser, 390, mobile=True)
+        t.page.goto(srv.origin + site.url(tools[0]))
+        t.page.wait_for_timeout(800)
+        cdp = t.ctx.new_cdp_session(t.page)
+        man = cdp.send("Page.getAppManifest")
+        errors = [e.get("errorId") for e in cdp.send("Page.getInstallabilityErrors").get("installabilityErrors", [])
+                  if e.get("errorId") != "in-incognito"]  # every Playwright context is a private one
+        workers = t.page.evaluate("navigator.serviceWorker ? navigator.serviceWorker.getRegistrations().then((r) => r.length) : 0")
+        R.check("Chromium finds the tools installable from their manifest, with no service worker",
+                (man.get("url") or "").endswith("/site.webmanifest") and not man.get("errors") and not errors and workers == 0,
+                {"manifest": man.get("url"), "errors": man.get("errors"), "installability": errors, "workers": workers})
+        t.close()
+        sw = [path for path, _, _ in site.pages if "serviceWorker" in site.html(path)]
+        R.check("no page registers a service worker", not sw and not list(REPO.glob("js/**/sw*.js")), sw)
     finally:
         browser.close()
 
@@ -718,16 +1230,108 @@ def check_versioned(t, pd, srv, since):
 
 RANGE_RESULT = """() => {
   const el = document.querySelector('[data-tool="vocal-range-test"] .tool-panel__state--result');
-  const a = el.querySelector('.callout a');
+  // on Android the page's band carries the result's line and the one Play link
+  const band = document.querySelector('#app');
+  const a = el.querySelector('.result__cta a') || (band && band.querySelector('a[href^="https://play.google.com/"]'));
+  const q = (s) => [...el.querySelectorAll(s)].map((x) => x.textContent);
   return { value: (el.querySelector('.result-card__value') || {}).textContent || '',
-           cta: (el.querySelector('.callout p') || {}).textContent || '', play: a ? a.getAttribute('href') : null };
+           cta: (el.querySelector('.result__cta p') || (band && band.querySelector('.band__body')) || {}).textContent || '',
+           play: a ? a.getAttribute('href') : null, inStage: el.querySelectorAll('a[href^="https://play.google.com/"]').length,
+           dt: q('.result-card__facts dt'), dd: q('.result-card__facts dd'), notes: q('.result__meaning li'),
+           image: (el.querySelector('canvas') || { getAttribute: () => '' }).getAttribute('aria-label') || '' };
 }"""
+
+
+def save_png(t, name):
+    """Save image, as the reader would: the downloaded file's (width, height) and name."""
+    with t.page.expect_download(timeout=15000) as dl:
+        t.page.get_by_role("button", name=name, exact=True).click(timeout=15000)  # waits for the drawing
+    f = dl.value.path()
+    return (png_size(Path(f).read_bytes()) if f else None), dl.value.suggested_filename
+
+
+def range_wide(p, srv, site, path):
+    """Decision 6: a range of three octaves or more names no voice type (the
+    app's VoiceType.rangeNamesAType, 12 to 35 semitones); in its place, as
+    Pablo's final range image has it (spec 4.2, 2026-10-26), the voice types
+    it holds whole, on the result card and in the image alike. Chosen on the
+    keyboard: C2 to C5, which holds bass, baritone and tenor."""
+    pd = site.page_data(path)
+    U, C = pd["strings"]["vocal-range-test"], pd["strings"]["common"]
+    m = '[data-tool="vocal-range-test"]'
+    browser = chromium(p)
+    try:
+        t = Tab(browser, 360, ua=ANDROID)
+        t.page.goto(srv.origin + path)
+        t.page.wait_for_selector(m + '[data-state="idle"]')
+        t.page.get_by_role("button", name=U["noMic"], exact=True).click()
+        t.page.get_by_role("button", name=U["lowerKeys"], exact=True).click()
+        t.page.click(m + ' .tool-panel__state--manual .keyboard [data-midi="36"]')
+        t.page.keyboard.press("ArrowRight")  # the arrows walk the keys: the focus shows
+        focus = t.page.evaluate("""() => { const k = document.activeElement, s = getComputedStyle(k);
+          return { key: k.classList.contains('key'), shows: k.matches(':focus-visible'), outline: [s.outlineStyle, s.outlineWidth],
+            border: ['Top', 'Right', 'Bottom', 'Left'].map((d) => s['border' + d + 'Width']), shadow: s.boxShadow }; }""")
+        R.check("a key with the keyboard's focus shows it with a glow, no outline and no border",
+                focus["key"] and focus["shows"] and (focus["outline"][0] == "none" or focus["outline"][1] == "0px")
+                and focus["border"] == ["0px"] * 4 and "inset" not in focus["shadow"] and focus["shadow"] != "none", focus)
+        picker = t.page.evaluate(KEYS_JS, m)
+        t.page.get_by_role("button", name=C["next"], exact=True).click()
+        for _ in range(2):
+            t.page.get_by_role("button", name=U["higherKeys"], exact=True).click()
+        t.page.click(m + ' .tool-panel__state--manual .keyboard [data-midi="72"]')
+        t.page.get_by_role("button", name=U["showRange"], exact=True).click()
+        t.page.wait_for_selector(m + '[data-state="result"]')
+        r = t.page.evaluate(RANGE_RESULT)
+        names = {v["id"]: v["name"] for v in pd["voiceTypes"]}
+        big, small = fill(U["typesMany"], n=3), fill(U["typesSpan"], low=names["bass"], high=names["tenor"])
+        R.check("C2 to C5, three octaves: no single voice type, the three it holds whole (bass to tenor) on the card and "
+                "in the image, and the wide-range note",
+                U["typicalLabel"] not in r["dt"] and big in r["dt"] and small in r["dd"] and big in r["image"]
+                and small in r["image"] and U["wideNote"] in r["notes"] and U["breakMoreReliable"] not in r["notes"],
+                {"want": [big, small], "dt": r["dt"], "dd": r["dd"], "notes": r["notes"], "image": r["image"]})
+        size, name = save_png(t, C["save"])
+        R.check("the three-octave share image saves as a 1080 x 1920 PNG", size == (1080, 1920) and name.endswith(".png"),
+                [size, name])
+        keys = t.page.evaluate(KEYS_JS, m)
+        R.check("no key of the picker or the result has a border, an outline or a hard end (%d and %d keys)"
+                % (picker["n"], keys["n"]), picker["n"] and keys["n"] and not picker["bad"] + keys["bad"],
+                picker["bad"] + keys["bad"])
+        soon = t.page.evaluate(PLAY_JS, ["#app", site.content(pd["locale"])["cta"]["comingSoon"]])
+        R.check("the keyboard's result: one Play link, the band's, with the iPhone, coming soon, beside it",
+                not soon and r["inStage"] == 0 and r["play"] == pd["playLink"], [soon, r["inStage"], r["play"]])
+        R.check("three octaves: console clean", not t.clean(), t.clean())
+        t.close()
+    finally:
+        browser.close()
+
+
+def still_at(p, srv, path, wav, width, init, idle, start, end):
+    """One run at width px from a fresh browser (the fake microphone's file
+    plays from its start): once the tool is idle and its fonts are in, mark
+    where the page under the stage sits; start(t) taps Start, end(t) waits
+    for the run to end. The layout shift since the load, how far the page
+    under the stage moved since the mark (px), and the console."""
+    browser = chromium(p, wav)
+    try:
+        t = Tab(browser, width, ua=ANDROID, init=list(init) + [CLS, STILL])
+        t.page.goto(srv.origin + path)
+        t.page.wait_for_selector(idle)
+        t.page.evaluate("document.fonts.ready.then(() => window.__still.mark())")
+        start(t)
+        end(t)
+        shift, still = t.page.evaluate("[window.__cls, window.__still]")
+        out = shift, round(still["hi"] - still["lo"], 1), t.clean()
+        t.close()
+        return out
+    finally:
+        browser.close()
 
 
 def group_range(p, srv, site):
     path = site.url("vocal-range-test")
     if not path:
         return R.skip("the vocal range test page is not built")
+    range_wide(p, srv, site, path)
     takes = takes_dir()
     if not takes:
         return R.skip("no takes folder (set SCALITA_TAKES)")
@@ -739,12 +1343,17 @@ def group_range(p, srv, site):
     mount = '[data-tool="vocal-range-test"]'
     browser = chromium(p, wav)
     try:
-        t = Tab(browser, 360, ua=ANDROID, init=[EVENTS, PROBE % "{}"])
+        t = Tab(browser, 360, ua=ANDROID, init=[EVENTS, PROBE % "{}", CLS, STILL])
         t0 = now()
         t.page.goto(srv.origin + path)
         t.page.wait_for_selector(mount + '[data-state="idle"]')
+        t.page.evaluate("document.fonts.ready.then(() => window.__still.mark())")
         t.page.get_by_role("button", name=C["start"], exact=True).click()
         t.page.wait_for_function("window.__ev.some((e) => e.phase === 'done')", timeout=int((seconds + 30) * 1000))
+        shift, still = t.page.evaluate("[window.__cls, window.__still]")
+        moved = round(still["hi"] - still["lo"], 1)
+        R.check("nothing on the screen moves while it listens, from the page's load to the second lock",
+                shift["value"] <= CLS_BUDGET and moved <= 1, {"shift": shift, "moved px": moved})
         ev = [e for e in t.page.evaluate("window.__ev") if e["event"] == "rangetest"]
         done = next(e for e in ev if e["phase"] == "done")
         R.check("two takes lock %s and %s" % (label(pd, fx["low"]), label(pd, fx["high"])),
@@ -769,22 +1378,32 @@ def group_range(p, srv, site):
         R.check("the result names the range", r["value"].startswith(fill(U["rangeValue"], low=local(fx["low"]), high=local(fx["high"]))),
                 r["value"])
         rng = fill(U["rangeValue"], low=label(pd, fx["low"]), high=label(pd, fx["high"]))
-        cta = t.page.locator(mount + " .tool-panel__state--result .callout a")
-        R.check("Android: the CTA and the tagged Play link, visible",
-                r["cta"] == fill(U["ctaAndroid"], range=rng) and r["play"] == pd["playLink"]
+        cta = t.page.locator('#app a[href^="https://play.google.com/"]')
+        R.check("Android: the band takes the result's line, with the one tagged Play link, visible",
+                r["cta"] == fill(U["ctaAndroid"], range=rng) and r["play"] == pd["playLink"] and r["inStage"] == 0
                 and "utm_campaign%3Dvocal-range-test" in r["play"] and cta.is_visible(), r)
         over = t.page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
         R.check("the result fits 360 px", over <= 0, over)
-        save = t.page.get_by_role("button", name=C["save"], exact=True)
-        with t.page.expect_download(timeout=10000) as dl:
-            save.click(timeout=10000)  # waits for the card to be drawn
-        f = dl.value.path()
-        png = Path(f).read_bytes()[:8] if f else b""
-        R.check("the share card saves as a PNG", dl.value.suggested_filename.endswith(".png") and png == b"\x89PNG\r\n\x1a\n",
-                [dl.value.suggested_filename, len(Path(f).read_bytes()) if f else 0])
+        R.check("two octaves name a voice type", U["typicalLabel"] in r["dt"], r["dt"])
+        soon = t.page.evaluate(PLAY_JS, ["#app", site.content(pd["locale"])["cta"]["comingSoon"]])
+        R.check("Android: the iPhone, coming soon, beside the band's Play link", not soon, soon)
+        keys = t.page.evaluate(KEYS_JS, mount)
+        R.check("the result's keys: no border, no outline (%d keys)" % keys["n"], keys["n"] and not keys["bad"], keys["bad"])
+        size, name = save_png(t, C["save"])
+        R.check("the share card saves as a 1080 x 1920 PNG", size == (1080, 1920) and name.endswith(".png"), [size, name])
         check_versioned(t, pd, srv, t0)
         R.check("console clean", not t.clean(), t.clean())
         t.close()
+
+        for width in TABLETS:
+            shift, moved, logs = still_at(
+                p, srv, path, wav, width, [EVENTS], mount + '[data-state="idle"]',
+                lambda t: t.page.get_by_role("button", name=C["start"], exact=True).click(),
+                lambda t: t.page.wait_for_function("window.__ev.some((e) => e.phase === 'done')",
+                                                   timeout=int((seconds + 30) * 1000)))
+            R.check("at %d px too, nothing on the screen moves while it listens, from the page's load to the second lock"
+                    % width, shift["value"] <= CLS_BUDGET and moved <= 1 and not logs,
+                    {"shift": shift, "moved px": moved, "console": logs})
 
         t = Tab(browser, 360, ua=INSTAGRAM)
         t.page.goto(srv.origin + path)
@@ -888,21 +1507,26 @@ def group_tune(p, srv, site):
     targets = [57, 69, 57, 69, 57]
     browser = chromium(p, wav)
     try:
-        t = Tab(browser, 360, ua=ANDROID, init=[PROBE % json.dumps({"targets": targets, "seed": 7})])
+        idle = '[data-tool="sing-in-tune-test"][data-state="idle"] .tool-panel__actions .btn'
+        start = '.tool-panel__state--idle:not([hidden]) button >> text="%s"' % C["start"]
+        t = Tab(browser, 360, ua=ANDROID, init=[PROBE % json.dumps({"targets": targets, "seed": 7}), CLS, STILL])
         t0 = now()
         t.page.goto(srv.origin + path)
-        t.page.wait_for_selector(".tool-panel__state--idle:not([hidden]) .chip")
-        mode = t.page.get_attribute('.chip[aria-pressed="true"]', "data-mode")
+        t.page.wait_for_selector(idle)
+        mode = t.page.get_attribute('.seg[aria-pressed="true"]', "data-mode")
         R.check("the page opens on sing this note", mode == "sing", mode)
-        t.page.click('.tool-panel__state--idle:not([hidden]) button >> text="%s"' % C["start"])
+        t.page.evaluate("document.fonts.ready.then(() => window.__still.mark())")
+        t.page.click(start)
         t.page.wait_for_selector(".tool-panel__state--result:not([hidden])", timeout=120000)
         r = t.page.evaluate("""() => {
           const r = document.querySelector('.tool-panel__state--result:not([hidden])');
-          const a = r.querySelector('a.btn-primary');
+          // the page's band, under the stage, carries the one Play link
+          const a = document.querySelector('#app a[href^="https://play.google.com/"]');
           return { value: r.querySelector('.result-card__value').textContent,
                    facts: Object.fromEntries([...r.querySelectorAll('.result-card__facts > div')].map((d) =>
                      [d.querySelector('dt').textContent, d.querySelector('dd').textContent])),
-                   href: a ? a.getAttribute('href') : null };
+                   href: a ? a.getAttribute('href') : null,
+                   inStage: r.querySelectorAll('a[href^="https://play.google.com/"]').length };
         }""")
         m = re.match(r"([+-]?\d+)", r["value"].replace("\u2212", "-"))  # a minus sign, or a hyphen
         R.check("a steady A4 sung back to A3 and A4 reads within 2 cents", m and abs(int(m.group(1))) <= 2, r["value"])
@@ -911,16 +1535,36 @@ def group_tune(p, srv, site):
         shown = t.page.inner_text(".tool-panel__state--result:not([hidden])")
         R.check("the result prints no null (a perfect round has no line under the figure)",
                 not re.search(r"\bnull\b", shown), shown[:200])
+        shift, still = t.page.evaluate("[window.__cls, window.__still]")
+        moved = round(still["hi"] - still["lo"], 1)
+        R.check("nothing on the screen moves through the five notes and the result",
+                shift["value"] <= CLS_BUDGET and moved <= 1, {"shift": shift, "moved px": moved})
         probe = t.page.evaluate(PROBED)
         R.check("the piano and the microphone never at once", not probe["violations"], probe["violations"])
         R.check("one microphone check, then one opening per note", probe["gum"] == len(targets) + 1, probe["gum"])
         live_checks(t, srv, probe["listening"], probe["spans"])
         R.check("the microphone is off at the end", not probe["live"])
-        R.check("Android: the tagged Play link", r["href"] == pd["playLink"] and "utm_campaign%3Dsing-in-tune-test" in (r["href"] or ""),
-                r["href"])
+        R.check("Android: one Play link, the band's, tagged", r["href"] == pd["playLink"] and r["inStage"] == 0
+                and "utm_campaign%3Dsing-in-tune-test" in (r["href"] or ""), [r["href"], r["inStage"]])
+        soon = t.page.evaluate(PLAY_JS, ["#app", site.content(pd["locale"])["cta"]["comingSoon"]])
+        R.check("Android: the iPhone, coming soon, beside the band's Play link", not soon, soon)
+        size, name = save_png(t, C["save"])
+        R.check("the result's share image saves as a 1080 x 1920 PNG", size == (1080, 1920) and name.endswith(".png"),
+                [size, name])
         check_versioned(t, pd, srv, t0)
         R.check("console clean", not t.clean(), t.clean())
         t.close()
+
+        for width in TABLETS:
+            # the result's share row settles once its image's module is in
+            shift, moved, logs = still_at(
+                p, srv, path, wav, width, [PROBE % json.dumps({"targets": targets, "seed": 7})], idle,
+                lambda t: t.page.click(start),
+                lambda t: (t.page.wait_for_selector(".tool-panel__state--result:not([hidden])", timeout=120000),
+                           t.page.wait_for_timeout(1500)))
+            R.check("at %d px too, nothing on the screen moves through the five notes and the result" % width,
+                    shift["value"] <= CLS_BUDGET and moved <= 1 and not logs,
+                    {"shift": shift, "moved px": moved, "console": logs})
     finally:
         browser.close()
 
@@ -949,7 +1593,7 @@ def group_player(p, srv, site):
             R.check("quick warm-up page: nothing under /audio/ before Play", not srv.since(t0, "/audio/"), srv.since(t0, "/audio/"))
             t.page.click('[data-tool="player"] .player__preset[data-voice="tenor"]')
             t1 = now()
-            t.page.click('[data-tool="player"] .btn-primary')
+            t.page.click('[data-tool="player"] .btn--fill')
             ev = play_until_end(t)
             keys = [[e["step"], e["root"]] for e in ev if e["type"] == "key"]
             want = [[i, r] for i, roots in enumerate(routines[rid]["presets"]["tenor"]["roots"]) for r in roots]
@@ -959,7 +1603,7 @@ def group_player(p, srv, site):
             R.check("quick warm-up page: after Play, piano samples only", audio and all(
                 a.startswith("/audio/piano-web/") and a.endswith(".mp3") for a in audio), audio)
             R.check("quick warm-up page: Play again at the end",
-                    t.page.text_content('[data-tool="player"] .btn-primary') == pd["strings"]["common"]["play"])
+                    t.page.text_content('[data-tool="player"] .btn--fill') == pd["strings"]["common"]["play"])
             check_versioned(t, pd, srv, t0)
             R.check("quick warm-up page: console clean", not t.clean(), t.clean())
             t.close()
@@ -973,7 +1617,7 @@ def group_player(p, srv, site):
         chosen = t.page.eval_on_selector('[data-tool="player"] select', "s => s.value")
         R.check("warm-up piano: opens on the five-note scale", chosen == "scale:five_note", chosen)
         t.page.click('[data-tool="player"] .player__preset[data-voice="soprano"]')
-        t.page.click('[data-tool="player"] .btn-primary')
+        t.page.click('[data-tool="player"] .btn--fill')
         ev = play_until_end(t)
         roots = [e["root"] for e in ev if e["type"] == "key"]
         want = scales["five_note"]["presets"]["soprano"]["roots"]
@@ -1006,10 +1650,13 @@ def group_finder(p, srv, site):
         mount = '[data-tool="voice-break-finder"]'
         t.page.wait_for_selector(mount + '[data-state="intro"]')
         R.check("nothing fetched under /audio/ before an answer", not srv.since(t0, "/audio/"))
-        t.page.click(mount + " .btn-primary")
+        t.page.click(mount + " .btn--fill")
         t.page.wait_for_selector(mount + '[data-state="voice"]')
         t.page.get_by_role("button", name=U["lowerVoice"]).click()
         t.page.wait_for_function("window.__ev.filter((e) => e.type === 'note').length >= 5", timeout=30000)
+        stairs = t.page.evaluate(KEYS_JS, mount)
+        R.check("the climb's keys: no border, no outline (%d keys)" % stairs["n"], stairs["n"] and not stairs["bad"],
+                stairs["bad"])
         t.page.get_by_role("button", name=U["feltIt"]).click()
         t.page.wait_for_selector(mount + '[data-state="confirming"]')
         t.page.get_by_role("button", name=U["yes"]).click()
@@ -1058,8 +1705,8 @@ def drive_range(t, pd):
 
 def drive_ear(t, pd):
     U, C, m = pd["strings"]["sing-in-tune-test"], pd["strings"]["common"], '[data-tool="sing-in-tune-test"]'
-    t.page.wait_for_selector(".tool-panel__state--idle:not([hidden]) .chip")
-    t.page.click('.chip[data-mode="ear"]')
+    t.page.wait_for_selector('[data-tool="sing-in-tune-test"][data-state="idle"] .tool-panel__actions .btn')
+    t.page.click('.seg[data-mode="ear"]')
     t.page.click('.tool-panel__state--idle:not([hidden]) button >> text="%s"' % C["start"])
     for _ in range(3):
         t.page.get_by_role("button", name=U["ear"]["higher"], exact=True).click(timeout=15000)  # waits until enabled
@@ -1071,7 +1718,7 @@ def drive_ear(t, pd):
 def drive_finder(t, pd):
     U, m = pd["strings"]["voice-break-finder"], '[data-tool="voice-break-finder"]'
     t.page.wait_for_selector(m + '[data-state="intro"]')
-    t.page.click(m + " .btn-primary")
+    t.page.click(m + " .btn--fill")
     t.page.get_by_role("button", name=U["lowerVoice"], exact=True).click()
     t.page.wait_for_function("window.__ev.filter((e) => e.type === 'note').length >= 3", timeout=30000)
     t.page.get_by_role("button", name=U["feltIt"], exact=True).click()
@@ -1084,7 +1731,7 @@ def drive_piano(t, pd):
     m = '[data-tool="player"]'
     t.page.wait_for_selector(m + " .player__preset")
     t.page.click(m + ' .player__preset[data-voice="soprano"]')
-    t.page.click(m + " .btn-primary")
+    t.page.click(m + " .btn--fill")
     play_until_end(t, 60000)
     return m
 
@@ -1108,8 +1755,9 @@ def group_locales(p, srv, site):
                     text = t.page.locator(m).inner_text()
                     over = t.page.evaluate("document.documentElement.scrollWidth - document.documentElement.clientWidth")
                     bad = t.clean() + (["shows %s" % STRAY.findall(text)] if STRAY.search(text) else []) \
-                        + (["%d px too wide" % over] if over > 0 else [])
-                    R.check("%s: to its result, nothing stray, fits 360 px, console clean" % path, not bad, bad)
+                        + (["%d px too wide" % over] if over > 0 else []) + t.page.evaluate(KEYS_JS, m)["bad"]
+                    R.check("%s: to its result, nothing stray, fits 360 px, no key with a border, console clean" % path,
+                            not bad, bad)
                 except Exception as e:
                     R.check("%s: to its result" % path, False, "%s: %s" % (type(e).__name__, str(e).splitlines()[0]))
                 t.close()
@@ -1243,7 +1891,7 @@ def group_firefox(srv, site, onsets):
             U, C = pd["strings"]["sing-in-tune-test"], pd["strings"]["common"]
             mark = len(ff.lines)
             ff.go(srv.origin + path)
-            ff.wait("document.querySelector('.chip[data-mode=\"tuner\"]')")
+            ff.wait("document.querySelector('.seg[data-mode=\"tuner\"]')")
             ff.click("//button[@data-mode='tuner']")
             ff.click("//div[contains(@class,'tool-panel__state--idle') and not(@hidden)]//button[normalize-space()=%s]"
                      % json.dumps(C["start"]))
@@ -1252,7 +1900,7 @@ def group_firefox(srv, site, onsets):
                            " return n && n.textContent.trim() === %s ? n.textContent : null; })()"
                            % json.dumps(pd["notes"]["83"][0]), timeout=20)
             time.sleep(2.0)
-            readout = ff.js("const p = document.querySelector('.tool-panel__state--run:not([hidden]) .note-target + .pitch-trail + p');"
+            readout = ff.js("const p = document.querySelector('.tool-panel__state--run:not([hidden]) .st-readout__main');"
                             " return p ? p.textContent : null") or ""
             unit = U["units"]["cents"]["other"].replace("{n}", r"(\d+)")
             m = re.match("^%s$" % U["offset"]["high"].replace("{cents}", unit), readout)
@@ -1272,10 +1920,10 @@ def group_firefox(srv, site, onsets):
             ff.js("window.__ev = []; document.querySelector('[data-tool=\"player\"]').addEventListener('scalita:player',"
                   " (e) => window.__ev.push(e.detail));")
             ff.click("//button[@data-voice='soprano']")
-            ff.click("//div[@data-tool='player']//button[contains(@class,'btn-primary')]")
+            ff.click("//div[@data-tool='player']//button[contains(@class,'btn--fill')]")
             notes = ff.wait("window.__ev.filter((e) => e.type === 'note').length >= 4", timeout=30)
             first = ff.js("return window.__ev.filter((e) => e.type === 'key').map((e) => e.root)")
-            ff.click("//div[@data-tool='player']//button[contains(@class,'btn-primary')]")
+            ff.click("//div[@data-tool='player']//button[contains(@class,'btn--fill')]")
             want = data("scales.json")
             want = next(s for s in want if s["id"] == "five_note")["presets"]["soprano"]["roots"]
             audio = srv.since(t0, "/audio/")
@@ -1362,9 +2010,9 @@ def group_webkit(srv, site, onsets):
 # ---------------------------------------------------------------------------
 
 
-UNIT = ["parity", "piano", "scheduler", "player", "range-test", "sing-in-tune"]
+UNIT = ["parity", "piano", "scheduler", "player", "range-test", "sing-in-tune", "share"]
 PER_TOOL = ["range-test/e2e.py", "sing-in-tune/e2e.py", "player/smoke.py", "piano/smoke_test.py", "piano/samples_test.py",
-            "parity/fakemic.py"]
+            "parity/fakemic.py", "share/e2e.py"]
 
 
 def run_unit_suites():
@@ -1417,6 +2065,7 @@ def main():
                     "links": lambda: group_links(srv, urls) if urls else R.skip("needs the pages group"),
                     "notfound": lambda: group_notfound(p, srv, site),
                     "langbar": lambda: group_langbar(p, srv, site),
+                    "chrome": lambda: group_chrome(p, srv, site),
                     "decode": lambda: group_decode(p, srv, site, onsets),
                     "range": lambda: group_range(p, srv, site),
                     "tune": lambda: group_tune(p, srv, site),

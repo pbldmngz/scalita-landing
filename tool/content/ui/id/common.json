@@ -2,7 +2,7 @@
   "start": "Mulai",
   "stop": "Berhenti",
   "listening": "Mendengarkan...",
-  "tooQuiet": "Terlalu pelan. Bernyanyilah sedikit lebih keras, atau dekatkan dirimu ke mikrofon.",
+  "tooQuiet": "Terlalu pelan. Bernyanyi sedikit lebih keras, atau dekati mikrofon.",
   "allow": "Izinkan mikrofon saat browser memintanya.",
   "result": "Hasilmu",
   "share": "Bagikan",
@@ -19,5 +19,15 @@
   "copyLink": "Salin tautan",
   "copied": "Tautan disalin",
   "privacyLine": "Tidak ada yang direkam atau dikirim. Browser-mu mendengarkan di perangkatmu sendiri, dan mikrofon mati saat kamu menekan Berhenti.",
-  "noScript": "Alat ini butuh JavaScript. Bagian lain halaman ini tetap bisa dipakai tanpanya."
+  "noScript": "Alat ini butuh JavaScript. Bagian lain halaman ini tetap bisa dipakai tanpanya.",
+  "nothingSent": "Tidak ada yang direkam atau dikirim.",
+  "micOn": "Mikrofon aktif",
+  "micOff": "Mikrofon mati",
+  "level": "Level",
+  "levelGood": "Pas",
+  "levelLow": "Pelan",
+  "levelLoud": "Keras",
+  "pitchTrail": "Jejak nada",
+  "hz": "{hz} Hz",
+  "refPitch": "Ref. {note} = 440 Hz"
 }

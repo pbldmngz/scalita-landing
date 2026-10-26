@@ -129,7 +129,7 @@ test('strings: placeholders are the ones the scripts fill', () => {
 });
 
 test('strings and code: no em dash, no verdict', () => {
-  const files = ['js/tools/player.js', 'js/tools/voice-break.js', 'js/tools/voice-break-finder.js', 'js/audio/scheduler.js',
+  const files = ['js/tools/player.js', 'js/tools/voice-break.js', 'js/tools/voice-break-finder.js', 'js/audio/scheduler.js', 'js/audio/scheduler-play.js',
     'tool/content/ui/en/player.json', 'tool/content/ui/en/voice-break-finder.json'];
   const dash = String.fromCharCode(0x2014);
   for (const f of files) assert.ok(!read(f).includes(dash), f);
@@ -143,8 +143,9 @@ test('budget: what a page loads before the first tap stays under 15 KB gzipped',
   const finder = gz('js/tools/voice-break-finder.js') + gz('js/tools/voice-break.js');
   assert.ok(player < 15 * 1024, `player ${player}`);
   assert.ok(finder < 15 * 1024, `finder ${finder}`);
-  // piano.js is imported on the first tap, never before
+  // piano.js and the scheduler's play half are imported on the first tap, never before
   for (const f of ['js/tools/player.js', 'js/tools/voice-break.js']) {
     assert.ok(!/^import .*piano\.js/m.test(read(f)), `${f} imports piano.js up front`);
+    assert.ok(!/^import .*scheduler-play\.js/m.test(read(f)), `${f} imports scheduler-play.js up front`);
   }
 });

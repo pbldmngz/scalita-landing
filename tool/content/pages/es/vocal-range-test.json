@@ -5,14 +5,18 @@
   "description": "Canta o tararea tu nota más grave y la más aguda, y mira tu rango vocal en notas y octavas, con los tipos de voz en los que es típico. Gratis, en tu navegador.",
   "h1": "Test de rango vocal",
   "lead": "Canta o tararea tu nota más grave cómoda y luego la más aguda. En más o menos un minuto verás tu rango en notas y octavas, y los tipos de voz en los que ese rango es típico.",
+  "tile": "Tu nota más grave y la más aguda, en más o menos un minuto.",
+  "oneLine": "Canta tu nota más grave, luego la más aguda. Más o menos un minuto.",
+  "appBand": "Tu rango es lo primero que configuras en Scalita. A partir de ahí, cada calentamiento empieza y termina donde lo hace tu voz, con un piano real, sin conexión y sin cuenta.",
+  "referenceHeading": "Sobre el test",
   "toolId": "vocal-range-test",
   "instructions": "<h2>Cómo hacer el test</h2><ol><li>Pulsa Empezar y permite el micrófono cuando el navegador te lo pida.</li><li>Canta o tararea tu nota más grave cómoda con una vocal fácil, como “a” u “o”. Baja despacio hasta encontrar el fondo y mantén esa nota un segundo o dos, hasta que quede fijada.</li><li>Sube a tu nota más aguda cómoda y mantenla de la misma manera.</li><li>Lee tu resultado. Desde ahí puedes escuchar tu rango en el piano o pasar a buscar tu quiebre vocal.</li></ol><p>Cómoda quiere decir una nota que podrías usar en una canción, no una que apenas logras sacar. Usa el micrófono del propio teléfono en una habitación tranquila y, si puedes, calienta unos minutos antes. Una voz fría suele dar un rango más estrecho.</p>",
   "sampleResult": "<h2>Cómo se ve un resultado</h2><p>Supongamos que cantas desde {{note:G3}} hasta {{note:F5}}. Tu resultado dice:</p><ul><li>Nota más grave: {{note:G3}}; nota más aguda: {{note:F5}}</li><li>22 semitonos, cerca de 1,8 octavas</li><li>Típico de contralto o mezzosoprano</li></ul><p>Debajo aparecen dos recordatorios de la app Scalita: tu rango puede cambiar con el calentamiento, el entrenamiento y la hora del día, y tu quiebre vocal es una guía más confiable del tipo de voz. Si ya hiciste el test antes en este navegador, también aparece tu último resultado, y puedes guardar el resultado como imagen o compartirlo.</p>",
-  "notClaimed": "<h2>Lo que este test no te dice</h2><p>No te dice si tu voz es buena, y no decide tu tipo de voz. Los profesores tienen en cuenta cuatro cosas al clasificar una voz: su rango, dónde se siente cómoda la mayor parte del tiempo, su color y dónde cambia. Este test mide la primera. El <a href=\"page:voice-break-finder\">test de pasaje vocal</a> ayuda con la última.</p><p>El rango que muestra es el rango en el que cantas. Si tu lectura más grave es un vocal fry rasposo, o la más aguda una nota fina de silbido por encima de tu voz de cabeza, el resultado lo marca, para que puedas distinguirlo de las notas con las que cantas.</p>",
+  "notClaimed": "<h2>Lo que este test no te dice</h2><p>No te dice si tu voz es buena, y no decide tu tipo de voz. Los profesores tienen en cuenta cuatro cosas al clasificar una voz: su rango, dónde se siente cómoda la mayor parte del tiempo, su color y dónde cambia. Este test mide la primera. El <a href=\"page:voice-break-finder\">test de quiebre vocal</a> ayuda con la última.</p><p>El rango que muestra es el rango en el que cantas. Si tu lectura más grave es un vocal fry rasposo, o la más aguda una nota fina de silbido por encima de tu voz de cabeza, el resultado lo marca, para que puedas distinguirlo de las notas con las que cantas.</p>",
   "sections": [
     {
       "heading": "Qué mide el test",
-      "html": "<p>Tu rango vocal es el tramo de notas que va desde la más grave que puedes cantar con comodidad hasta la más aguda. El test encuentra los dos extremos con tu voz y cuenta la distancia entre ellos en semitonos, el paso de una tecla del piano a la siguiente, y en octavas de doce semitonos. El do central es {{note:C4}}.</p><p>Después compara el centro de tu rango con los tipos de voz de la tabla de Scalita y nombra el más cercano, o los dos más cercanos cuando están casi empatados. Cada tipo de la tabla abarca dos octavas, desde la voz de bajo, de {{note:F2}} a {{note:F4}}, hasta la de soprano, de {{note:C4}} a {{note:C6}}.</p>"
+      "html": "<p>Tu rango vocal es el tramo de notas que va desde la más grave que puedes cantar con comodidad hasta la más aguda. El test encuentra los dos extremos con tu voz y cuenta la distancia entre ellos en semitonos, el paso de una tecla del piano a la siguiente, y en octavas de doce semitonos. El do central es {{note:C4}}.</p><p>Después compara el centro de tu rango con los tipos de voz de la tabla de Scalita y nombra el más cercano, o los dos más cercanos cuando están casi empatados. Cada tipo de la tabla abarca dos octavas, desde la voz de bajo, de {{note:E2}} a {{note:E4}}, hasta la de soprano, de {{note:C4}} a {{note:C6}}.</p>"
     },
     {
       "heading": "Cómo funciona",
@@ -23,12 +27,13 @@
       "html": "<ul><li>Calienta unos minutos antes. Basta con tararear un poco o con unas escalas fáciles en el <a href=\"page:warm-up-piano\">piano para vocalizar</a>.</li><li>Busca una habitación tranquila y usa el micrófono del propio teléfono. Los auriculares Bluetooth pasan a un micrófono de llamada que oye mucho menos.</li><li>Usa una vocal fácil y un volumen medio. Una nota aguda gritada o una grave susurrada cuesta más de leer.</li><li>Hazlo dos veces. Dos resultados a una o dos notas de distancia te dan una idea fiel de tu rango de hoy.</li></ul>"
     },
     {
+      "id": "keyboard",
       "heading": "Si el micrófono no funciona",
-      "html": "<ul><li><strong>¿Lo abriste desde Instagram, TikTok, Facebook o Gmail?</strong> Sus navegadores integrados bloquean el micrófono. Usa el menú de la app para abrir esta página en Chrome o Safari.</li><li><strong>¿Pulsaste Bloquear sin querer?</strong> Permite el micrófono en la configuración del sitio, normalmente en el icono que hay junto a la dirección, y vuelve a cargar la página.</li><li><strong>¿Otra app lo está usando?</strong> Termina la llamada o cierra la app de grabación, y pulsa Empezar otra vez.</li><li><strong>¿El nivel sigue bajo?</strong> Canta un poco más fuerte o acércate. Con el micrófono de una computadora portátil tienes que estar más cerca que con un teléfono.</li><li><strong>¿No tienes micrófono?</strong> Define tu rango a mano: toca notas en el teclado y elige la más grave y la más aguda que puedes cantar.</li></ul>"
+      "html": "<ul><li><strong>¿Lo abriste desde Instagram, TikTok, Facebook o Gmail?</strong> Sus navegadores integrados bloquean el micrófono. Usa el menú de la app para abrir esta página en Chrome o Safari.</li><li><strong>¿Pulsaste Bloquear sin querer?</strong> Permite el micrófono en la configuración del sitio, normalmente en el icono que hay junto a la dirección, y vuelve a cargar la página.</li><li><strong>¿Otra app lo está usando?</strong> Termina la llamada o cierra la app de grabación, y pulsa Empezar otra vez.</li><li><strong>¿El nivel sigue bajo?</strong> Canta un poco más fuerte o acércate. Con el micrófono de un equipo portátil tienes que estar más cerca que con un teléfono.</li><li><strong>¿No tienes micrófono?</strong> Define tu rango a mano: toca notas en el teclado y elige la más grave y la más aguda que puedes cantar.</li></ul>"
     },
     {
       "heading": "Después del test",
-      "html": "<p>Escucha tu resultado en el piano y luego prueba el <a href=\"page:voice-break-finder\">test de pasaje vocal</a> para ver dónde cambia tu voz, o calienta en el <a href=\"page:warm-up-piano\">piano para vocalizar</a> con ejercicios que se ajustan a tu rango. En la app Scalita, tu rango es lo primero que configuras, y a partir de ahí cada ejercicio empieza y termina donde lo hace tu voz.</p>"
+      "html": "<p>Escucha tu resultado en el piano y luego prueba el <a href=\"page:voice-break-finder\">test de quiebre vocal</a> para ver dónde cambia tu voz, o calienta en el <a href=\"page:warm-up-piano\">piano para vocalizar</a> con ejercicios que se ajustan a tu rango. En la app Scalita, tu rango es lo primero que configuras, y a partir de ahí cada ejercicio empieza y termina donde lo hace tu voz.</p>"
     }
   ],
   "faq": [
@@ -38,7 +43,7 @@
     },
     {
       "q": "¿Qué tipo de voz tengo?",
-      "a": "<p>Tu resultado nombra los tipos de voz en los que tu rango es típico. Tómalo como un punto de partida, no como una etiqueta. El <a href=\"page:voice-break-finder\">test de pasaje vocal</a> añade dónde cambia tu voz, y la <a href=\"page:voice-types\">guía de tipos de voz</a> explica qué más escuchan los profesores.</p>"
+      "a": "<p>Tu resultado nombra los tipos de voz en los que tu rango es típico. Tómalo como un punto de partida, no como una etiqueta. El <a href=\"page:voice-break-finder\">test de quiebre vocal</a> añade dónde cambia tu voz, y la <a href=\"page:voice-types\">guía de tipos de voz</a> explica qué más escuchan los profesores.</p>"
     },
     {
       "q": "¿Existe un rango vocal normal?",

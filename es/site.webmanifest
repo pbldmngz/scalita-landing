@@ -1,0 +1,81 @@
+{
+  "id": "/es/herramientas/",
+  "name": "Scalita",
+  "short_name": "Scalita",
+  "description": "Cuatro herramientas gratis para cantantes que funcionan en el navegador: test de rango vocal, test de afinación, piano para vocalizar y test de quiebre vocal.",
+  "lang": "es",
+  "dir": "ltr",
+  "start_url": "/es/herramientas/",
+  "scope": "/es/",
+  "display": "standalone",
+  "background_color": "#1E2628",
+  "theme_color": "#1E2628",
+  "icons": [
+    {
+      "src": "/images/logo_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/maskable_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Test de rango vocal",
+      "short_name": "Rango",
+      "url": "/es/herramientas/test-de-rango-vocal/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Test de afinación",
+      "short_name": "Afinación",
+      "url": "/es/herramientas/test-de-afinacion-vocal/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Piano para vocalizar",
+      "short_name": "Piano",
+      "url": "/es/herramientas/piano-para-vocalizar/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Test de quiebre vocal",
+      "short_name": "Quiebre",
+      "url": "/es/herramientas/test-de-pasaje-vocal/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

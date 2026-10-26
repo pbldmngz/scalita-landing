@@ -5,6 +5,10 @@
   "description": "Escalas y rutinas de calentamiento vocal con un piano real, tocadas en tu rango: elige un tipo de voz o tus propias notas más grave y más aguda. Gratis.",
   "h1": "Piano para vocalizar",
   "lead": "Un video de calentamiento se graba en unas tonalidades fijas. Este piano toca las escalas y rutinas de Scalita en las tuyas: elige un tipo de voz o tus propias notas más grave y más aguda, y pulsa Reproducir.",
+  "tile": "Escalas y rutinas de la app, en tu rango.",
+  "oneLine": "Elige un tipo de voz o tu propio rango y pulsa Reproducir.",
+  "appBand": "Scalita toca las 21 escalas y las 15 rutinas en tu rango, lo recuerda y, con auriculares puestos, puntúa cada escala. Sin conexión, sin anuncios y sin cuenta.",
+  "referenceHeading": "Sobre el piano",
   "toolId": "player",
   "instructions": "<h2>Cómo se usa</h2><ol><li>Elige un tipo de voz o define tus propias notas más grave y más aguda. Si no las conoces, el <a href=\"page:vocal-range-test\">test de rango vocal</a> las encuentra en más o menos un minuto.</li><li>Elige una escala o una rutina. Antes de empezar ves el patrón, la sílaba que hay que cantar, el tempo y el estilo.</li><li>Pulsa Reproducir y canta con el piano. Antes de cada tonalidad nueva hay un momento para respirar y un acorde corto que la prepara.</li><li>Pulsa Detener cuando quieras.</li></ol><p>El piano no usa el micrófono, y no se descarga nada hasta que pulsas Reproducir.</p>",
   "sampleResult": "<h2>Lo que vas a oír</h2><p>Elige Tenor y la escala 5 Tonos. La primera tonalidad empieza en {{note:D3}}: el piano toca de {{note:D3}} a {{note:A3}} y vuelve a bajar, cinco notas de subida y cuatro de bajada. Cada repetición sube un semitono hasta que la nota más alta del patrón llega a {{note:C5}}. Después las tonalidades vuelven a bajar, por debajo de donde empezaron, hasta que la escala empieza en {{note:C3}}, el fondo del rango de tenor. Son 33 repeticiones, cada una en una tonalidad nueva.</p><p>Si eliges una rutina, como Pre-Presentación Rápido, el piano toca sus ejercicios uno detrás de otro. Con Tenor tarda unos 8 minutos.</p>",
@@ -42,7 +46,7 @@
     },
     {
       "q": "¿Funciona en el teléfono?",
-      "a": "<p>Sí, en un navegador reciente, en un teléfono o en una computadora. En un iPhone, si no oyes nada, comprueba que el interruptor de silencio no esté activado.</p>"
+      "a": "<p>Sí, en un navegador reciente, de teléfono o de escritorio. En un iPhone, si no oyes nada, comprueba que el interruptor de silencio no esté activado.</p>"
     }
   ],
   "sources": [

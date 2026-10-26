@@ -1,9 +1,9 @@
 {
   "modes": {
     "label": "Mod",
-    "sing": "Bu notayı söyle",
+    "sing": "Notayı söyle",
     "tuner": "Serbest akort",
-    "ear": "Dinleme kontrolü"
+    "ear": "Dinleme testi"
   },
   "intro": {
     "sing": "Piyano bir nota çalar. Sonra mikrofon açılır ve sen o notayı herhangi bir ünlüyle ya da mırıldanarak geri söylersin. Beş nota, tek tek.",
@@ -65,7 +65,8 @@
     "ctaButton": "Scalita'yı Google Play'den indir"
   },
   "tuner": {
-    "hint": "Herhangi bir notayı söyle ya da mırıldan."
+    "hint": "Herhangi bir notayı söyle ya da mırıldan.",
+    "nearest": "En yakın nota"
   },
   "ear": {
     "label": "Daha tiz mi, daha pes mi",
@@ -82,5 +83,22 @@
     "toSing": "Bir notayı geri söyle"
   },
   "meter": "Mikrofon seviyesi",
-  "pianoFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene."
+  "pianoFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene.",
+  "pianoPlayed": "Piyanonun notası",
+  "cents": "Sent",
+  "share": {
+    "title": "Entonasyonum",
+    "cents": "sent",
+    "typical": "Notadan tipik sapma, {n} nota üzerinden",
+    "within10": "{total} notanın {n} tanesi 10 sent içinde",
+    "within25": "{total} notanın {n} tanesi 25 sent içinde",
+    "wobble": "Salınım {cents}",
+    "bandClose": "25 sent içinde",
+    "bandIn": "10 sent içinde",
+    "theNote": "nota",
+    "lines": "Her çizgi, bir notaya oturan kendi sesim. 100 sent bir yarım ses eder.",
+    "ask": "Sen ne kadar yaklaşabilirsin?",
+    "text": "{n} notada tipik sapmam {cents} oldu. Seninkini tarayıcında ücretsiz test edebilirsin:",
+    "fileName": "entonasyonum"
+  }
 }

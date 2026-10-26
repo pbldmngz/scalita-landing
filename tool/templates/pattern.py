@@ -6,11 +6,11 @@ up then down without repeating the top note, as
 PlaybackEngine.generateScaleNotes does): its degrees, its notes from
 EXAMPLE_ROOT in the locale's notation with the international names under
 them, the movable-do syllables of the locale where every degree is natural,
-and a keyboard; the player for the scale, with the piano credit; the copy's
-sections; the syllables Scalita pairs it with, counted over the built-in
-routines' steps; the routines that use it; the copy's local box (a callout,
-only where the copy has one); FAQ; call to action; related pages; sources;
-byline.
+and a keyboard, together in one figure (.gd-pattern in css/guides.css); the
+player for the scale, with the piano credit; the copy's sections; the
+syllables Scalita pairs it with, counted over the built-in routines' steps;
+the routines that use it; the copy's local box (a callout, only where the
+copy has one); FAQ; call to action; related pages; sources; byline.
 """
 
 import _parts as p
@@ -18,6 +18,7 @@ import _parts as p
 EXAMPLE_ROOT = 60   # middle C
 MOST_PAIRED = 8     # syllables listed, most used first
 REST = -1000
+CSS = ["guides.css"]
 
 
 def played(intervals, direction):
@@ -51,7 +52,7 @@ def pattern(ctx, scale):
     if keys:
         kb = "\n" + p.keyboard(ctx, min(keys), max(keys), rng=(min(keys), max(keys)), aria=" ".join(locs),
                                labels="white")
-    return p.table(None, rows) + kb
+    return '<div class="gd-pattern">\n%s%s\n</div>' % (p.table(None, rows), kb)
 
 
 def pairings(ctx, scale_id):
@@ -88,4 +89,4 @@ def render(ctx):
     ]
     related = [p.page_for(ctx, "routine", r) for r in using] + p.exercise_pages_for(ctx, syllables)
     related += ["warm-up-piano", "note-names-octaves", "vocal-range-test"]
-    return p.result(p.finish(ctx, blocks, related), {"main": scale})
+    return dict(p.result(p.finish(ctx, blocks, related), {"main": scale}), css=CSS)

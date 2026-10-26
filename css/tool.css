@@ -1,0 +1,170 @@
+/* The tool page shell (tool/templates/tool.py, spec 3.7). The components
+   inside it are style.css's. */
+
+.tp-wrap { max-width: 1184px; margin: 0 auto; padding: 0 32px; }
+.tp-wrap > .breadcrumb { margin-top: 10px; }
+.tp-wrap > .breadcrumb .container { max-width: none; padding: 0; }
+html[data-fs="on"] .tp-wrap { max-width: none; padding: 0; }
+
+.tp-title {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+  padding-top: 6px;
+}
+.tp-title h1 { margin: 0; font-size: 36px; font-weight: 300; line-height: 1.15; letter-spacing: -.02em; }
+.tp-line { margin: 6px 0 0; font-size: 16px; line-height: 1.5; color: var(--soft); }
+
+.tp-under {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 16px;
+}
+.tp-how { max-width: 760px; }
+/* the slot a tool's script fills */
+.tp-side { display: flex; align-items: center; gap: 8px; min-height: 44px; font-size: 14px; color: var(--soft); }
+.tp-side:empty, .tp-side[hidden] { display: none; }
+.tp-under + .band { margin-top: 48px; }
+
+/* -------------------------------------------------------- reference --- */
+
+.tp-ref {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 300px;
+  column-gap: 72px;
+  align-items: start;
+  margin-top: 80px;
+}
+.tp-ref__main, .tp-ref__end { grid-column: 1; max-width: 720px; }
+.tp-aside {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  position: sticky;
+  top: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.tp-ref [id] { scroll-margin-top: 88px; }
+
+.tp-kicker, .tp-ref .sources h3 {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  color: var(--seafoam);
+}
+.tp-ref__head h2 { margin: 0 0 8px; font-size: 28px; font-weight: 300; line-height: 1.2; letter-spacing: -.02em; }
+.tp-reviewed { margin: 0 0 36px; font-size: 13px; color: var(--soft); }
+.tp-lead, .tp-ref .acc__body { font-size: 15px; line-height: 1.7; color: var(--soft); }
+.tp-lead { margin: 0 0 32px; }
+.tp-ref .acc__body > *, .tp-ref .result-card--sample > * { margin: 0 0 12px; }
+.tp-ref .acc__body > :last-child, .tp-ref .result-card--sample > :last-child { margin-bottom: 0; }
+.tp-ref .acc__body ul, .tp-ref .acc__body ol { padding-left: 20px; }
+.tp-ref h3, .tp-ref h4 { margin: 0; color: var(--cream); }
+.tp-aside .tp-kicker { margin-bottom: 10px; }
+.tp-ref strong, .tp-qa dt { font-weight: 500; color: var(--cream); }
+
+.tp-qa { display: grid; gap: 12px; }
+.tp-qa dt, .tp-qa dd { font-size: 14px; line-height: 1.6; }
+.tp-qa dd { margin: 2px 0 0; }
+
+.tp-next { display: flex; flex-wrap: wrap; gap: 10px; }
+
+.tp-ref .faq > h3 { margin-bottom: 6px; font-size: 22px; font-weight: 300; letter-spacing: -.01em; }
+.tp-ref .faq h4 { font-size: 15px; font-weight: 500; line-height: 1.35; }
+
+.tp-aside ul { list-style: none; margin: 0; padding: 0; }
+.tp-guides ul { border-top: 1px solid var(--mist); }
+.tp-guides .aside__row { border-top: 0; border-bottom: 1px solid var(--mist); }
+.tp-all {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 44px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--glow);
+  text-decoration: none;
+}
+.tp-all:hover { color: var(--cream); }
+.tp-tools ul { display: flex; flex-direction: column; gap: 8px; }
+.tp-tools .row__title, .tp-tools .row__line { display: block; }
+
+.tp-ref__end .sources { margin-top: 40px; }
+.tp-ref__end .byline { margin-top: 28px; }
+
+/* Wider than a phone the reference blocks are prose (js/site/chrome.js
+   keeps them open and their headings out of the tab order). */
+@media (min-width: 600px) {
+  .tp-ref .tp-fold { margin: 0 0 32px; border: 0; }
+  .tp-ref .tp-fold > .acc__head { display: block; min-height: 0; margin: 0 0 10px; padding: 0; pointer-events: none; cursor: auto; }
+  .tp-ref .tp-fold > .acc__head .acc__chev { display: none; }
+  .tp-ref .tp-fold > .acc__body { padding: 0; }
+  .tp-fold h3 { font-size: 19px; font-weight: 500; line-height: 1.3; }
+  .tp-next { margin: -18px 0 48px; }
+  .tp-qa { grid-template-columns: 1fr 1fr; gap: 14px 28px; }
+  .tp-ref .acc__body > :is(ul, ol) { gap: 6px; }
+  .tp-ref .faq .acc__body { font-size: 14px; line-height: 1.65; }
+}
+
+@media (max-width: 959.98px) {
+  .tp-fs { display: none; }
+}
+
+@media (max-width: 959.98px) {
+  .tp-ref { grid-template-columns: minmax(0, 1fr); }
+  .tp-aside { grid-column: 1; grid-row: auto; position: static; max-width: 720px; margin-top: 48px; }
+}
+
+/* Phones: accordions, guide chips; the tab bar has the other tools. */
+@media (max-width: 599.98px) {
+  .tp-wrap { padding: 0 16px; }
+  .tp-wrap > .breadcrumb { margin-top: 8px; }
+  .tp-title { padding: 0; }
+  .tp-title h1 { margin-top: 6px; font-size: 24px; font-weight: 400; line-height: 1.25; letter-spacing: -.01em; }
+  .tp-line { display: none; }
+  .tp-under { display: block; margin-top: 20px; }
+  .tp-how { max-width: none; }
+  .tp-under + .band { margin-top: 20px; }
+
+  .tp-ref { margin-top: 28px; }
+  .tp-ref [id] { scroll-margin-top: 16px; }
+  .tp-ref__head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 10px; }
+  .tp-ref__head .tp-kicker { margin: 0; }
+  .tp-ref__head h2 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .tp-reviewed { margin: 0; font-size: 12px; }
+  .tp-lead, .tp-ref .acc__body { line-height: 1.6; }
+  .tp-lead { margin-bottom: 16px; }
+  .tp-fold h3 { font-size: 16px; font-weight: 500; line-height: 1.3; }
+  .tp-ref__main > .tp-fold:last-of-type, .tp-ref .faq > details:last-child { border-bottom: 1px solid var(--mist); }
+  .tp-next { margin-top: 20px; }
+  .tp-qa dt, .tp-qa dd { font-size: 15px; }
+  .tp-ref .faq { margin-top: 32px; }
+  .tp-ref .faq > h3 { margin-bottom: 4px; font-size: 20px; font-weight: 400; letter-spacing: 0; }
+
+  .tp-aside { margin-top: 32px; }
+  .tp-guides h3 { margin-bottom: 12px; font-size: 20px; font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--cream); }
+  .tp-guides ul { display: flex; flex-wrap: wrap; gap: 8px; border: 0; }
+  .tp-guides .aside__row, .tp-all {
+    display: inline-flex;
+    min-height: 44px;
+    padding: 0 14px;
+    border: 1px solid var(--mist);
+    border-radius: 999px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .tp-guides .aside__row { color: var(--soft); }
+  .tp-guides .aside__row svg { display: none; }
+  .tp-all { color: var(--seafoam); }
+  .tp-tools { display: none; }
+  .tp-ref__end .sources { margin-top: 28px; }
+  .tp-ref__end .byline { margin-top: 24px; }
+}

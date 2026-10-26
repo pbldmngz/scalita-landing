@@ -1,0 +1,198 @@
+/* The chrome, on every page after style.css (whose tokens and shared
+   components it uses): both headers, the phones' menu, the language menu,
+   the tools switcher and tab bar, both footers, and full screen.
+   tool/templates/_chrome.py writes the markup; js/site/chrome.js and
+   fullscreen.js the behaviour; docs/specs/site-redesign-spec.md, 3.1 to 3.5,
+   the layout. Phones and tablets: under 960. */
+
+html { scroll-padding-top: 80px; }
+
+/* ------------------------------------------------------------- header --- */
+
+.site-header { position: sticky; top: 0; z-index: 20; background: var(--scrim); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--hairline); }
+.site-header__in { max-width: var(--w-wide); margin: 0 auto; padding: 0 32px; height: 64px; display: flex; align-items: center; gap: 24px; }
+.site-header--tools .site-header__in { gap: 20px; }
+.site-logo { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; flex: none; color: var(--cream); font-size: 18px; font-weight: 500; letter-spacing: -.01em; text-decoration: none; }
+.site-logo:hover { color: var(--cream); }
+.site-logo svg { flex: none; }
+.site-header__right { display: flex; align-items: center; gap: 12px; margin-left: auto; flex: none; }
+.site-getapp { min-height: 44px; padding: 0 18px; border-radius: var(--r-xs); font-size: 14px; }
+
+/* The landing links: a row here, the menu's sheet on phones. A row too
+   long for its bar scrolls rather than widening the page. */
+.site-nav { min-width: 0; overflow-x: auto; scrollbar-width: none; }
+.site-nav::-webkit-scrollbar, .site-switch::-webkit-scrollbar { display: none; }
+.site-menu { display: flex; align-items: center; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.site-menu__row { display: inline-flex; align-items: center; min-height: 44px; padding: 0 12px; color: var(--soft); font-size: 14px; font-weight: 500; white-space: nowrap; text-decoration: none; }
+.site-menu__row:hover, .site-menu__row[aria-current] { color: var(--cream); }
+.site-menu__row svg, .site-menu__hint, .site-menu__cta, .site-menu__toggle, .i-close { display: none; }
+
+/* The language menu: a <details>, open without a script */
+.lang-menu { position: relative; }
+.lang-menu > summary { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 14px; background: none; border: 1px solid var(--mist); border-radius: var(--r-xs); color: var(--soft); font-size: 14px; font-weight: 500; white-space: nowrap; list-style: none; cursor: pointer; -webkit-user-select: none; user-select: none; transition: border-color .15s, color .15s; }
+.lang-menu > summary::-webkit-details-marker { display: none; }
+.lang-menu > summary:hover, .lang-menu[open] > summary { border-color: var(--ocean); color: var(--cream); }
+.lang-chevron { transition: transform .2s; }
+.lang-menu[open] .lang-chevron { transform: rotate(180deg); }
+.lang-list { position: absolute; top: calc(100% + 8px); right: 0; z-index: 40; min-width: 190px; display: flex; flex-direction: column; padding: 6px; background: var(--surface); border: 1px solid var(--mist); border-radius: var(--r-xs); box-shadow: var(--lift-menu); }
+.lang-list a { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 9px 12px; border-radius: var(--r-thumb); color: var(--soft); font-size: 14px; text-decoration: none; }
+.lang-list a:hover { background: var(--surface-light); color: var(--cream); }
+.lang-list a[aria-current] { color: var(--glow); }
+.lang-list a[aria-current]::after { content: "\2713"; content: "\2713" / ""; }
+
+/* The tools switcher: Home, then the four tools (.seg-group in style.css),
+   one row between the logo and the buttons. A tool shows its tab bar name
+   (nav.tabLabels) until its locale's full names fit the row; the link's
+   aria-label and title keep the full name. The widths below are what the
+   full names need (measured 2026-10-26 in Chromium, the page and full
+   screen) plus 24 px for a classic scrollbar, rounded up; past 1344 px the
+   longer locales get a wider bar. */
+.site-switch { min-width: 0; flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; --full: none; --short: inline; }
+.site-switch .seg--home { padding: 0 14px; }
+.seg__full { display: var(--full); }
+.seg__short { display: var(--short); }
+html:not(:lang(en)) .site-header--tools .site-header__in { max-width: 1600px; }
+@media (min-width: 1040px) { html:is(:lang(en), :lang(tr), :lang(id))[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1090px) { html:lang(de)[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1170px) { html[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1330px) { html:lang(en) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1370px) { html:is(:lang(de), :lang(tr), :lang(id)) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1410px) { html:lang(es) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1470px) { .site-switch { --full: inline; --short: none; } }
+
+/* ----------------------------------------------------------- footers --- */
+
+.site-footer { margin-top: 80px; padding: 0; background: none; border-top: 1px solid var(--hairline); color: var(--soft); font-size: 14px; }
+.site-footer__in { max-width: var(--w-wide); margin: 0 auto; padding: 48px 32px 32px; }
+.site-footer__cols { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1fr 1fr; gap: 32px; }
+.site-footer__brand p { max-width: 300px; margin: 12px 0 0; font-size: 13px; line-height: 1.6; }
+.site-footer h2 { margin: 0 0 8px; color: var(--soft); font-size: 12px; font-weight: 500; line-height: 1.5; letter-spacing: .1em; text-transform: uppercase; }
+.site-footer ul { margin: 0; padding: 0; list-style: none; }
+.site-footer ul + h2 { margin-top: 24px; }
+.site-footer__cols ul a { display: inline-block; min-width: 44px; padding: 6px 0; }
+.site-footer :is(ul, nav) a { color: var(--soft); text-decoration: none; }
+.site-footer :is(ul, nav) a:hover { color: var(--cream); }
+.site-footer__bottom { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--hairline); font-size: 13px; }
+.site-footer__bottom p { margin: 0; }
+
+/* The compact footer: the tools context, and the 404 */
+.site-footer--compact .site-footer__in { max-width: var(--w-tools); padding: 28px 32px 32px; display: flex; flex-direction: column; gap: 14px; }
+.site-footer__row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; }
+.site-logo--sm { gap: 10px; font-size: 16px; }
+.site-footer__nav { display: flex; flex-wrap: wrap; gap: 0 22px; font-size: 13px; }
+.site-footer__nav a { display: inline-flex; align-items: center; min-height: 44px; }
+.site-footer__credit { margin: 0; font-size: 12px; line-height: 1.6; }
+.site-footer--compact .site-footer__bottom { margin-top: 0; padding-top: 14px; }
+
+/* --------------------------------------------------------------- tab bar --- */
+
+.site-tabbar { display: none; }
+
+/* ------------------------------------------------------ full screen --- */
+/* html[data-fs] (js/site/fullscreen.js): the tool and its switcher only */
+
+.site-fs-exit { display: none; }
+
+@media (min-width: 960px) {
+  html[data-fs="on"] :is(.breadcrumb, .tp-title, .tp-under, .tp-ref, .band, .site-footer, .site-header__right, .lang-bar), html[data-fs="on"] main > .credit { display: none; }
+  html[data-fs="on"] .site-header { background: var(--base); -webkit-backdrop-filter: none; backdrop-filter: none; border-bottom: 0; }
+  html[data-fs="on"] .site-header--tools .site-header__in { max-width: none; height: 56px; padding: 0 20px; gap: 16px; }
+  html[data-fs="on"] .site-logo { width: 44px; justify-content: center; }
+  html[data-fs="on"] .site-logo svg { width: 26px; height: 26px; }
+  html[data-fs="on"] .site-logo span, html[data-fs="on"] .seg--home span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  html[data-fs="on"] .site-header--tools .site-switch { padding: 3px; border-radius: var(--r-xs); }
+  html[data-fs="on"] .site-switch .seg { height: 40px; padding: 0 14px; border-radius: 9px; font-size: 13px; }
+  html[data-fs="on"] .site-switch .seg svg { width: 16px; height: 16px; }
+  html[data-fs="on"] .site-switch .seg--home { width: 44px; padding: 0; justify-content: center; }
+  html[data-fs="on"] .site-switch .seg-group__rule { height: 22px; margin: 0 3px; }
+  html[data-fs="on"] .site-fs-exit { display: inline-flex; margin-left: auto; }
+  html[data-fs="on"] .stage { margin: 0 20px; min-height: calc(100vh - 56px); border-bottom: 0; border-radius: var(--r-lg) var(--r-lg) 0 0; }
+}
+
+/* --------------------------------------------- narrower desktops --- */
+
+@media (min-width: 960px) and (max-width: 1099.98px) {
+  .site-header__in { gap: 16px; }
+  .site-menu { gap: 2px; }
+  .site-menu__row { padding: 0 8px; }
+  .site-getapp { padding: 0 14px; }
+}
+
+/* the tools header keeps one row: Home by its icon, no chevron */
+@media (min-width: 960px) and (max-width: 1179.98px) {
+  .site-switch .seg { gap: 6px; padding: 0 10px; }
+  .site-switch .seg--home { width: 44px; padding: 0; }
+  .seg--home span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .site-header--tools .lang-chevron { display: none; }
+}
+
+/* ----------------------------------------------- phones and tablets --- */
+
+@media (max-width: 959.98px) {
+  html { scroll-padding-top: 72px; }
+  .site-header__in { height: 56px; padding: 0 16px; gap: 12px; }
+  .site-logo { gap: 8px; font-size: 16px; }
+  .site-logo svg { width: 26px; height: 26px; }
+  .site-header__right { gap: 4px; }
+  .site-getapp { display: none; }
+  .lang-menu > summary { gap: 6px; padding: 0 12px; font-size: 13px; }
+  .lang-menu > summary .lang-chevron { display: none; }
+
+  /* The landing menu: a sheet under the bar */
+  .site-menu__toggle { display: inline-flex; align-items: center; justify-content: center; width: 44px; height: 44px; padding: 0; border: 0; border-radius: var(--r-xs); background: none; color: var(--cream); cursor: pointer; }
+  .site-menu__toggle[aria-expanded="true"] .i-menu { display: none; }
+  .site-menu__toggle[aria-expanded="true"] .i-close { display: block; }
+  .site-header:has(.site-menu--open) { background: var(--surface); }
+  .site-menu { display: none; position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: stretch; gap: 0; max-height: calc(100vh - 56px); max-height: calc(100dvh - 56px); overflow-y: auto; padding: 8px 8px 16px; background: var(--surface); border-bottom: 1px solid var(--mist); box-shadow: var(--lift-menu); }
+  .site-menu.site-menu--open { display: flex; }
+  .site-menu__row { display: flex; gap: 14px; min-height: 52px; padding: 0 12px; border-radius: var(--r-sm); color: var(--cream); font-size: 16px; }
+  .site-menu__row:hover { background: var(--surface-light); }
+  .site-menu__row svg { display: block; flex: none; color: var(--seafoam); }
+  .site-menu__hint { display: block; margin-left: auto; padding-left: 12px; color: var(--soft); font-size: 12px; font-weight: 400; }
+  .site-menu__cta { display: block; margin: 8px 8px 0; }
+  .site-menu__cta .btn { width: 100%; min-height: 52px; border-radius: var(--r-sm); font-size: 15px; }
+
+  /* The tools context: a bar that scrolls away, and the tab bar */
+  html:has(.site--tools) { scroll-padding-top: 16px; }
+  .site-header--tools { position: static; background: none; -webkit-backdrop-filter: none; backdrop-filter: none; border-bottom: 0; }
+  .site-header--tools .site-header__in { height: auto; min-height: 44px; padding: 8px 16px 0; }
+  .site-header--tools .site-switch { display: none; }
+  .site-tabbar { position: fixed; top: auto; left: 16px; right: 16px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); z-index: 30; display: flex; max-width: 560px; height: 72px; margin: 0 auto; padding: 6px; background: var(--surface); border: 1px solid var(--mist); border-radius: var(--r-lg); box-shadow: var(--lift-bar); }
+  .site-tab { flex: 1 1 0; min-width: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; border-radius: var(--r); color: var(--soft); font-size: 11px; font-weight: 500; line-height: 1.3; text-decoration: none; }
+  .site-tab span { max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .site-tab svg { stroke: var(--slate); }
+  .site-tab:hover { color: var(--cream); }
+  .site-tab[aria-current] { background: var(--surface-light); color: var(--glow); box-shadow: var(--glow-tab); }
+  .site-tab[aria-current] svg { stroke: currentColor; }
+  .site--tools { padding-bottom: calc(104px + env(safe-area-inset-bottom, 0px)); }
+  .site--tools .lang-bar { bottom: calc(104px + env(safe-area-inset-bottom, 0px)); }
+  body.site--tools:has(.lang-bar:not([hidden])) { padding-bottom: calc(164px + env(safe-area-inset-bottom, 0px)); }
+  .site--tools .site-footer__home { display: none; }
+
+  .site-footer__cols { grid-template-columns: 1fr 1fr; }
+}
+
+@media (max-width: 599.98px) {
+  .site-footer { margin-top: 48px; }
+  .site-footer__in { padding: 32px 16px 28px; }
+  .site-footer__cols { grid-template-columns: 1fr 1fr; gap: 24px 16px; }
+  .site-footer__brand { grid-column: 1 / -1; }
+  .site-footer--compact { margin-top: 40px; }
+  .site-footer--compact .site-footer__in { padding: 12px 16px 24px; }
+  .site-footer--compact .site-logo { display: none; }
+  .site-footer__nav { gap: 0 20px; font-size: 14px; }
+  .site-footer--compact .site-footer__bottom { flex-direction: column; gap: 4px; font-size: 12px; }
+}
+
+/* the narrowest phones: the longest tab names keep whole */
+@media (max-width: 359.98px) {
+  .site-tab { font-size: 10px; }
+}
+
+@media (pointer: coarse) {
+  .site-footer__cols ul a { display: inline-flex; align-items: center; min-height: 44px; padding: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lang-menu > summary, .lang-chevron { transition: none; }
+}

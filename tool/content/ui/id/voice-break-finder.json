@@ -1,9 +1,5 @@
 {
   "intro": "Saat naik makin tinggi, ada titik di mana suaramu seperti mau pecah atau berpindah, seperti pindah gigi. Itulah peralihan registermu. Piano memainkan nada yang makin tinggi, satu nada setiap dua detik. Ikut bernyanyi, lalu tekan tombolnya saat kamu merasakan perpindahan itu.",
-  "whatToListenFor": "Yang perlu diperhatikan:",
-  "voiceWantsToCrack": "Suaramu seperti mau pecah atau putus",
-  "suddenlyNeedMoreEffort": "Tiba-tiba butuh usaha lebih untuk naik",
-  "voiceFlipsToLighterSound": "Suaramu berpindah ke suara yang lebih ringan dan berangin",
   "letsGo": "Ayo mulai",
   "lastResult": "Terakhir kali: {note}, paling mendekati {voiceType}",
   "whatDescribesYourVoice": "Mana yang paling menggambarkan suaramu?",
@@ -30,8 +26,6 @@
   "saved": "Disimpan di browser ini, supaya piano latihan vokal bisa menyusun latihannya di sekitar titik itu.",
   "redo": "Coba lagi",
   "useInPiano": "Pemanasan dengan hasil ini",
-  "cta": "Di Scalita, peralihan registermu membentuk latihannya: ada yang berhenti tepat di bawahnya, ada yang melintasinya sekali lalu kembali.",
-  "getApp": "Unduh Scalita di Google Play",
   "noAudio": "Browser ini tidak bisa memutar audio. Coba Chrome, Safari, Firefox, atau Edge versi terbaru.",
   "loadFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi."
 }

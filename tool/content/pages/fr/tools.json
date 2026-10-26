@@ -3,7 +3,9 @@
   "title": "Outils de chant gratuits dans ton navigateur - Scalita",
   "description": "Quatre outils gratuits pour chanteurs, dans ton navigateur : un test de tessiture, un test de justesse, un piano pour vocalises et un outil de passage de voix.",
   "h1": "Outils de chant gratuits",
-  "lead": "Trouve ta tessiture, mesure à quel point tu tombes près d'une note, échauffe-toi sur un vrai piano dans tes propres tonalités, et trouve où ta voix change. Pas de compte à créer, et rien de ce que tu chantes ne quitte ton appareil.",
+  "lead": "Quatre outils de l'application, dans ton navigateur. Rien de ce que tu chantes ne quitte ton appareil.",
+  "appBand": "Scalita retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Hors ligne, sans pub, sans compte.",
+  "referenceHeading": "À propos des outils",
   "intro": "<p>Ces quatre outils viennent de Scalita, une application d'échauffement vocal pour Android. Ils reprennent sa détection de hauteur, son piano et ses exercices, et ils tournent dans ton navigateur, sur téléphone ou sur ordinateur.</p><p>Deux règles valent pour tous. Un outil écoute ou joue du piano, jamais les deux à la fois, donc pas besoin de casque. Et quand un outil écoute, c'est ton navigateur qui fait le travail, sur ton appareil : rien n'est enregistré ni envoyé nulle part.</p>",
   "children": [
     "vocal-range-test",

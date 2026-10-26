@@ -3,7 +3,9 @@
   "title": "Free Singing Tools in Your Browser - Scalita",
   "description": "Four free tools for singers that run in your browser: a vocal range test, a sing-in-tune test, a warm-up piano and a voice break finder.",
   "h1": "Free singing tools",
-  "lead": "Find your range, check how close you sing to a note, warm up on a real piano in your own keys, and find where your voice shifts. There's no account to make, and nothing you sing leaves your device.",
+  "lead": "Four from the app, in your browser. Nothing you sing leaves your device.",
+  "appBand": "Scalita remembers your range, plays every exercise on a real piano in your key, and with earphones in it draws your pitch as you sing and scores each scale. Offline, no ads, no account.",
+  "referenceHeading": "About the tools",
   "intro": "<p>These four tools come from Scalita, a vocal warm-up app for Android. They use the app's own pitch reading, its piano and its exercises, and they run in your browser on a phone or a computer.</p><p>Two rules hold for all of them. A tool either listens or plays the piano, never both at once, so you don't need headphones. And when a tool listens, your browser does the work on your device: nothing is recorded or sent anywhere.</p>",
   "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [

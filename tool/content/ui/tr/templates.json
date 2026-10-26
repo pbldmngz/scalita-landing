@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "Nasıl kullanılır",
     "sample": "Örnek bir sonuç",
-    "notClaimed": "Neyi iddia etmiyor"
+    "notClaimed": "Neyi iddia etmiyor",
+    "howItWorks": "Nasıl çalışır",
+    "mic": "Mikrofon",
+    "noMic": "Mikrofonsuz",
+    "next": {
+      "vocal-range-test": "Ses aralığını bul",
+      "sing-in-tune-test": "Notaya ne kadar yaklaştığını gör",
+      "warm-up-piano": "Kendi aralığında ısın",
+      "voice-break-finder": "Geçiş bölgeni bul"
+    }
+  },
+  "reference": {
+    "kicker": "Ayrıntılar",
+    "reviewed": "Gözden geçirildi: {date}",
+    "relatedGuides": "İlgili rehberler",
+    "otherTools": "Diğer üç araç",
+    "guidesWith": "Araçlarla ilgili rehberler",
+    "allGuides": "{n} rehberin hepsi",
+    "newHere": "Yeni misin? Buradan başla",
+    "twoRules": "Hepsi için iki kural"
   },
   "routine": {
     "length": "Ne kadar sürer",
@@ -66,6 +85,9 @@
     "span": "Nerede durur",
     "note": "Bunlar Scalita'nın her ses bölgesini çalıştırdığı aralıklardır. Subharmonikte aralık, dinleyenin duyduğu notalardır."
   },
+  "hub": {
+    "moreGuides": "Diğer rehberler"
+  },
   "intake": {
     "appOnly": "Sadece uygulamada"
   },
@@ -88,5 +110,22 @@
       "francoBelgian": "Fransız-Belçika",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "Ocak",
+      "Şubat",
+      "Mart",
+      "Nisan",
+      "Mayıs",
+      "Haziran",
+      "Temmuz",
+      "Ağustos",
+      "Eylül",
+      "Ekim",
+      "Kasım",
+      "Aralık"
+    ],
+    "pattern": "{d} {month} {y}"
   }
 }

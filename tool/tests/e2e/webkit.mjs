@@ -73,7 +73,7 @@ try {
       const mark = t.requests.length;
       await t.page.selectOption('[data-tool="player"] select', cfg.routine);
       await t.page.click(`[data-tool="player"] .player__preset[data-voice="${cfg.voice}"]`);
-      await t.page.click('[data-tool="player"] .btn-primary');
+      await t.page.click('[data-tool="player"] .btn--fill');
       await t.page.waitForFunction(() => window.__ev.some((e) => e.event === 'scalita:player' && e.type === 'end'), null,
         { timeout: 180000 });
       pl.ended = true;

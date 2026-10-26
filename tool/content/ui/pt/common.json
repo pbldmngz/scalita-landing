@@ -19,5 +19,15 @@
   "copyLink": "Copiar link",
   "copied": "Link copiado",
   "privacyLine": "Nada é gravado nem enviado. O navegador escuta no seu aparelho, e o microfone desliga quando você aperta Parar.",
-  "noScript": "Esta ferramenta precisa de JavaScript. Todo o resto desta página funciona sem ele."
+  "noScript": "Esta ferramenta precisa de JavaScript. Todo o resto desta página funciona sem ele.",
+  "nothingSent": "Nada é gravado nem enviado.",
+  "micOn": "Mic ligado",
+  "micOff": "Mic desligado",
+  "level": "Nível",
+  "levelGood": "Bom",
+  "levelLow": "Baixo",
+  "levelLoud": "Alto",
+  "pitchTrail": "Traço de afinação",
+  "hz": "{hz} Hz",
+  "refPitch": "Ref. {note} = 440 Hz"
 }

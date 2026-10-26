@@ -159,7 +159,7 @@ def main():
                 check('Enter picks it', page.get_attribute('.player__preset[data-voice="tenor"]', 'aria-pressed') == 'true')
                 for _ in range(8):
                     page.keyboard.press('Tab')
-                    if page.evaluate("document.activeElement.classList.contains('btn-primary')"):
+                    if page.evaluate("document.activeElement.classList.contains('btn--fill')"):
                         break
                 check('Tab reaches Play', page.evaluate("document.activeElement.textContent") == pre['strings']['common']['play'])
                 page.keyboard.press('Enter')
@@ -176,19 +176,19 @@ def main():
                 check('a breathing pause between steps', pauses[:3] == [3, 2, 1] and len(pauses) == 3 * (len(steps) - 1), pauses)
                 got_audio = audio_requests()
                 check('only piano samples were fetched', bool(got_audio) and all(a.startswith('/audio/piano-web/') and a.endswith('.mp3') for a in got_audio), got_audio)
-                check('done, and Play again', page.text_content('.player .btn-primary') == pre['strings']['common']['play'])
+                check('done, and Play again', page.text_content('.player .btn--fill') == pre['strings']['common']['play'])
                 current = page.eval_on_selector_all('.player__steps [aria-current]', 'x => x.length')
                 check('no step left marked after the end', current == 0, current)
 
                 # Stop, mid-way
                 page.evaluate('window.log = []')
-                page.click('.player .btn-primary')
+                page.click('.player .btn--fill')
                 page.wait_for_function("window.log.filter(e => e.type === 'note').length > 20", timeout=30000)
-                page.click('.player .btn-primary')
+                page.click('.player .btn--fill')
                 n = page.evaluate('window.log.length')
                 page.wait_for_timeout(600)
                 check('Stop ends the events', page.evaluate('window.log.length') == n, page.evaluate('window.log.length') - n)
-                check('Stop gives Play back', page.text_content('.player .btn-primary') == pre['strings']['common']['play'])
+                check('Stop gives Play back', page.text_content('.player .btn--fill') == pre['strings']['common']['play'])
                 lit = page.eval_on_selector_all('.player .key--active', 'x => x.length')
                 check('no key left lit', lit == 0, lit)
                 ctx.close()
@@ -207,7 +207,7 @@ def main():
                 page.click('.player__preset[data-voice="custom"]')
                 page.select_option('.player__custom label:nth-of-type(1) select', str(case['input']['rangeLow']))
                 page.select_option('.player__custom label:nth-of-type(2) select', str(case['input']['rangeHigh']))
-                page.click('.player .btn-primary')
+                page.click('.player .btn--fill')
                 page.wait_for_function("window.log.some(e => e.type === 'end')", timeout=60000)
                 log = page.evaluate('window.log')
                 roots = [e['root'] for e in log if e['type'] == 'key']
@@ -238,7 +238,7 @@ def main():
                 page.goto(base + '/finder.html')
                 page.wait_for_selector('[data-tool="voice-break-finder"][data-state="intro"]')
                 check('finder: nothing fetched before the answer', not audio_requests(), audio_requests())
-                page.focus('[data-tool="voice-break-finder"] .btn-primary')
+                page.focus('[data-tool="voice-break-finder"] .btn--fill')
                 page.keyboard.press('Enter')
                 page.wait_for_selector('[data-state="voice"]')
                 page.keyboard.press('Enter')  # focus is on Lower voice

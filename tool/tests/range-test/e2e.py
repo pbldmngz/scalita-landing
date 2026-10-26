@@ -74,10 +74,10 @@ document.addEventListener('DOMContentLoaded', () => {
 RESULT = """() => {
   const el = document.querySelector('[data-tool] .tool-panel__state--result');
   const q = (s) => [...el.querySelectorAll(s)].map((x) => x.textContent);
-  const a = el.querySelector('.callout a');
+  const a = el.querySelector('.result__cta a');
   return { value: q('.result-card__value')[0], dt: q('.result-card__facts dt'), dd: q('.result-card__facts dd'),
-    notes: q('.result-card .result-card__note'), cta: q('.callout p')[0], play: a ? a.getAttribute('href') : null,
-    copy: !!el.querySelector('.callout button'), keys: el.querySelectorAll('.keyboard .key--range').length };
+    notes: q('.result-card .result-card__note'), cta: q('.result__cta p')[0], play: a ? a.getAttribute('href') : null,
+    copy: !!el.querySelector('.result__cta button'), keys: el.querySelectorAll('.keyboard .key--range').length };
 }"""
 
 
@@ -341,7 +341,7 @@ class Run:
                   start() { setTimeout(() => o.onError(code), 0); return Promise.resolve(false); },
                   stop() { return Promise.resolve(); }, settings: null,
                 }) });
-                el.querySelector('.btn-primary').click();
+                el.querySelector('.btn--fill').click();
                 for (let i = 0; i < 100 && el.dataset.state !== 'error'; i++) await new Promise((r) => setTimeout(r, 20));
                 const p = el.querySelector('.tool-panel__error');
                 out[code] = p ? [p.textContent, p.getAttribute('role')] : null;

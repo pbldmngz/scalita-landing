@@ -47,8 +47,10 @@ COMMON_FILLED = ["label", "title", "description", "h1", "lead", "reviewed"]
 # Keys every page of a template has, and those that must not be empty.
 TEMPLATE_KEYS = {
     "hub": ["intro", "children"],
+    "tools_hub": ["intro", "children", "appBand", "referenceHeading"],
     "voice_types_hub": ["intro", "children"],
-    "tool": ["toolId", "instructions", "sampleResult", "notClaimed"],
+    "tool": ["toolId", "instructions", "sampleResult", "notClaimed", "tile", "oneLine", "appBand",
+             "referenceHeading"],
     "routine": ["routineId", "whyOrder", "whatToFeel", "whenToStop", "next"],
     "exercise": ["syllables", "troubleshooting"],
     "pattern": ["scaleId", "localBox"],
@@ -57,8 +59,10 @@ TEMPLATE_KEYS = {
 }
 FILLED = {
     "hub": ["intro", "children"],
+    "tools_hub": ["intro", "children", "appBand", "referenceHeading"],
     "voice_types_hub": ["intro", "children", "sections", "sources"],
-    "tool": ["toolId", "instructions", "sampleResult", "notClaimed", "faq", "sources"],
+    "tool": ["toolId", "instructions", "sampleResult", "notClaimed", "faq", "sources", "tile", "oneLine",
+             "appBand", "referenceHeading"],
     "routine": ["routineId", "whyOrder", "whatToFeel", "whenToStop", "next", "faq", "sources"],
     "exercise": ["syllables", "troubleshooting", "sources"],
     "pattern": ["scaleId", "sections", "sources"],
@@ -75,10 +79,15 @@ WORDS = {"routine": 900, "exercise": 800, "pattern": 800, "concept": 1200,
 HTML_FIELDS = {"html", "a", "intro", "whyOrder", "whatToFeel", "whenToStop", "next", "troubleshooting",
                "localBox", "shortAnswer", "listenFor", "misconceptions", "seeProfessional",
                "instructions", "sampleResult", "notClaimed"}
+# The site-wide strings written out as HTML (tool/README.md); every other
+# one is escaped, so it must hold the character, never its entity.
+SITE_HTML = re.compile(r"^(?:footer\.madeBy|index\.pricing\.\w+\.items\.\d+|(?:privacy|terms|support)\.body|credit\.piano)$")
+ENTITY = re.compile(r"&(?:[A-Za-z][A-Za-z0-9]*|#\d+|#x[0-9A-Fa-f]+);")
 # Fields that are ids or data, the same in every locale.
 SAME_IN_EVERY_LOCALE = {"routineId", "scaleId", "toolId", "children", "syllables", "writtenAgainst", "voiceType"}
+# "id" is a section's optional anchor slug ("keyboard"), the same in every locale.
 NOT_PROSE = {"slug", "reviewed", "writtenAgainst", "routineId", "scaleId", "toolId", "children",
-             "syllables", "url", "voiceType"}
+             "syllables", "url", "voiceType", "id"}
 
 # The site-wide keys this wave added. Until a translator replaces them they
 # hold the English, which a warning lists (an error with --strict).
@@ -86,13 +95,32 @@ NEW_SITE_KEYS = ["nav.tools", "nav.guides", "footer.toolsHeading", "footer.guide
                  "sections.tools", "sections.guides", "langBar.text", "langBar.close",
                  "breadcrumb.home", "breadcrumb.label", "cta.heading", "cta.body", "cta.button",
                  "cta.ios", "credit.piano", "byline.name", "byline.line", "notFound.line",
-                 "notFound.homes", "related.heading", "sources.heading", "faq.heading"]
-NEW_TOPS = {k.split(".")[0] for k in NEW_SITE_KEYS if k.split(".")[0] not in ("nav", "footer")}
+                 "notFound.homes", "related.heading", "sources.heading", "faq.heading",
+                 # the redesign's (scalita_app docs/specs/site-redesign-spec.md, 5.1); its lists,
+                 # index.tools.items, index.trust.items and index.screens, cannot be: dig() reads objects
+                 "nav.home", "nav.siteLabel", "nav.toolsLabel", "nav.getApp", "nav.closeMenu",
+                 "nav.toolsHint", "nav.guidesHint", "nav.fullscreen", "nav.fullscreenHint",
+                 "nav.exitFullscreen", "nav.tabLabels.vocal-range-test", "nav.tabLabels.sing-in-tune-test",
+                 "nav.tabLabels.warm-up-piano", "nav.tabLabels.voice-break-finder", "cta.inApp",
+                 "cta.hubHeading", "cta.free", "cta.iphone", "cta.comingSoon", "cta.iphoneLabel",
+                 "index.stage.meta", "index.tools.kicker", "index.tools.title", "index.tools.lead",
+                 "index.tools.open", "index.app.kicker", "index.app.title", "index.app.lead",
+                 "index.trust.title", "index.pricing.pro.note", "index.download.cta"]
+# Tops that hold only new keys: the generic "reads as English" pass skips them,
+# since the loop over NEW_SITE_KEYS checks each one. nav, footer and index
+# hold legacy keys too, so that pass still reads every string in them.
+NEW_TOPS = {k.split(".")[0] for k in NEW_SITE_KEYS if k.split(".")[0] not in ("nav", "footer", "index")}
 # Where the same words as English are right.
 SAME_AS_ENGLISH_OK = {("*", "byline.name"), ("de", "sections.tools"), ("de", "nav.tools"),
                       # "Guides" and "Sources" are French words too
                       ("fr", "nav.guides"), ("fr", "footer.guidesHeading"), ("fr", "sections.guides"),
-                      ("fr", "sources.heading")}
+                      ("fr", "sources.heading"), ("fr", "nav.guidesHint"),
+                      # a brand, and words these languages share with English
+                      ("*", "cta.iphone"), ("fr", "nav.siteLabel"), ("pt", "nav.siteLabel"),
+                      ("es", "nav.tabLabels.warm-up-piano"), ("fr", "nav.tabLabels.warm-up-piano"),
+                      ("pt", "nav.tabLabels.warm-up-piano"), ("id", "nav.tabLabels.warm-up-piano"),
+                      # Indonesian keeps "range" in English on purpose (KEPT_ENGLISH)
+                      ("id", "nav.tabLabels.vocal-range-test")}
 
 # The ui files the first wave needs (A2 of the brief).
 UI_FILES = ["common", "mic", "vocal-range-test", "sing-in-tune-test", "player", "voice-break-finder", "templates"]
@@ -134,6 +162,9 @@ STOPWORDS -= {"it", "is"}
 KEPT_ENGLISH = {"id": ["head voice", "chest voice", "lip trill", "tongue trill", "mix voice", "range"]}
 
 EM_DASH = re.compile("\u2014|&mdash;|&#8212;|&#x2014;", re.I)
+# Decision 8 of the redesign: no price anywhere, Google Play shows the reader's
+# own. A note, for the copy's owners: a legal text may need its wording first.
+PRICE = re.compile(r"(?:US?\$|R\$|\$|\u20ac|\u00a3|\u20ba|\bRp\.?)\s?\d|\d[\d.,]*\s?(?:\u20ac|\u00a3|\u20ba|\bUSD\b|\bEUR\b|\bTL\b)")
 NOTE_TOKEN = re.compile(r"\{\{note:([^{}:]+)(?::(local|intl))?\}\}")
 ANY_TOKEN = re.compile(r"\{\{.*?\}\}")
 PAGE_LINK = re.compile(r'href="page:([^"#]*)(#[^"]*)?"')
@@ -302,6 +333,13 @@ def check_content(content, only, r, registry):
                 r.error(where, "%s reads as English: %r" % (key, v[:80]))
             for term in verdicts(v, code) + verdicts(v, code, TONE_DEAF):
                 r.error(where, "%s uses the verdict word %r" % (key, term))
+        for path, _, s in strings(c):
+            if PRICE.search(html.unescape(re.sub(r"<[^>]+>", " ", s))):
+                r.note(where, "%s states a price: Google Play shows it, per country" % path)
+            # escaped on the way out, so an entity would show as it is
+            if not SITE_HTML.match(path) and ENTITY.search(s):
+                r.error(where, "%s holds an HTML entity (%s), which shows as it is: write the character"
+                        % (path, ENTITY.search(s).group(0)))
         if code != "en":
             ref = dict((p, s) for p, k, s in strings(site["en"]))
             for path, key, s in strings(c):
@@ -404,6 +442,8 @@ def check_strings_file(d, en, code, where, r, ids, ui=False):
             check_html_fragment(s, at, r)
         elif "<" in s and field not in NOT_PROSE:
             r.warn(at, "plain text field holds markup, which will show as it is")
+        elif ENTITY.search(s):
+            r.error(at, "holds an HTML entity (%s), which shows as it is: write the character" % ENTITY.search(s).group(0))
         if ui and path in ref and set(PLACEHOLDER.findall(s)) != set(PLACEHOLDER.findall(ref[path])):
             r.error(at, "placeholders %s differ from the English %s"
                     % (sorted(set(PLACEHOLDER.findall(s))), sorted(set(PLACEHOLDER.findall(ref[path])))))
@@ -480,6 +520,12 @@ def check_page(page, content, codes, r, ids, registry):
         if isinstance(copy.get("sections"), list) and isinstance(en.get("sections"), list):
             known = {e.get("id") for e in export_list("voice_types")}
             for n, (a, b) in enumerate(zip(copy["sections"], en["sections"])):
+                # a section's anchor (id="keyboard"): a slug, the English one in every locale
+                sid, en_sid = (a.get("id") if isinstance(a, dict) else None), (b.get("id") if isinstance(b, dict) else None)
+                if sid is not None and (not isinstance(sid, str) or not B.SLUG.match(sid)):
+                    r.error(where, "sections.%d id %r is not lowercase ASCII words joined by hyphens" % (n, sid))
+                elif sid != en_sid:
+                    r.error(where, "sections.%d id must be the same as the English, %r" % (n, en_sid))
                 if not isinstance(a, dict) or "voiceType" not in a:
                     continue
                 if known and a["voiceType"] not in known:
@@ -557,7 +603,7 @@ def check_types(copy, where, r, ids):
     for k in ("slug", "label", "title", "description", "h1", "lead", "reviewed", "routineId", "scaleId",
               "toolId", "intro", "whyOrder", "whatToFeel", "whenToStop", "next", "troubleshooting",
               "shortAnswer", "listenFor", "misconceptions", "seeProfessional", "instructions",
-              "sampleResult", "notClaimed"):
+              "sampleResult", "notClaimed", "tile", "oneLine", "appBand", "referenceHeading"):
         text(k)
     for k, fields in (("sections", ("heading", "html")), ("faq", ("q", "a")), ("sources", ("label", "url"))):
         v = copy.get(k)
@@ -652,8 +698,15 @@ def similar(texts, where, r, threshold=0.8):
 
 VOID = {"area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source",
         "track", "wbr"}
+# All {n} guides (tool pages, the tools hub), the Guides row's hint (the phones'
+# menu), and the cards of the page they lead to
+GUIDE_LINK = re.compile(r'<a class="(?:tp-all|hub-allguides)" href="([^"]+)">([^<]*)<')
+GUIDE_HINT = re.compile(r'<a class="site-menu__row" href="([^"]+)"[^>]*>(?:(?!</a>).)*?'
+                        r'<span class="site-menu__hint">([^<]*\d[^<]*)</span>', re.S)
+HUB_CARD = re.compile(r'<a class="hub-card" href="([^"]+)"')
 # Not the page's own writing: left out of the main text the similarity check reads.
-BOILERPLATE = {"breadcrumb", "cta-block", "byline", "credit", "related", "sources", "hub-cards"}
+BOILERPLATE = {"breadcrumb", "band", "byline", "credit", "related", "sources", "hub-cards", "hub-aside", "tp-aside",
+               "tp-next"}
 
 
 class Parser(HTMLParser):
@@ -671,11 +724,14 @@ class Parser(HTMLParser):
         self.main = None          # stack depth of <main>
         self.skip = None          # stack depth of a boilerplate element inside it
         self.main_text = []
+        self.headings = []        # the levels of h1 to h6, in order
 
     def handle_starttag(self, tag, attrs):
         a = {k: (v or "") for k, v in attrs}
         if tag not in VOID:
             self.stack.append(tag)
+        if len(tag) == 2 and tag[0] == "h" and tag[1] in "123456":
+            self.headings.append(int(tag[1]))
         if a.get("id"):
             self.ids.append(a["id"])
         if tag == "html":
@@ -917,6 +973,20 @@ def check_site(site, r, registry):
             elif depth[u] > 3:
                 r.error(relp, "is %d clicks from %s, more than 3" % (depth[u], home))
 
+    # All {n} guides and the Guides hint promise as many guides as the page they lead to lists
+    listed = {}
+    for u, (relp, p) in sorted(pages.items()):
+        text = open(os.path.join(site, relp), encoding="utf-8").read()
+        for href, said in GUIDE_LINK.findall(text) + GUIDE_HINT.findall(text):
+            target = urljoin(u, href)
+            if target not in listed:
+                there = pages.get(target)
+                listed[target] = len(set(HUB_CARD.findall(
+                    open(os.path.join(site, there[0]), encoding="utf-8").read()))) if there else None
+            n = re.search(r"\d+", said)
+            if listed[target] is not None and (not n or int(n.group(0)) != listed[target]):
+                r.error(relp, "%r leads to %s, which lists %d guides" % (said.strip(), href, listed[target]))
+
     # similarity of the written main text, per locale
     for code in CODES:
         texts = {relp: " ".join(p.main_text) for u, (relp, p) in pages.items() if code_of(u) == code and p.main_text}
@@ -977,6 +1047,12 @@ def check_page_html(u, relp, p, pages, sitemap, canonical, site, r, inbound, edg
         r.error(relp, "its hreflang links and the sitemap's differ")
     if not p.title:
         r.error(relp, "has no <title>")
+    # one h1, and an outline that skips no level on the way down
+    if p.headings.count(1) != 1:
+        r.error(relp, "has %d h1 elements, not one" % p.headings.count(1))
+    skips = sorted({"h%d after h%d" % (b, a) for a, b in zip(p.headings, p.headings[1:]) if b > a + 1})
+    if skips:
+        r.note(relp, "its headings skip a level: %s" % ", ".join(skips))
     if not p.meta.get("description"):
         r.error(relp, "has no meta description")
     if "keywords" in p.meta:
@@ -1023,7 +1099,7 @@ def check_page_html(u, relp, p, pages, sitemap, canonical, site, r, inbound, edg
                     check_asset(v, u, relp, site, r)
             elif s.get("id") == "page-data":
                 for k in ("locale", "pageId", "strings", "notes", "voiceTypes", "registers", "playLink",
-                          "androidOnlyLine", "piano", "players"):
+                          "androidOnlyLine", "iphone", "piano", "players"):
                     if k not in obj:
                         r.error(relp, "page data has no %r" % k)
                 if obj.get("locale") != code:

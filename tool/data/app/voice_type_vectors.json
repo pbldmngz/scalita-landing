@@ -1149,7 +1149,8 @@
       "high": 54,
       "low": 53,
       "types": [
-        "bass"
+        "bass",
+        "baritone"
       ]
     },
     {
@@ -1164,8 +1165,8 @@
       "high": 55,
       "low": 54,
       "types": [
-        "bass",
-        "baritone"
+        "baritone",
+        "bass"
       ]
     },
     {
@@ -1188,8 +1189,7 @@
       "high": 56,
       "low": 56,
       "types": [
-        "baritone",
-        "bass"
+        "baritone"
       ]
     },
     {

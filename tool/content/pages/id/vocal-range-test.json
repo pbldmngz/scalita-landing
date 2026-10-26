@@ -5,6 +5,10 @@
   "description": "Nyanyikan nada terendah dan tertinggimu, lalu lihat range vokalmu dalam nada dan oktaf, serta jenis suara yang umum untuknya. Gratis, di browser.",
   "h1": "Cek range vokal",
   "lead": "Nyanyikan atau lakukan humming di nada terendah yang nyaman, lalu di nada tertinggimu. Dalam sekitar satu menit kamu akan melihat jangkauan vokalmu (range vokal) dalam nada dan oktaf, beserta jenis suara yang umum untuk jangkauan itu.",
+  "tile": "Nada terendah dan tertinggimu, dalam sekitar satu menit.",
+  "oneLine": "Nyanyikan nada terendahmu, lalu yang tertinggi. Sekitar satu menit.",
+  "appBand": "Jangkauanmu adalah hal pertama yang kamu atur di Scalita. Setelah itu, setiap pemanasan mulai dan berhenti di batas suaramu, dengan piano asli, offline, tanpa akun.",
+  "referenceHeading": "Tentang tes ini",
   "toolId": "vocal-range-test",
   "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Tekan Mulai dan izinkan mikrofon saat browser memintanya.</li><li>Nyanyikan nada terendah yang nyaman dengan vokal yang mudah, seperti “a” atau “o”, atau lakukan humming. Turun perlahan sampai kamu menemukan dasarnya, lalu tahan nada itu satu atau dua detik sampai terkunci.</li><li>Naik ke nada tertinggi yang nyaman dan tahan dengan cara yang sama.</li><li>Baca hasilmu. Dari situ kamu bisa mendengarkan jangkauanmu di piano atau lanjut mencari peralihan registermu.</li></ol><p>Nyaman artinya nada yang bisa kamu pakai dalam lagu, bukan nada yang hanya bisa kamu paksakan keluar. Pakai mikrofon bawaan ponselmu di ruangan yang tenang, dan kalau bisa, lakukan pemanasan beberapa menit dulu. Suara yang belum dipanaskan sering terbaca lebih sempit.</p>",
   "sampleResult": "<h2>Contoh hasil</h2><p>Misalnya kamu bernyanyi dari {{note:G3}} sampai {{note:F5}}. Hasilmu akan berbunyi:</p><ul><li>Terendah {{note:G3}}, tertinggi {{note:F5}}</li><li>22 setengah nada, sekitar 1,8 oktaf</li><li>Umum untuk kontralto atau mezzo-sopran</li></ul><p>Di bawahnya ada dua pengingat dari aplikasi Scalita: jangkauanmu bisa berubah karena pemanasan, latihan, dan waktu dalam sehari, dan peralihan register suaramu adalah penanda jenis suara yang lebih andal. Kalau kamu pernah mengikuti tes ini di browser yang sama, hasil terakhirmu juga ditampilkan, dan kamu bisa menyimpan hasilnya sebagai gambar atau membagikannya.</p>",
@@ -12,10 +16,10 @@
   "sections": [
     {
       "heading": "Yang diukur tes ini",
-      "html": "<p>Jangkauan vokal adalah bentangan nada dari yang terendah sampai yang tertinggi yang bisa kamu nyanyikan dengan nyaman. Tes ini menemukan kedua ujungnya lewat suaramu dan menghitung jaraknya dalam setengah nada, yaitu langkah dari satu tuts piano ke tuts berikutnya, dan dalam oktaf, yang masing-masing berisi dua belas setengah nada. C tengah adalah {{note:C4}}.</p><p>Lalu tes ini membandingkan titik tengah jangkauanmu dengan jenis-jenis suara di tabel Scalita dan menyebut yang paling dekat, atau dua yang paling dekat kalau keduanya hampir seri. Setiap jenis di tabel itu membentang dua oktaf, dari {{note:F2}} sampai {{note:F4}} untuk bas hingga {{note:C4}} sampai {{note:C6}} untuk sopran.</p>"
+      "html": "<p>Jangkauan vokal adalah bentangan nada dari yang terendah sampai yang tertinggi yang bisa kamu nyanyikan dengan nyaman. Tes ini menemukan kedua ujungnya lewat suaramu dan menghitung jaraknya dalam setengah nada, yaitu langkah dari satu tuts piano ke tuts berikutnya, dan dalam oktaf, yang masing-masing berisi dua belas setengah nada. C tengah adalah {{note:C4}}.</p><p>Lalu tes ini membandingkan titik tengah jangkauanmu dengan jenis-jenis suara di tabel Scalita dan menyebut yang paling dekat, atau dua yang paling dekat kalau keduanya hampir seri. Setiap jenis di tabel itu membentang dua oktaf, dari {{note:E2}} sampai {{note:E4}} untuk bas hingga {{note:C4}} sampai {{note:C6}} untuk sopran.</p>"
     },
     {
-      "heading": "Cara kerjanya",
+      "heading": "Cara tes membaca suaramu",
       "html": "<p>Browser-mu mendengarkan lewat mikrofon dan membaca nada suaramu sekitar dua puluh kali per detik, dengan metode yang sama yang dipakai aplikasi Scalita: YIN, pendeteksi nada yang diterbitkan pada 2002. Sebuah nada baru dihitung setelah stabil sebentar, jadi luncuran, suara pecah, dan batuk tidak masuk ke hasilmu.</p><p>Semuanya terjadi di perangkatmu. Suaranya dibaca saat masuk, lalu dibuang. Tidak ada yang direkam atau dikirim, dan mikrofon mati saat kamu menekan Berhenti atau meninggalkan halaman.</p>"
     },
     {
@@ -23,6 +27,7 @@
       "html": "<ul><li>Lakukan pemanasan beberapa menit dulu. Humming atau beberapa tangga nada ringan di <a href=\"page:warm-up-piano\">piano latihan vokal</a> sudah cukup.</li><li>Cari ruangan yang tenang dan pakai mikrofon bawaan ponselmu. Earbud Bluetooth beralih ke mikrofon mode telepon yang menangkap jauh lebih sedikit.</li><li>Pakai vokal yang mudah dan volume sedang. Nada atas yang diteriakkan atau nada bawah yang dibisikkan lebih sulit dibaca.</li><li>Lakukan dua kali. Dua hasil yang selisihnya hanya satu atau dua tuts memberi gambaran yang cukup tentang jangkauanmu hari ini.</li></ul>"
     },
     {
+      "id": "keyboard",
       "heading": "Kalau mikrofon tidak berfungsi",
       "html": "<ul><li><strong>Dibuka dari Instagram, TikTok, Facebook, atau Gmail?</strong> Browser bawaan aplikasi-aplikasi itu memblokir mikrofon. Pakai menu aplikasinya untuk membuka halaman ini di Chrome atau Safari.</li><li><strong>Tidak sengaja menekan Blokir?</strong> Izinkan mikrofon di pengaturan situs, biasanya lewat ikon di samping alamat, lalu muat ulang halaman.</li><li><strong>Ada aplikasi lain yang memakainya?</strong> Akhiri panggilan atau tutup aplikasi perekam, lalu tekan Mulai lagi.</li><li><strong>Levelnya tetap rendah?</strong> Bernyanyilah sedikit lebih keras atau lebih dekat. Mikrofon laptop butuh jarak yang lebih dekat daripada ponsel.</li><li><strong>Tidak punya mikrofon sama sekali?</strong> Atur jangkauanmu secara manual: mainkan nada di keyboard dan pilih yang terendah dan tertinggi yang bisa kamu nyanyikan.</li></ul>"
     },

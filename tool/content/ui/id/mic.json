@@ -8,8 +8,8 @@
   "micInterrupted": "Mikrofon terputus, mungkin karena ada panggilan atau headset tercabut. Coba lagi kalau sudah siap.",
   "micHidden": "Alat ini berhenti mendengarkan saat kamu pindah dari halaman. Mulai lagi kapan pun kamu siap.",
   "micFailed": "Ada yang salah saat menyalakan mikrofon. Muat ulang halaman, lalu coba lagi.",
-  "micBluetooth": "Sepertinya itu headset Bluetooth. Mikrofonnya turun ke kualitas panggilan telepon, jadi mikrofon bawaan ponselmu akan menangkap suaramu lebih baik.",
+  "micBluetooth": "Sepertinya itu headset Bluetooth. Mikrofonnya hanya berkualitas telepon, jadi mikrofon ponselmu menangkap suaramu lebih baik.",
   "micSilent": "Tidak ada suara yang masuk dari mikrofon. Pastikan mikrofon tidak dibisukan, lalu bernyanyi atau lakukan humming.",
-  "levelQuiet": "Terlalu pelan. Bernyanyilah sedikit lebih keras, atau dekatkan dirimu ke mikrofon.",
-  "levelLoud": "Suaranya cukup keras sampai bisa terdistorsi. Mundur sedikit dari mikrofon."
+  "levelQuiet": "Terlalu pelan. Bernyanyi sedikit lebih keras, atau dekati mikrofon.",
+  "levelLoud": "Sekeras ini, suaranya bisa pecah. Mundur sedikit dari mikrofon."
 }

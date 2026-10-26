@@ -1,0 +1,186 @@
+/* The guide pages (spec 3.14): the warm-ups and voice types hubs, the
+   routines, the exercise and pattern pages, the two concept pages and note
+   names. Linked after style.css and chrome.css, whose parts they use as they
+   are (.prose, the breadcrumb, .acc, .band, .callout, tables, .keyboard,
+   .related, .sources, .byline; .player is tool-player.css's). Here: the
+   rhythm around the FAQ and the band, and what only guides have: hub cards,
+   the pattern figure (.gd-pattern) and Find My Warmup's answers
+   (.gd-options). */
+
+/* the footer's own margin is the space under the byline */
+.prose {
+  padding-bottom: 0;
+}
+
+.prose > .faq > h2 {
+  margin: 48px 0 12px;
+}
+
+.prose > .band {
+  margin-top: 48px;
+}
+
+.prose small {
+  font-size: 12px;
+  color: var(--soft);
+}
+
+/* A static keyboard of a few keys keeps a key's proportions (the player's
+   own keyboard sits deeper and keeps its width). */
+.prose > section > .keyboard {
+  max-width: calc(var(--whites, 15) * 48px);
+}
+
+/* A voice type's facts under its keyboard: label and value side by side. */
+.prose > section > .keyboard + table {
+  width: auto;
+  min-width: min(100%, 360px);
+}
+
+/* Hub cards: .card links, a chevron at the right. */
+
+.prose .hub-cards {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr));
+  gap: 16px;
+  margin: 28px 0 0;
+  padding: 0;
+}
+
+.prose .hub-cards > li {
+  display: flex;
+  margin: 0;
+}
+
+.hub-card {
+  position: relative;
+  flex: 1;
+  padding: 20px 48px 20px 20px;
+  background: var(--surface);
+  border: 1px solid var(--mist);
+  border-radius: var(--r);
+  color: var(--soft);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.hub-card:hover {
+  border-color: var(--ocean);
+  box-shadow: var(--glow-tab);
+  color: var(--soft);
+}
+
+.prose .hub-card :is(h2, h3) {
+  margin: 0 0 6px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.35;
+  letter-spacing: normal;
+}
+
+.hub-card p {
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.hub-card::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  width: 7px;
+  height: 7px;
+  margin-top: -4px;
+  border: solid var(--soft);
+  border-width: 1.5px 1.5px 0 0;
+  transform: rotate(45deg);
+}
+
+.hub-card:hover::after {
+  border-color: var(--glow);
+}
+
+/* The pattern page's figure: its degrees and notes, and its keys. */
+
+.gd-pattern {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 16px 32px;
+  margin-top: 32px;
+  padding: 8px 24px;
+  background: var(--surface);
+  border: 1px solid var(--mist);
+  border-radius: var(--r);
+}
+
+.prose .gd-pattern table {
+  margin: 0;
+}
+
+.prose .gd-pattern tr:last-child > * {
+  border-bottom: 0;
+}
+
+.prose .gd-pattern .keyboard {
+  width: calc(var(--whites, 5) * 46px);
+}
+
+/* Find My Warmup: each answer a small card. */
+
+.prose .gd-options {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+  margin: 0 0 8px;
+  padding: 0;
+  hyphens: manual;
+}
+
+.prose .gd-options li {
+  margin: 0;
+  padding: 12px 14px;
+  background: var(--surface);
+  border: 1px solid var(--mist);
+  border-radius: var(--r-sm);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.gd-options strong {
+  font-size: 14px;
+}
+
+@media (max-width: 599.98px) {
+  .prose {
+    line-height: 1.6;
+  }
+
+  :where(.prose, .prose section:not([class])) > h2,
+  .prose > .faq > h2,
+  .prose > .band {
+    margin-top: 40px;
+  }
+
+  .hub-card {
+    padding: 16px 44px 16px 18px;
+    border-radius: var(--r-md);
+  }
+
+  .hub-card::after {
+    right: 20px;
+  }
+
+  .gd-pattern {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 4px 16px 16px;
+    border-radius: var(--r-md);
+  }
+
+  .prose .gd-pattern .keyboard {
+    justify-self: center;
+    max-width: 100%;
+  }
+}

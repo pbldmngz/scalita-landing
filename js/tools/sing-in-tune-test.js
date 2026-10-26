@@ -1,11 +1,13 @@
 /*
  * The sing-in-tune test's mount point: build.py loads /js/tools/<toolId>.js
  * for a [data-tool] element. Before the first tap only this file and mic.js
- * arrive: the mode chips, the voice choice and Start. The tap makes the
+ * arrive: the mode switcher, the voice choice and Start. The tap makes the
  * AudioContext (iOS wants it made and resumed inside the tap), then loads
  * sing-in-tune.js and the engines together, and sing-in-tune.js runs the
- * test. Every visible string comes from the page data: ui/<loc>/
- * sing-in-tune-test.json, common.json and mic.json.
+ * test; a sing result loads share-tune.js for its image. Every visible
+ * string comes from the page data: ui/<loc>/sing-in-tune-test.json,
+ * common.json and mic.json. The markup is the stage's (css/style.css) plus
+ * the st- pieces of css/tool-tune.css.
  */
 
 import { inAppBrowser, checkSupport } from '../audio/mic.js';
@@ -72,6 +74,13 @@ function newContext() {
   }
 }
 
+// The icons the idle panel draws, from the site's shared set (24 x 24)
+const ICONS = {
+  mic: 'M9 6a3 3 0 0 1 6 0v6a3 3 0 0 1-6 0zM5 11a7 7 0 0 0 14 0M12 18v3',
+  lock: 'M7 10.5h10a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-6.5a2 2 0 0 1 2-2zM8 10.5V7.5a4 4 0 0 1 8 0v3',
+  play: 'M7 4.5v15l12.5-7.5z',
+};
+
 export function mount(el, pd, opts = {}) {
   if (el.__singInTune) return el.__singInTune;
   const strings = pd.strings || {};
@@ -84,27 +93,54 @@ export function mount(el, pd, opts = {}) {
   const noMic = inAppBrowser() ? 'micInApp' : checkSupport();
   const uid = 'sit' + Math.random().toString(36).slice(2, 8);
   const live = h('p', { class: 'sr-only', 'aria-live': 'polite' });
-  const panes = ['idle', 'run', 'result', 'error'].map((k) =>
-    h('div', { class: 'tool-panel__state tool-panel__state--' + k, hidden: k !== 'idle' }));
+  const states = ['idle', 'run', 'result', 'error'];
+  const panes = states.map((k) => h('div', { class: 'tool-panel__state tool-panel__state--' + k, hidden: k !== 'idle' }));
   const [idleV, , , errV] = panes;
-  el.classList.add('tool-panel');
+  // On a phone the mode switcher sits above the stage, wider in its head;
+  // the voice choice sits beside How it works on a desktop
+  const phone = matchMedia('(max-width: 599.98px)');
+  const wide = matchMedia('(min-width: 960px)');
+  const slot = document.querySelector('[data-tool-slot=aside]');
+  const modes = h('div', { class: 'seg-group st-modes', role: 'group', 'aria-label': t('modes.label') },
+    ...['sing', 'tuner', 'ear'].map((m) => h('button', {
+      type: 'button', class: 'seg', 'data-mode': m, text: t('modes.' + m),
+      onclick: () => {
+        ui.mode = m;
+        showIdle(true);
+      },
+    })));
+  el.classList.add('tool-panel', 'st-panel');
   el.replaceChildren(...panes, live);
 
   // What sing-in-tune.js runs with: the strings, the panes, the run token
   // (a Stop or a new Start bumps it) and the context
   const ui = {
-    el, pd, lang, t, c, h, fmt, panes, M: strings.mic || {}, keys: KEYS, load, store,
+    el, pd, lang, t, c, h, fmt, panes, M: strings.mic || {}, keys: KEYS, load, store, I: ICONS,
     test: opts.test || globalThis.__scalitaTest || null,
     types: pd.voiceTypes || [], saved: savedRange(), voice: load(KEYS.voice), mode: 'sing',
-    run: 0, ctx: null, stopAudio: null, onHide: null,
+    run: 0, ctx: null, stopAudio: null, onHide: null, vrow: null, vhere: null,
     names: (m) => (pd.notes && pd.notes[m]) || [String(m), String(m)],
     label(m) {
       const [l, i] = ui.names(m);
       return l === i ? l : l + ' (' + i + ')';
     },
+    sign: (n) => signed.format(n),
     short: (n, sign) => fmt(t('units.short'), { n: sign ? signed.format(n) : String(n) }),
-    button: (text, onclick, primary, extra) =>
-      h('button', { type: 'button', class: 'btn ' + (primary ? 'btn-primary' : 'btn-secondary'), onclick, text, ...extra }),
+    icon(d, n = 18, fill) {
+      const w = h('i');
+      w.innerHTML = '<svg><path/></svg>';
+      const s = w.firstChild;
+      const a = { width: n, height: n, viewBox: '0 0 24 24', fill: fill ? 'currentColor' : 'none', stroke: 'currentColor',
+        'stroke-width': fill ? 1.5 : 1.75, 'stroke-linecap': 'round', 'stroke-linejoin': 'round', 'aria-hidden': 'true' };
+      for (const k in a) s.setAttribute(k, a[k]);
+      s.firstChild.setAttribute('d', d);
+      return s;
+    },
+    button: (text, onclick, cls = 'btn-secondary', extra, ic) =>
+      h('button', { type: 'button', class: 'btn ' + cls, onclick, ...extra }, ic, text),
+    lockline: () => h('p', { class: 'lockline' }, ui.icon(ICONS.lock, 14), c('nothingSent')),
+    // The share image's module, after a result, where the build has one
+    share: () => (pd.assets && pd.assets['/js/tools/share-tune.js'] ? import('./share-tune.js') : Promise.reject()),
     say(text) {
       live.textContent = '';
       setTimeout(() => { live.textContent = text; }, 60);
@@ -112,6 +148,8 @@ export function mount(el, pd, opts = {}) {
     show(pane, focus) {
       const had = el.contains(document.activeElement);
       for (const p of panes) p.hidden = p !== pane;
+      el.dataset.state = states[panes.indexOf(pane)];
+      place();
       if (pane === idleV) el.style.minHeight = '';
       else ui.hold();
       if (focus && had) focus.focus({ preventScroll: true });
@@ -152,10 +190,11 @@ export function mount(el, pd, opts = {}) {
     fail(code) {
       ui.run++;
       ui.stop();
-      const retry = ui.button(c('tryAgain'), ui.start, false);
-      errV.replaceChildren(
-        h('p', { class: 'tool-panel__error', role: 'alert', text: code === 'pianoFailed' ? t('pianoFailed') : ui.M[code] || ui.M.micFailed || '' }),
-        h('div', { class: 'tool-panel__actions' }, retry, code === 'micInApp' ? ui.copyLink() : null));
+      const retry = ui.button(c('tryAgain'), ui.start, 'btn-secondary btn--lg btn--strong');
+      errV.replaceChildren(h('div', { class: 'stage__head' }), h('div', { class: 'st-idle' },
+        h('p', { class: 'tool-panel__error', role: 'alert', 'data-code': code,
+          text: code === 'pianoFailed' ? t('pianoFailed') : ui.M[code] || ui.M.micFailed || '' }),
+        h('div', { class: 'tool-panel__actions' }, retry, code === 'micInApp' ? ui.copyLink() : null)));
       ui.show(errV, retry);
     },
     // The tap: the context now, synchronously; the rest on its way
@@ -174,41 +213,59 @@ export function mount(el, pd, opts = {}) {
     showIdle,
   };
 
+  // The mode switcher into the shown pane's head, or above the stage; the
+  // voice choice into the slot beside How it works, or into the idle pane
+  function place() {
+    const head = panes.find((p) => !p.hidden).querySelector('.stage__head');
+    modes.classList.toggle('seg-group--stretch', phone.matches);
+    if (phone.matches) (el.closest('.stage') || el).before(modes);
+    else if (head) head.prepend(modes);
+    else modes.remove();
+    const aside = slot && wide.matches;
+    if (ui.vrow) {
+      (aside ? slot : ui.vhere).append(ui.vrow);
+      ui.vhere.hidden = aside;
+    }
+  }
+
+  function voiceRow() {
+    const { saved, types } = ui;
+    const sel = h('select', { class: 'field', id: uid, onchange: () => store(KEYS.voice, (ui.voice = sel.value)) });
+    if (saved) sel.append(h('option', { value: 'saved', text: fmt(t('voice.saved'), { low: ui.label(saved.low), high: ui.label(saved.high) }) }));
+    sel.append(h('option', { value: 'any', text: t('voice.any') }));
+    if (types.length) sel.append(h('optgroup', { label: t('voice.types') }, ...types.map((v) => h('option', { value: v.id, text: v.name }))));
+    const v = ui.voice;
+    if (!(v === 'any' || (v === 'saved' && saved) || types.some((x) => x.id === v))) ui.voice = saved ? 'saved' : 'any';
+    sel.value = ui.voice;
+    return h('p', { class: 'st-voice' }, h('label', { for: uid, text: t('voice.label') }), sel);
+  }
+
   function showIdle(focusMode) {
     ui.halt(false);
     const mode = ui.mode;
-    const chips = h('div', { class: 'chips', role: 'group', 'aria-label': t('modes.label') },
-      ...['sing', 'tuner', 'ear'].map((m) => h('button', {
-        type: 'button', class: 'chip', 'aria-pressed': String(m === mode), 'data-mode': m, text: t('modes.' + m),
-        onclick: () => {
-          ui.mode = m;
-          showIdle(true);
-        },
-      })));
-    const kids = [chips, h('p', { text: t('intro.' + mode) })];
-    if (mode === 'sing') {
-      const { saved, types } = ui;
-      const sel = h('select', { class: 'chip', id: uid, onchange: () => store(KEYS.voice, (ui.voice = sel.value)) });
-      if (saved) sel.append(h('option', { value: 'saved', text: fmt(t('voice.saved'), { low: ui.label(saved.low), high: ui.label(saved.high) }) }));
-      sel.append(h('option', { value: 'any', text: t('voice.any') }));
-      if (types.length) sel.append(h('optgroup', { label: t('voice.types') }, ...types.map((v) => h('option', { value: v.id, text: v.name }))));
-      const v = ui.voice;
-      if (!(v === 'any' || (v === 'saved' && saved) || types.some((x) => x.id === v))) ui.voice = saved ? 'saved' : 'any';
-      sel.value = ui.voice;
-      kids.push(h('p', {}, h('label', { for: uid, text: t('voice.label') }), ' ', sel));
-    }
-    const blocked = noMic && mode !== 'ear';
-    const go = ui.button(c('start'), ui.start, !blocked);
-    if (blocked) kids.push(h('p', { class: 'tool-panel__hint', text: noMic === 'micInApp' ? c('openInBrowser') : ui.M[noMic] || '' }));
-    kids.push(h('div', { class: 'tool-panel__actions' }, blocked && noMic === 'micInApp' ? ui.copyLink() : null, go));
-    if (mode !== 'ear') kids.push(h('p', { class: 'tool-panel__hint', text: c('privacyLine') }));
+    const ear = mode === 'ear';
+    for (const b of modes.children) b.setAttribute('aria-pressed', String(b.dataset.mode === mode));
+    const blocked = noMic && !ear;
+    const go = ui.button(c('start'), ui.start, blocked ? 'btn-secondary btn--lg' : 'btn--fill', null,
+      ui.icon(ear ? ICONS.play : ICONS.mic, 20, ear));
     const last = mode === 'sing' && ui.lastLine(load(KEYS.last));
-    if (last) kids.push(h('p', { class: 'tool-panel__hint', text: last }));
-    idleV.replaceChildren(...kids);
-    ui.show(idleV);
-    if (focusMode) idleV.querySelector('[data-mode="' + mode + '"]').focus();
+    ui.vrow = mode === 'sing' ? voiceRow() : null;
+    ui.vhere = ui.vrow && h('div');
+    if (slot) slot.replaceChildren();
+    idleV.replaceChildren(h('div', { class: 'stage__head' }), h('div', { class: 'st-idle' },
+      h('p', { class: 'st-intro', text: t('intro.' + mode) }),
+      ui.vhere,
+      blocked ? h('p', { class: 'tool-panel__hint', text: noMic === 'micInApp' ? c('openInBrowser') : ui.M[noMic] || '' }) : null,
+      h('div', { class: 'stage__actions' },
+        h('div', { class: 'tool-panel__actions' }, blocked && noMic === 'micInApp' ? ui.copyLink() : null, go),
+        ear ? null : ui.lockline(),
+        last ? h('p', { class: 'st-last', text: last }) : null)));
+    ui.show(idleV, focusMode ? null : go);
+    if (focusMode) modes.querySelector('[data-mode=' + mode + ']').focus();
   }
 
+  phone.addEventListener('change', place);
+  wide.addEventListener('change', place);
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'hidden' && ui.ctx && ui.onHide) ui.onHide();
   });

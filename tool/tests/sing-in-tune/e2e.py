@@ -61,6 +61,7 @@ UI = json.load(open(os.path.join(REPO, 'tool/content/ui/en/sing-in-tune-test.jso
 COMMON = json.load(open(os.path.join(REPO, 'tool/content/ui/en/common.json'), encoding='utf-8'))
 MIC = json.load(open(os.path.join(REPO, 'tool/content/ui/en/mic.json'), encoding='utf-8'))
 BEFORE_TAP = ['/js/audio/mic.js', '/js/tools/sing-in-tune-test.js']
+CHROME_JS = '/js/site/chrome.js'  # a built page's own script, every page's, before any tap
 ANDROID = ('Mozilla/5.0 (Linux; Android 14; SM-A725F) AppleWebKit/537.36 (KHTML, like Gecko) '
            'Chrome/141.0.0.0 Mobile Safari/537.36')
 PATH = '/'  # the harness page, or the built tool page with --site
@@ -211,13 +212,13 @@ class Run:
         self.page.on('console', lambda m: self.logs.append(m.type + ': ' + m.text) if m.type in ('error', 'warning') else None)
         self.page.on('pageerror', lambda e: self.logs.append('pageerror: ' + str(e)))
         self.page.goto(origin + PATH)
-        self.page.wait_for_selector('.tool-panel__state--idle:not([hidden]) .chip')
+        self.page.wait_for_selector('[data-tool="sing-in-tune-test"][data-state="idle"] .tool-panel__actions .btn')
 
     def shot(self, name):
         self.page.screenshot(path=os.path.join(SCRATCH, name + '.png'), full_page=True)
 
     def chip(self, label):
-        self.page.click('.chip[data-mode] >> text="%s"' % label)
+        self.page.click('.seg[data-mode] >> text="%s"' % label)
 
     def start(self):
         self.page.click('.tool-panel__state--idle:not([hidden]) button >> text="%s"' % COMMON['start'])
@@ -254,7 +255,8 @@ def result_text(run):
       if (!r) return null;
       const pairs = [...r.querySelectorAll('.result-card__facts > div')]
         .map((d) => [d.querySelector('dt').textContent, d.querySelector('dd').textContent]);
-      return { value: (r.querySelector('.result-card__value') || {}).textContent || '', pairs,
+      const cards = [...r.querySelectorAll('.notecard')].map((li) => [li.querySelector('.notecard__note').textContent, li.title]);
+      return { value: (r.querySelector('.result-card__value') || {}).textContent || '', pairs, cards,
                facts: Object.fromEntries(pairs), notes: [...r.querySelectorAll('.result-card__note')].map((p) => p.textContent) };
     })()""")
 
@@ -264,7 +266,7 @@ def sing_round(p, origin, wav, targets, label, ua=None, again=False):
     checks = []
     before = [r for r, _ in resources(run)]
     checks.append(('%s: before the tap only the mount point and mic.js' % label,
-                   sorted(x for x in before if x.startswith('/js/')) == BEFORE_TAP
+                   sorted(x for x in before if x.startswith('/js/')) == sorted(BEFORE_TAP + ([CHROME_JS] if PATH != '/' else []))
                    and not any(x.startswith('/audio/') for x in before), before))
     checks.append(('%s: idle fits 360 px' % label, run.overflow() <= 0, run.overflow()))
     run.shot(label + '-idle')
@@ -312,7 +314,7 @@ def idle_text(run):
 
 def ear_by_keyboard(run, label):
     """The listening check with the keyboard alone: Enter and Tab."""
-    run.page.focus('.chip[data-mode="ear"]')
+    run.page.focus('.seg[data-mode="ear"]')
     run.page.keyboard.press('Enter')
     run.page.keyboard.press('Tab')
     run.page.keyboard.press('Enter')
@@ -374,7 +376,7 @@ def main():
                 ('sing-a4: near zero cents', off is not None and abs(off) <= 2, r['value']),
                 ('sing-a4: five of five within 10 cents', r['facts'].get(UI['result']['within10']) == '5 of 5', r['facts']),
                 ('sing-a4: the A3 notes an octave up, the A4 ones not',
-                 [v.endswith(up) for k, v in r['pairs'] if k in ('A3', 'A4')] == [True, False, True, False, True], r['pairs']),
+                 [v.endswith(up) for k, v in r['cards'] if k in ('A3', 'A4')] == [True, False, True, False, True], r['cards']),
                 ('sing-a4: no lean named', not any(UI['result']['offHigh'] in n or UI['result']['offLow'] in n for n in r['notes']), r['notes']),
             ]
             k = cta(run)
@@ -411,7 +413,7 @@ def main():
             run.page.wait_for_function("document.querySelector('.note-target__name') && "
                                        "document.querySelector('.note-target__name').textContent === 'A4'", timeout=15000)
             run.page.wait_for_timeout(2500)
-            readout = run.eval("document.querySelector('.tool-panel__state--run:not([hidden]) .note-target + .pitch-trail + p').textContent")
+            readout = run.eval("document.querySelector('.tool-panel__state--run:not([hidden]) .st-readout__main').textContent")
             m = re.match('^(%s)$' % '|'.join(UI['offset'][k].replace('{cents}', r'(\d+) cents?') for k in ('high', 'low')), readout)
             locked = run.eval("document.querySelector('.note-target').classList.contains('note-target--locked')")
             run.shot('tuner')
@@ -492,7 +494,7 @@ def main():
                            and COMMON['copyLink'] in idle, idle[:200]))
             run.chip(UI['modes']['ear'])
             checks.append(('in-app: the listening check still offered',
-                           run.eval("!!document.querySelector('.tool-panel__state--idle .btn-primary')"), None))
+                           run.eval("!!document.querySelector('.tool-panel__state--idle .btn--fill')"), None))
             run.close()
             for name, code in (('NotFoundError', 'micNotFound'), ('NotAllowedError', 'micBlocked'),
                                ('NotReadableError', 'micBusy')):

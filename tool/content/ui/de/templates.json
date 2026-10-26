@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "So benutzt du es",
     "sample": "Ein Beispielergebnis",
-    "notClaimed": "Was es nicht aussagt"
+    "notClaimed": "Was es nicht aussagt",
+    "howItWorks": "So funktioniert's",
+    "mic": "Mikrofon",
+    "noMic": "Ohne Mikrofon",
+    "next": {
+      "vocal-range-test": "Finde deinen Umfang",
+      "sing-in-tune-test": "Prüf, wie genau du triffst",
+      "warm-up-piano": "Sing dich in deinem Umfang ein",
+      "voice-break-finder": "Finde deinen Registerbruch"
+    }
+  },
+  "reference": {
+    "kicker": "Zum Nachlesen",
+    "reviewed": "Geprüft am {date}",
+    "relatedGuides": "Passende Ratgeber",
+    "otherTools": "Die anderen drei Tools",
+    "guidesWith": "Ratgeber, die dazu passen",
+    "allGuides": "Alle {n} Ratgeber",
+    "newHere": "Neu dabei? So fängst du an",
+    "twoRules": "Zwei Regeln für alle"
   },
   "routine": {
     "length": "Wie lange es dauert",
@@ -51,20 +70,23 @@
     "seeProfessional": "Wann du dir fachlichen Rat holen solltest"
   },
   "voices": {
-    "heading": "Die sechs Stimmlagen",
-    "voiceType": "Stimmlage",
+    "heading": "Die sechs Stimmfächer",
+    "voiceType": "Stimmfach",
     "range": "Typischer Umfang",
     "primo": "Erster Wechsel",
     "secondo": "Zweiter Wechsel",
     "fromTo": "{low} bis {high}",
     "keyboard": "{name}: {low} bis {high}",
-    "note": "Das sind typische klassische Umfänge und Registerbrüche. Scalita nutzt dieselben Brüche als erste Schätzung, bis du deine eigenen findest. Echte Stimmen sind verschieden, und der Umfang allein entscheidet nicht über die Stimmlage."
+    "note": "Das sind typische klassische Umfänge und Registerbrüche. Scalita nutzt dieselben Brüche als erste Schätzung, bis du deine eigenen findest. Echte Stimmen sind verschieden, und der Umfang allein entscheidet nicht über das Stimmfach."
   },
   "registers": {
     "heading": "Unter und über deinem üblichen Umfang",
     "register": "Register",
     "span": "Wo es liegt",
     "note": "In diesen Bereichen trainiert Scalita jedes Register. Beim subharmonischen Register ist der Bereich die Tonhöhe, die andere hören."
+  },
+  "hub": {
+    "moreGuides": "Weitere Ratgeber"
   },
   "intake": {
     "appOnly": "Nur in der App"
@@ -88,5 +110,22 @@
       "francoBelgian": "Französisch-belgisch",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "pattern": "{d}. {month} {y}"
   }
 }

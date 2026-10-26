@@ -1,18 +1,13 @@
 /*
- * player.js: the warm-up piano. Fills every [data-tool="player"][data-player]
- * from page data players[key]: a routine or a scale (ctx.player_data), or a
- * chooser of them, {kind: "chooser", items: [entry, ...], selected:
- * "routine:<id>"}. An entry may carry preset: "<voiceTypeId>" to open on.
- *
- * Six voice types (pageData.voiceTypes) play the export's own roots; the
- * singer's own range runs the app's resolver (scheduler.js), with the voice
- * break the finder saved in this browser. piano.js is imported on the first
- * Play and fetches only the band the exercise needs: nothing loads before.
- * Strings: strings.player and strings.common. Every event also reaches the
- * mount as a "scalita:player" CustomEvent; data-rate="N" plays N times
- * faster (tests only).
+ * player.js: the warm-up piano on [data-tool="player"][data-player], from
+ * page data players[key] (tool/README.md): a routine, a scale or a chooser.
+ * Voice types play the export's roots; the singer's own range runs the app's
+ * resolver (scheduler.js) with the break the finder kept. piano.js loads on
+ * the first Play. Strings: player, common, templates.tool.noMic (the pill).
+ * Each event reaches the mount as "scalita:player"; data-rate="N" plays N
+ * times faster (tests only).
  */
-import { stepsFor, compile, estimateMinutes, play } from '../audio/scheduler.js';
+import { stepsFor, compile, estimateMinutes } from '../audio/scheduler.js';
 
 export const RANGE_KEY = 'scalita-range'; // {low, high}: the range test's result
 export const BREAK_KEY = 'scalita-voice-break'; // {primo, secondo}: the finder's
@@ -20,8 +15,9 @@ const CUSTOM_LOW = 36;
 const CUSTOM_HIGH = 88;
 const MIN_SPAN = 5;
 const BLACK = [1, 3, 6, 8, 10];
-// Until style.css has a rule for the player's selects
-const SELECT_STYLE = 'font:inherit;color:var(--cream);background:var(--base);border:1px solid var(--mist);border-radius:10px;padding:6px 10px;margin:4px 0;max-width:100%';
+// Icons (24 x 24), filled
+const PLAY = 'M7 4.5v15l12.5-7.5z';
+const STOP = 'M8 6h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z';
 
 let audio = null;
 let pianoLoad = null;
@@ -41,6 +37,12 @@ function h(tag, props, ...kids) {
   }
   for (const c of kids) if (c != null) e.append(c);
   return e;
+}
+
+function icon(d) {
+  const t = document.createElement('template');
+  t.innerHTML = '<svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="currentColor"><path d="' + d + '"/></svg>';
+  return t.content.firstChild;
 }
 
 export function readStore(key) {
@@ -80,6 +82,14 @@ export const loadPiano = () =>
     throw e;
   }));
 
+// The scheduling half of the scheduler, fetched with the piano on the first Play
+let playLoad = null;
+const loadPlay = () =>
+  (playLoad ||= import('../audio/scheduler-play.js').catch((e) => {
+    playLoad = null;
+    throw e;
+  }));
+
 // Saved results this browser holds, checked before use
 export function savedRange() {
   const r = readStore(RANGE_KEY);
@@ -105,6 +115,7 @@ export function mount(el, pd) {
   if (!entry || !['routine', 'scale', 'chooser'].includes(entry.kind)) return null;
   const S = (pd.strings && pd.strings.player) || {};
   const C = (pd.strings && pd.strings.common) || {};
+  const T = (pd.strings && pd.strings.templates && pd.strings.templates.tool) || {};
   const types = pd.voiceTypes || [];
   const items = entry.kind === 'chooser' ? (entry.items || []).filter((x) => x && (x.kind === 'routine' || x.kind === 'scale')) : [entry];
   if (!items.length) return null;
@@ -122,6 +133,7 @@ export function mount(el, pd) {
     plan: null,
     handle: null,
     token: 0,
+    picked: false, // a saved range opens chosen, its selects folded until asked for
     keys: new Map(),
     lit: [],
     lis: [],
@@ -131,7 +143,7 @@ export function mount(el, pd) {
   else if (st.custom) st.voice = 'custom';
 
   // ---- the parts
-  const chooser = entry.kind === 'chooser' ? h('select', { style: SELECT_STYLE, onchange: (e) => choose(e.target.value) }) : null;
+  const chooser = entry.kind === 'chooser' ? h('select', { class: 'field', onchange: (e) => choose(e.target.value) }) : null;
   if (chooser) {
     for (const [kind, name] of [['routine', S.routines], ['scale', S.scales]]) {
       const group = h('optgroup', { label: name });
@@ -140,10 +152,10 @@ export function mount(el, pd) {
     }
     chooser.value = st.item.kind + ':' + st.item.id;
   }
-  const presets = h('div', { class: 'player__presets', role: 'group', 'aria-label': S.voiceLabel });
+  const presets = h('div', { class: 'player__presets seg-group seg-group--scroll', role: 'group', 'aria-label': S.voiceLabel });
   const voiceBtns = [];
   for (const [id, name] of [...types.map((t) => [t.id, t.name]), ['custom', S.custom]]) {
-    const b = h('button', { type: 'button', class: 'player__preset', 'aria-pressed': 'false', onclick: () => pickVoice(id) }, name);
+    const b = h('button', { type: 'button', class: 'player__preset seg', 'aria-pressed': 'false', onclick: () => pickVoice(id) }, name);
     b.dataset.voice = id;
     voiceBtns.push(b);
     presets.append(b);
@@ -152,20 +164,26 @@ export function mount(el, pd) {
     for (let m = CUSTOM_LOW; m <= CUSTOM_HIGH; m++) sel.append(h('option', { value: String(m) }, label(m)));
     return sel;
   };
-  const lowSel = options(h('select', { style: SELECT_STYLE, onchange: () => setCustom('low') }));
-  const highSel = options(h('select', { style: SELECT_STYLE, onchange: () => setCustom('high') }));
+  const lowSel = options(h('select', { class: 'field', onchange: () => setCustom('low') }));
+  const highSel = options(h('select', { class: 'field', onchange: () => setCustom('high') }));
   const custom = h('div', { class: 'player__custom', hidden: true },
-    h('label', null, S.lowest, ' ', lowSel), ' ', h('label', null, S.highest, ' ', highSel));
+    h('label', null, h('span', null, S.lowest), lowSel), h('label', null, h('span', null, S.highest), highSel));
   const meta = h('p', { class: 'player__meta' });
   const board = h('div', { class: 'keyboard', role: 'img' });
+  const keyLine = h('p', { class: 'wp-key' });
+  const unit = h('div', { class: 'wp-board' }, meta, h('div', { class: 'keyboard-bed' }, board), keyLine);
   const steps = h('ol', { class: 'player__steps' });
-  const playBtn = h('button', { type: 'button', class: 'btn btn-primary', onclick: () => (st.handle || st.loading ? stop() : start()) }, C.play);
+  const playBtn = h('button', { type: 'button', class: 'btn btn--fill', onclick: () => (st.handle || st.loading ? stop() : start()) });
   const live = h('p', { class: 'player__status', 'aria-live': 'polite' });
-  const keyLine = h('p', { class: 'player__status' });
-  const status = h('div', null, live, keyLine);
+  const say = (text, bad) => {
+    live.textContent = text;
+    live.classList.toggle('wp-error', !!bad);
+  };
+  const top = (chooser || T.noMic) && h('div', { class: 'player__top' },
+    chooser && h('label', { class: 'player__chooser' }, h('span', null, S.chooserLabel), chooser),
+    T.noMic && h('span', { class: 'pill pill--off' }, T.noMic));
   el.classList.add('player');
-  el.replaceChildren(...[chooser && h('label', { class: 'player__chooser' }, S.chooserLabel, ' ', chooser), presets, custom, meta, board, steps,
-    h('div', { class: 'player__controls' }, playBtn, status)].filter(Boolean));
+  el.replaceChildren(...[top, presets, custom, unit, steps, h('div', { class: 'player__controls' }, live, playBtn)].filter(Boolean));
 
   // ---- the plan
   // A voice break the finder kept replaces the type's averages, as the
@@ -214,7 +232,7 @@ export function mount(el, pd) {
       keys.push(k);
     }
     board.replaceChildren(...keys);
-    board.style.setProperty('--whites', String(whites));
+    for (const x of [board, unit]) x.style.setProperty('--whites', String(whites));
     board.setAttribute('aria-label', fmt(S.keyboard, { low: label(p ? p.voice.low : lo), high: label(p ? p.voice.high : hi) }));
   }
 
@@ -238,7 +256,7 @@ export function mount(el, pd) {
     const line = st.item.kind === 'routine'
       ? fmt(S.routineSummary, { steps: p.steps.length, minutes: p.minutes })
       : fmt(S.scaleSummary, { keys: p.steps[0].roots.length, minutes: p.minutes });
-    return st.brk ? line + ' ' + fmt(S.usingBreak, { note: label(st.brk.primo) }) : line;
+    return st.brk ? line + '. ' + fmt(S.usingBreak, { note: label(st.brk.primo) }) : line;
   }
 
   function detail(i) {
@@ -261,13 +279,13 @@ export function mount(el, pd) {
   function idle() {
     const p = st.plan;
     meta.textContent = p ? summary() : '';
-    live.textContent = p ? fmt(S.ready, { low: label(p.voice.low), high: label(p.voice.high) }) : S.pickVoice;
+    say(p ? fmt(S.ready, { low: label(p.voice.low), high: label(p.voice.high) }) : S.pickVoice);
     keyLine.textContent = '';
   }
 
   function refresh() {
     voiceBtns.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.voice === st.voice)));
-    custom.hidden = st.voice !== 'custom';
+    custom.hidden = st.voice !== 'custom' || !st.picked;
     if (st.custom) {
       lowSel.value = String(st.custom.low);
       highSel.value = String(st.custom.high);
@@ -276,6 +294,8 @@ export function mount(el, pd) {
     drawBoard();
     drawSteps();
     idle();
+    // nothing to play until a voice type or a range is chosen
+    playBtn.disabled = !st.plan;
   }
 
   // ---- the controls
@@ -289,6 +309,7 @@ export function mount(el, pd) {
 
   function pickVoice(id) {
     stop();
+    st.picked = true;
     if (id === 'custom' && !st.custom) {
       const t = types.find((x) => x.id === st.voice);
       st.custom = t
@@ -313,7 +334,7 @@ export function mount(el, pd) {
   }
 
   function setPlaying(on) {
-    playBtn.textContent = on ? C.stop : C.play;
+    playBtn.replaceChildren(icon(on ? STOP : PLAY), on ? C.stop : C.play);
   }
 
   function light(list) {
@@ -340,12 +361,11 @@ export function mount(el, pd) {
   function onEvent(e) {
     const p = st.plan;
     if (e.type === 'count') {
-      live.textContent = fmt(S.countIn, { n: e.n });
+      say(fmt(S.countIn, { n: e.n }));
     } else if (e.type === 'step') {
       currentStep(e.step);
       meta.textContent = detail(e.step);
-      if (st.item.kind === 'routine') live.textContent = fmt(S.stepOf, { step: e.step + 1, steps: p.steps.length });
-      else live.textContent = '';
+      say(st.item.kind === 'routine' ? fmt(S.stepOf, { step: e.step + 1, steps: p.steps.length }) : '');
     } else if (e.type === 'key') {
       keyLine.textContent = fmt(S.keyOf, { key: e.key + 1, keys: e.keys, note: label(e.root) });
     } else if (e.type === 'note') {
@@ -357,7 +377,7 @@ export function mount(el, pd) {
     } else if (e.type === 'pause') {
       light([]);
       keyLine.textContent = '';
-      live.textContent = fmt(S.breathe, { seconds: e.left });
+      say(fmt(S.breathe, { seconds: e.left }));
     }
     el.dispatchEvent(new CustomEvent('scalita:player', { detail: e }));
   }
@@ -367,12 +387,12 @@ export function mount(el, pd) {
     st.handle = null;
     if (sounding === api) sounding = null;
     setPlaying(false);
-    live.textContent = text;
+    say(text, true);
   }
 
   async function start() {
     if (!st.plan) {
-      live.textContent = S.pickVoice;
+      say(S.pickVoice);
       voiceBtns[0].focus();
       return;
     }
@@ -383,11 +403,12 @@ export function mount(el, pd) {
     sounding = api;
     st.loading = true;
     setPlaying(true);
-    live.textContent = C.loading;
+    say(C.loading);
     keyLine.textContent = '';
     let piano;
+    let play;
     try {
-      piano = await loadPiano();
+      [piano, { play }] = await Promise.all([loadPiano(), loadPlay()]);
     } catch {
       return token === st.token && fail(S.loadFailed);
     }
@@ -411,7 +432,7 @@ export function mount(el, pd) {
       currentStep(-1);
       meta.textContent = summary();
       keyLine.textContent = '';
-      live.textContent = S.done;
+      say(S.done);
     });
   }
 
@@ -431,7 +452,11 @@ export function mount(el, pd) {
 
   const api = { stop, start, get plan() { return st.plan; }, pickVoice, choose };
   el.scalitaPlayer = api;
+  setPlaying(false);
   refresh();
+  // the voice row scrolls on phones: open with the chosen voice in sight
+  const on = voiceBtns.find((b) => b.dataset.voice === st.voice);
+  if (on) presets.scrollLeft = on.offsetLeft - presets.offsetLeft - 40;
   return api;
 }
 

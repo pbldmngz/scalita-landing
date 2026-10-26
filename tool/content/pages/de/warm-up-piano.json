@@ -2,17 +2,21 @@
   "slug": "einsingen-klavier",
   "label": "Einsing-Klavier",
   "title": "Einsingen mit Klavier: Tonleitern in deinem Umfang - Scalita",
-  "description": "Einsingen mit Tonleitern und Routinen am echten Klavier, in deinem Umfang: Wähl eine Stimmlage oder deinen tiefsten und höchsten Ton. Kostenlos im Browser.",
+  "description": "Einsingen mit Tonleitern und Routinen am echten Klavier, in deinem Umfang: Wähl ein Stimmfach oder deinen tiefsten und höchsten Ton. Kostenlos im Browser.",
   "h1": "Einsingen mit Klavier",
-  "lead": "Ein Einsing-Video ist in festen Tonarten aufgenommen. Dieses Klavier spielt Scalitas Tonleitern und Routinen in deinen: Wähl eine Stimmlage oder deinen eigenen tiefsten und höchsten Ton und drück auf Abspielen.",
+  "lead": "Ein Einsing-Video ist in festen Tonarten aufgenommen. Dieses Klavier spielt Scalitas Tonleitern und Routinen in deinen: Wähl ein Stimmfach oder deinen eigenen tiefsten und höchsten Ton und drück auf Abspielen.",
+  "tile": "Tonleitern und Routinen aus der App, in deinem Umfang.",
+  "oneLine": "Wähl ein Stimmfach oder deinen eigenen Umfang und drück auf Abspielen.",
+  "appBand": "Scalita spielt alle 21 Tonleitern und 15 Routinen in deinem Umfang, merkt ihn sich und bewertet mit Kopfhörern jede Tonleiter. Offline, ohne Werbung, ohne Konto.",
+  "referenceHeading": "Über das Klavier",
   "toolId": "player",
-  "instructions": "<h2>So benutzt du es</h2><ol><li>Wähl eine Stimmlage oder stell deinen eigenen tiefsten und höchsten Ton ein. Wenn du sie nicht kennst, findet der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> sie in etwa einer Minute.</li><li>Wähl eine Tonleiter oder eine Routine. Muster, Silbe, Tempo und Stil siehst du, bevor es losgeht.</li><li>Drück auf Abspielen und sing mit. Vor jeder neuen Tonart hast du einen Moment zum Atmen, und ein kurzer Akkord gibt sie dir vor.</li><li>Drück auf Stopp, wann immer du willst.</li></ol><p>Das Klavier nutzt das Mikrofon nicht, und nichts wird heruntergeladen, bevor du auf Abspielen drückst.</p>",
+  "instructions": "<h2>So benutzt du es</h2><ol><li>Wähl ein Stimmfach oder stell deinen eigenen tiefsten und höchsten Ton ein. Wenn du sie nicht kennst, findet der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> sie in etwa einer Minute.</li><li>Wähl eine Tonleiter oder eine Routine. Muster, Silbe, Tempo und Stil siehst du, bevor es losgeht.</li><li>Drück auf Abspielen und sing mit. Vor jeder neuen Tonart hast du einen Moment zum Atmen, und ein kurzer Akkord gibt sie dir vor.</li><li>Drück auf Stopp, wann immer du willst.</li></ol><p>Das Klavier nutzt das Mikrofon nicht, und nichts wird heruntergeladen, bevor du auf Abspielen drückst.</p>",
   "sampleResult": "<h2>Was du hörst</h2><p>Wähl Tenor und die Tonleiter 5 Töne. Die erste Tonart beginnt auf {{note:D3}}: Das Klavier spielt von {{note:D3}} hinauf bis {{note:A3}} und wieder hinunter, fünf Töne hoch und vier runter. Jede Wiederholung rückt einen Halbton höher, bis der oberste Ton des Musters {{note:C5}} erreicht. Dann gehen die Tonarten wieder nach unten, an der ersten vorbei, bis die Tonleiter auf {{note:C3}} beginnt, dem unteren Ende des Tenor-Umfangs. Das sind 33 Wiederholungen, jede in einer neuen Tonart.</p><p>Wählst du stattdessen eine Routine, etwa Kurz vor dem Auftritt, spielt das Klavier ihre Übungen nacheinander. Mit der Voreinstellung Tenor dauert das etwa 8 Minuten.</p>",
   "notClaimed": "<h2>Was dieses Klavier nicht kann</h2><p>Es spielt und hört nicht zu, also kann es dir nicht sagen, ob du den Ton triffst oder zu sehr drückst. Es spielt immer nur eine Tonleiter oder Routine auf einmal und speichert zwischen zwei Besuchen nichts. Unterricht ist es auch nicht. Wenn ein Ton wehtut oder sich deine Stimme müde anfühlt, hör auf.</p>",
   "sections": [
     {
       "heading": "Warum dein Umfang zählt",
-      "html": "<p>Die meisten Einsing-Videos gibt es in einer Version für „Männer“ und einer für „Frauen“, jede in festen Tonarten, und viele Stimmen passen in keine von beiden. Wenn die Tonleiter eines Videos über deinen bequemen höchsten Ton hinaussteigt, drückst du entweder, oder du steigst aus. Hier wählst du eine Stimmlage, oder du lässt die Etiketten weg und stellst deinen eigenen tiefsten und höchsten Ton ein. Jede Übung beginnt in einer bequemen Tonart für diesen Umfang und bleibt darin.</p>"
+      "html": "<p>Die meisten Einsing-Videos gibt es in einer Version für „Männer“ und einer für „Frauen“, jede in festen Tonarten, und viele Stimmen passen in keine von beiden. Wenn die Tonleiter eines Videos über deinen bequemen höchsten Ton hinaussteigt, drückst du entweder, oder du steigst aus. Hier wählst du ein Stimmfach, oder du lässt die Etiketten weg und stellst deinen eigenen tiefsten und höchsten Ton ein. Jede Übung beginnt in einer bequemen Tonart für diesen Umfang und bleibt darin.</p>"
     },
     {
       "heading": "Was es spielt",
@@ -33,8 +37,8 @@
       "a": "<p>Wenn du ein paar Minuten hast, probier eine kurze Routine wie Kurz vor dem Auftritt. Wenn du deine Stimme nur aufwecken willst, summ die Tonleiter 5 Töne. Die <a href=\"page:vocal-warm-ups\">Einsing-Ratgeber</a> gehen die Routinen der App Schritt für Schritt durch.</p>"
     },
     {
-      "q": "Welche Stimmlage soll ich wählen?",
-      "a": "<p>Die, deren Umfang deinem am nächsten kommt, oder keine: Stell stattdessen deinen eigenen tiefsten und höchsten Ton ein. Der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> findet sie in etwa einer Minute, und der <a href=\"page:voice-types\">Ratgeber zu den Stimmlagen</a> zeigt, was jede umfasst.</p>"
+      "q": "Welches Stimmfach soll ich wählen?",
+      "a": "<p>Das, dessen Umfang deinem am nächsten kommt, oder keins: Stell stattdessen deinen eigenen tiefsten und höchsten Ton ein. Der <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> findet sie in etwa einer Minute, und der <a href=\"page:voice-types\">Ratgeber zu den Stimmfächern</a> zeigt, was jedes umfasst.</p>"
     },
     {
       "q": "Kann ich eine Routine oder meinen Umfang speichern?",

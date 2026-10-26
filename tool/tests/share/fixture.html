@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Share images fixture</title>
+<style>
+  @font-face { font-family: 'Sora'; font-weight: 300; src: url('/fonts/sora-300.woff2') format('woff2'); }
+  @font-face { font-family: 'Sora'; font-weight: 400; src: url('/fonts/sora-400.woff2') format('woff2'); }
+  @font-face { font-family: 'Sora'; font-weight: 500; src: url('/fonts/sora-500.woff2') format('woff2'); }
+  body { margin: 0; background: #1E2628; }
+</style>
+</head>
+<body>
+<!-- e2e.py serves this at /tool/tests/share/fixture.html: the page's own
+     @font-face rules as css/style.css has them (300, 400, 500; the share
+     module adds 200 itself), and fixture.mjs, which draws the cases. -->
+<script type="module" src="/tool/tests/share/fixture.mjs"></script>
+</body>
+</html>

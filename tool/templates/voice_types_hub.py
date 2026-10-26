@@ -18,6 +18,7 @@ import _parts as p
 
 RELATED = ["vocal-range-test", "voice-break-finder", "note-names-octaves", "head-voice-vs-chest-voice",
            "voice-cracks-high-notes"]
+CSS = ["guides.css"]
 
 
 def facts(ctx, v):
@@ -48,4 +49,4 @@ def render(ctx):
     children = [i for i in c.get("children") or [] if ctx.has(i)]
     blocks.append(p.cards(ctx, children))
     related = [i for i in RELATED if i not in children]
-    return p.result(p.finish(ctx, blocks, related))
+    return dict(p.result(p.finish(ctx, blocks, related)), css=CSS)

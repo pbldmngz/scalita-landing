@@ -5,7 +5,26 @@
   "tool": {
     "howTo": "Cara memakainya",
     "sample": "Contoh hasil",
-    "notClaimed": "Yang tidak diklaim"
+    "notClaimed": "Yang tidak diklaim",
+    "howItWorks": "Cara kerjanya",
+    "mic": "Mikrofon",
+    "noMic": "Tanpa mikrofon",
+    "next": {
+      "vocal-range-test": "Cari jangkauanmu",
+      "sing-in-tune-test": "Cek seberapa dekat nyanyianmu",
+      "warm-up-piano": "Pemanasan di jangkauanmu",
+      "voice-break-finder": "Temukan peralihan registermu"
+    }
+  },
+  "reference": {
+    "kicker": "Referensi",
+    "reviewed": "Ditinjau {date}",
+    "relatedGuides": "Panduan terkait",
+    "otherTools": "Tiga alat lainnya",
+    "guidesWith": "Panduan pendamping",
+    "allGuides": "Semua {n} panduan",
+    "newHere": "Baru pertama kali? Mulai dari sini",
+    "twoRules": "Dua aturan untuk semuanya"
   },
   "routine": {
     "length": "Berapa lama",
@@ -66,6 +85,9 @@
     "span": "Letaknya",
     "note": "Ini rentang tempat Scalita melatih tiap register. Untuk subharmonik, rentangnya adalah nada yang didengar orang."
   },
+  "hub": {
+    "moreGuides": "Panduan lainnya"
+  },
   "intake": {
     "appOnly": "Hanya di aplikasi"
   },
@@ -88,5 +110,22 @@
       "francoBelgian": "Prancis-Belgia",
       "helmholtz": "Helmholtz"
     }
+  },
+  "dates": {
+    "months": [
+      "Januari",
+      "Februari",
+      "Maret",
+      "April",
+      "Mei",
+      "Juni",
+      "Juli",
+      "Agustus",
+      "September",
+      "Oktober",
+      "November",
+      "Desember"
+    ],
+    "pattern": "{d} {month} {y}"
   }
 }

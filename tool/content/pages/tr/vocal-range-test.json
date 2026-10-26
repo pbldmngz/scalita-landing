@@ -5,6 +5,10 @@
   "description": "Sesin kaç oktav? En pes ve en tiz notanı söyle ya da mırıldan; ses aralığını nota ve oktav olarak, tipik olduğu ses türleriyle gör. Ücretsiz, tarayıcında.",
   "h1": "Ses aralığı testi",
   "lead": "Rahat söyleyebildiğin en pes notayı, sonra en tiz notayı söyle ya da mırıldan. Yaklaşık bir dakikada ses aralığını nota ve oktav olarak görürsün, bu aralığın tipik olduğu ses türleriyle birlikte.",
+  "tile": "En pes ve en tiz notan, yaklaşık bir dakikada.",
+  "oneLine": "Önce en pes notanı, sonra en tiz notanı söyle. Yaklaşık bir dakika.",
+  "appBand": "Scalita'da ilk iş ses aralığını belirlersin. Ondan sonraki her ısınma gerçek bir piyanoda, sesinin başladığı yerde başlar ve bittiği yerde biter. Çevrimdışı, hesap yok.",
+  "referenceHeading": "Test hakkında",
   "toolId": "vocal-range-test",
   "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Başlat'a bas ve tarayıcın sorduğunda mikrofona izin ver.</li><li>Rahat söyleyebildiğin en pes notayı “a” ya da “o” gibi kolay bir ünlüyle söyle ya da mırıldan. Dibi bulana kadar yavaşça aşağı kay, sonra o notayı kilitlenene kadar bir iki saniye tut.</li><li>Rahat söyleyebildiğin en tiz notaya çık ve onu da aynı şekilde tut.</li><li>Sonucunu oku. Oradan ses aralığını piyanoda dinleyebilir ya da geçiş bölgeni bulmaya geçebilirsin.</li></ol><p>Rahat demek, bir şarkıda kullanabileceğin bir nota demek; zar zor sıkıştırarak çıkarabildiğin bir nota değil. Sessiz bir odada telefonunun kendi mikrofonunu kullan ve mümkünse önce birkaç dakika ısın. Soğuk bir ses çoğu zaman daha dar okunur.</p>",
   "sampleResult": "<h2>Bir sonuç neye benzer</h2><p>Diyelim ki {{note:G3}} ile {{note:F5}} arasında söylüyorsun. Sonucun şöyle görünür:</p><ul><li>En pes {{note:G3}}, en tiz {{note:F5}}</li><li>22 yarım ses, yaklaşık 1,8 oktav</li><li>Kontralto ya da mezzo-soprano için tipik</li></ul><p>Altında Scalita uygulamasından iki hatırlatma yer alır: ses aralığın ısınmayla, çalışmayla ve günün saatiyle değişebilir; geçiş bölgen de ses türü için daha güvenilir bir göstergedir. Bu tarayıcıda testi daha önce yaptıysan son sonucun da görünür; sonucu görsel olarak kaydedebilir ya da paylaşabilirsin.</p>",
@@ -12,10 +16,10 @@
   "sections": [
     {
       "heading": "Test neyi ölçer",
-      "html": "<p>Ses aralığın, rahatça söyleyebildiğin en pes notadan en tiz notaya kadar uzanan notalardır. Test iki ucu da senin sesinle bulur ve aradaki mesafeyi yarım ses (bir piyano tuşundan bir sonrakine olan adım) ve on iki yarım seslik oktavlar olarak sayar. Orta Do, {{note:C4}} notasıdır.</p><p>Sonra aralığının ortasını Scalita'nın tablosundaki ses türleriyle karşılaştırır ve en yakın olanı, neredeyse berabere kaldıklarında da en yakın ikisini söyler. Tablodaki her tür iki oktav kapsar: bas için {{note:F2}} ile {{note:F4}} arasından soprano için {{note:C4}} ile {{note:C6}} arasına kadar.</p>"
+      "html": "<p>Ses aralığın, rahatça söyleyebildiğin en pes notadan en tiz notaya kadar uzanan notalardır. Test iki ucu da senin sesinle bulur ve aradaki mesafeyi yarım ses (bir piyano tuşundan bir sonrakine olan adım) ve on iki yarım seslik oktavlar olarak sayar. Orta Do, {{note:C4}} notasıdır.</p><p>Sonra aralığının ortasını Scalita'nın tablosundaki ses türleriyle karşılaştırır ve en yakın olanı, neredeyse berabere kaldıklarında da en yakın ikisini söyler. Tablodaki her tür iki oktav kapsar: bas için {{note:E2}} ile {{note:E4}} arasından soprano için {{note:C4}} ile {{note:C6}} arasına kadar.</p>"
     },
     {
-      "heading": "Nasıl çalışır",
+      "heading": "Test sesini nasıl okur",
       "html": "<p>Tarayıcın mikrofon aracılığıyla dinler ve sesinin perdesini saniyede yaklaşık yirmi kez okur; bunu Scalita uygulamasının kullandığı yöntemle yapar: 2002'de yayımlanmış bir perde algılayıcı olan YIN. Bir nota ancak bir an sabit kaldıktan sonra sayılır; böylece kaymalar, çatlamalar ve öksürükler sonucuna girmez.</p><p>Bunların hepsi cihazında olur. Ses geldiği anda okunur ve sonra atılır. Hiçbir şey kaydedilmez ya da gönderilmez; Durdur'a bastığında ya da sayfadan çıktığında mikrofon kapanır.</p>"
     },
     {
@@ -23,6 +27,7 @@
       "html": "<ul><li>Önce birkaç dakika ısın. Biraz mırıldanmak ya da <a href=\"page:warm-up-piano\">ses açma piyanosunda</a> birkaç kolay gam yeter.</li><li>Sessiz bir oda bul ve telefonunun kendi mikrofonunu kullan. Bluetooth kulaklıklar, çok daha az duyan bir telefon görüşmesi mikrofonuna geçer.</li><li>Kolay bir ünlü ve orta bir ses şiddeti kullan. Bağırarak söylenen bir tepe notası ya da fısıldanan bir dip notası daha zor okunur.</li><li>Testi iki kez yap. Birbirine bir iki nota yakın iki sonuç, bugünkü ses aralığın hakkında sağlıklı bir fikir verir.</li></ul>"
     },
     {
+      "id": "keyboard",
       "heading": "Mikrofon çalışmazsa",
       "html": "<ul><li><strong>Instagram, TikTok, Facebook ya da Gmail'den mi açtın?</strong> Bu uygulamaların içindeki tarayıcılar mikrofonu engeller. Uygulamanın menüsünden bu sayfayı Chrome'da ya da Safari'de aç.</li><li><strong>Yanlışlıkla Engelle'ye mi bastın?</strong> Site ayarlarından, genellikle adres çubuğunun yanındaki simgeden mikrofona izin ver, sonra sayfayı yeniden yükle.</li><li><strong>Mikrofonu başka bir uygulama mı kullanıyor?</strong> Aramayı bitir ya da kayıt uygulamasını kapat, sonra tekrar Başlat'a bas.</li><li><strong>Seviye hep düşük mü kalıyor?</strong> Biraz daha yüksek sesle söyle ya da yaklaş. Dizüstü bilgisayar mikrofonlarına telefonlardan daha çok yaklaşman gerekir.</li><li><strong>Hiç mikrofonun yok mu?</strong> Ses aralığını elle belirle: klavyede notaları çal, söyleyebildiğin en pes ve en tiz notayı seç.</li></ul>"
     },
