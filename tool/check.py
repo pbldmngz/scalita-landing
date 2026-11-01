@@ -103,7 +103,7 @@ NEW_SITE_KEYS = ["nav.tools", "nav.guides", "footer.toolsHeading", "footer.guide
                  "nav.exitFullscreen", "nav.tabLabels.vocal-range-test", "nav.tabLabels.sing-in-tune-test",
                  "nav.tabLabels.warm-up-piano", "nav.tabLabels.voice-break-finder", "cta.inApp",
                  "cta.hubHeading", "cta.free", "cta.iphone", "cta.comingSoon", "cta.iphoneLabel",
-                 "index.stage.meta", "index.tools.kicker", "index.tools.title", "index.tools.lead",
+                 "index.tools.kicker", "index.tools.title", "index.tools.lead",
                  "index.tools.open", "index.app.kicker", "index.app.title", "index.app.lead",
                  "index.trust.title", "index.pricing.pro.note", "index.download.cta"]
 # Tops that hold only new keys: the generic "reads as English" pass skips them,

@@ -90,6 +90,12 @@ const loadPlay = () =>
     throw e;
   }));
 
+// The screen stays on while a warm-up plays (js/site/wake-lock.js), fetched
+// on the first Play, never with the page
+let wakeLoad = null;
+const awake = (key, on) => (on || wakeLoad)
+  && (wakeLoad ||= import('../site/wake-lock.js').catch(() => null)).then((m) => m && m.keepAwake(key, on));
+
 // Saved results this browser holds, checked before use
 export function savedRange() {
   const r = readStore(RANGE_KEY);
@@ -333,8 +339,10 @@ export function mount(el, pd) {
     refresh();
   }
 
+  const wakeKey = {};
   function setPlaying(on) {
     playBtn.replaceChildren(icon(on ? STOP : PLAY), on ? C.stop : C.play);
+    awake(wakeKey, on);
   }
 
   function light(list) {

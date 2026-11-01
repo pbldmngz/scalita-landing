@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
   <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
-  <link rel="stylesheet" href="/css/home.css?v=08bd1534d2">
+  <link rel="stylesheet" href="/css/home.css?v=3756e57899">
   <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin>
@@ -109,32 +109,31 @@
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Sin cuenta</li>
         </ul>
       </div>
-      <section class="card home-stage" aria-labelledby="home-stage-h">
-        <div class="home-stage__head">
-          <div class="home-stage__tool">
-            <span class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span>
-            <div>
-              <h2 id="home-stage-h">Test de rango vocal</h2>
-              <p class="home-stage__meta">Gratis · En tu navegador · Un minuto</p>
-            </div>
-          </div>
-          <span class="pill pill--off"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Micro apagado</span>
-        </div>
-        <h3 class="home-stage__title">Encuentra tu rango en más o menos un minuto</h3>
-        <p class="home-stage__intro">Canta o tararea tu nota más grave cómoda y mantenla; luego haz lo mismo con la más aguda. Cada nota queda fijada cuando la mantienes estable durante un segundo, más o menos.</p>
-        <div class="home-stage__art">
-          <div class="home-stage__lanes" aria-hidden="true"><span data-n="Do4"></span><span data-n="Si3"></span><span data-n="La#3"></span><span data-n="La3"></span><span data-n="Sol#3"></span><span data-n="Sol3"></span><span data-n="Fa#3"></span><span data-n="Fa3"></span><span data-n="Mi3"></span><span data-n="Re#3"></span></div>
-          <span class="home-stage__kicker" aria-hidden="true">Trazo de afinación</span>
-          <div class="home-stage__go">
-            <a class="btn btn--fill" href="/es/herramientas/test-de-rango-vocal/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Empezar<span class="sr-only">: Test de rango vocal</span></a>
-            <span class="pill pill--hint home-stage__allow">Permite el micrófono cuando el navegador te lo pida.</span>
+      <div class="home-phone" role="group" aria-roledescription="carousel" aria-label="Capturas de la app">
+        <div class="home-phone__frame">
+          <div class="home-phone__screen">
+            <img class="home-phone__shot is-on" src="/images/screenshots/es/home.jpg" alt="Pantalla de inicio de Scalita" width="560" height="1125" fetchpriority="high">
+            <img class="home-phone__shot" src="/images/screenshots/es/player.jpg" alt="Un ejercicio en marcha con el trazo de afinación en vivo" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/es/scored.jpg" alt="La puntuación al terminar una escala: cuánto quedó afinado" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/es/pitch_targeting.jpg" alt="Puntería de afinación sobre una sola tecla" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/es/find_my_warmup.jpg" alt="Encuentra Tu Calentamiento preguntando cómo tienes la voz" width="560" height="1125" loading="lazy" decoding="async">
           </div>
         </div>
-        <div class="home-stage__foot">
-          <a class="home-stage__nomic" href="/es/herramientas/test-de-rango-vocal/#keyboard"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg>¿Sin micrófono? Elige tus notas en un teclado</a>
-          <span class="home-stage__lock"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10.5" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>No se graba ni se envía nada.</span>
+        <div class="home-phone__caps">
+          <p class="home-phone__cap is-on"><strong>Elige una rutina y pulsa Reproducir</strong><span>15 rutinas y 21 escalas, todas en tu rango.</span></p>
+          <p class="home-phone__cap"><strong>Mira tu afinación mientras cantas</strong><span>Con auriculares puestos, un trazo en vivo muestra dónde cae tu voz en cada nota.</span></p>
+          <p class="home-phone__cap"><strong>Una puntuación tras cada escala</strong><span>Cuánto quedó afinado, lo cerca que estuvo el resto y algo que trabajar.</span></p>
+          <p class="home-phone__cap"><strong>Toca una tecla y cántala</strong><span>Puntería de afinación, uno de los cuatro modos del Entrenamiento de precisión.</span></p>
+          <p class="home-phone__cap"><strong>Di cómo tienes la voz</strong><span>Encuentra Tu Calentamiento elige la rutina y ajusta el tempo.</span></p>
         </div>
-      </section>
+        <div class="home-phone__dots">
+          <button type="button" class="home-phone__dot is-on" aria-label="Elige una rutina y pulsa Reproducir" aria-current="true"></button>
+          <button type="button" class="home-phone__dot" aria-label="Mira tu afinación mientras cantas"></button>
+          <button type="button" class="home-phone__dot" aria-label="Una puntuación tras cada escala"></button>
+          <button type="button" class="home-phone__dot" aria-label="Toca una tecla y cántala"></button>
+          <button type="button" class="home-phone__dot" aria-label="Di cómo tienes la voz"></button>
+        </div>
+      </div>
     </section>
 
     <section class="home-tools" aria-labelledby="home-tools-h">
@@ -232,38 +231,6 @@
           </div>
         </li>
       </ol>
-      <ul class="home-screens" tabindex="0" aria-label="Capturas de la app">
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/es/home.jpg" alt="Pantalla de inicio de Scalita" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Elige una rutina y pulsa Reproducir</strong><span>15 rutinas y 21 escalas, todas en tu rango.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/es/player.jpg" alt="Un ejercicio en marcha con el trazo de afinación en vivo" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Mira tu afinación mientras cantas</strong><span>Con auriculares puestos, un trazo en vivo muestra dónde cae tu voz en cada nota.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/es/scored.jpg" alt="La puntuación al terminar una escala: cuánto quedó afinado" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Una puntuación tras cada escala</strong><span>Cuánto quedó afinado, lo cerca que estuvo el resto y algo que trabajar.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/es/pitch_targeting.jpg" alt="Puntería de afinación sobre una sola tecla" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Toca una tecla y cántala</strong><span>Puntería de afinación, uno de los cuatro modos del Entrenamiento de precisión.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/es/find_my_warmup.jpg" alt="Encuentra Tu Calentamiento preguntando cómo tienes la voz" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Di cómo tienes la voz</strong><span>Encuentra Tu Calentamiento elige la rutina y ajusta el tempo.</span></figcaption>
-          </figure>
-        </li>
-      </ul>
       <details class="acc acc--pill home-catalog">
         <summary class="acc__head">
           <span class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span>
@@ -428,6 +395,45 @@
 
   </main>
   <script>
+    (function () {
+      var box = document.querySelector('.home-phone');
+      if (!box) return;
+      var sets = ['shot', 'cap', 'dot'].map(function (s) { return box.querySelectorAll('.home-phone__' + s); });
+      var dots = sets[2], screen = box.querySelector('.home-phone__screen');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var at = 0, timer = 0, x0 = null;
+      function show(n) {
+        at = (n + dots.length) % dots.length;
+        sets.forEach(function (set) {
+          for (var k = 0; k < set.length; k++) set[k].classList.toggle('is-on', k === at);
+        });
+        for (var k = 0; k < dots.length; k++) {
+          if (k === at) dots[k].setAttribute('aria-current', 'true');
+          else dots[k].removeAttribute('aria-current');
+        }
+      }
+      function pause() { clearInterval(timer); }
+      function run() {
+        pause();
+        if (!still && dots.length > 1) timer = setInterval(function () { show(at + 1); }, 4500);
+      }
+      Array.prototype.forEach.call(dots, function (dot, n) {
+        dot.addEventListener('click', function () { show(n); run(); });
+      });
+      box.addEventListener('mouseenter', pause);
+      box.addEventListener('mouseleave', run);
+      box.addEventListener('focusin', pause);
+      box.addEventListener('focusout', run);
+      screen.addEventListener('pointerdown', function (e) { x0 = e.clientX; });
+      screen.addEventListener('pointerup', function (e) {
+        if (x0 !== null && Math.abs(e.clientX - x0) > 40) {
+          show(at + (e.clientX < x0 ? 1 : -1));
+          run();
+        }
+        x0 = null;
+      });
+      run();
+    })();
     (function () {
       var button = document.querySelector('.piano-button');
       var chord = null;

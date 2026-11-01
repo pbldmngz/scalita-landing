@@ -179,13 +179,14 @@ test('no verdict on the voice, no dashes a reader takes for em dashes', () => {
 test('before the first tap: the mount point and mic.js only, the rest on the tap', () => {
   const statics = (src) => [...src.matchAll(/^import .* from '([^']+)';$/gm)].map((m) => m[1]);
   assert.deepEqual(statics(ENTRY), ['../audio/mic.js']);
-  assert.deepEqual(statics(RUNS), ['../audio/mic.js']);
+  // the runs bring the wake lock with them, on the tap, before any microphone
+  assert.deepEqual(statics(RUNS), ['../audio/mic.js', '../site/wake-lock.js']);
   const lazy = [...ENTRY.matchAll(/import\('([^']+)'\)/g)].map((m) => m[1]);
   assert.deepEqual(lazy.sort(), ['../audio/listener.js', '../audio/piano.js', '../audio/pitch.js', './share-tune.js', './sing-in-tune.js']);
   assert.ok(!/import\(/.test(RUNS), 'the runs load nothing more');
   const gz = (p) => gzipSync(readFileSync(join(REPO, p)), { level: 9 }).length;
   const before = gz('js/tools/sing-in-tune-test.js') + gz('js/audio/mic.js');
-  const tap = gz('js/tools/sing-in-tune.js') + ['listener', 'piano', 'pitch', 'yin'].reduce((n, f) => n + gz(`js/audio/${f}.js`), 0);
+  const tap = gz('js/tools/sing-in-tune.js') + gz('js/site/wake-lock.js') + ['listener', 'piano', 'pitch', 'yin'].reduce((n, f) => n + gz(`js/audio/${f}.js`), 0);
   assert.ok(before <= 8 * 1024, `${before} bytes gzipped before the tap`);
   assert.equal(KEYS.range, 'scalita-range'); // vocal-range-test.js writes it
   console.log(`# before the tap ${before} B gzipped (sing-in-tune-test.js ${gz('js/tools/sing-in-tune-test.js')}, mic.js ${gz('js/audio/mic.js')}); on the tap ${tap} B more`);

@@ -342,6 +342,38 @@ class Tab:
 
 
 # Every tool event, stamped on the epoch clock, from the first byte
+# A stand-in for the Screen Wake Lock API (js/site/wake-lock.js): each request
+# and release counted, the most held at once, in window.__wake
+WAKE = """(() => {
+  const log = (window.__wake = { requests: 0, releases: 0, held: 0, most: 0 });
+  const api = {
+    request(type) {
+      log.requests++;
+      log.most = Math.max(log.most, ++log.held);
+      let gone = false;
+      const on = new Set();
+      return Promise.resolve({
+        type, get released() { return gone; },
+        addEventListener(e, f) { if (e === 'release') on.add(f); },
+        removeEventListener(e, f) { on.delete(f); },
+        release() {
+          if (!gone) { gone = true; log.releases++; log.held--; on.forEach((f) => f()); }
+          return Promise.resolve();
+        },
+      });
+    },
+  };
+  Object.defineProperty(Navigator.prototype, 'wakeLock', { get: () => api, configurable: true });
+})();"""
+
+WAKE_JS = "new Promise((r) => setTimeout(r, 50)).then(() => window.__wake)"
+
+
+def wake_ok(w):
+    """The screen was kept on while the tool ran, and let go once it stopped."""
+    return bool(w) and w["requests"] >= 1 and w["most"] >= 1 and w["held"] == 0
+
+
 EVENTS = """(() => {
   const at = () => performance.timeOrigin + performance.now();
   window.__ev = [];
@@ -748,6 +780,36 @@ def group_pages(p, srv, site, codes, urls):
                                                                                "/audio/67_G4.mp3"] and not t.clean(),
                 {"audio": got, "console": t.clean()})
         t.close()
+        # App first: the hero's phone with the app's screens, the free tools under it, no tool script
+        for width in (360, 1280):
+            t = Tab(browser, width, mobile=width < 600)
+            t.page.goto(srv.origin + "/")
+            t.page.wait_for_timeout(300)
+            home = t.page.evaluate("""() => {
+              const main = document.querySelector('main');
+              const kids = [...main.children].map((s) => s.className.split(' ')[0]);
+              const hero = main.querySelector('.home-hero'), phone = hero && hero.querySelector('.home-phone');
+              const box = (s) => { const e = document.querySelector(s); return e ? e.getBoundingClientRect().top + scrollY : null; };
+              const on = () => [...document.querySelectorAll('.home-phone__shot')].findIndex((i) => i.classList.contains('is-on'));
+              const first = on();
+              const dots = document.querySelectorAll('.home-phone__dot');
+              if (dots[2]) dots[2].click();
+              return { kids, phone: !!phone, shots: phone ? phone.querySelectorAll('img').length : 0,
+                       firstLoaded: !!(phone && phone.querySelector('img').complete && phone.querySelector('img').naturalWidth),
+                       first, after: on(), current: dots[2] && dots[2].getAttribute('aria-current'),
+                       order: [box('.home-phone'), box('.home-hero .home-buttons'), box('.home-tools')],
+                       scripts: [...document.scripts].map((s) => s.src).filter((s) => s.includes('/js/tools/') || s.includes('/js/audio/')),
+                       modules: document.querySelectorAll('script[type="module"], script[type="importmap"]').length,
+                       stage: !!document.querySelector('.home-stage, [data-tool]') };
+            }""")
+            o = home["order"]
+            ok = (home["kids"][:2] == ["home-hero", "home-tools"] and home["phone"] and home["shots"] >= 3
+                  and home["firstLoaded"] and home["first"] == 0 and home["after"] == 2 and home["current"] == "true"
+                  and None not in o and o[2] > max(o[0], o[1]) and not home["scripts"] and not home["modules"]
+                  and not home["stage"] and not t.clean())
+            R.check("the home at %d px is app first: the phone and its screens, the Play button, then the free tools; "
+                    "no tool script; the dots move the screens" % width, ok, {**home, "console": t.clean()})
+            t.close()
     finally:
         browser.close()
 
@@ -1343,7 +1405,7 @@ def group_range(p, srv, site):
     mount = '[data-tool="vocal-range-test"]'
     browser = chromium(p, wav)
     try:
-        t = Tab(browser, 360, ua=ANDROID, init=[EVENTS, PROBE % "{}", CLS, STILL])
+        t = Tab(browser, 360, ua=ANDROID, init=[EVENTS, PROBE % "{}", CLS, STILL, WAKE])
         t0 = now()
         t.page.goto(srv.origin + path)
         t.page.wait_for_selector(mount + '[data-state="idle"]')
@@ -1371,6 +1433,8 @@ def group_range(p, srv, site):
         R.check("echoCancellation, noiseSuppression and autoGainControl off",
                 [s.get(k) for k in ("echoCancellation", "noiseSuppression", "autoGainControl")] == [False] * 3, s)
         R.check("the track is stopped", t.page.evaluate("document.querySelector('%s').rangeTest.micLive()" % mount) is False)
+        w = t.page.evaluate(WAKE_JS)
+        R.check("the screen kept on while it listened, and let go after", wake_ok(w), w)
         t.page.get_by_role("button", name=U["seeResult"]).click()
         t.page.wait_for_selector(mount + '[data-state="result"]')
         r = t.page.evaluate(RANGE_RESULT)
@@ -1509,7 +1573,7 @@ def group_tune(p, srv, site):
     try:
         idle = '[data-tool="sing-in-tune-test"][data-state="idle"] .tool-panel__actions .btn'
         start = '.tool-panel__state--idle:not([hidden]) button >> text="%s"' % C["start"]
-        t = Tab(browser, 360, ua=ANDROID, init=[PROBE % json.dumps({"targets": targets, "seed": 7}), CLS, STILL])
+        t = Tab(browser, 360, ua=ANDROID, init=[PROBE % json.dumps({"targets": targets, "seed": 7}), CLS, STILL, WAKE])
         t0 = now()
         t.page.goto(srv.origin + path)
         t.page.wait_for_selector(idle)
@@ -1544,6 +1608,9 @@ def group_tune(p, srv, site):
         R.check("one microphone check, then one opening per note", probe["gum"] == len(targets) + 1, probe["gum"])
         live_checks(t, srv, probe["listening"], probe["spans"])
         R.check("the microphone is off at the end", not probe["live"])
+        w = t.page.evaluate(WAKE_JS)
+        R.check("the screen kept on through the round, one lock across the piano's and the microphone's turns, "
+                "and let go at the result", wake_ok(w) and w["requests"] == 1, w)
         R.check("Android: one Play link, the band's, tagged", r["href"] == pd["playLink"] and r["inStage"] == 0
                 and "utm_campaign%3Dsing-in-tune-test" in (r["href"] or ""), [r["href"], r["inStage"]])
         soon = t.page.evaluate(PLAY_JS, ["#app", site.content(pd["locale"])["cta"]["comingSoon"]])
@@ -1585,11 +1652,13 @@ def group_player(p, srv, site):
         else:
             rid = site.by_id["quick-vocal-warm-up"]["data"]["routineId"]
             pd = site.page_data(path)
-            t = Tab(browser, 360, init=[EVENTS, FAST])
+            t = Tab(browser, 360, init=[EVENTS, FAST, WAKE])
             t0 = now()
             t.page.goto(srv.origin + path)
             t.page.wait_for_selector('[data-tool="player"] .player__preset')
             t.page.wait_for_timeout(300)
+            early = srv.since(t0, "/js/site/wake-lock.js")
+            R.check("quick warm-up page: the wake lock's script not loaded before Play", not early, early)
             R.check("quick warm-up page: nothing under /audio/ before Play", not srv.since(t0, "/audio/"), srv.since(t0, "/audio/"))
             t.page.click('[data-tool="player"] .player__preset[data-voice="tenor"]')
             t1 = now()
@@ -1604,6 +1673,8 @@ def group_player(p, srv, site):
                 a.startswith("/audio/piano-web/") and a.endswith(".mp3") for a in audio), audio)
             R.check("quick warm-up page: Play again at the end",
                     t.page.text_content('[data-tool="player"] .btn--fill') == pd["strings"]["common"]["play"])
+            w = t.page.evaluate(WAKE_JS)
+            R.check("quick warm-up page: the screen kept on while it played, and let go at the end", wake_ok(w), w)
             check_versioned(t, pd, srv, t0)
             R.check("quick warm-up page: console clean", not t.clean(), t.clean())
             t.close()
@@ -1644,7 +1715,7 @@ def group_finder(p, srv, site):
     vectors = data("voice_type_vectors.json")["closestForPrimoAndGender"]
     browser = chromium(p)
     try:
-        t = Tab(browser, 360, init=[EVENTS, FAST])
+        t = Tab(browser, 360, init=[EVENTS, FAST, WAKE])
         t0 = now()
         t.page.goto(srv.origin + path)
         mount = '[data-tool="voice-break-finder"]'
@@ -1657,8 +1728,12 @@ def group_finder(p, srv, site):
         stairs = t.page.evaluate(KEYS_JS, mount)
         R.check("the climb's keys: no border, no outline (%d keys)" % stairs["n"], stairs["n"] and not stairs["bad"],
                 stairs["bad"])
+        climbing = t.page.evaluate(WAKE_JS)
         t.page.get_by_role("button", name=U["feltIt"]).click()
         t.page.wait_for_selector(mount + '[data-state="confirming"]')
+        w = t.page.evaluate(WAKE_JS)
+        R.check("the screen kept on through the climb, and let go at the felt note",
+                climbing["held"] == 1 and wake_ok(w), [climbing, w])
         t.page.get_by_role("button", name=U["yes"]).click()
         t.page.wait_for_selector(mount + '[data-state="result"]')
         ev = t.page.evaluate("window.__ev")

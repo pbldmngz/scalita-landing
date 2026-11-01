@@ -20,6 +20,8 @@
  */
 
 import { micIsLive } from '../audio/mic.js';
+// with this module, on the tap: nothing is fetched once the microphone is live
+import { keepAwake } from '../site/wake-lock.js';
 
 export const ROUND = 5;
 export const MIN_JUDGED = 3; // fewer measured and a round shows no figures
@@ -335,7 +337,10 @@ export function begin(ui, my, E) {
     listener = null;
     if (ui.ctx && usesPiano) E.piano.release();
     hints.clear();
+    keepAwake('tune', false);
   };
+  // the screen stays on from Start to the result, the piano's turns included
+  keepAwake('tune', true);
   ui.onHide = () => (ui.mode === 'sing' ? ui.fail('micHidden') : ui.mode === 'ear' && E.piano.stopAll());
   if (usesPiano) {
     E.piano.init(pd.piano && pd.piano.manifest, (pd.piano && pd.piano.base) || '/audio/piano-web/');

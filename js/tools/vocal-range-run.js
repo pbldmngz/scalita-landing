@@ -9,6 +9,8 @@
 
 import { ERRORS, HINTS, micIsLive } from '../audio/mic.js';
 import { fill, STORE, ICON, icon, h, put, setText, newContext, resume } from './vocal-range-test.js';
+// with this module, on the tap: nothing is fetched once the microphone is live
+import { keepAwake } from '../site/wake-lock.js';
 
 export { fill, STORE };
 
@@ -396,6 +398,7 @@ export function attach(X) {
   // The tracks are live: from here until stopMic nothing is fetched
   function heard() {
     X.micOn = true;
+    keepAwake('range-mic', true);
     X.settings = listener.settings;
     panes.listening.classList.add('tool-panel__state--listening');
     pill(view, true);
@@ -524,6 +527,7 @@ export function attach(X) {
     raf = 0;
     const l = listener, c = mctx;
     listener = mctx = null;
+    keepAwake('range-mic', false);
     if (X.micOn) {
       X.micOn = false;
       X.emit();
@@ -808,6 +812,7 @@ export function attach(X) {
     const my = X.playing;
     if (!my) return;
     X.playing = null;
+    keepAwake('range-piano', false);
     cancelAnimationFrame(my.raf);
     if (cut && piano) piano.stopAll();
     my.reset();
@@ -839,6 +844,7 @@ export function attach(X) {
       },
     });
     b.setAttribute('aria-pressed', 'true');
+    keepAwake('range-piano', true);
     // its room, taken inside the tap, so the words that follow move nothing
     if (!status.style.minHeight) reserve(status, [C.loading, T('pianoPlaying')]);
     setText(status, C.loading);

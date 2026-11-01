@@ -1,9 +1,11 @@
 """The home page (the registry's "legacy-home"), direction C of the redesign
 (scalita_app docs/design/scalita-site-redesign/C-home-*.dc.html, section 3.13
-of docs/specs/site-redesign-spec.md): the hero beside a stage where the vocal
-range test is ready, the four free tools, what the app adds (three steps, five
-screens and the catalog), what you can count on (with the piano chord and its
-credit), Free and Pro without a price, and the final call.
+of docs/specs/site-redesign-spec.md), app first: the hero beside a phone that
+cycles through the app's screens (the pre-redesign carousel), then the four
+free tools, what the app adds (three steps and the catalog), what you can
+count on (with the piano chord and its credit), Free and Pro without a price,
+and the final call. The tools live on their own pages: the home only links
+them, and loads no tool script.
 
 Its copy is the "index" block of tool/content/<locale>.json, the tool pages'
 labels and tiles, and a few ui strings. build.py calls render(ctx) with the
@@ -17,8 +19,8 @@ the footer, with css/home.css after the shared stylesheets. render() returns
     body                 <main class="home-wrap" id="main"> with the sections,
                          between the header and the footer as it is (no
                          breadcrumb); lastmod hashes it. It ends with the
-                         chord's few lines of script, so the home needs no
-                         code from the shared script
+                         carousel's and the chord's few lines of script, so
+                         the home needs no code from the shared script
 
 No prices anywhere (Google Play shows the price for the reader's country), no
 store badges, no Apple logo: every Google Play call has an unavailable iPhone
@@ -30,9 +32,6 @@ import _parts as P
 # Each trust item's icon (the seventh, "maker", is Pablo's photo).
 TRUST_ICON = {"free": "pricing", "offline": "wifi-off", "noAds": "no-ads", "noAccount": "user-off",
               "piano": "piano", "languages": "globe"}
-
-# The stage's lanes: C4 down to D#3, labelled the way the test labels its trail.
-LANES = range(60, 50, -1)
 
 # The shared icon set (spec section 7).
 icon = P.icon
@@ -109,8 +108,9 @@ def hero(ctx, i):
     # three sentences
     title = ". <br>".join(esc(s) for s in h["title"].split(". "))
     facts = "\n".join('          <li>%s%s</li>' % (icon("check", 16), esc(f)) for f in h["facts"])
-    stage_html = stage(ctx, i) if ctx.has("vocal-range-test") else ""
-    return """  <section class="home-hero%s" aria-labelledby="home-hero-h">
+    # On a phone the text's wrapper steps aside (display: contents) so the
+    # phone sits between the words and the buttons
+    return """  <section class="home-hero" aria-labelledby="home-hero-h">
       <div class="home-hero__text">
         <p class="pill home-hero__badge">%s</p>
         <h1 id="home-hero-h" class="home-hero__title">%s</h1>
@@ -120,54 +120,46 @@ def hero(ctx, i):
         <ul class="home-hero__facts">
 %s
         </ul>
-      </div>%s
-    </section>""" % ("" if stage_html else " home-hero--solo", esc(h["badge"]), title, esc(h["lead"]),
-                     esc(h["tagline"]), buttons(ctx, h["ctaPrimary"]), facts, stage_html)
+      </div>
+%s
+    </section>""" % (esc(h["badge"]), title, esc(h["lead"]), esc(h["tagline"]),
+                     buttons(ctx, h["ctaPrimary"]), facts, phone(ctx, i))
 
 
-def stage(ctx, i):
-    """The range test, ready: a picture of its first screen whose Start opens
-    the test (spec 3.13: static, so the home loads no tool script)."""
+def phone(ctx, i):
+    """The app in a phone: its screens one after another, a caption under
+    each, a dot per screen. With no script the first screen shows. The first
+    is the largest thing on the first screen, so it is fetched first; the
+    captions share one cell, so the tallest sets the height and nothing under
+    them moves when they change."""
     esc = ctx.esc
-    common = ctx.ui["common"]
-    rt = ctx.ui["vocal-range-test"]
-    url = ctx.url("vocal-range-test")
-    lanes = "".join('<span data-n="%s"></span>' % note(ctx, m) for m in LANES)
-    return """
-      <section class="card home-stage" aria-labelledby="home-stage-h">
-        <div class="home-stage__head">
-          <div class="home-stage__tool">
-            <span class="icon-box">%s</span>
-            <div>
-              <h2 id="home-stage-h">%s</h2>
-              <p class="home-stage__meta">%s</p>
-            </div>
-          </div>
-          <span class="pill pill--off">%s%s</span>
-        </div>
-        <h3 class="home-stage__title">%s</h3>
-        <p class="home-stage__intro">%s</p>
-        <div class="home-stage__art">
-          <div class="home-stage__lanes" aria-hidden="true">%s</div>
-          <span class="home-stage__kicker" aria-hidden="true">%s</span>
-          <div class="home-stage__go">
-            <a class="btn btn--fill" href="%s">%s%s<span class="sr-only">: %s</span></a>
-            <span class="pill pill--hint home-stage__allow">%s</span>
+    screens = i["screens"]
+    shots = "\n".join(
+        '            <img class="home-phone__shot%s" src="%s" alt="%s" width="560" height="1125"%s>' % (
+            " is-on" if n == 0 else "", ctx.asset("images/screenshots/%s/%s.jpg" % (ctx.code, s["file"])),
+            esc(s["alt"]), ' fetchpriority="high"' if n == 0 else ' loading="lazy" decoding="async"')
+        for n, s in enumerate(screens))
+    caps = "\n".join(
+        '          <p class="home-phone__cap%s"><strong>%s</strong><span>%s</span></p>' % (
+            " is-on" if n == 0 else "", esc(s["title"]), esc(s["caption"]))
+        for n, s in enumerate(screens))
+    dots = "\n".join(
+        '          <button type="button" class="home-phone__dot%s" aria-label="%s"%s></button>' % (
+            " is-on" if n == 0 else "", esc(s["title"]), ' aria-current="true"' if n == 0 else "")
+        for n, s in enumerate(screens))
+    return """      <div class="home-phone" role="group" aria-roledescription="carousel" aria-label="%s">
+        <div class="home-phone__frame">
+          <div class="home-phone__screen">
+%s
           </div>
         </div>
-        <div class="home-stage__foot">
-          <a class="home-stage__nomic" href="%s">%s%s</a>
-          <span class="home-stage__lock">%s%s</span>
+        <div class="home-phone__caps">
+%s
         </div>
-      </section>""" % (
-        icon("range", 20), esc(ctx.label("vocal-range-test")), esc(i["stage"]["meta"]),
-        icon("mic", 14), esc(common["micOff"]),
-        esc(rt["title"]), esc(rt["intro"]),
-        lanes, esc(common["pitchTrail"]),
-        url, icon("mic", 20), esc(common["start"]), esc(ctx.label("vocal-range-test")), esc(common["allow"]),
-        ctx.url("vocal-range-test", "#keyboard"), icon("piano", 16), esc(rt["noMic"]),
-        icon("lock", 14), esc(common["nothingSent"]),
-    )
+        <div class="home-phone__dots">
+%s
+        </div>
+      </div>""" % (esc(i["hero"]["carouselLabel"]), shots, caps, dots)
 
 
 def glyph(ctx, page):
@@ -271,7 +263,8 @@ def tools(ctx, i):
 
 
 def app(ctx, i):
-    """What the app adds: the three steps, five screens, and the catalog."""
+    """What the app adds: the three steps and the catalog (its screens are
+    the hero's)."""
     esc = ctx.esc
     steps = "\n".join("""        <li class="card home-step">
           <span class="home-step__n" aria-hidden="true">%d</span>
@@ -280,27 +273,15 @@ def app(ctx, i):
             <p>%s</p>
           </div>
         </li>""" % (n + 1, esc(s["title"]), esc(s["body"])) for n, s in enumerate(i["how"]["steps"]))
-    shots = "\n".join("""        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="%s" alt="%s" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>%s</strong><span>%s</span></figcaption>
-          </figure>
-        </li>""" % (ctx.asset("images/screenshots/%s/%s.jpg" % (ctx.code, s["file"])), esc(s["alt"]),
-                    esc(s["title"]), esc(s["caption"])) for s in i["screens"])
-    # The row scrolls sideways under 960 px, so it takes the keyboard too. The
-    # steps' numbers are drawn, so the list says its order itself: role="list",
-    # since Safari stops calling a list without bullets a list.
-    shots_label = i["hero"].get("carouselLabel") or i["app"]["title"]
+    # The steps' numbers are drawn, so the list says its order itself:
+    # role="list", since Safari stops calling a list without bullets a list.
     return """  <section class="home-app" id="features" aria-labelledby="home-app-h">
       %s
       <ol class="home-steps" role="list">
 %s
       </ol>
-      <ul class="home-screens" tabindex="0" aria-label="%s">
 %s
-      </ul>
-%s
-    </section>""" % (head_row(ctx, i["app"], "home-app-h"), steps, esc(shots_label), shots, catalog(ctx, i))
+    </section>""" % (head_row(ctx, i["app"], "home-app-h"), steps, catalog(ctx, i))
 
 
 def catalog(ctx, i):
@@ -420,11 +401,53 @@ def download(ctx, i):
     </section>""" % (esc(d["title"]), esc(d["lead"]), buttons(ctx, d["cta"]), esc(d["note"]))
 
 
-def chord_script(ctx):
-    """The C major chord of the real piano card. Its three notes download on
+def page_script(ctx):
+    """The hero's carousel, then the C major chord of the real piano card.
+    The carousel moves on every 4.5 s, holds still under the pointer or the
+    keyboard and for anyone who asked their system for less motion; the dots
+    and a swipe on the screen still work. The chord's three notes download on
     the first tap, never with the page."""
     files = ", ".join("'%s'" % ctx.asset("audio/" + f, True) for f in ("60_C4.mp3", "64_E4.mp3", "67_G4.mp3"))
     return """  <script>
+    (function () {
+      var box = document.querySelector('.home-phone');
+      if (!box) return;
+      var sets = ['shot', 'cap', 'dot'].map(function (s) { return box.querySelectorAll('.home-phone__' + s); });
+      var dots = sets[2], screen = box.querySelector('.home-phone__screen');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var at = 0, timer = 0, x0 = null;
+      function show(n) {
+        at = (n + dots.length) %% dots.length;
+        sets.forEach(function (set) {
+          for (var k = 0; k < set.length; k++) set[k].classList.toggle('is-on', k === at);
+        });
+        for (var k = 0; k < dots.length; k++) {
+          if (k === at) dots[k].setAttribute('aria-current', 'true');
+          else dots[k].removeAttribute('aria-current');
+        }
+      }
+      function pause() { clearInterval(timer); }
+      function run() {
+        pause();
+        if (!still && dots.length > 1) timer = setInterval(function () { show(at + 1); }, 4500);
+      }
+      Array.prototype.forEach.call(dots, function (dot, n) {
+        dot.addEventListener('click', function () { show(n); run(); });
+      });
+      box.addEventListener('mouseenter', pause);
+      box.addEventListener('mouseleave', run);
+      box.addEventListener('focusin', pause);
+      box.addEventListener('focusout', run);
+      screen.addEventListener('pointerdown', function (e) { x0 = e.clientX; });
+      screen.addEventListener('pointerup', function (e) {
+        if (x0 !== null && Math.abs(e.clientX - x0) > 40) {
+          show(at + (e.clientX < x0 ? 1 : -1));
+          run();
+        }
+        x0 = null;
+      });
+      run();
+    })();
     (function () {
       var button = document.querySelector('.piano-button');
       var chord = null;
@@ -493,7 +516,7 @@ def render(ctx):
 
     sections = [hero(ctx, i), tools(ctx, i), app(ctx, i), trust(ctx, i), pricing(ctx, i), download(ctx, i)]
     body = '  <main class="home-wrap" id="main">\n\n  %s\n\n  </main>\n%s' % (
-        "\n\n  ".join(sections), chord_script(ctx))
+        "\n\n  ".join(sections), page_script(ctx))
 
     return {
         "title": i["title"],

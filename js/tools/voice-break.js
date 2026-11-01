@@ -88,6 +88,12 @@ const loadPiano = () =>
     throw e;
   }));
 
+// The screen stays on through the climb (js/site/wake-lock.js), fetched on
+// the first Start, never with the page
+let wakeLoad = null;
+const awake = (key, on) => (on || wakeLoad)
+  && (wakeLoad ||= import('../site/wake-lock.js').catch(() => null)).then((m) => m && m.keepAwake(key, on));
+
 function store(value) {
   try {
     if (value === undefined) return JSON.parse(globalThis.localStorage.getItem(BREAK_KEY));
@@ -235,6 +241,7 @@ export function mount(el, pd) {
     const ctx = unlockAudio();
     if (!ctx) return failed(S.noAudio);
     const token = ++st.token;
+    awake(st, true);
     for (const [k, node] of Object.entries(states)) node.hidden = k !== 'climbing';
     el.dataset.state = 'climbing';
     climbStatus.textContent = C.loading;
@@ -287,6 +294,7 @@ export function mount(el, pd) {
   function stopClimb() {
     if (st.timer) clearInterval(st.timer);
     st.timer = null;
+    awake(st, false);
   }
 
   function failed(text) {

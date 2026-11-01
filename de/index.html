@@ -29,7 +29,7 @@
 
   <link rel="stylesheet" href="/css/style.css?v=fdb05dbc96">
   <link rel="stylesheet" href="/css/chrome.css?v=5925704324">
-  <link rel="stylesheet" href="/css/home.css?v=08bd1534d2">
+  <link rel="stylesheet" href="/css/home.css?v=3756e57899">
   <script src="/js/site/chrome.js?v=d12313984e" defer></script>
 
   <link rel="preload" href="/fonts/sora-300.woff2" as="font" type="font/woff2" crossorigin>
@@ -109,32 +109,31 @@
           <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7"/></svg>Kein Konto</li>
         </ul>
       </div>
-      <section class="card home-stage" aria-labelledby="home-stage-h">
-        <div class="home-stage__head">
-          <div class="home-stage__tool">
-            <span class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v18M8 7l4-4 4 4M8 17l4 4 4-4"/></svg></span>
-            <div>
-              <h2 id="home-stage-h">Stimmumfang-Test</h2>
-              <p class="home-stage__meta">Kostenlos · Im Browser · Etwa eine Minute</p>
-            </div>
-          </div>
-          <span class="pill pill--off"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Mikro aus</span>
-        </div>
-        <h3 class="home-stage__title">Finde deinen Umfang in etwa einer Minute</h3>
-        <p class="home-stage__intro">Sing oder summ deinen tiefsten bequemen Ton und halte ihn, dann dasselbe mit deinem höchsten. Jeder Ton wird erfasst, sobald du ihn etwa eine Sekunde ruhig hältst.</p>
-        <div class="home-stage__art">
-          <div class="home-stage__lanes" aria-hidden="true"><span data-n="c¹"></span><span data-n="h"></span><span data-n="ais"></span><span data-n="a"></span><span data-n="gis"></span><span data-n="g"></span><span data-n="fis"></span><span data-n="f"></span><span data-n="e"></span><span data-n="dis"></span></div>
-          <span class="home-stage__kicker" aria-hidden="true">Tonspur</span>
-          <div class="home-stage__go">
-            <a class="btn btn--fill" href="/de/tools/stimmumfang-testen/"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>Start<span class="sr-only">: Stimmumfang-Test</span></a>
-            <span class="pill pill--hint home-stage__allow">Erlaube das Mikrofon, wenn dein Browser fragt.</span>
+      <div class="home-phone" role="group" aria-roledescription="carousel" aria-label="Bildschirmfotos der App">
+        <div class="home-phone__frame">
+          <div class="home-phone__screen">
+            <img class="home-phone__shot is-on" src="/images/screenshots/de/home.jpg" alt="Startbildschirm von Scalita" width="560" height="1125" fetchpriority="high">
+            <img class="home-phone__shot" src="/images/screenshots/de/player.jpg" alt="Eine laufende Übung mit der Tonhöhenspur in Echtzeit" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/de/scored.jpg" alt="Die Bewertung am Ende einer Tonleiter: wie viel sauber saß" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/de/pitch_targeting.jpg" alt="Tontreffen auf einer einzelnen Taste" width="560" height="1125" loading="lazy" decoding="async">
+            <img class="home-phone__shot" src="/images/screenshots/de/find_my_warmup.jpg" alt="„Einsingen finden“ fragt, wie sich deine Stimme anfühlt" width="560" height="1125" loading="lazy" decoding="async">
           </div>
         </div>
-        <div class="home-stage__foot">
-          <a class="home-stage__nomic" href="/de/tools/stimmumfang-testen/#keyboard"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg>Kein Mikrofon? Wähl deine Töne auf einer Tastatur</a>
-          <span class="home-stage__lock"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="10.5" width="14" height="10.5" rx="2"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>Keine Aufnahme, keine Übertragung.</span>
+        <div class="home-phone__caps">
+          <p class="home-phone__cap is-on"><strong>Routine wählen, loslegen</strong><span>15 Routinen und 21 Tonleitern, alle in deinem Umfang.</span></p>
+          <p class="home-phone__cap"><strong>Sieh deine Tonhöhe live</strong><span>Mit Kopfhörern zeigt eine Tonspur in Echtzeit, wo du auf jedem Ton landest.</span></p>
+          <p class="home-phone__cap"><strong>Jede Tonleiter bewertet</strong><span>Wie viel sauber saß, wie nah der Rest war, und ein Punkt zum Üben.</span></p>
+          <p class="home-phone__cap"><strong>Tipp eine Taste, sing sie</strong><span>„Ton treffen“, einer von vier Modi im Präzisionstraining.</span></p>
+          <p class="home-phone__cap"><strong>Wie geht's deiner Stimme?</strong><span>„Einsingen finden“ wählt die Routine und stellt das Tempo ein.</span></p>
         </div>
-      </section>
+        <div class="home-phone__dots">
+          <button type="button" class="home-phone__dot is-on" aria-label="Routine wählen, loslegen" aria-current="true"></button>
+          <button type="button" class="home-phone__dot" aria-label="Sieh deine Tonhöhe live"></button>
+          <button type="button" class="home-phone__dot" aria-label="Jede Tonleiter bewertet"></button>
+          <button type="button" class="home-phone__dot" aria-label="Tipp eine Taste, sing sie"></button>
+          <button type="button" class="home-phone__dot" aria-label="Wie geht's deiner Stimme?"></button>
+        </div>
+      </div>
     </section>
 
     <section class="home-tools" aria-labelledby="home-tools-h">
@@ -232,38 +231,6 @@
           </div>
         </li>
       </ol>
-      <ul class="home-screens" tabindex="0" aria-label="Bildschirmfotos der App">
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/de/home.jpg" alt="Startbildschirm von Scalita" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Routine wählen, loslegen</strong><span>15 Routinen und 21 Tonleitern, alle in deinem Umfang.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/de/player.jpg" alt="Eine laufende Übung mit der Tonhöhenspur in Echtzeit" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Sieh deine Tonhöhe live</strong><span>Mit Kopfhörern zeigt eine Tonspur in Echtzeit, wo du auf jedem Ton landest.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/de/scored.jpg" alt="Die Bewertung am Ende einer Tonleiter: wie viel sauber saß" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Jede Tonleiter bewertet</strong><span>Wie viel sauber saß, wie nah der Rest war, und ein Punkt zum Üben.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/de/pitch_targeting.jpg" alt="Tontreffen auf einer einzelnen Taste" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Tipp eine Taste, sing sie</strong><span>„Ton treffen“, einer von vier Modi im Präzisionstraining.</span></figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure class="home-screen">
-            <div class="home-screen__frame"><img src="/images/screenshots/de/find_my_warmup.jpg" alt="„Einsingen finden“ fragt, wie sich deine Stimme anfühlt" width="560" height="1125" loading="lazy" decoding="async"></div>
-            <figcaption><strong>Wie geht's deiner Stimme?</strong><span>„Einsingen finden“ wählt die Routine und stellt das Tempo ein.</span></figcaption>
-          </figure>
-        </li>
-      </ul>
       <details class="acc acc--pill home-catalog">
         <summary class="acc__head">
           <span class="icon-box"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/><rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/></svg></span>
@@ -428,6 +395,45 @@
 
   </main>
   <script>
+    (function () {
+      var box = document.querySelector('.home-phone');
+      if (!box) return;
+      var sets = ['shot', 'cap', 'dot'].map(function (s) { return box.querySelectorAll('.home-phone__' + s); });
+      var dots = sets[2], screen = box.querySelector('.home-phone__screen');
+      var still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      var at = 0, timer = 0, x0 = null;
+      function show(n) {
+        at = (n + dots.length) % dots.length;
+        sets.forEach(function (set) {
+          for (var k = 0; k < set.length; k++) set[k].classList.toggle('is-on', k === at);
+        });
+        for (var k = 0; k < dots.length; k++) {
+          if (k === at) dots[k].setAttribute('aria-current', 'true');
+          else dots[k].removeAttribute('aria-current');
+        }
+      }
+      function pause() { clearInterval(timer); }
+      function run() {
+        pause();
+        if (!still && dots.length > 1) timer = setInterval(function () { show(at + 1); }, 4500);
+      }
+      Array.prototype.forEach.call(dots, function (dot, n) {
+        dot.addEventListener('click', function () { show(n); run(); });
+      });
+      box.addEventListener('mouseenter', pause);
+      box.addEventListener('mouseleave', run);
+      box.addEventListener('focusin', pause);
+      box.addEventListener('focusout', run);
+      screen.addEventListener('pointerdown', function (e) { x0 = e.clientX; });
+      screen.addEventListener('pointerup', function (e) {
+        if (x0 !== null && Math.abs(e.clientX - x0) > 40) {
+          show(at + (e.clientX < x0 ? 1 : -1));
+          run();
+        }
+        x0 = null;
+      });
+      run();
+    })();
     (function () {
       var button = document.querySelector('.piano-button');
       var chord = null;
