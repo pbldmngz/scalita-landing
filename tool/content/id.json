@@ -135,10 +135,11 @@
       "carouselLabel": "Tangkapan layar aplikasi"
     },
     "tools": {
-      "kicker": "Alat gratis",
-      "title": "Empat alat, satu studio",
-      "lead": "Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasinya sendiri, dan berjalan di browser-mu, di ponsel maupun komputer. Tanpa akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
-      "open": "Buka",
+      "kicker": "Alat web gratis",
+      "title": "Coba Scalita langsung di sini",
+      "lead": "Empat alat yang berjalan di halaman ini, di browser-mu, di ponsel maupun komputer. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasinya sendiri, jadi kamu bisa mencicipi Scalita sebelum mengunduh apa pun. Tanpa akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
+      "open": "Buka di browser",
+      "openShort": "Di browser",
       "items": [
         {
           "page": "vocal-range-test",
@@ -163,7 +164,7 @@
       ]
     },
     "app": {
-      "kicker": "Aplikasinya",
+      "kicker": "Aplikasinya, di ponselmu",
       "title": "Yang ditambahkan aplikasinya",
       "lead": "Alat-alat ini berjalan di browser-mu. Aplikasinya mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor."
     },
@@ -318,7 +319,7 @@
     },
     "pricing": {
       "title": "Semua fitur bisa dipakai gratis",
-      "lead": "Pro menghapus batas berapa banyak yang bisa kamu simpan. Sekali bayar, tanpa langganan, dan Google Play menampilkan harga untuk negaramu.",
+      "lead": "Pro menghapus batas berapa banyak yang bisa kamu simpan, cukup sekali bayar dan murah.",
       "free": {
         "items": [
           "Seluruh 21 tangga nada bawaan",
@@ -334,6 +335,9 @@
       "pro": {
         "name": "Scalita Pro",
         "badge": "Sekali bayar",
+        "price": "US$4,99",
+        "terms": "Sekali bayar, milikmu selamanya. Tanpa langganan.",
+        "priceNote": "Itu harga di AS. Google Play menampilkan harga untukmu, dalam mata uangmu.",
         "items": [
           "Semua yang ada di versi Gratis",
           "Tangga nada dan rutinitas kustom <strong>tanpa batas</strong>",

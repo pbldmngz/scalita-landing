@@ -135,10 +135,11 @@
       "carouselLabel": "Bildschirmfotos der App"
     },
     "tools": {
-      "kicker": "Kostenlose Tools",
-      "title": "Vier Tools, ein Studio",
-      "lead": "Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, und sie laufen in deinem Browser, auf dem Telefon oder am Computer. Kein Konto, und nichts, was du singst, verlässt dein Gerät.",
-      "open": "Öffnen",
+      "kicker": "Kostenlose Web-Tools",
+      "title": "Probier Scalita gleich hier aus",
+      "lead": "Vier Tools, die direkt auf dieser Seite in deinem Browser laufen, auf dem Telefon oder am Computer. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, so bekommst du einen Vorgeschmack auf Scalita, bevor du irgendetwas herunterlädst. Kein Konto, und nichts, was du singst, verlässt dein Gerät.",
+      "open": "Im Browser öffnen",
+      "openShort": "Im Browser",
       "items": [
         {
           "page": "vocal-range-test",
@@ -163,7 +164,7 @@
       ]
     },
     "app": {
-      "kicker": "Die App",
+      "kicker": "Die App, auf deinem Telefon",
       "title": "Was die App noch kann",
       "lead": "Die Tools laufen in deinem Browser. Die App merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet sie deine Tonhöhe beim Singen mit und bewertet jede Tonleiter."
     },
@@ -318,7 +319,7 @@
     },
     "pricing": {
       "title": "Jede Funktion läuft kostenlos",
-      "lead": "Pro hebt die Grenzen auf, wie viel du speichern kannst. Eine Zahlung, kein Abo, und Google Play zeigt dir den Preis für dein Land.",
+      "lead": "Pro hebt die Grenzen auf, wie viel du speichern kannst, für eine kleine einmalige Zahlung.",
       "free": {
         "items": [
           "Alle 21 mitgelieferten Tonleitern",
@@ -334,6 +335,9 @@
       "pro": {
         "name": "Scalita Pro",
         "badge": "Einmalig",
+        "price": "4,99 US$",
+        "terms": "Einmal zahlen, für immer deins. Kein Abo.",
+        "priceNote": "Das ist der Preis in den USA. Google Play zeigt dir deinen, in deiner Währung.",
         "items": [
           "Alles aus Kostenlos",
           "Eigene Tonleitern und Routinen <strong>ohne Grenze</strong>",

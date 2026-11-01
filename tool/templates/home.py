@@ -2,9 +2,9 @@
 (scalita_app docs/design/scalita-site-redesign/C-home-*.dc.html, section 3.13
 of docs/specs/site-redesign-spec.md), app first: the hero beside a phone that
 cycles through the app's screens (the pre-redesign carousel), then the four
-free tools, what the app adds (three steps and the catalog), what you can
-count on (with the piano chord and its credit), Free and Pro without a price,
-and the final call. The tools live on their own pages: the home only links
+free web tools, what the app adds (three steps and the catalog), what you can
+count on (with the piano chord and its credit), Free and Pro with Pro's base
+price, and the final call. The tools live on their own pages: the home only links
 them, and loads no tool script.
 
 Its copy is the "index" block of tool/content/<locale>.json, the tool pages'
@@ -22,7 +22,8 @@ the footer, with css/home.css after the shared stylesheets. render() returns
                          carousel's and the chord's few lines of script, so
                          the home needs no code from the shared script
 
-No prices anywhere (Google Play shows the price for the reader's country), no
+One price only, Pro's base US price on its card, with a line saying Google
+Play shows the reader's own (it is set per market). No
 store badges, no Apple logo: every Google Play call has an unavailable iPhone
 beside it.
 """
@@ -80,16 +81,18 @@ def checks(ctx, items, cls, html=False):
         for it in items))
 
 
-def head_row(ctx, block, hid):
-    """A section's kicker and heading, with its lead beside them."""
+def head_row(ctx, block, hid, mark=None):
+    """A section's kicker and heading, with its lead beside them. The kicker
+    may lead with an icon: where the section's things run (a browser, a phone)."""
     esc = ctx.esc
+    kicker = icon(mark, 14) + esc(block["kicker"]) if mark else esc(block["kicker"])
     return """<div class="home-head">
         <div>
           <p class="home-kicker">%s</p>
           <h2 id="%s">%s</h2>
         </div>
         <p class="home-head__lead">%s</p>
-      </div>""" % (esc(block["kicker"]), hid, esc(block["title"]), esc(block["lead"]))
+      </div>""" % (kicker, hid, esc(block["title"]), esc(block["lead"]))
 
 
 def note(ctx, midi):
@@ -133,7 +136,8 @@ def phone(ctx, i):
     captions share one cell, so the tallest sets the height and nothing under
     them moves when they change."""
     esc = ctx.esc
-    screens = i["screens"]
+    # The home screen closes the round rather than opening it (Pablo, 2026-11-01)
+    screens = i["screens"][1:] + i["screens"][:1]
     shots = "\n".join(
         '            <img class="home-phone__shot%s" src="%s" alt="%s" width="560" height="1125"%s>' % (
             " is-on" if n == 0 else "", ctx.asset("images/screenshots/%s/%s.jpg" % (ctx.code, s["file"])),
@@ -230,7 +234,9 @@ def glyph(ctx, page):
 
 def tools(ctx, i):
     """The four tools. One card per tool, the title its link and the whole
-    card its target; on a phone the card shows the tool page's tile line."""
+    card its target; on a phone the card shows the tool page's tile line.
+    Each card ends on where it opens, this page's browser, so no one takes
+    the tools for features inside the app."""
     esc = ctx.esc
     t = i["tools"]
     cards = []
@@ -249,17 +255,17 @@ def tools(ctx, i):
           </div>
           <svg class="home-card__glyph" viewBox="0 0 240 56" width="240" height="56" aria-hidden="true">%s</svg>
           <p class="home-card__body">%s</p>%s
-          <span class="home-card__open" aria-hidden="true">%s%s</span>
+          <span class="home-card__open" aria-hidden="true">%s<span class="home-card__open-l">%s</span><span class="home-card__open-s">%s</span>%s</span>
         </article>""" % (
             icon(P.TOOL_ICONS[pid], 20), ctx.url(pid), esc(ctx.label(pid)), esc(item["meta"]), glyph(ctx, pid),
             esc(item["body"]), '\n          <p class="home-card__tile">%s</p>' % esc(tile) if tile else "",
-            esc(t["open"]), icon("arrow-right", 16)))
+            icon("browser", 16), esc(t["open"]), esc(t["openShort"]), icon("arrow-right", 16)))
     return """  <section class="home-tools" aria-labelledby="home-tools-h">
       %s
       <div class="home-cards">
 %s
       </div>
-    </section>""" % (head_row(ctx, t, "home-tools-h"), "\n".join(cards))
+    </section>""" % (head_row(ctx, t, "home-tools-h", "browser"), "\n".join(cards))
 
 
 def app(ctx, i):
@@ -281,7 +287,7 @@ def app(ctx, i):
 %s
       </ol>
 %s
-    </section>""" % (head_row(ctx, i["app"], "home-app-h"), steps, catalog(ctx, i))
+    </section>""" % (head_row(ctx, i["app"], "home-app-h", "iphone"), steps, catalog(ctx, i))
 
 
 def catalog(ctx, i):
@@ -363,7 +369,8 @@ def trust(ctx, i):
 
 
 def pricing(ctx, i):
-    """Free and Pro. No price: Google Play shows it, per country."""
+    """Free and Pro. Pro's card states its base US price, once and for good,
+    and says Google Play shows the reader's own (set per market)."""
     esc = ctx.esc
     p = i["pricing"]
     pro = p["pro"]
@@ -379,12 +386,15 @@ def pricing(ctx, i):
             <h3>%s</h3>
             <span class="pill pill--tag">%s</span>
           </div>
+          <p class="home-pro__price"><strong>%s</strong><span>%s</span></p>
+          <p class="home-pro__local">%s</p>
           %s
           <p class="home-pro__note">%s</p>
         </div>
       </div>
     </section>""" % (esc(p["title"]), esc(p["lead"]), checks(ctx, p["free"]["items"], "home-checks--two"),
-                     esc(pro["name"]), esc(pro["badge"]), checks(ctx, pro["items"], "home-checks--pro", html=True),
+                     esc(pro["name"]), esc(pro["badge"]), esc(pro["price"]), esc(pro["terms"]),
+                     esc(pro["priceNote"]), checks(ctx, pro["items"], "home-checks--pro", html=True),
                      esc(pro["note"]))
 
 

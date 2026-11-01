@@ -164,6 +164,9 @@ KEPT_ENGLISH = {"id": ["head voice", "chest voice", "lip trill", "tongue trill",
 EM_DASH = re.compile("\u2014|&mdash;|&#8212;|&#x2014;", re.I)
 # Decision 8 of the redesign: no price anywhere, Google Play shows the reader's
 # own. A note, for the copy's owners: a legal text may need its wording first.
+# Pablo's exception (2026-11-01): Pro's card states the base US price, with a
+# line saying Google Play shows the reader's own; that one string may.
+PRICE_OK = {"index.pricing.pro.price"}
 PRICE = re.compile(r"(?:US?\$|R\$|\$|\u20ac|\u00a3|\u20ba|\bRp\.?)\s?\d|\d[\d.,]*\s?(?:\u20ac|\u00a3|\u20ba|\bUSD\b|\bEUR\b|\bTL\b)")
 NOTE_TOKEN = re.compile(r"\{\{note:([^{}:]+)(?::(local|intl))?\}\}")
 ANY_TOKEN = re.compile(r"\{\{.*?\}\}")
@@ -334,7 +337,7 @@ def check_content(content, only, r, registry):
             for term in verdicts(v, code) + verdicts(v, code, TONE_DEAF):
                 r.error(where, "%s uses the verdict word %r" % (key, term))
         for path, _, s in strings(c):
-            if PRICE.search(html.unescape(re.sub(r"<[^>]+>", " ", s))):
+            if path not in PRICE_OK and PRICE.search(html.unescape(re.sub(r"<[^>]+>", " ", s))):
                 r.note(where, "%s states a price: Google Play shows it, per country" % path)
             # escaped on the way out, so an entity would show as it is
             if not SITE_HTML.match(path) and ENTITY.search(s):

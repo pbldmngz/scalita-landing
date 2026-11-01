@@ -135,10 +135,11 @@
       "carouselLabel": "Captures de l'application"
     },
     "tools": {
-      "kicker": "Outils gratuits",
-      "title": "Quatre outils, un seul studio",
-      "lead": "Ils reprennent la détection de hauteur de l'application, son piano et ses exercices, et tournent dans ton navigateur, sur téléphone ou sur ordinateur. Sans compte, et rien de ce que tu chantes ne quitte ton appareil.",
-      "open": "Ouvrir",
+      "kicker": "Outils web gratuits",
+      "title": "Essaie Scalita ici même",
+      "lead": "Quatre outils qui tournent sur cette page, dans ton navigateur, sur téléphone ou sur ordinateur. Ils reprennent la détection de hauteur de l'application, son piano et ses exercices, de quoi découvrir Scalita avant de télécharger quoi que ce soit. Sans compte, et rien de ce que tu chantes ne quitte ton appareil.",
+      "open": "Ouvrir dans le navigateur",
+      "openShort": "Sur navigateur",
       "items": [
         {
           "page": "vocal-range-test",
@@ -163,7 +164,7 @@
       ]
     },
     "app": {
-      "kicker": "L'application",
+      "kicker": "L'application, sur ton téléphone",
       "title": "Ce que l'application apporte en plus",
       "lead": "Les outils tournent dans ton navigateur. L'application retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme."
     },
@@ -318,7 +319,7 @@
     },
     "pricing": {
       "title": "Toutes les fonctions marchent gratuitement",
-      "lead": "Pro lève les limites de ce que tu peux garder. Un seul paiement, pas d'abonnement, et Google Play affiche le prix de ton pays.",
+      "lead": "Pro lève les limites de ce que tu peux garder, pour un seul petit paiement.",
       "free": {
         "items": [
           "Les 21 gammes incluses",
@@ -334,6 +335,9 @@
       "pro": {
         "name": "Scalita Pro",
         "badge": "Achat unique",
+        "price": "4,99 $US",
+        "terms": "Un seul paiement, à toi pour toujours. Pas d'abonnement.",
+        "priceNote": "C'est le prix aux États-Unis. Google Play affiche le tien, dans ta monnaie.",
         "items": [
           "Tout ce qu'il y a dans Gratuit",
           "Gammes et routines personnalisées <strong>sans limite</strong>",

@@ -135,10 +135,11 @@
       "carouselLabel": "Telas do app"
     },
     "tools": {
-      "kicker": "Ferramentas grátis",
-      "title": "Quatro ferramentas, um só estúdio",
-      "lead": "Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador. Sem conta, e nada do que você canta sai do seu aparelho.",
-      "open": "Abrir",
+      "kicker": "Ferramentas web grátis",
+      "title": "Experimente o Scalita aqui mesmo",
+      "lead": "Quatro ferramentas que funcionam nesta página, no navegador, no celular ou no computador. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, então você experimenta o Scalita antes de baixar qualquer coisa. Sem conta, e nada do que você canta sai do seu aparelho.",
+      "open": "Abrir no navegador",
+      "openShort": "No navegador",
       "items": [
         {
           "page": "vocal-range-test",
@@ -163,7 +164,7 @@
       ]
     },
     "app": {
-      "kicker": "O app",
+      "kicker": "O app, no seu celular",
       "title": "O que o app acrescenta",
       "lead": "As ferramentas funcionam no navegador. O app guarda a sua extensão, toca cada exercício no seu tom num piano de verdade e, com fones, desenha a sua afinação enquanto você canta e pontua cada escala."
     },
@@ -318,7 +319,7 @@
     },
     "pricing": {
       "title": "Todos os recursos funcionam de graça",
-      "lead": "O Pro tira os limites do que você pode guardar. Um pagamento só, sem assinatura, e o Google Play mostra o preço do seu país.",
+      "lead": "O Pro tira os limites do que você pode guardar, por um pagamento único e barato.",
       "free": {
         "items": [
           "As 21 escalas que já vêm no app",
@@ -334,6 +335,9 @@
       "pro": {
         "name": "Scalita Pro",
         "badge": "Pagamento único",
+        "price": "US$ 4,99",
+        "terms": "Paga uma vez e é seu para sempre. Sem assinatura.",
+        "priceNote": "Esse é o preço nos EUA. O Google Play mostra o seu, na sua moeda.",
         "items": [
           "Tudo o que tem no Gratuito",
           "Escalas e rotinas próprias <strong>sem limite</strong>",

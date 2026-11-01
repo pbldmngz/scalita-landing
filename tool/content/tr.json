@@ -135,10 +135,11 @@
       "carouselLabel": "Uygulama ekran görüntüleri"
     },
     "tools": {
-      "kicker": "Ücretsiz araçlar",
-      "title": "Dört araç, tek stüdyo",
-      "lead": "Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar. Hesap yok, söylediğin hiçbir şey cihazından çıkmaz.",
-      "open": "Aç",
+      "kicker": "Ücretsiz web araçları",
+      "title": "Scalita'yı hemen burada dene",
+      "lead": "Bu sayfada, tarayıcında çalışan dört araç; telefonda da bilgisayarda da. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar, böylece bir şey indirmeden önce Scalita'yı deneyebilirsin. Hesap yok, söylediğin hiçbir şey cihazından çıkmaz.",
+      "open": "Tarayıcında aç",
+      "openShort": "Tarayıcında",
       "items": [
         {
           "page": "vocal-range-test",
@@ -163,7 +164,7 @@
       ]
     },
     "app": {
-      "kicker": "Uygulama",
+      "kicker": "Uygulama, telefonunda",
       "title": "Uygulamanın kattıkları",
       "lead": "Araçlar tarayıcında çalışır. Uygulama ise ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar."
     },
@@ -318,7 +319,7 @@
     },
     "pricing": {
       "title": "Her özellik ücretsiz çalışır",
-      "lead": "Pro, ne kadar saklayabileceğinin sınırını kaldırır. Tek ödeme, abonelik yok; ülkendeki fiyatı Google Play gösterir.",
+      "lead": "Pro, ne kadar saklayabileceğinin sınırını küçük, tek seferlik bir ödemeyle kaldırır.",
       "free": {
         "items": [
           "21 hazır gamın hepsi",
@@ -334,6 +335,9 @@
       "pro": {
         "name": "Scalita Pro",
         "badge": "Tek seferlik",
+        "price": "4,99 USD",
+        "terms": "Bir kez öde, sonsuza dek senin. Abonelik yok.",
+        "priceNote": "Bu, ABD fiyatı. Google Play seninkini kendi para biriminde gösterir.",
         "items": [
           "Ücretsiz sürümdeki her şey",
           "<strong>Sınırsız</strong> özel gam ve rutin",
