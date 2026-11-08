@@ -131,6 +131,7 @@ const DOWNLOAD = 'M12 4v11M7 10l5 5 5-5M4 20h16';
 const IPHONE = 'M8.5 2h7A2.5 2.5 0 0 1 18 4.5v15a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 6 19.5v-15A2.5 2.5 0 0 1 8.5 2zM11 18h2';
 const TUNE = 'M4 12a8 8 0 1 0 16 0a8 8 0 1 0-16 0M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M12 2v4M12 18v4M2 12h4M18 12h4';
 const CHECK = 'M5 12.5l4.5 4.5L19 7';
+const CROSS = 'M6 6l12 12M18 6L6 18';
 
 // One run, from the Start tap to its result. ui: what ear-test.js keeps for
 // the mount; my: this run's token; piano: js/audio/piano.js
@@ -163,11 +164,42 @@ export function begin(ui, my, piano) {
 
   const wait = (x) => new Promise((r) => { timer = setTimeout(r, ms(x)); });
 
-  // The run's frame: status, the ladder of steps, the question, two answers,
-  // what the answer was, and Hear again and Stop
+  // Every answer, step by step (true for right, in order) and melody by melody
+  const marks = LEVELS.map(() => []);
+  const tunes = [];
+
+  // The steps as pairs of bars drawing closer; under each its answers as dots
+  // (lit right, coral wrong), or in the result how many it got right of how
+  // many it played, a dot for a step never reached
+  function ladderEl(final) {
+    return h('ol', { class: 'et-ladder' + (final ? ' et-ladder--result' : ''), 'aria-hidden': 'true' },
+      ...LEVELS.map((s, i) => {
+        const m = marks[i];
+        const heard = m.filter(Boolean).length >= PASS;
+        const li = h('li', { class: 'et-rung' + (heard ? ' et-rung--heard' : m.length ? ' et-rung--missed' : '') },
+          h('span', { class: 'et-rung__step', text: ui.short(s) }));
+        li.append(final
+          ? h('span', { class: 'et-rung__score', text: m.length ? fmt(t('result.count'), { n: m.filter(Boolean).length, total: m.length }) : '·' })
+          : h('span', { class: 'et-dots' }, ...m.map((ok) => h('i', { class: ok ? 'et-dot--ok' : 'et-dot--miss' }))));
+        return li;
+      }));
+  }
+
+  // The four melodies: a mark each, a check or a cross once answered, the
+  // pair playing lit; in the result each says what the pair was
+  function tunesEl(final, now) {
+    return h('ol', { class: 'et-tunes', 'aria-hidden': 'true' }, ...Array.from({ length: MELODIES }, (_, i) => {
+      const r = tunes[i];
+      return h('li', { class: 'et-tune' + (r ? (r.ok ? ' et-tune--ok' : ' et-tune--miss') : i === now ? ' et-tune--now' : '') },
+        r ? icon(r.ok ? CHECK : CROSS, 16) : h('span', { text: String(i + 1) }),
+        final && r ? h('span', { class: 'et-tune__what', text: t(r.same ? 'run.same' : 'run.different') }) : null);
+    }));
+  }
+
+  // The run's frame: status, the ladder of steps (the melodies' marks after),
+  // the question, two answers, what the answer was, and Hear again and Stop
   const status = h('span', { text: c('loading') });
-  const rungs = h('ol', { class: 'et-ladder', 'aria-hidden': 'true' },
-    ...LEVELS.map((s) => h('li', { class: 'et-rung' }, h('span', { text: ui.short(s) }))));
+  const board = h('div', { class: 'et-board' }, ladderEl(false));
   const question = h('p', { class: 'st-question' });
   const said = h('p', { class: 'st-answer et-said', 'aria-live': 'off', text: BLANK });
   const yes = ui.button('', null, 'btn-secondary btn--lg btn--strong', { disabled: true });
@@ -175,7 +207,7 @@ export function begin(ui, my, piano) {
   const again = ui.button(t('run.again'), null, 'btn-secondary', { disabled: true }, icon(REDO));
   const stop = ui.button(c('stop'), () => ui.halt(), 'btn-secondary', null, icon(STOP, 18, true));
   runV.replaceChildren(h('div', { class: 'stage__head' }, h('p', { class: 'stage__status tool-panel__status' }, status)),
-    h('div', { class: 'st-ear et-run' }, rungs, question, h('div', { class: 'tool-panel__actions' }, yes, no), said),
+    h('div', { class: 'st-ear st-idle et-run' }, board, question, h('div', { class: 'tool-panel__actions' }, yes, no), said),
     h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, stop)));
   ui.show(runV, stop);
 
@@ -189,10 +221,9 @@ export function begin(ui, my, piano) {
   }
 
   function paintLadder(st) {
-    [...rungs.children].forEach((li, i) => {
-      li.classList.toggle('et-rung--heard', i <= st.heard);
-      li.classList.toggle('et-rung--now', !st.done && i === st.level);
-    });
+    const l = ladderEl(false);
+    if (!st.done) l.children[st.level].classList.add('et-rung--now');
+    board.replaceChildren(l);
   }
 
   // Plays notes [{midi, cents, at (ms from now), ring}] and resolves once the
@@ -254,6 +285,7 @@ export function begin(ui, my, piano) {
       const ok = await ask(pairNotes(p), [t('run.higher'), t('run.lower')], (up) => up === p.up);
       if (gone()) return null;
       hook('pair', { step: p.step, up: p.up, ok });
+      marks[st.level].push(ok);
       said.replaceChildren(ok ? icon(CHECK, 16) : '', t(p.up ? 'run.wentUp' : 'run.wentDown'));
       said.classList.toggle('et-said--ok', ok);
       ui.say(said.textContent);
@@ -266,11 +298,11 @@ export function begin(ui, my, piano) {
 
   async function melodies() {
     const items = melodyItems(rand);
-    rungs.hidden = true;
     let right = 0;
     for (let i = 0; i < items.length; i++) {
       if (gone()) return null;
       const it = items[i];
+      board.replaceChildren(tunesEl(false, i));
       status.textContent = fmt(t('run.melodyOf'), { n: i + 1, total: items.length });
       question.textContent = t('run.sameQuestion');
       ui.say(status.textContent + '. ' + question.textContent);
@@ -278,6 +310,8 @@ export function begin(ui, my, piano) {
       const ok = await ask(tuneNotes(it), [t('run.same'), t('run.different')], (same) => same === it.same);
       if (gone()) return null;
       hook('melody', { same: it.same, ok });
+      tunes.push({ same: it.same, ok });
+      board.replaceChildren(tunesEl(false, -1));
       if (ok) right++;
       said.replaceChildren(ok ? icon(CHECK, 16) : '', t(it.same ? 'run.wereSame' : 'run.wereDifferent'));
       said.classList.toggle('et-said--ok', ok);
@@ -371,28 +405,35 @@ export function begin(ui, my, piano) {
     ui.halt(false);
     const last = ui.load(ui.keys.last);
     const read = stepRead(r.smallest);
-    const card = h('div', { class: 'result result-card' }, h('p', { class: 'result-card__label', text: t('result.label') }));
+    const count = (n, total) => fmt(t('result.count'), { n, total });
+    const card = h('div', { class: 'result result-card et-card' }, h('p', { class: 'result-card__label', text: t('result.label') }));
     if (r.smallest == null) {
       card.append(h('p', { class: 'result-card__note st-say', text: t('result.none') }));
     } else {
       card.append(h('p', { class: 'result-card__value' }, ui.short(r.smallest)),
         h('p', { class: 'result-card__note st-say', text: fmt(t('result.' + read), { cents: cents(r.smallest) }) }));
     }
-    card.append(h('dl', { class: 'result-card__facts' },
-      h('div', {}, h('dt', { text: t('result.steps') }), h('dd', { text: fmt(t('result.count'), { n: r.heard, total: r.levels }) })),
-      h('div', {}, h('dt', { text: t('result.melodies') }), h('dd', { text: fmt(t('result.count'), { n: r.melodies, total: r.total }) }))),
-    h('p', { class: 'result-card__note', text: t('result.cent') + ' ' + t('result.sample') }));
+    // Step by step and melody by melody: what was heard of each, drawn, and
+    // in words for a screen reader
+    const said = LEVELS.map((s, i) => ui.short(s) + ': ' + (marks[i].length ? count(marks[i].filter(Boolean).length, marks[i].length) : '·'));
+    card.append(
+      h('p', { class: 'kicker kicker--soft et-kicker' }, t('result.steps'), h('b', { text: count(r.heard, r.levels) })),
+      ladderEl(true), h('p', { class: 'sr-only', text: said.join(', ') }),
+      h('p', { class: 'kicker kicker--soft et-kicker' }, t('result.melodies'), h('b', { text: count(r.melodies, r.total) })),
+      tunesEl(true, -1),
+      h('p', { class: 'result-card__note', text: t('result.cent') + ' ' + t('result.sample') }));
     const before = ui.lastLine(last);
     if (before) card.append(h('p', { class: 'result-card__note', text: before }));
     ui.store(ui.keys.last, { smallest: r.smallest, melodies: r.melodies, total: r.total, at: new Date().toISOString() });
-    const side = [challenge(), r.smallest == null ? null : shareRow(r)].filter(Boolean);
     const redo = ui.button(t('result.again'), ui.start, 'btn-secondary', null, icon(REDO));
-    resV.replaceChildren(h('div', { class: 'st-result' }, card, side.length ? h('div', { class: 'st-side' }, ...side) : null),
-      cta(), h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, redo)));
+    const side = [challenge(), r.smallest == null ? null : shareRow(r), cta(),
+      h('div', { class: 'tool-panel__actions et-again' }, redo)].filter(Boolean);
+    resV.replaceChildren(h('div', { class: 'st-result' }, card, h('div', { class: 'st-side' }, ...side)));
     ui.say(t('result.label') + '. ' + (r.smallest == null ? t('result.none') : cents(r.smallest)));
     ui.show(resV, redo);
     hook('result', r);
   }
+
 
   return run();
 }

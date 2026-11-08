@@ -1,7 +1,7 @@
 """The home page (the registry's "legacy-home"), direction C of the redesign
 (scalita_app docs/design/scalita-site-redesign/C-home-*.dc.html, section 3.13
 of docs/specs/site-redesign-spec.md), app first: the hero beside a phone that
-cycles through the app's screens (the pre-redesign carousel), then the four
+cycles through the app's screens (the pre-redesign carousel), then the
 free web tools, what the app adds (three steps and the catalog), what you can
 count on (with the piano chord and its credit), Free and Pro with Pro's base
 price, and the final call. The tools live on their own pages: the home only links
@@ -241,7 +241,7 @@ def glyph(ctx, page):
 
 
 def tools(ctx, i):
-    """The four tools. One card per tool, the title its link and the whole
+    """The tools. One card per tool, the title its link and the whole
     card its target; on a phone the card shows the tool page's tile line.
     Each card ends on where it opens, this page's browser, so no one takes
     the tools for features inside the app."""

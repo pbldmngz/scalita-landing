@@ -11,7 +11,7 @@ Two contexts (tool/pages.json, "context"): the landing context (the home,
 the guides, the legal and support pages, the 404) keeps the site's menu,
 Features to Support with the language menu and Get the app, folded into a
 menu on phones; the tools context (the tools hub and every tool) shows Home
-and the four tools as one switcher, and on phones as a floating tab bar,
+and the tools as one switcher, and on phones as a floating tab bar,
 with a compact footer. docs/specs/site-redesign-spec.md, sections 3.1 to
 3.5, has the layout; css/chrome.css draws it; js/site/chrome.js and
 js/site/fullscreen.js add the little that needs a script.
@@ -257,12 +257,12 @@ def landing_header(loc, page, c, get_app):
 
 
 def tools(code):
-    """The four tools in registry order: the tools section without its root."""
+    """The tools in registry order: the tools section without its root."""
     return [p for p in B.section_pages("tools", code) if not B.S.by_id[p].get("root")]
 
 
 def tools_header(loc, page, c, get_app, fs=False):
-    """Home and the four tools as one switcher, the language menu and Get
+    """Home and the tools as one switcher, the language menu and Get
     the app; on phones the logo and the language menu only (the tab bar
     takes the switcher's place). The hub lights no segment.
 
@@ -303,7 +303,7 @@ def tools_header(loc, page, c, get_app, fs=False):
 
 
 def tabbar(loc, page, c):
-    """The phones' floating tab bar of the tools context: Home and the four
+    """The phones' floating tab bar of the tools context: Home and the
     tools, by their short names (nav.tabLabels)."""
     code = loc[0]
     n = c["nav"]

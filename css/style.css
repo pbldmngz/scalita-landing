@@ -2049,6 +2049,7 @@ select.field optgroup {
 }
 
 .band__main {
+  align-self: center;
   padding-bottom: 28px;
 }
 
@@ -2096,7 +2097,7 @@ select.field optgroup {
 
 .band__phone {
   width: 200px;
-  height: 250px;
+  height: 230px;
   padding: 8px 8px 0;
   overflow: hidden;
   border: 1px solid var(--mist);

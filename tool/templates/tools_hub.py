@@ -1,4 +1,4 @@
-"""The tools hub (/tools/): the four tools as app tiles, then the reference,
+"""The tools hub (/tools/): the tools as app tiles, then the reference,
 the byline and the app band. scalita_app docs/specs/site-redesign-spec.md,
 3.6; mockups S2-hub-desktop and S2-hub-phone. build.py adds the tools
 context chrome, the breadcrumb and the BreadcrumbList.
@@ -133,7 +133,7 @@ def trail(points, width, head, halo=None):
 
 
 # --------------------------------------------------------------------------
-# the four previews: (wide, phone), each one SVG
+# the previews: (wide, phone), each one SVG
 # --------------------------------------------------------------------------
 
 def preview_range(ctx):

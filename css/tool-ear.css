@@ -6,22 +6,51 @@
 .et-tip { color: var(--soft); font-size: 13px; }
 .et-tip svg { display: inline; margin-right: 6px; vertical-align: -3px; stroke: var(--slate); }
 
-/* The steps: a pair of bars each, as far apart as the step, closer and closer */
-.et-ladder { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 420px; margin: 0 0 8px; padding: 0; list-style: none; }
-.et-rung { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 64px; color: var(--slate); font-size: 11px; }
-.et-rung::before, .et-rung::after { content: ''; position: absolute; left: 18%; right: 18%; height: 3px; border-radius: 2px; background: var(--mist); }
-.et-rung::before { top: calc(22px - var(--gap) / 2); }
-.et-rung::after { top: calc(22px + var(--gap) / 2); }
-.et-rung:nth-child(1) { --gap: 36px; }
-.et-rung:nth-child(2) { --gap: 22px; }
-.et-rung:nth-child(3) { --gap: 14px; }
-.et-rung:nth-child(4) { --gap: 9px; }
-.et-rung:nth-child(5) { --gap: 6px; }
-.et-rung:nth-child(6) { --gap: 4px; }
+/* The steps: a pair of bars each, as far apart as the step, closer and closer;
+   under each its answers as dots (run) or its score (result) */
+.et-board { display: flex; justify-content: center; width: 100%; }
+.et-ladder { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 480px; margin: 0; padding: 0; list-style: none; }
+.et-rung { position: relative; display: flex; flex-direction: column; align-items: center; gap: 4px; padding-top: 64px; color: var(--slate); font-size: 12px; }
+.et-rung::before, .et-rung::after { content: ''; position: absolute; left: 14%; right: 14%; height: 4px; border-radius: 2px; background: var(--mist); }
+.et-rung::before { top: calc(28px - var(--gap) / 2); }
+.et-rung::after { top: calc(28px + var(--gap) / 2); }
+.et-rung:nth-child(1) { --gap: 48px; }
+.et-rung:nth-child(2) { --gap: 30px; }
+.et-rung:nth-child(3) { --gap: 19px; }
+.et-rung:nth-child(4) { --gap: 12px; }
+.et-rung:nth-child(5) { --gap: 8px; }
+.et-rung:nth-child(6) { --gap: 5px; }
 .et-rung--heard { color: var(--seafoam); }
 .et-rung--heard::before, .et-rung--heard::after { background: var(--ocean); }
+.et-rung--missed::before, .et-rung--missed::after { background: color-mix(in srgb, var(--coral) 55%, var(--mist)); }
 .et-rung--now { color: var(--cream); }
 .et-rung--now::before, .et-rung--now::after { background: var(--glow); box-shadow: 0 0 8px var(--glow); }
+.et-rung__score { color: var(--cream); font-size: 13px; font-weight: 500; white-space: nowrap; }
+.et-rung:not(.et-rung--heard):not(.et-rung--missed) .et-rung__score { color: var(--slate); }
+.et-dots { display: flex; gap: 4px; min-height: 7px; }
+.et-dots i { width: 7px; height: 7px; border-radius: 50%; background: var(--glow); }
+.et-dots .et-dot--miss { background: var(--coral); }
+
+/* The melodies: a mark each, checked or crossed once answered */
+.et-tunes { display: flex; justify-content: center; gap: 12px; margin: 0; padding: 0; list-style: none; }
+.et-tune { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; min-width: 48px; height: 48px; padding: 0 10px; border: 1px solid var(--mist); border-radius: 12px; color: var(--slate); font-size: 14px; font-weight: 500; }
+.et-tune--now { border-color: var(--glow); color: var(--cream); box-shadow: 0 0 10px rgba(138, 196, 199, .3); }
+.et-tune--ok { border-color: var(--ocean); color: var(--seafoam); }
+.et-tune--miss { border-color: color-mix(in srgb, var(--coral) 60%, var(--mist)); color: var(--coral); }
+.et-tune__what { color: var(--soft); font-size: 11px; font-weight: 400; }
+.et-tune svg { stroke: currentColor; }
+
+/* The result: the figure, then step by step and melody by melody */
+.et-card .et-kicker { display: flex; justify-content: space-between; gap: 12px; margin: 20px 0 10px; }
+.et-card .et-kicker b { color: var(--cream); font-weight: 500; letter-spacing: 0; text-transform: none; }
+.et-card .et-ladder { max-width: none; }
+.et-card .et-tunes { justify-content: flex-start; }
+.et-card .et-tune { flex: 1; height: 56px; }
+.et-card .et-tunes + .result-card__note { margin-top: 16px; }
+@media (min-width: 600px) { .et-panel .st-side .share { padding: 14px; border: 1px solid var(--mist); border-radius: var(--r, 14px); } }
+.et-again { justify-content: center; }
+.et-run { margin-top: 0; }
+
 /* The next challenge: the sing-in-tune test */
 .et-next { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px 20px; }
 .et-next .kicker { margin: 0; }
@@ -35,5 +64,6 @@
 }
 @media (max-width: 599.98px) {
   .tool-panel[data-tool="ear-test"] { min-height: 560px; }
+  .et-panel .et-run { justify-content: center; }
   .et-ladder { gap: 6px; }
 }

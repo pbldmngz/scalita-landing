@@ -21,11 +21,11 @@
     "kicker": "En détail",
     "reviewed": "Vérifié le {date}",
     "relatedGuides": "Guides associés",
-    "otherTools": "Les trois autres outils",
+    "otherTools": "Les autres outils",
     "guidesWith": "Les guides qui vont avec",
     "allGuides": "Voir les {n} guides",
     "newHere": "Tu débutes ? Par où commencer",
-    "twoRules": "Deux règles pour les quatre outils"
+    "twoRules": "Deux règles pour tous les outils"
   },
   "routine": {
     "length": "Durée",
