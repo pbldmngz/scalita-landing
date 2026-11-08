@@ -6,6 +6,7 @@
 
   {"id": "tools", "section": "tools", "context": "tools", "template": "tools_hub", "data": {}, "hub": true, "parent": null, "root": true},
   {"id": "vocal-range-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "vocal-range-test"}, "hub": false, "parent": "tools"},
+  {"id": "tone-deaf-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "ear-test"}, "hub": false, "parent": "tools"},
   {"id": "sing-in-tune-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "sing-in-tune-test"}, "hub": false, "parent": "tools"},
   {"id": "warm-up-piano", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "player"}, "hub": false, "parent": "tools"},
   {"id": "voice-break-finder", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "voice-break-finder"}, "hub": false, "parent": "tools"},
@@ -17,6 +18,7 @@
   {"id": "vocal-cool-down", "section": "guides", "template": "routine", "data": {"routineId": "gentle_recovery"}, "hub": false, "parent": "vocal-warm-ups"},
   {"id": "lip-trills", "section": "guides", "template": "exercise", "data": {}, "hub": false, "parent": "vocal-warm-ups"},
   {"id": "five-note-scale", "section": "guides", "template": "pattern", "data": {"scaleId": "five_note"}, "hub": false, "parent": "vocal-warm-ups"},
+  {"id": "how-to-sing-in-tune", "section": "guides", "template": "skill", "data": {}, "hub": false, "parent": "vocal-warm-ups"},
   {"id": "voice-cracks-high-notes", "section": "guides", "template": "concept", "data": {}, "hub": false, "parent": "voice-types"},
   {"id": "head-voice-vs-chest-voice", "section": "guides", "template": "concept", "data": {}, "hub": false, "parent": "voice-types"},
   {"id": "note-names-octaves", "section": "guides", "template": "library", "data": {}, "hub": false, "parent": null}

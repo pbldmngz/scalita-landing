@@ -2,7 +2,7 @@
   "id": "/id/alat/",
   "name": "Scalita",
   "short_name": "Scalita",
-  "description": "Empat alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
+  "description": "Lima alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes buta nada, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
   "lang": "id",
   "dir": "ltr",
   "start_url": "/id/alat/",
@@ -42,8 +42,20 @@
       ]
     },
     {
+      "name": "Tes buta nada",
+      "short_name": "Telinga",
+      "url": "/id/alat/tes-buta-nada/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
       "name": "Tes ketepatan nada",
-      "short_name": "Ketepatan",
+      "short_name": "Akurasi",
       "url": "/id/alat/cek-suara-fals/",
       "icons": [
         {

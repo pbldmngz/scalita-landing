@@ -31,8 +31,8 @@
       "html": "<p>O afinador pula o piano. Cante qualquer nota e ele mostra o nome da nota mais próxima e quantos cents acima ou abaixo você está, enquanto você canta. Use para conferir uma nota que você está segurando, para acompanhar a voz escorregando de uma nota para outra ou para ver o quanto o seu vibrato oscila.</p>"
     },
     {
-      "heading": "Uma escuta rápida",
-      "html": "<p>Para conferir só o ouvido, a escuta rápida toca duas notas e pergunta qual foi mais aguda. São três perguntas, com as respostas em palavras: uma olhada rápida, não um exame de audição.</p>"
+      "heading": "Confira só o seu ouvido",
+      "html": "<p>Cantar uma nota de volta exige duas coisas: ouvir a nota e levar a voz até ela. Para conferir a primeira sem a segunda, o <a href=\"page:tone-deaf-test\">teste de ouvido musical</a> toca pares de notas de piano e pergunta para que lado a segunda foi, com um passo que fica menor cada vez que você o ouve. Ele nunca usa o microfone.</p>"
     },
     {
       "heading": "Se o microfone não funcionar",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Como saber se eu canto bem?",
-      "a": "<p>Um teste como este mede uma parte do canto: chegar na nota. Timbre, ritmo, letra e estilo contam tanto quanto, e nenhum teste de microfone consegue avaliar isso. Errar por muito numa rodada só quer dizer que aquelas cinco notas ficaram longe do piano daquela vez.</p>"
+      "a": "<p>Um teste como este mede uma parte do canto: chegar na nota. O <a href=\"page:tone-deaf-test\">teste de ouvido musical</a> confere só o seu ouvido. Timbre, ritmo, letra e estilo contam tanto quanto, e nenhum teste de microfone consegue avaliar isso. Errar por muito numa rodada só quer dizer que aquelas cinco notas ficaram longe do piano daquela vez.</p>"
     },
     {
       "q": "Preciso de fones?",

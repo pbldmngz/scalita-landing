@@ -1,0 +1,54 @@
+{
+  "slug": "how-to-sing-in-tune",
+  "label": "How to sing in tune",
+  "title": "How to Sing in Tune: First Exercises for Matching Pitch - Scalita",
+  "description": "Singing off key is usually about steering the voice, not about the ear. Three first exercises: slide onto a note, hum it, then sing short scales in your range.",
+  "h1": "How to sing in tune",
+  "lead": "Singing in tune means landing on the note you hear and staying there. For most people the ear already works, and the voice needs practice finding the note, so the work is short exercises that build that link.",
+  "shortAnswer": "<p>Hear the note first, then find it with your voice: slide onto it from below, hum it until your voice and the piano sound like one, and only then sing scales or songs. Practice in the middle of your range for a few minutes at a time, and measure it, because your own ear is a poor judge while you're singing.</p>",
+  "sections": [
+    {
+      "heading": "Why voices miss notes",
+      "html": "<p>Most people who sing off key hear pitch normally. In Pfordresher and Brown's experiments (2007), the participants who sang notes back a semitone or more off told pitches apart as well as the accurate singers did. Hutchins and Peretz (2012) found that people matched a note more accurately with a slider than with their own voice. The ear knew where the note was, and the voice didn't get there.</p><p>That's good news, because steering the voice is a skill you can practice. If you'd like to check your ear first, the <a href=\"page:tone-deaf-test\">tone deaf test</a> does it without a microphone.</p>"
+    },
+    {
+      "heading": "Step 1: slide onto the note",
+      "html": "<p>Play one note in the middle of your range and listen to it. Start your voice a little below it on an easy \"oo\" and glide up slowly until you match it, then hold it. As you get close, you'll hear your voice and the piano rub against each other, a fast wobble in the sound, and the wobble slows down and fades when you're on the note.</p><p>Sliding works because you don't have to guess the note in one go. You hear yourself get closer, and that's the link you're training.</p>"
+    },
+    {
+      "heading": "Step 2: hum it, then open to a vowel",
+      "html": "<p>Once the slide lands, hum the same note on \"mm\" at an easy volume, lips closed and teeth apart. A hum is quiet and comfortable, so it's easier to hear yourself against the piano. Hold it for a few seconds, then open to \"ah\" without changing the pitch. Do this on three or four different notes, each a step apart.</p>"
+    },
+    {
+      "heading": "Step 3: three notes, then five",
+      "html": "<p>When single notes land, move to short patterns: three notes up and back down, then the <a href=\"page:five-note-scale\">five-note scale</a>. Sing them slowly. When occasional singers in one study sang a familiar song more slowly, most of them sang it about as accurately as professionals (Dalla Bella and colleagues, 2007). Speed comes later, after the notes are landing.</p>"
+    },
+    {
+      "heading": "Measure it",
+      "html": "<p>It's hard to judge your own pitch while you sing, because you hear yourself through your head as well as your ears. A recording helps, and a measurement helps more. The <a href=\"page:sing-in-tune-test\">sing-in-tune test</a> plays a note and shows how many cents you landed from it. In the Scalita app, a note more than 25 cents away, a quarter of a semitone, counts as off. Once your round lands inside that, try the <a href=\"page:vocal-range-test\">vocal range test</a> to see how far you can take it.</p>"
+    }
+  ],
+  "troubleshooting": "<ul><li><strong>I'm always a little flat.</strong> Flat notes are common when the voice is tired or the note sits near the bottom or top of your range. Move the exercise to the middle of your range and keep the volume easy.</li><li><strong>I go sharp on the higher notes.</strong> That often comes from pushing. Sing the high note lighter and quieter, and slide onto it instead of jumping.</li><li><strong>I can't tell whether I'm on the note.</strong> Watch it instead: tuner mode in the sing-in-tune test shows your pitch against the nearest note as you sing.</li><li><strong>The notes feel too low or too high.</strong> Choose your voice type in the player below, or find your range first, so every note sits where you can sing it.</li></ul>",
+  "faq": [
+    {
+      "q": "Can anyone learn to sing in tune?",
+      "a": "<p>Most people can get closer with practice, since for most of them the ear already works. A small group, about 1.5 percent of people, have congenital amusia, a lifelong difficulty with hearing pitch, and for them matching notes is much harder.</p>"
+    },
+    {
+      "q": "How long should I practice?",
+      "a": "<p>A few minutes at a time is enough, and often is better than long. Stop if your voice feels tired or scratchy, and come back to it later.</p>"
+    },
+    {
+      "q": "Do I need a piano?",
+      "a": "<p>No. The player on this page plays the notes for you, in your range, and Scalita does the same on your phone. Any steady reference note works, as long as you can hear it clearly.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Pfordresher and Brown (2007), a study of poor-pitch singing and pitch perception, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Hutchins and Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)", "url": "https://doi.org/10.1037/a0025064"},
+    {"label": "Dalla Bella, Giguère and Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)", "url": "https://doi.org/10.1121/1.2427111"},
+    {"label": "Peretz and Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

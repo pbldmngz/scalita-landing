@@ -15,14 +15,15 @@
     "toolsLabel": "Beranda dan alat gratis",
     "getApp": "Unduh aplikasi",
     "closeMenu": "Tutup menu",
-    "toolsHint": "Keempatnya gratis",
+    "toolsHint": "Kelimanya gratis",
     "guidesHint": "{n} panduan",
     "fullscreen": "Layar penuh",
     "fullscreenHint": "Sembunyikan semuanya kecuali alat dan pemilih alat",
     "exitFullscreen": "Keluar layar penuh",
     "tabLabels": {
       "vocal-range-test": "Range",
-      "sing-in-tune-test": "Ketepatan",
+      "tone-deaf-test": "Telinga",
+      "sing-in-tune-test": "Akurasi",
       "warm-up-piano": "Piano",
       "voice-break-finder": "Peralihan"
     }
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Alat web gratis",
       "title": "Coba Scalita langsung di sini",
-      "lead": "Empat alat yang berjalan di halaman ini, di browser-mu, di ponsel maupun komputer. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasinya sendiri, jadi kamu bisa mencicipi Scalita sebelum mengunduh apa pun. Tanpa akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
+      "lead": "Lima alat yang berjalan di halaman ini, di browser-mu, di ponsel maupun komputer. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasinya sendiri, jadi kamu bisa mencicipi Scalita sebelum mengunduh apa pun. Tanpa akun, dan apa pun yang kamu nyanyikan tidak keluar dari perangkatmu.",
       "open": "Buka di browser",
       "openShort": "Di browser",
       "items": [
@@ -147,9 +148,14 @@
           "body": "Nada terendah dan tertinggi yang nyaman untukmu, dalam nada dan oktaf, beserta jenis suara yang umum untuk jangkauan itu."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Piano · Tanpa mikrofon",
+          "body": "Dua nada piano, lebih tinggi atau lebih rendah, sementara jaraknya mengecil dari setengah nada sampai 3 sen. Lalu empat melodi pendek: sama atau berbeda?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Piano dulu, lalu mikrofon",
-          "body": "Dengarkan satu nada piano, nyanyikan kembali, dan lihat berapa sen selisihnya. Lengkap dengan tuner bebas dan cek dengar."
+          "body": "Dengarkan satu nada piano, nyanyikan kembali, dan lihat berapa sen selisihnya. Lengkap dengan tuner bebas."
         },
         {
           "page": "warm-up-piano",

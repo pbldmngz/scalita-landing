@@ -51,14 +51,17 @@ html { scroll-padding-top: 80px; }
 .site-switch .seg--home { padding: 0 14px; }
 .seg__full { display: var(--full); }
 .seg__short { display: var(--short); }
-html:not(:lang(en)) .site-header--tools .site-header__in { max-width: 1600px; }
-@media (min-width: 1040px) { html:is(:lang(en), :lang(tr), :lang(id))[data-fs="on"] .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1090px) { html:lang(de)[data-fs="on"] .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1170px) { html[data-fs="on"] .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1330px) { html:lang(en) .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1370px) { html:is(:lang(de), :lang(tr), :lang(id)) .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1410px) { html:lang(es) .site-switch { --full: inline; --short: none; } }
-@media (min-width: 1470px) { .site-switch { --full: inline; --short: none; } }
+.site-header--tools .site-header__in { max-width: 1760px; }
+/* Full names from where all five fit, measured per locale (page, then full screen) */
+@media (min-width: 1180px) { html:is(:lang(en), :lang(tr), :lang(id))[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1220px) { html:lang(de)[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1290px) { html:is(:lang(es), :lang(fr))[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1330px) { html[data-fs="on"] .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1500px) { html:is(:lang(en), :lang(id)) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1520px) { html:lang(de) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1560px) { html:is(:lang(es), :lang(tr)) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1600px) { html:lang(fr) .site-switch { --full: inline; --short: none; } }
+@media (min-width: 1630px) { .site-switch { --full: inline; --short: none; } }
 
 /* ----------------------------------------------------------- footers --- */
 
@@ -119,11 +122,15 @@ html:not(:lang(en)) .site-header--tools .site-header__in { max-width: 1600px; }
 }
 
 /* the tools header keeps one row: Home by its icon, no chevron */
-@media (min-width: 960px) and (max-width: 1179.98px) {
+@media (min-width: 960px) and (max-width: 1219.98px) {
   .site-switch .seg { gap: 6px; padding: 0 10px; }
   .site-switch .seg--home { width: 44px; padding: 0; }
   .seg--home span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
   .site-header--tools .lang-chevron { display: none; }
+}
+/* the narrowest: the tools by name alone, Home by its icon */
+@media (min-width: 960px) and (max-width: 1059.98px) {
+  html:not([data-fs="on"]) .site-switch .seg:not(.seg--home) svg { display: none; }
 }
 
 /* ----------------------------------------------- phones and tablets --- */
@@ -184,9 +191,12 @@ html:not(:lang(en)) .site-header--tools .site-header__in { max-width: 1600px; }
   .site-footer--compact .site-footer__bottom { flex-direction: column; gap: 4px; font-size: 12px; }
 }
 
-/* the narrowest phones: the longest tab names keep whole */
-@media (max-width: 359.98px) {
+/* six tabs on a phone: the longest names keep whole */
+@media (max-width: 399.98px) {
   .site-tab { font-size: 10px; }
+}
+@media (max-width: 359.98px) {
+  .site-tabbar { left: 8px; right: 8px; padding: 4px; }
 }
 
 @media (pointer: coarse) {

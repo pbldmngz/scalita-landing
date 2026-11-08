@@ -1,8 +1,8 @@
 {
   "slug": "sing-in-tune-test",
   "label": "Sing-in-tune test",
-  "title": "Am I Tone Deaf? Free Online Sing-in-Tune Test - Scalita",
-  "description": "Am I tone deaf? Hear a piano note, sing it back and see how many cents you landed from it: a free pitch-matching test and voice tuner in your browser.",
+  "title": "Sing in Tune Test: How Close Do You Land on the Note? - Scalita",
+  "description": "Can you sing in tune? Hear a piano note, sing it back and see how many cents you landed from it: a free pitch-matching test and voice tuner in your browser.",
   "h1": "Sing-in-tune test",
   "lead": "The piano plays a note and stops. You sing it back, and the page shows how close you landed, in cents. Five notes make a round, and tuner mode shows your pitch while you sing anything you like.",
   "tile": "How close you land to a note you've just heard.",
@@ -31,8 +31,8 @@
       "html": "<p>The tuner skips the piano. Sing any note and it shows the nearest note name and how many cents sharp or flat you are, as you sing. Use it to check a note you're holding, to watch a slide from one note to another, or to see how wide your vibrato swings.</p>"
     },
     {
-      "heading": "A quick listening check",
-      "html": "<p>To check your ear on its own, the listening check plays two notes and asks which one was higher. It's three questions with the answers in words: a quick look, not a hearing test.</p>"
+      "heading": "Check your ear on its own",
+      "html": "<p>Singing a note back takes two things: hearing it, and steering your voice onto it. To check the first one without the second, the <a href=\"page:tone-deaf-test\">tone deaf test</a> plays pairs of piano notes and asks which way the second one moved, with the step getting smaller each time you hear it. It never uses the microphone.</p>"
     },
     {
       "heading": "If the microphone doesn't work",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Am I tone deaf?",
-      "a": "<p>Probably not. A lifelong difficulty with hearing pitch, congenital amusia, affects about 1.5 percent of people, and most people who sing off pitch hear pitch normally. This test measures one part of singing, landing on the note, and it can't diagnose amusia. Tone, rhythm, words and style count just as much, and no microphone test can rate them. A wide miss in one round only means those five notes landed far from the piano that time.</p>"
+      "a": "<p>Probably not. A lifelong difficulty with hearing pitch, congenital amusia, affects about 1.5 percent of people, and most people who sing off pitch hear pitch normally. This test measures one part of singing, landing on the note, and it can't diagnose amusia. The <a href=\"page:tone-deaf-test\">tone deaf test</a> checks your ear on its own. Tone, rhythm, words and style count just as much, and no microphone test can rate them. A wide miss in one round only means those five notes landed far from the piano that time.</p>"
     },
     {
       "q": "Do I need headphones?",

@@ -41,8 +41,10 @@ BAND_ID = "app"
 # The screenshot the band shows (images/screenshots/<locale>/<name>.jpg): by
 # page id, else by template.
 SHOTS = {"tools": "home", "vocal-range-test": "player", "sing-in-tune-test": "pitch_targeting",
+         "tone-deaf-test": "pitch_targeting",
          "warm-up-piano": "find_my_warmup", "voice-break-finder": "player"}
 TEMPLATE_SHOTS = {"routine": "player", "exercise": "player", "pattern": "player", "concept": "scored",
+                  "skill": "pitch_targeting",
                   "hub": "home", "voice_types_hub": "home", "library": "home", "tools_hub": "home",
                   "tool": "player"}
 

@@ -1,21 +1,21 @@
 {
   "label": "Kostenlose Tools",
   "title": "Kostenlose Gesangs-Tools im Browser - Scalita",
-  "description": "Vier kostenlose Tools für Sängerinnen und Sänger, direkt im Browser: Stimmumfang testen, Töne treffen, mit Klavier einsingen und deinen Registerwechsel finden.",
+  "description": "Fünf kostenlose Tools für Sängerinnen und Sänger im Browser: Stimmumfang testen, Gehör testen, Töne treffen, mit Klavier einsingen, Registerwechsel finden.",
   "h1": "Kostenlose Tools zum Singen",
-  "lead": "Vier Tools aus der App, direkt im Browser. Nichts, was du singst, verlässt dein Gerät.",
+  "lead": "Fünf Tools aus der App, direkt im Browser. Nichts, was du singst, verlässt dein Gerät.",
   "appBand": "Scalita merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet die App deine Tonhöhe beim Singen mit und bewertet jede Tonleiter. Offline, ohne Werbung, ohne Konto.",
   "referenceHeading": "Über die Tools",
-  "intro": "<p>Diese vier Tools stammen aus Scalita, einer Einsing-App für Android. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, und sie laufen im Browser, auf dem Telefon oder am Computer.</p><p>Für alle gelten zwei Regeln. Ein Tool hört entweder zu oder spielt Klavier, nie beides gleichzeitig, deshalb brauchst du keine Kopfhörer. Und wenn ein Tool zuhört, erledigt dein Browser die Arbeit auf deinem Gerät: Nichts wird aufgenommen oder irgendwohin gesendet.</p>",
-  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "intro": "<p>Diese fünf Tools stammen aus Scalita, einer Einsing-App für Android. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, und sie laufen im Browser, auf dem Telefon oder am Computer.</p><p>Für alle gelten zwei Regeln. Ein Tool hört entweder zu oder spielt Klavier, nie beides gleichzeitig, deshalb brauchst du keine Kopfhörer. Und wenn ein Tool zuhört, erledigt dein Browser die Arbeit auf deinem Gerät: Nichts wird aufgenommen oder irgendwohin gesendet.</p>",
+  "children": ["vocal-range-test", "tone-deaf-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [
     {
       "heading": "Wo du anfängst",
-      "html": "<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href=\"page:vocal-range-test\">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über dein Stimmfach als dein Umfang.</li><li><a href=\"page:warm-up-piano\">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol>"
+      "html": "<p>Wenn das neu für dich ist, geh in dieser Reihenfolge vor:</p><ol><li><a href=\"page:vocal-range-test\">Stimmumfang-Test</a>: dein tiefster und dein höchster bequemer Ton, in etwa einer Minute.</li><li><a href=\"page:voice-break-finder\">Registerwechsel-Finder</a>: wo deine Stimme den Gang wechselt. Das sagt mehr über dein Stimmfach als dein Umfang.</li><li><a href=\"page:warm-up-piano\">Einsing-Klavier</a>: Tonleitern und Routinen aus der App, gespielt in deinem Umfang.</li><li><a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a>: wenn du eingesungen bist, wie nah du an einen Ton kommst, den du gerade gehört hast.</li></ol><p>Oder nimm sie als Reihe von Herausforderungen: zuerst der <a href=\"page:tone-deaf-test\">Tontaub-Test</a>, um zu sehen, wie kleine Schritte du hörst, dann der Töne-treffen-Test, um zu sehen, ob deine Stimme dort landet, wo dein Gehör hinkommt, dann der Stimmumfang-Test, um zu sehen, wie weit du damit kommst.</p>"
     },
     {
       "heading": "Wenn ein Tool zuhört",
-      "html": "<p>Der Stimmumfang-Test und der Töne-treffen-Test nutzen dein Mikrofon. Sie bitten erst um das Mikrofon, wenn du auf Start gedrückt hast, lesen die Tonhöhe deiner Stimme, während sie ankommt, und behalten nichts. Drück auf Stopp oder verlass die Seite, und das Mikrofon geht aus. Das Einsing-Klavier und der Registerwechsel-Finder nutzen es nie.</p><p>Das Mikrofon funktioniert in aktuellen Versionen von Chrome, Safari, Firefox und Edge. In den eingebauten Browsern von Apps wie Instagram, TikTok, Facebook oder Gmail funktioniert es nicht. Wenn du also über eine dieser Apps hierhergekommen bist, öffne die Seite zuerst im Browser deines Telefons.</p>"
+      "html": "<p>Der Stimmumfang-Test und der Töne-treffen-Test nutzen dein Mikrofon. Sie bitten erst um das Mikrofon, wenn du auf Start gedrückt hast, lesen die Tonhöhe deiner Stimme, während sie ankommt, und behalten nichts. Drück auf Stopp oder verlass die Seite, und das Mikrofon geht aus. Der Tontaub-Test, das Einsing-Klavier und der Registerwechsel-Finder nutzen es nie.</p><p>Das Mikrofon funktioniert in aktuellen Versionen von Chrome, Safari, Firefox und Edge. In den eingebauten Browsern von Apps wie Instagram, TikTok, Facebook oder Gmail funktioniert es nicht. Wenn du also über eine dieser Apps hierhergekommen bist, öffne die Seite zuerst im Browser deines Telefons.</p>"
     },
     {
       "heading": "Was sie dir nicht sagen",

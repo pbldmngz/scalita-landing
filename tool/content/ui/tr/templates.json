@@ -11,6 +11,7 @@
     "noMic": "Mikrofonsuz",
     "next": {
       "vocal-range-test": "Ses aralığını bul",
+      "tone-deaf-test": "Kulağını test et",
       "sing-in-tune-test": "Notaya ne kadar yaklaştığını gör",
       "warm-up-piano": "Kendi aralığında ısın",
       "voice-break-finder": "Geçiş bölgeni bul"

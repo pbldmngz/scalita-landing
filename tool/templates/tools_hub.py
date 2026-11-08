@@ -277,9 +277,35 @@ def preview_break(ctx):
     return svg(500, 176, wide), svg(150, 86, phone)
 
 
+def rungs(x0, w, cy, gaps, lit, stroke):
+    """The ear test's steps: a pair of short bars each, as far apart as the
+    step is wide, the ones heard in the ocean, the one sounding lit."""
+    out = ""
+    for i, g in enumerate(gaps):
+        cls = "hub-pv__rule" if i > lit else "hub-pv__needle" if i == lit else "hub-pv__line"
+        x = x0 + i * w
+        out += '<path class="%s" d="M%s %sh%sM%s %sh%s" stroke-width="%s" stroke-linecap="round"/>' % (
+            cls, num(x), num(cy - g / 2), num(w * 0.7), num(x), num(cy + g / 2), num(w * 0.7), num(stroke))
+    return out
+
+
+def preview_ear(ctx):
+    """Step 3 of 6 at 25 cents: the six steps drawing closer, two heard, the
+    third sounding, and the two answers."""
+    step = ui(ctx, "ear-test", "run.stepOf", n=3, total=6, step=ui(ctx, "ear-test", "units.cents.other", n=25))
+    hi, lo = ui(ctx, "ear-test", "run.higher"), ui(ctx, "ear-test", "run.lower")
+    wide = ['<circle class="hub-pv__dot" cx="30" cy="20" r="4"/>', text(ctx, 42, 24, step, fit(step, 12, 446)),
+            rungs(68, 62, 80, [76, 46, 28, 17, 10, 6], 2, 3.5),
+            buttons(ctx, 250, 134, 36, 12, 1.5, 13, 316, 14, 16, [(hi, 124, True), (lo, 124, True)])]
+    phone = [rungs(12, 22, 30, [36, 22, 13, 8, 5, 3], 2, 2.2),
+             buttons(ctx, 75, 62, 20, 7, 1, 8, 136, 6, 6, [(hi, 60, True), (lo, 60, True)])]
+    return svg(500, 176, wide), svg(150, 86, phone)
+
+
 # toolId: (whether it listens, its preview)
 TOOLS = {
     "vocal-range-test": (True, preview_range),
+    "ear-test": (False, preview_ear),
     "sing-in-tune-test": (True, preview_tune),
     "player": (False, preview_piano),
     "voice-break-finder": (False, preview_break),

@@ -2,7 +2,7 @@
   "id": "/tr/araclar/",
   "name": "Scalita",
   "short_name": "Scalita",
-  "description": "Şarkıcılar için tarayıcıda çalışan dört ücretsiz araç: ses aralığı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
+  "description": "Şarkıcılar için tarayıcıda çalışan beş ücretsiz araç: ses aralığı testi, müzik kulağı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
   "lang": "tr",
   "dir": "ltr",
   "start_url": "/tr/araclar/",
@@ -33,6 +33,18 @@
       "name": "Ses aralığı testi",
       "short_name": "Aralık",
       "url": "/tr/araclar/ses-araligi-testi/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Müzik kulağı testi",
+      "short_name": "Kulak",
+      "url": "/tr/araclar/muzik-kulagi-testi/",
       "icons": [
         {
           "src": "/images/logo_96.png",

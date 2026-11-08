@@ -35,6 +35,8 @@ ICONS = {
     "piano": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M9 13v7M15 13v7"/>'
              '<rect x="7.5" y="4" width="3" height="9" rx=".5"/><rect x="13.5" y="4" width="3" height="9" rx=".5"/>',
     "break": '<path d="M3 20h5v-5h4v-5h4V5h5"/>',
+    "ear": '<path d="M6.5 9.5a5.5 5.5 0 0 1 11 0c0 2.6-1.6 3.7-2.8 4.8-1 .9-1.2 1.7-1.2 2.7a3 3 0 0 1-5.6 1.5"/>'
+           '<path d="M9.5 9.8a2.5 2.5 0 0 1 5 0c0 1.2-.9 1.7-1.6 2.3"/>',
     "globe": '<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/>',
     "download": '<path d="M12 4v11M7 10l5 5 5-5M4 20h16"/>',
     "browser": '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M6.5 6.5h.01M9.5 6.5h.01"/>',
@@ -74,8 +76,8 @@ for _alias, _name in (("sparkle", "features"), ("tag", "pricing"), ("grid", "too
 FILLED = {"play", "stop"}
 
 # Each tool's icon, by page id: the switcher, the tab bar, the hub's tiles.
-TOOL_ICONS = {"vocal-range-test": "range", "sing-in-tune-test": "tune", "warm-up-piano": "piano",
-              "voice-break-finder": "break"}
+TOOL_ICONS = {"vocal-range-test": "range", "tone-deaf-test": "ear", "sing-in-tune-test": "tune",
+              "warm-up-piano": "piano", "voice-break-finder": "break"}
 
 # The mark: four bars, the colours of --logo-a and --logo-b.
 LOGO = ('<rect x="214" y="480" width="104" height="352" rx="32" fill="#549296"/>'

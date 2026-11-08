@@ -1,21 +1,21 @@
 {
   "label": "Ücretsiz araçlar",
   "title": "Şarkıcılar için ücretsiz online araçlar - Scalita",
-  "description": "Şarkıcılar için tarayıcıda çalışan dört ücretsiz araç: ses aralığı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
+  "description": "Şarkıcılar için tarayıcıda çalışan beş ücretsiz araç: ses aralığı testi, müzik kulağı testi, detone testi, ses açma piyanosu ve geçiş bölgesi testi.",
   "h1": "Şarkıcılar için ücretsiz araçlar",
-  "lead": "Uygulamadan dört araç, tarayıcında. Söylediğin hiçbir şey cihazından çıkmaz.",
+  "lead": "Uygulamadan beş araç, tarayıcında. Söylediğin hiçbir şey cihazından çıkmaz.",
   "appBand": "Scalita ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar. Çevrimdışı, reklamsız, hesapsız.",
   "referenceHeading": "Araçlar hakkında",
-  "intro": "<p>Bu dört araç, Android için bir vokal ısınma uygulaması olan Scalita'dan geliyor. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar.</p><p>Hepsi için iki kural geçerli. Bir araç ya dinler ya piyano çalar, ikisini asla aynı anda yapmaz; bu yüzden kulaklığa ihtiyacın yok. Bir araç dinlediğinde de işi cihazında tarayıcın yapar: hiçbir şey kaydedilmez, hiçbir yere gönderilmez.</p>",
-  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "intro": "<p>Bu beş araç, Android için bir vokal ısınma uygulaması olan Scalita'dan geliyor. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar; telefonda ya da bilgisayarda, tarayıcında çalışırlar.</p><p>Hepsi için iki kural geçerli. Bir araç ya dinler ya piyano çalar, ikisini asla aynı anda yapmaz; bu yüzden kulaklığa ihtiyacın yok. Bir araç dinlediğinde de işi cihazında tarayıcın yapar: hiçbir şey kaydedilmez, hiçbir yere gönderilmez.</p>",
+  "children": ["vocal-range-test", "tone-deaf-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [
     {
       "heading": "Nereden başlamalı",
-      "html": "<p>Bu işte yeniysen şu sırayla git:</p><ol><li><a href=\"page:vocal-range-test\">Ses aralığı testi</a>: rahat söyleyebildiğin en pes ve en tiz notalar, yaklaşık bir dakikada.</li><li><a href=\"page:voice-break-finder\">Geçiş bölgesi testi</a>: sesinin vites değiştirdiği yer; bu, ses türün hakkında aralığından daha çok şey söyler.</li><li><a href=\"page:warm-up-piano\">Ses açma piyanosu</a>: uygulamadaki gamlar ve rutinler, senin aralığında çalınır.</li><li><a href=\"page:sing-in-tune-test\">Detone testi</a>: ısındıktan sonra, az önce duyduğun bir notaya ne kadar yakın söylediğin.</li></ol>"
+      "html": "<p>Bu işte yeniysen şu sırayla git:</p><ol><li><a href=\"page:vocal-range-test\">Ses aralığı testi</a>: rahat söyleyebildiğin en pes ve en tiz notalar, yaklaşık bir dakikada.</li><li><a href=\"page:voice-break-finder\">Geçiş bölgesi testi</a>: sesinin vites değiştirdiği yer; bu, ses türün hakkında aralığından daha çok şey söyler.</li><li><a href=\"page:warm-up-piano\">Ses açma piyanosu</a>: uygulamadaki gamlar ve rutinler, senin aralığında çalınır.</li><li><a href=\"page:sing-in-tune-test\">Detone testi</a>: ısındıktan sonra, az önce duyduğun bir notaya ne kadar yakın söylediğin.</li></ol><p>Ya da onları bir dizi meydan okuma olarak dene: önce <a href=\"page:tone-deaf-test\">müzik kulağı testi</a>, ne kadar küçük bir adımı duyduğunu görmek için; sonra detone testi, sesinin kulağının duyduğu yere düşüp düşmediğini görmek için; sonra ses aralığı testi, bunu ne kadar ileri götürebildiğini görmek için.</p>"
     },
     {
       "heading": "Bir araç dinlediğinde",
-      "html": "<p>Ses aralığı testi ve detone testi mikrofonunu kullanır. Mikrofonu ancak sen Başlat'a bastıktan sonra isterler, sesinin perdesini geldiği anda okurlar ve hiçbir şey saklamazlar. Durdur'a bastığında ya da sayfadan çıktığında mikrofon kapanır. Ses açma piyanosu ve geçiş bölgesi testi mikrofonu hiç kullanmaz.</p><p>Mikrofon Chrome, Safari, Firefox ya da Edge'in güncel sürümlerinde çalışır. Instagram, TikTok, Facebook ya da Gmail gibi uygulamaların içindeki tarayıcılarda çalışmaz; buraya onlardan birinden geldiysen önce sayfayı telefonunun tarayıcısında aç.</p>"
+      "html": "<p>Ses aralığı testi ve detone testi mikrofonunu kullanır. Mikrofonu ancak sen Başlat'a bastıktan sonra isterler, sesinin perdesini geldiği anda okurlar ve hiçbir şey saklamazlar. Durdur'a bastığında ya da sayfadan çıktığında mikrofon kapanır. Müzik kulağı testi, ses açma piyanosu ve geçiş bölgesi testi mikrofonu hiç kullanmaz.</p><p>Mikrofon Chrome, Safari, Firefox ya da Edge'in güncel sürümlerinde çalışır. Instagram, TikTok, Facebook ya da Gmail gibi uygulamaların içindeki tarayıcılarda çalışmaz; buraya onlardan birinden geldiysen önce sayfayı telefonunun tarayıcısında aç.</p>"
     },
     {
       "heading": "Sana söylemeyecekleri",

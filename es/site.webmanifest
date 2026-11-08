@@ -2,7 +2,7 @@
   "id": "/es/herramientas/",
   "name": "Scalita",
   "short_name": "Scalita",
-  "description": "Cuatro herramientas gratis para cantantes que funcionan en el navegador: test de rango vocal, test de afinación, piano para vocalizar y test de quiebre vocal.",
+  "description": "Cinco herramientas gratis para cantantes, en el navegador: test de rango vocal, de oído, de afinación y de quiebre vocal, y un piano para vocalizar.",
   "lang": "es",
   "dir": "ltr",
   "start_url": "/es/herramientas/",
@@ -33,6 +33,18 @@
       "name": "Test de rango vocal",
       "short_name": "Rango",
       "url": "/es/herramientas/test-de-rango-vocal/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Test de oído",
+      "short_name": "Oído",
+      "url": "/es/herramientas/test-de-oido-musical/",
       "icons": [
         {
           "src": "/images/logo_96.png",

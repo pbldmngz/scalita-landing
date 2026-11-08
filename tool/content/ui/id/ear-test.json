@@ -1,0 +1,59 @@
+{
+  "intro": "Dua nada piano berbunyi, satu setelah yang lain. Apakah nada kedua lebih tinggi atau lebih rendah? Setiap langkah yang kamu dengar membuat langkah berikutnya lebih kecil. Lalu empat melodi pendek: keduanya sama, atau berbeda? Tanpa mikrofon, sekitar dua menit.",
+  "tip": "Headphone atau ruangan yang tenang membantu untuk langkah-langkah terkecil.",
+  "pianoFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi.",
+  "units": {
+    "cents": {"one": "{n} sen", "other": "{n} sen"},
+    "semitones": {"one": "{n} setengah nada", "other": "{n} setengah nada"},
+    "short": "{n}c"
+  },
+  "run": {
+    "stepOf": "Langkah {n} dari {total} · {step}",
+    "question": "Apakah nada kedua lebih tinggi atau lebih rendah?",
+    "higher": "Lebih tinggi",
+    "lower": "Lebih rendah",
+    "again": "Putar lagi",
+    "wentUp": "Nadanya naik.",
+    "wentDown": "Nadanya turun.",
+    "melodiesNext": "Sekarang empat melodi pendek.",
+    "melodyOf": "Melodi {n} dari {total}",
+    "sameQuestion": "Apakah kedua melodi itu sama?",
+    "same": "Sama",
+    "different": "Berbeda",
+    "wereSame": "Keduanya sama.",
+    "wereDifferent": "Satu nada berbeda."
+  },
+  "result": {
+    "label": "Langkah terkecil yang kamu dengar",
+    "finer": "Itu lebih halus daripada 25 sen yang dihitung meleset oleh Scalita saat kamu menyanyikan sebuah nada, jadi kamu bisa mendengar nada yang bergeser sebelum aplikasi menganggapnya meleset.",
+    "same": "Itu langkah yang dihitung meleset oleh Scalita saat kamu menyanyikan sebuah nada, jadi kamu bisa mendengar nada yang bergeser sejauh itu.",
+    "wider": "Langkah yang lebih kecil dari {cents} adalah yang berikutnya untuk didengar. Telinga makin peka dengan latihan: dalam satu penelitian, orang yang bukan musisi menyusul musisi terlatih setelah beberapa jam.",
+    "none": "Langkah setengah nada kali ini sulit dibedakan. Headphone, ruangan yang tenang, dan percobaan lagi sering mengubah hal itu.",
+    "steps": "Langkah terdengar",
+    "melodies": "Melodi dibedakan",
+    "count": "{n} dari {total}",
+    "cent": "100 sen sama dengan setengah nada, dari satu tuts piano ke tuts berikutnya.",
+    "sample": "Satu putaran adalah bacaan singkat, dan setiap jawaban mengandung sedikit keberuntungan. Putaran berikutnya bisa menggesernya kira-kira satu langkah.",
+    "last": "{label}: {step}, {date}",
+    "lastNone": "belum ada langkah",
+    "again": "Coba lagi",
+    "ctaBody": "Latihan Ketepatan di Scalita mengubah mendengar menjadi bernyanyi: cocokkan nada di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
+    "ctaButton": "Unduh Scalita di Google Play"
+  },
+  "next": {
+    "kicker": "Tantangan berikutnya",
+    "title": "Mendengar baru separuhnya. Bisakah kamu menyanyikannya?",
+    "body": "Tes ketepatan nada memainkan sebuah nada, lalu mengukur seberapa dekat kamu menyanyikannya kembali, dalam sen.",
+    "button": "Ikuti tes bernyanyi"
+  },
+  "share": {
+    "title": "Langkah terkecil yang bisa kudengar",
+    "cents": "sen",
+    "line": "di antara dua nada piano, lebih tinggi atau lebih rendah",
+    "melodies": "{n} dari {total} melodi dibedakan",
+    "pairs": "Setiap pasangan adalah dua nada piano, makin dekat di setiap langkah. Satu sen adalah seperseratus setengah nada.",
+    "ask": "Seberapa kecil yang bisa kamu dengar?",
+    "text": "Aku bisa mendengar selisih {cents} di antara dua nada piano. Uji telingamu gratis di browser:",
+    "fileName": "tes-telingaku"
+  }
+}

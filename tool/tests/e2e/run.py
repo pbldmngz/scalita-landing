@@ -38,18 +38,25 @@ Pablo's voice and are read in place from scalita_app/test/detector/takes
             and 900 px), the result and the tagged Play link, the 1080 x 1920
             image; three octaves on the keyboard name no voice type; an in-app
             browser's panel
+  ear       the ear test (tone-deaf-test) answered right down to 12 cents:
+            12 cents, four of six steps, four of four melodies, the next
+            challenge the sing-in-tune test, never a microphone, the screen
+            kept on and let go, kept in this browser, the 1080 x 1920 image,
+            no layout shift; answered wrong from the first step: no figure,
+            no image, no null
   tune      sing this note with a steady A4: near 0 cents, five of five,
             the piano and the microphone never at once, no request while live,
             no layout shift and nothing under the stage pushed down (at 360,
-            768 and 900 px), the 1080 x 1920 image
+            768 and 900 px), the 1080 x 1920 image, the next challenge the
+            range test, the ear test linked from the mode switcher
   player    Pre-Performance Quick for the tenor preset on the quick warm-up page,
             and the five-note scale for soprano on the warm-up piano, play
             the export's roots in order; audio only after Play
   finder    the voice break finder by its buttons, its result kept, and the
             warm-up piano built around it
   locales   every tool in every other built locale, to its result without a
-            microphone (the keyboard, the listening check, the finder, the
-            piano): nothing stray on it, nothing wider than 360 px, no key
+            microphone (the keyboard, the ear test, the finder, the piano):
+            nothing stray on it, nothing wider than 360 px, no key
             with a border
   firefox   geckodriver and Firefox: every English page mounts cleanly, the free
             tuner reads Firefox's fake 1 kHz tone, the warm-up piano plays,
@@ -92,9 +99,10 @@ CLS_BUDGET = 0.01  # layout shift while a page loads: decision 11 asks for none,
 THEME = "#1E2628"
 # Each file's own budget, gzipped KB (docs/specs/site-redesign-spec.md, section 6)
 FILE_BUDGETS = {"css/style.css": 11, "css/chrome.css": 4, "css/home.css": 4, "css/hub.css": 2, "css/tool.css": 2,
-                "css/tool-range.css": 1.5, "css/tool-tune.css": 1.5, "css/tool-player.css": 1.5, "css/guides.css": 2,
+                "css/tool-range.css": 1.5, "css/tool-tune.css": 1.5, "css/tool-ear.css": 1.5, "css/tool-player.css": 1.5,
+                "css/guides.css": 2,
                 "js/site/chrome.js": 2}
-GROUPS = ("pages", "links", "notfound", "langbar", "chrome", "decode", "range", "tune", "player", "finder", "locales",
+GROUPS = ("pages", "links", "notfound", "langbar", "chrome", "decode", "range", "ear", "tune", "player", "finder", "locales",
           "firefox", "webkit")
 ANDROID = ("Mozilla/5.0 (Linux; Android 14; SM-A725F) AppleWebKit/537.36 (KHTML, like Gecko) "
            "Chrome/151.0.0.0 Mobile Safari/537.36")
@@ -381,11 +389,12 @@ EVENTS = """(() => {
     addEventListener(type, (e) => window.__ev.push(Object.assign({ event: type, at: at() }, e.detail)), true);
 })();"""
 
-# The player 25 and the finder 10 times faster: their own test hook, set on
-# the mount before the module reads it
+# The player 25, the finder 10 and the ear test 8 times faster: their own
+# test hook, set on the mount before the module reads it
 FAST = """new MutationObserver(() => {
   for (const el of document.querySelectorAll('[data-tool="player"]:not([data-rate])')) el.dataset.rate = '25';
   for (const el of document.querySelectorAll('[data-tool="voice-break-finder"]:not([data-rate])')) el.dataset.rate = '10';
+  for (const el of document.querySelectorAll('[data-tool="ear-test"]:not([data-rate])')) el.dataset.rate = '8';
 }).observe(document, { childList: true, subtree: true });"""
 
 # What a page shows: overflow, its mounts, every URL it names
@@ -599,7 +608,7 @@ def nav_problems(site, nav, code, pid, width):
     wrong. Landing pages keep the site's menu (Features, Pricing, Download,
     Tools, Guides, Support, the language menu, Get the app; a menu on a
     phone); the tools hub and the tools show Home and the four tools, as a
-    switcher on a desktop and as five floating tabs on a phone."""
+    switcher on a desktop and as floating tabs on a phone."""
     words = site.content(code)["nav"]
     home = site.url("index", code) or "/"
     tools = site.tools()
@@ -612,14 +621,14 @@ def nav_problems(site, nav, code, pid, width):
             bad.append("no tools header: %s" % nav["header"])
         got = [x["href"] for x in nav["switcher"]]
         if got != want:
-            bad.append("the switcher links %s, not Home and the four tools %s" % (got, want))
+            bad.append("the switcher links %s, not Home and the tools %s" % (got, want))
         lit = [x["href"] for x in nav["switcher"] if x["current"] == "page"]
         if lit != here:
             bad.append("the switcher marks %s as this page" % lit)
         tabs = [[x["href"], x["text"]] for x in nav["tabs"]]
         labels = [words["home"]] + [words["tabLabels"][t] for t in tools]
         if tabs != [list(x) for x in zip(want, labels)]:
-            bad.append("the tab bar is %s, not the five tabs %s" % (tabs, list(zip(want, labels))))
+            bad.append("the tab bar is %s, not the tabs %s" % (tabs, list(zip(want, labels))))
         if [x["href"] for x in nav["tabs"] if x["current"] == "page"] != here:
             bad.append("the tab bar marks another page")
         if nav["siteNav"] or nav["rows"] or nav["toggle"]:
@@ -1561,6 +1570,89 @@ def live_checks(t, srv, listening, spans):
     R.check("nothing sent all session: GETs of the site's own files only", not t.sent(srv.origin), t.sent(srv.origin))
 
 
+# The ear test with a counter on getUserMedia, which it must never call
+EAR_INIT = """(() => {
+  window.__scalitaTest = { seed: 7, events: [] };
+  window.__gum = 0;
+  const md = navigator.mediaDevices;
+  if (md && md.getUserMedia) {
+    const g = md.getUserMedia.bind(md);
+    md.getUserMedia = (...a) => { window.__gum++; return g(...a); };
+  }
+})();"""
+
+
+def answer_ear(t, cut):
+    """Answers the ear test from its own test hook (the ask events): a step
+    right while it is wider than cut cents and wrong after, every melody
+    right. Returns once the result shows."""
+    m = '[data-tool="ear-test"]'
+    while True:
+        t.page.wait_for_function("""(m) => { const e = document.querySelector(m);
+          return e.dataset.state === 'result' || e.dataset.state === 'error'
+            || [...e.querySelectorAll('.tool-panel__state--run .st-ear .btn')].some((b) => !b.disabled); }""",
+                                 arg=m, timeout=30000)
+        if t.page.get_attribute(m, "data-state") != "run":
+            return t.page.get_attribute(m, "data-state")
+        q = t.page.evaluate("window.__scalitaTest.events.filter((e) => e.kind === 'ask').pop()")
+        want = (q["up"] if q["step"] > cut else not q["up"]) if "up" in q else q["same"]
+        t.page.locator(m + " .tool-panel__state--run .st-ear .btn").nth(0 if want else 1).click()
+
+
+def group_ear(p, srv, site):
+    path = site.url("tone-deaf-test")
+    if not path:
+        return R.skip("the ear test's page is not built")
+    pd = site.page_data(path)
+    U, C = pd["strings"]["ear-test"], pd["strings"]["common"]
+    m = '[data-tool="ear-test"]'
+    browser = chromium(p)
+    try:
+        t = Tab(browser, 360, ua=ANDROID, init=[EAR_INIT, FAST, WAKE, CLS])
+        t0 = now()
+        t.page.goto(srv.origin + path)
+        t.page.wait_for_selector(m + '[data-state="idle"]')
+        R.check("nothing fetched under /audio/ before Start", not srv.since(t0, "/audio/"))
+        t.page.click(m + " .btn--fill")
+        state = answer_ear(t, 10)
+        R.check("to its result", state == "result", state)
+        res = next((e for e in t.page.evaluate("window.__scalitaTest.events") if e["kind"] == "result"), {})
+        R.check("right down to 12 cents: 12 cents, four of six steps, four of four melodies",
+                res.get("smallest") == 12 and res.get("heard") == 4 and res.get("melodies") == 4, res)
+        value = (t.page.text_content(m + " .result-card__value") or "").strip()
+        R.check("the card shows it", value == fill(U["units"]["short"], n=12), value)
+        nxt = t.page.get_attribute(m + " .et-next a", "href")
+        R.check("the next challenge is the sing-in-tune test", nxt == site.url("sing-in-tune-test"), nxt)
+        R.check("never asks for the microphone", t.page.evaluate("window.__gum") == 0)
+        w = t.page.evaluate(WAKE_JS)
+        R.check("the screen kept on through the run, and let go at the result", wake_ok(w), w)
+        saved = t.page.evaluate("JSON.parse(localStorage.getItem('scalita-ear-last'))")
+        R.check("kept in this browser", saved and saved.get("smallest") == 12, saved)
+        size, name = save_png(t, C["save"])
+        R.check("the result's share image saves as a 1080 x 1920 PNG", size == (1080, 1920) and name.endswith(".png"),
+                [size, name])
+        shift = t.page.evaluate("window.__cls")
+        R.check("no layout shift through the run and the result", shift["value"] <= CLS_BUDGET, shift)
+        check_versioned(t, pd, srv, t0)
+        R.check("console clean", not t.clean(), t.clean())
+        t.close()
+
+        t = Tab(browser, 360, init=[EAR_INIT, FAST])
+        t.page.goto(srv.origin + path)
+        t.page.wait_for_selector(m + '[data-state="idle"]')
+        t.page.click(m + " .btn--fill")
+        answer_ear(t, 1000)
+        shown = t.page.inner_text(m)
+        figure, image = t.page.locator(m + " .result-card__value").count(), t.page.locator(m + " .share").count()
+        R.check("no step heard: no figure, no image, the challenge still there, no null",
+                not figure and not image and t.page.locator(m + " .et-next a").count() == 1
+                and not re.search(r"\bnull\b", shown), [figure, image, shown[:200]])
+        R.check("console clean", not t.clean(), t.clean())
+        t.close()
+    finally:
+        browser.close()
+
+
 def group_tune(p, srv, site):
     path = site.url("sing-in-tune-test")
     if not path:
@@ -1579,6 +1671,8 @@ def group_tune(p, srv, site):
         t.page.wait_for_selector(idle)
         mode = t.page.get_attribute('.seg[aria-pressed="true"]', "data-mode")
         R.check("the page opens on sing this note", mode == "sing", mode)
+        ear = t.page.get_attribute('.st-modes a.seg[data-mode="ear"]', "href")
+        R.check("the switcher's third choice is a link to the ear test", ear == site.url("tone-deaf-test"), ear)
         t.page.evaluate("document.fonts.ready.then(() => window.__still.mark())")
         t.page.click(start)
         t.page.wait_for_selector(".tool-panel__state--result:not([hidden])", timeout=120000)
@@ -1596,6 +1690,8 @@ def group_tune(p, srv, site):
         R.check("a steady A4 sung back to A3 and A4 reads within 2 cents", m and abs(int(m.group(1))) <= 2, r["value"])
         five = fill(U["result"]["count"], n=5, total=5)
         R.check("five of five within 10 cents", r["facts"].get(U["result"]["within10"]) == five, r["facts"])
+        nxt = t.page.get_attribute(".tool-panel__state--result:not([hidden]) a.st-next", "href")
+        R.check("within 25 cents, the next challenge is the range test", nxt == site.url("vocal-range-test"), nxt)
         shown = t.page.inner_text(".tool-panel__state--result:not([hidden])")
         R.check("the result prints no null (a perfect round has no line under the figure)",
                 not re.search(r"\bnull\b", shown), shown[:200])
@@ -1779,15 +1875,10 @@ def drive_range(t, pd):
 
 
 def drive_ear(t, pd):
-    U, C, m = pd["strings"]["sing-in-tune-test"], pd["strings"]["common"], '[data-tool="sing-in-tune-test"]'
-    t.page.wait_for_selector('[data-tool="sing-in-tune-test"][data-state="idle"] .tool-panel__actions .btn')
-    t.page.click('.seg[data-mode="ear"]')
-    t.page.click('.tool-panel__state--idle:not([hidden]) button >> text="%s"' % C["start"])
-    for _ in range(3):
-        t.page.get_by_role("button", name=U["ear"]["higher"], exact=True).click(timeout=15000)  # waits until enabled
-        t.page.get_by_role("button", name=C["next"], exact=True).click(timeout=5000)
-    t.page.wait_for_selector(".tool-panel__state--result:not([hidden])", timeout=15000)
-    return m
+    t.page.wait_for_selector('[data-tool="ear-test"][data-state="idle"]')
+    t.page.click('[data-tool="ear-test"] .btn--fill')
+    answer_ear(t, 10)
+    return '[data-tool="ear-test"]'
 
 
 def drive_finder(t, pd):
@@ -1813,7 +1904,7 @@ def drive_piano(t, pd):
 
 def group_locales(p, srv, site):
     """Every tool in every other locale it is built in, to its result."""
-    drives = (("vocal-range-test", drive_range), ("sing-in-tune-test", drive_ear),
+    drives = (("vocal-range-test", drive_range), ("tone-deaf-test", drive_ear),
               ("voice-break-finder", drive_finder), ("warm-up-piano", drive_piano))
     browser = chromium(p)
     try:
@@ -1823,7 +1914,7 @@ def group_locales(p, srv, site):
                 if not path:
                     continue
                 pd = site.page_data(path)
-                t = Tab(browser, 360, locale=pd["lang"], init=[EVENTS, FAST])
+                t = Tab(browser, 360, locale=pd["lang"], init=[EVENTS, FAST, EAR_INIT])
                 try:
                     t.page.goto(srv.origin + path)
                     m = drive(t, pd)
@@ -2085,7 +2176,7 @@ def group_webkit(srv, site, onsets):
 # ---------------------------------------------------------------------------
 
 
-UNIT = ["parity", "piano", "scheduler", "player", "range-test", "sing-in-tune", "share"]
+UNIT = ["parity", "piano", "scheduler", "player", "range-test", "sing-in-tune", "ear-test", "share"]
 PER_TOOL = ["range-test/e2e.py", "sing-in-tune/e2e.py", "player/smoke.py", "piano/smoke_test.py", "piano/samples_test.py",
             "parity/fakemic.py", "share/e2e.py"]
 
@@ -2143,6 +2234,7 @@ def main():
                     "chrome": lambda: group_chrome(p, srv, site),
                     "decode": lambda: group_decode(p, srv, site, onsets),
                     "range": lambda: group_range(p, srv, site),
+                    "ear": lambda: group_ear(p, srv, site),
                     "tune": lambda: group_tune(p, srv, site),
                     "player": lambda: group_player(p, srv, site),
                     "finder": lambda: group_finder(p, srv, site),

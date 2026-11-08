@@ -1,0 +1,84 @@
+{
+  "slug": "test-oreille-musicale",
+  "label": "Test d'oreille",
+  "title": "Test d'oreille musicale : quel écart entends-tu ? - Scalita",
+  "description": "Oreille de casserole ? Deux notes de piano, plus haute ou plus basse, l'écart allant d'un demi-ton à 3 cents, puis quatre mélodies. Gratuit, sans micro.",
+  "h1": "Test d'oreille musicale",
+  "lead": "Deux notes de piano sonnent, et tu dis si la deuxième est montée ou descendue. Chaque écart que tu entends rend le suivant plus petit, d'un demi-ton jusqu'à 3 cents. Quatre courtes mélodies terminent le test, et le résultat est le plus petit écart que tu as entendu.",
+  "tile": "Le plus petit écart entre deux notes que tu entends.",
+  "oneLine": "Plus haute ou plus basse ? Découvre le plus petit écart que tu entends.",
+  "appBand": "Entendre une note, c'est la première moitié, et la chanter, c'est la seconde. L'Entraînement de précision de Scalita travaille les deux : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+  "referenceHeading": "À propos du test",
+  "toolId": "ear-test",
+  "instructions": "<h2>Comment passer le test</h2><ol><li>Appuie sur Démarrer. La page ne fait que jouer du piano, donc elle ne demande jamais le micro.</li><li>Écoute les deux notes, puis choisis Plus haute ou Plus basse. Réécouter rejoue la paire.</li><li>Deux bonnes réponses te font passer à un écart plus petit. Deux erreurs au même écart terminent cette partie.</li><li>Viennent ensuite quatre paires de courtes mélodies. Dis si chaque paire était identique ou si une note a changé.</li><li>Un casque ou une pièce calme aident pour les plus petits écarts.</li></ol>",
+  "sampleResult": "<h2>À quoi ressemble un résultat</h2><ul><li>Le plus petit écart entendu : 12 cents</li><li>Écarts entendus : 4 sur 6</li><li>Mélodies distinguées : 4 sur 4</li></ul><p>12 cents, c'est environ un huitième de demi-ton. C'est plus fin que les 25 cents au-delà desquels l'application Scalita compte une note chantée comme fausse : cette personne entend donc une note dériver avant que l'application ne la compte fausse.</p>",
+  "notClaimed": "<h2>Ce que ce test ne te dit pas</h2><p>C'est une écoute rapide avec des notes de piano, pas un test auditif ni un diagnostic. Un résultat, c'est une mesure un jour donné, avec un haut-parleur ou un casque donné, et le hasard donne la moitié des bonnes réponses, donc la chance joue un rôle. Il ne peut pas te dire si tu as une amusie congénitale : pour ça, les chercheurs utilisent des batteries de tests plus longues et un bilan complet. Il ne dit rien non plus de ta voix. Entendre un écart et le chanter sont deux compétences distinctes, et le <a href=\"page:sing-in-tune-test\">test de justesse</a> mesure la seconde.</p>",
+  "sections": [
+    {
+      "heading": "Ce que le test mesure",
+      "html": "<p>Les écarts de hauteur se mesurent en cents. Un demi-ton, l'écart d'une touche de piano à la suivante, fait 100 cents. Le test joue deux notes et te demande dans quel sens la deuxième a bougé. Il commence par un demi-ton entier, puis divise l'écart par deux chaque fois que tu l'entends : 50 cents, 25, 12, 6 et enfin 3.</p><p>Chaque écart a droit à trois paires au plus. Deux bonnes réponses le comptent comme entendu et te font avancer. Deux erreurs au même écart terminent cette partie, et le dernier écart entendu est ton résultat. Viennent ensuite les mélodies : deux airs de cinq notes, joués l'un après l'autre, identiques ou avec une note déplacée d'un demi-ton hors de la tonalité.</p>"
+    },
+    {
+      "heading": "Ce qu'on appelle une oreille de casserole",
+      "html": "<p>Ce que les gens appellent être sourd musical porte un nom : l'amusie congénitale, une difficulté à percevoir la hauteur en musique, présente toute la vie. Une étude sur 20 000 personnes l'a estimée à environ 1,5 % de la population (Peretz et Vuvan, 2017). Dans les expériences de Hyde et Peretz (2004), les adultes amusiques avaient du mal à entendre une note monter ou descendre d'écarts que les autres adultes entendaient sans peine, et l'entraînement ne les aidait pas, alors qu'ils percevaient les changements de rythme aussi bien que tout le monde.</p><p>Les chercheurs la dépistent avec des tests plus longs, comme la Batterie d'évaluation de l'amusie de Montréal, dont les tests de mélodie demandent si deux airs sont identiques ou différents. La partie mélodies de ce test reprend ce principe, en quatre paires au lieu de plusieurs dizaines.</p>"
+    },
+    {
+      "heading": "Entendre et chanter sont deux compétences distinctes",
+      "html": "<p>La plupart des gens qui chantent faux perçoivent la hauteur normalement. Dans les expériences de Pfordresher et Brown (2007), 10 à 15 % des participants rechantaient les notes avec au moins un demi-ton d'écart, et ils distinguaient les hauteurs aussi bien que ceux qui chantaient juste. Pour la plupart des gens, la difficulté est de guider la voix sur une note qu'ils entendent déjà.</p><p>Donc si les écarts se sont bien passés ici, chanter juste est une autre chose à mesurer. Le <a href=\"page:sing-in-tune-test\">test de justesse</a> joue une note et te montre ton écart quand tu la rechantes, et <a href=\"page:how-to-sing-in-tune\">comment chanter juste</a> donne les premiers exercices pour t'y entraîner.</p>"
+    },
+    {
+      "heading": "L'oreille s'affine avec la pratique",
+      "html": "<p>Distinguer de petits écarts est une compétence, pas un trait figé. Dans une étude, les seuils des non-musiciens étaient au départ plus de six fois plus grands que ceux de musiciens classiques. Après 4 à 8 heures d'entraînement sur le même genre d'exercice, plus haut ou plus bas, ils les avaient rattrapés (Micheyl et ses collègues, 2006).</p>"
+    },
+    {
+      "heading": "Si tu n'entends rien",
+      "html": "<p>Monte le volume et appuie de nouveau sur Démarrer. Sur un téléphone, vérifie que le son ne part pas vers une enceinte Bluetooth ou des écouteurs oubliés. Si le piano ne se charge pas, la page te le dit : vérifie ta connexion et réessaie.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Est-ce que j'ai une oreille de casserole ?",
+      "a": "<p>Probablement pas. L'amusie congénitale, une difficulté avec la hauteur présente toute la vie, touche environ 1,5 % des gens. La plupart de ceux qui se croient sourds musicaux perçoivent la hauteur normalement, et ce qui leur est difficile, c'est de chanter une note qu'ils entendent. Ce test montre le plus petit écart que tu entends. Le <a href=\"page:sing-in-tune-test\">test de justesse</a> montre ton écart quand tu chantes.</p>"
+    },
+    {
+      "q": "Quel résultat attendre ?",
+      "a": "<p>Il n'y a pas de seuil de réussite. Comme repère, l'application Scalita compte une note chantée comme fausse au-delà de 25 cents, et dans l'étude de Micheyl et ses collègues, les musiciens formés entendaient des écarts bien plus petits que les non-musiciens avant entraînement.</p>"
+    },
+    {
+      "q": "Pourquoi mon résultat a changé cette fois ?",
+      "a": "<p>Chaque réponse est plus haute ou plus basse, donc le hasard tombe juste une fois sur deux, et un coup de chance, bon ou mauvais, peut déplacer le résultat d'un écart. La fatigue, une pièce bruyante et de petits haut-parleurs comptent aussi. Passe le test plusieurs fois et regarde où il tombe le plus souvent.</p>"
+    },
+    {
+      "q": "Faut-il un casque ?",
+      "a": "<p>Non. N'importe quel haut-parleur que tu entends clairement fait l'affaire, et un casque aide surtout pour les écarts de 6 et 3 cents. Le test n'utilise jamais le micro.</p>"
+    },
+    {
+      "q": "Peut-on entraîner son oreille ?",
+      "a": "<p>Oui. La discrimination des hauteurs progresse avec l'entraînement, souvent en quelques heures, comme l'a montré l'étude ci-dessus. Chanter aide aussi : reproduire des notes t'apprend à écouter où se trouve ta voix par rapport à la note.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Peretz et Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    },
+    {
+      "label": "Hyde et Peretz (2004), Brains that are out of tune but in time, Psychological Science 15(5)",
+      "url": "https://doi.org/10.1111/j.0956-7976.2004.00683.x"
+    },
+    {
+      "label": "Peretz, Champod et Hyde (2003), Varieties of musical disorders: the Montreal Battery of Evaluation of Amusia, Annals of the New York Academy of Sciences 999",
+      "url": "https://doi.org/10.1196/annals.1284.006"
+    },
+    {
+      "label": "Pfordresher et Brown (2007), une étude sur le chant faux et la perception de la hauteur, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Micheyl, Delhommeau, Perrot et Oxenham (2006), Influence of musical and psychoacoustical training on pitch discrimination, Hearing Research 219",
+      "url": "https://doi.org/10.1016/j.heares.2006.05.004"
+    }
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

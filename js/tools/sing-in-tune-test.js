@@ -78,7 +78,6 @@ function newContext() {
 const ICONS = {
   mic: 'M9 6a3 3 0 0 1 6 0v6a3 3 0 0 1-6 0zM5 11a7 7 0 0 0 14 0M12 18v3',
   lock: 'M7 10.5h10a2 2 0 0 1 2 2V19a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-6.5a2 2 0 0 1 2-2zM8 10.5V7.5a4 4 0 0 1 8 0v3',
-  play: 'M7 4.5v15l12.5-7.5z',
 };
 
 export function mount(el, pd, opts = {}) {
@@ -101,14 +100,17 @@ export function mount(el, pd, opts = {}) {
   const phone = matchMedia('(max-width: 599.98px)');
   const wide = matchMedia('(min-width: 960px)');
   const slot = document.querySelector('[data-tool-slot=aside]');
+  // Two modes, and the listening check: a link to the ear test's own page
+  const earLink = pd.links && pd.links['tone-deaf-test'];
   const modes = h('div', { class: 'seg-group st-modes', role: 'group', 'aria-label': t('modes.label') },
-    ...['sing', 'tuner', 'ear'].map((m) => h('button', {
+    ...['sing', 'tuner'].map((m) => h('button', {
       type: 'button', class: 'seg', 'data-mode': m, text: t('modes.' + m),
       onclick: () => {
         ui.mode = m;
         showIdle(true);
       },
-    })));
+    })),
+    earLink ? h('a', { class: 'seg', 'data-mode': 'ear', href: earLink, text: t('modes.ear') }) : null);
   el.classList.add('tool-panel', 'st-panel');
   el.replaceChildren(...panes, live);
 
@@ -203,7 +205,7 @@ export function mount(el, pd, opts = {}) {
       ui.stop();
       el.style.minHeight = el.offsetHeight + 'px';
       ui.ctx = newContext();
-      const failed = () => my === ui.run && ui.fail(ui.mode === 'ear' ? 'pianoFailed' : ui.ctx ? 'micFailed' : 'micUnsupported');
+      const failed = () => my === ui.run && ui.fail(ui.ctx ? 'micFailed' : 'micUnsupported');
       if (!ui.ctx) return failed();
       Promise.all([import('./sing-in-tune.js'), import('../audio/listener.js'), import('../audio/piano.js'), import('../audio/pitch.js')])
         .then(([run, l, piano, pitch]) => my === ui.run
@@ -243,11 +245,9 @@ export function mount(el, pd, opts = {}) {
   function showIdle(focusMode) {
     ui.halt(false);
     const mode = ui.mode;
-    const ear = mode === 'ear';
-    for (const b of modes.children) b.setAttribute('aria-pressed', String(b.dataset.mode === mode));
-    const blocked = noMic && !ear;
-    const go = ui.button(c('start'), ui.start, blocked ? 'btn-secondary btn--lg' : 'btn--fill', null,
-      ui.icon(ear ? ICONS.play : ICONS.mic, 20, ear));
+    for (const b of modes.querySelectorAll('button')) b.setAttribute('aria-pressed', String(b.dataset.mode === mode));
+    const blocked = noMic;
+    const go = ui.button(c('start'), ui.start, blocked ? 'btn-secondary btn--lg' : 'btn--fill', null, ui.icon(ICONS.mic, 20));
     const last = mode === 'sing' && ui.lastLine(load(KEYS.last));
     ui.vrow = mode === 'sing' ? voiceRow() : null;
     ui.vhere = ui.vrow && h('div');
@@ -258,7 +258,7 @@ export function mount(el, pd, opts = {}) {
       blocked ? h('p', { class: 'tool-panel__hint', text: noMic === 'micInApp' ? c('openInBrowser') : ui.M[noMic] || '' }) : null,
       h('div', { class: 'stage__actions' },
         h('div', { class: 'tool-panel__actions' }, blocked && noMic === 'micInApp' ? ui.copyLink() : null, go),
-        ear ? null : ui.lockline(),
+        ui.lockline(),
         last ? h('p', { class: 'st-last', text: last }) : null)));
     ui.show(idleV, focusMode ? null : go);
     if (focusMode) modes.querySelector('[data-mode=' + mode + ']').focus();

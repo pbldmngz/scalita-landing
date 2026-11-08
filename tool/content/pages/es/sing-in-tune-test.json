@@ -31,8 +31,8 @@
       "html": "<p>El afinador no usa el piano. Canta cualquier nota y te muestra el nombre de la nota más cercana y a cuántas centésimas estás por encima o por debajo, mientras cantas. Úsalo para comprobar una nota que mantienes, para ver un deslizamiento de una nota a otra o para ver cuánto oscila tu vibrato.</p>"
     },
     {
-      "heading": "Una prueba rápida de escucha",
-      "html": "<p>Para comprobar solo el oído, la prueba de escucha toca dos notas y te pregunta cuál era más aguda. Son tres preguntas con las respuestas en palabras: un vistazo rápido, no una prueba de audición.</p>"
+      "heading": "Comprueba solo tu oído",
+      "html": "<p>Repetir una nota cantando pide dos cosas: oírla y llevar la voz hasta ella. Para comprobar la primera sin la segunda, el <a href=\"page:tone-deaf-test\">test de oído musical</a> toca pares de notas de piano y te pregunta hacia dónde se movió la segunda, con un paso que se hace más pequeño cada vez que lo oyes. Nunca usa el micrófono.</p>"
     },
     {
       "heading": "Si el micrófono no funciona",
@@ -50,7 +50,7 @@
     },
     {
       "q": "¿Cómo saber si canto bien?",
-      "a": "<p>Un test como este mide una parte del canto: llegar a la nota. El timbre, el ritmo, la letra y el estilo cuentan igual, y ningún test con micrófono puede calificarlos. Un desvío grande en una ronda solo significa que esas cinco notas cayeron lejos del piano esa vez.</p>"
+      "a": "<p>Un test como este mide una parte del canto: llegar a la nota. El <a href=\"page:tone-deaf-test\">test de oído musical</a> comprueba solo tu oído. El timbre, el ritmo, la letra y el estilo cuentan igual, y ningún test con micrófono puede calificarlos. Un desvío grande en una ronda solo significa que esas cinco notas cayeron lejos del piano esa vez.</p>"
     },
     {
       "q": "¿Necesito auriculares?",

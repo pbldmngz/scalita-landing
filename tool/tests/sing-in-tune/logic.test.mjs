@@ -1,7 +1,7 @@
 // js/tools/sing-in-tune.js without a browser: the bands, the notes it picks,
 // how one sung note is read and a round summed up (against the app's
-// scale_scorer.dart and score_analysis.dart rules), the listening check's
-// pairs, its strings, its weight before the first tap.
+// scale_scorer.dart and score_analysis.dart rules), its strings, its weight
+// before the first tap.
 //   node --test tool/tests/sing-in-tune/*.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -10,7 +10,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import {
-  ROUND, MIN_JUDGED, IN_TUNE, CLOSE, EAR_STEPS, anyBand, earPairs, measureNote, median, middleBand, midiToHz,
+  ROUND, MIN_JUDGED, IN_TUNE, CLOSE, anyBand, measureNote, median, middleBand, midiToHz,
   offset, pickTargets, random, summarize,
 } from '../../../js/tools/sing-in-tune.js';
 import { KEYS, fmt } from '../../../js/tools/sing-in-tune-test.js';
@@ -114,17 +114,6 @@ test("a round in the app's figures: off, lean from 10 cents, wobble, the two ban
   assert.equal(median([1, 2, 3, 4]), 2.5);
   // Dart rounds halves away from zero
   assert.equal(summarize([n(-2.5), n(-2.5), n(-2.5)]).off, 3);
-});
-
-test('the listening check: steps of 4, 2 and 1, inside the band, the right way round', () => {
-  for (let seed = 1; seed <= 100; seed++) {
-    const pairs = earPairs([57, 69], random(seed));
-    assert.deepEqual(pairs.map((p) => p.step), EAR_STEPS);
-    for (const p of pairs) {
-      assert.equal(p.b - p.a, p.up ? p.step : -p.step);
-      for (const m of [p.a, p.b]) assert.ok(m >= 57 && m <= 69);
-    }
-  }
 });
 
 test('placeholders fill, and an unknown one is left for a reader to notice', () => {

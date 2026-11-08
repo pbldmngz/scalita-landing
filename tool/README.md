@@ -77,7 +77,7 @@ Where the code lives:
 | `tool/build.py` | the build: options, content loading and its checks, URLs, assets, the app's data, tokens, JSON-LD, page data, lastmod, sitemaps, the 404, stubs, writing. It assembles every page |
 | `tool/templates/_chrome.py` | the chrome around every page, in its context: the document shell, the head (the font preloads, the full screen snippet), the landing header with its phone menu, the tools header with its switcher, the phones' tab bar, the language menu, the breadcrumb, the full footer and the compact one, the language bar's words (`#site-langs`), the manifests, and the markup of `ctx.cta()` (the band), `credit()`, `byline()`, `related()`. It reads the build's state as `import build as B`, like `check.py` |
 | `js/site/chrome.js`, `js/site/fullscreen.js` | every page's one script (the language menu's Escape and click-away, the phones' menu, the language bar, a tool page's reference folds), and full screen on a desktop tool page, which loads on the control's first click |
-| `js/site/wake-lock.js` | keeps the screen on while a tool runs (`keepAwake(key, on)`): the range test and sing-in-tune import it with their run module on the tap, the warm-up piano and the finder load it on their first Play or Start. Nothing where the Screen Wake Lock API is missing |
+| `js/site/wake-lock.js` | keeps the screen on while a tool runs (`keepAwake(key, on)`): the range test, the ear test and sing-in-tune import it with their run module on the tap, the warm-up piano and the finder load it on their first Play or Start. Nothing where the Screen Wake Lock API is missing |
 | `tool/templates/home.py` | the home page's content (`legacy-home`): `render(ctx)` returns its title, description, head extras, JSON-LD, body and script, and `build.py` frames them with the chrome (the module's docstring has the keys) |
 | `tool/templates/<template>.py`, `_parts.py` | every other page's body, and the pieces they share ("Template contract") |
 
@@ -90,7 +90,8 @@ tool/content/pages/<loc>/privacy-web.json   the privacy page's website section
 tool/content/ui/<loc>/common.json   strings every tool shares
 tool/content/ui/<loc>/mic.json      the microphone's failure states and level hints
 tool/content/ui/<loc>/<toolId>.json one per tool UI: vocal-range-test,
-                                    sing-in-tune-test, player, voice-break-finder
+                                    ear-test, sing-in-tune-test, player,
+                                    voice-break-finder
 tool/content/ui/<loc>/templates.json the fixed headings and labels the page templates print
 tool/data/app/*.json                the app's own data, exported (tool/data/README.md)
 tool/pages.json                     the registry: which pages exist
@@ -160,6 +161,7 @@ Per template:
 | `exercise` | `syllables` (ids from `syllables.json`), `troubleshooting` (HTML) |
 | `pattern` | `scaleId`, `localBox` (HTML or null) |
 | `concept` | `shortAnswer`, `listenFor`, `misconceptions`, `seeProfessional` (HTML) |
+| `skill` | `shortAnswer`, `troubleshooting` (HTML) |
 | `library` | none beyond the common ones |
 
 `routineId`, `scaleId`, `toolId`, `children`, `syllables`, `writtenAgainst` and
@@ -169,8 +171,8 @@ the template's written fields (`check.py`, `FILLED`, has the list; sources are
 required on every template but `hub`).
 
 Word ceilings for an English page, every written word counted (not the title,
-description, label or sources): routine 900, exercise and pattern 800, concept
-1200, voice_types_hub 1300, library 500. Ceilings, not targets. A translation
+description, label or sources): routine 900, exercise and pattern 800, skill
+1000, concept 1200, voice_types_hub 1300, library 500. Ceilings, not targets. A translation
 may run a third longer.
 
 **Two tokens**, in any string of a page or ui file:
@@ -228,8 +230,8 @@ A list, in the order the footer, sitemaps and builds use:
 - `root: true` (optional, one per section): the section's index, at the
   section word's own URL. `tools` has it.
 - `context: "tools"` (optional): the page takes the tools navigation (Home
-  and the four tools as a switcher, five tabs on a phone, the compact footer,
-  the manifest). The tools hub and the four tools have it; every other page
+  and the five tools as a switcher, six tabs on a phone, the compact footer,
+  the manifest). The tools hub and the five tools have it; every other page
   is `landing` (the site's menu and footer; the 404 has the compact footer).
 
 The nav's Tools link goes to the section's root page, Guides to its first hub

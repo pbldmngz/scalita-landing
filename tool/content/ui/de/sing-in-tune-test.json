@@ -3,12 +3,11 @@
     "label": "Modus",
     "sing": "Ton nachsingen",
     "tuner": "Stimmgerät",
-    "ear": "Hörcheck"
+    "ear": "Gehörtest"
   },
   "intro": {
     "sing": "Das Klavier spielt einen Ton. Dann geht das Mikrofon an, und du singst den Ton nach, auf einem beliebigen Vokal oder gesummt. Fünf Töne, einer nach dem anderen.",
-    "tuner": "Sing oder summ einen beliebigen Ton. Die Seite zeigt, welcher Ton es ist und wie weit du von seiner Mitte entfernt bist, in Cent.",
-    "ear": "Zwei Klaviertöne erklingen nacheinander. War der zweite höher oder tiefer? Drei Paare, und das Mikrofon bleibt aus."
+    "tuner": "Sing oder summ einen beliebigen Ton. Die Seite zeigt, welcher Ton es ist und wie weit du von seiner Mitte entfernt bist, in Cent."
   },
   "voice": {
     "label": "Töne für",
@@ -36,10 +35,6 @@
       "one": "{n} Cent",
       "other": "{n} Cent"
     },
-    "semitones": {
-      "one": "{n} Halbton",
-      "other": "{n} Halbtöne"
-    },
     "short": "{n} c"
   },
   "result": {
@@ -64,23 +59,13 @@
     "ctaBody": "Das Präzisionstraining in Scalita geht weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
     "ctaButton": "Scalita bei Google Play laden"
   },
+  "next": {
+    "range": "Nächste Herausforderung: dein Umfang",
+    "guide": "Weiter: die Grundlagen üben"
+  },
   "tuner": {
     "hint": "Sing oder summ einen beliebigen Ton.",
     "nearest": "Nächstgelegener Ton"
-  },
-  "ear": {
-    "label": "Höher oder tiefer",
-    "pairOf": "Paar {n} von {total}",
-    "question": "War der zweite Ton höher oder tiefer?",
-    "higher": "Höher",
-    "lower": "Tiefer",
-    "again": "Erneut hören",
-    "wentUp": "Der zweite Ton war höher, {step} nach oben.",
-    "wentDown": "Der zweite Ton war tiefer, {step} nach unten.",
-    "score": "Bei {right} von {total} Paaren hast du die Richtung gehört.",
-    "all": "Das hat bis hinunter zu einem Halbton geklappt, dem kleinsten Schritt auf einem Klavier.",
-    "some": "Die kleinsten Schritte sind am Anfang am schwersten zu hören. Kopfhörer und ein ruhiger Raum helfen.",
-    "toSing": "Einen Ton nachsingen"
   },
   "meter": "Mikrofonpegel",
   "pianoFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal.",

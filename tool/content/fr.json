@@ -15,13 +15,14 @@
     "toolsLabel": "Accueil et outils gratuits",
     "getApp": "Obtenir l'appli",
     "closeMenu": "Fermer le menu",
-    "toolsHint": "Quatre, gratuits",
+    "toolsHint": "Cinq, gratuits",
     "guidesHint": "{n} guides",
     "fullscreen": "Plein écran",
     "fullscreenHint": "Masquer tout sauf l'outil et le menu des outils",
     "exitFullscreen": "Quitter le plein écran",
     "tabLabels": {
       "vocal-range-test": "Tessiture",
+      "tone-deaf-test": "Oreille",
       "sing-in-tune-test": "Justesse",
       "warm-up-piano": "Piano",
       "voice-break-finder": "Passage"
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Outils web gratuits",
       "title": "Essaie Scalita ici même",
-      "lead": "Quatre outils qui tournent sur cette page, dans ton navigateur, sur téléphone ou sur ordinateur. Ils reprennent la détection de hauteur de l'application, son piano et ses exercices, de quoi découvrir Scalita avant de télécharger quoi que ce soit. Sans compte, et rien de ce que tu chantes ne quitte ton appareil.",
+      "lead": "Cinq outils qui tournent sur cette page, dans ton navigateur, sur téléphone ou sur ordinateur. Ils reprennent la détection de hauteur de l'application, son piano et ses exercices, de quoi découvrir Scalita avant de télécharger quoi que ce soit. Sans compte, et rien de ce que tu chantes ne quitte ton appareil.",
       "open": "Ouvrir dans le navigateur",
       "openShort": "Sur navigateur",
       "items": [
@@ -147,9 +148,14 @@
           "body": "Ta note confortable la plus grave et la plus aiguë, en notes et en octaves, et les types de voix pour lesquels cette tessiture est typique."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Piano · Sans micro",
+          "body": "Deux notes de piano, plus haute ou plus basse, avec un écart qui rétrécit d'un demi-ton à 3 cents. Puis quatre courtes mélodies : identiques ou différentes ?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Piano, puis micro",
-          "body": "Écoute une note au piano, rechante-la et vois de combien de cents tu t'en écartes. En prime, un accordeur gratuit et une écoute rapide."
+          "body": "Écoute une note au piano, rechante-la et vois de combien de cents tu t'en écartes. En prime, un accordeur gratuit."
         },
         {
           "page": "warm-up-piano",

@@ -18,9 +18,10 @@
  *   margin to high + margin, let go of the rest; true once all of it is held.
  *   A newer call takes over from an older one.
  * ensureNote(midi)  Its AudioBuffer, loads in flight shared; null if none.
- * playNote(midi, {when = now, ringMs = 6000, fadeMs, velocity = 1})  Rings
- *   ringMs (at most what the sample holds), the last fadeMs fading (30% by
- *   default, 20 at least), and stops 20 ms later. A seventh voice fades the
+ * playNote(midi, {when = now, ringMs = 6000, fadeMs, velocity = 1, cents = 0})
+ *   Rings ringMs (at most what the sample holds), the last fadeMs fading (30%
+ *   by default, 20 at least), and stops 20 ms later; cents (within +-100)
+ *   detunes it, for the ear test's steps smaller than a key. A seventh voice fades the
  *   oldest over 30 ms. Resolves {midi, sample, rate, start, stopAt, stop(ms)}
  *   or null.
  * fadeAll(fadeMs = 250, at = now)  A pedal lift for voices started before at.
@@ -261,9 +262,11 @@ function claimSession() {
   } catch {}
 }
 
-export function playNote(midi, { when, ringMs = TAP_RING_MS, fadeMs, velocity = 1 } = {}) {
-  const s = sampleFor(midi);
-  if (!s) return Promise.resolve(null);
+export function playNote(midi, { when, ringMs = TAP_RING_MS, fadeMs, velocity = 1, cents = 0 } = {}) {
+  const s0 = sampleFor(midi);
+  if (!s0) return Promise.resolve(null);
+  const c0 = clamp(Number(cents) || 0, -100, 100);
+  const s = c0 ? { ...s0, rate: s0.rate * 2 ** (c0 / 1200) } : s0;
   getContext();
   claimSession();
   const buf = held.get(s.sample);

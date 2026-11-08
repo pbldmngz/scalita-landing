@@ -1,0 +1,59 @@
+{
+  "intro": "Art arda iki piyano notası çalar. İkincisi daha mı tizdi, daha mı pes? Duyduğun her adım bir sonrakini küçültür. Sonra dört kısa melodi: ikisi aynı mı, farklı mı? Mikrofon yok, yaklaşık iki dakika.",
+  "tip": "En küçük adımlarda kulaklık ya da sessiz bir oda işe yarar.",
+  "pianoFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene.",
+  "units": {
+    "cents": {"one": "{n} sent", "other": "{n} sent"},
+    "semitones": {"one": "{n} yarım ses", "other": "{n} yarım ses"},
+    "short": "{n}¢"
+  },
+  "run": {
+    "stepOf": "Adım {n} / {total} · {step}",
+    "question": "İkinci nota daha mı tizdi, daha mı pes?",
+    "higher": "Daha tiz",
+    "lower": "Daha pes",
+    "again": "Tekrar dinle",
+    "wentUp": "Yukarı gitti.",
+    "wentDown": "Aşağı gitti.",
+    "melodiesNext": "Şimdi dört kısa melodi.",
+    "melodyOf": "Melodi {n} / {total}",
+    "sameQuestion": "İki melodi aynı mıydı?",
+    "same": "Aynı",
+    "different": "Farklı",
+    "wereSame": "Aynıydılar.",
+    "wereDifferent": "Bir nota farklıydı."
+  },
+  "result": {
+    "label": "Duyduğun en küçük adım",
+    "finer": "Bu, Scalita'nın söylenen bir notayı sapmış saydığı 25 sentten daha ince; yani uygulama bir notaya sapmış demeden önce notanın kaydığını duyabiliyorsun.",
+    "same": "Bu, Scalita'nın söylenen bir notayı sapmış saydığı adım; yani bir notanın o kadar kaydığını duyabiliyorsun.",
+    "wider": "Duyulacak sıradaki adımlar {cents} altında. Kulak alıştırmayla incelir: bir çalışmada müzisyen olmayanlar birkaç saat sonra eğitimli müzisyenlere yetişti.",
+    "none": "Yarım seslik adımları bu sefer ayırt etmek zordu. Kulaklık, sessiz bir oda ve bir deneme daha çoğu zaman bunu değiştirir.",
+    "steps": "Duyulan adımlar",
+    "melodies": "Ayırt edilen melodiler",
+    "count": "{n} / {total}",
+    "cent": "100 sent bir yarım ses eder, bir piyano tuşundan diğerine.",
+    "sample": "Bir tur hızlı bir ölçümdür ve her cevapta biraz şans payı vardır. Bir tur daha, sonucu bir adım kadar oynatabilir.",
+    "last": "{label}: {step}, {date}",
+    "lastNone": "henüz adım yok",
+    "again": "Tekrar dene",
+    "ctaBody": "Scalita'nın Entonasyon Çalışması duymayı söylemeye dönüştürür: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+    "ctaButton": "Scalita'yı Google Play'den indir"
+  },
+  "next": {
+    "kicker": "Sıradaki meydan okuma",
+    "title": "Duymak işin yarısı. Söyleyebilir misin?",
+    "body": "Detone testi bir nota çalar, sonra onu ne kadar yakın geri söylediğini sent olarak ölçer.",
+    "button": "Detone testine geç"
+  },
+  "share": {
+    "title": "Duyabildiğim en küçük adım",
+    "cents": "sent",
+    "line": "iki piyano notası arasında, daha tiz mi daha pes mi",
+    "melodies": "{total} melodinin {n} tanesi ayırt edildi",
+    "pairs": "Her çift iki piyano notasıdır, her adımda birbirine daha yakın. Bir sent, yarım sesin yüzde biridir.",
+    "ask": "Sen ne kadar küçüğünü duyabilirsin?",
+    "text": "İki piyano notası arasındaki {cents} farkı duydum. Kulağını tarayıcında ücretsiz test edebilirsin:",
+    "fileName": "kulak-testim"
+  }
+}

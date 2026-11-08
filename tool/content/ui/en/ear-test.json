@@ -1,0 +1,59 @@
+{
+  "intro": "Two piano notes play, one after the other. Was the second one higher or lower? Each step you hear makes the next one smaller. Then four short melodies: the same, or different? No microphone, about two minutes.",
+  "tip": "Headphones or a quiet room help with the smallest steps.",
+  "pianoFailed": "The piano didn't load. Check your connection and try again.",
+  "units": {
+    "cents": {"one": "{n} cent", "other": "{n} cents"},
+    "semitones": {"one": "{n} semitone", "other": "{n} semitones"},
+    "short": "{n}c"
+  },
+  "run": {
+    "stepOf": "Step {n} of {total} · {step}",
+    "question": "Was the second note higher or lower?",
+    "higher": "Higher",
+    "lower": "Lower",
+    "again": "Hear it again",
+    "wentUp": "It went up.",
+    "wentDown": "It went down.",
+    "melodiesNext": "Now four short melodies.",
+    "melodyOf": "Melody {n} of {total}",
+    "sameQuestion": "Were the two melodies the same?",
+    "same": "Same",
+    "different": "Different",
+    "wereSame": "They were the same.",
+    "wereDifferent": "One note was different."
+  },
+  "result": {
+    "label": "Smallest step you heard",
+    "finer": "That's finer than the 25 cents Scalita counts as off when you sing a note, so you can hear a note drift before the app would call it off.",
+    "same": "That's the step Scalita counts as off when you sing a note, so you can hear a note drift that far.",
+    "wider": "Next up: steps smaller than {cents}. Ears get finer with practice: in one study, non-musicians caught up with trained musicians after a few hours.",
+    "none": "The semitone steps were hard to tell apart this time. Headphones, a quiet room and another try often change that.",
+    "steps": "Steps heard",
+    "melodies": "Melodies told apart",
+    "count": "{n} of {total}",
+    "cent": "100 cents make a semitone, one piano key to the next.",
+    "sample": "One run is a quick reading, and a little luck is in every answer. Another run will move it a step or so.",
+    "last": "{label}: {step}, {date}",
+    "lastNone": "no step yet",
+    "again": "Try again",
+    "ctaBody": "Scalita's Accuracy Training turns hearing into singing: match notes on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
+    "ctaButton": "Get Scalita on Google Play"
+  },
+  "next": {
+    "kicker": "Next challenge",
+    "title": "Hearing it is half. Can you sing it?",
+    "body": "The sing-in-tune test plays a note, then measures how close you sing it back, in cents.",
+    "button": "Take the singing test"
+  },
+  "share": {
+    "title": "The smallest step I can hear",
+    "cents": "cents",
+    "line": "between two piano notes, higher or lower",
+    "melodies": "{n} of {total} melodies told apart",
+    "pairs": "Each pair is two piano notes, closer at every step. A cent is a hundredth of a semitone.",
+    "ask": "How small can you hear?",
+    "text": "I heard a step of {cents} between two piano notes. Test your ear for free in your browser:",
+    "fileName": "my-ear-test"
+  }
+}

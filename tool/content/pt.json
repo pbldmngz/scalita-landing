@@ -15,13 +15,14 @@
     "toolsLabel": "Início e as ferramentas grátis",
     "getApp": "Baixe o app",
     "closeMenu": "Fechar menu",
-    "toolsHint": "Quatro, grátis",
+    "toolsHint": "Cinco, grátis",
     "guidesHint": "{n} guias",
     "fullscreen": "Tela cheia",
     "fullscreenHint": "Esconde tudo, menos a ferramenta e o seletor",
     "exitFullscreen": "Sair da tela cheia",
     "tabLabels": {
       "vocal-range-test": "Extensão",
+      "tone-deaf-test": "Ouvido",
       "sing-in-tune-test": "Afinação",
       "warm-up-piano": "Piano",
       "voice-break-finder": "Passagem"
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Ferramentas web grátis",
       "title": "Experimente o Scalita aqui mesmo",
-      "lead": "Quatro ferramentas que funcionam nesta página, no navegador, no celular ou no computador. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, então você experimenta o Scalita antes de baixar qualquer coisa. Sem conta, e nada do que você canta sai do seu aparelho.",
+      "lead": "Cinco ferramentas que funcionam nesta página, no navegador, no celular ou no computador. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, então você experimenta o Scalita antes de baixar qualquer coisa. Sem conta, e nada do que você canta sai do seu aparelho.",
       "open": "Abrir no navegador",
       "openShort": "No navegador",
       "items": [
@@ -147,9 +148,14 @@
           "body": "A nota mais grave e a mais aguda que você alcança com conforto, em notas e oitavas, e os tipos de voz típicos dessa extensão."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Toca · Sem microfone",
+          "body": "Duas notas de piano, mais aguda ou mais grave, com um passo que diminui de um semitom até 3 cents. Depois, quatro melodias curtas: iguais ou diferentes?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Toca, depois escuta",
-          "body": "Ouça uma nota no piano, cante de volta e veja a quantos cents você ficou dela. Junto vêm um afinador grátis e uma escuta rápida."
+          "body": "Ouça uma nota no piano, cante de volta e veja a quantos cents você ficou dela. Junto vem um afinador grátis."
         },
         {
           "page": "warm-up-piano",

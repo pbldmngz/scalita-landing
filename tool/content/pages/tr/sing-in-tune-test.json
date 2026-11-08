@@ -31,8 +31,8 @@
       "html": "<p>Serbest akort modu piyanoyu atlar. Herhangi bir notayı söyle; sen söyledikçe en yakın notanın adını ve kaç sent tiz ya da pes olduğunu gösterir. Tuttuğun bir notayı kontrol etmek, bir notadan diğerine kaymanı izlemek ya da vibratonun ne kadar geniş salındığını görmek için kullan.</p>"
     },
     {
-      "heading": "Hızlı bir dinleme testi",
-      "html": "<p>Kulağını tek başına kontrol etmek için dinleme testi iki nota çalar ve hangisinin daha tiz olduğunu sorar. Cevapları kelimelerle verilen üç soru: hızlı bir bakış, bir işitme testi değil.</p>"
+      "heading": "Kulağını tek başına kontrol et",
+      "html": "<p>Bir notayı geri söylemek iki şey ister: onu duymak ve sesini ona yönlendirmek. Birincisini ikincisi olmadan kontrol etmek için <a href=\"page:tone-deaf-test\">müzik kulağı testi</a> piyano notası çiftleri çalar ve ikinci notanın hangi yöne gittiğini sorar; adımı her duyduğunda adım biraz daha küçülür. Mikrofonu hiç kullanmaz.</p>"
     },
     {
       "heading": "Mikrofon çalışmazsa",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Şarkı söyleyebilir miyim? Bunu bir test söyleyebilir mi?",
-      "a": "<p>Böyle bir test şarkı söylemenin bir parçasını ölçer: notayı tutturmayı. Ses rengi, ritim, sözler ve tarz da en az onun kadar önemlidir ve hiçbir mikrofon testi bunları puanlayamaz. Bir turdaki büyük bir sapma, yalnızca o beş notanın o sefer piyanodan uzağa düştüğü anlamına gelir.</p>"
+      "a": "<p>Böyle bir test şarkı söylemenin bir parçasını ölçer: notayı tutturmayı. Kulağını tek başına <a href=\"page:tone-deaf-test\">müzik kulağı testi</a> ölçer. Ses rengi, ritim, sözler ve tarz da en az onun kadar önemlidir ve hiçbir mikrofon testi bunları puanlayamaz. Bir turdaki büyük bir sapma, yalnızca o beş notanın o sefer piyanodan uzağa düştüğü anlamına gelir.</p>"
     },
     {
       "q": "Kulaklığa ihtiyacım var mı?",

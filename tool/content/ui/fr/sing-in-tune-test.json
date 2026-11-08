@@ -3,12 +3,11 @@
     "label": "Mode",
     "sing": "Chante la note",
     "tuner": "Accordeur",
-    "ear": "Écoute rapide"
+    "ear": "Test d'oreille"
   },
   "intro": {
     "sing": "Le piano joue une note. Ensuite le micro s'ouvre et tu la rechantes, sur n'importe quelle voyelle ou bouche fermée. Cinq notes, une à la fois.",
-    "tuner": "Chante ou fredonne n'importe quelle note. La page te montre de quelle note il s'agit et à combien de cents tu es de son centre.",
-    "ear": "Deux notes de piano sonnent l'une après l'autre. La deuxième était-elle plus haute ou plus basse ? Trois paires, et le micro reste coupé."
+    "tuner": "Chante ou fredonne n'importe quelle note. La page te montre de quelle note il s'agit et à combien de cents tu es de son centre."
   },
   "voice": {
     "label": "Notes pour",
@@ -36,10 +35,6 @@
       "one": "{n} cent",
       "other": "{n} cents"
     },
-    "semitones": {
-      "one": "{n} demi-ton",
-      "other": "{n} demi-tons"
-    },
     "short": "{n} c"
   },
   "result": {
@@ -64,23 +59,13 @@
     "ctaBody": "L'Entraînement de précision de Scalita va plus loin : vise n'importe quelle note sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
     "ctaButton": "Télécharger Scalita sur Google Play"
   },
+  "next": {
+    "range": "Défi suivant : ta tessiture",
+    "guide": "Ensuite : travaille les bases"
+  },
   "tuner": {
     "hint": "Chante ou fredonne n'importe quelle note.",
     "nearest": "Note la plus proche"
-  },
-  "ear": {
-    "label": "Plus haut ou plus bas",
-    "pairOf": "Paire {n} sur {total}",
-    "question": "La deuxième note était-elle plus haute ou plus basse ?",
-    "higher": "Plus haute",
-    "lower": "Plus basse",
-    "again": "Les réécouter",
-    "wentUp": "La deuxième note était plus haute, de {step}.",
-    "wentDown": "La deuxième note était plus basse, de {step}.",
-    "score": "Tu as entendu dans quel sens allaient {right} paires sur {total}.",
-    "all": "Et ça jusqu'à un seul demi-ton, le plus petit écart sur un piano.",
-    "some": "Les plus petits écarts sont les plus durs à entendre au début. Un casque et une pièce calme aident.",
-    "toSing": "Rechanter une note"
   },
   "meter": "Niveau du micro",
   "pianoFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.",

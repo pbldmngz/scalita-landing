@@ -2,7 +2,7 @@
   "id": "/fr/outils/",
   "name": "Scalita",
   "short_name": "Scalita",
-  "description": "Quatre outils gratuits pour chanteurs, dans ton navigateur : un test de tessiture, un test de justesse, un piano pour vocalises et un outil de passage de voix.",
+  "description": "Cinq outils de chant gratuits, dans ton navigateur : tests de tessiture, d'oreille musicale, de justesse et de passage de voix, et un piano pour vocalises.",
   "lang": "fr",
   "dir": "ltr",
   "start_url": "/fr/outils/",
@@ -33,6 +33,18 @@
       "name": "Test de tessiture",
       "short_name": "Tessiture",
       "url": "/fr/outils/test-tessiture-voix/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Test d'oreille",
+      "short_name": "Oreille",
+      "url": "/fr/outils/test-oreille-musicale/",
       "icons": [
         {
           "src": "/images/logo_96.png",

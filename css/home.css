@@ -80,7 +80,10 @@ h1.home-hero__title { margin: 20px 0 16px; font-size: 56px; font-weight: 300; li
 
 /* the four tools */
 
-.home-cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; }
+.home-cards { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 16px; }
+/* five tools: three in the first row, two wider ones under them */
+.home-card { grid-column: span 2; }
+.home-card:nth-child(n+4):nth-last-child(-n+2) { grid-column: span 3; }
 .home-card { position: relative; display: flex; flex-direction: column; padding: 20px; border-radius: 16px; transition: border-color .15s, box-shadow .15s; }
 .home-card:hover { border-color: var(--ocean); box-shadow: var(--glow-tab); }
 .home-card__head { display: flex; align-items: center; gap: 12px; }
@@ -181,6 +184,8 @@ h1.home-hero__title { margin: 20px 0 16px; font-size: 56px; font-weight: 300; li
 @media (max-width: 1179.98px) {
   h1.home-hero__title { font-size: 48px; }
   .home-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-card, .home-card:nth-child(n+4):nth-last-child(-n+2) { grid-column: auto; }
+  .home-card:last-child:nth-child(odd) { grid-column: 1 / -1; }
   .home-trust__grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
   .home-trust__item--maker { grid-column: span 2; }
 }

@@ -1,0 +1,65 @@
+{
+  "intro": "Suenan dos notas de piano, una detrás de otra. ¿La segunda era más aguda o más grave? Cada paso que oyes hace más pequeño el siguiente. Después, cuatro melodías cortas: ¿iguales o distintas? Sin micrófono, unos dos minutos.",
+  "tip": "Unos auriculares o una habitación tranquila ayudan con los pasos más pequeños.",
+  "pianoFailed": "El piano no se cargó. Revisa tu conexión y vuelve a intentarlo.",
+  "units": {
+    "cents": {
+      "one": "{n} centésima",
+      "other": "{n} centésimas"
+    },
+    "semitones": {
+      "one": "{n} semitono",
+      "other": "{n} semitonos"
+    },
+    "short": "{n}c"
+  },
+  "run": {
+    "stepOf": "Paso {n} de {total} · {step}",
+    "question": "¿La segunda nota era más aguda o más grave?",
+    "higher": "Más aguda",
+    "lower": "Más grave",
+    "again": "Escuchar otra vez",
+    "wentUp": "Subió.",
+    "wentDown": "Bajó.",
+    "melodiesNext": "Ahora, cuatro melodías cortas.",
+    "melodyOf": "Melodía {n} de {total}",
+    "sameQuestion": "¿Las dos melodías eran iguales?",
+    "same": "Iguales",
+    "different": "Distintas",
+    "wereSame": "Eran iguales.",
+    "wereDifferent": "Una nota era distinta."
+  },
+  "result": {
+    "label": "El paso más pequeño que oíste",
+    "finer": "Es más fino que las 25 centésimas que Scalita cuenta como desafinado al cantar una nota, así que oyes que una nota se desvía antes de que la app la dé por desafinada.",
+    "same": "Es el paso que Scalita cuenta como desafinado al cantar una nota, así que oyes que una nota se desvía hasta ahí.",
+    "wider": "Los pasos de menos de {cents} son los siguientes por oír. El oído se afina con la práctica: en un estudio, personas sin formación musical alcanzaron a músicos formados en pocas horas.",
+    "none": "Esta vez costó distinguir los pasos de un semitono. Unos auriculares, una habitación tranquila y otro intento suelen cambiarlo.",
+    "steps": "Pasos oídos",
+    "melodies": "Melodías distinguidas",
+    "count": "{n} de {total}",
+    "cent": "100 centésimas son un semitono, de una tecla del piano a la siguiente.",
+    "sample": "Una ronda es una lectura rápida, y en cada respuesta hay algo de suerte. Otra ronda lo moverá más o menos un paso.",
+    "last": "{label}: {step}, el {date}",
+    "lastNone": "todavía ningún paso",
+    "again": "Otra ronda",
+    "ctaBody": "El Entrenamiento de precisión de Scalita lleva lo que oyes a tu voz: afina notas sobre un trazo de afinación en vivo, o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
+    "ctaButton": "Descarga Scalita en Google Play"
+  },
+  "next": {
+    "kicker": "Siguiente reto",
+    "title": "Oírla es la mitad. ¿Puedes cantarla?",
+    "body": "El test de afinación toca una nota y mide lo cerca que la cantas, en centésimas.",
+    "button": "Hacer el test de afinación"
+  },
+  "share": {
+    "title": "El paso más pequeño que oigo",
+    "cents": "centésimas",
+    "line": "entre dos notas de piano, más aguda o más grave",
+    "melodies": "{n} de {total} melodías distinguidas",
+    "pairs": "Cada par son dos notas de piano, más cercanas en cada paso. Una centésima es la centésima parte de un semitono.",
+    "ask": "¿Y tú, hasta dónde oyes?",
+    "text": "Oí un paso de {cents} entre dos notas de piano. Pon a prueba tu oído gratis en tu navegador:",
+    "fileName": "mi-test-de-oido"
+  }
+}

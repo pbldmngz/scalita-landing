@@ -3,12 +3,11 @@
     "label": "Modo",
     "sing": "Cante esta nota",
     "tuner": "Afinador",
-    "ear": "Escuta rápida"
+    "ear": "Teste de ouvido"
   },
   "intro": {
     "sing": "O piano toca uma nota. Depois o microfone abre e você canta a nota de volta, em qualquer vogal ou de boca fechada. São cinco notas, uma de cada vez.",
-    "tuner": "Cante qualquer nota, de boca aberta ou fechada. A página mostra que nota é e a que distância você está do centro dela, em cents.",
-    "ear": "O piano toca duas notas, uma depois da outra. A segunda foi mais aguda ou mais grave? São três pares, e o microfone fica desligado."
+    "tuner": "Cante qualquer nota, de boca aberta ou fechada. A página mostra que nota é e a que distância você está do centro dela, em cents."
   },
   "voice": {
     "label": "Notas para",
@@ -36,10 +35,6 @@
       "one": "{n} cent",
       "other": "{n} cents"
     },
-    "semitones": {
-      "one": "{n} semitom",
-      "other": "{n} semitons"
-    },
     "short": "{n}c"
   },
   "result": {
@@ -64,23 +59,13 @@
     "ctaBody": "O Treino de precisão do Scalita vai além: acerte qualquer nota com um traço de afinação ao vivo, ou repita saltos de músicas, na sua própria extensão. Grátis no Android, sem conta.",
     "ctaButton": "Baixe o Scalita no Google Play"
   },
+  "next": {
+    "range": "Próximo desafio: sua extensão",
+    "guide": "Próximo passo: pratique o básico"
+  },
   "tuner": {
     "hint": "Cante qualquer nota, de boca aberta ou fechada.",
     "nearest": "Nota mais próxima"
-  },
-  "ear": {
-    "label": "Mais aguda ou mais grave",
-    "pairOf": "Par {n} de {total}",
-    "question": "A segunda nota foi mais aguda ou mais grave?",
-    "higher": "Mais aguda",
-    "lower": "Mais grave",
-    "again": "Ouvir de novo",
-    "wentUp": "A segunda nota era mais aguda, {step} acima.",
-    "wentDown": "A segunda nota era mais grave, {step} abaixo.",
-    "score": "Você ouviu a direção certa em {right} de {total} pares.",
-    "all": "E isso valeu até com um semitom, o menor passo do piano.",
-    "some": "Os menores passos são os mais difíceis de ouvir no começo. Fones e um lugar silencioso ajudam.",
-    "toSing": "Cantar uma nota de volta"
   },
   "meter": "Nível do microfone",
   "pianoFailed": "O piano não carregou. Confira sua conexão e tente de novo.",

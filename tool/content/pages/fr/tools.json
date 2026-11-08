@@ -1,14 +1,15 @@
 {
   "label": "Outils gratuits",
   "title": "Outils de chant gratuits dans ton navigateur - Scalita",
-  "description": "Quatre outils gratuits pour chanteurs, dans ton navigateur : un test de tessiture, un test de justesse, un piano pour vocalises et un outil de passage de voix.",
+  "description": "Cinq outils de chant gratuits, dans ton navigateur : tests de tessiture, d'oreille musicale, de justesse et de passage de voix, et un piano pour vocalises.",
   "h1": "Outils de chant gratuits",
-  "lead": "Quatre outils de l'application, dans ton navigateur. Rien de ce que tu chantes ne quitte ton appareil.",
+  "lead": "Cinq outils de l'application, dans ton navigateur. Rien de ce que tu chantes ne quitte ton appareil.",
   "appBand": "Scalita retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme. Hors ligne, sans pub, sans compte.",
   "referenceHeading": "À propos des outils",
-  "intro": "<p>Ces quatre outils viennent de Scalita, une application d'échauffement vocal pour Android. Ils reprennent sa détection de hauteur, son piano et ses exercices, et ils tournent dans ton navigateur, sur téléphone ou sur ordinateur.</p><p>Deux règles valent pour tous. Un outil écoute ou joue du piano, jamais les deux à la fois, donc pas besoin de casque. Et quand un outil écoute, c'est ton navigateur qui fait le travail, sur ton appareil : rien n'est enregistré ni envoyé nulle part.</p>",
+  "intro": "<p>Ces cinq outils viennent de Scalita, une application d'échauffement vocal pour Android. Ils reprennent sa détection de hauteur, son piano et ses exercices, et ils tournent dans ton navigateur, sur téléphone ou sur ordinateur.</p><p>Deux règles valent pour tous. Un outil écoute ou joue du piano, jamais les deux à la fois, donc pas besoin de casque. Et quand un outil écoute, c'est ton navigateur qui fait le travail, sur ton appareil : rien n'est enregistré ni envoyé nulle part.</p>",
   "children": [
     "vocal-range-test",
+    "tone-deaf-test",
     "sing-in-tune-test",
     "warm-up-piano",
     "voice-break-finder"
@@ -16,11 +17,11 @@
   "sections": [
     {
       "heading": "Par où commencer",
-      "html": "<p>Si tu débutes, suis cet ordre :</p><ol><li><a href=\"page:vocal-range-test\">Test de tessiture</a> : ta note la plus grave et ta note la plus aiguë, sans forcer, en une minute environ.</li><li><a href=\"page:voice-break-finder\">Trouver son passage de voix</a> : l'endroit où ta voix change de vitesse, qui en dit plus sur ton type de voix que ta tessiture.</li><li><a href=\"page:warm-up-piano\">Piano pour vocalises</a> : les gammes et les routines de l'application, jouées dans ta tessiture.</li><li><a href=\"page:sing-in-tune-test\">Test de justesse</a> : une fois ta voix échauffée, à quelle distance tu tombes d'une note que tu viens d'entendre.</li></ol>"
+      "html": "<p>Si tu débutes, suis cet ordre :</p><ol><li><a href=\"page:vocal-range-test\">Test de tessiture</a> : ta note la plus grave et ta note la plus aiguë, sans forcer, en une minute environ.</li><li><a href=\"page:voice-break-finder\">Trouver son passage de voix</a> : l'endroit où ta voix change de vitesse, qui en dit plus sur ton type de voix que ta tessiture.</li><li><a href=\"page:warm-up-piano\">Piano pour vocalises</a> : les gammes et les routines de l'application, jouées dans ta tessiture.</li><li><a href=\"page:sing-in-tune-test\">Test de justesse</a> : une fois ta voix échauffée, à quelle distance tu tombes d'une note que tu viens d'entendre.</li></ol><p>Ou fais-en une série de défis : d'abord le <a href=\"page:tone-deaf-test\">test d'oreille musicale</a>, pour voir le plus petit écart que tu entends, puis le test de justesse, pour voir si ta voix tombe là où ton oreille entend, puis le test de tessiture, pour voir jusqu'où ta voix peut aller.</p>"
     },
     {
       "heading": "Quand un outil écoute",
-      "html": "<p>Le test de tessiture et le test de justesse utilisent ton micro. Ils ne le demandent qu'après que tu as appuyé sur Démarrer, lisent la hauteur de ta voix au fur et à mesure, et ne gardent rien. Appuie sur Arrêter ou quitte la page, et le micro se coupe. Le piano pour vocalises et l'outil de passage de voix ne l'utilisent jamais.</p><p>Le micro fonctionne dans une version récente de Chrome, Safari, Firefox ou Edge. Il ne fonctionne pas dans les navigateurs intégrés aux applications comme Instagram, TikTok, Facebook ou Gmail : si tu arrives de l'une d'elles, ouvre d'abord la page dans le navigateur de ton téléphone.</p>"
+      "html": "<p>Le test de tessiture et le test de justesse utilisent ton micro. Ils ne le demandent qu'après que tu as appuyé sur Démarrer, lisent la hauteur de ta voix au fur et à mesure, et ne gardent rien. Appuie sur Arrêter ou quitte la page, et le micro se coupe. Le test d'oreille musicale, le piano pour vocalises et l'outil de passage de voix ne l'utilisent jamais.</p><p>Le micro fonctionne dans une version récente de Chrome, Safari, Firefox ou Edge. Il ne fonctionne pas dans les navigateurs intégrés aux applications comme Instagram, TikTok, Facebook ou Gmail : si tu arrives de l'une d'elles, ouvre d'abord la page dans le navigateur de ton téléphone.</p>"
     },
     {
       "heading": "Ce qu'ils ne te diront pas",

@@ -1,0 +1,66 @@
+{
+  "slug": "como-afinar-la-voz",
+  "label": "Cómo cantar afinado",
+  "title": "Cómo afinar la voz: ejercicios para cantar afinado - Scalita",
+  "description": "Desafinar suele ser cosa de dirigir la voz, no del oído. Tres primeros ejercicios: deslízate hasta una nota, tararéala y canta escalas cortas en tu rango.",
+  "h1": "Cómo cantar afinado",
+  "lead": "Cantar afinado es llegar a la nota que oyes y quedarte en ella. Para la mayoría de la gente el oído ya funciona, y lo que necesita práctica es la voz encontrando la nota, así que el trabajo son ejercicios cortos que construyen ese vínculo.",
+  "shortAnswer": "<p>Primero oye la nota y luego búscala con la voz: deslízate hasta ella desde abajo, tararéala hasta que tu voz y el piano suenen como uno solo, y solo entonces canta escalas o canciones. Practica en el centro de tu rango, unos minutos cada vez, y mídelo, porque mientras cantas tu propio oído juzga mal.</p>",
+  "sections": [
+    {
+      "heading": "Por qué la voz falla las notas",
+      "html": "<p>La mayoría de las personas que cantan desafinado perciben la altura con normalidad. En los experimentos de Pfordresher y Brown (2007), los participantes que repetían las notas con un semitono o más de error distinguían alturas tan bien como quienes cantaban afinado. Hutchins y Peretz (2012) vieron que la gente igualaba una nota con más precisión con un deslizador que con su propia voz. El oído sabía dónde estaba la nota, y la voz no llegaba.</p><p>Es una buena noticia, porque dirigir la voz es una habilidad que se puede practicar. Si quieres comprobar antes tu oído, el <a href=\"page:tone-deaf-test\">test de oído musical</a> lo hace sin micrófono.</p>"
+    },
+    {
+      "heading": "Paso 1: deslízate hasta la nota",
+      "html": "<p>Toca una nota en el centro de tu rango y escúchala. Empieza con la voz un poco por debajo, en una “u” cómoda, y sube despacio deslizándote hasta igualarla. Luego mantenla. Al acercarte, oirás que tu voz y el piano rozan entre sí, un temblor rápido en el sonido, y ese temblor se hace más lento y desaparece cuando estás en la nota.</p><p>Deslizarte funciona porque no tienes que adivinar la nota de una vez. Te oyes acercarte, y ese es el vínculo que entrenas.</p>"
+    },
+    {
+      "heading": "Paso 2: tararéala y luego abre a una vocal",
+      "html": "<p>Cuando el deslizamiento llegue, tararea la misma nota en “mm” a un volumen cómodo, con los labios cerrados y los dientes separados. Un tarareo es suave y cómodo, así que te oyes mejor frente al piano. Mantenlo unos segundos y luego abre a “a” sin cambiar la altura. Hazlo en tres o cuatro notas distintas, a un grado de distancia cada una.</p>"
+    },
+    {
+      "heading": "Paso 3: tres notas, luego cinco",
+      "html": "<p>Cuando las notas sueltas lleguen, pasa a patrones cortos: tres notas que suben y bajan, y después la <a href=\"page:five-note-scale\">escala de cinco notas</a>. Cántalas despacio. En un estudio, cuando personas que cantan de vez en cuando cantaron más despacio una canción conocida, la mayoría la cantó casi con la misma precisión que los profesionales (Dalla Bella y colaboradores, 2007). La velocidad viene después, cuando las notas ya llegan.</p>"
+    },
+    {
+      "heading": "Mídelo",
+      "html": "<p>Es difícil juzgar tu propia afinación mientras cantas, porque te oyes por dentro de la cabeza además de por los oídos. Una grabación ayuda, y una medición ayuda más. El <a href=\"page:sing-in-tune-test\">test de afinación</a> toca una nota y te muestra a cuántas centésimas quedaste. En la app Scalita, una nota a más de 25 centésimas, un cuarto de semitono, cuenta como desafinada. Cuando tu ronda quede dentro de ese margen, prueba el <a href=\"page:vocal-range-test\">test de rango vocal</a> para ver hasta dónde llegas.</p>"
+    }
+  ],
+  "troubleshooting": "<ul><li><strong>Siempre me quedo un poco por debajo.</strong> Quedarse por debajo es común cuando la voz está cansada o la nota está cerca del extremo grave o agudo de tu rango. Lleva el ejercicio al centro de tu rango y mantén un volumen cómodo.</li><li><strong>Me paso por encima en las notas agudas.</strong> Suele venir de empujar. Canta la nota aguda más ligera y más suave, y deslízate hasta ella en vez de saltar.</li><li><strong>No sé si estoy en la nota.</strong> Entonces mírala: el modo afinador del test de afinación muestra tu altura frente a la nota más cercana mientras cantas.</li><li><strong>Las notas me quedan demasiado graves o demasiado agudas.</strong> Elige tu tipo de voz en el reproductor de abajo, o busca antes tu rango, para que cada nota caiga donde puedes cantarla.</li></ul>",
+  "faq": [
+    {
+      "q": "¿Cualquiera puede aprender a cantar afinado?",
+      "a": "<p>La mayoría de la gente puede acercarse con práctica, porque en casi todos el oído ya funciona. Un grupo pequeño, alrededor del 1,5 por ciento de las personas, tiene amusia congénita, una dificultad de por vida para percibir la altura, y para ellos igualar notas es mucho más difícil.</p>"
+    },
+    {
+      "q": "¿Cuánto tiempo debo practicar?",
+      "a": "<p>Bastan unos minutos cada vez, y practicar a menudo rinde más que hacerlo mucho rato. Para si notas la voz cansada o áspera, y vuelve a ello más tarde.</p>"
+    },
+    {
+      "q": "¿Necesito un piano?",
+      "a": "<p>No. El reproductor de esta página toca las notas por ti, en tu rango, y Scalita hace lo mismo en tu teléfono. Sirve cualquier nota de referencia estable, siempre que la oigas con claridad.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher y Brown (2007), estudio sobre el canto impreciso y la percepción de la altura, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Hutchins y Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Dalla Bella, Giguère y Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Peretz y Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

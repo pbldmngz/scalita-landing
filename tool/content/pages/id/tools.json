@@ -1,21 +1,21 @@
 {
   "label": "Alat gratis",
   "title": "Alat Bernyanyi Gratis di Browser - Scalita",
-  "description": "Empat alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
+  "description": "Lima alat gratis untuk penyanyi yang berjalan di browser: tes range vokal, tes buta nada, tes ketepatan nada, piano latihan vokal, dan tes passaggio.",
   "h1": "Alat bernyanyi gratis",
-  "lead": "Empat alat dari aplikasi Scalita, di browser-mu. Suaramu tidak dikirim ke mana pun.",
+  "lead": "Lima alat dari aplikasi Scalita, di browser-mu. Suaramu tidak dikirim ke mana pun.",
   "appBand": "Scalita mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor. Offline, tanpa iklan, tanpa akun.",
   "referenceHeading": "Tentang alat-alat ini",
-  "intro": "<p>Keempat alat ini berasal dari Scalita, aplikasi pemanasan vokal untuk Android. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasi itu sendiri, dan berjalan di browser, baik di ponsel maupun di komputer.</p><p>Ada dua aturan yang berlaku untuk semuanya. Sebuah alat hanya mendengarkan atau hanya memainkan piano, tidak pernah keduanya sekaligus, jadi kamu tidak perlu headphone. Dan saat sebuah alat mendengarkan, browser-mu yang mengerjakannya di perangkatmu: tidak ada yang direkam atau dikirim ke mana pun.</p>",
-  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "intro": "<p>Kelima alat ini berasal dari Scalita, aplikasi pemanasan vokal untuk Android. Semuanya memakai pembacaan nada, piano, dan latihan dari aplikasi itu sendiri, dan berjalan di browser, baik di ponsel maupun di komputer.</p><p>Ada dua aturan yang berlaku untuk semuanya. Sebuah alat hanya mendengarkan atau hanya memainkan piano, tidak pernah keduanya sekaligus, jadi kamu tidak perlu headphone. Dan saat sebuah alat mendengarkan, browser-mu yang mengerjakannya di perangkatmu: tidak ada yang direkam atau dikirim ke mana pun.</p>",
+  "children": ["vocal-range-test", "tone-deaf-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [
     {
       "heading": "Mulai dari mana",
-      "html": "<p>Kalau kamu baru mulai, ikuti urutan ini:</p><ol><li><a href=\"page:vocal-range-test\">Tes range vokal</a>: jangkauan vokalmu, dari nada terendah sampai tertinggi yang nyaman, dalam sekitar satu menit.</li><li><a href=\"page:voice-break-finder\">Tes passaggio</a>: peralihan registermu, titik tempat suaramu berpindah gigi, yang lebih banyak bercerita tentang jenis suaramu daripada jangkauanmu.</li><li><a href=\"page:warm-up-piano\">Piano latihan vokal</a>: tangga nada dan rutinitas dari aplikasi, dimainkan di jangkauanmu.</li><li><a href=\"page:sing-in-tune-test\">Tes ketepatan nada</a>: setelah pemanasan, seberapa dekat kamu mendarat di nada yang baru saja kamu dengar.</li></ol>"
+      "html": "<p>Kalau kamu baru mulai, ikuti urutan ini:</p><ol><li><a href=\"page:vocal-range-test\">Tes range vokal</a>: jangkauan vokalmu, dari nada terendah sampai tertinggi yang nyaman, dalam sekitar satu menit.</li><li><a href=\"page:voice-break-finder\">Tes passaggio</a>: peralihan registermu, titik tempat suaramu berpindah gigi, yang lebih banyak bercerita tentang jenis suaramu daripada jangkauanmu.</li><li><a href=\"page:warm-up-piano\">Piano latihan vokal</a>: tangga nada dan rutinitas dari aplikasi, dimainkan di jangkauanmu.</li><li><a href=\"page:sing-in-tune-test\">Tes ketepatan nada</a>: setelah pemanasan, seberapa dekat kamu mendarat di nada yang baru saja kamu dengar.</li></ol><p>Atau jalani sebagai rangkaian tantangan: pertama <a href=\"page:tone-deaf-test\">tes buta nada</a>, untuk melihat seberapa kecil langkah yang bisa kamu dengar, lalu tes ketepatan nada, untuk melihat apakah suaramu mendarat di tempat yang didengar telingamu, lalu tes range vokal, untuk melihat seberapa jauh kamu bisa membawanya.</p>"
     },
     {
       "heading": "Saat alat mendengarkan",
-      "html": "<p>Tes range vokal dan tes ketepatan nada memakai mikrofonmu. Keduanya baru memintanya setelah kamu menekan Mulai, membaca nada suaramu saat suara itu masuk, dan tidak menyimpan apa pun. Tekan Berhenti atau tinggalkan halaman, dan mikrofon mati. Piano latihan vokal dan tes passaggio tidak pernah memakainya.</p><p>Mikrofon bisa dipakai di Chrome, Safari, Firefox, atau Edge versi terbaru. Mikrofon tidak bisa dipakai di browser bawaan aplikasi seperti Instagram, TikTok, Facebook, atau Gmail, jadi kalau kamu sampai di sini dari salah satunya, buka dulu halaman ini di browser ponselmu.</p>"
+      "html": "<p>Tes range vokal dan tes ketepatan nada memakai mikrofonmu. Keduanya baru memintanya setelah kamu menekan Mulai, membaca nada suaramu saat suara itu masuk, dan tidak menyimpan apa pun. Tekan Berhenti atau tinggalkan halaman, dan mikrofon mati. Tes buta nada, piano latihan vokal, dan tes passaggio tidak pernah memakainya.</p><p>Mikrofon bisa dipakai di Chrome, Safari, Firefox, atau Edge versi terbaru. Mikrofon tidak bisa dipakai di browser bawaan aplikasi seperti Instagram, TikTok, Facebook, atau Gmail, jadi kalau kamu sampai di sini dari salah satunya, buka dulu halaman ini di browser ponselmu.</p>"
     },
     {
       "heading": "Yang tidak akan dikatakan alat-alat ini",

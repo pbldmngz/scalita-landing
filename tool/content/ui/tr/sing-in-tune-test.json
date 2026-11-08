@@ -3,12 +3,11 @@
     "label": "Mod",
     "sing": "Notayı söyle",
     "tuner": "Serbest akort",
-    "ear": "Dinleme testi"
+    "ear": "Kulak testi"
   },
   "intro": {
     "sing": "Piyano bir nota çalar. Sonra mikrofon açılır ve sen o notayı herhangi bir ünlüyle ya da mırıldanarak geri söylersin. Beş nota, tek tek.",
-    "tuner": "Herhangi bir notayı söyle ya da mırıldan. Sayfa hangi nota olduğunu ve merkezinden kaç sent uzakta olduğunu gösterir.",
-    "ear": "Art arda iki piyano notası çalar. İkincisi daha mı tizdi, daha mı pes? Üç çift; mikrofon kapalı kalır."
+    "tuner": "Herhangi bir notayı söyle ya da mırıldan. Sayfa hangi nota olduğunu ve merkezinden kaç sent uzakta olduğunu gösterir."
   },
   "voice": {
     "label": "Hangi ses için",
@@ -36,10 +35,6 @@
       "one": "{n} sent",
       "other": "{n} sent"
     },
-    "semitones": {
-      "one": "{n} yarım ses",
-      "other": "{n} yarım ses"
-    },
     "short": "{n}¢"
   },
   "result": {
@@ -64,23 +59,13 @@
     "ctaBody": "Scalita'nın Entonasyon Çalışması bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
     "ctaButton": "Scalita'yı Google Play'den indir"
   },
+  "next": {
+    "range": "Sıradaki meydan okuma: aralığın",
+    "guide": "Sıradaki: temelleri çalış"
+  },
   "tuner": {
     "hint": "Herhangi bir notayı söyle ya da mırıldan.",
     "nearest": "En yakın nota"
-  },
-  "ear": {
-    "label": "Daha tiz mi, daha pes mi",
-    "pairOf": "Çift {n} / {total}",
-    "question": "İkinci nota daha mı tizdi, daha mı pes?",
-    "higher": "Daha tiz",
-    "lower": "Daha pes",
-    "again": "Tekrar dinle",
-    "wentUp": "İkinci nota daha tizdi, {step} yukarıda.",
-    "wentDown": "İkinci nota daha pesti, {step} aşağıda.",
-    "score": "{total} çiftin {right} tanesinde yönü doğru duydun.",
-    "all": "Aradaki fark bir yarım sese, yani piyanodaki en küçük adıma indiğinde bile böyleydi.",
-    "some": "En küçük adımları duymak başta en zorudur. Kulaklık ve sessiz bir oda işe yarar.",
-    "toSing": "Bir notayı geri söyle"
   },
   "meter": "Mikrofon seviyesi",
   "pianoFailed": "Piyano yüklenemedi. Bağlantını kontrol et ve tekrar dene.",

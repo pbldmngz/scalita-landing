@@ -15,13 +15,14 @@
     "toolsLabel": "Ana sayfa ve ücretsiz araçlar",
     "getApp": "Uygulamayı indir",
     "closeMenu": "Menüyü kapat",
-    "toolsHint": "Dördü de ücretsiz",
+    "toolsHint": "Beşi de ücretsiz",
     "guidesHint": "{n} rehber",
     "fullscreen": "Tam ekran",
     "fullscreenHint": "Araç ve araç seçici dışındaki her şeyi gizler",
     "exitFullscreen": "Tam ekrandan çık",
     "tabLabels": {
       "vocal-range-test": "Aralık",
+      "tone-deaf-test": "Kulak",
       "sing-in-tune-test": "Akort",
       "warm-up-piano": "Piyano",
       "voice-break-finder": "Geçiş"
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Ücretsiz web araçları",
       "title": "Scalita'yı hemen burada dene",
-      "lead": "Bu sayfada, tarayıcında çalışan dört araç; telefonda da bilgisayarda da. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar, böylece bir şey indirmeden önce Scalita'yı deneyebilirsin. Hesap yok, söylediğin hiçbir şey cihazından çıkmaz.",
+      "lead": "Bu sayfada, tarayıcında çalışan beş araç; telefonda da bilgisayarda da. Uygulamanın kendi perde okumasını, piyanosunu ve egzersizlerini kullanırlar, böylece bir şey indirmeden önce Scalita'yı deneyebilirsin. Hesap yok, söylediğin hiçbir şey cihazından çıkmaz.",
       "open": "Tarayıcında aç",
       "openShort": "Tarayıcında",
       "items": [
@@ -147,9 +148,14 @@
           "body": "Rahatça söyleyebildiğin en pes ve en tiz notan, nota ve oktav olarak; bu aralığın tipik olduğu ses türleriyle birlikte."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Çalar · Mikrofonsuz",
+          "body": "İki piyano notası, daha tiz mi daha pes mi; aradaki adım yarım sesten 3 sente kadar küçülür. Sonra dört kısa melodi: aynı mı, farklı mı?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Çalar, sonra dinler",
-          "body": "Bir piyano notası dinle, geri söyle ve ondan kaç sent saptığını gör. Yanında serbest akort modu ve dinleme testi de var."
+          "body": "Bir piyano notası dinle, geri söyle ve ondan kaç sent saptığını gör. Yanında serbest akort modu da var."
         },
         {
           "page": "warm-up-piano",

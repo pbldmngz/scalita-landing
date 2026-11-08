@@ -31,8 +31,8 @@
       "html": "<p>Das Stimmgerät lässt das Klavier weg. Sing einen beliebigen Ton, und es zeigt dir, während du singst, den Namen des nächstgelegenen Tons und wie viele Cent du zu hoch oder zu tief bist. Damit kannst du einen gehaltenen Ton prüfen, ein Gleiten von einem Ton zum anderen beobachten oder sehen, wie weit dein Vibrato ausschwingt.</p>"
     },
     {
-      "heading": "Ein kurzer Hörcheck",
-      "html": "<p>Um nur dein Gehör zu prüfen, spielt der Hörcheck zwei Töne und fragt, welcher höher war. Es sind drei Fragen, und die Antworten kommen in Worten: ein kurzer Blick, kein Hörtest.</p>"
+      "heading": "Dein Gehör für sich prüfen",
+      "html": "<p>Einen Ton nachzusingen braucht zwei Dinge: ihn hören und deine Stimme auf ihn lenken. Um das Erste ohne das Zweite zu prüfen, spielt der <a href=\"page:tone-deaf-test\">Tontaub-Test</a> Paare von Klaviertönen und fragt, in welche Richtung sich der zweite bewegt hat, und der Schritt wird jedes Mal kleiner, wenn du ihn hörst. Er nutzt nie das Mikrofon.</p>"
     },
     {
       "heading": "Wenn das Mikrofon nicht funktioniert",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Kann ein Test mir sagen, ob ich singen kann?",
-      "a": "<p>Ein Test wie dieser misst einen Teil des Singens: den Ton treffen. Klang, Rhythmus, Text und Stil zählen genauso viel, und kein Mikrofontest kann sie bewerten. Eine große Abweichung in einer Runde heißt nur, dass diese fünf Töne dieses Mal weit vom Klavier entfernt lagen.</p>"
+      "a": "<p>Ein Test wie dieser misst einen Teil des Singens: den Ton treffen. Der <a href=\"page:tone-deaf-test\">Tontaub-Test</a> prüft dein Gehör für sich. Klang, Rhythmus, Text und Stil zählen genauso viel, und kein Mikrofontest kann sie bewerten. Eine große Abweichung in einer Runde heißt nur, dass diese fünf Töne dieses Mal weit vom Klavier entfernt lagen.</p>"
     },
     {
       "q": "Brauche ich Kopfhörer?",

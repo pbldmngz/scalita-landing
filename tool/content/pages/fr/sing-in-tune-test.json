@@ -31,8 +31,8 @@
       "html": "<p>L'accordeur se passe du piano. Chante n'importe quelle note et il affiche le nom de la note la plus proche et de combien de cents tu es trop haut ou trop bas, pendant que tu chantes. Utilise-le pour vérifier une note que tu tiens, pour suivre un glissé d'une note à l'autre, ou pour voir l'amplitude de ton vibrato.</p>"
     },
     {
-      "heading": "Une écoute rapide",
-      "html": "<p>Pour vérifier ton oreille seule, l'écoute rapide joue deux notes et te demande laquelle était la plus haute. Trois questions, et la réponse en toutes lettres : un coup d'œil rapide, pas un test auditif.</p>"
+      "heading": "Vérifier ton oreille seule",
+      "html": "<p>Rechanter une note demande deux choses : l'entendre, et guider ta voix dessus. Pour vérifier la première sans la seconde, le <a href=\"page:tone-deaf-test\">test d'oreille musicale</a> joue des paires de notes de piano et te demande dans quel sens la deuxième a bougé, avec un écart qui rétrécit chaque fois que tu l'entends. Il n'utilise jamais le micro.</p>"
     },
     {
       "heading": "Si le micro ne marche pas",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Un test peut-il me dire si je sais chanter ?",
-      "a": "<p>Un test comme celui-ci mesure une partie du chant : tomber sur la note. Le timbre, le rythme, les paroles et le style comptent tout autant, et aucun test au micro ne peut les évaluer. Un grand écart sur une série veut seulement dire que ces cinq notes sont tombées loin du piano cette fois-là.</p>"
+      "a": "<p>Un test comme celui-ci mesure une partie du chant : tomber sur la note. Le <a href=\"page:tone-deaf-test\">test d'oreille musicale</a> vérifie ton oreille seule. Le timbre, le rythme, les paroles et le style comptent tout autant, et aucun test au micro ne peut les évaluer. Un grand écart sur une série veut seulement dire que ces cinq notes sont tombées loin du piano cette fois-là.</p>"
     },
     {
       "q": "Faut-il un casque ?",

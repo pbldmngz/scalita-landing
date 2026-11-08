@@ -1,0 +1,54 @@
+{
+  "slug": "toene-treffen-lernen",
+  "label": "Töne treffen lernen",
+  "title": "Töne treffen lernen: erste Übungen, um sauber zu singen - Scalita",
+  "description": "Wer schief singt, hört meist richtig, nur die Stimme trifft nicht. Drei erste Übungen: auf den Ton gleiten, ihn summen, dann kurze Tonleitern in deinem Umfang.",
+  "h1": "Töne treffen lernen",
+  "lead": "Sauber singen heißt, auf dem Ton zu landen, den du hörst, und dort zu bleiben. Bei den meisten funktioniert das Gehör schon, und die Stimme braucht Übung darin, den Ton zu finden. Die Arbeit besteht also aus kurzen Übungen, die diese Verbindung aufbauen.",
+  "shortAnswer": "<p>Hör den Ton zuerst, dann such ihn mit deiner Stimme: Gleite von unten auf ihn, summ ihn, bis Stimme und Klavier wie eins klingen, und sing erst dann Tonleitern oder Lieder. Übe in der Mitte deines Umfangs, jeweils ein paar Minuten, und miss es, denn beim Singen ist dein eigenes Gehör ein schlechter Richter.</p>",
+  "sections": [
+    {
+      "heading": "Warum Stimmen Töne verfehlen",
+      "html": "<p>Die meisten Menschen, die schief singen, hören Tonhöhen normal. In den Experimenten von Pfordresher und Brown (2007) unterschieden die Teilnehmenden, die Töne um einen Halbton oder mehr daneben nachsangen, Tonhöhen genauso gut wie die, die sauber sangen. Hutchins und Peretz (2012) fanden, dass Menschen einen Ton mit einem Schieberegler genauer trafen als mit ihrer eigenen Stimme. Das Gehör wusste, wo der Ton war, und die Stimme kam nicht hin.</p><p>Das ist eine gute Nachricht, denn die Stimme zu lenken ist eine Fähigkeit, die man üben kann. Wenn du zuerst dein Gehör prüfen willst, macht das der <a href=\"page:tone-deaf-test\">Tontaub-Test</a>, ohne Mikrofon.</p>"
+    },
+    {
+      "heading": "Schritt 1: auf den Ton gleiten",
+      "html": "<p>Spiel einen Ton in der Mitte deines Umfangs und hör ihn dir an. Setz mit deiner Stimme etwas darunter auf einem leichten „u“ ein und gleite langsam nach oben, bis du ihn triffst, dann halte ihn. Wenn du nah dran bist, hörst du, wie deine Stimme und das Klavier aneinander reiben, ein schnelles Flattern im Klang, und das Flattern wird langsamer und verschwindet, wenn du auf dem Ton bist.</p><p>Gleiten funktioniert, weil du den Ton nicht auf Anhieb erraten musst. Du hörst, wie du näher kommst, und genau diese Verbindung trainierst du.</p>"
+    },
+    {
+      "heading": "Schritt 2: summen, dann auf einen Vokal öffnen",
+      "html": "<p>Sobald das Gleiten landet, summ denselben Ton auf „mm“ in angenehmer Lautstärke, Lippen geschlossen, Zähne auseinander. Ein Summen ist leise und bequem, deshalb hörst du dich gegen das Klavier leichter. Halte es ein paar Sekunden, dann öffne auf „a“, ohne die Tonhöhe zu ändern. Mach das auf drei oder vier verschiedenen Tönen, jeweils einen Schritt auseinander.</p>"
+    },
+    {
+      "heading": "Schritt 3: drei Töne, dann fünf",
+      "html": "<p>Wenn einzelne Töne sitzen, geh zu kurzen Mustern über: drei Töne hinauf und wieder hinunter, dann die <a href=\"page:five-note-scale\">5-Töne-Übung</a>. Sing sie langsam. Als Gelegenheitssängerinnen und -sänger in einer Studie ein bekanntes Lied langsamer sangen, sangen die meisten es etwa so genau wie Profis (Dalla Bella und Kollegen, 2007). Tempo kommt später, wenn die Töne sitzen.</p>"
+    },
+    {
+      "heading": "Miss es",
+      "html": "<p>Die eigene Tonhöhe beim Singen zu beurteilen ist schwer, weil du dich nicht nur über die Ohren hörst, sondern auch über den Kopf. Eine Aufnahme hilft, eine Messung hilft mehr. Der <a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a> spielt einen Ton und zeigt, wie viele Cent du danebenlagst. In der Scalita-App zählt ein Ton, der mehr als 25 Cent entfernt ist, ein Viertel Halbton, als daneben. Wenn deine Runde innerhalb davon landet, probier den <a href=\"page:vocal-range-test\">Stimmumfang-Test</a>, um zu sehen, wie weit du damit kommst.</p>"
+    }
+  ],
+  "troubleshooting": "<ul><li><strong>Ich bin immer ein bisschen zu tief.</strong> Zu tiefe Töne sind häufig, wenn die Stimme müde ist oder der Ton nahe am unteren oder oberen Rand deines Umfangs liegt. Verleg die Übung in die Mitte deines Umfangs und bleib bei angenehmer Lautstärke.</li><li><strong>Bei hohen Tönen werde ich zu hoch.</strong> Das kommt oft vom Drücken. Sing den hohen Ton leichter und leiser, und gleite auf ihn, statt zu springen.</li><li><strong>Ich merke nicht, ob ich auf dem Ton bin.</strong> Dann schau hin: Der Stimmgerät-Modus im Töne-treffen-Test zeigt deine Tonhöhe beim Singen gegenüber dem nächstgelegenen Ton.</li><li><strong>Die Töne fühlen sich zu tief oder zu hoch an.</strong> Wähl im Player unten dein Stimmfach oder finde zuerst deinen Umfang, damit jeder Ton dort liegt, wo du ihn singen kannst.</li></ul>",
+  "faq": [
+    {
+      "q": "Kann jeder lernen, sauber zu singen?",
+      "a": "<p>Die meisten können mit Übung näher an den Ton kommen, denn bei den meisten funktioniert das Gehör schon. Eine kleine Gruppe, etwa 1,5 Prozent der Menschen, hat eine angeborene Amusie, eine lebenslange Schwierigkeit, Tonhöhen zu hören, und für sie ist Töne treffen viel schwerer.</p>"
+    },
+    {
+      "q": "Wie lange sollte ich üben?",
+      "a": "<p>Ein paar Minuten am Stück reichen, und oft ist besser als lang. Hör auf, wenn sich deine Stimme müde oder kratzig anfühlt, und mach später weiter.</p>"
+    },
+    {
+      "q": "Brauche ich ein Klavier?",
+      "a": "<p>Nein. Der Player auf dieser Seite spielt dir die Töne vor, in deinem Umfang, und Scalita macht dasselbe auf deinem Telefon. Jeder gleichmäßige Referenzton funktioniert, solange du ihn deutlich hörst.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Pfordresher und Brown (2007), eine Studie zu unsauberem Singen und Tonhöhenwahrnehmung, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Hutchins und Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)", "url": "https://doi.org/10.1037/a0025064"},
+    {"label": "Dalla Bella, Giguère und Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)", "url": "https://doi.org/10.1121/1.2427111"},
+    {"label": "Peretz und Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

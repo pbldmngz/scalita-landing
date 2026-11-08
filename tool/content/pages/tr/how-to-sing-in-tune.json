@@ -1,0 +1,54 @@
+{
+  "slug": "detone-olmadan-sarki-soylemek",
+  "label": "Detone olmadan söylemek",
+  "title": "Detone olmadan şarkı söylemek için ilk egzersizler - Scalita",
+  "description": "Detone söylemek çoğu zaman kulakla değil, sesi yönlendirmekle ilgili. Üç ilk egzersiz: notaya kayarak gir, onu mırıldan, sonra aralığında kısa gamlar söyle.",
+  "h1": "Detone olmadan şarkı söylemek",
+  "lead": "Doğru perdeden söylemek, duyduğun notaya oturmak ve orada kalmak demektir. Çoğu insanda kulak zaten çalışır; sesin ise notayı bulmak için alıştırmaya ihtiyacı vardır. Yani iş, bu bağı kuran kısa egzersizlerdir.",
+  "shortAnswer": "<p>Önce notayı duy, sonra onu sesinle bul: aşağıdan kayarak ona gir, sesin ve piyano tek bir ses gibi duyulana kadar onu mırıldan, gamlara ya da şarkılara ancak ondan sonra geç. Aralığının ortasında, birkaç dakikalık bölümler halinde çalış ve ölç; çünkü şarkı söylerken kendi kulağın iyi bir hakem değildir.</p>",
+  "sections": [
+    {
+      "heading": "Sesler neden notayı kaçırır",
+      "html": "<p>Detone söyleyen insanların çoğu perdeyi normal duyar. Pfordresher ve Brown'un deneylerinde (2007), notaları bir yarım ses ya da daha fazla sapmayla geri söyleyen katılımcılar, perdeleri doğru söyleyenler kadar iyi ayırt etti. Hutchins ve Peretz (2012), insanların bir notayı kendi sesleriyle değil, bir kaydırıcıyla daha doğru eşleştirdiğini buldu. Kulak notanın nerede olduğunu biliyordu, ses oraya varamadı.</p><p>Bu iyi bir haber, çünkü sesi yönlendirmek çalışılabilecek bir beceridir. Önce kulağını kontrol etmek istersen <a href=\"page:tone-deaf-test\">müzik kulağı testi</a> bunu mikrofonsuz yapar.</p>"
+    },
+    {
+      "heading": "1. adım: notaya kayarak gir",
+      "html": "<p>Aralığının ortasında bir nota çal ve dinle. Sesine onun biraz altından, rahat bir “u” ile başla ve notayı yakalayana kadar yavaşça yukarı kay, sonra tut. Yaklaştıkça sesinin ve piyanonun birbirine sürtündüğünü duyarsın, seste hızlı bir dalgalanma olur; notaya oturduğunda bu dalgalanma yavaşlar ve kaybolur.</p><p>Kaymak işe yarar, çünkü notayı tek seferde tahmin etmen gerekmez. Yaklaştığını duyarsın; çalıştırdığın bağ da tam olarak budur.</p>"
+    },
+    {
+      "heading": "2. adım: mırıldan, sonra bir ünlüye aç",
+      "html": "<p>Kayma notaya oturunca aynı notayı rahat bir şiddette “mm” ile mırıldan; dudaklar kapalı, dişler aralık. Mırıldanma sessiz ve rahattır, bu yüzden kendini piyanoya karşı duyman kolaylaşır. Birkaç saniye tut, sonra perdeyi değiştirmeden “a”ya aç. Bunu, aralarında birer adım olan üç dört farklı notada yap.</p>"
+    },
+    {
+      "heading": "3. adım: üç nota, sonra beş",
+      "html": "<p>Tek notalar oturunca kısa kalıplara geç: üç nota yukarı ve geri aşağı, sonra <a href=\"page:five-note-scale\">beş sesli egzersiz</a>. Onları yavaş söyle. Bir çalışmada ara sıra şarkı söyleyen kişiler bildik bir şarkıyı daha yavaş söylediklerinde, çoğu onu aşağı yukarı profesyoneller kadar doğru söyledi (Dalla Bella ve arkadaşları, 2007). Hız, notalar oturduktan sonra gelir.</p>"
+    },
+    {
+      "heading": "Ölç",
+      "html": "<p>Şarkı söylerken kendi perdeni değerlendirmek zordur, çünkü kendini yalnızca kulaklarınla değil, kafanın içinden de duyarsın. Bir kayıt yardımcı olur, bir ölçüm daha da çok. <a href=\"page:sing-in-tune-test\">Detone testi</a> bir nota çalar ve ondan kaç sent uzağa düştüğünü gösterir. Scalita uygulamasında 25 sentten, yani yarım sesin dörtte birinden fazla uzaktaki bir nota sapmış sayılır. Turun bu sınırın içine düşünce, bunu ne kadar ileri götürebildiğini görmek için <a href=\"page:vocal-range-test\">ses aralığı testini</a> dene.</p>"
+    }
+  ],
+  "troubleshooting": "<ul><li><strong>Hep biraz pes kalıyorum.</strong> Ses yorgunken ya da nota aralığının alt veya üst ucuna yakınken pes kalmak yaygındır. Egzersizi aralığının ortasına taşı ve sesini rahat bir şiddette tut.</li><li><strong>Tiz notalarda perdem yukarı kaçıyor.</strong> Bu çoğu zaman zorlamaktan gelir. Tiz notayı daha hafif ve daha sessiz söyle; üstüne atlamak yerine kayarak gir.</li><li><strong>Notada olup olmadığımı anlayamıyorum.</strong> O zaman dinlemek yerine izle: detone testindeki serbest akort modu, sen söylerken perdeni en yakın notaya göre gösterir.</li><li><strong>Notalar fazla pes ya da fazla tiz geliyor.</strong> Aşağıdaki oynatıcıda ses türünü seç ya da önce aralığını bul; böylece her nota söyleyebileceğin bir yere düşer.</li></ul>",
+  "faq": [
+    {
+      "q": "Herkes detone olmadan söylemeyi öğrenebilir mi?",
+      "a": "<p>Çoğu insan alıştırmayla notaya yaklaşabilir, çünkü çoğunda kulak zaten çalışır. Küçük bir grupta, insanların yaklaşık yüzde 1,5'inde, doğuştan amüzi, yani perdeyi duymada ömür boyu süren bir güçlük vardır; onlar için notaları tutturmak çok daha zordur.</p>"
+    },
+    {
+      "q": "Ne kadar çalışmalıyım?",
+      "a": "<p>Bir seferde birkaç dakika yeter; sık sık çalışmak uzun çalışmaktan iyidir. Sesin yorgun ya da pürüzlü gelirse dur ve sonra devam et.</p>"
+    },
+    {
+      "q": "Piyanoya ihtiyacım var mı?",
+      "a": "<p>Hayır. Bu sayfadaki oynatıcı notaları senin için, senin aralığında çalar; Scalita da aynısını telefonunda yapar. Net duyabildiğin sürece sabit herhangi bir referans nota işe yarar.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Pfordresher ve Brown (2007), perdeyi tutturamayan şarkıcılar ve perde algısı üzerine bir çalışma, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Hutchins ve Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)", "url": "https://doi.org/10.1037/a0025064"},
+    {"label": "Dalla Bella, Giguère ve Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)", "url": "https://doi.org/10.1121/1.2427111"},
+    {"label": "Peretz ve Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

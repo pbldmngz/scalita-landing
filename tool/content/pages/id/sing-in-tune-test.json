@@ -31,8 +31,8 @@
       "html": "<p>Tuner melewatkan piano. Nyanyikan nada apa saja, dan tuner menunjukkan nama nada terdekat dan berapa sen kamu terlalu tinggi atau terlalu rendah, selagi kamu bernyanyi. Pakai untuk mengecek nada yang sedang kamu tahan, melihat luncuran dari satu nada ke nada lain, atau melihat seberapa lebar ayunan vibratomu.</p>"
     },
     {
-      "heading": "Cek dengar singkat",
-      "html": "<p>Untuk mengecek telingamu saja, cek dengar memainkan dua nada dan menanyakan mana yang lebih tinggi. Isinya tiga pertanyaan dengan jawaban dalam kata-kata: sekadar gambaran singkat, bukan tes pendengaran.</p>"
+      "heading": "Cek telingamu secara terpisah",
+      "html": "<p>Menyanyikan kembali sebuah nada butuh dua hal: mendengarnya, dan mengarahkan suaramu ke nada itu. Untuk mengecek yang pertama tanpa yang kedua, <a href=\"page:tone-deaf-test\">tes buta nada</a> memainkan pasangan nada piano dan menanyakan ke arah mana nada kedua bergerak, dengan langkah yang makin kecil setiap kali kamu bisa mendengarnya. Tes itu tidak pernah memakai mikrofon.</p>"
     },
     {
       "heading": "Kalau mikrofon tidak berfungsi",
@@ -50,7 +50,7 @@
     },
     {
       "q": "Bisakah sebuah tes mengatakan aku bisa bernyanyi atau tidak?",
-      "a": "<p>Tes seperti ini mengukur satu bagian dari bernyanyi: mendarat di nada yang dituju. Warna suara, ritme, lirik, dan gaya sama pentingnya, dan tidak ada tes mikrofon yang bisa menilainya. Selisih yang lebar dalam satu putaran hanya berarti lima nada itu mendarat jauh dari piano pada saat itu.</p>"
+      "a": "<p>Tes seperti ini mengukur satu bagian dari bernyanyi: mendarat di nada yang dituju. <a href=\"page:tone-deaf-test\">Tes buta nada</a> mengecek telingamu secara terpisah. Warna suara, ritme, lirik, dan gaya sama pentingnya, dan tidak ada tes mikrofon yang bisa menilainya. Selisih yang lebar dalam satu putaran hanya berarti lima nada itu mendarat jauh dari piano pada saat itu.</p>"
     },
     {
       "q": "Apakah perlu headphone?",

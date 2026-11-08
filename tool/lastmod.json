@@ -1,12 +1,12 @@
 {
   "https://scalita.com/": {
-    "hash": "2fa0fb2fbb9dc6af",
-    "lastmod": "2026-11-01",
+    "hash": "a848e9b5a14ce042",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/de/": {
-    "hash": "affb85e101529394",
-    "lastmod": "2026-11-01",
+    "hash": "fa2ab1d5a2845bca",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/de/privacy.html": {
@@ -25,8 +25,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/de/ratgeber/einsingen/": {
-    "hash": "aefc5e2ce15e4ee0",
-    "lastmod": "2026-10-26",
+    "hash": "44f84808ba800266",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/de/ratgeber/fuenf-toene-uebung/": {
@@ -64,6 +64,11 @@
     "lastmod": "2026-10-26",
     "since": "2026-10-22"
   },
+  "https://scalita.com/de/ratgeber/toene-treffen-lernen/": {
+    "hash": "050b927b5cda2b25",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/de/support.html": {
     "hash": "a1911bda8e5d2d4e",
     "lastmod": "2026-10-26",
@@ -75,33 +80,38 @@
     "since": "2026-10-18"
   },
   "https://scalita.com/de/tools/": {
-    "hash": "945339b7c3c5d99d",
-    "lastmod": "2026-10-26",
+    "hash": "6e901c255e61f1a5",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/de/tools/einsingen-klavier/": {
-    "hash": "86fa0f5d9408a3d4",
-    "lastmod": "2026-10-26",
+    "hash": "5ed947363ae1170a",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/de/tools/registerwechsel-finden/": {
-    "hash": "6c3ca09c519c87c5",
-    "lastmod": "2026-10-26",
+    "hash": "1dd3a1c391f7b975",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/de/tools/stimmumfang-testen/": {
-    "hash": "4eb3b8bf5b62dda3",
-    "lastmod": "2026-10-26",
+    "hash": "1bee420ef3f4dcf1",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/de/tools/toene-treffen-test/": {
-    "hash": "3e8594e88c4a42dd",
-    "lastmod": "2026-10-26",
+    "hash": "98cc7172819d16f5",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/de/tools/tontaub-test/": {
+    "hash": "61fe98306d4079fe",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/es/": {
-    "hash": "721f34f2e7370319",
-    "lastmod": "2026-11-01",
+    "hash": "fee5ea2c9a12e204",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/": {
@@ -113,6 +123,11 @@
     "hash": "2cf6f900ea2b0dce",
     "lastmod": "2026-10-26",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/es/guias/como-afinar-la-voz/": {
+    "hash": "586fd778ee5ba6c0",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
   },
   "https://scalita.com/es/guias/enfriamiento-vocal/": {
     "hash": "4c4310879f160851",
@@ -145,8 +160,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/es/guias/vocalizaciones/": {
-    "hash": "3b60d0c95efd195b",
-    "lastmod": "2026-10-26",
+    "hash": "2b606d857c606fa6",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/es/guias/voz-de-cabeza-y-voz-de-pecho/": {
@@ -155,28 +170,33 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/es/herramientas/": {
-    "hash": "48ff966a53099ed6",
-    "lastmod": "2026-10-26",
+    "hash": "f98e2103d77d2b3e",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/es/herramientas/piano-para-vocalizar/": {
-    "hash": "e2e780ce73669173",
-    "lastmod": "2026-10-26",
+    "hash": "43987561138fb414",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/es/herramientas/test-de-afinacion-vocal/": {
-    "hash": "5c061377b7c6c558",
-    "lastmod": "2026-10-26",
+    "hash": "5c3a640e9f54cbac",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/es/herramientas/test-de-oido-musical/": {
+    "hash": "520405e778690031",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/es/herramientas/test-de-pasaje-vocal/": {
-    "hash": "17981b332d6bb511",
-    "lastmod": "2026-10-26",
+    "hash": "c59cd7043c25be7e",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/es/herramientas/test-de-rango-vocal/": {
-    "hash": "b515163daf85e408",
-    "lastmod": "2026-10-26",
+    "hash": "e4a7bb842105f695",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/es/privacy.html": {
@@ -195,9 +215,14 @@
     "since": "2026-10-18"
   },
   "https://scalita.com/fr/": {
-    "hash": "f7beb43ec3a1d496",
-    "lastmod": "2026-11-01",
+    "hash": "964f08c2cd11e528",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
+  },
+  "https://scalita.com/fr/guides/comment-chanter-juste/": {
+    "hash": "404576be70bf4736",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
   },
   "https://scalita.com/fr/guides/echauffement-vocal-complet/": {
     "hash": "3ea7e72b783e733f",
@@ -235,8 +260,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/guides/vocalises/": {
-    "hash": "e4ce2f8046f5cbb9",
-    "lastmod": "2026-10-26",
+    "hash": "aabc96775b368627",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/guides/voix-de-tete-voix-de-poitrine/": {
@@ -250,28 +275,33 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/outils/": {
-    "hash": "fbef40d17c286026",
-    "lastmod": "2026-10-26",
+    "hash": "83f793288b549ab1",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/outils/piano-vocalises/": {
-    "hash": "7d1ffe5323d03e0f",
-    "lastmod": "2026-10-26",
+    "hash": "ec86abe021571eed",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/outils/test-chanter-juste/": {
-    "hash": "80050bc71c288d80",
-    "lastmod": "2026-10-26",
+    "hash": "30d099a87d32b67e",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/fr/outils/test-oreille-musicale/": {
+    "hash": "c2ff077dbd155b67",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/fr/outils/test-tessiture-voix/": {
-    "hash": "ee26fa69fbc79041",
-    "lastmod": "2026-10-26",
+    "hash": "4806d86b5a1f50bc",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/outils/trouver-son-passage-de-voix/": {
-    "hash": "8da232907f5ffba3",
-    "lastmod": "2026-10-26",
+    "hash": "6d0a9845a35c0633",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/fr/privacy.html": {
@@ -304,6 +334,11 @@
     "lastmod": "2026-10-26",
     "since": "2026-10-22"
   },
+  "https://scalita.com/guides/how-to-sing-in-tune/": {
+    "hash": "c1872f1baa027e16",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/guides/lip-trills/": {
     "hash": "7448f34c640c11f6",
     "lastmod": "2026-10-26",
@@ -325,8 +360,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/guides/vocal-warm-ups/": {
-    "hash": "dbd41908c6de716d",
-    "lastmod": "2026-10-26",
+    "hash": "2e71a4749d6f2734",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/guides/voice-cracks-high-notes/": {
@@ -340,34 +375,44 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/id/": {
-    "hash": "eff02d56e6bd2987",
-    "lastmod": "2026-11-01",
+    "hash": "d8d33406e11eb47f",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/id/alat/": {
-    "hash": "eb432e75025baea7",
-    "lastmod": "2026-10-26",
+    "hash": "1cf8308c47f99d9a",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/id/alat/cek-range-vokal/": {
-    "hash": "9be9b466bd1f4671",
-    "lastmod": "2026-10-26",
+    "hash": "c1a92949df4354b9",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/id/alat/cek-suara-fals/": {
-    "hash": "189990cac4125267",
-    "lastmod": "2026-10-26",
+    "hash": "ce74ebe9b07fd382",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/id/alat/piano-latihan-vokal/": {
-    "hash": "aa4ce54447df99ad",
-    "lastmod": "2026-10-26",
+    "hash": "a9255c19128a1958",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/id/alat/tes-buta-nada/": {
+    "hash": "fef7df97ff1e6f4c",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/id/alat/tes-passaggio/": {
-    "hash": "b9aef3cd0ff67efb",
-    "lastmod": "2026-10-26",
+    "hash": "9844cb719bfff0de",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/id/panduan/cara-bernyanyi-tidak-fals/": {
+    "hash": "b37d99a9a39d19c9",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
   },
   "https://scalita.com/id/panduan/do-re-mi-fa-sol-fa-mi-re-do/": {
     "hash": "87aad55f80e6f728",
@@ -380,8 +425,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/id/panduan/latihan-vokal/": {
-    "hash": "a156c521e2f89db6",
-    "lastmod": "2026-10-26",
+    "hash": "39cadde64cb396f9",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/id/panduan/lip-trill/": {
@@ -440,33 +485,38 @@
     "since": "2026-09-28"
   },
   "https://scalita.com/pt/": {
-    "hash": "f1a7ddaba240015e",
-    "lastmod": "2026-11-01",
+    "hash": "7dd492fbf0c82d12",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/pt/ferramentas/": {
-    "hash": "e81f5369ac2e2855",
-    "lastmod": "2026-10-26",
+    "hash": "2c1b863716261a2d",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/pt/ferramentas/piano-para-vocalizar/": {
-    "hash": "55b516979a313137",
-    "lastmod": "2026-10-26",
+    "hash": "ac331fd28d72aad9",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/pt/ferramentas/teste-de-afinacao-vocal/": {
-    "hash": "75e0fb1b4ca2b487",
-    "lastmod": "2026-10-26",
+    "hash": "932abf279d7f1a9d",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/pt/ferramentas/teste-de-extensao-vocal/": {
-    "hash": "bd3daee112759623",
-    "lastmod": "2026-10-26",
+    "hash": "fdea2897f03da7b4",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/pt/ferramentas/teste-de-ouvido-musical/": {
+    "hash": "fd22c0187ecd510a",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/pt/ferramentas/teste-de-passagem-vocal/": {
-    "hash": "dbfa0540ac4ab00c",
-    "lastmod": "2026-10-26",
+    "hash": "9207951104e8ee26",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/pt/guias/aquecimento-vocal-completo/": {
@@ -480,9 +530,14 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/pt/guias/aquecimento-vocal/": {
-    "hash": "e208d1f123ea1807",
-    "lastmod": "2026-10-26",
+    "hash": "8ce21bf211e52b1b",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/pt/guias/como-cantar-afinado/": {
+    "hash": "86121abc5acbcd5e",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
   },
   "https://scalita.com/pt/guias/desaquecimento-vocal/": {
     "hash": "84497619645b11cb",
@@ -545,58 +600,68 @@
     "since": "2026-10-18"
   },
   "https://scalita.com/tools/": {
-    "hash": "b4e3602d6a3143bc",
-    "lastmod": "2026-10-26",
+    "hash": "84b91866f9098d4d",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tools/sing-in-tune-test/": {
-    "hash": "1646970b7a45d9c9",
-    "lastmod": "2026-10-26",
+    "hash": "2ff96b186a17b2ef",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/tools/tone-deaf-test/": {
+    "hash": "7ff31cde3af0bd0b",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/tools/vocal-range-test/": {
-    "hash": "5fe851fb09bb1723",
-    "lastmod": "2026-10-26",
+    "hash": "71d1e04eebbc71ea",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tools/voice-break-finder/": {
-    "hash": "67bde2e5380750f6",
-    "lastmod": "2026-10-26",
+    "hash": "a7cb1b4bfb7440e4",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tools/warm-up-piano/": {
-    "hash": "71f6efef58c9d664",
-    "lastmod": "2026-10-26",
+    "hash": "cee5e2c379e48f62",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/": {
-    "hash": "ae8cfe2c733f4ab2",
-    "lastmod": "2026-11-01",
+    "hash": "ef10ba3c3a9c4c6e",
+    "lastmod": "2026-11-08",
     "since": "2026-09-28"
   },
   "https://scalita.com/tr/araclar/": {
-    "hash": "16f0e4b3f44cd422",
-    "lastmod": "2026-10-26",
+    "hash": "2ec14327835ab090",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/araclar/detone-testi/": {
-    "hash": "a958d740ac76ab15",
-    "lastmod": "2026-10-26",
+    "hash": "e0013c49a076d217",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/araclar/gecis-bolgesi-testi/": {
-    "hash": "b7f5bb479f38e2df",
-    "lastmod": "2026-10-26",
+    "hash": "1d570bd44ad9a90d",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
+  "https://scalita.com/tr/araclar/muzik-kulagi-testi/": {
+    "hash": "1598bae7940bf1b3",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
+  },
   "https://scalita.com/tr/araclar/piyanoda-ses-acma/": {
-    "hash": "2cb692329884468b",
-    "lastmod": "2026-10-26",
+    "hash": "2f79db086f804547",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/araclar/ses-araligi-testi/": {
-    "hash": "87ffcb98ed7adfe6",
-    "lastmod": "2026-10-26",
+    "hash": "f28682a59bdc7199",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/privacy.html": {
@@ -608,6 +673,11 @@
     "hash": "2b3e1a4b3dc3762c",
     "lastmod": "2026-10-26",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/tr/rehber/detone-olmadan-sarki-soylemek/": {
+    "hash": "95b364d42e7bf8e3",
+    "lastmod": "2026-11-08",
+    "since": "2026-11-08"
   },
   "https://scalita.com/tr/rehber/dudak-trili/": {
     "hash": "884a2128e32ecf1e",
@@ -640,8 +710,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/rehber/ses-acma-egzersizleri/": {
-    "hash": "6d06d59f8f0faef8",
-    "lastmod": "2026-10-26",
+    "hash": "12531e476db9f132",
+    "lastmod": "2026-11-08",
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/rehber/ses-sogutma-egzersizleri/": {

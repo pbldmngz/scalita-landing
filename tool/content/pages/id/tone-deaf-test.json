@@ -1,0 +1,69 @@
+{
+  "slug": "tes-buta-nada",
+  "label": "Tes buta nada",
+  "title": "Tes Buta Nada Online: Seberapa Peka Telingamu? - Scalita",
+  "description": "Apakah aku buta nada? Dua nada piano, naik atau turun, jaraknya mengecil dari setengah nada sampai 3 sen, lalu empat melodi. Gratis, tanpa mikrofon.",
+  "h1": "Tes buta nada",
+  "lead": "Dua nada piano berbunyi, dan kamu menjawab apakah nada kedua naik atau turun. Setiap langkah yang berhasil kamu dengar membuat langkah berikutnya lebih kecil, dari setengah nada sampai 3 sen. Empat melodi pendek menutup tes ini, dan hasilnya adalah langkah terkecil yang kamu dengar.",
+  "tile": "Seberapa kecil jarak dua nada yang bisa kamu dengar.",
+  "oneLine": "Lebih tinggi atau lebih rendah? Lihat seberapa kecil langkah yang kamu dengar.",
+  "appBand": "Mendengar nada adalah separuh pertama, dan menyanyikannya separuh kedua. Latihan Ketepatan di Scalita melatih keduanya: cocokkan nada di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
+  "referenceHeading": "Tentang tes ini",
+  "toolId": "ear-test",
+  "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Tekan Mulai. Halaman ini hanya memainkan piano, jadi tidak pernah meminta mikrofon.</li><li>Dengarkan kedua nada, lalu pilih Lebih tinggi atau Lebih rendah. Putar lagi memainkan pasangan itu sekali lagi.</li><li>Dua jawaban benar membawamu ke langkah yang lebih kecil. Dua jawaban salah di langkah yang sama mengakhiri bagian ini.</li><li>Lalu ada empat pasang melodi pendek. Jawab apakah tiap pasangan sama, atau ada satu nada yang berubah.</li><li>Headphone atau ruangan yang tenang membantu untuk langkah-langkah terkecil.</li></ol>",
+  "sampleResult": "<h2>Contoh hasil</h2><ul><li>Langkah terkecil yang kamu dengar: 12 sen</li><li>Langkah terdengar: 4 dari 6</li><li>Melodi dibedakan: 4 dari 4</li></ul><p>12 sen kira-kira seperdelapan setengah nada. Itu lebih halus daripada 25 sen yang dihitung meleset oleh aplikasi Scalita saat kamu menyanyikan sebuah nada, jadi pendengar ini bisa mendengar nada yang bergeser sebelum aplikasi menganggapnya meleset.</p>",
+  "notClaimed": "<h2>Yang tidak dikatakan tes ini</h2><p>Ini cek dengar singkat dengan nada piano, bukan tes pendengaran dan bukan diagnosis. Satu hasil adalah satu bacaan di satu hari, lewat satu speaker atau headphone, dan tebakan asal saja sudah benar separuh waktu, jadi keberuntungan ikut berperan. Tes ini tidak bisa mengatakan apakah kamu mengalami amusia kongenital: para peneliti memakai rangkaian tes yang lebih panjang dan pemeriksaan lengkap untuk itu. Tes ini juga tidak mengatakan apa pun tentang suaramu. Mendengar sebuah langkah dan menyanyikannya adalah dua keterampilan yang berbeda, dan <a href=\"page:sing-in-tune-test\">tes ketepatan nada</a> mengukur yang kedua.</p>",
+  "sections": [
+    {
+      "heading": "Yang diukur tes ini",
+      "html": "<p>Selisih nada diukur dalam sen. Setengah nada, langkah dari satu tuts piano ke tuts berikutnya, sama dengan 100 sen. Tes ini memainkan dua nada dan menanyakan ke arah mana nada kedua bergerak. Tes dimulai dari 100 sen, yaitu setengah nada, lalu langkahnya dibagi dua setiap kali kamu bisa mendengarnya: 50 sen, 25, 12, 6, dan terakhir 3.</p><p>Setiap langkah mendapat paling banyak tiga pasang. Dua jawaban benar menghitung langkah itu terdengar dan membawamu maju. Dua jawaban salah di langkah yang sama mengakhiri bagian itu, dan langkah terakhir yang kamu dengar menjadi hasilmu. Setelah itu giliran melodi: dua lagu pendek lima nada, dimainkan berurutan, entah sama persis atau dengan satu nada yang digeser setengah nada keluar dari tangga nadanya.</p>"
+    },
+    {
+      "heading": "Apa itu buta nada",
+      "html": "<p>Kondisi yang orang maksud dengan buta nada disebut amusia kongenital, yaitu kesulitan seumur hidup dalam mendengar nada dalam musik. Sebuah penelitian terhadap 20.000 orang memperkirakannya sekitar 1,5 persen dari populasi (Peretz dan Vuvan, 2017). Dalam eksperimen Hyde dan Peretz (2004), orang dewasa dengan amusia kesulitan mendengar nada yang naik atau turun sejauh selisih yang mudah didengar orang dewasa lain, dan latihan tidak membantu mereka, sementara perubahan waktu atau ketukan bisa mereka dengar sebaik siapa pun.</p><p>Para peneliti menyaringnya dengan tes yang lebih panjang, seperti Montreal Battery of Evaluation of Amusia, yang tes melodinya menanyakan apakah dua lagu pendek itu sama atau berbeda. Bagian melodi di sini meminjam bentuk itu, dengan empat pasang, bukan puluhan.</p>"
+    },
+    {
+      "heading": "Mendengar dan bernyanyi adalah keterampilan yang berbeda",
+      "html": "<p>Sebagian besar orang yang bernyanyi fals mendengar nada dengan normal. Dalam eksperimen Pfordresher dan Brown (2007), 10 sampai 15 persen peserta menyanyikan kembali nada dengan selisih setidaknya setengah nada, padahal mereka bisa membedakan nada sebaik penyanyi yang akurat. Bagi kebanyakan orang, bagian yang sulit adalah mengarahkan suara ke nada yang sebenarnya sudah bisa mereka dengar.</p><p>Jadi kalau langkah-langkah di sini lancar, bernyanyi dengan nada yang tepat adalah hal lain yang perlu diukur. <a href=\"page:sing-in-tune-test\">Tes ketepatan nada</a> memainkan sebuah nada dan menunjukkan seberapa dekat kamu menyanyikannya kembali, dan <a href=\"page:how-to-sing-in-tune\">cara bernyanyi tidak fals</a> berisi latihan pertama untuk melatihnya.</p>"
+    },
+    {
+      "heading": "Telinga makin peka dengan latihan",
+      "html": "<p>Membedakan langkah kecil adalah keterampilan, bukan sifat bawaan yang tetap. Dalam satu penelitian, ambang batas orang yang bukan musisi awalnya lebih dari enam kali lebih besar daripada ambang batas musisi klasik. Setelah 4 sampai 8 jam latihan dengan tugas lebih tinggi atau lebih rendah yang sejenis, mereka berhasil menyusul (Micheyl dan rekan-rekan, 2006).</p>"
+    },
+    {
+      "heading": "Kalau tidak terdengar apa-apa",
+      "html": "<p>Besarkan volume dan tekan Mulai lagi. Di ponsel, pastikan suaranya tidak keluar ke speaker atau earbud Bluetooth yang terlupa. Kalau piano tidak termuat, halaman ini akan memberi tahu: periksa koneksimu, lalu coba lagi.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Apakah aku buta nada?",
+      "a": "<p>Kemungkinan besar tidak. Amusia kongenital, kesulitan seumur hidup dengan nada, dialami sekitar 1,5 persen orang. Kebanyakan orang yang merasa dirinya buta nada mendengar nada dengan normal, dan yang sulit bagi mereka adalah menyanyikan nada yang bisa mereka dengar. Tes ini menunjukkan seberapa kecil langkah yang kamu dengar. <a href=\"page:sing-in-tune-test\">Tes ketepatan nada</a> menunjukkan seberapa dekat kamu bernyanyi.</p>"
+    },
+    {
+      "q": "Hasil seperti apa yang bisa kuharapkan?",
+      "a": "<p>Tidak ada nilai lulus. Sebagai patokan, aplikasi Scalita menghitung nada yang dinyanyikan sebagai meleset begitu selisihnya lebih dari 25 sen, dan dalam penelitian Micheyl dan rekan-rekan, musisi terlatih mendengar selisih yang jauh lebih kecil daripada orang yang bukan musisi sebelum berlatih.</p>"
+    },
+    {
+      "q": "Kenapa hasilku kali ini berbeda?",
+      "a": "<p>Setiap jawaban hanya lebih tinggi atau lebih rendah, jadi tebakan benar separuh waktu, dan tebakan yang beruntung atau tidak beruntung bisa menggeser hasil satu langkah. Rasa lelah, ruangan yang bising, dan speaker kecil juga berpengaruh. Ikuti tes ini beberapa kali dan lihat di mana hasilnya biasanya mendarat.</p>"
+    },
+    {
+      "q": "Apakah perlu headphone?",
+      "a": "<p>Tidak. Speaker apa pun yang bisa kamu dengar dengan jelas sudah cukup, dan headphone paling membantu untuk langkah 6 dan 3 sen. Tes ini tidak pernah memakai mikrofon.</p>"
+    },
+    {
+      "q": "Bisakah telingaku dilatih?",
+      "a": "<p>Bisa. Kemampuan membedakan nada membaik dengan latihan, sering kali dalam hitungan jam, seperti temuan penelitian di atas. Bernyanyi juga membantu: mencocokkan nada melatihmu mendengarkan posisi suaramu terhadap nada itu.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Peretz dan Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"},
+    {"label": "Hyde dan Peretz (2004), Brains that are out of tune but in time, Psychological Science 15(5)", "url": "https://doi.org/10.1111/j.0956-7976.2004.00683.x"},
+    {"label": "Peretz, Champod dan Hyde (2003), Varieties of musical disorders: the Montreal Battery of Evaluation of Amusia, Annals of the New York Academy of Sciences 999", "url": "https://doi.org/10.1196/annals.1284.006"},
+    {"label": "Pfordresher dan Brown (2007), penelitian tentang nyanyian yang meleset dan persepsi nada, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Micheyl, Delhommeau, Perrot dan Oxenham (2006), Influence of musical and psychoacoustical training on pitch discrimination, Hearing Research 219", "url": "https://doi.org/10.1016/j.heares.2006.05.004"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

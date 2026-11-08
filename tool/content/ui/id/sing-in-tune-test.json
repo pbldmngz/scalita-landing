@@ -3,12 +3,11 @@
     "label": "Mode",
     "sing": "Nyanyikan nada",
     "tuner": "Tuner bebas",
-    "ear": "Cek dengar"
+    "ear": "Tes telinga"
   },
   "intro": {
     "sing": "Piano memainkan satu nada. Lalu mikrofon terbuka dan kamu menyanyikan nada itu kembali, dengan vokal apa saja atau dengan humming. Lima nada, satu per satu.",
-    "tuner": "Nyanyikan nada apa saja, atau lakukan humming. Halaman ini menunjukkan nada apa itu dan seberapa jauh kamu dari tengahnya, dalam sen.",
-    "ear": "Dua nada piano berbunyi, satu setelah yang lain. Apakah nada kedua lebih tinggi atau lebih rendah? Tiga pasang, dan mikrofon tetap mati."
+    "tuner": "Nyanyikan nada apa saja, atau lakukan humming. Halaman ini menunjukkan nada apa itu dan seberapa jauh kamu dari tengahnya, dalam sen."
   },
   "voice": {
     "label": "Nada untuk",
@@ -36,10 +35,6 @@
       "one": "{n} sen",
       "other": "{n} sen"
     },
-    "semitones": {
-      "one": "{n} setengah nada",
-      "other": "{n} setengah nada"
-    },
     "short": "{n}c"
   },
   "result": {
@@ -64,23 +59,13 @@
     "ctaBody": "Latihan Ketepatan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
     "ctaButton": "Unduh Scalita di Google Play"
   },
+  "next": {
+    "range": "Tantangan berikutnya: range vokalmu",
+    "guide": "Berikutnya: latih dasarnya"
+  },
   "tuner": {
     "hint": "Nyanyikan nada apa saja, atau lakukan humming.",
     "nearest": "Nada terdekat"
-  },
-  "ear": {
-    "label": "Lebih tinggi atau lebih rendah",
-    "pairOf": "Pasangan {n} dari {total}",
-    "question": "Apakah nada kedua lebih tinggi atau lebih rendah?",
-    "higher": "Lebih tinggi",
-    "lower": "Lebih rendah",
-    "again": "Putar lagi",
-    "wentUp": "Nada kedua lebih tinggi, naik {step}.",
-    "wentDown": "Nada kedua lebih rendah, turun {step}.",
-    "score": "Kamu menangkap arah {right} dari {total} pasangan.",
-    "all": "Arahnya tetap tertangkap sampai jarak setengah nada, langkah terkecil di piano.",
-    "some": "Langkah terkecil memang paling sulit didengar di awal. Headphone dan ruangan yang tenang membantu.",
-    "toSing": "Nyanyikan kembali sebuah nada"
   },
   "meter": "Level mikrofon",
   "pianoFailed": "Piano gagal dimuat. Periksa koneksimu, lalu coba lagi.",

@@ -1,0 +1,65 @@
+{
+  "intro": "O piano toca duas notas, uma depois da outra. A segunda foi mais aguda ou mais grave? Cada passo que você ouve deixa o próximo menor. Depois, quatro melodias curtas: iguais ou diferentes? Sem microfone, cerca de dois minutos.",
+  "tip": "Fones ou um lugar silencioso ajudam nos menores passos.",
+  "pianoFailed": "O piano não carregou. Confira sua conexão e tente de novo.",
+  "units": {
+    "cents": {
+      "one": "{n} cent",
+      "other": "{n} cents"
+    },
+    "semitones": {
+      "one": "{n} semitom",
+      "other": "{n} semitons"
+    },
+    "short": "{n}c"
+  },
+  "run": {
+    "stepOf": "Passo {n} de {total} · {step}",
+    "question": "A segunda nota foi mais aguda ou mais grave?",
+    "higher": "Mais aguda",
+    "lower": "Mais grave",
+    "again": "Ouvir de novo",
+    "wentUp": "Ela subiu.",
+    "wentDown": "Ela desceu.",
+    "melodiesNext": "Agora, quatro melodias curtas.",
+    "melodyOf": "Melodia {n} de {total}",
+    "sameQuestion": "As duas melodias eram iguais?",
+    "same": "Iguais",
+    "different": "Diferentes",
+    "wereSame": "Elas eram iguais.",
+    "wereDifferent": "Uma nota era diferente."
+  },
+  "result": {
+    "label": "Menor passo que você ouviu",
+    "finer": "É mais fino que os 25 cents que o Scalita conta como desafinado quando você canta uma nota, então você ouve uma nota escorregar antes de o app considerá-la desafinada.",
+    "same": "É o passo que o Scalita conta como desafinado quando você canta uma nota, então você ouve uma nota escorregar até aí.",
+    "wider": "Os passos menores que {cents} são os próximos a ouvir. O ouvido fica mais fino com a prática: num estudo, não músicos alcançaram músicos treinados depois de poucas horas.",
+    "none": "Desta vez foi difícil distinguir os passos de um semitom. Fones, um lugar silencioso e outra tentativa costumam mudar isso.",
+    "steps": "Passos ouvidos",
+    "melodies": "Melodias diferenciadas",
+    "count": "{n} de {total}",
+    "cent": "100 cents formam um semitom, de uma tecla do piano à seguinte.",
+    "sample": "Uma rodada é uma leitura rápida, e toda resposta tem um pouco de sorte. Outra rodada vai mexer o resultado em mais ou menos um passo.",
+    "last": "{label}: {step}, em {date}",
+    "lastNone": "nenhum passo ainda",
+    "again": "Tentar de novo",
+    "ctaBody": "O Treino de precisão do Scalita leva o que você ouve para a sua voz: acerte notas com um traço de afinação ao vivo, ou repita saltos de músicas, na sua própria extensão. Grátis no Android, sem conta.",
+    "ctaButton": "Baixe o Scalita no Google Play"
+  },
+  "next": {
+    "kicker": "Próximo desafio",
+    "title": "Ouvir é metade. Você consegue cantar?",
+    "body": "O teste de afinação toca uma nota e mede o quão perto você canta de volta, em cents.",
+    "button": "Fazer o teste de afinação"
+  },
+  "share": {
+    "title": "O menor passo que eu consigo ouvir",
+    "cents": "cents",
+    "line": "entre duas notas de piano, mais aguda ou mais grave",
+    "melodies": "{n} de {total} melodias diferenciadas",
+    "pairs": "Cada par são duas notas de piano, mais próximas a cada passo. Um cent é a centésima parte de um semitom.",
+    "ask": "Qual o menor passo que você ouve?",
+    "text": "Eu ouvi um passo de {cents} entre duas notas de piano. Teste o seu ouvido de graça no navegador:",
+    "fileName": "meu-teste-de-ouvido"
+  }
+}

@@ -1830,6 +1830,10 @@ button.key {
   color: var(--seafoam);
 }
 
+/* The tools hub's odd tile out takes the whole row, its drawing at its size (hub.css is at its budget) */
+.hub-tiles > :last-child:nth-child(odd) { grid-column: 1 / -1; }
+.hub-tiles > :last-child:nth-child(odd) .tile__preview--desktop .hub-pv { max-height: 190px; }
+
 .result__cta {
   display: flex;
   flex-wrap: wrap;

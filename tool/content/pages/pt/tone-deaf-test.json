@@ -1,0 +1,84 @@
+{
+  "slug": "teste-de-ouvido-musical",
+  "label": "Teste de ouvido",
+  "title": "Teste de ouvido musical: você ouve notas quase iguais? - Scalita",
+  "description": "Será que sou surdo musical? Duas notas de piano, mais aguda ou mais grave, num passo que cai de um semitom a 3 cents, e quatro melodias. Grátis, sem microfone.",
+  "h1": "Teste de ouvido musical",
+  "lead": "O piano toca duas notas e você diz se a segunda subiu ou desceu. Cada passo que você ouve deixa o próximo menor, de um semitom até 3 cents. Quatro melodias curtas fecham o teste, e o resultado é o menor passo que você ouviu.",
+  "tile": "O menor passo entre duas notas que você consegue ouvir.",
+  "oneLine": "Mais aguda ou mais grave? Veja o menor passo que você ouve.",
+  "appBand": "Ouvir uma nota é a primeira metade, e cantar é a segunda. O Treino de precisão do Scalita trabalha as duas: acerte notas com um traço de afinação ao vivo, ou repita saltos de músicas, na sua própria extensão. Grátis no Android, sem conta.",
+  "referenceHeading": "Sobre o teste",
+  "toolId": "ear-test",
+  "instructions": "<h2>Como fazer o teste</h2><ol><li>Aperte Iniciar. A página só toca o piano, então nunca pede o microfone.</li><li>Ouça as duas notas e escolha Mais aguda ou Mais grave. Ouvir de novo toca o par mais uma vez.</li><li>Dois acertos levam você a um passo menor. Dois erros no mesmo passo encerram esta parte.</li><li>Depois vêm quatro pares de melodias curtas. Diga se cada par era igual ou se uma nota mudou.</li><li>Fones ou um lugar silencioso ajudam nos menores passos.</li></ol>",
+  "sampleResult": "<h2>Como fica um resultado</h2><ul><li>Menor passo que você ouviu: 12 cents</li><li>Passos ouvidos: 4 de 6</li><li>Melodias diferenciadas: 4 de 4</li></ul><p>12 cents é cerca de um oitavo de semitom. É mais fino que os 25 cents que o app Scalita conta como desafinado quando você canta uma nota, então essa pessoa consegue ouvir uma nota escorregar antes de o app considerá-la desafinada.</p>",
+  "notClaimed": "<h2>O que este teste não diz</h2><p>É uma escuta rápida com notas de piano, não um exame de audição nem um diagnóstico. Um resultado é uma leitura de um dia, com um alto-falante ou um fone específico, e no chute você acerta metade das respostas, então a sorte conta. Ele não diz se você tem amusia congênita: para isso, os pesquisadores usam baterias de testes mais longas e uma avaliação completa. Ele também não diz nada sobre a sua voz. Ouvir um passo e cantá-lo são habilidades separadas, e o <a href=\"page:sing-in-tune-test\">teste de afinação</a> mede a segunda.</p>",
+  "sections": [
+    {
+      "heading": "O que o teste mede",
+      "html": "<p>Diferenças de altura são medidas em cents. Um semitom, o passo de uma tecla do piano para a seguinte, tem 100 cents. O teste toca duas notas e pergunta para que lado a segunda foi. Ele começa com um semitom inteiro e corta o passo pela metade cada vez que você o ouve: 50 cents, 25, 12, 6 e por fim 3.</p><p>Cada passo tem até três pares. Dois acertos contam o passo como ouvido e levam você adiante. Dois erros no mesmo passo encerram essa parte, e o último passo que você ouviu é o seu resultado. Depois vêm as melodias: duas melodias de cinco notas, tocadas uma depois da outra, iguais ou com uma nota deslocada um semitom para fora do tom.</p>"
+    },
+    {
+      "heading": "O que é ser surdo musical",
+      "html": "<p>O que as pessoas chamam de surdez musical tem nome: amusia congênita, uma dificuldade de vida inteira para perceber a altura na música. Um estudo com 20 mil pessoas estimou que ela atinge cerca de 1,5 por cento da população (Peretz e Vuvan, 2017). Nos experimentos de Hyde e Peretz (2004), adultos com amusia tinham dificuldade para ouvir uma nota subir ou descer por diferenças que os outros adultos ouviam com facilidade, e a prática não os ajudava, enquanto as mudanças de ritmo eles ouviam tão bem quanto qualquer pessoa.</p><p>Os pesquisadores fazem a triagem com testes mais longos, como a Bateria de Avaliação de Amusia de Montreal, cujos testes de melodia perguntam se duas melodias são iguais ou diferentes. A parte de melodias daqui pega essa forma emprestada, em quatro pares em vez de dezenas.</p>"
+    },
+    {
+      "heading": "Ouvir e cantar são habilidades diferentes",
+      "html": "<p>A maioria das pessoas que cantam fora da nota ouve a altura normalmente. Nos experimentos de Pfordresher e Brown (2007), de 10 a 15 por cento dos participantes cantavam as notas de volta com pelo menos um semitom de diferença, e distinguiam alturas tão bem quanto os que cantavam na nota. Para a maioria, a parte difícil é levar a voz até uma nota que já consegue ouvir.</p><p>Então, se os passos aqui foram bem, cantar afinado é outra coisa a medir. O <a href=\"page:sing-in-tune-test\">teste de afinação</a> toca uma nota e mostra o quão perto você canta de volta, e <a href=\"page:how-to-sing-in-tune\">como cantar afinado</a> traz os primeiros exercícios para praticar.</p>"
+    },
+    {
+      "heading": "O ouvido fica mais fino com a prática",
+      "html": "<p>Distinguir passos pequenos é uma habilidade, não um traço fixo. Num estudo, os limiares dos não músicos começaram mais de seis vezes maiores que os de músicos clássicos. Depois de 4 a 8 horas de prática com o mesmo tipo de tarefa de mais agudo ou mais grave, eles tinham alcançado os músicos (Micheyl e colegas, 2006).</p>"
+    },
+    {
+      "heading": "Se você não ouvir nada",
+      "html": "<p>Aumente o volume e aperte Iniciar de novo. No celular, confira se o som não está indo para uma caixinha Bluetooth ou para fones que você esqueceu. Se o piano não carregar, a página avisa: confira sua conexão e tente de novo.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Será que eu sou surdo musical?",
+      "a": "<p>Provavelmente não. A amusia congênita, uma dificuldade de vida inteira com a altura, atinge cerca de 1,5 por cento das pessoas. A maioria de quem acha que é surdo musical ouve a altura normalmente, e o difícil é cantar uma nota que consegue ouvir. Este teste mostra o menor passo que você ouve. O <a href=\"page:sing-in-tune-test\">teste de afinação</a> mostra o quão perto você canta.</p>"
+    },
+    {
+      "q": "Que resultado devo esperar?",
+      "a": "<p>Não existe nota de corte. Como referência, o app Scalita conta uma nota cantada como desafinada quando ela fica a mais de 25 cents, e no estudo de Micheyl e colegas os músicos treinados ouviam diferenças bem menores que os não músicos antes da prática.</p>"
+    },
+    {
+      "q": "Por que o resultado mudou desta vez?",
+      "a": "<p>Cada resposta é mais aguda ou mais grave, então um chute acerta metade das vezes, e um chute de sorte ou de azar pode mexer o resultado em um passo. Cansaço, um lugar barulhento e alto-falantes pequenos também pesam. Faça o teste algumas vezes e veja onde ele costuma ficar.</p>"
+    },
+    {
+      "q": "Preciso de fones?",
+      "a": "<p>Não. Qualquer alto-falante que você ouça bem serve, e os fones ajudam mais nos passos de 6 e 3 cents. O teste nunca usa o microfone.</p>"
+    },
+    {
+      "q": "Dá para treinar o ouvido?",
+      "a": "<p>Dá. A discriminação de altura melhora com a prática, muitas vezes em poucas horas, como o estudo acima mostrou. Cantar também ajuda: acertar notas treina você a escutar onde a sua voz está em relação à nota.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Peretz e Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    },
+    {
+      "label": "Hyde e Peretz (2004), Brains that are out of tune but in time, Psychological Science 15(5)",
+      "url": "https://doi.org/10.1111/j.0956-7976.2004.00683.x"
+    },
+    {
+      "label": "Peretz, Champod e Hyde (2003), Varieties of musical disorders: the Montreal Battery of Evaluation of Amusia, Annals of the New York Academy of Sciences 999",
+      "url": "https://doi.org/10.1196/annals.1284.006"
+    },
+    {
+      "label": "Pfordresher e Brown (2007), um estudo sobre canto fora da nota e percepção de altura, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Micheyl, Delhommeau, Perrot e Oxenham (2006), Influence of musical and psychoacoustical training on pitch discrimination, Hearing Research 219",
+      "url": "https://doi.org/10.1016/j.heares.2006.05.004"
+    }
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

@@ -1,0 +1,39 @@
+/* The ear test's et- pieces; the stage, st-idle, st-ear, st-question and st-answer are style.css's and tool-tune.css's */
+
+/* The run's height, reserved from the first paint: Start moves nothing */
+.tool-panel[data-tool="ear-test"] { min-height: 470px; }
+.et-panel > .tool-panel__state { gap: 0; align-items: stretch; justify-content: flex-start; text-align: left; }
+.et-tip { color: var(--soft); font-size: 13px; }
+.et-tip svg { display: inline; margin-right: 6px; vertical-align: -3px; stroke: var(--slate); }
+
+/* The steps: a pair of bars each, as far apart as the step, closer and closer */
+.et-ladder { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 10px; width: 100%; max-width: 420px; margin: 0 0 8px; padding: 0; list-style: none; }
+.et-rung { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 64px; color: var(--slate); font-size: 11px; }
+.et-rung::before, .et-rung::after { content: ''; position: absolute; left: 18%; right: 18%; height: 3px; border-radius: 2px; background: var(--mist); }
+.et-rung::before { top: calc(22px - var(--gap) / 2); }
+.et-rung::after { top: calc(22px + var(--gap) / 2); }
+.et-rung:nth-child(1) { --gap: 36px; }
+.et-rung:nth-child(2) { --gap: 22px; }
+.et-rung:nth-child(3) { --gap: 14px; }
+.et-rung:nth-child(4) { --gap: 9px; }
+.et-rung:nth-child(5) { --gap: 6px; }
+.et-rung:nth-child(6) { --gap: 4px; }
+.et-rung--heard { color: var(--seafoam); }
+.et-rung--heard::before, .et-rung--heard::after { background: var(--ocean); }
+.et-rung--now { color: var(--cream); }
+.et-rung--now::before, .et-rung--now::after { background: var(--glow); box-shadow: 0 0 8px var(--glow); }
+/* The next challenge: the sing-in-tune test */
+.et-next { display: flex; flex-direction: column; align-items: flex-start; gap: 8px; padding: 18px 20px; }
+.et-next .kicker { margin: 0; }
+.et-next__title { color: var(--cream); font-size: 17px; font-weight: 500; line-height: 1.35; }
+.et-next__body { color: var(--soft); font-size: 14px; line-height: 1.55; }
+.et-said { display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+.et-said--ok svg { stroke: var(--seafoam); }
+
+@media (max-width: 959.98px) {
+  .tool-panel[data-tool="ear-test"] { min-height: 760px; }
+}
+@media (max-width: 599.98px) {
+  .tool-panel[data-tool="ear-test"] { min-height: 560px; }
+  .et-ladder { gap: 6px; }
+}

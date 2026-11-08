@@ -198,6 +198,14 @@ def glyph(ctx, page):
                 '<g font-size="10" fill="#A8B5BA" text-anchor="middle"><text x="16" y="54">&#8722;50</text>'
                 '<text x="120" y="54">0</text><text x="224" y="54">+50</text></g>'
                 % (ticks, x, x, x, ctx.esc(cents)))
+    if page == "tone-deaf-test":
+        # Six pairs of notes, each closer than the last, three of them heard.
+        out = ""
+        for n, gap in enumerate((36, 22, 14, 9, 6, 4)):
+            x, colour = 14 + n * 38, "#8AC4C7" if n < 3 else "#3A4548"
+            out += '<path d="M%d %.1fh24M%d %.1fh24" stroke="%s" stroke-width="3" stroke-linecap="round"/>' % (
+                x, 26 - gap / 2.0, x, 26 + gap / 2.0, colour)
+        return out + '<text x="120" y="54" font-size="10" fill="#A8B5BA" text-anchor="middle">100 · 50 · 25 · 12 · 6 · 3</text>'
     if page == "warm-up-piano":
         # Fourteen keys from C, a five-note scale lit (G to D). No outlines:
         # small gaps, bottom corners rounded to a quarter of a white key's

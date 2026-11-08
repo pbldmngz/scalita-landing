@@ -1,0 +1,65 @@
+{
+  "intro": "Deux notes de piano sonnent l'une après l'autre. La deuxième était-elle plus haute ou plus basse ? Chaque écart que tu entends rend le suivant plus petit. Puis quatre courtes mélodies : deux fois la même, ou différentes ? Sans micro, environ deux minutes.",
+  "tip": "Un casque ou une pièce calme aident pour les plus petits écarts.",
+  "pianoFailed": "Le piano n'a pas pu se charger. Vérifie ta connexion et réessaie.",
+  "units": {
+    "cents": {
+      "one": "{n} cent",
+      "other": "{n} cents"
+    },
+    "semitones": {
+      "one": "{n} demi-ton",
+      "other": "{n} demi-tons"
+    },
+    "short": "{n} c"
+  },
+  "run": {
+    "stepOf": "Écart {n} sur {total} · {step}",
+    "question": "La deuxième note était-elle plus haute ou plus basse ?",
+    "higher": "Plus haute",
+    "lower": "Plus basse",
+    "again": "Réécouter",
+    "wentUp": "Elle est montée.",
+    "wentDown": "Elle est descendue.",
+    "melodiesNext": "Maintenant, quatre courtes mélodies.",
+    "melodyOf": "Mélodie {n} sur {total}",
+    "sameQuestion": "Les deux mélodies étaient-elles identiques ?",
+    "same": "Identiques",
+    "different": "Différentes",
+    "wereSame": "Elles étaient identiques.",
+    "wereDifferent": "Une note était différente."
+  },
+  "result": {
+    "label": "Le plus petit écart entendu",
+    "finer": "C'est plus fin que les 25 cents au-delà desquels Scalita compte une note chantée comme fausse : tu entends donc une note dériver avant que l'application ne la compte fausse.",
+    "same": "C'est l'écart à partir duquel Scalita compte une note chantée comme fausse : tu entends donc une note dériver de cet écart.",
+    "wider": "Les écarts de moins de {cents} sont les prochains à entendre. L'oreille s'affine avec la pratique : dans une étude, des non-musiciens ont rattrapé des musiciens formés en quelques heures.",
+    "none": "Les écarts d'un demi-ton étaient difficiles à distinguer cette fois. Un casque, une pièce calme et un nouvel essai changent souvent la donne.",
+    "steps": "Écarts entendus",
+    "melodies": "Mélodies distinguées",
+    "count": "{n} sur {total}",
+    "cent": "100 cents font un demi-ton, d'une touche du piano à la suivante.",
+    "sample": "Une série, c'est une mesure rapide, et chaque réponse comporte un peu de chance. Une autre série la fera bouger d'un écart environ.",
+    "last": "{label} : {step}, {date}",
+    "lastNone": "aucun écart pour l'instant",
+    "again": "Réessayer",
+    "ctaBody": "L'Entraînement de précision de Scalita fait passer de l'écoute au chant : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+    "ctaButton": "Télécharger Scalita sur Google Play"
+  },
+  "next": {
+    "kicker": "Défi suivant",
+    "title": "L'entendre, c'est la moitié. Sauras-tu la chanter ?",
+    "body": "Le test de justesse joue une note, puis mesure ton écart en cents quand tu la rechantes.",
+    "button": "Passer le test de justesse"
+  },
+  "share": {
+    "title": "Le plus petit écart que j'entends",
+    "cents": "cents",
+    "line": "entre deux notes de piano, plus haute ou plus basse",
+    "melodies": "{n} mélodies sur {total} distinguées",
+    "pairs": "Chaque paire, ce sont deux notes de piano, plus proches à chaque étape. Un cent est un centième de demi-ton.",
+    "ask": "Et toi, jusqu'où tu entends ?",
+    "text": "J'ai entendu un écart de {cents} entre deux notes de piano. Teste ton oreille gratuitement dans ton navigateur :",
+    "fileName": "mon-test-d-oreille"
+  }
+}

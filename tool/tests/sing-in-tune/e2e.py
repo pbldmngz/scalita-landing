@@ -22,8 +22,8 @@ the repo around a page holding the tool's mount point, and checks:
 - hear it again replays the note, and the turns still never overlap;
 - last time shows on the next visit;
 - the free tuner, with reduced motion, keeps working;
-- higher or lower by keyboard alone: three right answers give 3 of 3, and
-  no microphone;
+- the third choice of the mode switcher is a link to the ear test's page
+  (the old listening check is that page now, tool/tests/e2e/run.py's ear);
 - the range test's saved range picks the notes, and Stop silences both;
 - a tab sent to the background stops the round with its mic.json string;
 - an in-app browser gets the open-in-your-browser panel;
@@ -312,26 +312,6 @@ def idle_text(run):
     return run.eval("document.querySelector('.tool-panel__state--idle:not([hidden])').textContent")
 
 
-def ear_by_keyboard(run, label):
-    """The listening check with the keyboard alone: Enter and Tab."""
-    run.page.focus('.seg[data-mode="ear"]')
-    run.page.keyboard.press('Enter')
-    run.page.keyboard.press('Tab')
-    run.page.keyboard.press('Enter')
-    for k in range(3):
-        run.page.wait_for_function("document.activeElement && document.activeElement.textContent === %s && !document.activeElement.disabled"
-                                   % json.dumps(UI['ear']['higher']), timeout=15000)
-        up = run.eval('window.__scalitaTest.events.filter((e) => e.pair === %d).pop().up' % k)
-        if not up:
-            run.page.keyboard.press('Tab')
-        run.page.keyboard.press('Enter')
-        run.page.wait_for_function("document.activeElement && document.activeElement.textContent === %s"
-                                   % json.dumps(COMMON['next']), timeout=5000)
-        run.page.keyboard.press('Enter')
-    run.page.wait_for_selector('.tool-panel__state--result:not([hidden])')
-    return result_text(run), run.eval('document.activeElement.textContent')
-
-
 def fmt_note(n, total=5):
     return UI['sing']['noteOf'].replace('{n}', str(n)).replace('{total}', str(total))
 
@@ -382,7 +362,11 @@ def main():
             k = cta(run)
             checks.append(('sing-a4: off Android, the Android-only line and no Play button',
                            k['href'] is None and pd['androidOnlyLine'] in k['text'] and UI['result']['ctaBody'] in k['text'], k))
-            run.page.click('.tool-panel__state--result button >> text="%s"' % UI['modes']['tuner'])
+            nxt = run.eval("(document.querySelector('.tool-panel__state--result a.st-next') || {}).href || null")
+            want = pd['links'].get('vocal-range-test')
+            checks.append(('sing-a4: within 25 cents, the next challenge is the range test',
+                           (nxt or '').endswith(want) if want else nxt is None, [nxt, want]))
+            run.chip(UI['modes']['tuner'])
             run.chip(UI['modes']['sing'])
             checks.append(('sing-a4: the next visit shows last time', idle_text(run).count(COMMON['lastTime'] + ': 0c') == 1,
                            idle_text(run)[-120:]))
@@ -431,16 +415,12 @@ def main():
             logs += run.logs
             run.close()
 
-            # 4. Higher or lower: the piano only
-            run = Run(p, origin, wav=a4, config={'seed': 11})
-            r, focused = ear_by_keyboard(run, 'ear')
-            run.shot('ear-result')
-            checks += [
-                ('ear: three right, by keyboard alone, give 3 of 3', r['value'] == '3 of 3', r['value']),
-                ('ear: focus lands on Try again', focused == COMMON['tryAgain'], focused),
-                ('ear: no microphone at all', run.eval('window.__probe.gum') == 0, run.eval('window.__probe.gum')),
-                ('ear: fits 360 px wide', run.overflow() <= 0, run.overflow()),
-            ]
+            # 4. The listening check is the ear test's own page: a link in the switcher
+            run = Run(p, origin, wav=a4)
+            href = run.eval("(document.querySelector('.st-modes a.seg[data-mode=\"ear\"]') || {}).href || null")
+            want = pd['links'].get('tone-deaf-test')
+            checks.append(('ear: the switcher links the ear test, or leaves it out where it is not built',
+                           (href or '').endswith(want) if want else href is None, [href, want]))
             logs += run.logs
             run.close()
 
@@ -492,9 +472,9 @@ def main():
             idle = run.eval("document.querySelector('.tool-panel__state--idle').textContent")
             checks.append(('in-app: the open-in-your-browser panel', COMMON['openInBrowser'] in idle
                            and COMMON['copyLink'] in idle, idle[:200]))
-            run.chip(UI['modes']['ear'])
-            checks.append(('in-app: the listening check still offered',
-                           run.eval("!!document.querySelector('.tool-panel__state--idle .btn--fill')"), None))
+            checks.append(('in-app: the ear test, which needs no microphone, still linked',
+                           not pd['links'].get('tone-deaf-test')
+                           or run.eval("!!document.querySelector('.st-modes a.seg[data-mode=\"ear\"]')"), None))
             run.close()
             for name, code in (('NotFoundError', 'micNotFound'), ('NotAllowedError', 'micBlocked'),
                                ('NotReadableError', 'micBusy')):

@@ -15,14 +15,15 @@
     "toolsLabel": "Startseite und die kostenlosen Tools",
     "getApp": "App laden",
     "closeMenu": "Menü schließen",
-    "toolsHint": "Alle vier kostenlos",
+    "toolsHint": "Alle fünf kostenlos",
     "guidesHint": "{n} Ratgeber",
     "fullscreen": "Vollbild",
     "fullscreenHint": "Alles außer dem Tool und dem Umschalter ausblenden",
     "exitFullscreen": "Vollbild beenden",
     "tabLabels": {
       "vocal-range-test": "Umfang",
-      "sing-in-tune-test": "Intonation",
+      "tone-deaf-test": "Gehör",
+      "sing-in-tune-test": "Treffen",
       "warm-up-piano": "Klavier",
       "voice-break-finder": "Bruch"
     }
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Kostenlose Web-Tools",
       "title": "Probier Scalita gleich hier aus",
-      "lead": "Vier Tools, die direkt auf dieser Seite in deinem Browser laufen, auf dem Telefon oder am Computer. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, so bekommst du einen Vorgeschmack auf Scalita, bevor du irgendetwas herunterlädst. Kein Konto, und nichts, was du singst, verlässt dein Gerät.",
+      "lead": "Fünf Tools, die direkt auf dieser Seite in deinem Browser laufen, auf dem Telefon oder am Computer. Sie nutzen die Tonhöhenerkennung der App, ihr Klavier und ihre Übungen, so bekommst du einen Vorgeschmack auf Scalita, bevor du irgendetwas herunterlädst. Kein Konto, und nichts, was du singst, verlässt dein Gerät.",
       "open": "Im Browser öffnen",
       "openShort": "Im Browser",
       "items": [
@@ -147,9 +148,14 @@
           "body": "Dein tiefster und dein höchster bequemer Ton, in Tönen und Oktaven, mit den Stimmfächern, für die dieser Umfang typisch ist."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Spielt · Ohne Mikrofon",
+          "body": "Zwei Klaviertöne, höher oder tiefer, während der Schritt zwischen ihnen von einem Halbton auf 3 Cent schrumpft. Dann vier kurze Melodien: gleich oder verschieden?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Spielt vor, hört dann zu",
-          "body": "Hör einen Klavierton, sing ihn nach und sieh, wie viele Cent du danebenlagst. Ein kostenloses Stimmgerät und ein Hörcheck sind mit dabei."
+          "body": "Hör einen Klavierton, sing ihn nach und sieh, wie viele Cent du danebenlagst. Ein kostenloses Stimmgerät ist mit dabei."
         },
         {
           "page": "warm-up-piano",

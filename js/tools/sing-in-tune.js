@@ -1,12 +1,13 @@
 /*
  * The sing-in-tune test once Start is tapped, loaded with the engines by
- * sing-in-tune-test.js (the idle panel): the three runs, their results, and
+ * sing-in-tune-test.js (the idle panel): the two runs, their results, and
  * the rules that read a sung note the way the app reads one
  * (scale_scorer.dart, score_analysis.dart).
  *   sing   the piano plays a note, then the microphone opens and the singer
- *          sings it back; five notes
+ *          sings it back; five notes. The result names the next challenge:
+ *          the range test within 25 cents, the beginner guide further off
  *   tuner  the microphone only: the nearest note and how far from its center
- *   ear    the piano only: two notes, higher or lower, three pairs
+ * The listening check is its own page now, the ear test (ear-test.js).
  * The microphone and the piano take turns, never together: a note is
  * scheduled only once every mic track has stopped, and the mic opens only
  * once the piano is silent and has handed the audio session back. Results
@@ -15,7 +16,7 @@
  * note's line from the readings measureNote kept, after the microphone is off.
  * The panes use the stage's markup (css/style.css) and css/tool-tune.css.
  * Tests may set globalThis.__scalitaTest before the page loads: targets (a
- * round's notes), pairs (the listening check's), seed, and events, where
+ * round's notes), seed, and events, where
  * every turn is pushed with micLive and pianoBusy as they were then.
  */
 
@@ -29,7 +30,6 @@ export const MIN_READINGS = 6; // about 280 ms of believed pitch in a note's mid
 export const IN_TUNE = 10; // cents: the app's two bands (scale_scorer.dart)
 export const CLOSE = 25;
 export const LEAN = 10; // a lean this size is named (score_analysis.dart)
-export const EAR_STEPS = [4, 2, 1];
 const RING_MS = 1200; // the piano's note
 const SING_S = 1.6; // captured once the voice starts
 const MIN_SUNG_S = 0.8; // after this much, a pause of STOP_S ends the note
@@ -147,16 +147,6 @@ export function summarize(notes) {
   return out;
 }
 
-// The listening check's pairs inside a band: steps of 4, 2, 1 semitones,
-// each up or down at random
-export function earPairs([lo, hi], rand) {
-  return EAR_STEPS.map((step) => {
-    const up = rand() < 0.5;
-    const low = lo + Math.floor(rand() * (Math.max(0, hi - lo - step) + 1));
-    return up ? { a: low, b: low + step, up, step } : { a: low + step, b: low, up, step };
-  });
-}
-
 // Icons from the site's shared set (24 x 24); ui.icon draws them
 const REDO = 'M3 12a9 9 0 1 0 3-6.7M3 4v5h5';
 const STOP = 'M8 6h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z';
@@ -165,6 +155,7 @@ const SHARE = 'M12 3v12M8 7l4-4 4 4M5 12v7a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-7';
 const DOWNLOAD = 'M12 4v11M7 10l5 5 5-5M4 20h16';
 const IPHONE = 'M8.5 2h7A2.5 2.5 0 0 1 18 4.5v15a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 6 19.5v-15A2.5 2.5 0 0 1 8.5 2zM11 18h2';
 const TUNE = 'M4 12a8 8 0 1 0 16 0a8 8 0 1 0-16 0M9 12a3 3 0 1 0 6 0a3 3 0 1 0-6 0M12 2v4M12 18v4M2 12h4M18 12h4';
+const ARROW = 'M5 12h14M13 6l6 6-6 6';
 const TICKS = [-50, -25, 0, 25, 50];
 
 // The cents meter along the top and the trail under it, on one canvas, in
@@ -341,7 +332,7 @@ export function begin(ui, my, E) {
   };
   // the screen stays on from Start to the result, the piano's turns included
   keepAwake('tune', true);
-  ui.onHide = () => (ui.mode === 'sing' ? ui.fail('micHidden') : ui.mode === 'ear' && E.piano.stopAll());
+  ui.onHide = () => ui.mode === 'sing' && ui.fail('micHidden');
   if (usesPiano) {
     E.piano.init(pd.piano && pd.piano.manifest, (pd.piano && pd.piano.base) || '/audio/piano-web/');
     E.piano.useContext(ui.ctx);
@@ -659,6 +650,16 @@ export function begin(ui, my, E) {
     }, 'btn-secondary', null, ic);
   }
 
+  // The next challenge, by how close the round landed: within 25 cents the
+  // range test, further off the beginner guide; in the place of the tuner's
+  // button (the switcher has the tuner), so the result is no taller. The
+  // tuner's button where the page has neither in its locale
+  function nextStep(sum) {
+    const L = pd.links || {};
+    const [id, key] = sum.off <= CLOSE ? ['vocal-range-test', t('next.range')] : ['how-to-sing-in-tune', t('next.guide')];
+    return L[id] ? h('a', { class: 'btn btn-secondary st-next', href: L[id] }, key, icon(ARROW)) : other('tuner', '', icon(TUNE));
+  }
+
   function facts(rows) {
     return h('dl', { class: 'result-card__facts' }, ...rows.map(([k, v]) => h('div', {}, h('dt', { text: k }), h('dd', { text: v }))));
   }
@@ -758,91 +759,10 @@ export function begin(ui, my, E) {
     }
     const again = ui.button(t('result.again'), ui.start, 'btn--fill', null, icon(REDO));
     resV.replaceChildren(h('div', { class: 'st-result' }, card, side.length ? h('div', { class: 'st-side' }, ...side) : null),
-      cta(), h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, other('tuner', '', icon(TUNE)))));
+      cta(), h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again,
+        sum.enough ? nextStep(sum) : other('tuner', '', icon(TUNE)))));
     ui.show(resV, again);
   }
 
-  // The listening check: the piano only
-  async function earRun() {
-    const pairs = test && test.pairs ? test.pairs : earPairs(anyBand(ui.types), random(seed));
-    const status = h('span', { text: c('loading') });
-    const answer = h('p', { class: 'st-answer', text: BLANK });
-    const higher = ui.button(t('ear.higher'), () => answerWith(true), 'btn-secondary btn--lg btn--strong', { disabled: true });
-    const lower = ui.button(t('ear.lower'), () => answerWith(false), 'btn-secondary btn--lg btn--strong', { disabled: true });
-    const again = ui.button(t('ear.again'), () => play(), 'btn-secondary', { disabled: true }, icon(REDO));
-    const next = ui.button(c('next'), () => ask(i + 1), 'btn-primary', { hidden: true });
-    const stop = ui.button(c('stop'), () => ui.halt(), 'btn-secondary', null, icon(STOP, 18, true));
-    let i = 0;
-    let right = 0;
-    let timer = 0;
-    view = {};
-    runV.classList.remove('tool-panel__state--listening');
-    runV.replaceChildren(h('div', { class: 'stage__head' }, h('p', { class: 'stage__status tool-panel__status' }, status)),
-      h('div', { class: 'st-ear' }, h('p', { class: 'st-question', text: t('ear.question') }),
-        h('div', { class: 'tool-panel__actions' }, higher, lower), answer),
-      h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, next, stop)));
-    ui.show(runV, stop);
-    const bufs = await Promise.all(pairs.flatMap((p) => [p.a, p.b]).map((m) => E.piano.ensureNote(m)));
-    if (gone()) return;
-    if (bufs.some((b) => !b)) return ui.fail('pianoFailed');
-
-    function play() {
-      if (gone() || !ui.ctx) return;
-      if (ui.ctx.state !== 'running') ui.ctx.resume().catch(() => {});
-      const p = pairs[i];
-      E.piano.stopAll();
-      const t0 = E.piano.getContext().currentTime + 0.05;
-      hook('piano', { midi: p.a, pair: i, up: p.up });
-      E.piano.playNote(p.a, { when: t0, ringMs: 900 });
-      E.piano.playNote(p.b, { when: t0 + 1, ringMs: 1300 });
-      clearTimeout(timer);
-      timer = setTimeout(() => {
-        if (gone() || !next.hidden) return;
-        higher.disabled = lower.disabled = again.disabled = false;
-        // A disabled button takes no focus: give it now, unless the reader went elsewhere
-        const a = document.activeElement;
-        if (!a || a === document.body || (ui.el.contains(a) && a !== again)) higher.focus({ preventScroll: true });
-      }, 1050);
-    }
-
-    function ask(k) {
-      if (gone()) return;
-      if (k >= pairs.length) return earResult(right, pairs.length);
-      i = k;
-      status.textContent = fmt(t('ear.pairOf'), { n: k + 1, total: pairs.length });
-      answer.textContent = BLANK;
-      next.hidden = true;
-      higher.disabled = lower.disabled = again.disabled = true;
-      ui.say(status.textContent + '. ' + t('ear.question'));
-      play();
-    }
-
-    function answerWith(up) {
-      const p = pairs[i];
-      if (up === p.up) right++;
-      higher.disabled = lower.disabled = true;
-      const step = fmt(plural(t('units.semitones'), p.step), { n: p.step });
-      answer.textContent = fmt(t(p.up ? 'ear.wentUp' : 'ear.wentDown'), { step });
-      ui.say(answer.textContent);
-      next.hidden = false;
-      next.focus({ preventScroll: true });
-    }
-
-    ask(0);
-  }
-
-  function earResult(right, total) {
-    ui.halt(false);
-    const again = ui.button(c('tryAgain'), ui.start, 'btn--fill', null, icon(REDO));
-    resV.replaceChildren(h('div', { class: 'st-result' }, h('div', { class: 'result result-card' },
-      h('p', { class: 'result-card__label', text: t('ear.label') }),
-      h('p', { class: 'result-card__value', text: fmt(t('result.count'), { n: right, total }) }),
-      h('p', { class: 'result-card__note', text: fmt(t('ear.score'), { right, total }) }),
-      h('p', { class: 'result-card__note', text: t(right === total ? 'ear.all' : 'ear.some') }))),
-    h('div', { class: 'stage__actions' }, h('div', { class: 'tool-panel__actions' }, again, other('sing', t('ear.toSing')))));
-    ui.say(fmt(t('ear.score'), { right, total }));
-    ui.show(resV, again);
-  }
-
-  return ui.mode === 'ear' ? earRun() : micRun();
+  return micRun();
 }

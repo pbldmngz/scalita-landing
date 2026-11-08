@@ -55,6 +55,7 @@ TEMPLATE_KEYS = {
     "exercise": ["syllables", "troubleshooting"],
     "pattern": ["scaleId", "localBox"],
     "concept": ["shortAnswer", "listenFor", "misconceptions", "seeProfessional"],
+    "skill": ["shortAnswer", "troubleshooting"],
     "library": [],
 }
 FILLED = {
@@ -67,12 +68,13 @@ FILLED = {
     "exercise": ["syllables", "troubleshooting", "sources"],
     "pattern": ["scaleId", "sections", "sources"],
     "concept": ["shortAnswer", "listenFor", "misconceptions", "seeProfessional", "sections", "sources"],
+    "skill": ["shortAnswer", "troubleshooting", "sections", "sources"],
     "library": ["sections", "sources"],
 }
 
 # Ceilings for the written words of an English page (section 4.2 of the
 # plan): ceilings, not targets. A translation may run a third longer.
-WORDS = {"routine": 900, "exercise": 800, "pattern": 800, "concept": 1200,
+WORDS = {"routine": 900, "exercise": 800, "pattern": 800, "concept": 1200, "skill": 1000,
          "voice_types_hub": 1300, "library": 500}
 
 # Fields that hold HTML; every other string is plain text and is escaped.
@@ -101,6 +103,7 @@ NEW_SITE_KEYS = ["nav.tools", "nav.guides", "footer.toolsHeading", "footer.guide
                  "nav.home", "nav.siteLabel", "nav.toolsLabel", "nav.getApp", "nav.closeMenu",
                  "nav.toolsHint", "nav.guidesHint", "nav.fullscreen", "nav.fullscreenHint",
                  "nav.exitFullscreen", "nav.tabLabels.vocal-range-test", "nav.tabLabels.sing-in-tune-test",
+                 "nav.tabLabels.tone-deaf-test",
                  "nav.tabLabels.warm-up-piano", "nav.tabLabels.voice-break-finder", "cta.inApp",
                  "cta.hubHeading", "cta.free", "cta.iphone", "cta.comingSoon", "cta.iphoneLabel",
                  "index.tools.kicker", "index.tools.title", "index.tools.lead",
@@ -123,7 +126,8 @@ SAME_AS_ENGLISH_OK = {("*", "byline.name"), ("de", "sections.tools"), ("de", "na
                       ("id", "nav.tabLabels.vocal-range-test")}
 
 # The ui files the first wave needs (A2 of the brief).
-UI_FILES = ["common", "mic", "vocal-range-test", "sing-in-tune-test", "player", "voice-break-finder", "templates"]
+UI_FILES = ["common", "mic", "vocal-range-test", "ear-test", "sing-in-tune-test", "player", "voice-break-finder",
+            "templates"]
 
 # Words that are a verdict on a voice: beauty and percentiles. Never in what a
 # tool says (ui files, sample results); a warning anywhere else, where a page

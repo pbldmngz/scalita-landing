@@ -1,5 +1,5 @@
-"""TT, a tool page: the vocal range test, the sing-in-tune test, the warm-up
-piano and the voice break finder.
+"""TT, a tool page: the vocal range test, the ear test (tone-deaf-test), the
+sing-in-tune test, the warm-up piano and the voice break finder.
 
 The tool comes first (docs/specs/site-redesign-spec.md in the app repo, 3.7):
 
@@ -39,8 +39,10 @@ import _parts as p
 RELATED = {
     "vocal-range-test": ["voice-types", "voice-cracks-high-notes", "head-voice-vs-chest-voice",
                          "note-names-octaves", "vocal-warm-ups", "voice-break-finder", "warm-up-piano"],
-    "sing-in-tune-test": ["note-names-octaves", "five-note-scale", "vocal-warm-ups", "head-voice-vs-chest-voice",
-                          "voice-types", "warm-up-piano", "vocal-range-test"],
+    "ear-test": ["how-to-sing-in-tune", "five-note-scale", "note-names-octaves", "vocal-warm-ups", "voice-types",
+                 "sing-in-tune-test", "vocal-range-test"],
+    "sing-in-tune-test": ["how-to-sing-in-tune", "five-note-scale", "note-names-octaves", "vocal-warm-ups",
+                          "voice-types", "vocal-range-test", "warm-up-piano", "tone-deaf-test"],
     "player": ["vocal-warm-ups", "full-vocal-warm-up", "quick-vocal-warm-up", "five-note-scale", "lip-trills",
                "vocal-range-test", "voice-break-finder"],
     "voice-break-finder": ["voice-cracks-high-notes", "head-voice-vs-chest-voice", "voice-types", "lip-trills",
@@ -53,6 +55,7 @@ LISTENS = {"vocal-range-test", "sing-in-tune-test"}
 # Each tool's own stylesheet, besides style.css, chrome.css and tool.css
 # (build.py adds tool-player.css wherever a player mounts).
 CSS = {"vocal-range-test": ["tool-range.css"], "sing-in-tune-test": ["tool-tune.css"],
+       "ear-test": ["tool-tune.css", "tool-ear.css"],
        "voice-break-finder": ["tool-player.css"]}
 
 # What the warm-up piano opens on.
@@ -268,7 +271,7 @@ def render(ctx):
         reference(ctx, related),
     ])
     out = p.result(body, players)
-    if tool in ("player", "voice-break-finder"):
+    if tool in ("player", "voice-break-finder", "ear-test"):
         # the stage's "No microphone" pill, as on the hub's tiles (not on a guide's player)
         out["page_data"]["strings"] = {"templates": {"tool": {"noMic": ctx.ui["templates"]["tool"]["noMic"]}}}
     out["css"] = ["tool.css"] + CSS.get(tool, [])

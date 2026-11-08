@@ -1,0 +1,59 @@
+{
+  "intro": "Zwei Klaviertöne erklingen nacheinander. War der zweite höher oder tiefer? Jeder Schritt, den du hörst, macht den nächsten kleiner. Dann vier kurze Melodien: zweimal gleich oder verschieden? Ohne Mikrofon, etwa zwei Minuten.",
+  "tip": "Kopfhörer oder ein ruhiger Raum helfen bei den kleinsten Schritten.",
+  "pianoFailed": "Das Klavier hat nicht geladen. Prüf deine Verbindung und versuch es nochmal.",
+  "units": {
+    "cents": {"one": "{n} Cent", "other": "{n} Cent"},
+    "semitones": {"one": "{n} Halbton", "other": "{n} Halbtöne"},
+    "short": "{n} c"
+  },
+  "run": {
+    "stepOf": "Schritt {n} von {total} · {step}",
+    "question": "War der zweite Ton höher oder tiefer?",
+    "higher": "Höher",
+    "lower": "Tiefer",
+    "again": "Erneut hören",
+    "wentUp": "Er ging nach oben.",
+    "wentDown": "Er ging nach unten.",
+    "melodiesNext": "Jetzt vier kurze Melodien.",
+    "melodyOf": "Melodie {n} von {total}",
+    "sameQuestion": "Waren die beiden Melodien gleich?",
+    "same": "Gleich",
+    "different": "Verschieden",
+    "wereSame": "Sie waren gleich.",
+    "wereDifferent": "Ein Ton war anders."
+  },
+  "result": {
+    "label": "Kleinster gehörter Schritt",
+    "finer": "Das ist feiner als die 25 Cent, ab denen Scalita einen gesungenen Ton als daneben zählt. Du hörst also, wie ein Ton wegdriftet, bevor die App ihn als daneben zählen würde.",
+    "same": "Das ist genau der Schritt, ab dem Scalita einen gesungenen Ton als daneben zählt. Du hörst also, wenn ein Ton so weit wegdriftet.",
+    "wider": "Schritte unter {cents} sind die nächsten, die es zu hören gilt. Das Gehör wird mit Übung feiner: In einer Studie holten Nichtmusiker ausgebildete Musiker nach ein paar Stunden ein.",
+    "none": "Die Halbtonschritte waren diesmal schwer zu unterscheiden. Kopfhörer, ein ruhiger Raum und ein weiterer Versuch ändern das oft.",
+    "steps": "Gehörte Schritte",
+    "melodies": "Melodien unterschieden",
+    "count": "{n} von {total}",
+    "cent": "100 Cent sind ein Halbton, von einer Klaviertaste zur nächsten.",
+    "sample": "Ein Durchgang ist eine kurze Messung, und in jeder Antwort steckt ein bisschen Glück. Ein weiterer Durchgang verschiebt sie um etwa einen Schritt.",
+    "last": "{label}: {step}, {date}",
+    "lastNone": "noch kein Schritt",
+    "again": "Nochmal versuchen",
+    "ctaBody": "Das Präzisionstraining in Scalita macht aus Hören Singen: Triff Töne mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+    "ctaButton": "Scalita bei Google Play laden"
+  },
+  "next": {
+    "kicker": "Nächste Herausforderung",
+    "title": "Den Ton hören ist die Hälfte. Kannst du ihn singen?",
+    "body": "Der Töne-treffen-Test spielt einen Ton und misst dann, wie nah du ihn nachsingst, in Cent.",
+    "button": "Zum Töne-treffen-Test"
+  },
+  "share": {
+    "title": "Der kleinste Schritt, den ich höre",
+    "cents": "Cent",
+    "line": "zwischen zwei Klaviertönen, höher oder tiefer",
+    "melodies": "{n} von {total} Melodien unterschieden",
+    "pairs": "Jedes Paar sind zwei Klaviertöne, mit jedem Schritt näher beieinander. Ein Cent ist ein Hundertstel Halbton.",
+    "ask": "Wie fein hörst du?",
+    "text": "Ich habe einen Schritt von {cents} zwischen zwei Klaviertönen gehört. Teste dein Gehör kostenlos im Browser:",
+    "fileName": "mein-gehoertest"
+  }
+}

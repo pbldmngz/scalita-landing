@@ -15,13 +15,14 @@
     "toolsLabel": "Inicio y las herramientas gratuitas",
     "getApp": "Descarga la app",
     "closeMenu": "Cerrar menú",
-    "toolsHint": "Cuatro, gratis",
+    "toolsHint": "Cinco, gratis",
     "guidesHint": "{n} guías",
     "fullscreen": "Pantalla completa",
     "fullscreenHint": "Oculta todo menos la herramienta y el selector",
     "exitFullscreen": "Salir de pantalla completa",
     "tabLabels": {
       "vocal-range-test": "Rango",
+      "tone-deaf-test": "Oído",
       "sing-in-tune-test": "Afinación",
       "warm-up-piano": "Piano",
       "voice-break-finder": "Quiebre"
@@ -137,7 +138,7 @@
     "tools": {
       "kicker": "Herramientas web gratuitas",
       "title": "Prueba Scalita aquí mismo",
-      "lead": "Cuatro herramientas que funcionan en esta misma página, en el navegador del teléfono o en uno de escritorio. Usan la misma lectura de afinación que la app, su piano y sus ejercicios, así que pruebas Scalita antes de descargar nada. Sin cuenta, y nada de lo que cantas sale de tu dispositivo.",
+      "lead": "Cinco herramientas que funcionan en esta misma página, en el navegador del teléfono o en uno de escritorio. Usan la misma lectura de afinación que la app, su piano y sus ejercicios, así que pruebas Scalita antes de descargar nada. Sin cuenta, y nada de lo que cantas sale de tu dispositivo.",
       "open": "Abrir en el navegador",
       "openShort": "En el navegador",
       "items": [
@@ -147,9 +148,14 @@
           "body": "Tu nota más grave cómoda y la más aguda, en notas y octavas, y los tipos de voz que suelen tener ese rango."
         },
         {
+          "page": "tone-deaf-test",
+          "meta": "Piano · Sin micrófono",
+          "body": "Dos notas de piano, más aguda o más grave, con un paso que se reduce de un semitono a 3 centésimas. Luego, cuatro melodías cortas: ¿iguales o distintas?"
+        },
+        {
           "page": "sing-in-tune-test",
           "meta": "Toca y luego te escucha",
-          "body": "Escucha una nota en el piano, cántala y mira a cuántas centésimas quedaste. Incluye un afinador y una prueba de escucha."
+          "body": "Escucha una nota en el piano, cántala y mira a cuántas centésimas quedaste. Incluye un afinador gratis."
         },
         {
           "page": "warm-up-piano",

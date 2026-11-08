@@ -1,0 +1,69 @@
+{
+  "slug": "tontaub-test",
+  "label": "Tontaub-Test",
+  "title": "Tontaub-Test: Wie kleine Tonschritte kannst du hören? - Scalita",
+  "description": "Bin ich tontaub? Zwei Klaviertöne, höher oder tiefer, der Schritt schrumpft vom Halbton bis auf 3 Cent, dann vier Melodien. Kostenlos im Browser, ohne Mikrofon.",
+  "h1": "Tontaub-Test",
+  "lead": "Zwei Klaviertöne erklingen, und du sagst, ob der zweite nach oben oder nach unten ging. Jeder Schritt, den du hörst, macht den nächsten kleiner, von einem Halbton bis hinunter zu 3 Cent. Vier kurze Melodien schließen den Test ab, und das Ergebnis ist der kleinste Schritt, den du gehört hast.",
+  "tile": "Wie kleine Schritte zwischen zwei Tönen du noch hörst.",
+  "oneLine": "Höher oder tiefer? Finde heraus, wie kleine Schritte du hörst.",
+  "appBand": "Einen Ton zu hören ist die erste Hälfte, ihn zu singen die zweite. Das Präzisionstraining in Scalita übt beides: Triff Töne mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+  "referenceHeading": "Über den Test",
+  "toolId": "ear-test",
+  "instructions": "<h2>So machst du den Test</h2><ol><li>Drück auf Start. Die Seite spielt nur Klavier, deshalb fragt sie nie nach dem Mikrofon.</li><li>Hör dir beide Töne an und wähl dann Höher oder Tiefer. Mit Erneut hören erklingt das Paar noch einmal.</li><li>Zwei richtige Antworten bringen dich zu einem kleineren Schritt. Zwei falsche beim selben Schritt beenden diesen Teil.</li><li>Dann kommen vier Paare kurzer Melodien. Sag, ob jedes Paar gleich war oder ob sich ein Ton verändert hat.</li><li>Kopfhörer oder ein ruhiger Raum helfen bei den kleinsten Schritten.</li></ol>",
+  "sampleResult": "<h2>So sieht ein Ergebnis aus</h2><ul><li>Kleinster gehörter Schritt: 12 Cent</li><li>Gehörte Schritte: 4 von 6</li><li>Melodien unterschieden: 4 von 4</li></ul><p>12 Cent sind etwa ein Achtel Halbton. Das ist feiner als die 25 Cent, ab denen die Scalita-App einen gesungenen Ton als daneben zählt. Wer so hört, merkt also, wie ein Ton wegdriftet, bevor die App ihn als daneben zählen würde.</p>",
+  "notClaimed": "<h2>Was dieser Test dir nicht sagt</h2><p>Er ist ein kurzer Hörcheck mit Klaviertönen, kein Hörtest und keine Diagnose. Ein Ergebnis ist eine Messung an einem Tag, über einen bestimmten Lautsprecher oder Kopfhörer, und wer nur rät, hat die Hälfte aller Antworten richtig, also spielt Glück mit. Ob du eine angeborene Amusie hast, kann er dir nicht sagen: Dafür nutzt die Forschung längere Testbatterien und eine vollständige Untersuchung. Über deine Stimme sagt er ebenfalls nichts. Einen Schritt hören und ihn singen sind zwei verschiedene Fähigkeiten, und der <a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a> misst die zweite.</p>",
+  "sections": [
+    {
+      "heading": "Was der Test misst",
+      "html": "<p>Tonhöhenunterschiede misst man in Cent. Ein Halbton, der Schritt von einer Klaviertaste zur nächsten, hat 100 Cent. Der Test spielt zwei Töne und fragt, in welche Richtung sich der zweite bewegt hat. Er beginnt mit einem ganzen Halbton und halbiert den Schritt jedes Mal, wenn du ihn hörst: 50 Cent, 25, 12, 6 und zuletzt 3.</p><p>Jeder Schritt bekommt bis zu drei Paare. Zwei richtige Antworten zählen ihn als gehört und bringen dich weiter. Zwei falsche Antworten beim selben Schritt beenden diesen Teil, und der letzte Schritt, den du gehört hast, ist dein Ergebnis. Danach kommen die Melodien: zwei Melodien aus fünf Tönen, nacheinander gespielt, entweder gleich oder mit einem Ton, der um einen Halbton aus der Tonart verschoben ist.</p>"
+    },
+    {
+      "heading": "Was Tontaubheit ist",
+      "html": "<p>Was man mit tontaub meint, heißt in der Forschung angeborene Amusie: eine lebenslange Schwierigkeit, Tonhöhen in der Musik zu hören. Eine Studie mit 20.000 Menschen schätzte sie auf etwa 1,5 Prozent der Bevölkerung (Peretz und Vuvan, 2017). In den Experimenten von Hyde und Peretz (2004) hatten Erwachsene mit Amusie Mühe zu hören, wie sich ein Ton um Abstände nach oben oder unten bewegte, die die anderen Erwachsenen leicht hörten, und Übung half ihnen nicht. Veränderungen im Timing hörten sie dagegen so gut wie alle anderen.</p><p>Die Forschung prüft darauf mit längeren Tests, etwa der Montreal Battery of Evaluation of Amusia, deren Melodietests fragen, ob zwei Melodien gleich oder verschieden sind. Der Melodieteil hier übernimmt diese Form, mit vier Paaren statt Dutzenden.</p>"
+    },
+    {
+      "heading": "Hören und Singen sind verschiedene Fähigkeiten",
+      "html": "<p>Die meisten Menschen, die schief singen, hören Tonhöhen normal. In den Experimenten von Pfordresher und Brown (2007) sangen 10 bis 15 Prozent der Teilnehmenden Töne um mindestens einen Halbton daneben nach, und sie unterschieden Tonhöhen genauso gut wie die, die sauber sangen. Für die meisten liegt die Schwierigkeit darin, die Stimme auf einen Ton zu lenken, den sie schon hören.</p><p>Wenn die Schritte hier also gut liefen, ist sauberes Singen eine eigene Sache, die man messen kann. Der <a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a> spielt einen Ton und zeigt, wie nah du ihn nachsingst, und <a href=\"page:how-to-sing-in-tune\">Töne treffen lernen</a> hat die ersten Übungen dazu.</p>"
+    },
+    {
+      "heading": "Das Gehör wird mit Übung feiner",
+      "html": "<p>Kleine Schritte zu unterscheiden ist eine Fähigkeit, keine feste Eigenschaft. In einer Studie waren die Schwellen der Nichtmusiker anfangs mehr als sechsmal so groß wie die von klassischen Musikern. Nach 4 bis 8 Stunden Übung mit derselben Art von Höher-oder-tiefer-Aufgabe hatten sie aufgeholt (Micheyl und Kollegen, 2006).</p>"
+    },
+    {
+      "heading": "Wenn du nichts hörst",
+      "html": "<p>Dreh die Lautstärke auf und drück noch einmal auf Start. Prüf am Telefon, ob der Ton nicht an einen Bluetooth-Lautsprecher oder Ohrhörer geht, die du vergessen hast. Wenn das Klavier nicht lädt, sagt die Seite es dir: Prüf deine Verbindung und versuch es nochmal.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Bin ich tontaub?",
+      "a": "<p>Wahrscheinlich nicht. Angeborene Amusie, eine lebenslange Schwierigkeit mit Tonhöhen, betrifft etwa 1,5 Prozent der Menschen. Die meisten, die sich für tontaub oder unmusikalisch halten, hören Tonhöhen normal und tun sich schwer damit, einen Ton zu singen, den sie hören. Dieser Test zeigt, wie kleine Schritte du hörst. Der <a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a> zeigt, wie nah du singst.</p>"
+    },
+    {
+      "q": "Welches Ergebnis kann ich erwarten?",
+      "a": "<p>Es gibt keine Bestehensgrenze. Als Anhaltspunkt: Die Scalita-App zählt einen gesungenen Ton als daneben, sobald er mehr als 25 Cent entfernt ist, und in der Studie von Micheyl und Kollegen hörten ausgebildete Musiker weit kleinere Unterschiede als Nichtmusiker vor dem Üben.</p>"
+    },
+    {
+      "q": "Warum habe ich diesmal ein anderes Ergebnis?",
+      "a": "<p>Jede Antwort ist höher oder tiefer, also liegt Raten in der Hälfte der Fälle richtig, und ein glücklicher oder unglücklicher Tipp kann das Ergebnis um einen Schritt verschieben. Müdigkeit, ein lauter Raum und kleine Lautsprecher spielen auch eine Rolle. Mach den Test ein paar Mal und schau, wo er meistens landet.</p>"
+    },
+    {
+      "q": "Brauche ich Kopfhörer?",
+      "a": "<p>Nein. Jeder Lautsprecher, den du deutlich hörst, reicht, und Kopfhörer helfen am meisten bei den Schritten von 6 und 3 Cent. Der Test nutzt nie das Mikrofon.</p>"
+    },
+    {
+      "q": "Kann ich mein Gehör trainieren?",
+      "a": "<p>Ja. Tonhöhen zu unterscheiden wird mit Übung besser, oft innerhalb von Stunden, wie die Studie oben gezeigt hat. Singen hilft auch: Wer Töne nachsingt, übt, darauf zu hören, wo die eigene Stimme gegenüber dem Ton liegt.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Peretz und Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"},
+    {"label": "Hyde und Peretz (2004), Brains that are out of tune but in time, Psychological Science 15(5)", "url": "https://doi.org/10.1111/j.0956-7976.2004.00683.x"},
+    {"label": "Peretz, Champod und Hyde (2003), Varieties of musical disorders: the Montreal Battery of Evaluation of Amusia, Annals of the New York Academy of Sciences 999", "url": "https://doi.org/10.1196/annals.1284.006"},
+    {"label": "Pfordresher und Brown (2007), eine Studie zu unsauberem Singen und Tonhöhenwahrnehmung, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Micheyl, Delhommeau, Perrot und Oxenham (2006), Influence of musical and psychoacoustical training on pitch discrimination, Hearing Research 219", "url": "https://doi.org/10.1016/j.heares.2006.05.004"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

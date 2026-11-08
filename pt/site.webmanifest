@@ -2,7 +2,7 @@
   "id": "/pt/ferramentas/",
   "name": "Scalita",
   "short_name": "Scalita",
-  "description": "Quatro ferramentas grátis para quem canta, direto no navegador: teste de extensão vocal, teste de afinação, piano de aquecimento e teste de passagem vocal.",
+  "description": "Cinco ferramentas grátis para quem canta, no navegador: testes de extensão vocal, de ouvido musical, de afinação e de passagem vocal, e um piano de aquecimento.",
   "lang": "pt-BR",
   "dir": "ltr",
   "start_url": "/pt/ferramentas/",
@@ -33,6 +33,18 @@
       "name": "Teste de extensão vocal",
       "short_name": "Extensão",
       "url": "/pt/ferramentas/teste-de-extensao-vocal/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Teste de ouvido",
+      "short_name": "Ouvido",
+      "url": "/pt/ferramentas/teste-de-ouvido-musical/",
       "icons": [
         {
           "src": "/images/logo_96.png",

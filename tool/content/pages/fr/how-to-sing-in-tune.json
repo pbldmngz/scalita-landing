@@ -1,0 +1,66 @@
+{
+  "slug": "comment-chanter-juste",
+  "label": "Comment chanter juste",
+  "title": "Comment chanter juste : exercices pour trouver la note - Scalita",
+  "description": "Chanter faux vient souvent de la voix, pas de l'oreille. Trois exercices : glisser jusqu'à la note, la fredonner, puis de courtes gammes dans ta tessiture.",
+  "h1": "Comment chanter juste",
+  "lead": "Chanter juste, c'est tomber sur la note que tu entends et y rester. Chez la plupart des gens, l'oreille fonctionne déjà, et c'est la voix qui doit apprendre à trouver la note : le travail, ce sont de courts exercices qui construisent ce lien.",
+  "shortAnswer": "<p>Entends d'abord la note, puis trouve-la avec ta voix : glisse jusqu'à elle par en dessous, fredonne-la jusqu'à ce que ta voix et le piano sonnent comme un seul son, et alors seulement chante des gammes ou des chansons. Travaille au milieu de ta tessiture, quelques minutes à la fois, et mesure-toi, parce que ta propre oreille juge mal pendant que tu chantes.</p>",
+  "sections": [
+    {
+      "heading": "Pourquoi la voix manque la note",
+      "html": "<p>La plupart des gens qui chantent faux perçoivent la hauteur normalement. Dans les expériences de Pfordresher et Brown (2007), les participants qui rechantaient les notes avec un demi-ton d'écart ou plus distinguaient les hauteurs aussi bien que ceux qui chantaient juste. Hutchins et Peretz (2012) ont trouvé que les gens reproduisaient une note plus justement avec un curseur qu'avec leur propre voix. L'oreille savait où était la note, et la voix n'y arrivait pas.</p><p>C'est une bonne nouvelle, parce que guider sa voix, ça s'apprend. Si tu veux d'abord vérifier ton oreille, le <a href=\"page:tone-deaf-test\">test d'oreille musicale</a> le fait sans micro.</p>"
+    },
+    {
+      "heading": "Étape 1 : glisse jusqu'à la note",
+      "html": "<p>Joue une note au milieu de ta tessiture et écoute-la. Commence un peu en dessous sur un « ou » facile et monte lentement en glissant jusqu'à elle, puis tiens-la. En approchant, tu entendras ta voix et le piano frotter l'un contre l'autre, un battement rapide dans le son, qui ralentit et disparaît quand tu es sur la note.</p><p>Le glissé marche parce que tu n'as pas à deviner la note d'un coup. Tu t'entends t'en approcher, et c'est ce lien que tu entraînes.</p>"
+    },
+    {
+      "heading": "Étape 2 : fredonne-la, puis ouvre sur une voyelle",
+      "html": "<p>Une fois le glissé posé, fredonne la même note sur « mm » à un volume facile, lèvres fermées et dents écartées. Un fredonnement est doux et confortable, donc tu t'entends plus facilement face au piano. Tiens-le quelques secondes, puis ouvre sur « a » sans changer la hauteur. Fais-le sur trois ou quatre notes différentes, à un degré d'écart chacune.</p>"
+    },
+    {
+      "heading": "Étape 3 : trois notes, puis cinq",
+      "html": "<p>Quand les notes seules tombent juste, passe à de courts motifs : trois notes qui montent et redescendent, puis la <a href=\"page:five-note-scale\">vocalise de 5 notes</a>. Chante-les lentement. Quand les chanteurs occasionnels d'une étude ont chanté une chanson connue plus lentement, la plupart l'ont chantée presque aussi juste que des professionnels (Dalla Bella et ses collègues, 2007). La vitesse viendra plus tard, quand les notes tomberont juste.</p>"
+    },
+    {
+      "heading": "Mesure-toi",
+      "html": "<p>C'est difficile de juger ta propre justesse pendant que tu chantes, parce que tu t'entends à travers ta tête autant que par tes oreilles. Un enregistrement aide, et une mesure aide encore plus. Le <a href=\"page:sing-in-tune-test\">test de justesse</a> joue une note et te montre ton écart en cents. Dans l'application Scalita, une note à plus de 25 cents, un quart de demi-ton, compte comme fausse. Quand ta série tombe dans cette marge, essaie le <a href=\"page:vocal-range-test\">test de tessiture</a> pour voir jusqu'où tu peux aller.</p>"
+    }
+  ],
+  "troubleshooting": "<ul><li><strong>Je chante toujours un peu trop bas.</strong> C'est fréquent quand la voix est fatiguée ou que la note est près du bas ou du haut de ta tessiture. Ramène l'exercice au milieu de ta tessiture et garde un volume facile.</li><li><strong>Je chante trop haut sur les notes aiguës.</strong> Ça vient souvent du fait de pousser. Chante la note aiguë plus légèrement et moins fort, et glisse jusqu'à elle au lieu de sauter.</li><li><strong>Je n'arrive pas à savoir si je suis sur la note.</strong> Regarde-la plutôt : le mode accordeur du test de justesse montre ta hauteur par rapport à la note la plus proche pendant que tu chantes.</li><li><strong>Les notes sont trop graves ou trop aiguës pour moi.</strong> Choisis ton type de voix dans le lecteur ci-dessous, ou trouve d'abord ta tessiture, pour que chaque note tombe là où tu peux la chanter.</li></ul>",
+  "faq": [
+    {
+      "q": "Tout le monde peut-il apprendre à chanter juste ?",
+      "a": "<p>La plupart des gens peuvent s'en rapprocher en s'entraînant, puisque chez eux l'oreille fonctionne déjà. Un petit groupe, environ 1,5 % des gens, a une amusie congénitale, une difficulté à percevoir la hauteur présente toute la vie, et pour eux reproduire des notes est beaucoup plus difficile.</p>"
+    },
+    {
+      "q": "Combien de temps m'entraîner ?",
+      "a": "<p>Quelques minutes à la fois suffisent, et souvent vaut mieux que longtemps. Arrête si ta voix est fatiguée ou qu'elle gratte, et reviens-y plus tard.</p>"
+    },
+    {
+      "q": "Faut-il un piano ?",
+      "a": "<p>Non. Le lecteur de cette page joue les notes pour toi, dans ta tessiture, et Scalita fait pareil sur ton téléphone. N'importe quelle note de référence stable convient, du moment que tu l'entends clairement.</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Pfordresher et Brown (2007), une étude sur le chant faux et la perception de la hauteur, Music Perception 25(2)",
+      "url": "https://doi.org/10.1525/mp.2007.25.2.95"
+    },
+    {
+      "label": "Hutchins et Peretz (2012), A frog in your throat or in your ear? Searching for the causes of poor singing, Journal of Experimental Psychology: General 141(1)",
+      "url": "https://doi.org/10.1037/a0025064"
+    },
+    {
+      "label": "Dalla Bella, Giguère et Peretz (2007), Singing proficiency in the general population, Journal of the Acoustical Society of America 121(2)",
+      "url": "https://doi.org/10.1121/1.2427111"
+    },
+    {
+      "label": "Peretz et Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)",
+      "url": "https://doi.org/10.1038/ejhg.2017.15"
+    }
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}

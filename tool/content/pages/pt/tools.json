@@ -1,21 +1,21 @@
 {
   "label": "Ferramentas grátis",
   "title": "Ferramentas grátis para cantores, no navegador - Scalita",
-  "description": "Quatro ferramentas grátis para quem canta, direto no navegador: teste de extensão vocal, teste de afinação, piano de aquecimento e teste de passagem vocal.",
+  "description": "Cinco ferramentas grátis para quem canta, no navegador: testes de extensão vocal, de ouvido musical, de afinação e de passagem vocal, e um piano de aquecimento.",
   "h1": "Ferramentas grátis para quem canta",
-  "lead": "Quatro ferramentas do app, direto no navegador. Nada do que você canta sai do seu aparelho.",
+  "lead": "Cinco ferramentas do app, direto no navegador. Nada do que você canta sai do seu aparelho.",
   "appBand": "O Scalita guarda a sua extensão, toca cada exercício num piano de verdade, no seu tom, e com fones desenha a sua afinação enquanto você canta e pontua cada escala. Offline, sem anúncios, sem conta.",
   "referenceHeading": "Sobre as ferramentas",
-  "intro": "<p>Estas quatro ferramentas vêm do Scalita, um app de aquecimento vocal para Android. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador.</p><p>Duas regras valem para todas. Uma ferramenta ou escuta ou toca o piano, nunca as duas coisas ao mesmo tempo, então você não precisa de fones. E quando uma ferramenta escuta, quem faz o trabalho é o seu navegador, no seu aparelho: nada é gravado nem enviado para lugar nenhum.</p>",
-  "children": ["vocal-range-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
+  "intro": "<p>Estas cinco ferramentas vêm do Scalita, um app de aquecimento vocal para Android. Elas usam a mesma leitura de afinação do app, o mesmo piano e os mesmos exercícios, e funcionam no navegador, no celular ou no computador.</p><p>Duas regras valem para todas. Uma ferramenta ou escuta ou toca o piano, nunca as duas coisas ao mesmo tempo, então você não precisa de fones. E quando uma ferramenta escuta, quem faz o trabalho é o seu navegador, no seu aparelho: nada é gravado nem enviado para lugar nenhum.</p>",
+  "children": ["vocal-range-test", "tone-deaf-test", "sing-in-tune-test", "warm-up-piano", "voice-break-finder"],
   "sections": [
     {
       "heading": "Por onde começar",
-      "html": "<p>Se você está começando agora, vá nesta ordem:</p><ol><li><a href=\"page:vocal-range-test\">Teste de extensão vocal</a>: a nota mais grave e a mais aguda que você canta com conforto, em cerca de um minuto.</li><li><a href=\"page:voice-break-finder\">Teste de passagem vocal</a>: onde a sua voz troca de marcha, o que diz mais sobre o seu tipo de voz do que a extensão.</li><li><a href=\"page:warm-up-piano\">Piano de aquecimento</a>: escalas e rotinas do app, tocadas na sua extensão.</li><li><a href=\"page:sing-in-tune-test\">Teste de afinação</a>: com a voz já aquecida, o quão perto você chega de uma nota que acabou de ouvir.</li></ol>"
+      "html": "<p>Se você está começando agora, vá nesta ordem:</p><ol><li><a href=\"page:vocal-range-test\">Teste de extensão vocal</a>: a nota mais grave e a mais aguda que você canta com conforto, em cerca de um minuto.</li><li><a href=\"page:voice-break-finder\">Teste de passagem vocal</a>: onde a sua voz troca de marcha, o que diz mais sobre o seu tipo de voz do que a extensão.</li><li><a href=\"page:warm-up-piano\">Piano de aquecimento</a>: escalas e rotinas do app, tocadas na sua extensão.</li><li><a href=\"page:sing-in-tune-test\">Teste de afinação</a>: com a voz já aquecida, o quão perto você chega de uma nota que acabou de ouvir.</li></ol><p>Ou faça como uma sequência de desafios: primeiro o <a href=\"page:tone-deaf-test\">teste de ouvido musical</a>, para ver o menor passo que você ouve, depois o teste de afinação, para ver se a sua voz chega aonde o seu ouvido chega, e então o teste de extensão vocal, para ver até onde você consegue levar a voz.</p>"
     },
     {
       "heading": "Quando uma ferramenta escuta",
-      "html": "<p>O teste de extensão vocal e o teste de afinação usam o microfone. Eles só pedem acesso depois que você aperta Iniciar, leem a altura da sua voz conforme ela chega e não guardam nada. Aperte Parar ou saia da página e o microfone desliga. O piano de aquecimento e o teste de passagem vocal nunca usam o microfone.</p><p>O microfone funciona numa versão recente do Chrome, Safari, Firefox ou Edge. Ele não funciona nos navegadores embutidos em apps como Instagram, TikTok, Facebook ou Gmail, então, se você chegou aqui por um deles, abra a página no navegador do celular primeiro.</p>"
+      "html": "<p>O teste de extensão vocal e o teste de afinação usam o microfone. Eles só pedem acesso depois que você aperta Iniciar, leem a altura da sua voz conforme ela chega e não guardam nada. Aperte Parar ou saia da página e o microfone desliga. O teste de ouvido musical, o piano de aquecimento e o teste de passagem vocal nunca usam o microfone.</p><p>O microfone funciona numa versão recente do Chrome, Safari, Firefox ou Edge. Ele não funciona nos navegadores embutidos em apps como Instagram, TikTok, Facebook ou Gmail, então, se você chegou aqui por um deles, abra a página no navegador do celular primeiro.</p>"
     },
     {
       "heading": "O que elas não dizem",

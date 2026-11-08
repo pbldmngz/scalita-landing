@@ -141,3 +141,17 @@
 /id/panduan/suara-pecah-saat-bernyanyi/ voice-cracks-high-notes id
 /id/panduan/suara-kepala-dan-suara-dada/ head-voice-vs-chest-voice id
 /id/panduan/not-angka-not-huruf/ note-names-octaves id
+/tools/tone-deaf-test/ tone-deaf-test en
+/guides/how-to-sing-in-tune/ how-to-sing-in-tune en
+/es/herramientas/test-de-oido-musical/ tone-deaf-test es
+/es/guias/como-afinar-la-voz/ how-to-sing-in-tune es
+/fr/outils/test-oreille-musicale/ tone-deaf-test fr
+/fr/guides/comment-chanter-juste/ how-to-sing-in-tune fr
+/pt/ferramentas/teste-de-ouvido-musical/ tone-deaf-test pt
+/pt/guias/como-cantar-afinado/ how-to-sing-in-tune pt
+/de/tools/tontaub-test/ tone-deaf-test de
+/de/ratgeber/toene-treffen-lernen/ how-to-sing-in-tune de
+/tr/araclar/muzik-kulagi-testi/ tone-deaf-test tr
+/tr/rehber/detone-olmadan-sarki-soylemek/ how-to-sing-in-tune tr
+/id/alat/tes-buta-nada/ tone-deaf-test id
+/id/panduan/cara-bernyanyi-tidak-fals/ how-to-sing-in-tune id

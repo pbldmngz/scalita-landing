@@ -1,0 +1,69 @@
+{
+  "slug": "tone-deaf-test",
+  "label": "Tone deaf test",
+  "title": "Tone Deaf Test: How Small a Pitch Step Can You Hear? - Scalita",
+  "description": "Am I tone deaf? Two piano notes, higher or lower, as the step shrinks from a semitone to 3 cents, then four melodies. Free, in your browser, no microphone.",
+  "h1": "Tone deaf test",
+  "lead": "Two piano notes play and you say whether the second one went up or down. Each step you hear makes the next one smaller, from a semitone down to 3 cents. Four short melodies close the test, and the result is the smallest step you heard.",
+  "tile": "How small a step between two notes you can hear.",
+  "oneLine": "Higher or lower? See how small a step you can hear.",
+  "appBand": "Hearing a note is the first half, and singing it is the second. Scalita's Accuracy Training works on both: match notes on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
+  "referenceHeading": "About the test",
+  "toolId": "ear-test",
+  "instructions": "<h2>How to take the test</h2><ol><li>Press Start. The page only plays the piano, so it never asks for the microphone.</li><li>Listen to both notes, then choose Higher or Lower. Hear it again plays the pair once more.</li><li>Two right answers take you to a smaller step. Two wrong ones at the same step end this part.</li><li>Then come four pairs of short melodies. Say whether each pair was the same, or whether one note changed.</li><li>Headphones or a quiet room help with the smallest steps.</li></ol>",
+  "sampleResult": "<h2>What a result looks like</h2><ul><li>Smallest step you heard: 12 cents</li><li>Steps heard: 4 of 6</li><li>Melodies told apart: 4 of 4</li></ul><p>12 cents is about an eighth of a semitone. That's finer than the 25 cents the Scalita app counts as off when you sing a note, so this listener can hear a note drift before the app would call it off.</p>",
+  "notClaimed": "<h2>What this test doesn't tell you</h2><p>It's a quick listening check with piano notes, not a hearing test and not a diagnosis. A result is one reading on one day, through one set of speakers or headphones, and guessing gets half of all answers right, so luck plays a part. It can't tell you whether you have congenital amusia: researchers use longer test batteries and a full assessment for that. It also says nothing about your voice. Hearing a step and singing it are separate skills, and the <a href=\"page:sing-in-tune-test\">sing-in-tune test</a> measures the second one.</p>",
+  "sections": [
+    {
+      "heading": "What the test measures",
+      "html": "<p>Pitch differences are measured in cents. A semitone, the step from one piano key to the next, is 100 cents. The test plays two notes and asks which way the second one moved. It starts with a whole semitone, then halves the step each time you hear it: 50 cents, 25, 12, 6 and finally 3.</p><p>Each step gets up to three pairs. Two right answers count it as heard and move you on. Two wrong answers at the same step end that part, and the last step you heard is your result. The melodies come next: two five-note tunes, played one after the other, either the same or with one note moved a semitone out of the key.</p>"
+    },
+    {
+      "heading": "What tone deafness is",
+      "html": "<p>The condition people mean by tone deaf is called congenital amusia, a lifelong difficulty with hearing pitch in music. A study of 20,000 people put it at about 1.5 percent of the population (Peretz and Vuvan, 2017). In Hyde and Peretz's experiments (2004), adults with amusia had trouble hearing a note move up or down by amounts the other adults heard easily, and practice didn't help them, while they heard changes in timing as well as anyone.</p><p>Researchers screen for it with longer tests, such as the Montreal Battery of Evaluation of Amusia, whose melody tests ask whether two tunes are the same or different. The melody part here borrows that shape, in four pairs instead of dozens.</p>"
+    },
+    {
+      "heading": "Hearing and singing are different skills",
+      "html": "<p>Most people who sing off pitch hear pitch normally. In Pfordresher and Brown's experiments (2007), 10 to 15 percent of the participants sang notes back at least a semitone off, and they told pitches apart as well as the accurate singers did. For most people, the hard part is steering the voice onto a note they can already hear.</p><p>So if the steps here went well, singing in tune is a separate thing to measure. The <a href=\"page:sing-in-tune-test\">sing-in-tune test</a> plays a note and shows how close you sing it back, and <a href=\"page:how-to-sing-in-tune\">how to sing in tune</a> has the first exercises to practice it.</p>"
+    },
+    {
+      "heading": "Ears get finer with practice",
+      "html": "<p>Telling small steps apart is a skill, not a fixed trait. In one study, the non-musicians' thresholds started out more than six times larger than those of classical musicians. After 4 to 8 hours of practice on the same kind of higher-or-lower task, they had caught up (Micheyl and colleagues, 2006).</p>"
+    },
+    {
+      "heading": "If you hear nothing",
+      "html": "<p>Turn the volume up and press Start again. On a phone, check that the sound isn't going to a Bluetooth speaker or earbuds you forgot about. If the piano doesn't load, the page says so: check your connection and try again.</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "Am I tone deaf?",
+      "a": "<p>Probably not. Congenital amusia, a lifelong difficulty with pitch, affects about 1.5 percent of people. Most people who think they're tone deaf hear pitch normally and find it hard to sing a note they can hear. This test shows how small a step you hear. The <a href=\"page:sing-in-tune-test\">sing-in-tune test</a> shows how close you sing.</p>"
+    },
+    {
+      "q": "What result should I expect?",
+      "a": "<p>There's no pass mark. As a reference point, the Scalita app counts a sung note as off once it's more than 25 cents away, and in Micheyl and colleagues' study trained musicians heard far smaller differences than non-musicians did before practice.</p>"
+    },
+    {
+      "q": "Why did I get a different result this time?",
+      "a": "<p>Each answer is higher or lower, so a guess is right half the time, and a lucky or unlucky guess can move the result by a step. Tiredness, a noisy room and small speakers matter too. Take the test a few times and look at where it usually lands.</p>"
+    },
+    {
+      "q": "Do I need headphones?",
+      "a": "<p>No. Any speaker you can hear clearly works, and headphones help most with the 6 and 3 cent steps. The test never uses the microphone.</p>"
+    },
+    {
+      "q": "Can I train my ear?",
+      "a": "<p>Yes. Pitch discrimination improves with practice, often within hours, as the study above found. Singing helps as well: matching notes trains you to listen for where your voice is against the note.</p>"
+    }
+  ],
+  "sources": [
+    {"label": "Peretz and Vuvan (2017), Prevalence of congenital amusia, European Journal of Human Genetics 25(5)", "url": "https://doi.org/10.1038/ejhg.2017.15"},
+    {"label": "Hyde and Peretz (2004), Brains that are out of tune but in time, Psychological Science 15(5)", "url": "https://doi.org/10.1111/j.0956-7976.2004.00683.x"},
+    {"label": "Peretz, Champod and Hyde (2003), Varieties of musical disorders: the Montreal Battery of Evaluation of Amusia, Annals of the New York Academy of Sciences 999", "url": "https://doi.org/10.1196/annals.1284.006"},
+    {"label": "Pfordresher and Brown (2007), a study of poor-pitch singing and pitch perception, Music Perception 25(2)", "url": "https://doi.org/10.1525/mp.2007.25.2.95"},
+    {"label": "Micheyl, Delhommeau, Perrot and Oxenham (2006), Influence of musical and psychoacoustical training on pitch discrimination, Hearing Research 219", "url": "https://doi.org/10.1016/j.heares.2006.05.004"}
+  ],
+  "reviewed": "2026-11-08",
+  "writtenAgainst": null
+}
