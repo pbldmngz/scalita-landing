@@ -10,8 +10,8 @@
   "appBand": "Hearing a note is the first half, and singing it is the second. Scalita's Accuracy Training works on both: match notes on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
   "referenceHeading": "About the test",
   "toolId": "ear-test",
-  "instructions": "<h2>How to take the test</h2><ol><li>Press Start. The page only plays the piano, so it never asks for the microphone.</li><li>Listen to both notes, then choose Higher or Lower. Hear it again plays the pair once more.</li><li>Two right answers take you to a smaller step. Two wrong ones at the same step end this part.</li><li>Then come four pairs of short melodies. Say whether each pair was the same, or whether one note changed.</li><li>Headphones or a quiet room help with the smallest steps.</li></ol>",
-  "sampleResult": "<h2>What a result looks like</h2><ul><li>Smallest step you heard: 12 cents</li><li>Steps heard: 4 of 6</li><li>Melodies told apart: 4 of 4</li></ul><p>12 cents is about an eighth of a semitone. That's finer than the 25 cents the Scalita app counts as off when you sing a note, so this listener can hear a note drift before the app would call it off.</p>",
+  "instructions": "<h2>How to take the test</h2><ol><li>Press Start. The page only plays the piano, so it never asks for the microphone.</li><li>Listen to both notes, then choose Lower or Higher. Hear it again plays the pair once more.</li><li>Three right answers take you to a smaller step. Two wrong ones at the same step end this part.</li><li>Then come four pairs of short melodies. Say whether each pair was the same, or whether one note changed.</li><li>Headphones or a quiet room help with the smallest steps.</li></ol>",
+  "sampleResult": "<h2>What a result looks like</h2><ul><li>Smallest step you heard: 12 cents</li><li>Steps heard: 4 of 6</li><li>Melodies told apart: 4 of 4</li></ul><p>12 cents is about an eighth of a semitone. That's finer than the 25 cents the Scalita app uses when you sing a note.</p>",
   "notClaimed": "<h2>What this test doesn't tell you</h2><p>It's a quick listening check with piano notes, not a hearing test and not a diagnosis. A result is one reading on one day, through one set of speakers or headphones, and guessing gets half of all answers right, so luck plays a part. It can't tell you whether you have congenital amusia: researchers use longer test batteries and a full assessment for that. It also says nothing about your voice. Hearing a step and singing it are separate skills, and the <a href=\"page:sing-in-tune-test\">sing-in-tune test</a> measures the second one.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "Ears get finer with practice",
-      "html": "<p>Telling small steps apart is a skill, not a fixed trait. In one study, the non-musicians' thresholds started out more than six times larger than those of classical musicians. After 4 to 8 hours of practice on the same kind of higher-or-lower task, they had caught up (Micheyl and colleagues, 2006).</p>"
+      "html": "<p>Telling small steps apart is a skill, not a fixed trait. Practice helps many people tell notes apart more finely, which is not the same as singing them.</p>"
     },
     {
       "heading": "If you hear nothing",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Can I train my ear?",
-      "a": "<p>Yes. Pitch discrimination improves with practice, often within hours, as the study above found. Singing helps as well: matching notes trains you to listen for where your voice is against the note.</p>"
+      "a": "<p>Yes. Practice helps many people hear smaller steps. That is not the same as singing them, and singing helps as well: matching notes trains you to listen for where your voice is against the note.</p>"
     }
   ],
   "sources": [

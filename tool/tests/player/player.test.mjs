@@ -14,7 +14,8 @@ import { readFileSync } from 'node:fs';
 import { gzipSync } from 'node:zlib';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { matchVoiceType, startNote, PRIMO_MIN, PRIMO_MAX, BREAK_KEY } from '../../../js/tools/voice-break.js';
+import { matchVoiceType, startNote, finderStart, savedRange as finderRange, closestForRange, PRIMO_MIN, PRIMO_MAX, BREAK_KEY,
+  RANGE_KEY as FINDER_RANGE_KEY } from '../../../js/tools/voice-break.js';
 import { savedRange, savedBreak, RANGE_KEY, BREAK_KEY as PLAYER_BREAK_KEY } from '../../../js/tools/player.js';
 
 const here = dirname(fileURLToPath(import.meta.url));
@@ -50,6 +51,49 @@ test('finder: the climb starts at range low plus 8, inside C3 to C5', () => {
   // below the lowest first shift each answer can match
   assert.ok(startNote(true) < Math.min(...VOICES.filter((v) => v.isMaleVoice).map((v) => v.primo)));
   assert.ok(startNote(false) < Math.min(...VOICES.filter((v) => !v.isMaleVoice).map((v) => v.primo)));
+});
+
+// finderStartMidi, app 1.13.4: the cases of test/voice_type_test.dart
+// ('the break finder starts under the expected break'), worked from
+// voice_type.dart's primo and range tables
+test('finder: the climb starts about six under the break the range points to', () => {
+  const by = Object.fromEntries(VOICES.map((v) => [v.id, v]));
+  const preset = (v) => finderStart({ low: v.rangeLow, high: v.rangeHigh, type: v, types: VOICES });
+  for (const v of VOICES) {
+    assert.ok(preset(v) >= v.rangeLow, v.id);
+    assert.ok(v.primo - preset(v) >= 5, v.id);
+  }
+  // the higher voices start in chest voice, no longer at or past their break
+  assert.equal(preset(by.soprano), 60); // C4, was G#4 (break F4)
+  assert.equal(preset(by.mezzoSoprano), 58); // A#3, was F4 (break E4)
+  assert.equal(preset(by.contralto), 56); // G#3, was C#4 (break D4)
+  // the lower voices keep eight above the lowest note
+  for (const id of ['tenor', 'baritone', 'bass']) {
+    assert.equal(preset(by[id]), Math.min(Math.max(by[id].rangeLow + 8, PRIMO_MIN), PRIMO_MAX), id);
+  }
+  // no voice type: the type closest to the range decides
+  assert.deepEqual(closestForRange(VOICES, 60, 84).map((v) => v.id), ['soprano']);
+  assert.equal(finderStart({ low: 60, high: 84, types: VOICES }), 60);
+  assert.equal(finderStart({ low: 48, high: 72, types: VOICES }), 56);
+  // a range above the usual start begins on its lowest note
+  assert.equal(finderStart({ low: 62, high: 86, type: by.soprano, types: VOICES }), 62);
+  // nothing known: the old default; a range above the window clamps
+  assert.equal(finderStart(), 56);
+  assert.equal(finderStart({ low: 80, high: 96, types: VOICES }), PRIMO_MAX);
+});
+
+test('finder: the start uses the range test saved in this browser, and the answer without one', () => {
+  assert.equal(FINDER_RANGE_KEY, RANGE_KEY);
+  assert.equal(startNote(false, { low: 60, high: 84 }, VOICES), 60); // a soprano's range: C4, under her F4
+  assert.equal(startNote(false, { low: 57, high: 81 }, VOICES), 58); // a mezzo's: A#3, under her E4
+  assert.equal(startNote(true, { low: 40, high: 64 }, VOICES), 48); // a bass's: C3
+  assert.equal(startNote(true, null, VOICES), 48);
+  assert.equal(startNote(false, null, VOICES), 56);
+  withStorage({ [RANGE_KEY]: JSON.stringify({ low: 60, high: 84, date: '2026-11-11', source: 'mic' }) }, () =>
+    assert.deepEqual(finderRange(), { low: 60, high: 84 }));
+  for (const bad of ['{"low":60}', '{"low":60.5,"high":84}', '{"low":70,"high":72}', '{"low":10,"high":40}', 'nope', null]) {
+    withStorage(bad === null ? {} : { [RANGE_KEY]: bad }, () => assert.equal(finderRange(), null, String(bad)));
+  }
 });
 
 function withStorage(items, fn) {

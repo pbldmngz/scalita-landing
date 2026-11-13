@@ -262,6 +262,22 @@ def main():
                 check('finder fetched only piano samples', all(a.startswith('/audio/piano-web/') for a in audio_requests()), audio_requests())
                 ctx.close()
 
+                # 5. with a soprano's range saved by the range test, the climb
+                # starts under her F4 break, on her lowest note C4 (finderStartMidi)
+                ctx, page = fresh()
+                ctx.add_init_script("localStorage.setItem('scalita-range', %s)" % json.dumps(json.dumps(
+                    {'low': 60, 'high': 84, 'date': '2026-11-11', 'source': 'manual'})))
+                page.goto(base + '/finder.html')
+                page.wait_for_selector('[data-tool="voice-break-finder"][data-state="intro"]')
+                page.click('[data-tool="voice-break-finder"] .btn--fill')
+                page.click('text=' + finder['strings']['voice-break-finder']['higherVoice'])
+                page.wait_for_function("window.log.filter(e => e.type === 'note').length >= 3", timeout=30000)
+                notes = [e['midi'] for e in page.evaluate('window.log') if e['type'] == 'note']
+                steps = page.evaluate("document.querySelectorAll('.vb-climb .vb-step').length")
+                check('a saved soprano range climbs from C4, under her break', notes[:3] == [60, 61, 62] and steps == 13,
+                      [notes, steps])
+                ctx.close()
+
                 check('%s console clean' % engine, not logs, logs)
                 logs.clear()
                 browser.close()

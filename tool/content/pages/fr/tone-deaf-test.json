@@ -10,8 +10,8 @@
   "appBand": "Entendre une note, c'est la première moitié, et la chanter, c'est la seconde. L'Entraînement de précision de Scalita travaille les deux : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
   "referenceHeading": "À propos du test",
   "toolId": "ear-test",
-  "instructions": "<h2>Comment passer le test</h2><ol><li>Appuie sur Démarrer. La page ne fait que jouer du piano, donc elle ne demande jamais le micro.</li><li>Écoute les deux notes, puis choisis Plus haute ou Plus basse. Réécouter rejoue la paire.</li><li>Deux bonnes réponses te font passer à un écart plus petit. Deux erreurs au même écart terminent cette partie.</li><li>Viennent ensuite quatre paires de courtes mélodies. Dis si chaque paire était identique ou si une note a changé.</li><li>Un casque ou une pièce calme aident pour les plus petits écarts.</li></ol>",
-  "sampleResult": "<h2>À quoi ressemble un résultat</h2><ul><li>Le plus petit écart entendu : 12 cents</li><li>Écarts entendus : 4 sur 6</li><li>Mélodies distinguées : 4 sur 4</li></ul><p>12 cents, c'est environ un huitième de demi-ton. C'est plus fin que les 25 cents au-delà desquels l'application Scalita compte une note chantée comme fausse : cette personne entend donc une note dériver avant que l'application ne la compte fausse.</p>",
+  "instructions": "<h2>Comment passer le test</h2><ol><li>Appuie sur Démarrer. La page ne fait que jouer du piano, donc elle ne demande jamais le micro.</li><li>Écoute les deux notes, puis choisis Plus basse ou Plus haute. Réécouter rejoue la paire.</li><li>Trois bonnes réponses te font passer à un écart plus petit. Deux erreurs au même écart terminent cette partie.</li><li>Viennent ensuite quatre paires de courtes mélodies. Dis si chaque paire était identique ou si une note a changé.</li><li>Un casque ou une pièce calme aident pour les plus petits écarts.</li></ol>",
+  "sampleResult": "<h2>À quoi ressemble un résultat</h2><ul><li>Le plus petit écart entendu : 12 cents</li><li>Écarts entendus : 4 sur 6</li><li>Mélodies distinguées : 4 sur 4</li></ul><p>12 cents, c'est environ un huitième de demi-ton. C'est plus fin que les 25 cents que l'application Scalita utilise quand tu chantes une note.</p>",
   "notClaimed": "<h2>Ce que ce test ne te dit pas</h2><p>C'est une écoute rapide avec des notes de piano, pas un test auditif ni un diagnostic. Un résultat, c'est une mesure un jour donné, avec un haut-parleur ou un casque donné, et le hasard donne la moitié des bonnes réponses, donc la chance joue un rôle. Il ne peut pas te dire si tu as une amusie congénitale : pour ça, les chercheurs utilisent des batteries de tests plus longues et un bilan complet. Il ne dit rien non plus de ta voix. Entendre un écart et le chanter sont deux compétences distinctes, et le <a href=\"page:sing-in-tune-test\">test de justesse</a> mesure la seconde.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "L'oreille s'affine avec la pratique",
-      "html": "<p>Distinguer de petits écarts est une compétence, pas un trait figé. Dans une étude, les seuils des non-musiciens étaient au départ plus de six fois plus grands que ceux de musiciens classiques. Après 4 à 8 heures d'entraînement sur le même genre d'exercice, plus haut ou plus bas, ils les avaient rattrapés (Micheyl et ses collègues, 2006).</p>"
+      "html": "<p>Distinguer de petits écarts est une compétence, pas un trait figé. La pratique aide beaucoup de gens à mieux distinguer les notes, ce qui n'est pas la même chose que les chanter.</p>"
     },
     {
       "heading": "Si tu n'entends rien",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Peut-on entraîner son oreille ?",
-      "a": "<p>Oui. La discrimination des hauteurs progresse avec l'entraînement, souvent en quelques heures, comme l'a montré l'étude ci-dessus. Chanter aide aussi : reproduire des notes t'apprend à écouter où se trouve ta voix par rapport à la note.</p>"
+      "a": "<p>Oui. La pratique aide beaucoup de gens à entendre des écarts plus petits. Ce n'est pas la même chose que les chanter, et chanter aide aussi : reproduire des notes t'apprend à écouter où se trouve ta voix par rapport à la note.</p>"
     }
   ],
   "sources": [

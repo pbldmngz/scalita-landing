@@ -2,13 +2,13 @@
   {
     "ceiling": 48,
     "descriptions": {
-      "de": "Rasselnde Töne unter deiner Bruststimme",
-      "en": "Rattling notes below your chest voice",
-      "es": "Notas graves con vibración, por debajo de tu voz de pecho",
-      "fr": "Les notes graves et râpeuses sous ta voix de poitrine",
-      "id": "Nada bergemeretak di bawah suara dadamu",
-      "pt": "Notas que chacoalham abaixo da sua voz de peito",
-      "tr": "Göğüs sesinin altındaki çatırtılı notalar"
+      "de": "Tiefe, grollende Töne unter deiner gewohnten tiefen Stimme.",
+      "en": "Low, rumbling notes below your usual low voice.",
+      "es": "Notas graves y retumbantes por debajo de tu voz grave habitual.",
+      "fr": "Des notes graves et grondantes sous ta voix grave habituelle.",
+      "id": "Nada rendah yang bergemuruh di bawah suara rendahmu yang biasa.",
+      "pt": "Notas graves e retumbantes abaixo da sua voz grave de sempre.",
+      "tr": "Alışık olduğun pes sesinin altındaki derin, gürleyen notalar."
     },
     "floor": 21,
     "high": 41,
@@ -31,13 +31,13 @@
   {
     "ceiling": 108,
     "descriptions": {
-      "de": "Der dünne, flötenartige Klang über der Kopfstimme",
-      "en": "The thin, flute-like tone above head voice",
-      "es": "El tono fino y aflautado por encima de la voz de cabeza",
-      "fr": "Le timbre fin, comme une flûte, au-dessus de la voix de tête",
-      "id": "Warna tipis seperti suling di atas suara kepala",
-      "pt": "O som fino, de flauta, acima da voz de cabeça",
-      "tr": "Kafa sesinin üstündeki ince, flüt gibi tını"
+      "de": "Klänge ganz oben in der Stimme. Sie werden unterschiedlich benannt.",
+      "en": "Sounds at the very top of the voice. People name them differently.",
+      "es": "Sonidos en la parte más alta de la voz. No todo el mundo los llama igual.",
+      "fr": "Des sons tout en haut de la voix. Chacun les nomme à sa façon.",
+      "id": "Bunyi di bagian paling atas suara. Orang menamainya dengan cara berbeda.",
+      "pt": "Sons no topo da voz. Cada pessoa chama de um jeito.",
+      "tr": "Sesin en tepesindeki sesler. Herkes onlara farklı adlar verir."
     },
     "floor": 74,
     "high": 88,
@@ -60,13 +60,13 @@
   {
     "ceiling": 108,
     "descriptions": {
-      "de": "Die äußerste Spitze der Stimme, über dem Flageolett",
-      "en": "The very top of the voice, above flageolet",
-      "es": "Lo más alto de la voz, por encima del flageolet",
-      "fr": "Le tout haut de la voix, au-dessus du flageolet",
-      "id": "Bagian paling atas suara, di atas flageolet",
-      "pt": "O extremo agudo da voz, acima do flageolet",
-      "tr": "Sesin en tepesi, flajölenin üstü"
+      "de": "Klänge ganz oben in der Stimme. Sie werden unterschiedlich benannt.",
+      "en": "Sounds at the very top of the voice. People name them differently.",
+      "es": "Sonidos en la parte más alta de la voz. No todo el mundo los llama igual.",
+      "fr": "Des sons tout en haut de la voix. Chacun les nomme à sa façon.",
+      "id": "Bunyi di bagian paling atas suara. Orang menamainya dengan cara berbeda.",
+      "pt": "Sons no topo da voz. Cada pessoa chama de um jeito.",
+      "tr": "Sesin en tepesindeki sesler. Herkes onlara farklı adlar verir."
     },
     "floor": 84,
     "high": 96,

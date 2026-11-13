@@ -2,8 +2,10 @@
  * voice-break.js: the voice break finder, the app's own method
  * (voice_break_finder_screen.dart). No microphone. The singer says lower or
  * higher voice (the app's question, without assuming gender), the piano
- * climbs a note every 2 s from range low plus 8 semitones, and they press
- * when the voice shifts. The confirmation plays -2, 0, +2; a bit lower and
+ * climbs a note every 2 s from the app's start (finderStartMidi, app 1.13.4:
+ * about six under the break the range test's saved range points to, never
+ * under its lowest note; without one, the answer's range low plus 8), and
+ * they press when the voice shifts. The confirmation plays -2, 0, +2; a bit lower and
  * a bit higher move it by one inside C3 to C5; the result is the first shift,
  * the closest voice type by that note and the answer
  * (VoiceType.closestForPrimoAndGender), and its second shift.
@@ -12,16 +14,19 @@
  * strings["voice-break-finder"], strings.common, and strings.templates.tool
  * (noMic, the pill, when the page has it). The result is kept in this
  * browser (BREAK_KEY) for the warm-up piano. Each step also reaches the
- * mount as a "scalita:finder" CustomEvent; data-rate="N" runs N times faster
+ * mount as a "scalita:finder" CustomEvent; it reads the range test's
+ * result (RANGE_KEY) for the start, nothing else; data-rate="N" runs N times faster
  * (tests only). Looks: css/tool-player.css (.vb-*).
  */
 
 export const BREAK_KEY = 'scalita-voice-break';
+export const RANGE_KEY = 'scalita-range'; // {low, high}: the range test's result
 export const PRIMO_MIN = 48; // passaggioPrimoMin, C3
 export const PRIMO_MAX = 72; // passaggioPrimoMax, C5
 export const STEP_MS = 2000;
-// Range low per answer, before the app's +8: lower voices from E2 (the bass
-// preset's floor), higher voices from C3 (the app's range when none is set)
+// Range low per answer when no range is saved, before the app's +8: lower
+// voices from E2 (the bass preset's floor), higher voices from C3 (the
+// app's range when none is set)
 export const RANGE_LOW = { lower: 40, higher: 48 };
 
 const clamp = (x, lo, hi) => (x < lo ? lo : x > hi ? hi : x);
@@ -40,7 +45,46 @@ function icon(d, size, filled) {
   return t.content.firstChild;
 }
 
-export const startNote = (lower) => clamp((lower ? RANGE_LOW.lower : RANGE_LOW.higher) + 8, PRIMO_MIN, PRIMO_MAX);
+// VoiceType.closestForRange: the range's midpoint against each type's
+// typical one, VoiceType order on a tie, the runner-up too within 2
+export function closestForRange(types, low, high) {
+  const mid = (low + high) / 2;
+  const by = (types || [])
+    .map((t, i) => [Math.abs((t.rangeLow + t.rangeHigh) / 2 - mid), i, t])
+    .sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  if (!by.length) return [];
+  return by.length > 1 && by[1][0] - by[0][0] <= 2 ? [by[0][2], by[1][2]] : [by[0][2]];
+}
+
+// finderStartMidi (voice_break_finder_screen.dart): about six semitones
+// under the first break the voice type, or the types closest to the range,
+// expect, so the climb starts in chest voice; never under the lowest note,
+// inside C3 to C5. Without either, eight above the lowest note (C3 if none)
+export function finderStart({ low, high, type, types } = {}) {
+  const lo = Number.isInteger(low) ? low : 48;
+  const near = type ? [type] : Number.isInteger(low) && Number.isInteger(high) ? closestForRange(types, low, high) : [];
+  let start = lo + 8;
+  for (const t of near) start = Math.min(start, t.primo - 6);
+  return clamp(start, clamp(lo, PRIMO_MIN, PRIMO_MAX), PRIMO_MAX);
+}
+
+// The range test's saved range, checked before use (as the warm-up piano
+// checks it), or null
+export function savedRange() {
+  let r = null;
+  try {
+    r = JSON.parse(globalThis.localStorage.getItem(RANGE_KEY));
+  } catch {}
+  const low = r && r.low;
+  const high = r && r.high;
+  return Number.isInteger(low) && Number.isInteger(high) && low >= 21 && high <= 108 && high - low >= 5 ? { low, high } : null;
+}
+
+// Where the climb starts: from the saved range when there is one, else from
+// the answer's range low
+export const startNote = (lower, range, types) => (range
+  ? finderStart({ low: range.low, high: range.high, types })
+  : finderStart({ low: lower ? RANGE_LOW.lower : RANGE_LOW.higher }));
 
 // The closest type by first shift among the answer's voices, VoiceType order
 // winning a tie (strictly closer replaces)
@@ -126,7 +170,7 @@ export function mount(el, pd) {
     const [l, i] = note(m);
     return l === i ? l : l + ' (' + i + ')';
   };
-  const st = { lower: null, midi: null, primo: null, timer: null, token: 0, piano: null };
+  const st = { lower: null, start: PRIMO_MIN, midi: null, primo: null, timer: null, token: 0, piano: null };
 
   const live = h('p', { class: 'sr-only', 'aria-live': 'polite' });
   // The note box: the note, its international name when the local one
@@ -147,6 +191,8 @@ export function mount(el, pd) {
   };
   const btn = (text, kind, onclick, ic) => h('button', { type: 'button', class: 'btn btn--' + kind, onclick }, ic, text);
   const actions = (...b) => h('div', { class: 'tool-panel__actions' }, ...b);
+  // two choices on a phone: an even row or a full width stack (css/style.css)
+  const pair = (...b) => h('div', { class: 'tool-panel__actions tool-panel__actions--pair' }, ...b);
   const p = (cls, text) => h('p', { class: cls }, text);
 
   // intro
@@ -173,7 +219,7 @@ export function mount(el, pd) {
   const climbing = h('div', { class: 'tool-panel__state', hidden: true },
     h('div', { class: 'stage__head vb-head' }, climbStatus, T.noMic && h('span', { class: 'pill pill--off' }, T.noMic)),
     h('div', { class: 'vb-main' }, stairs, climbNote.box), climbHint,
-    actions(feltBtn, btn(C.stop, 'secondary', () => show('intro'), icon(STOP, 16, true))));
+    h('div', { class: 'tool-panel__actions tool-panel__actions--wrap' }, feltBtn, btn(C.stop, 'secondary', () => show('intro'), icon(STOP, 16, true))));
 
   // confirm
   const confirmNote = target(true);
@@ -182,8 +228,8 @@ export function mount(el, pd) {
   const yesBtn = btn(S.yes, 'fill', () => confirm());
   const confirming = h('div', { class: 'tool-panel__state', hidden: true },
     confirmTitle, confirmNote.box, confirmMatch,
-    actions(btn(S.aBitLower, 'secondary', () => adjust(-1)), btn(S.aBitHigher, 'secondary', () => adjust(1))),
-    p('vb-hint', S.confirmHelp), actions(yesBtn, btn(C.tryAgain, 'secondary', () => begin(st.lower), icon(REDO, 16))));
+    pair(btn(S.aBitLower, 'secondary', () => adjust(-1)), btn(S.aBitHigher, 'secondary', () => adjust(1))),
+    p('vb-hint', S.confirmHelp), pair(yesBtn, btn(C.tryAgain, 'secondary', () => begin(st.lower), icon(REDO, 16))));
 
   // result: the value and facts, the zone on its keyboard, the notes, the
   // next steps (two columns on a wide stage). The app's offer is the band
@@ -200,7 +246,7 @@ export function mount(el, pd) {
       bed,
       h('div', { class: 'vb-notes' }, p('result-card__note', S.voiceBreakEducational), p('result-card__note', S.averages),
         p('result-card__note', S.saved)),
-      actions(redoBtn, pd.links && pd.links['warm-up-piano']
+      pair(redoBtn, pd.links && pd.links['warm-up-piano']
         ? h('a', { class: 'btn btn--secondary btn--accent', href: pd.links['warm-up-piano'] }, S.useInPiano, icon(ARROW, 16)) : null)));
 
   const states = { intro, voice, climbing, confirming, result };
@@ -246,9 +292,10 @@ export function mount(el, pd) {
     el.dataset.state = 'climbing';
     climbStatus.textContent = C.loading;
     climbHint.textContent = S.climbHelp;
-    setTarget(climbNote, startNote(lower));
+    st.start = startNote(lower, savedRange(), types);
+    setTarget(climbNote, st.start);
     // one step per note the climb can sound, up to C5
-    const n = PRIMO_MAX - startNote(lower) + 1;
+    const n = PRIMO_MAX - st.start + 1;
     stairs.style.setProperty('--n', String(n));
     stairs.replaceChildren(...Array.from({ length: n }, (_, i) => h('span', { class: 'vb-step', style: '--i:' + i })));
     feltBtn.disabled = true;
@@ -259,7 +306,7 @@ export function mount(el, pd) {
       if (!man) return failed(S.loadFailed);
       piano.init(man, pd.piano.base);
       piano.useContext(ctx);
-      const ok = await piano.prepareRange(startNote(lower) - 2, PRIMO_MAX + 2, { margin: 0 });
+      const ok = await piano.prepareRange(st.start - 2, PRIMO_MAX + 2, { margin: 0 });
       if (token !== st.token) return;
       if (!ok) return failed(S.loadFailed);
       st.piano = piano;
@@ -269,7 +316,7 @@ export function mount(el, pd) {
     feltBtn.disabled = false;
     climbStatus.textContent = S.firstShift;
     show('climbing');
-    st.midi = startNote(lower);
+    st.midi = st.start;
     step();
     st.timer = setInterval(() => {
       if (st.midi >= PRIMO_MAX) {
@@ -285,7 +332,7 @@ export function mount(el, pd) {
 
   function step() {
     setTarget(climbNote, st.midi);
-    const at = st.midi - startNote(st.lower);
+    const at = st.midi - st.start;
     [...stairs.children].forEach((b, i) => (b.className = 'vb-step' + (i < at ? ' vb-step--past' : i === at ? ' vb-step--on' : '')));
     sound(st.midi, 0.7);
     emit({ type: 'note', midi: st.midi });

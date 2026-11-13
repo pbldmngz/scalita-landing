@@ -28,7 +28,7 @@
     },
     {
       "heading": "Araç nasıl çalışır",
-      "html": "<p>Yalnızca piyanoyu kullanır, mikrofonu asla. Değişimi kendin, hissederek ve dinleyerek değerlendirirsin; bu yüzden araç her tarayıcıda, mikrofonla ya da mikrofonsuz çalışır.</p><p>Piyano pesten başlar: daha pes bir ses için {{note:C3}}, daha tiz bir ses için {{note:G#3}}. Sonra iki saniyede bir yarım ses yükselir. Dokunduğunda o nota ilk geçişin olur. Araç sonra grubundaki ses türleri arasında ilk geçişi en yakın olanı bulur ve ikinci geçişi o türden alır.</p>"
+      "html": "<p>Yalnızca piyanoyu kullanır, mikrofonu asla. Değişimi kendin, hissederek ve dinleyerek değerlendirirsin; bu yüzden araç her tarayıcıda, mikrofonla ya da mikrofonsuz çalışır.</p><p>Piyano pesten başlar: daha pes bir ses için {{note:C3}}, daha tiz bir ses için {{note:G#3}}. Sonra iki saniyede bir yarım ses yükselir. Bu tarayıcıda <a href=\"page:vocal-range-test\">ses aralığı testini</a> yaptıysan piyano aralığından başlar: aralığının işaret ettiği geçişin yaklaşık altı yarım ses altından, en pes notanın altına inmeden. Dokunduğunda o nota ilk geçişin olur. Araç sonra grubundaki ses türleri arasında ilk geçişi en yakın olanı bulur ve ikinci geçişi o türden alır.</p>"
     },
     {
       "heading": "Net bir cevap için",

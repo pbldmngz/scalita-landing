@@ -1595,8 +1595,13 @@ def answer_ear(t, cut):
         if t.page.get_attribute(m, "data-state") != "run":
             return t.page.get_attribute(m, "data-state")
         q = t.page.evaluate("window.__scalitaTest.events.filter((e) => e.kind === 'ask').pop()")
-        want = (q["up"] if q["step"] > cut else not q["up"]) if "up" in q else q["same"]
-        t.page.locator(m + " .tool-panel__state--run .st-ear .btn").nth(0 if want else 1).click()
+        # Lower | Higher for a pair, Same | Different for the melodies
+        if "up" in q:
+            up = q["up"] if q["step"] > cut else not q["up"]
+            first = not up
+        else:
+            first = q["same"]
+        t.page.locator(m + " .tool-panel__state--run .st-ear .btn").nth(0 if first else 1).click()
 
 
 def group_ear(p, srv, site):

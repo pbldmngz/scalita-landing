@@ -28,7 +28,7 @@
     },
     {
       "heading": "Cara kerja tes ini",
-      "html": "<p>Tes ini hanya memakai piano, tidak pernah mikrofon. Kamu sendiri yang menilai perpindahannya, dengan rasa dan telinga, jadi tes ini bisa dipakai di browser apa pun, dengan atau tanpa mikrofon.</p><p>Piano mulai dari nada rendah, {{note:C3}} untuk suara lebih rendah dan {{note:G#3}} untuk suara lebih tinggi, lalu naik setengah nada setiap dua detik. Saat kamu mengetuk, nada itu menjadi peralihan pertamamu. Lalu tes ini mencari jenis suara di kelompokmu yang peralihan pertamanya paling dekat, dan mengambil peralihan kedua dari jenis suara itu.</p>"
+      "html": "<p>Tes ini hanya memakai piano, tidak pernah mikrofon. Kamu sendiri yang menilai perpindahannya, dengan rasa dan telinga, jadi tes ini bisa dipakai di browser apa pun, dengan atau tanpa mikrofon.</p><p>Piano mulai dari nada rendah, {{note:C3}} untuk suara lebih rendah dan {{note:G#3}} untuk suara lebih tinggi, lalu naik setengah nada setiap dua detik. Kalau kamu sudah mencoba <a href=\"page:vocal-range-test\">cek range vokal</a> di browser ini, piano mulai dari jangkauanmu: sekitar enam setengah nada di bawah peralihan yang ditunjuk jangkauanmu, dan tidak pernah di bawah nada terendahmu. Saat kamu mengetuk, nada itu menjadi peralihan pertamamu. Lalu tes ini mencari jenis suara di kelompokmu yang peralihan pertamanya paling dekat, dan mengambil peralihan kedua dari jenis suara itu.</p>"
     },
     {
       "heading": "Supaya jawabannya jelas",

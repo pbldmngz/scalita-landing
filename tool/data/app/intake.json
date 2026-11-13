@@ -178,13 +178,13 @@
           "off"
         ],
         "description": {
-          "de": "Obere und untere Grenzen verschieben",
-          "en": "Push your upper and lower limits",
-          "es": "Empuja tus límites",
-          "fr": "Repousse tes limites hautes et basses",
-          "id": "Perluas batas atas dan bawah suaramu",
-          "pt": "Empurre seus limites agudo e grave",
-          "tr": "Üst ve alt sınırlarını zorla"
+          "de": "Höhe und Tiefe deiner Stimme erkunden",
+          "en": "Explore the top and bottom of your voice",
+          "es": "Explora los extremos de tu voz",
+          "fr": "Explore le haut et le bas de ta voix",
+          "id": "Jelajahi bagian atas dan bawah suaramu",
+          "pt": "Explore o agudo e o grave da sua voz",
+          "tr": "Sesinin tiz ve pes uçlarını keşfet"
         },
         "id": "range",
         "label": {
@@ -202,13 +202,13 @@
         "appOnly": false,
         "blockedWhen": [],
         "description": {
-          "de": "Volumen und Tragfähigkeit",
-          "en": "Volume and projection",
-          "es": "Volumen y proyección",
-          "fr": "Volume et projection",
-          "id": "Volume dan proyeksi",
-          "pt": "Volume e projeção",
-          "tr": "Hacim ve projeksiyon"
+          "de": "Lauter und tragfähiger",
+          "en": "Louder, and a voice that carries",
+          "es": "Más volumen y una voz que llegue lejos",
+          "fr": "Plus de volume, une voix qui porte",
+          "id": "Lebih keras, suara yang terdengar jauh",
+          "pt": "Mais volume, uma voz que chega longe",
+          "tr": "Daha gür, uzağa ulaşan bir ses"
         },
         "id": "power",
         "label": {
@@ -483,11 +483,11 @@
   },
   "title": {
     "de": "Einsingen finden",
-    "en": "Find My Warmup",
-    "es": "Encuentra Tu Calentamiento",
+    "en": "Find my warmup",
+    "es": "Encuentra tu calentamiento",
     "fr": "Trouve mon échauffement",
-    "id": "Cari Pemanasanku",
+    "id": "Cari pemanasanku",
     "pt": "Achar meu aquecimento",
-    "tr": "Isınmamı Bul"
+    "tr": "Isınmamı bul"
   }
 }

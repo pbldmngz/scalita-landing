@@ -53,13 +53,13 @@
       "tr": "Prr"
     },
     "tips": {
-      "de": "Lippenflattern. Lockere Lippen, gleichmäßige Luft, kein Kieferdruck. Braucht eine gute Atemstütze und löst Verspannungen.",
-      "en": "Lip trill. Loose lips, steady air, no jaw tension. It needs good breath support, and it relaxes a tense voice.",
-      "es": "Vibración de labios. Labios sueltos, aire constante, sin tensión en la mandíbula. Necesita buen apoyo respiratorio y relaja una voz tensa.",
-      "fr": "Vibration des lèvres. Lèvres souples, air régulier, mâchoire détendue. Elle demande un bon soutien du souffle et détend une voix crispée.",
-      "id": "Getar bibir. Bibir kendur, aliran udara stabil, rahang tidak tegang. Butuh dukungan napas yang baik, dan melemaskan suara yang tegang.",
-      "pt": "Vibração de lábios. Lábios soltos, ar constante, sem tensão na mandíbula. Pede um bom apoio respiratório e relaxa uma voz tensa.",
-      "tr": "Dudak trili. Dudaklar gevşek, hava sabit, çenede gerginlik yok. İyi nefes desteği ister ve gergin bir sesi gevşetir."
+      "de": "Lippenflattern. Lockere Lippen, kein Kieferdruck. Halte die Luft gleichmäßig und leicht. Die Finger sanft an den Wangen helfen.",
+      "en": "Lip trill. Loose lips, no jaw tension. Keep the air steady and easy. Light fingers on the cheeks help.",
+      "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
+      "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
+      "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+      "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+      "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
     },
     "trill": "lip",
     "usage": {
@@ -89,13 +89,13 @@
       "tr": "Hmm"
     },
     "tips": {
-      "de": "Summen mit geschlossenem Mund. Spür das Vibrieren in Nase und Stirn.",
-      "en": "Closed-mouth hum. Feel the buzz in your nose and forehead.",
-      "es": "Tarareo con boca cerrada. Siente la vibración en nariz y frente.",
-      "fr": "Bouche fermée. Sens le bourdonnement dans le nez et le front.",
-      "id": "Humming dengan mulut tertutup. Rasakan getarannya di hidung dan dahi.",
-      "pt": "Murmúrio de boca fechada. Sinta a vibração no nariz e na testa.",
-      "tr": "Ağız kapalı mırıldanma. Titreşimi burnunda ve alnında hisset."
+      "de": "Summ mit geschlossenen Lippen. Vielleicht spürst du ein leichtes Kribbeln im Gesicht.",
+      "en": "Hum with your lips closed. You may feel a light buzz in your face.",
+      "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
+      "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
+      "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+      "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+      "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
     },
     "trill": null,
     "usage": {
@@ -128,13 +128,13 @@
       "tr": "Zzz"
     },
     "tips": {
-      "de": "Stimmhafter Reibelaut. Zähne zusammen, gleichmäßiges Summen. Gut für den Stimmlippenschluss.",
-      "en": "Voiced fricative. Teeth together, steady buzz. Great for cord closure.",
-      "es": "Fricativa sonora. Dientes juntos, zumbido constante. Ideal para cierre cordal.",
-      "fr": "Fricative sonore. Dents serrées, bourdonnement régulier. Idéal pour la fermeture des cordes.",
-      "id": "Frikatif bersuara. Gigi rapat, dengung stabil. Bagus untuk penutupan pita suara.",
-      "pt": "Fricativa sonora. Dentes juntos, zumbido constante. Ótima para o fechamento das pregas.",
-      "tr": "Ötümlü sürtünmeli ses. Dişler kapalı, sabit bir vızıltı. Ses teli kapanışı için birebir."
+      "de": "Ein Summen wie eine Biene. Halt es ruhig und gleichmäßig.",
+      "en": "A buzz like a bee. Keep it steady and even.",
+      "es": "Un zumbido como de abeja. Mantenlo constante y parejo.",
+      "fr": "Un bourdonnement comme une abeille. Garde-le stable et régulier.",
+      "id": "Dengung seperti lebah. Jaga tetap stabil dan rata.",
+      "pt": "Um zumbido de abelha. Mantenha firme e por igual.",
+      "tr": "Arı gibi bir vızıltı. Sabit ve düzgün tut."
     },
     "trill": null,
     "usage": {
@@ -158,13 +158,13 @@
       "tr": "Ssss"
     },
     "tips": {
-      "de": "Stimmloses Zischen. Ausatmung steuern, Zwerchfell aktivieren.",
-      "en": "Unvoiced hiss. Control your exhale, engage the diaphragm.",
-      "es": "Silbido sin voz. Controla la exhalación, activa el diafragma.",
-      "fr": "Sifflement sourd. Contrôle ton expiration, engage le diaphragme.",
-      "id": "Desis tanpa suara. Kendalikan embusanmu, aktifkan diafragma.",
-      "pt": "Chiado surdo. Controle a saída de ar, ative o diafragma.",
-      "tr": "Ötümsüz tıslama. Nefes verişini kontrol et, diyaframı çalıştır."
+      "de": "Lass das Zischen langsam und gleichmäßig heraus.",
+      "en": "Let the hiss out slowly and evenly.",
+      "es": "Suelta el siseo despacio y de forma pareja.",
+      "fr": "Laisse sortir le sifflement lentement et régulièrement.",
+      "id": "Keluarkan desisnya pelan dan rata.",
+      "pt": "Solte o chiado devagar e por igual.",
+      "tr": "Tıslamayı yavaşça ve eşit şekilde bırak."
     },
     "trill": null,
     "usage": {
@@ -188,13 +188,13 @@
       "tr": "A"
     },
     "tips": {
-      "de": "Offener Vokal wie in 'Vater'. Lockerer Kiefer, tiefe Zunge.",
-      "en": "Open vowel as in 'father'. Relaxed jaw, tongue low.",
-      "es": "Vocal abierta como en 'padre'. Mandíbula relajada, lengua baja.",
-      "fr": "Voyelle ouverte comme dans « pâte ». Mâchoire détendue, langue basse.",
-      "id": "Vokal terbuka seperti pada 'ayah'. Rahang santai, lidah rendah.",
-      "pt": "Vogal aberta, o 'a' de 'casa'. Mandíbula relaxada, língua baixa.",
-      "tr": "'Baba'daki gibi açık ünlü. Çene gevşek, dil aşağıda."
+      "de": "Der offene Vokal in 'Vater'. Lass den Kiefer locker fallen.",
+      "en": "The open vowel in 'father'. Let your jaw drop easily.",
+      "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
+      "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
+      "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+      "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+      "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
     },
     "trill": null,
     "usage": {
@@ -224,13 +224,13 @@
       "tr": "İ"
     },
     "tips": {
-      "de": "Heller Vokal wie in 'Liebe'. Zunge hoch und vorn, Lippen breit.",
-      "en": "Bright vowel as in 'see'. Tongue high and forward, lips spread.",
-      "es": "Vocal brillante como en 'sí'. Lengua alta y adelante, labios abiertos.",
-      "fr": "Voyelle claire comme le « i » de « lit ». Langue haute et en avant, lèvres étirées.",
-      "id": "Vokal cerah seperti pada 'ini'. Lidah tinggi dan maju, bibir melebar.",
-      "pt": "Vogal brilhante, o 'i' de 'vida'. Língua alta e à frente, lábios esticados.",
-      "tr": "'İyi'deki gibi parlak ünlü. Dil yukarıda ve önde, dudaklar yayvan."
+      "de": "Der helle Vokal in 'Liebe'. Ein leichtes Lächeln hilft.",
+      "en": "The bright vowel in 'see'. A slight smile helps.",
+      "es": "La vocal brillante de 'sí'. Una sonrisa leve ayuda.",
+      "fr": "La voyelle claire, le « i » de « lit ». Un léger sourire aide.",
+      "id": "Vokal cerah seperti pada 'ini'. Senyum tipis membantu.",
+      "pt": "A vogal brilhante, o 'i' de 'vida'. Um leve sorriso ajuda.",
+      "tr": "'İyi'deki parlak ünlü. Hafif bir gülümseme yardımcı olur."
     },
     "trill": null,
     "usage": {
@@ -255,13 +255,13 @@
       "tr": "E"
     },
     "tips": {
-      "de": "Mittlerer Vokal wie in 'Bett'. Zunge mittelhoch, lockerer Kiefer.",
-      "en": "Mid vowel as in 'bed'. Tongue mid-height, relaxed jaw.",
-      "es": "Vocal media como en 'ver'. Lengua a media altura, mandíbula relajada.",
-      "fr": "Voyelle médiane comme le « è » de « mère ». Langue à mi-hauteur, mâchoire détendue.",
-      "id": "Vokal tengah seperti pada 'meja'. Lidah setengah tinggi, rahang santai.",
-      "pt": "Vogal média, o 'é' de 'pé'. Língua a meia altura, mandíbula relaxada.",
-      "tr": "'Ekmek'teki gibi orta ünlü. Dil orta yükseklikte, çene gevşek."
+      "de": "Der Vokal in 'Bett'. Leicht, wie beim Sprechen.",
+      "en": "The vowel in 'bed'. Easy, like when you talk.",
+      "es": "La vocal de 'ver'. Fácil, como al hablar.",
+      "fr": "Le « è » de « mère ». Facile, comme quand tu parles.",
+      "id": "Vokal seperti pada 'meja'. Santai, seperti saat bicara.",
+      "pt": "O 'é' de 'pé'. Fácil, como na fala.",
+      "tr": "'Ekmek'teki ünlü. Konuşurken olduğu gibi rahat."
     },
     "trill": null,
     "usage": {
@@ -283,13 +283,13 @@
       "tr": "O"
     },
     "tips": {
-      "de": "Runder Vokal wie in 'Boot'. Runde Lippen, Zunge mittig-hinten.",
-      "en": "Rounded vowel as in 'go'. Lips round, tongue mid-back.",
-      "es": "Vocal redondeada como en 'sol'. Labios redondos, lengua atrás.",
-      "fr": "Voyelle arrondie comme dans « eau ». Lèvres rondes, langue mi-arrière.",
-      "id": "Vokal bulat seperti pada 'toko'. Bibir membulat, lidah tengah belakang.",
-      "pt": "Vogal arredondada, o 'ô' de 'avô'. Lábios redondos, língua média e recuada.",
-      "tr": "'Okul'daki gibi yuvarlak ünlü. Dudaklar yuvarlak, dil ortada ve geride."
+      "de": "Der Vokal in 'Boot'. Lippen rund und locker.",
+      "en": "The vowel in 'go'. Lips round and relaxed.",
+      "es": "La vocal de 'sol'. Labios redondos y relajados.",
+      "fr": "La voyelle de « eau ». Lèvres rondes et détendues.",
+      "id": "Vokal seperti pada 'toko'. Bibir bulat dan santai.",
+      "pt": "O 'ô' de 'avô'. Lábios redondos e relaxados.",
+      "tr": "'Okul'daki ünlü. Dudaklar yuvarlak ve gevşek."
     },
     "trill": null,
     "usage": {
@@ -313,13 +313,13 @@
       "tr": "U"
     },
     "tips": {
-      "de": "Geschlossener Vokal wie in 'Blume'. Kleine runde Lippenöffnung, Zunge hinten.",
-      "en": "Closed vowel as in 'moon'. Small round lip opening, tongue back.",
-      "es": "Vocal cerrada como en 'tú'. Apertura labial pequeña y redonda.",
-      "fr": "Voyelle fermée comme le « ou » de « loup ». Petite ouverture ronde, langue en arrière.",
-      "id": "Vokal tertutup seperti pada 'buku'. Bukaan bibir bulat kecil, lidah mundur.",
-      "pt": "Vogal fechada, o 'u' de 'lua'. Abertura pequena e redonda, língua atrás.",
-      "tr": "'Uzun'daki gibi kapalı ünlü. Dudak açıklığı küçük ve yuvarlak, dil geride."
+      "de": "Der Vokal in 'Blume'. Forme die Lippen zu einem kleinen O.",
+      "en": "The vowel in 'moon'. Round your lips into a small O.",
+      "es": "La vocal de 'tú'. Redondea los labios en una o pequeña.",
+      "fr": "Le « ou » de « loup ». Arrondis les lèvres en un petit o.",
+      "id": "Vokal seperti pada 'buku'. Bulatkan bibir jadi O kecil.",
+      "pt": "O 'u' de 'lua'. Arredonde os lábios num 'o' pequeno.",
+      "tr": "'Uzun'daki ünlü. Dudaklarını küçük bir O gibi yuvarla."
     },
     "trill": null,
     "usage": {
@@ -344,13 +344,13 @@
       "tr": "Ma"
     },
     "tips": {
-      "de": "Summen ins offene 'a'. Leichter Einsatz, warmer, resonanter Klang.",
-      "en": "Hum into open Ah. Easy onset, warm resonant tone.",
-      "es": "Tarareo hacia Ah abierta. Inicio suave, tono cálido.",
-      "fr": "Bourdonnement vers un Ah ouvert. Attaque facile, son chaud et résonant.",
-      "id": "Humming ke A terbuka. Awal nada mudah, warna hangat dan beresonansi.",
-      "pt": "Murmúrio para o 'a' aberto. Ataque fácil, som quente e ressonante.",
-      "tr": "Mırıltıdan açık A sesine geç. Yumuşak atak, sıcak ve rezonanslı ton."
+      "de": "M ins offene 'a'. Ein leichter, warmer Beginn.",
+      "en": "M into an open Ah. An easy, warm start.",
+      "es": "M hacia una Ah abierta. Un comienzo fácil y cálido.",
+      "fr": "M vers un Ah ouvert. Un départ facile et chaleureux.",
+      "id": "M menuju A terbuka. Awal yang mudah dan hangat.",
+      "pt": "M para o 'a' aberto. Um começo fácil e quente.",
+      "tr": "M'den açık A sesine. Rahat, sıcak bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -376,13 +376,13 @@
       "tr": "Mi"
     },
     "tips": {
-      "de": "Summen ins helle 'i'. Vorderer Sitz, klarer Klang.",
-      "en": "Hum into bright Ee. Forward resonance, clear tone.",
-      "es": "Tarareo hacia una 'i' brillante. Resonancia frontal, tono claro.",
-      "fr": "Bourdonnement vers un I clair. Résonance en avant, son net.",
-      "id": "Humming ke I cerah. Resonansi depan, warna jernih.",
-      "pt": "Murmúrio para o 'i' brilhante. Ressonância frontal, som claro.",
-      "tr": "Mırıltıdan parlak İ sesine geç. Önde rezonans, net ton."
+      "de": "M ins helle 'i'. Ein klarer, klingender Ton.",
+      "en": "M into a bright Ee. A clear, ringing sound.",
+      "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
+      "fr": "M vers un I clair. Un son net et sonore.",
+      "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+      "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+      "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
     },
     "trill": null,
     "usage": {
@@ -408,13 +408,13 @@
       "tr": "Me"
     },
     "tips": {
-      "de": "Summen ins mittlere 'ä'. Leichte Resonanz, sprechnaher Sitz.",
-      "en": "Hum into mid Eh. Easy resonance, speech-like placement.",
-      "es": "Tarareo hacia Eh media. Resonancia fácil, colocación hablada.",
-      "fr": "Bourdonnement vers un È médian. Résonance facile, placement parlé.",
-      "id": "Humming ke É tengah. Resonansi mudah, penempatan seperti bicara.",
-      "pt": "Murmúrio para o 'é' médio. Ressonância fácil, colocação de fala.",
-      "tr": "Mırıltıdan orta E sesine geç. Rahat rezonans, konuşur gibi yerleştirme."
+      "de": "M ins 'ä'. Leicht und nah an der Sprechstimme.",
+      "en": "M into Eh. Easy and close to speech.",
+      "es": "M hacia Eh. Fácil y cercano al habla.",
+      "fr": "M vers un È. Facile et proche de la voix parlée.",
+      "id": "M menuju É. Mudah dan dekat dengan suara bicara.",
+      "pt": "M para o 'é'. Fácil e perto da fala.",
+      "tr": "M'den E sesine. Rahat ve konuşmaya yakın."
     },
     "trill": null,
     "usage": {
@@ -436,13 +436,13 @@
       "tr": "Mu"
     },
     "tips": {
-      "de": "Summen ins 'u'. Sanfter Start, dunkler, warmer Klang.",
-      "en": "Hum into Oo. Gentle start, dark warm tone.",
-      "es": "Tarareo hacia la 'u'. Inicio suave, tono oscuro y cálido.",
-      "fr": "Bourdonnement vers un Ou. Départ doux, son sombre et chaud.",
-      "id": "Humming ke U. Awal yang lembut, warna gelap dan hangat.",
-      "pt": "Murmúrio para o 'u'. Início suave, som escuro e quente.",
-      "tr": "Mırıltıdan U sesine geç. Yumuşak başlangıç, koyu ve sıcak ton."
+      "de": "M ins 'u'. Ein sanfter Beginn, ein weicher, warmer Klang.",
+      "en": "M into Oo. A gentle start and a soft, warm sound.",
+      "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
+      "fr": "M vers un Ou. Un départ doux, un son chaud.",
+      "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+      "pt": "M para o 'u'. Um começo suave e um som quente.",
+      "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
     },
     "trill": null,
     "usage": {
@@ -469,13 +469,13 @@
       "tr": "Mam"
     },
     "tips": {
-      "de": "Summen ins geschlossene 'a'. Entspannt, sprechnah.",
-      "en": "Hum into closed Uh. Relaxed, speech-like quality.",
-      "es": "Tarareo hacia una 'a' cerrada. Relajado, calidad hablada.",
-      "fr": "Bourdonnement vers un A fermé. Détendu, proche de la parole.",
-      "id": "Humming ke A tertutup. Santai, mirip cara bicara.",
-      "pt": "Murmúrio para o 'a' fechado. Relaxado, parecido com a fala.",
-      "tr": "Mırıltıdan kapalı A sesine geç. Gevşek, konuşma gibi bir tını."
+      "de": "M ins kurze 'a'. Entspannt, wie beim Sprechen.",
+      "en": "M into a short Uh. Relaxed, like talking.",
+      "es": "M hacia una 'a' corta. Relajado, como al hablar.",
+      "fr": "M vers un A bref. Détendu, comme quand tu parles.",
+      "id": "M menuju A pendek. Santai, seperti bicara.",
+      "pt": "M para o 'a' fechado. Relaxado, como na fala.",
+      "tr": "M'den kısa A sesine. Konuşur gibi gevşek."
     },
     "trill": null,
     "usage": {
@@ -501,13 +501,13 @@
       "tr": "Mo"
     },
     "tips": {
-      "de": "Summen ins runde 'o'. Ausgewogene Resonanz, weicher Einsatz.",
-      "en": "Hum into rounded Oh. Balanced resonance, smooth onset.",
-      "es": "Tarareo hacia Oh redondeada. Resonancia equilibrada.",
-      "fr": "Bourdonnement vers un O arrondi. Résonance équilibrée, attaque douce.",
-      "id": "Humming ke O yang bulat. Resonansi seimbang, awal nada halus.",
-      "pt": "Murmúrio para o 'ô' arredondado. Ressonância equilibrada, ataque macio.",
-      "tr": "Mırıltıdan yuvarlak O sesine geç. Dengeli rezonans, yumuşak atak."
+      "de": "M ins runde 'o'. Ein weicher, ruhiger Beginn.",
+      "en": "M into a round Oh. A smooth, even start.",
+      "es": "M hacia una Oh redonda. Un comienzo suave y parejo.",
+      "fr": "M vers un O rond. Un départ doux et égal.",
+      "id": "M menuju O yang bulat. Awal yang halus dan rata.",
+      "pt": "M para o 'ô' redondo. Um começo macio e uniforme.",
+      "tr": "M'den yuvarlak O sesine. Yumuşak, dengeli bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -529,13 +529,13 @@
       "tr": "Ney"
     },
     "tips": {
-      "de": "Nasales N ins helle 'e'. Vorderer Sitz, trägt gut.",
-      "en": "Nasal N into bright Ay. Forward placement, projects well.",
-      "es": "N nasal hacia una 'ei' brillante. Colocación frontal, buena proyección.",
-      "fr": "N nasal vers un É clair. Placement avant, projette bien.",
-      "id": "N sengau menuju Ey yang cerah. Penempatan depan, proyeksinya bagus.",
-      "pt": "N nasal para o 'ei' brilhante. Colocação frontal, projeta bem.",
-      "tr": "Genizsi N'den parlak Ey sesine. Öne yerleştirilmiş ton, iyi taşır."
+      "de": "N ins helle, freche 'e'. Der Klang trägt gut.",
+      "en": "N into a bright, bratty Ay. It carries well.",
+      "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
+      "fr": "N vers un É clair et effronté. Le son porte bien.",
+      "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+      "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+      "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
     },
     "trill": null,
     "usage": {
@@ -564,13 +564,13 @@
       "tr": "Ni"
     },
     "tips": {
-      "de": "Nasales N ins 'i'. Starkes Vibrieren vorn, hellt den Klang auf.",
-      "en": "Nasal N into Ee. Strong forward buzz, brightens tone.",
-      "es": "N nasal hacia la 'i'. Fuerte zumbido frontal, abrillanta el tono.",
-      "fr": "N nasal vers un I. Fort bourdonnement en avant, éclaircit le son.",
-      "id": "N sengau menuju I. Dengung depan yang kuat, mencerahkan warna suara.",
-      "pt": "N nasal para o 'i'. Zumbido frontal forte, clareia o som.",
-      "tr": "Genizsi N'den İ sesine. Önde güçlü titreşim, tonu parlatır."
+      "de": "N ins 'i'. Hell, mit einem leichten Summen.",
+      "en": "N into Ee. Bright, with a light buzz.",
+      "es": "N hacia la 'i'. Brillante, con una vibración ligera.",
+      "fr": "N vers un I. Clair, avec un léger bourdonnement.",
+      "id": "N menuju I. Cerah, dengan dengung ringan.",
+      "pt": "N para o 'i'. Brilhante, com uma vibração leve.",
+      "tr": "N'den İ sesine. Parlak, hafif bir titreşimle."
     },
     "trill": null,
     "usage": {
@@ -596,13 +596,13 @@
       "tr": "No"
     },
     "tips": {
-      "de": "Nasales N ins 'o'. Vorderer Sitz mit Wärme.",
-      "en": "Nasal N into Oh. Forward resonance with warmth.",
-      "es": "N nasal hacia Oh. Resonancia frontal con calidez.",
-      "fr": "N nasal vers un O. Résonance en avant avec de la chaleur.",
-      "id": "N sengau menuju O. Resonansi depan yang hangat.",
-      "pt": "N nasal para o 'ô'. Ressonância frontal com calor.",
-      "tr": "Genizsi N'den O sesine. Sıcaklığı olan bir ön rezonans."
+      "de": "N ins 'o'. Rund, mit Wärme.",
+      "en": "N into Oh. Round and warm.",
+      "es": "N hacia Oh. Redondo y cálido.",
+      "fr": "N vers un O. Rond et chaleureux.",
+      "id": "N menuju O. Bulat dan hangat.",
+      "pt": "N para o 'ô'. Redondo e quente.",
+      "tr": "N'den O sesine. Yuvarlak ve sıcak."
     },
     "trill": null,
     "usage": {
@@ -626,13 +626,13 @@
       "tr": "Nu"
     },
     "tips": {
-      "de": "Nasales N ins 'u'. Vorderes Vibrieren in einen dunklen Vokal.",
-      "en": "Nasal N into Oo. Forward buzz into dark vowel.",
-      "es": "N nasal hacia la 'u'. Zumbido frontal hacia vocal oscura.",
-      "fr": "N nasal vers un Ou. Bourdonnement en avant vers une voyelle sombre.",
-      "id": "N sengau menuju U. Dengung depan masuk ke vokal gelap.",
-      "pt": "N nasal para o 'u'. Zumbido frontal numa vogal escura.",
-      "tr": "Genizsi N'den U sesine. Öndeki titreşimden koyu ünlüye."
+      "de": "N ins 'u'. Erst ein leichtes Summen, dann ein weicher, runder Vokal.",
+      "en": "N into Oo. A light buzz, then a soft, round vowel.",
+      "es": "N hacia la 'u'. Una vibración ligera y luego una vocal suave y redonda.",
+      "fr": "N vers un Ou. Un léger bourdonnement, puis une voyelle douce et ronde.",
+      "id": "N menuju U. Dengung ringan, lalu vokal yang lembut dan bulat.",
+      "pt": "N para o 'u'. Uma vibração leve, depois uma vogal suave e redonda.",
+      "tr": "N'den U sesine. Önce hafif bir titreşim, sonra yumuşak, yuvarlak bir ünlü."
     },
     "trill": null,
     "usage": {
@@ -657,13 +657,13 @@
       "tr": "Gi"
     },
     "tips": {
-      "de": "G-Einsatz ins 'i'. Aktiviert den Stimmlippenschluss, klarer Einsatz.",
-      "en": "G onset into Ee. Engages cord closure, clear attack.",
-      "es": "G hacia la 'i'. Activa cierre cordal, ataque claro.",
-      "fr": "Attaque en G vers un I. Engage la fermeture des cordes, attaque nette.",
-      "id": "Awalan G menuju I. Mengaktifkan penutupan pita suara, awal nada jernih.",
-      "pt": "Ataque de G no 'i'. Ativa o fechamento das pregas, com ataque claro.",
-      "tr": "G atağıyla İ sesine. Ses teli kapanışını çalıştırır, net bir başlangıç."
+      "de": "G-Einsatz ins 'i'. Ein sauberer, klarer Beginn.",
+      "en": "G into Ee. A clean, clear start.",
+      "es": "G hacia la 'i'. Un comienzo limpio y claro.",
+      "fr": "Attaque en G vers un I. Un départ propre et net.",
+      "id": "Awalan G menuju I. Awal nada yang bersih dan jernih.",
+      "pt": "Ataque de G no 'i'. Um começo limpo e claro.",
+      "tr": "G atağıyla İ sesine. Temiz ve net bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -688,13 +688,13 @@
       "tr": "Gu"
     },
     "tips": {
-      "de": "G-Einsatz ins 'u'. Tiefer Schluss, stabilisiert den Kehlkopf.",
-      "en": "G onset into Oo. Deep closure, stabilizes the larynx.",
-      "es": "G hacia la 'u'. Cierre profundo, estabiliza la laringe.",
-      "fr": "Attaque en G vers un Ou. Fermeture profonde, stabilise le larynx.",
-      "id": "Awalan G menuju U. Penutupan yang dalam, menstabilkan laring.",
-      "pt": "Ataque de G no 'u'. Fechamento profundo, estabiliza a laringe.",
-      "tr": "G atağıyla U sesine. Derin kapanış, gırtlağı dengeler."
+      "de": "G-Einsatz ins 'u'. Ein tiefer Klang, den manche als erdend empfinden.",
+      "en": "G into Oo. A deep sound some singers find grounding.",
+      "es": "G hacia la 'u'. Un sonido profundo que a algunos cantantes les da asiento.",
+      "fr": "Attaque en G vers un Ou. Un son profond qui aide certains chanteurs à se sentir ancrés.",
+      "id": "Awalan G menuju U. Bunyi dalam yang bagi sebagian penyanyi terasa membumi.",
+      "pt": "Ataque de G no 'u'. Um som profundo que dá chão para alguns cantores.",
+      "tr": "G atağıyla U sesine. Bazı şarkıcıların sesi oturttuğunu hissettiği derin bir ses."
     },
     "trill": null,
     "usage": {
@@ -716,13 +716,13 @@
       "tr": "Ga"
     },
     "tips": {
-      "de": "G-Einsatz ins 'a'. Fester offener Einsatz, verankert die Stimme.",
-      "en": "G onset into Ah. Firm open attack, anchors the voice.",
-      "es": "G hacia Ah. Ataque abierto firme, ancla la voz.",
-      "fr": "Attaque en G vers un Ah. Attaque ouverte et ferme, ancre la voix.",
-      "id": "Awalan G menuju A. Awal nada terbuka dan tegas, mengokohkan suara.",
-      "pt": "Ataque de G no 'a'. Ataque aberto e firme, ancora a voz.",
-      "tr": "G atağıyla A sesine. Sağlam ve açık bir başlangıç, sesi sabitler."
+      "de": "G-Einsatz ins 'a'. Ein klarer, offener Beginn.",
+      "en": "G into Ah. A clear, open start.",
+      "es": "G hacia Ah. Un comienzo claro y abierto.",
+      "fr": "Attaque en G vers un Ah. Un départ net et ouvert.",
+      "id": "Awalan G menuju A. Awal yang jernih dan terbuka.",
+      "pt": "Ataque de G no 'a'. Um começo claro e aberto.",
+      "tr": "G atağıyla A sesine. Net ve açık bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -744,13 +744,13 @@
       "tr": "Gug"
     },
     "tips": {
-      "de": "G-Einsatz ins tiefe 'u'. Stabilisiert den Kehlkopf, erdende Übung.",
-      "en": "G onset into deep Oo. Larynx stabilizer, grounding exercise.",
-      "es": "G hacia una 'u' profunda. Estabilizador de laringe, ejercicio de arraigo.",
-      "fr": "Attaque en G vers un Ou profond. Stabilise le larynx, exercice d'ancrage.",
-      "id": "Awalan G menuju U yang dalam. Menstabilkan laring, memantapkan suara.",
-      "pt": "Ataque de G no 'u' profundo. Estabiliza a laringe, exercício de ancoragem.",
-      "tr": "G atağıyla derin U sesine. Gırtlağı dengeler, sesi oturtur."
+      "de": "G am Anfang und am Ende eines tiefen 'u'. Ein ruhiger, erdender Klang.",
+      "en": "G at both ends of a deep Oo. A steady, grounding sound.",
+      "es": "G al principio y al final de una 'u' profunda. Un sonido estable que te asienta.",
+      "fr": "Un G à chaque bout d'un Ou profond. Un son stable, qui ancre.",
+      "id": "G di awal dan akhir U yang dalam. Bunyi yang mantap dan membumi.",
+      "pt": "G nas duas pontas de um 'u' profundo. Um som estável, que dá chão.",
+      "tr": "Derin bir U sesinin iki ucunda G. Sabit, sesi oturtan bir ses."
     },
     "trill": null,
     "usage": {
@@ -774,13 +774,13 @@
       "tr": "Gag"
     },
     "tips": {
-      "de": "G-Einsatz ins 'a'. Feste glottale Aktivierung, baut Kraft auf.",
-      "en": "G onset into Uh. Firm glottal engagement, builds power.",
-      "es": "G hacia la 'a'. Activación glótica firme, construye potencia.",
-      "fr": "Attaque en G vers un A. Engagement glottique ferme, développe la puissance.",
-      "id": "Awalan G menuju A. Kerja glotis yang mantap, membangun tenaga.",
-      "pt": "Ataque de G no 'a'. Engajamento glótico firme, constrói potência.",
-      "tr": "G atağıyla A sesine. Sağlam glottal çalışma, güç kazandırır."
+      "de": "G-Einsatz ins 'a'. Ein fester Beginn. Wenn es rau wird, nimm es leichter.",
+      "en": "G into Uh. A firm start. If it feels harsh, keep it lighter.",
+      "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
+      "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
+      "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+      "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+      "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
     },
     "trill": null,
     "usage": {
@@ -805,13 +805,13 @@
       "tr": "Ka"
     },
     "tips": {
-      "de": "K-Einsatz ins 'a'. Knackiger Stimmlippenschluss, klare Artikulation.",
-      "en": "K onset into Ah. Crisp cord closure, clear articulation.",
-      "es": "K hacia Ah. Cierre cordal nítido, articulación clara.",
-      "fr": "Attaque en K vers un Ah. Fermeture nette, articulation claire.",
-      "id": "Awalan K menuju A. Penutupan pita suara yang tegas, artikulasi jernih.",
-      "pt": "Ataque de K no 'a'. Fechamento nítido das pregas, articulação clara.",
-      "tr": "K atağıyla A sesine. Keskin ses teli kapanışı, net artikülasyon."
+      "de": "K-Einsatz ins 'a'. Ein knackiger Beginn, offen und klar.",
+      "en": "K into Ah. A crisp start, open and clear.",
+      "es": "K hacia Ah. Un comienzo nítido, abierto y claro.",
+      "fr": "Attaque en K vers un Ah. Un départ net, ouvert et clair.",
+      "id": "Awalan K menuju A. Awal yang tegas, terbuka dan jernih.",
+      "pt": "Ataque de K no 'a'. Um começo nítido, aberto e claro.",
+      "tr": "K atağıyla A sesine. Keskin bir başlangıç, açık ve net."
     },
     "trill": null,
     "usage": {
@@ -833,13 +833,13 @@
       "tr": "Ku"
     },
     "tips": {
-      "de": "K-Einsatz ins 'u'. Fester Schluss in einen dunklen Vokal, erdend.",
-      "en": "K onset into Oo. Firm closure into dark vowel, grounding.",
-      "es": "K hacia la 'u'. Cierre firme hacia vocal oscura, arraigo.",
-      "fr": "Attaque en K vers un Ou. Fermeture ferme vers une voyelle sombre, ancrage.",
-      "id": "Awalan K menuju U. Penutupan tegas masuk ke vokal gelap, memantapkan suara.",
-      "pt": "Ataque de K no 'ô'. Fechamento firme numa vogal escura, ancora a voz.",
-      "tr": "K atağıyla U sesine. Koyu ünlüye sağlam kapanış, sesi oturtur."
+      "de": "K-Einsatz ins 'u'. Ein knackiger Beginn in einen dunklen Vokal.",
+      "en": "K into Oo. A crisp start into a dark vowel.",
+      "es": "K hacia la 'u'. Un comienzo nítido hacia una vocal oscura.",
+      "fr": "Attaque en K vers un Ou. Un départ net vers une voyelle sombre.",
+      "id": "Awalan K menuju U. Awal yang tegas masuk ke vokal gelap.",
+      "pt": "Ataque de K no 'ô'. Um começo nítido numa vogal escura.",
+      "tr": "K atağıyla U sesine. Koyu bir ünlüye keskin bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -861,13 +861,13 @@
       "tr": "Ko"
     },
     "tips": {
-      "de": "K-Einsatz ins 'o'. Knackiger Einsatz, runde Resonanz.",
-      "en": "K onset into Oh. Crisp attack, rounded resonance.",
-      "es": "K hacia Oh. Ataque nítido, resonancia redondeada.",
-      "fr": "Attaque en K vers un O. Attaque nette, résonance arrondie.",
-      "id": "Awalan K menuju O. Awal nada tegas, resonansi bulat.",
-      "pt": "Ataque de K no 'ó'. Ataque nítido, ressonância arredondada.",
-      "tr": "K atağıyla O sesine. Keskin başlangıç, yuvarlak rezonans."
+      "de": "K-Einsatz ins 'o'. Ein knackiger, runder Beginn.",
+      "en": "K into Oh. A crisp start, round and full.",
+      "es": "K hacia Oh. Un comienzo nítido y redondo.",
+      "fr": "Attaque en K vers un O. Un départ net et rond.",
+      "id": "Awalan K menuju O. Awal yang tegas, warna bulat.",
+      "pt": "Ataque de K no 'ó'. Um começo nítido e redondo.",
+      "tr": "K atağıyla O sesine. Keskin bir başlangıç, yuvarlak bir ton."
     },
     "trill": null,
     "usage": {
@@ -889,13 +889,13 @@
       "tr": "Ki"
     },
     "tips": {
-      "de": "K-Einsatz ins 'i'. Scharfer Schluss, heller vorderer Klang.",
-      "en": "K onset into Ee. Sharp closure, bright forward tone.",
-      "es": "K hacia la 'i'. Cierre preciso, tono frontal brillante.",
-      "fr": "Attaque en K vers un I. Fermeture franche, son clair et en avant.",
-      "id": "Awalan K menuju I. Penutupan tajam, warna cerah di depan.",
-      "pt": "Ataque de K no 'i'. Fechamento afiado, som claro e frontal.",
-      "tr": "K atağıyla İ sesine. Keskin kapanış, parlak ve önde bir ton."
+      "de": "K-Einsatz ins 'i'. Ein knackiger Beginn, hell und vorne.",
+      "en": "K into Ee. A crisp start, bright and forward.",
+      "es": "K hacia la 'i'. Un comienzo nítido, brillante y hacia delante.",
+      "fr": "Attaque en K vers un I. Un départ net, clair et en avant.",
+      "id": "Awalan K menuju I. Awal yang tegas, cerah dan di depan.",
+      "pt": "Ataque de K no 'i'. Um começo nítido, brilhante e para a frente.",
+      "tr": "K atağıyla İ sesine. Keskin bir başlangıç, parlak ve önde."
     },
     "trill": null,
     "usage": {
@@ -920,13 +920,13 @@
       "tr": "Ke"
     },
     "tips": {
-      "de": "K-Einsatz ins 'ä'. Sauberer Einsatz, Sitz in der Mittellage.",
-      "en": "K onset into Eh. Clean attack, mid-range placement.",
-      "es": "K hacia Eh. Ataque limpio, colocación media.",
-      "fr": "Attaque en K vers un È. Attaque propre, placement médium.",
-      "id": "Awalan K menuju É. Awal nada bersih, penempatan wilayah tengah.",
-      "pt": "Ataque de K no 'é'. Ataque limpo, colocação na região média.",
-      "tr": "K atağıyla E sesine. Temiz başlangıç, orta bölgeye yerleştirme."
+      "de": "K-Einsatz ins 'ä'. Ein knackiger Beginn auf einem leichten, sprechnahen Vokal.",
+      "en": "K into Eh. A crisp start on an easy, speech-like vowel.",
+      "es": "K hacia Eh. Un comienzo nítido en una vocal fácil, como al hablar.",
+      "fr": "Attaque en K vers un È. Un départ net sur une voyelle facile, proche de la parole.",
+      "id": "Awalan K menuju É. Awal yang tegas pada vokal yang mudah, seperti bicara.",
+      "pt": "Ataque de K no 'é'. Um começo nítido numa vogal fácil, como na fala.",
+      "tr": "K atağıyla E sesine. Konuşur gibi rahat bir ünlüde keskin bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -948,13 +948,13 @@
       "tr": "Fa"
     },
     "tips": {
-      "de": "F-Einsatz ins 'a'. Behauchte Reibung, öffnet den Hals.",
-      "en": "F onset into Ah. Breathy friction, opens the throat.",
-      "es": "F hacia Ah. Fricción suave, abre la garganta.",
-      "fr": "Attaque en F vers un Ah. Friction soufflée, ouvre la gorge.",
-      "id": "Awalan F menuju A. Gesekan berangin, membuka tenggorokan.",
-      "pt": "Ataque de F no 'a'. Fricção com ar, abre a garganta.",
-      "tr": "F atağıyla A sesine. Nefesli sürtünme, boğazı açar."
+      "de": "F-Einsatz ins 'a'. Ein leichter, luftiger Beginn.",
+      "en": "F into Ah. An easy, airy start.",
+      "es": "F hacia Ah. Un comienzo fácil, con aire.",
+      "fr": "Attaque en F vers un Ah. Un départ facile et soufflé.",
+      "id": "Awalan F menuju A. Awal yang mudah dan berangin.",
+      "pt": "Ataque de F no 'a'. Um começo fácil, com ar.",
+      "tr": "F atağıyla A sesine. Rahat, nefesli bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -976,13 +976,13 @@
       "tr": "Fu"
     },
     "tips": {
-      "de": "F-Einsatz ins 'u'. Sanfter Luftstrom, entspannt enge Stimmlippen.",
-      "en": "F onset into Oo. Gentle airflow, relaxes tight folds.",
-      "es": "F hacia la 'u'. Flujo de aire suave, relaja pliegues tensos.",
-      "fr": "Attaque en F vers un Ou. Débit d'air doux, détend les cordes serrées.",
-      "id": "Awalan F menuju U. Aliran udara lembut, mengendurkan pita suara yang tegang.",
-      "pt": "Ataque de F no 'u'. Fluxo de ar suave, relaxa pregas tensas.",
-      "tr": "F atağıyla U sesine. Yumuşak hava akışı, gergin telleri gevşetir."
+      "de": "F-Einsatz ins 'u'. Sanfte Luft vor dem Klang.",
+      "en": "F into Oo. Soft air before the sound.",
+      "es": "F hacia la 'u'. Aire suave antes del sonido.",
+      "fr": "Attaque en F vers un Ou. Un air doux avant le son.",
+      "id": "Awalan F menuju U. Udara lembut sebelum bunyi.",
+      "pt": "Ataque de F no 'u'. Ar suave antes do som.",
+      "tr": "F atağıyla U sesine. Sesten önce yumuşak bir hava."
     },
     "trill": null,
     "usage": {
@@ -1004,13 +1004,13 @@
       "tr": "Fo"
     },
     "tips": {
-      "de": "F-Einsatz ins 'o'. Weiche Reibung, warmer runder Klang.",
-      "en": "F onset into Oh. Soft friction, warm rounded tone.",
-      "es": "F hacia Oh. Fricción suave, tono redondeado cálido.",
-      "fr": "Attaque en F vers un O. Friction douce, son chaud et arrondi.",
-      "id": "Awalan F menuju O. Gesekan lembut, warna hangat dan bulat.",
-      "pt": "Ataque de F no 'ô'. Fricção macia, som quente e arredondado.",
-      "tr": "F atağıyla O sesine. Yumuşak sürtünme, sıcak ve yuvarlak ton."
+      "de": "F-Einsatz ins 'o'. Ein weicher, luftiger Beginn, ein runder Klang.",
+      "en": "F into Oh. A soft, airy start and a round sound.",
+      "es": "F hacia Oh. Un comienzo suave, con aire, y un sonido redondo.",
+      "fr": "Attaque en F vers un O. Un départ doux et soufflé, un son rond.",
+      "id": "Awalan F menuju O. Awal yang lembut dan berangin, bunyi yang bulat.",
+      "pt": "Ataque de F no 'ô'. Um começo suave, com ar, e um som redondo.",
+      "tr": "F atağıyla O sesine. Yumuşak, nefesli bir başlangıç ve yuvarlak bir ses."
     },
     "trill": null,
     "usage": {
@@ -1032,13 +1032,13 @@
       "tr": "Fi"
     },
     "tips": {
-      "de": "F-Einsatz ins 'i'. Luftige Helligkeit, löst Spannung.",
-      "en": "F onset into Ee. Airy brightness, eases tension.",
-      "es": "F hacia la 'i'. Brillo aireado, alivia la tensión.",
-      "fr": "Attaque en F vers un I. Clarté aérée, relâche la tension.",
-      "id": "Awalan F menuju I. Cerah dan berangin, meredakan ketegangan.",
-      "pt": "Ataque de F no 'i'. Brilho com ar, alivia a tensão.",
-      "tr": "F atağıyla İ sesine. Nefesli bir parlaklık, gerginliği azaltır."
+      "de": "F-Einsatz ins 'i'. Ein weicher, luftiger Beginn auf einem hellen Vokal.",
+      "en": "F into Ee. A soft, airy start on a bright vowel.",
+      "es": "F hacia la 'i'. Un comienzo suave, con aire, en una vocal brillante.",
+      "fr": "Attaque en F vers un I. Un départ doux et soufflé sur une voyelle claire.",
+      "id": "Awalan F menuju I. Awal yang lembut dan berangin pada vokal cerah.",
+      "pt": "Ataque de F no 'i'. Um começo suave, com ar, numa vogal brilhante.",
+      "tr": "F atağıyla İ sesine. Parlak bir ünlüde yumuşak, nefesli bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -1060,13 +1060,13 @@
       "tr": "Fe"
     },
     "tips": {
-      "de": "F-Einsatz ins 'ä'. Leichte Reibung, lockert die Mittellage.",
-      "en": "F onset into Eh. Light friction, mid-range release.",
-      "es": "F hacia Eh. Fricción ligera, relajación media.",
-      "fr": "Attaque en F vers un È. Friction légère, relâchement dans le médium.",
-      "id": "Awalan F menuju É. Gesekan ringan, melepas wilayah tengah.",
-      "pt": "Ataque de F no 'é'. Fricção leve, solta a região média.",
-      "tr": "F atağıyla E sesine. Hafif sürtünme, orta bölgede rahatlama."
+      "de": "F-Einsatz ins 'ä'. Ein weicher, luftiger Beginn, nah am Sprechen.",
+      "en": "F into Eh. A soft, airy start, close to speech.",
+      "es": "F hacia Eh. Un comienzo suave, con aire, cercano al habla.",
+      "fr": "Attaque en F vers un È. Un départ doux et soufflé, proche de la parole.",
+      "id": "Awalan F menuju É. Awal yang lembut dan berangin, dekat dengan bicara.",
+      "pt": "Ataque de F no 'é'. Um começo suave, com ar, perto da fala.",
+      "tr": "F atağıyla E sesine. Yumuşak, nefesli, konuşmaya yakın bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -1088,13 +1088,13 @@
       "tr": "Ui"
     },
     "tips": {
-      "de": "Gleiten ins 'i'. Sanfte Dehnung, hellt die Höhe auf.",
-      "en": "Glide into Ee. Gentle stretch, brightens upper range.",
-      "es": "Desliz hacia la 'i'. Estiramiento suave, abrillanta el rango alto.",
-      "fr": "Glissé vers un I. Étirement doux, éclaircit l'aigu.",
-      "id": "Meluncur ke I. Regangan lembut, mencerahkan wilayah atas.",
-      "pt": "Deslize para o 'i'. Alongamento suave, clareia a região aguda.",
-      "tr": "Kayarak İ sesine. Nazik bir esneme, tizleri parlatır."
+      "de": "Sanftes Gleiten ins 'i'. Hell und leicht.",
+      "en": "A gentle glide into Ee. Bright and light.",
+      "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
+      "fr": "Un glissé doux vers un I. Clair et léger.",
+      "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+      "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+      "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
     },
     "trill": null,
     "usage": {
@@ -1120,13 +1120,13 @@
       "tr": "Ya"
     },
     "tips": {
-      "de": "Y-Gleiten ins 'a'. Lockert den Umschlag zwischen Modalstimme und dem Knarren darunter.",
-      "en": "Y glide into Ah. Loosens the flip between your modal voice and the rattle below it.",
-      "es": "Y hacia Ah. Suelta el cambio entre tu voz modal y el traqueteo de abajo.",
-      "fr": "Glissé en Y vers un A. Détend le passage entre la voix modale et le grondement en dessous.",
-      "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara modalmu dan gemeretak di bawahnya.",
-      "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz modal e o ronco abaixo dela.",
-      "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki cızırtı arasındaki geçişi gevşetir."
+      "de": "Mit J ins 'a' gleiten. Lockert den Umschlag zwischen deiner gewohnten Stimme und dem tiefen Klang darunter.",
+      "en": "Y glide into Ah. Loosens the flip between your usual voice and the low sound below it.",
+      "es": "Y hacia Ah. Suelta el paso entre tu voz habitual y el sonido grave de debajo.",
+      "fr": "Glissé en Y vers un Ah. Assouplit le passage entre ta voix habituelle et le son grave en dessous.",
+      "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara biasamu dan bunyi rendah di bawahnya.",
+      "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz de sempre e o som grave abaixo dela.",
+      "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki pes ses arasındaki geçişi gevşetir."
     },
     "trill": null,
     "usage": {
@@ -1150,13 +1150,13 @@
       "tr": "Da"
     },
     "tips": {
-      "de": "D-Einsatz ins 'a'. Präzise Zungenspitze, saubere Einsätze.",
-      "en": "D onset into Ah. Tongue-tip precision, clean attacks.",
-      "es": "D hacia Ah. Precisión de punta de lengua, ataques limpios.",
-      "fr": "Attaque en D vers un Ah. Précision de la pointe de langue, attaques nettes.",
-      "id": "Awalan D menuju A. Ketepatan ujung lidah, awal nada yang bersih.",
-      "pt": "Ataque de D no 'a'. Precisão da ponta da língua, ataques limpos.",
-      "tr": "D atağıyla A sesine. Dil ucunda kesinlik, temiz ataklar."
+      "de": "D-Einsatz ins 'a'. Ein leichter Zungenschlag beginnt jeden Ton.",
+      "en": "D into Ah. A light tap of the tongue starts each note.",
+      "es": "D hacia Ah. Un toque ligero de la lengua empieza cada nota.",
+      "fr": "Attaque en D vers un Ah. Une petite touche de la langue lance chaque note.",
+      "id": "Awalan D menuju A. Sentuhan ringan lidah memulai tiap nada.",
+      "pt": "Ataque de D no 'a'. Um toque leve da língua começa cada nota.",
+      "tr": "D atağıyla A sesine. Her notayı dilin hafif bir dokunuşu başlatır."
     },
     "trill": null,
     "usage": {
@@ -1180,13 +1180,13 @@
       "tr": "Du"
     },
     "tips": {
-      "de": "D-Einsatz ins 'u'. Artikulierter dunkler Vokal, weiche Übergänge.",
-      "en": "D onset into Oo. Articulated dark vowel, smooth transitions.",
-      "es": "D hacia la 'u'. Vocal oscura articulada, transiciones suaves.",
-      "fr": "Attaque en D vers un Ou. Voyelle sombre articulée, transitions fluides.",
-      "id": "Awalan D menuju U. Vokal gelap yang terartikulasi, perpindahan yang halus.",
-      "pt": "Ataque de D no 'u'. Vogal escura articulada, transições macias.",
-      "tr": "D atağıyla U sesine. İyi artiküle edilmiş koyu ünlü, akıcı geçişler."
+      "de": "D-Einsatz ins 'u'. Ein leichter Zungenschlag, dann ein weicher, runder Vokal.",
+      "en": "D into Oo. A light tongue tap, then a soft, round vowel.",
+      "es": "D hacia la 'u'. Un toque ligero de la lengua y luego una vocal suave y redonda.",
+      "fr": "Attaque en D vers un Ou. Une petite touche de la langue, puis une voyelle douce et ronde.",
+      "id": "Awalan D menuju U. Sentuhan ringan lidah, lalu vokal yang lembut dan bulat.",
+      "pt": "Ataque de D no 'u'. Um toque leve da língua, depois uma vogal suave e redonda.",
+      "tr": "D atağıyla U sesine. Dilin hafif bir dokunuşu, sonra yumuşak, yuvarlak bir ünlü."
     },
     "trill": null,
     "usage": {
@@ -1208,13 +1208,13 @@
       "tr": "Ba"
     },
     "tips": {
-      "de": "B-Einsatz ins 'a'. Baut Atemdruck auf, aktiviert die Stimmlippen.",
-      "en": "B onset into Uh. Builds breath pressure, cord engagement.",
-      "es": "B hacia la 'a'. Construye presión de aire, activación cordal.",
-      "fr": "Attaque en B vers un A. Développe la pression d'air et l'engagement des cordes.",
-      "id": "Awalan B menuju A. Membangun tekanan napas, kerja pita suara.",
-      "pt": "Ataque de B no 'a'. Ganha pressão de ar e engajamento das pregas.",
-      "tr": "B atağıyla A sesine. Nefes basıncını kurar, telleri çalıştırır."
+      "de": "B-Einsatz ins 'a'. Baut gleichmäßige Luft hinter dem Klang auf.",
+      "en": "B into Uh. Builds steady air behind the sound.",
+      "es": "B hacia la 'a'. Crea un aire constante detrás del sonido.",
+      "fr": "Attaque en B vers un A. Installe un air régulier derrière le son.",
+      "id": "Awalan B menuju A. Membangun aliran udara yang tenang di balik bunyi.",
+      "pt": "Ataque de B no 'a'. Cria um ar constante por trás do som.",
+      "tr": "B atağıyla A sesine. Sesin arkasında sabit bir hava akışı kurar."
     },
     "trill": null,
     "usage": {
@@ -1238,13 +1238,13 @@
       "tr": "Yam"
     },
     "tips": {
-      "de": "Y-Gleiten ins 'a'. Sanfte Kehlkopfdehnung, leichter Einsatz.",
-      "en": "Y glide into Uh. Gentle larynx stretch, easy onset.",
-      "es": "Y hacia la 'a'. Estiramiento suave de laringe, inicio fácil.",
-      "fr": "Glissé en Y vers un A. Étirement doux du larynx, attaque facile.",
-      "id": "Luncuran Y menuju A. Regangan laring yang lembut, awal nada yang mudah.",
-      "pt": "Deslize de Y no 'a' fechado. Alongamento suave da laringe, ataque fácil.",
-      "tr": "Y kaymasıyla A sesine. Gırtlağı nazikçe esnetir, yumuşak atak."
+      "de": "Mit J ins 'a' gleiten. Ein sanfter, leichter Beginn.",
+      "en": "Y glide into Uh. A gentle, easy start.",
+      "es": "Y hacia la 'a'. Un comienzo suave y fácil.",
+      "fr": "Glissé en Y vers un A. Un départ doux et facile.",
+      "id": "Luncuran Y menuju A. Awal yang lembut dan mudah.",
+      "pt": "Deslize de Y no 'a' fechado. Um começo suave e fácil.",
+      "tr": "Y kaymasıyla A sesine. Nazik ve rahat bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -1268,13 +1268,13 @@
       "tr": "Yey"
     },
     "tips": {
-      "de": "Y-Gleiten ins helle 'e'. Heller, vorderer, energischer Klang.",
-      "en": "Y glide into Ay. Bright, forward, energetic sound.",
-      "es": "Y hacia la 'ei'. Brillante, frontal, sonido enérgico.",
-      "fr": "Glissé en Y vers un É. Son clair, en avant et énergique.",
-      "id": "Luncuran Y menuju Ey. Bunyi cerah, maju, dan berenergi.",
-      "pt": "Deslize de Y no 'ei'. Som brilhante, frontal e enérgico.",
-      "tr": "Y kaymasıyla Ey sesine. Parlak, önde ve enerjik bir ses."
+      "de": "Mit J ins helle 'e'. Ein heller, fröhlicher Klang.",
+      "en": "Y into Ay. A bright, cheerful sound.",
+      "es": "Y hacia la 'ei'. Un sonido brillante y alegre.",
+      "fr": "Glissé en Y vers un É. Un son clair et joyeux.",
+      "id": "Luncuran Y menuju Ey. Bunyi cerah dan ceria.",
+      "pt": "Deslize de Y no 'ei'. Um som brilhante e alegre.",
+      "tr": "Y kaymasıyla Ey sesine. Parlak, neşeli bir ses."
     },
     "trill": null,
     "usage": {
@@ -1298,13 +1298,13 @@
       "tr": "La"
     },
     "tips": {
-      "de": "L-Einsatz ins 'a'. Zungenbeweglichkeit, offene Resonanz.",
-      "en": "L onset into Ah. Tongue flexibility, open resonance.",
-      "es": "L hacia Ah. Flexibilidad de lengua, resonancia abierta.",
-      "fr": "Attaque en L vers un Ah. Souplesse de la langue, résonance ouverte.",
-      "id": "Awalan L menuju A. Kelenturan lidah, resonansi terbuka.",
-      "pt": "Ataque de L no 'a'. Flexibilidade da língua, ressonância aberta.",
-      "tr": "L atağıyla A sesine. Dil esnekliği, açık rezonans."
+      "de": "L-Einsatz ins 'a'. Lockere Zunge, offener Klang.",
+      "en": "L into Ah. A loose tongue and an open sound.",
+      "es": "L hacia Ah. Lengua suelta, sonido abierto.",
+      "fr": "Attaque en L vers un Ah. Langue souple, son ouvert.",
+      "id": "Awalan L menuju A. Lidah lentur, bunyi terbuka.",
+      "pt": "Ataque de L no 'a'. Língua flexível, som aberto.",
+      "tr": "L atağıyla A sesine. Esnek dil, açık ses."
     },
     "trill": null,
     "usage": {
@@ -1328,13 +1328,13 @@
       "tr": "Hat"
     },
     "tips": {
-      "de": "Perkussiver Glottisschlag. Kurz und knackig - die Luft abrupt schließen, um Kompression zu trainieren.",
-      "en": "Percussive glottal stop. Short, punchy - snap the airflow shut to train compression.",
-      "es": "Golpe glótico percusivo. Corto, contundente - cierra el flujo de aire para entrenar la compresión.",
-      "fr": "Coup de glotte percussif. Court et sec, coupe le flux d'air pour travailler la compression.",
-      "id": "Hentakan glotal. Pendek dan berisi - tutup aliran udara seketika untuk melatih kompresi.",
-      "pt": "Golpe de glote percussivo. Curto e seco - feche o ar de uma vez para treinar a compressão.",
-      "tr": "Darbeli glottal kapanış. Kısa ve tok - hava akışını aniden kes, kompresyonu çalıştır."
+      "de": "Ein kurzer, knackiger Stopp. Halte ihn leicht. Wenn es rau wird, mach ihn weicher.",
+      "en": "A short, punchy catch. Keep the catch light. If it feels harsh, soften it.",
+      "es": "Un corte breve y con golpe. Que el corte sea ligero. Si se siente áspero, suavízalo.",
+      "fr": "Un arrêt bref et percutant. Garde cet arrêt léger. Si ça gratte, adoucis-le.",
+      "id": "Hentakan pendek dan bertenaga. Jaga hentakannya tetap ringan. Kalau terasa kasar, lembutkan.",
+      "pt": "Um corte curto e marcado. Deixe o corte leve. Se ficar áspero, suavize.",
+      "tr": "Kısa, vurgulu bir kesme. Kesmeyi hafif tut. Sert gelirse yumuşat."
     },
     "trill": null,
     "usage": {
@@ -1358,13 +1358,13 @@
       "tr": "Mi-Me-Ma-Mo-Mu"
     },
     "tips": {
-      "de": "Fünf M-Vokale nacheinander: Mi-Mä-Ma-Mo-Mu. Weiche Übergänge, gleicher Einsatz.",
-      "en": "Five M-vowels in sequence. Smooth transitions, uniform onset.",
-      "es": "Cinco vocales con M en secuencia. Transiciones suaves.",
-      "fr": "Cinq voyelles avec M à la suite. Transitions fluides, attaque uniforme.",
-      "id": "Lima vokal ber-M berurutan. Perpindahan halus, awal nada yang seragam.",
-      "pt": "Cinco vogais com M em sequência. Transições macias, ataque uniforme.",
-      "tr": "Sırayla beş M'li ünlü. Akıcı geçişler, her notada aynı atak."
+      "de": "Fünf Vokale mit M, einer pro Ton. Geh weich von einem zum nächsten.",
+      "en": "Five vowels on M, one per note. Move smoothly from one to the next.",
+      "es": "Cinco vocales con M, una por nota. Pasa de una a otra con suavidad.",
+      "fr": "Cinq voyelles avec M, une par note. Passe de l'une à l'autre en douceur.",
+      "id": "Lima vokal dengan M, satu per nada. Pindah dari satu ke berikutnya dengan halus.",
+      "pt": "Cinco vogais com M, uma por nota. Passe de uma para a outra com suavidade.",
+      "tr": "M ile beş ünlü, her notada bir tane. Birinden diğerine yumuşakça geç."
     },
     "trill": null,
     "usage": {
@@ -1388,13 +1388,13 @@
       "tr": "Ma Me Mi Mo Mu"
     },
     "tips": {
-      "de": "Fünf Vokale mit M. Übung zum Verbinden für gleichmäßigen Klang.",
-      "en": "Five vowels with M. Blending exercise for even tone.",
-      "es": "Cinco vocales con M. Ejercicio de mezcla para tono uniforme.",
-      "fr": "Cinq voyelles avec M. Exercice de fusion pour un timbre égal.",
-      "id": "Lima vokal dengan M. Latihan pemaduan untuk warna suara yang rata.",
-      "pt": "Cinco vogais com M. Exercício de mistura para um som parelho.",
-      "tr": "M ile beş ünlü. Eşit bir ton için harmanlama çalışması."
+      "de": "Fünf Vokale mit M. Halte den Klang von Vokal zu Vokal gleich.",
+      "en": "Five vowels on M. Keep the sound even from one vowel to the next.",
+      "es": "Cinco vocales con M. Que el sonido sea parejo de una vocal a otra.",
+      "fr": "Cinq voyelles avec M. Garde un son égal d'une voyelle à l'autre.",
+      "id": "Lima vokal dengan M. Jaga bunyinya tetap rata dari vokal ke vokal.",
+      "pt": "Cinco vogais com M. Mantenha o som parelho de uma vogal para a outra.",
+      "tr": "M ile beş ünlü. Ses bir ünlüden diğerine aynı kalsın."
     },
     "trill": null,
     "usage": {
@@ -1418,13 +1418,13 @@
       "tr": "Da-Bi-Du"
     },
     "tips": {
-      "de": "Scat-Muster. Rhythmische Präzision, Zungenbeweglichkeit.",
-      "en": "Scat pattern. Rhythmic precision, tongue agility.",
-      "es": "Patrón scat. Precisión rítmica, agilidad de lengua.",
-      "fr": "Motif scat. Précision rythmique, agilité de la langue.",
-      "id": "Pola scat. Ketepatan ritme, kelincahan lidah.",
-      "pt": "Padrão de scat. Precisão rítmica, agilidade da língua.",
-      "tr": "Scat kalıbı. Ritmik kesinlik, dil çevikliği."
+      "de": "Scat-Silben wie im Jazz. Knackiger Rhythmus, lockere Zunge.",
+      "en": "Scat syllables, as in jazz. Keep the rhythm crisp and the tongue light.",
+      "es": "Sílabas de scat, como en el jazz. Ritmo nítido y lengua ligera.",
+      "fr": "Syllabes de scat, comme en jazz. Un rythme net et une langue légère.",
+      "id": "Suku kata scat, seperti dalam jazz. Ritme tegas, lidah ringan.",
+      "pt": "Sílabas de scat, como no jazz. Ritmo preciso e língua leve.",
+      "tr": "Cazdaki gibi scat heceleri. Ritim net, dil hafif olsun."
     },
     "trill": null,
     "usage": {
@@ -1446,13 +1446,13 @@
       "tr": "Gi-Ya"
     },
     "tips": {
-      "de": "G-Schluss ins offene 'ja'. Kehlkopfanker mit Lösung.",
-      "en": "G closure into open Yah. Larynx anchor with release.",
-      "es": "Cierre G hacia Yah abierta. Anclaje de laringe con liberación.",
-      "fr": "Fermeture en G vers un Yah ouvert. Ancrage du larynx puis relâchement.",
-      "id": "Penutupan G menuju Ya terbuka. Laring ditahan stabil, lalu dilepas.",
-      "pt": "Fechamento em G para o 'iá' aberto. Ancora a laringe e solta.",
-      "tr": "G kapanışından açık Ya sesine. Gırtlağı sabitler, sonra bırakır."
+      "de": "Ein festes G ins offene 'ja'. Erst ruhig, dann loslassen.",
+      "en": "A firm G into an open Yah. Steady first, then let go.",
+      "es": "Una G firme hacia una Yah abierta. Primero estable, luego suelta.",
+      "fr": "Un G ferme vers un Yah ouvert. D'abord stable, puis relâche.",
+      "id": "G yang mantap menuju Ya terbuka. Mantap dulu, lalu lepaskan.",
+      "pt": "Um G firme para o 'iá' aberto. Primeiro firme, depois solte.",
+      "tr": "Sağlam bir G'den açık Ya sesine. Önce sabit, sonra bırak."
     },
     "trill": null,
     "usage": {
@@ -1474,13 +1474,13 @@
       "tr": "Hey-Hey"
     },
     "tips": {
-      "de": "Wiederholtes Hey. Atemimpuls, energische Stimmlippenaktivierung.",
-      "en": "Repeated Hey. Breath bounce, energetic cord engagement.",
-      "es": "Jei repetido. Rebote de aire, activación cordal enérgica.",
-      "fr": "« Hé » répété. Rebond du souffle, engagement énergique des cordes.",
-      "id": "Hey berulang. Pantulan napas, kerja pita suara yang berenergi.",
-      "pt": "'Ei' repetido. Impulso do ar, engajamento enérgico das pregas.",
-      "tr": "Tekrarlanan Hey. Nefes sekmesi, enerjik tel çalışması."
+      "de": "Wiederholtes Hey. Ein kleiner Luftimpuls bei jedem.",
+      "en": "Repeated Hey. A small bounce of air on each one.",
+      "es": "Jei repetido. Un pequeño rebote de aire en cada uno.",
+      "fr": "« Hé » répété. Un petit rebond d'air sur chacun.",
+      "id": "Hey berulang. Pantulan napas kecil di setiap Hey.",
+      "pt": "'Ei' repetido. Um pequeno impulso de ar em cada um.",
+      "tr": "Tekrarlanan Hey. Her birinde küçük bir hava sekmesi."
     },
     "trill": null,
     "usage": {
@@ -1504,13 +1504,13 @@
       "tr": "Ng"
     },
     "tips": {
-      "de": "Summendes NG, Zunge hoch, Mund zu. Leiser, leichter Einstieg ohne harten Einsatz.",
-      "en": "Humming NG, tongue high and mouth closed. Quiet, easy entry with no hard attack.",
-      "es": "NG con la lengua alta y la boca cerrada. Entrada suave, sin ataque duro.",
-      "fr": "NG fredonné, langue haute et bouche fermée. Entrée douce, sans attaque dure.",
-      "id": "Humming NG, lidah tinggi dan mulut tertutup. Masuk pelan dan mudah, tanpa awal nada yang keras.",
-      "pt": "Murmúrio no NG, língua alta e boca fechada. Entrada quieta e fácil, sem ataque duro.",
-      "tr": "Dil yukarıda, ağız kapalı NG mırıltısı. Sessiz, sert atak olmadan kolay bir giriş."
+      "de": "Ein Summen auf NG, wie in 'singen'. Ein leiser, leichter Beginn.",
+      "en": "An NG hum, the sound at the end of 'sing'. A quiet, easy start.",
+      "es": "Un zumbido en NG, como la n de 'tengo'. Un comienzo suave y tranquilo.",
+      "fr": "Un bourdonnement sur NG, comme à la fin de « parking ». Un départ doux et calme.",
+      "id": "Dengung NG, seperti pada 'siang'. Awal yang pelan dan mudah.",
+      "pt": "Um murmúrio em NG, como no fim de 'sing', em inglês. Um começo baixinho e fácil.",
+      "tr": "'Renk'teki gibi bir NG mırıltısı. Sessiz, rahat bir başlangıç."
     },
     "trill": null,
     "usage": {
@@ -1535,13 +1535,13 @@
       "tr": "NGya"
     },
     "tips": {
-      "de": "Nasales NG-Gleiten ins offene 'ja'. Stabilisiert den Kehlkopf für Rauheit.",
-      "en": "Nasal NG glide into open Yah. Larynx stabilizer for grit.",
-      "es": "NG nasal hacia Yah abierta. Estabilizador de laringe para grit.",
-      "fr": "Glissé nasal NG vers un Yah ouvert. Stabilise le larynx pour le grain.",
-      "id": "Luncuran NG sengau menuju Ya terbuka. Menstabilkan laring untuk suara serak.",
-      "pt": "Deslize nasal de NG para o 'iá' aberto. Estabiliza a laringe para a aspereza.",
-      "tr": "Genizsi NG'den açık Ya sesine kayma. Kirli ton için gırtlak dengeleyici."
+      "de": "Ein NG-Summen, das ins 'ja' gleitet. Eine ruhige Grundlage vor der Rauheit.",
+      "en": "An NG hum gliding into Yah. A steady base before grit.",
+      "es": "Un zumbido en NG que se desliza hacia Yah. Una base estable antes del rasgado.",
+      "fr": "Un bourdonnement sur NG qui glisse vers Yah. Une base stable avant le grain.",
+      "id": "Dengung NG yang meluncur ke Ya. Dasar yang mantap sebelum tekstur kasar.",
+      "pt": "Um murmúrio em NG que desliza para o 'iá'. Uma base firme antes da aspereza.",
+      "tr": "Ya sesine kayan bir NG mırıltısı. Pürüzlü sesten önce sağlam bir zemin."
     },
     "trill": null,
     "usage": {
@@ -1565,13 +1565,13 @@
       "tr": "Au"
     },
     "tips": {
-      "de": "Diphthong wie in 'Haus'. Weite Kieferöffnung, dynamischer Vokal.",
-      "en": "Diphthong as in 'how'. Wide jaw opening, dynamic vowel.",
-      "es": "Diptongo como en 'aullido'. Apertura amplia, vocal dinámica.",
-      "fr": "Diphtongue comme dans « aouh ». Grande ouverture de mâchoire, voyelle dynamique.",
-      "id": "Diftong seperti pada 'pulau'. Bukaan rahang lebar, vokal yang dinamis.",
-      "pt": "Ditongo, o 'au' de 'mau'. Mandíbula bem aberta, vogal dinâmica.",
-      "tr": "'Av' der gibi çift ünlü. Çene geniş açılır, hareketli bir ünlü."
+      "de": "Der Laut in 'Haus'. Weit öffnen, dann die Lippen runden.",
+      "en": "The sound in 'how'. Open wide, then round your lips.",
+      "es": "El sonido de 'auto'. Abre bien y luego redondea los labios.",
+      "fr": "Le son « aou » de « miaou ». Ouvre grand, puis arrondis les lèvres.",
+      "id": "Bunyi seperti pada 'pulau'. Buka lebar, lalu bulatkan bibir.",
+      "pt": "O 'au' de 'mau'. Abra bem e depois arredonde os lábios.",
+      "tr": "'Av' der gibi. Önce geniş aç, sonra dudaklarını yuvarla."
     },
     "trill": null,
     "usage": {
@@ -1595,13 +1595,13 @@
       "tr": "Vocal Fry"
     },
     "tips": {
-      "de": "Knarren im tiefsten Register. Sanfter, blubbernder Klang ganz unten.",
-      "en": "Lowest register creak. Gentle, bubbly sound at the bottom of your range.",
-      "es": "Registro más grave. Sonido burbujeante y suave al fondo de tu rango.",
-      "fr": "Craquement du registre le plus grave. Son doux et bouillonnant tout en bas.",
-      "id": "Gemeretak di register terendah. Bunyi lembut dan bergelembung di dasar jangkauanmu.",
-      "pt": "Rangido do registro mais grave. Som suave e borbulhante no fundo da sua extensão.",
-      "tr": "En pes ses bölgesindeki cızırtı. Aralığının dibinde yumuşak, kabarcıklı bir ses."
+      "de": "Ein weiches Knarren ganz unten in deiner Stimme. Leise und mühelos.",
+      "en": "A soft, crackly sound at the very bottom of your voice. Keep it quiet and easy.",
+      "es": "Un sonido suave y crujiente en lo más grave de tu voz. Que sea bajito y fácil.",
+      "fr": "Un son doux et grésillant tout en bas de ta voix. Garde-le léger et facile.",
+      "id": "Bunyi lembut dan berderak di bagian paling bawah suaramu. Tetap pelan dan santai.",
+      "pt": "Um som suave e crepitante bem no fundo da sua voz. Deixe baixinho e fácil.",
+      "tr": "Sesinin en dibinde yumuşak, cızırtılı bir ses. Sessiz ve rahat tut."
     },
     "trill": null,
     "usage": {

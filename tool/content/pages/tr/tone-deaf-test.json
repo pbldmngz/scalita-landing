@@ -10,8 +10,8 @@
   "appBand": "Bir notayı duymak işin ilk yarısı, söylemek ikinci yarısı. Scalita'nın Entonasyon Çalışması ikisi üzerinde de çalışır: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
   "referenceHeading": "Test hakkında",
   "toolId": "ear-test",
-  "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Başlat'a bas. Sayfa yalnızca piyano çalar, bu yüzden mikrofon hiç istemez.</li><li>İki notayı da dinle, sonra Daha tiz ya da Daha pes'i seç. Tekrar dinle, çifti bir kez daha çalar.</li><li>İki doğru cevap seni daha küçük bir adıma götürür. Aynı adımda iki yanlış cevap bu bölümü bitirir.</li><li>Sonra dört çift kısa melodi gelir. Her çiftin aynı mı olduğunu, yoksa bir notanın mı değiştiğini söyle.</li><li>En küçük adımlarda kulaklık ya da sessiz bir oda işe yarar.</li></ol>",
-  "sampleResult": "<h2>Bir sonuç neye benzer</h2><ul><li>Duyduğun en küçük adım: 12 sent</li><li>Duyulan adımlar: 4 / 6</li><li>Ayırt edilen melodiler: 4 / 4</li></ul><p>12 sent, yarım sesin aşağı yukarı sekizde biridir. Bu, Scalita uygulamasının söylenen bir notayı sapmış saydığı 25 sentten daha incedir; yani bu dinleyici, uygulama bir notaya sapmış demeden önce notanın kaydığını duyabilir.</p>",
+  "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Başlat'a bas. Sayfa yalnızca piyano çalar, bu yüzden mikrofon hiç istemez.</li><li>İki notayı da dinle, sonra Daha pes ya da Daha tiz'i seç. Tekrar dinle, çifti bir kez daha çalar.</li><li>Üç doğru cevap seni daha küçük bir adıma götürür. Aynı adımda iki yanlış cevap bu bölümü bitirir.</li><li>Sonra dört çift kısa melodi gelir. Her çiftin aynı mı olduğunu, yoksa bir notanın mı değiştiğini söyle.</li><li>En küçük adımlarda kulaklık ya da sessiz bir oda işe yarar.</li></ol>",
+  "sampleResult": "<h2>Bir sonuç neye benzer</h2><ul><li>Duyduğun en küçük adım: 12 sent</li><li>Duyulan adımlar: 4 / 6</li><li>Ayırt edilen melodiler: 4 / 4</li></ul><p>12 sent, yarım sesin aşağı yukarı sekizde biridir. Bu, Scalita uygulamasının sen bir nota söylerken kullandığı 25 sentten daha incedir.</p>",
   "notClaimed": "<h2>Bu test sana neyi söylemez</h2><p>Piyano notalarıyla yapılan hızlı bir dinleme kontrolüdür; bir işitme testi ya da teşhis değildir. Bir sonuç, tek bir günde, tek bir hoparlör ya da kulaklık üzerinden alınmış tek bir ölçümdür. Rastgele tahmin bile cevapların yarısını doğru bilir, bu yüzden şansın da payı var. Doğuştan amüzin olup olmadığını söyleyemez: araştırmacılar bunun için daha uzun test bataryaları ve kapsamlı bir değerlendirme kullanır. Sesin hakkında da hiçbir şey söylemez. Bir adımı duymak ve onu söylemek ayrı becerilerdir; ikincisini <a href=\"page:sing-in-tune-test\">detone testi</a> ölçer.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "Kulak alıştırmayla incelir",
-      "html": "<p>Küçük adımları ayırt etmek sabit bir özellik değil, bir beceridir. Bir çalışmada müzisyen olmayanların eşikleri başlangıçta klasik müzisyenlerinkinden altı kattan fazla büyüktü. Aynı türden bir daha tiz mi, daha pes mi görevinde 4 ila 8 saatlik alıştırmadan sonra aradaki farkı kapattılar (Micheyl ve arkadaşları, 2006).</p>"
+      "html": "<p>Küçük adımları ayırt etmek sabit bir özellik değil, bir beceridir. Alıştırma birçok kişinin notaları daha ince ayırt etmesine yardımcı olur. Bu, onları söylemekle aynı şey değildir.</p>"
     },
     {
       "heading": "Hiçbir şey duymuyorsan",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Kulağımı eğitebilir miyim?",
-      "a": "<p>Evet. Perde ayırt etme alıştırmayla gelişir, yukarıdaki çalışmanın bulduğu gibi çoğu zaman birkaç saat içinde. Şarkı söylemek de yardımcı olur: notaları tutturmaya çalışmak, sesinin notaya göre nerede olduğunu dinlemeyi öğretir.</p>"
+      "a": "<p>Evet. Alıştırma birçok kişinin daha küçük adımları duymasına yardımcı olur. Bu, onları söylemekle aynı şey değildir. Şarkı söylemek de yardımcı olur: notaları tutturmaya çalışmak, sesinin notaya göre nerede olduğunu dinlemeyi öğretir.</p>"
     }
   ],
   "sources": [

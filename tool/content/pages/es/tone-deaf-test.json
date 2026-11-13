@@ -10,8 +10,8 @@
   "appBand": "Oír una nota es la primera mitad, y cantarla es la segunda. El Entrenamiento de precisión de Scalita trabaja las dos: afina notas sobre un trazo de afinación en vivo o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
   "referenceHeading": "Sobre el test",
   "toolId": "ear-test",
-  "instructions": "<h2>Cómo hacer el test</h2><ol><li>Pulsa Empezar. La página solo toca el piano, así que nunca te pide el micrófono.</li><li>Escucha las dos notas y elige Más aguda o Más grave. Escuchar otra vez repite el par.</li><li>Dos aciertos te llevan a un paso más pequeño. Dos fallos en el mismo paso terminan esta parte.</li><li>Después vienen cuatro pares de melodías cortas. Di si cada par era igual o si cambió una nota.</li><li>Unos auriculares o una habitación tranquila ayudan con los pasos más pequeños.</li></ol>",
-  "sampleResult": "<h2>Cómo se ve un resultado</h2><ul><li>El paso más pequeño que oíste: 12 centésimas</li><li>Pasos oídos: 4 de 6</li><li>Melodías distinguidas: 4 de 4</li></ul><p>12 centésimas son más o menos un octavo de semitono. Es más fino que las 25 centésimas que la app Scalita cuenta como desafinado al cantar una nota, así que esta persona oye que una nota se desvía antes de que la app la dé por desafinada.</p>",
+  "instructions": "<h2>Cómo hacer el test</h2><ol><li>Pulsa Empezar. La página solo toca el piano, así que nunca te pide el micrófono.</li><li>Escucha las dos notas y elige Más grave o Más aguda. Escuchar otra vez repite el par.</li><li>Tres aciertos te llevan a un paso más pequeño. Dos fallos en el mismo paso terminan esta parte.</li><li>Después vienen cuatro pares de melodías cortas. Di si cada par era igual o si cambió una nota.</li><li>Unos auriculares o una habitación tranquila ayudan con los pasos más pequeños.</li></ol>",
+  "sampleResult": "<h2>Cómo se ve un resultado</h2><ul><li>El paso más pequeño que oíste: 12 centésimas</li><li>Pasos oídos: 4 de 6</li><li>Melodías distinguidas: 4 de 4</li></ul><p>12 centésimas son más o menos un octavo de semitono. Es más fino que las 25 centésimas que usa la app Scalita cuando cantas una nota.</p>",
   "notClaimed": "<h2>Lo que este test no te dice</h2><p>Es una prueba rápida de escucha con notas de piano, no una prueba de audición ni un diagnóstico. Un resultado es una lectura de un día, con unos altavoces o unos auriculares concretos, y al azar se acierta la mitad de las respuestas, así que la suerte cuenta. No puede decirte si tienes amusia congénita: para eso, los investigadores usan baterías de pruebas más largas y una evaluación completa. Tampoco dice nada de tu voz. Oír un paso y cantarlo son habilidades distintas, y el <a href=\"page:sing-in-tune-test\">test de afinación</a> mide la segunda.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "El oído se afina con la práctica",
-      "html": "<p>Distinguir pasos pequeños es una habilidad, no un rasgo fijo. En un estudio, los umbrales de las personas sin formación musical empezaron siendo más de seis veces mayores que los de músicos clásicos. Tras 4 a 8 horas de práctica con el mismo tipo de tarea de más aguda o más grave, los habían alcanzado (Micheyl y colaboradores, 2006).</p>"
+      "html": "<p>Distinguir pasos pequeños es una habilidad, no un rasgo fijo. La práctica ayuda a mucha gente a distinguir mejor las notas, que no es lo mismo que cantarlas.</p>"
     },
     {
       "heading": "Si no oyes nada",
@@ -54,7 +54,7 @@
     },
     {
       "q": "¿Puedo entrenar el oído?",
-      "a": "<p>Sí. La discriminación de la altura mejora con la práctica, a menudo en cuestión de horas, como mostró el estudio de arriba. Cantar también ayuda: igualar notas te enseña a escuchar dónde está tu voz respecto a la nota.</p>"
+      "a": "<p>Sí. La práctica ayuda a mucha gente a oír pasos más pequeños. Eso no es lo mismo que cantarlos, y cantar también ayuda: igualar notas te enseña a escuchar dónde está tu voz respecto a la nota.</p>"
     }
   ],
   "sources": [

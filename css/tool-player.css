@@ -83,7 +83,7 @@
 }
 
 /* "Do3" shrinks on a narrow key */
-html:is(:lang(es), :lang(fr), :lang(pt), :lang(tr)) .wp-board .key {
+html:is(:lang(es), :lang(fr), :lang(pt), :lang(tr)) .key {
   font-size: min(10px, var(--kw) / 2);
 }
 
@@ -252,6 +252,7 @@ html:is(:lang(es), :lang(fr), :lang(pt), :lang(tr)) .wp-board .key {
 
 .vb-result {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
   gap: 18px;
   width: 100%;

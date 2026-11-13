@@ -28,7 +28,7 @@
     },
     {
       "heading": "Como o teste funciona",
-      "html": "<p>Ele usa só o piano, nunca o microfone. Quem julga a mudança é você, pela sensação e de ouvido, então o teste funciona em qualquer navegador, com ou sem microfone.</p><p>O piano começa no grave, em {{note:C3}} para voz mais grave e em {{note:G#3}} para voz mais aguda, e sobe meio tom a cada dois segundos. Quando você aperta o botão, aquela nota vira a sua primeira mudança. O teste então procura, no seu grupo, o tipo de voz cuja primeira mudança fica mais perto, e tira a segunda mudança desse tipo.</p>"
+      "html": "<p>Ele usa só o piano, nunca o microfone. Quem julga a mudança é você, pela sensação e de ouvido, então o teste funciona em qualquer navegador, com ou sem microfone.</p><p>O piano começa no grave, em {{note:C3}} para voz mais grave e em {{note:G#3}} para voz mais aguda, e sobe meio tom a cada dois segundos. Se você fez o <a href=\"page:vocal-range-test\">teste de extensão vocal</a> neste navegador, ele começa pela sua extensão: uns seis semitons abaixo da mudança que ela indica, e nunca abaixo da sua nota mais grave. Quando você aperta o botão, aquela nota vira a sua primeira mudança. O teste então procura, no seu grupo, o tipo de voz cuja primeira mudança fica mais perto, e tira a segunda mudança desse tipo.</p>"
     },
     {
       "heading": "Para ter uma resposta clara",

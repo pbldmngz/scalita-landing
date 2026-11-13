@@ -28,7 +28,7 @@
     },
     {
       "heading": "Cómo funciona el test",
-      "html": "<p>Solo usa el piano, nunca el micrófono. El cambio lo juzgas tú, por sensación y de oído, así que el test funciona en cualquier navegador, con micrófono o sin él.</p><p>El piano empieza en grave, en {{note:C3}} para una voz más grave y en {{note:G#3}} para una más aguda, y sube un semitono cada dos segundos. Cuando pulsas, esa nota pasa a ser tu primer cambio. Después el test busca el tipo de voz de tu grupo cuyo primer cambio queda más cerca, y toma el segundo cambio de ese tipo.</p>"
+      "html": "<p>Solo usa el piano, nunca el micrófono. El cambio lo juzgas tú, por sensación y de oído, así que el test funciona en cualquier navegador, con micrófono o sin él.</p><p>El piano empieza en grave, en {{note:C3}} para una voz más grave y en {{note:G#3}} para una más aguda, y sube un semitono cada dos segundos. Si hiciste el <a href=\"page:vocal-range-test\">test de rango vocal</a> en este navegador, empieza desde tu rango: unos seis semitonos por debajo del cambio al que apunta tu rango, y nunca por debajo de tu nota más grave. Cuando pulsas, esa nota pasa a ser tu primer cambio. Después el test busca el tipo de voz de tu grupo cuyo primer cambio queda más cerca, y toma el segundo cambio de ese tipo.</p>"
     },
     {
       "heading": "Para obtener una respuesta clara",

@@ -10,8 +10,8 @@
   "appBand": "Mendengar nada adalah separuh pertama, dan menyanyikannya separuh kedua. Latihan Ketepatan di Scalita melatih keduanya: cocokkan nada di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
   "referenceHeading": "Tentang tes ini",
   "toolId": "ear-test",
-  "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Tekan Mulai. Halaman ini hanya memainkan piano, jadi tidak pernah meminta mikrofon.</li><li>Dengarkan kedua nada, lalu pilih Lebih tinggi atau Lebih rendah. Putar lagi memainkan pasangan itu sekali lagi.</li><li>Dua jawaban benar membawamu ke langkah yang lebih kecil. Dua jawaban salah di langkah yang sama mengakhiri bagian ini.</li><li>Lalu ada empat pasang melodi pendek. Jawab apakah tiap pasangan sama, atau ada satu nada yang berubah.</li><li>Headphone atau ruangan yang tenang membantu untuk langkah-langkah terkecil.</li></ol>",
-  "sampleResult": "<h2>Contoh hasil</h2><ul><li>Langkah terkecil yang kamu dengar: 12 sen</li><li>Langkah terdengar: 4 dari 6</li><li>Melodi dibedakan: 4 dari 4</li></ul><p>12 sen kira-kira seperdelapan setengah nada. Itu lebih halus daripada 25 sen yang dihitung meleset oleh aplikasi Scalita saat kamu menyanyikan sebuah nada, jadi pendengar ini bisa mendengar nada yang bergeser sebelum aplikasi menganggapnya meleset.</p>",
+  "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Tekan Mulai. Halaman ini hanya memainkan piano, jadi tidak pernah meminta mikrofon.</li><li>Dengarkan kedua nada, lalu pilih Lebih rendah atau Lebih tinggi. Putar lagi memainkan pasangan itu sekali lagi.</li><li>Tiga jawaban benar membawamu ke langkah yang lebih kecil. Dua jawaban salah di langkah yang sama mengakhiri bagian ini.</li><li>Lalu ada empat pasang melodi pendek. Jawab apakah tiap pasangan sama, atau ada satu nada yang berubah.</li><li>Headphone atau ruangan yang tenang membantu untuk langkah-langkah terkecil.</li></ol>",
+  "sampleResult": "<h2>Contoh hasil</h2><ul><li>Langkah terkecil yang kamu dengar: 12 sen</li><li>Langkah terdengar: 4 dari 6</li><li>Melodi dibedakan: 4 dari 4</li></ul><p>12 sen kira-kira seperdelapan setengah nada. Itu lebih halus daripada 25 sen yang dipakai aplikasi Scalita saat kamu menyanyikan sebuah nada.</p>",
   "notClaimed": "<h2>Yang tidak dikatakan tes ini</h2><p>Ini cek dengar singkat dengan nada piano, bukan tes pendengaran dan bukan diagnosis. Satu hasil adalah satu bacaan di satu hari, lewat satu speaker atau headphone, dan tebakan asal saja sudah benar separuh waktu, jadi keberuntungan ikut berperan. Tes ini tidak bisa mengatakan apakah kamu mengalami amusia kongenital: para peneliti memakai rangkaian tes yang lebih panjang dan pemeriksaan lengkap untuk itu. Tes ini juga tidak mengatakan apa pun tentang suaramu. Mendengar sebuah langkah dan menyanyikannya adalah dua keterampilan yang berbeda, dan <a href=\"page:sing-in-tune-test\">tes ketepatan nada</a> mengukur yang kedua.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "Telinga makin peka dengan latihan",
-      "html": "<p>Membedakan langkah kecil adalah keterampilan, bukan sifat bawaan yang tetap. Dalam satu penelitian, ambang batas orang yang bukan musisi awalnya lebih dari enam kali lebih besar daripada ambang batas musisi klasik. Setelah 4 sampai 8 jam latihan dengan tugas lebih tinggi atau lebih rendah yang sejenis, mereka berhasil menyusul (Micheyl dan rekan-rekan, 2006).</p>"
+      "html": "<p>Membedakan langkah kecil adalah keterampilan, bukan sifat bawaan yang tetap. Latihan membantu banyak orang membedakan nada dengan lebih halus, dan itu tidak sama dengan menyanyikannya.</p>"
     },
     {
       "heading": "Kalau tidak terdengar apa-apa",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Bisakah telingaku dilatih?",
-      "a": "<p>Bisa. Kemampuan membedakan nada membaik dengan latihan, sering kali dalam hitungan jam, seperti temuan penelitian di atas. Bernyanyi juga membantu: mencocokkan nada melatihmu mendengarkan posisi suaramu terhadap nada itu.</p>"
+      "a": "<p>Bisa. Latihan membantu banyak orang mendengar langkah yang lebih kecil. Itu tidak sama dengan menyanyikannya, dan bernyanyi juga membantu: mencocokkan nada melatihmu mendengarkan posisi suaramu terhadap nada itu.</p>"
     }
   ],
   "sources": [

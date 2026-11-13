@@ -1785,6 +1785,14 @@ button.key {
   margin-top: 14px;
 }
 
+/* a label that wraps keeps the values beside it on its line */
+.result-card__facts > div {
+  display: grid;
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+  row-gap: 0;
+}
+
 .result-card__facts dt {
   color: var(--soft);
   font-size: 12px;
@@ -2031,6 +2039,24 @@ select.field optgroup {
 
 .tool-panel__actions > * {
   max-width: 100%;
+}
+
+/* on a phone, --pair: two choices share the row evenly or stack full width,
+   never two widths; --wrap: a long label wraps inside the panel */
+@media (max-width: 599.98px) {
+  .tool-panel__actions--pair {
+    align-self: stretch;
+  }
+
+  .tool-panel__actions--pair > .btn {
+    flex: 1 1 calc(50% - 6px);
+  }
+
+  .tool-panel__actions--wrap > .btn {
+    min-width: 0;
+    padding-block: 8px;
+    white-space: normal;
+  }
 }
 
 /* -------------------------------------------------- the band (in the app) */

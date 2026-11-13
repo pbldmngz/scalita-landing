@@ -1,15 +1,18 @@
 /*
  * The ear test once Start is tapped, loaded with the piano by ear-test.js
  * (the idle panel). The piano only: the microphone is never asked for.
- *   steps     two notes, higher or lower, the step between them getting
+ *   steps     two notes, lower or higher, the step between them getting
  *             smaller: 100 cents (a semitone), then 50, 25, 12, 6 and 3.
- *             A step is heard once two of its pairs are answered right,
+ *             A step is heard once three of its pairs are answered right,
  *             and the test moves on; two wrong at one step end this part
  *   melodies  two short melodies, the same or different: four pairs, two
  *             of each, the different one with one note moved off the key
  *             (the shape of the Montreal battery's scale test)
  * The result is the smallest step heard and how many melodies were told
  * apart: a measurement, never a verdict. Its image is share-ear.js's.
+ * The app is the source of these numbers: its export writes them, with one
+ * seeded run, to tool/data/app/ear_check.json, and logic.test.mjs holds
+ * this file to it, so the app's ear check and this one cannot drift.
  * Tests may set globalThis.__scalitaTest before the page loads: seed, and
  * events, where every question is pushed as it is asked (ask: its step and
  * direction, or whether the melodies are the same), every answer (pair,
@@ -19,18 +22,20 @@
 import { keepAwake } from '../site/wake-lock.js';
 
 export const LEVELS = [100, 50, 25, 12, 6, 3]; // cents
-export const PASS = 2; // right answers that clear a step
+export const PASS = 3; // right answers that clear a step: a guesser clears one about 31% of the time
 export const MISS = 2; // wrong answers that end the steps
 export const MELODIES = 4;
 export const BAND = [55, 67]; // G3 to G4: where most ears tell pitch best and every voice sits
 export const ROOTS = [53, 60]; // the melodies' keys, F3 to C4: each spans an octave up from its key
 export const SCALE_OFF = 25; // cents: a sung note further than this is off in the app
-const MAJOR = [0, 2, 4, 5, 7, 9, 11, 12];
-const NOTE_MS = 900; // a pair's first note; the second rings longer
-const GAP_MS = 1000; // from one note's start to the next
-const TUNE_MS = 430; // a melody's notes
-const BETWEEN_MS = 1100; // the silence between the two melodies
-const FEEDBACK_MS = 1100; // an answer stays on screen
+export const MAJOR = [0, 2, 4, 5, 7, 9, 11, 12];
+export const NOTE_MS = 900; // a pair's first note
+export const GAP_MS = 1000; // from one note's start to the next
+export const SECOND_MS = 1300; // a pair's second note rings longer
+export const TUNE_MS = 430; // a melody's notes
+export const BETWEEN_MS = 1100; // the silence between the two melodies
+export const ANSWER_MS = 150; // the answers open this long after the last note starts
+export const FEEDBACK_MS = 1100; // an answer stays on screen
 const BLANK = String.fromCharCode(160);
 
 export function random(seed) {
@@ -46,7 +51,8 @@ export function random(seed) {
 const pick = (rand, lo, hi) => lo + Math.floor(rand() * (hi - lo + 1));
 
 // One pair at a step: a note of the band, then the same note step cents up
-// or down. A semitone is the next key; a smaller step detunes the same one
+// or down, the same sample stretched, a semitone too, so no step has a
+// change of sample (timbre or loudness) to give it away
 export function makePair(step, rand, [lo, hi] = BAND) {
   const up = rand() < 0.5;
   const a = pick(rand, lo, hi);
@@ -234,10 +240,10 @@ export function begin(ui, my, piano) {
     piano.stopAll();
     const t0 = piano.getContext().currentTime + 0.05;
     for (const n of notes) piano.playNote(n.midi, { when: t0 + ms(n.at) / 1000, ringMs: n.ring, cents: n.cents || 0 });
-    return wait(notes[notes.length - 1].at + 150);
+    return wait(notes[notes.length - 1].at + ANSWER_MS);
   }
 
-  const pairNotes = (p) => [{ midi: p.a, at: 0, ring: NOTE_MS }, { midi: p.b, cents: p.cents, at: GAP_MS, ring: 1300 }];
+  const pairNotes = (p) => [{ midi: p.a, at: 0, ring: NOTE_MS }, { midi: p.b, cents: p.cents, at: GAP_MS, ring: SECOND_MS }];
   const tuneNotes = (it) => [...it.a.map((m, i) => ({ midi: m, at: i * TUNE_MS, ring: TUNE_MS + 120 })),
     ...it.b.map((m, i) => ({ midi: m, at: (it.a.length * TUNE_MS) + BETWEEN_MS + i * TUNE_MS, ring: i === it.b.length - 1 ? 900 : TUNE_MS + 120 }))];
 
@@ -282,7 +288,8 @@ export function begin(ui, my, piano) {
       question.textContent = t('run.question');
       ui.say(status.textContent + '. ' + question.textContent);
       hook('ask', { step: p.step, up: p.up });
-      const ok = await ask(pairNotes(p), [t('run.higher'), t('run.lower')], (up) => up === p.up);
+      // Lower on the left, as on a keyboard and in the app
+      const ok = await ask(pairNotes(p), [t('run.lower'), t('run.higher')], (lower) => lower !== p.up);
       if (gone()) return null;
       hook('pair', { step: p.step, up: p.up, ok });
       marks[st.level].push(ok);

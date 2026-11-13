@@ -28,7 +28,7 @@
     },
     {
       "heading": "Comment l'outil fonctionne",
-      "html": "<p>Il utilise seulement le piano, jamais le micro. C'est toi qui juges le changement, à la sensation et à l'oreille, donc l'outil marche dans n'importe quel navigateur, avec ou sans micro.</p><p>Le piano part du grave, de {{note:C3}} pour une voix plus grave et de {{note:G#3}} pour une voix plus aiguë, et monte d'un demi-ton toutes les deux secondes. Quand tu appuies, cette note devient ton premier changement. L'outil cherche ensuite, dans ton groupe, le type de voix dont le premier changement est le plus proche, et reprend le deuxième changement de ce type.</p>"
+      "html": "<p>Il utilise seulement le piano, jamais le micro. C'est toi qui juges le changement, à la sensation et à l'oreille, donc l'outil marche dans n'importe quel navigateur, avec ou sans micro.</p><p>Le piano part du grave, de {{note:C3}} pour une voix plus grave et de {{note:G#3}} pour une voix plus aiguë, et monte d'un demi-ton toutes les deux secondes. Si tu as fait le <a href=\"page:vocal-range-test\">test de tessiture</a> dans ce navigateur, il part plutôt de ta tessiture : environ six demi-tons sous le changement qu'elle laisse attendre, et jamais sous ta note la plus grave. Quand tu appuies, cette note devient ton premier changement. L'outil cherche ensuite, dans ton groupe, le type de voix dont le premier changement est le plus proche, et reprend le deuxième changement de ce type.</p>"
     },
     {
       "heading": "Pour une réponse claire",

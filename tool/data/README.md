@@ -221,6 +221,18 @@ source, velocity, shift, speedRatio, correctionCents, f0Cents, yinCents,
 peakDb, loudnessDb, gainDb, cutDb}]}`. `sha256` is the file's own, checked
 against `test/fixtures/piano/manifest.json`, which explains every field.
 
+### ear_check.json
+
+The ear check's numbers, from the app's `ear_logic.dart`: `{about, levels,
+pass, miss, band, roots, melodies, scale, scaleOff, timing: {noteMs, gapMs,
+secondRingMs, tuneMs, betweenMs, answerAfterMs, feedbackMs}, golden}`.
+`golden` is one seeded run: `{seed, answers, pairs: [{a, b, cents, up,
+step}], smallest, heard, melodies: [{a, b, same}]}`, the pairs drawn as the
+answers come and then the four melody pairs from the same generator.
+`js/tools/ear-run.js` keeps its constants inline (nothing is fetched before
+the tap); `tool/tests/ear-test/logic.test.mjs` asserts they equal these and
+replays the golden run, so the app's check and the site's cannot drift.
+
 ### meta.json
 
 `appVersion`, `locales` (`[{site, app, arb, endonym}]`), `settings` (the app

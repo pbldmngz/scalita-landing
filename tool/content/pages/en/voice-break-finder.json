@@ -28,7 +28,7 @@
     },
     {
       "heading": "How the finder works",
-      "html": "<p>It uses the piano only, never the microphone. You judge the shift yourself, by feel and by ear, so the finder works in any browser, with or without a microphone.</p><p>The piano starts low, at {{note:C3}} for a lower voice and {{note:G#3}} for a higher one, and climbs a half step every two seconds. When you tap, that note becomes your first shift. The finder then looks for the voice type in your group whose first shift sits nearest, and takes the second shift from that type.</p>"
+      "html": "<p>It uses the piano only, never the microphone. You judge the shift yourself, by feel and by ear, so the finder works in any browser, with or without a microphone.</p><p>The piano starts low, at {{note:C3}} for a lower voice and {{note:G#3}} for a higher one, and climbs a half step every two seconds. If you took the <a href=\"page:vocal-range-test\">vocal range test</a> in this browser, it starts from your range instead: about six half steps under the break your range points to, and never under your lowest note. When you tap, that note becomes your first shift. The finder then looks for the voice type in your group whose first shift sits nearest, and takes the second shift from that type.</p>"
     },
     {
       "heading": "Getting a clear answer",

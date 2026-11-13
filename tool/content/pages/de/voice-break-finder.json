@@ -28,7 +28,7 @@
     },
     {
       "heading": "So funktioniert der Finder",
-      "html": "<p>Er nutzt nur das Klavier, nie das Mikrofon. Den Wechsel beurteilst du selbst, nach Gefühl und nach Gehör, also funktioniert der Finder in jedem Browser, mit oder ohne Mikrofon.</p><p>Das Klavier beginnt tief, bei {{note:C3}} für eine tiefere Stimme und bei {{note:G#3}} für eine höhere, und steigt alle zwei Sekunden einen Halbton. Wenn du tippst, wird dieser Ton dein erster Wechsel. Dann sucht der Finder das Stimmfach deiner Gruppe, dessen erster Wechsel am nächsten liegt, und übernimmt von ihm den zweiten Wechsel.</p>"
+      "html": "<p>Er nutzt nur das Klavier, nie das Mikrofon. Den Wechsel beurteilst du selbst, nach Gefühl und nach Gehör, also funktioniert der Finder in jedem Browser, mit oder ohne Mikrofon.</p><p>Das Klavier beginnt tief, bei {{note:C3}} für eine tiefere Stimme und bei {{note:G#3}} für eine höhere, und steigt alle zwei Sekunden einen Halbton. Hast du in diesem Browser den <a href=\"page:vocal-range-test\">Stimmumfang-Test</a> gemacht, beginnt es stattdessen bei deinem Umfang: etwa sechs Halbtöne unter dem Wechsel, auf den er hindeutet, und nie unter deinem tiefsten Ton. Wenn du tippst, wird dieser Ton dein erster Wechsel. Dann sucht der Finder das Stimmfach deiner Gruppe, dessen erster Wechsel am nächsten liegt, und übernimmt von ihm den zweiten Wechsel.</p>"
     },
     {
       "heading": "Für eine klare Antwort",

@@ -1,6 +1,8 @@
 // js/tools/ear-run.js without a browser: the steps and how answers move
 // through them, the pairs, the melodies and their changed note, what a
-// result says, the strings, and the weight before the first tap.
+// result says, the strings, and the weight before the first tap; and the
+// app's numbers and seeded run (tool/data/app/ear_check.json, written by
+// the app's export) replayed here, so the two ear checks cannot drift.
 //   node --test tool/tests/ear-test/*.test.mjs
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -9,8 +11,8 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 import {
-  LEVELS, PASS, MISS, MELODIES, BAND, ROOTS, answer, changeMelody, ladder, makeMelody, makePair, melodyItems,
-  random, smallest, stepRead,
+  LEVELS, PASS, MISS, MELODIES, BAND, ROOTS, SCALE_OFF, MAJOR as SCALE, NOTE_MS, GAP_MS, SECOND_MS, TUNE_MS, BETWEEN_MS,
+  ANSWER_MS, FEEDBACK_MS, answer, changeMelody, ladder, makeMelody, makePair, melodyItems, random, smallest, stepRead,
 } from '../../../js/tools/ear-run.js';
 import { KEYS, fmt } from '../../../js/tools/ear-test.js';
 
@@ -28,34 +30,85 @@ const run = (answers) => answers.reduce((st, ok) => (st.done ? st : answer(st, o
 
 test('the steps halve from a semitone to 3 cents', () => {
   assert.deepEqual(LEVELS, [100, 50, 25, 12, 6, 3]);
-  assert.ok(PASS === 2 && MISS === 2 && MELODIES === 4);
+  assert.ok(PASS === 3 && MISS === 2 && MELODIES === 4);
 });
 
-test('two right clear a step, two wrong at one step end the run', () => {
-  assert.equal(smallest(run([true, true])), 100);
-  assert.equal(smallest(run([true, false, true])), 100);
+test('three right clear a step, two wrong at one step end the run', () => {
+  assert.equal(smallest(run([true, true])), null);
+  assert.equal(smallest(run([true, true, true])), 100);
+  assert.equal(smallest(run([true, false, true, true])), 100);
+  assert.equal(smallest(run([true, false, true, false])), null);
+  assert.equal(run([true, false, true, false]).done, true);
   assert.equal(smallest(run([false, false])), null);
   assert.equal(run([false, false]).done, true);
   // a semitone, 50 and 25 heard, then two misses at 12
-  const st = run([true, true, true, true, false, true, true, false, false]);
+  const st = run([true, true, true, true, false, true, true, true, true, true, false, true, false]);
   assert.equal(smallest(st), 25);
   assert.equal(st.heard, 2);
   assert.equal(st.done, true);
-  assert.equal(st.pairs, 9);
+  assert.equal(st.pairs, 13);
   // a miss at one step does not follow to the next one
-  assert.equal(smallest(run([true, false, true, true, false, true, false, false])), 50);
+  assert.equal(smallest(run([true, false, true, true, false, true, true, true, false, false])), 50);
   // every step heard, the run ends by itself
-  const all = run(Array(12).fill(true));
+  const all = run(Array(18).fill(true));
   assert.equal(smallest(all), 3);
   assert.equal(all.done, true);
-  assert.equal(all.pairs, 12);
-  // no run takes more than three pairs a step
+  assert.equal(all.pairs, 18);
+  // no run takes more than four pairs a step
   for (let seed = 1; seed <= 200; seed++) {
     const r = random(seed);
     let st = ladder();
     while (!st.done) st = answer(st, r() < 0.7);
-    assert.ok(st.pairs <= 3 * LEVELS.length, String(st.pairs));
+    assert.ok(st.pairs <= 4 * LEVELS.length, String(st.pairs));
   }
+});
+
+test('a guesser rarely gets far: 12 cents about once in a hundred runs', () => {
+  const r = random(42);
+  let fine = 0;
+  const runs = 20000;
+  for (let i = 0; i < runs; i++) {
+    let st = ladder();
+    while (!st.done) st = answer(st, r() < 0.5);
+    if ((smallest(st) ?? 1000) <= 12) fine++;
+  }
+  assert.ok(Math.abs(fine / runs - 0.0095) < 0.004, String(fine / runs));
+});
+
+// The app's export (scalita_app test/web_export/ear_export.dart): its
+// constants, and one seeded run replayed pair by pair and melody by melody
+const APP = json('tool/data/app/ear_check.json');
+
+test("the app's numbers: steps, pass, miss, band, keys, scale and timing", () => {
+  assert.deepEqual(LEVELS, APP.levels);
+  assert.equal(PASS, APP.pass);
+  assert.equal(MISS, APP.miss);
+  assert.deepEqual(BAND, APP.band);
+  assert.deepEqual(ROOTS, APP.roots);
+  assert.equal(MELODIES, APP.melodies);
+  assert.deepEqual(SCALE, APP.scale);
+  assert.equal(SCALE_OFF, APP.scaleOff);
+  assert.deepEqual(
+    { noteMs: NOTE_MS, gapMs: GAP_MS, secondRingMs: SECOND_MS, tuneMs: TUNE_MS, betweenMs: BETWEEN_MS,
+      answerAfterMs: ANSWER_MS, feedbackMs: FEEDBACK_MS },
+    APP.timing);
+});
+
+test("the app's seeded run draws the same pairs and melodies here", () => {
+  const g = APP.golden;
+  const r = random(g.seed);
+  let st = ladder();
+  let i = 0;
+  while (!st.done) {
+    const p = makePair(LEVELS[st.level], r);
+    assert.deepEqual({ a: p.a, b: p.b, cents: p.cents, up: p.up, step: p.step }, g.pairs[i], `pair ${i}`);
+    st = answer(st, g.answers[i]);
+    i++;
+  }
+  assert.equal(i, g.pairs.length);
+  assert.equal(smallest(st), g.smallest);
+  assert.equal(st.heard + 1, g.heard);
+  assert.deepEqual(melodyItems(r), g.melodies);
 });
 
 test('a pair is one note of the band and the same one moved by the step', () => {

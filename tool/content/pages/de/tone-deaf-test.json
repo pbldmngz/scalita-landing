@@ -10,8 +10,8 @@
   "appBand": "Einen Ton zu hören ist die erste Hälfte, ihn zu singen die zweite. Das Präzisionstraining in Scalita übt beides: Triff Töne mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
   "referenceHeading": "Über den Test",
   "toolId": "ear-test",
-  "instructions": "<h2>So machst du den Test</h2><ol><li>Drück auf Start. Die Seite spielt nur Klavier, deshalb fragt sie nie nach dem Mikrofon.</li><li>Hör dir beide Töne an und wähl dann Höher oder Tiefer. Mit Erneut hören erklingt das Paar noch einmal.</li><li>Zwei richtige Antworten bringen dich zu einem kleineren Schritt. Zwei falsche beim selben Schritt beenden diesen Teil.</li><li>Dann kommen vier Paare kurzer Melodien. Sag, ob jedes Paar gleich war oder ob sich ein Ton verändert hat.</li><li>Kopfhörer oder ein ruhiger Raum helfen bei den kleinsten Schritten.</li></ol>",
-  "sampleResult": "<h2>So sieht ein Ergebnis aus</h2><ul><li>Kleinster gehörter Schritt: 12 Cent</li><li>Gehörte Schritte: 4 von 6</li><li>Melodien unterschieden: 4 von 4</li></ul><p>12 Cent sind etwa ein Achtel Halbton. Das ist feiner als die 25 Cent, ab denen die Scalita-App einen gesungenen Ton als daneben zählt. Wer so hört, merkt also, wie ein Ton wegdriftet, bevor die App ihn als daneben zählen würde.</p>",
+  "instructions": "<h2>So machst du den Test</h2><ol><li>Drück auf Start. Die Seite spielt nur Klavier, deshalb fragt sie nie nach dem Mikrofon.</li><li>Hör dir beide Töne an und wähl dann Tiefer oder Höher. Mit Erneut hören erklingt das Paar noch einmal.</li><li>Drei richtige Antworten bringen dich zu einem kleineren Schritt. Zwei falsche beim selben Schritt beenden diesen Teil.</li><li>Dann kommen vier Paare kurzer Melodien. Sag, ob jedes Paar gleich war oder ob sich ein Ton verändert hat.</li><li>Kopfhörer oder ein ruhiger Raum helfen bei den kleinsten Schritten.</li></ol>",
+  "sampleResult": "<h2>So sieht ein Ergebnis aus</h2><ul><li>Kleinster gehörter Schritt: 12 Cent</li><li>Gehörte Schritte: 4 von 6</li><li>Melodien unterschieden: 4 von 4</li></ul><p>12 Cent sind etwa ein Achtel Halbton. Das ist feiner als die 25 Cent, die die Scalita-App nutzt, wenn du einen Ton singst.</p>",
   "notClaimed": "<h2>Was dieser Test dir nicht sagt</h2><p>Er ist ein kurzer Hörcheck mit Klaviertönen, kein Hörtest und keine Diagnose. Ein Ergebnis ist eine Messung an einem Tag, über einen bestimmten Lautsprecher oder Kopfhörer, und wer nur rät, hat die Hälfte aller Antworten richtig, also spielt Glück mit. Ob du eine angeborene Amusie hast, kann er dir nicht sagen: Dafür nutzt die Forschung längere Testbatterien und eine vollständige Untersuchung. Über deine Stimme sagt er ebenfalls nichts. Einen Schritt hören und ihn singen sind zwei verschiedene Fähigkeiten, und der <a href=\"page:sing-in-tune-test\">Töne-treffen-Test</a> misst die zweite.</p>",
   "sections": [
     {
@@ -28,7 +28,7 @@
     },
     {
       "heading": "Das Gehör wird mit Übung feiner",
-      "html": "<p>Kleine Schritte zu unterscheiden ist eine Fähigkeit, keine feste Eigenschaft. In einer Studie waren die Schwellen der Nichtmusiker anfangs mehr als sechsmal so groß wie die von klassischen Musikern. Nach 4 bis 8 Stunden Übung mit derselben Art von Höher-oder-tiefer-Aufgabe hatten sie aufgeholt (Micheyl und Kollegen, 2006).</p>"
+      "html": "<p>Kleine Schritte zu unterscheiden ist eine Fähigkeit, keine feste Eigenschaft. Übung hilft vielen, Töne feiner zu unterscheiden. Das ist nicht dasselbe, wie sie zu singen.</p>"
     },
     {
       "heading": "Wenn du nichts hörst",
@@ -54,7 +54,7 @@
     },
     {
       "q": "Kann ich mein Gehör trainieren?",
-      "a": "<p>Ja. Tonhöhen zu unterscheiden wird mit Übung besser, oft innerhalb von Stunden, wie die Studie oben gezeigt hat. Singen hilft auch: Wer Töne nachsingt, übt, darauf zu hören, wo die eigene Stimme gegenüber dem Ton liegt.</p>"
+      "a": "<p>Ja. Übung hilft vielen, kleinere Schritte zu hören. Das ist nicht dasselbe, wie sie zu singen, und Singen hilft auch: Wer Töne nachsingt, übt, darauf zu hören, wo die eigene Stimme gegenüber dem Ton liegt.</p>"
     }
   ],
   "sources": [
