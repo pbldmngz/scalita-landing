@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Gratuito",
-          "body": "Todos os recursos funcionam sem pagar nada."
+          "title": "Grátis para aprender",
+          "body": "Os Guias e as ferramentas não custam nada."
         },
         {
           "id": "offline",
@@ -324,33 +324,34 @@
       ]
     },
     "pricing": {
-      "title": "Todos os recursos funcionam de graça",
-      "lead": "O Pro tira os limites do que você pode guardar, por um pagamento único e barato.",
+      "title": "Grátis para aprender, Pro para ir além",
+      "lead": "O Pro guarda e compara suas gravações, roda vários planos e vai mais fundo no seu canto, com um só pagamento.",
       "free": {
         "items": [
-          "As 21 escalas que já vêm no app",
-          "As 15 rotinas que já vêm no app",
-          "Treino de precisão, os quatro modos",
-          "A pontuação, com fones",
-          "O Detector de Escalas, microfone incluso",
-          "1 escala e 1 rotina próprias",
-          "1 harmonia salva",
-          "Exportar e importar"
+          "As 40 lições e a Biblioteca",
+          "As 21 escalas e 15 rotinas",
+          "Um plano de treino completo",
+          "Treino de precisão, exercícios de ouvido e a pontuação",
+          "Afinador, bordão e espectrograma ao vivo",
+          "Grave uma tomada e ouça de volta",
+          "1 escala, 1 rotina e 1 harmonia suas",
+          "Compartilhe planos com quem quiser"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Pagamento único",
-        "price": "US$ 4,99",
+        "price": "Pagamento único",
         "terms": "Paga uma vez e é seu para sempre. Sem assinatura.",
-        "priceNote": "Esse é o preço nos EUA. O Google Play mostra o seu, na sua moeda.",
+        "priceNote": "O Google Play mostra o preço na sua moeda.",
         "items": [
-          "Tudo o que tem no Gratuito",
-          "Escalas e rotinas próprias <strong>sem limite</strong>",
-          "Harmonias salvas <strong>sem limite</strong>",
-          "O gravador de estudo da mira de afinação",
-          "Editar as escalas e rotinas que já vêm no app",
-          "Apoiar o desenvolvimento"
+          "Tudo do grátis",
+          "Escalas, rotinas e harmonias suas <strong>sem limite</strong>",
+          "Guarde, compare e compartilhe suas tomadas",
+          "Vários planos, e planos seus",
+          "Seu canto ao longo do tempo: onde você desafina e sua extensão",
+          "Tomadas do espectrograma e análise de gravações",
+          "Apoie o desenvolvimento"
         ],
         "note": "Liberado dentro do app, pelo Google Play. Não precisa de conta."
       }

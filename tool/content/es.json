@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Gratis",
-          "body": "Todas las funciones, sin pagar nada."
+          "title": "Gratis para aprender",
+          "body": "Las Guías y las herramientas no cuestan nada."
         },
         {
           "id": "offline",
@@ -324,33 +324,34 @@
       ]
     },
     "pricing": {
-      "title": "Todas las funciones, gratis",
-      "lead": "Pro quita los límites de lo que puedes guardar, por un pago único y barato.",
+      "title": "Gratis para aprender, Pro para ir más allá",
+      "lead": "Pro guarda y compara tus tomas, lleva varios planes y profundiza en tu canto, con un solo pago.",
       "free": {
         "items": [
-          "Las 21 escalas incluidas",
-          "Las 15 rutinas incluidas",
-          "Entrenamiento de precisión, los cuatro modos",
-          "La puntuación, con auriculares",
-          "El Detector de Escalas, micrófono incluido",
-          "1 escala y 1 rutina personalizadas",
-          "1 armonía guardada",
-          "Exportar e importar"
+          "Las 40 lecciones y la Biblioteca",
+          "Las 21 escalas y 15 rutinas",
+          "Un plan de práctica completo",
+          "Entrenamiento de precisión, ejercicios de oído y la puntuación",
+          "Afinador, bordón y espectrograma en vivo",
+          "Graba una toma y escúchala",
+          "1 escala, 1 rutina y 1 armonía propias",
+          "Comparte planes con quien quieras"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Pago único",
-        "price": "4,99 US$",
+        "price": "Pago único",
         "terms": "Pagas una vez y es tuyo para siempre. Sin suscripción.",
-        "priceNote": "Es el precio en EE. UU. Google Play te muestra el tuyo, en tu moneda.",
+        "priceNote": "Google Play te muestra el precio en tu moneda.",
         "items": [
-          "Todo lo de Gratis",
-          "Escalas y rutinas personalizadas <strong>sin límite</strong>",
-          "Armonías guardadas <strong>sin límite</strong>",
-          "El grabador de práctica en la puntería de afinación",
-          "Editar las escalas y rutinas incluidas",
-          "Apoyar el desarrollo"
+          "Todo lo gratis",
+          "Escalas, rutinas y armonías propias <strong>sin límite</strong>",
+          "Guarda, compara y comparte tus tomas",
+          "Varios planes, y planes propios",
+          "Tu canto en el tiempo: dónde te desvías y tu rango",
+          "Tomas del espectrograma y análisis de grabaciones",
+          "Apoya el desarrollo"
         ],
         "note": "Se desbloquea dentro de la app, a través de Google Play. No hace falta cuenta."
       }

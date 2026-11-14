@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Gratis",
-          "body": "Semua fitur bisa dipakai tanpa bayar."
+          "title": "Gratis untuk belajar",
+          "body": "Panduan dan alat-alatnya tidak berbayar."
         },
         {
           "id": "offline",
@@ -324,32 +324,33 @@
       ]
     },
     "pricing": {
-      "title": "Semua fitur bisa dipakai gratis",
-      "lead": "Pro menghapus batas berapa banyak yang bisa kamu simpan, cukup sekali bayar dan murah.",
+      "title": "Gratis untuk belajar, Pro untuk lebih jauh",
+      "lead": "Pro menyimpan dan membandingkan rekamanmu, menjalankan beberapa rencana, dan melihat nyanyianmu lebih dalam, dengan sekali bayar.",
       "free": {
         "items": [
-          "Seluruh 21 tangga nada bawaan",
-          "Seluruh 15 rutinitas bawaan",
-          "Latihan Ketepatan, keempat modenya",
-          "Skor ketepatan, dengan earphone",
-          "Rekam Tangga Nada, lengkap dengan mikrofon",
-          "1 tangga nada kustom, 1 rutinitas kustom",
-          "1 harmoni tersimpan",
-          "Ekspor dan impor"
+          "Semua 40 pelajaran dan Perpustakaan",
+          "Semua 21 tangga nada dan 15 rutinitas",
+          "Satu rencana latihan, dari awal sampai akhir",
+          "Latihan ketepatan, latihan pendengaran, dan skor",
+          "Tuner, nada dengung, dan spektrogram langsung",
+          "Rekam dan dengarkan kembali",
+          "1 tangga nada, 1 rutinitas, dan 1 harmoni sendiri",
+          "Bagikan rencana ke siapa saja"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Sekali bayar",
-        "price": "US$4,99",
+        "price": "Sekali bayar",
         "terms": "Sekali bayar, milikmu selamanya. Tanpa langganan.",
-        "priceNote": "Itu harga di AS. Google Play menampilkan harga untukmu, dalam mata uangmu.",
+        "priceNote": "Google Play menampilkan harga dalam mata uangmu.",
         "items": [
-          "Semua yang ada di versi Gratis",
-          "Tangga nada dan rutinitas kustom <strong>tanpa batas</strong>",
-          "Harmoni tersimpan <strong>tanpa batas</strong>",
-          "Perekam latihan di Bidik nada",
-          "Edit tangga nada dan rutinitas bawaan",
+          "Semua yang gratis",
+          "Tangga nada, rutinitas, dan harmoni sendiri <strong>tanpa batas</strong>",
+          "Simpan, bandingkan, dan bagikan rekamanmu",
+          "Beberapa rencana, dan rencana buatanmu",
+          "Nyanyianmu dari waktu ke waktu: di mana meleset dan rentang suaramu",
+          "Rekaman spektrogram dan analisis rekaman",
           "Dukung pengembangan"
         ],
         "note": "Dibuka di dalam aplikasi, lewat Google Play. Tidak perlu akun."

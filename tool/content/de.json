@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Kostenlos",
-          "body": "Jede Funktion läuft ohne Bezahlung."
+          "title": "Kostenlos lernen",
+          "body": "Ratgeber und Werkzeuge kosten nichts."
         },
         {
           "id": "offline",
@@ -324,32 +324,33 @@
       ]
     },
     "pricing": {
-      "title": "Jede Funktion läuft kostenlos",
-      "lead": "Pro hebt die Grenzen auf, wie viel du speichern kannst, für eine kleine einmalige Zahlung.",
+      "title": "Kostenlos lernen, mit Pro weiter gehen",
+      "lead": "Pro behält und vergleicht deine Aufnahmen, führt mehrere Pläne und geht tiefer in dein Singen, mit einer Zahlung.",
       "free": {
         "items": [
-          "Alle 21 mitgelieferten Tonleitern",
-          "Alle 15 mitgelieferten Routinen",
-          "Präzisionstraining, alle vier Modi",
-          "Die Bewertung, mit Kopfhörern",
-          "Die Tonleiter-Erkennung, Mikrofon inklusive",
-          "1 eigene Tonleiter, 1 eigene Routine",
-          "1 gespeicherte Harmonie",
-          "Export und Import"
+          "Alle 40 Lektionen und die Bibliothek",
+          "Alle 21 Skalen und 15 Routinen",
+          "Ein Übungsplan, von Anfang bis Ende",
+          "Präzisionstraining, Gehörübungen und die Tonbewertung",
+          "Stimmgerät, Bordun und Live-Spektrogramm",
+          "Eine Aufnahme machen und anhören",
+          "1 eigene Skala, 1 Routine, 1 Harmonie",
+          "Pläne mit allen teilen"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Einmalig",
-        "price": "4,99 US$",
+        "price": "Einmalzahlung",
         "terms": "Einmal zahlen, für immer deins. Kein Abo.",
-        "priceNote": "Das ist der Preis in den USA. Google Play zeigt dir deinen, in deiner Währung.",
+        "priceNote": "Google Play zeigt den Preis in deiner Währung.",
         "items": [
           "Alles aus Kostenlos",
-          "Eigene Tonleitern und Routinen <strong>ohne Grenze</strong>",
-          "Gespeicherte Harmonien <strong>ohne Grenze</strong>",
-          "Der Übungsrekorder im Tontreffen",
-          "Die mitgelieferten Tonleitern und Routinen bearbeiten",
+          "<strong>Unbegrenzt</strong> eigene Skalen, Routinen und Harmonien",
+          "Aufnahmen behalten, vergleichen und teilen",
+          "Mehrere Pläne und eigene Pläne",
+          "Dein Singen über die Zeit: wo du abweichst und dein Umfang",
+          "Spektrogramm-Aufnahmen und Aufnahmeanalyse",
           "Die Entwicklung unterstützen"
         ],
         "note": "Wird in der App über Google Play freigeschaltet. Kein Konto nötig."

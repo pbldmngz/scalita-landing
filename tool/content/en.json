@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Free",
-          "body": "Every feature works without paying."
+          "title": "Free to learn",
+          "body": "The Guides and the tools cost nothing."
         },
         {
           "id": "offline",
@@ -324,32 +324,33 @@
       ]
     },
     "pricing": {
-      "title": "Every feature works for free",
-      "lead": "Pro lifts the caps on how much you keep, for one small payment.",
+      "title": "Free to learn, Pro to go further",
+      "lead": "Pro keeps and compares your takes, runs several plans and goes deeper into your singing, for one payment.",
       "free": {
         "items": [
-          "All 21 built-in scales",
-          "All 15 built-in routines",
-          "Accuracy Training, all four modes",
-          "The pitch score, with earphones",
-          "The Scale Detector, microphone and all",
-          "1 custom scale, 1 custom routine",
-          "1 saved harmony",
-          "Export and import"
+          "All 40 lessons and the Library",
+          "All 21 scales and 15 routines",
+          "A training plan, start to finish",
+          "Accuracy Training, ear drills and the pitch score",
+          "Tuner, drone and live spectrogram",
+          "Record a take and hear it back",
+          "1 custom scale, 1 routine, 1 saved harmony",
+          "Share plans with anyone"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Once",
-        "price": "US$4.99",
+        "price": "Pay once",
         "terms": "One payment, yours forever. No subscription.",
-        "priceNote": "That's the US price. Google Play shows yours, in your own currency.",
+        "priceNote": "Google Play shows the price in your currency.",
         "items": [
           "Everything in Free",
-          "<strong>Unlimited</strong> custom scales and routines",
-          "<strong>Unlimited</strong> saved harmonies",
-          "The practice recorder in pitch targeting",
-          "Edit the built-in scales and routines",
+          "<strong>Unlimited</strong> custom scales, routines and harmonies",
+          "Keep, compare and share your takes",
+          "Several plans, and plans of your own",
+          "Your singing over time: where you drift and your range",
+          "Spectrogram takes and recording analysis",
           "Support development"
         ],
         "note": "Unlocked inside the app, through Google Play. No account needed."

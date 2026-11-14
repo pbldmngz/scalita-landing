@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Gratuit",
-          "body": "Toutes les fonctions marchent sans payer."
+          "title": "Gratuit pour apprendre",
+          "body": "Les guides et les outils ne coûtent rien."
         },
         {
           "id": "offline",
@@ -324,33 +324,34 @@
       ]
     },
     "pricing": {
-      "title": "Toutes les fonctions marchent gratuitement",
-      "lead": "Pro lève les limites de ce que tu peux garder, pour un seul petit paiement.",
+      "title": "Gratuit pour apprendre, Pro pour aller plus loin",
+      "lead": "Pro garde et compare tes prises, gère plusieurs plans et va plus loin dans ton chant, en un seul paiement.",
       "free": {
         "items": [
-          "Les 21 gammes incluses",
-          "Les 15 routines incluses",
-          "L'Entraînement de précision, les quatre modes",
-          "Le score de justesse, avec des écouteurs",
-          "Le détecteur de gammes, microphone compris",
-          "1 gamme et 1 routine personnalisées",
-          "1 harmonie conservée",
-          "Export et import"
+          "Les 40 leçons et la Bibliothèque",
+          "Les 21 gammes et 15 routines",
+          "Un plan d’entraînement complet",
+          "Entraînement de précision, exercices d’oreille et le score de justesse",
+          "Accordeur, bourdon et spectrogramme en direct",
+          "Enregistre une prise et réécoute-la",
+          "1 gamme, 1 routine et 1 harmonie perso",
+          "Partage tes plans avec qui tu veux"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Achat unique",
-        "price": "4,99 $US",
+        "price": "Paiement unique",
         "terms": "Un seul paiement, à toi pour toujours. Pas d'abonnement.",
-        "priceNote": "C'est le prix aux États-Unis. Google Play affiche le tien, dans ta monnaie.",
+        "priceNote": "Google Play affiche le prix dans ta monnaie.",
         "items": [
-          "Tout ce qu'il y a dans Gratuit",
-          "Gammes et routines personnalisées <strong>sans limite</strong>",
-          "Harmonies conservées <strong>sans limite</strong>",
-          "L'enregistreur de la visée de justesse",
-          "Modifier les gammes et routines incluses",
-          "Soutenir le développement"
+          "Tout le gratuit",
+          "Gammes, routines et harmonies perso <strong>illimitées</strong>",
+          "Garde, compare et partage tes prises",
+          "Plusieurs plans, et tes propres plans",
+          "Ton chant dans le temps : où tu dérives et ta tessiture",
+          "Prises du spectrogramme et analyse d’enregistrements",
+          "Soutiens le développement"
         ],
         "note": "Se débloque dans l'application, via Google Play. Aucun compte nécessaire."
       }

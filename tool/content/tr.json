@@ -288,8 +288,8 @@
       "items": [
         {
           "id": "free",
-          "title": "Ücretsiz",
-          "body": "Her özellik ödeme yapmadan çalışır."
+          "title": "Öğrenmek ücretsiz",
+          "body": "Rehber ve araçlar ücretsiz."
         },
         {
           "id": "offline",
@@ -324,33 +324,34 @@
       ]
     },
     "pricing": {
-      "title": "Her özellik ücretsiz çalışır",
-      "lead": "Pro, ne kadar saklayabileceğinin sınırını küçük, tek seferlik bir ödemeyle kaldırır.",
+      "title": "Öğrenmek ücretsiz, Pro ile daha ileri",
+      "lead": "Pro kayıtlarını saklar ve karşılaştırır, birden çok plan yürütür ve şarkı söyleyişine daha derin bakar, tek ödemeyle.",
       "free": {
         "items": [
-          "21 hazır gamın hepsi",
-          "15 hazır rutinin hepsi",
-          "Entonasyon Çalışması, dört modun hepsi",
-          "Entonasyon puanı, kulaklıkla",
-          "Gam Kaydı, mikrofonuyla birlikte",
-          "1 özel gam, 1 özel rutin",
-          "1 saklanan armoni",
-          "Dışa ve içe aktarma"
+          "40 dersin tamamı ve Kütüphane",
+          "21 gam ve 15 rutinin tamamı",
+          "Baştan sona bir çalışma planı",
+          "İsabet çalışması, kulak alıştırmaları ve puan",
+          "Akort aleti, dem sesi ve canlı spektrogram",
+          "Kayıt yap ve dinle",
+          "1 kendi gamın, 1 rutin ve 1 armoni",
+          "Planları herkesle paylaş"
         ]
       },
       "pro": {
         "name": "Scalita Pro",
         "badge": "Tek seferlik",
-        "price": "4,99 USD",
+        "price": "Tek ödeme",
         "terms": "Bir kez öde, sonsuza dek senin. Abonelik yok.",
-        "priceNote": "Bu, ABD fiyatı. Google Play seninkini kendi para biriminde gösterir.",
+        "priceNote": "Google Play fiyatı kendi para biriminde gösterir.",
         "items": [
-          "Ücretsiz sürümdeki her şey",
-          "<strong>Sınırsız</strong> özel gam ve rutin",
-          "<strong>Sınırsız</strong> saklanan armoni",
-          "Perde hedeflemede çalışma kaydı",
-          "Hazır gam ve rutinleri düzenleme",
-          "Geliştirmeye destek"
+          "Ücretsizdeki her şey",
+          "<strong>Sınırsız</strong> kendi gam, rutin ve armonilerin",
+          "Kayıtlarını sakla, karşılaştır ve paylaş",
+          "Birden çok plan ve kendi planların",
+          "Zaman içinde şarkı söyleyişin: nerede kaydığın ve ses aralığın",
+          "Spektrogram kayıtları ve kayıt analizi",
+          "Geliştirmeye destek ol"
         ],
         "note": "Uygulamanın içinden, Google Play üzerinden açılır. Hesap gerekmez."
       }
