@@ -3,3 +3,5 @@ scalita_marketing.zip
 __pycache__/
 *.pyc
 node_modules/
+# Search Console exports are local downloads, never site files.
+scalita.com-*.zip

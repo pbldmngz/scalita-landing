@@ -7,7 +7,7 @@
   "lead": "Piyano bir nota çalar ve susar. Sen o notayı geri söylersin, sayfa da ne kadar yakın söylediğini sent olarak gösterir. Beş nota bir tur eder; serbest akort modunda ise istediğin her şeyi söylerken perdeni görürsün.",
   "tile": "Az önce duyduğun notaya ne kadar yaklaştığını gör.",
   "oneLine": "Bir notayı dinle, geri söyle, ne kadar yaklaştığını gör.",
-  "appBand": "Scalita'nın Entonasyon Çalışması bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+  "appBand": "Scalita'daki Perde hedefleme ve Dinle & Tekrarla bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
   "referenceHeading": "Test hakkında",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Ses türünü seç ya da <a href=\"page:vocal-range-test\">ses aralığı testinde</a> bulduğun aralığı kullan; böylece her nota söyleyebileceğin bir yere düşer.</li><li>Başlat'a bas ve mikrofona izin ver.</li><li>Notayı dinle. Piyano susunca kolay bir ünlüyle geri söyle ve tut.</li><li>Sen tutarken ibre ve iz, notanın ne kadar üstünde ya da altında olduğunu gösterir.</li><li>Beş notadan sonra sonucunu oku.</li></ol><p>Akort için serbest akort moduna geç ve söyle. En yakın notayı ve ondan kaç sent uzakta olduğunu gösterir; piyano çalmaz.</p>",

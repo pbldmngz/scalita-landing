@@ -7,7 +7,7 @@
   "lead": "A warm-up video is recorded in one set of keys. This piano plays Scalita's scales and routines in yours: choose a voice type or your own lowest and highest notes, and press Play.",
   "tile": "Scales and routines from the app, in your range.",
   "oneLine": "Pick a voice type or your own range, then press Play.",
-  "appBand": "Scalita plays all 21 scales and 15 routines in your range, remembers it, and with earphones in it scores each scale. Offline, no ads, no account.",
+  "appBand": "Scalita plays all 23 scales and 15 routines in your range, remembers it, and with earphones in it scores each scale. Offline, no ads, no account.",
   "referenceHeading": "About the piano",
   "toolId": "player",
   "instructions": "<h2>How to use it</h2><ol><li>Choose a voice type, or set your own lowest and highest notes. If you don't know them, the <a href=\"page:vocal-range-test\">vocal range test</a> finds them in about a minute.</li><li>Choose a scale or a routine. The pattern, the syllable to sing, the tempo and the style show before you start.</li><li>Press Play and sing along. Before each new key there's a moment to breathe and a short chord to set it up.</li><li>Press Stop whenever you like.</li></ol><p>The piano doesn't use the microphone, and nothing downloads until you press Play.</p>",

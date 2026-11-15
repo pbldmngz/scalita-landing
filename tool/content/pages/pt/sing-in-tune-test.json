@@ -7,7 +7,7 @@
   "lead": "O piano toca uma nota e para. Você canta de volta, e a página mostra o quão perto você chegou, em cents. Cinco notas formam uma rodada, e o modo afinador mostra a sua afinação enquanto você canta o que quiser.",
   "tile": "Quão perto você chega de uma nota que acabou de ouvir.",
   "oneLine": "Ouça uma nota, cante de volta e veja o quão perto chegou.",
-  "appBand": "O Treino de precisão do Scalita vai além: acerte qualquer nota com um traço de afinação ao vivo, ou repita saltos de músicas, na sua própria extensão. Grátis no Android, sem conta.",
+  "appBand": "A Mira de afinação e o Ouça e repita do Scalita vão além: acerte qualquer nota com um traço de afinação ao vivo, ou repita saltos de músicas, na sua própria extensão. Grátis no Android, sem conta.",
   "referenceHeading": "Sobre o teste",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>Como fazer o teste</h2><ol><li>Escolha o seu tipo de voz, ou use a extensão que você achou no <a href=\"page:vocal-range-test\">teste de extensão vocal</a>, para que cada nota fique num lugar que você consegue cantar.</li><li>Aperte Iniciar e permita o microfone.</li><li>Ouça a nota. Quando o piano parar, cante de volta numa vogal fácil e segure.</li><li>O ponteiro e o traço mostram o quanto você está acima ou abaixo da nota enquanto segura.</li><li>Depois de cinco notas, veja o resultado.</li></ol><p>Para usar o afinador, mude para o modo afinador e cante. Ele mostra a nota mais próxima e a quantos cents você está dela, e nenhum piano toca.</p>",

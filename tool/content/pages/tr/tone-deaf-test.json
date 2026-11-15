@@ -7,7 +7,7 @@
   "lead": "İki piyano notası çalar, sen de ikincisinin yukarı mı aşağı mı gittiğini söylersin. Duyduğun her adım bir sonrakini küçültür: yarım sesten 3 sente kadar. Testi dört kısa melodi kapatır; sonuç, duyduğun en küçük adımdır.",
   "tile": "İki nota arasındaki ne kadar küçük bir adımı duyabildiğin.",
   "oneLine": "Daha tiz mi, daha pes mi? Ne kadar küçük bir adımı duyduğunu gör.",
-  "appBand": "Bir notayı duymak işin ilk yarısı, söylemek ikinci yarısı. Scalita'nın Entonasyon Çalışması ikisi üzerinde de çalışır: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+  "appBand": "Bir notayı duymak işin ilk yarısı, söylemek ikinci yarısı. Scalita'daki Perde hedefleme ve Dinle & Tekrarla ikisi üzerinde de çalışır: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
   "referenceHeading": "Test hakkında",
   "toolId": "ear-test",
   "instructions": "<h2>Test nasıl yapılır</h2><ol><li>Başlat'a bas. Sayfa yalnızca piyano çalar, bu yüzden mikrofon hiç istemez.</li><li>İki notayı da dinle, sonra Daha pes ya da Daha tiz'i seç. Tekrar dinle, çifti bir kez daha çalar.</li><li>Üç doğru cevap seni daha küçük bir adıma götürür. Aynı adımda iki yanlış cevap bu bölümü bitirir.</li><li>Sonra dört çift kısa melodi gelir. Her çiftin aynı mı olduğunu, yoksa bir notanın mı değiştiğini söyle.</li><li>En küçük adımlarda kulaklık ya da sessiz bir oda işe yarar.</li></ol>",

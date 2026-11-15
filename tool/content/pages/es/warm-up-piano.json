@@ -7,7 +7,7 @@
   "lead": "Un video de calentamiento se graba en unas tonalidades fijas. Este piano toca las escalas y rutinas de Scalita en las tuyas: elige un tipo de voz o tus propias notas más grave y más aguda, y pulsa Reproducir.",
   "tile": "Escalas y rutinas de la app, en tu rango.",
   "oneLine": "Elige un tipo de voz o tu propio rango y pulsa Reproducir.",
-  "appBand": "Scalita toca las 21 escalas y las 15 rutinas en tu rango, lo recuerda y, con auriculares puestos, puntúa cada escala. Sin conexión, sin anuncios y sin cuenta.",
+  "appBand": "Scalita toca las 23 escalas y las 15 rutinas en tu rango, lo recuerda y, con auriculares puestos, puntúa cada escala. Sin conexión, sin anuncios y sin cuenta.",
   "referenceHeading": "Sobre el piano",
   "toolId": "player",
   "instructions": "<h2>Cómo se usa</h2><ol><li>Elige un tipo de voz o define tus propias notas más grave y más aguda. Si no las conoces, el <a href=\"page:vocal-range-test\">test de rango vocal</a> las encuentra en más o menos un minuto.</li><li>Elige una escala o una rutina. Antes de empezar ves el patrón, la sílaba que hay que cantar, el tempo y el estilo.</li><li>Pulsa Reproducir y canta con el piano. Antes de cada tonalidad nueva hay un momento para respirar y un acorde corto que la prepara.</li><li>Pulsa Detener cuando quieras.</li></ol><p>El piano no usa el micrófono, y no se descarga nada hasta que pulsas Reproducir.</p>",

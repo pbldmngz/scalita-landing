@@ -7,7 +7,7 @@
   "lead": "Das Klavier spielt einen Ton und hört auf. Du singst ihn nach, und die Seite zeigt, wie nah du dran warst, in Cent. Fünf Töne sind eine Runde, und im Stimmgerät-Modus siehst du deine Tonhöhe, während du singst, was du willst.",
   "tile": "Wie nah du einen Ton triffst, den du gerade gehört hast.",
   "oneLine": "Hör einen Ton, sing ihn nach und sieh, wie nah du dran warst.",
-  "appBand": "Das Präzisionstraining in Scalita geht weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+  "appBand": "„Ton treffen“ und „Hören & Nachsingen“ in Scalita gehen weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
   "referenceHeading": "Über den Test",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>So machst du den Test</h2><ol><li>Wähl dein Stimmfach oder nimm den Umfang aus dem <a href=\"page:vocal-range-test\">Stimmumfang-Test</a>, damit jeder Ton dort liegt, wo du ihn singen kannst.</li><li>Drück auf Start und erlaube das Mikrofon.</li><li>Hör dir den Ton an. Wenn das Klavier aufhört, sing ihn auf einem leichten Vokal nach und halte ihn.</li><li>Die Nadel und die Spur zeigen, wie weit über oder unter dem Ton du bist, während du ihn hältst.</li><li>Nach fünf Tönen liest du dein Ergebnis.</li></ol><p>Für das Stimmgerät wechselst du in den Stimmgerät-Modus und singst. Er zeigt den nächstgelegenen Ton und wie viele Cent du davon entfernt bist, und es spielt kein Klavier.</p>",

@@ -56,7 +56,7 @@
     "tooFew": "The microphone heard {judged} of {total} notes clearly, which is too few to measure. Try again a little louder or closer to the microphone. Humming works too.",
     "last": "{label}: {cents}, {date}",
     "again": "Another round",
-    "ctaBody": "Scalita's Accuracy Training goes further: match any note on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
+    "ctaBody": "Scalita's Pitch targeting and Listen & Repeat go further: match any note on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
     "ctaButton": "Get Scalita on Google Play"
   },
   "next": {

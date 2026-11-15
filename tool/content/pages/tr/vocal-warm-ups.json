@@ -5,7 +5,7 @@
   "description": "Scalita uygulamasından üç rutin, gerçek bir piyanoda senin aralığına taşınmış hâlde: söylemeden önce hızlı bir ısınma, tam bir ısınma ve bir soğuma.",
   "h1": "Ses açma egzersizleri",
   "lead": "Scalita uygulamasından üç rutin, gerçek bir piyanoda senin aralığında çalınır: söylemeden hemen önce için hızlı bir ısınma, tam bir ısınma ve sonrası için bir soğuma. Sesine en yakın ses türünü seç ya da kendi en pes ve en tiz notalarını belirle ve Çal'a bas.",
-  "intro": "<p>Buradaki her rutin, uygulamadakinin adım adım aynısıdır: aynı kalıplar, heceler, tempolar ve sıra. Bir videonun yapamadığı şey senin için ton değiştirmektir. Burada piyano, belirlediğin aralığa uysun diye her kalıbı yarım ses yarım ses taşır; böylece kaydı yapan kişinin sesiyle değil, kendi sesinle söylersin.</p><p>Bugün hangisinin uyduğundan emin değil misin? Bu sayfadaki iki Isınmamı Bul sorusunu cevapla; uygulamanın sorduklarının aynısı. Ses aralığını henüz bilmiyorsan <a href=\"page:vocal-range-test\">ses aralığı testi</a> en pes ve en tiz notalarını bulur.</p>",
+  "intro": "<p>Buradaki her rutin, uygulamadakinin adım adım aynısıdır: aynı kalıplar, heceler, tempolar ve sıra. Bir videonun yapamadığı şey senin için ton değiştirmektir. Burada piyano, belirlediğin aralığa uysun diye her kalıbı yarım ses yarım ses taşır; böylece kaydı yapan kişinin sesiyle değil, kendi sesinle söylersin.</p><p>Bugün hangisinin uyduğundan emin değil misin? Bu sayfadaki iki Isınmamı bul sorusunu cevapla; uygulamanın sorduklarının aynısı. Ses aralığını henüz bilmiyorsan <a href=\"page:vocal-range-test\">ses aralığı testi</a> en pes ve en tiz notalarını bulur.</p>",
   "children": [
     "quick-vocal-warm-up",
     "full-vocal-warm-up",
@@ -16,7 +16,7 @@
   "sections": [
     {
       "heading": "Bugün hangisi?",
-      "html": "<p>Isınmamı Bul, ne üzerinde çalışmak istediğini sormadan önce sesinin nasıl olduğunu sorar ve ilk cevap ikincisini geçersiz kılabilir.</p><ul><li><em>Yorgun / zorlanmış</em>, ne üzerinde çalışmak istemiş olursan ol, her zaman biraz daha yavaş çalınan <a href=\"page:vocal-cool-down\">soğumaya</a> götürür.</li><li><em>Sahne öncesi hızlı</em> seni <a href=\"page:quick-vocal-warm-up\">hızlı ısınmaya</a>, <em>Sadece ısınayım</em> ise <a href=\"page:full-vocal-warm-up\">tam ısınmaya</a> götürür.</li><li><em>Biraz tuhaf</em> her rutini biraz yavaşlatır; uygulama o gün <em>Aralığımı genişlet</em> ve <em>Kirli ton / çığlık</em> seçeneklerini de geri tutar.</li><li><em>Hazırım</em> rutinleri biraz daha hızlı çalar.</li></ul>"
+      "html": "<p>Isınmamı bul, ne üzerinde çalışmak istediğini sormadan önce sesinin nasıl olduğunu sorar ve ilk cevap ikincisini geçersiz kılabilir.</p><ul><li><em>Yorgun / zorlanmış</em>, ne üzerinde çalışmak istemiş olursan ol, her zaman biraz daha yavaş çalınan <a href=\"page:vocal-cool-down\">soğumaya</a> götürür.</li><li><em>Sahne öncesi hızlı</em> seni <a href=\"page:quick-vocal-warm-up\">hızlı ısınmaya</a>, <em>Sadece ısınayım</em> ise <a href=\"page:full-vocal-warm-up\">tam ısınmaya</a> götürür.</li><li><em>Biraz tuhaf</em> her rutini biraz yavaşlatır; uygulama o gün <em>Aralığımı genişlet</em> ve <em>Kirli ton / çığlık</em> seçeneklerini de geri tutar.</li><li><em>Hazırım</em> rutinleri biraz daha hızlı çalar.</li></ul>"
     },
     {
       "heading": "Bu ısınmalar nasıl kurulur",

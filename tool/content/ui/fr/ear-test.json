@@ -43,7 +43,7 @@
     "last": "{label} : {step}, {date}",
     "lastNone": "aucun écart pour l'instant",
     "again": "Réessayer",
-    "ctaBody": "L'Entraînement de précision de Scalita fait passer de l'écoute au chant : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+    "ctaBody": "Dans Scalita, la visée de justesse et « Écoute et répète » font passer de l'écoute au chant : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
     "ctaButton": "Télécharger Scalita sur Google Play"
   },
   "next": {

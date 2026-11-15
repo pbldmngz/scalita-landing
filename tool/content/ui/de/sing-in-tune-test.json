@@ -56,7 +56,7 @@
     "tooFew": "Das Mikrofon hat {judged} von {total} Tönen deutlich gehört, zu wenige zum Messen. Versuch es nochmal etwas lauter oder näher am Mikrofon. Summen geht auch.",
     "last": "{label}: {cents}, {date}",
     "again": "Noch eine Runde",
-    "ctaBody": "Das Präzisionstraining in Scalita geht weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+    "ctaBody": "„Ton treffen“ und „Hören & Nachsingen“ in Scalita gehen weiter: Triff jeden Ton mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
     "ctaButton": "Scalita bei Google Play laden"
   },
   "next": {

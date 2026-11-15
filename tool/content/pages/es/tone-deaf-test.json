@@ -7,7 +7,7 @@
   "lead": "Suenan dos notas de piano y tú dices si la segunda subió o bajó. Cada paso que oyes hace más pequeño el siguiente, de un semitono hasta 3 centésimas. Cuatro melodías cortas cierran el test, y el resultado es el paso más pequeño que oíste.",
   "tile": "El paso más pequeño entre dos notas que puedes oír.",
   "oneLine": "¿Más aguda o más grave? Descubre el paso más pequeño que oyes.",
-  "appBand": "Oír una nota es la primera mitad, y cantarla es la segunda. El Entrenamiento de precisión de Scalita trabaja las dos: afina notas sobre un trazo de afinación en vivo o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
+  "appBand": "Oír una nota es la primera mitad, y cantarla es la segunda. La puntería de afinación y Escucha y repite de Scalita trabajan las dos: afina notas sobre un trazo de afinación en vivo o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
   "referenceHeading": "Sobre el test",
   "toolId": "ear-test",
   "instructions": "<h2>Cómo hacer el test</h2><ol><li>Pulsa Empezar. La página solo toca el piano, así que nunca te pide el micrófono.</li><li>Escucha las dos notas y elige Más grave o Más aguda. Escuchar otra vez repite el par.</li><li>Tres aciertos te llevan a un paso más pequeño. Dos fallos en el mismo paso terminan esta parte.</li><li>Después vienen cuatro pares de melodías cortas. Di si cada par era igual o si cambió una nota.</li><li>Unos auriculares o una habitación tranquila ayudan con los pasos más pequeños.</li></ol>",

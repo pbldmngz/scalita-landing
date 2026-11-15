@@ -37,7 +37,7 @@
     "last": "{label}: {step}, {date}",
     "lastNone": "henüz adım yok",
     "again": "Tekrar dene",
-    "ctaBody": "Scalita'nın Entonasyon Çalışması duymayı söylemeye dönüştürür: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+    "ctaBody": "Scalita'daki Perde hedefleme ve Dinle & Tekrarla duymayı söylemeye dönüştürür: canlı bir perde izinde notaları tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
     "ctaButton": "Scalita'yı Google Play'den indir"
   },
   "next": {

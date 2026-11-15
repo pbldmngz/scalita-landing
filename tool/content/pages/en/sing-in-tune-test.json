@@ -7,7 +7,7 @@
   "lead": "The piano plays a note and stops. You sing it back, and the page shows how close you landed, in cents. Five notes make a round, and tuner mode shows your pitch while you sing anything you like.",
   "tile": "How close you land to a note you've just heard.",
   "oneLine": "Hear a note, sing it back, see how close you landed.",
-  "appBand": "Scalita's Accuracy Training goes further: match any note on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
+  "appBand": "Scalita's Pitch targeting and Listen & Repeat go further: match any note on a live pitch trail, or sing back leaps from songs, in your own range. Free on Android, no account.",
   "referenceHeading": "About the test",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>How to take the test</h2><ol><li>Choose your voice type, or use the range you found in the <a href=\"page:vocal-range-test\">vocal range test</a>, so every note sits where you can sing it.</li><li>Press Start and allow the microphone.</li><li>Listen to the note. When the piano stops, sing it back on an easy vowel and hold it.</li><li>The needle and the trail show how far above or below the note you are while you hold it.</li><li>After five notes, read your result.</li></ol><p>For the tuner, switch to tuner mode and sing. It shows the nearest note and how many cents you're from it, and no piano plays.</p>",

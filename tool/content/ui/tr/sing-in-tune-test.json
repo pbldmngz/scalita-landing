@@ -56,7 +56,7 @@
     "tooFew": "Mikrofon {total} notanın {judged} tanesini net duydu; ölçmek için bu çok az. Biraz daha yüksek sesle ya da mikrofona daha yakın tekrar dene. Mırıldanmak da olur.",
     "last": "{label}: {cents}, {date}",
     "again": "Bir tur daha",
-    "ctaBody": "Scalita'nın Entonasyon Çalışması bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
+    "ctaBody": "Scalita'daki Perde hedefleme ve Dinle & Tekrarla bir adım öteye gider: canlı bir perde izinde istediğin notayı tuttur ya da şarkılardan alınmış atlamaları geri söyle, hepsi kendi aralığında. Android'de ücretsiz, hesap yok.",
     "ctaButton": "Scalita'yı Google Play'den indir"
   },
   "next": {

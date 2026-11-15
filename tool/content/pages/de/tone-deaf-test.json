@@ -7,7 +7,7 @@
   "lead": "Zwei Klaviertöne erklingen, und du sagst, ob der zweite nach oben oder nach unten ging. Jeder Schritt, den du hörst, macht den nächsten kleiner, von einem Halbton bis hinunter zu 3 Cent. Vier kurze Melodien schließen den Test ab, und das Ergebnis ist der kleinste Schritt, den du gehört hast.",
   "tile": "Wie kleine Schritte zwischen zwei Tönen du noch hörst.",
   "oneLine": "Höher oder tiefer? Finde heraus, wie kleine Schritte du hörst.",
-  "appBand": "Einen Ton zu hören ist die erste Hälfte, ihn zu singen die zweite. Das Präzisionstraining in Scalita übt beides: Triff Töne mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
+  "appBand": "Einen Ton zu hören ist die erste Hälfte, ihn zu singen die zweite. „Ton treffen“ und „Hören & Nachsingen“ in Scalita üben beides: Triff Töne mit einer Tonspur in Echtzeit, oder sing Sprünge aus Liedern nach, in deinem eigenen Umfang. Kostenlos auf Android, ohne Konto.",
   "referenceHeading": "Über den Test",
   "toolId": "ear-test",
   "instructions": "<h2>So machst du den Test</h2><ol><li>Drück auf Start. Die Seite spielt nur Klavier, deshalb fragt sie nie nach dem Mikrofon.</li><li>Hör dir beide Töne an und wähl dann Tiefer oder Höher. Mit Erneut hören erklingt das Paar noch einmal.</li><li>Drei richtige Antworten bringen dich zu einem kleineren Schritt. Zwei falsche beim selben Schritt beenden diesen Teil.</li><li>Dann kommen vier Paare kurzer Melodien. Sag, ob jedes Paar gleich war oder ob sich ein Ton verändert hat.</li><li>Kopfhörer oder ein ruhiger Raum helfen bei den kleinsten Schritten.</li></ol>",

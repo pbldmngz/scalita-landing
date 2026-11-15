@@ -5,7 +5,7 @@
   "description": "Three routines from the Scalita app on a real piano, moved to your range: a quick warm-up for before you sing, a full warm-up and a cool-down.",
   "h1": "Vocal warm-ups",
   "lead": "Three routines from the Scalita app, played on a real piano in your range: a quick warm-up for right before you sing, a full warm-up, and a cool-down for after. Choose the voice type closest to yours, or set your own lowest and highest notes, and press play.",
-  "intro": "<p>Each routine here is the one in the app, step for step: the same patterns, syllables, tempos and order. What a video can't do is change key for you. Here the piano moves every pattern a half step at a time to fit the range you set, so you sing in your own voice instead of the voice of whoever recorded it.</p><p>Not sure which one fits today? Answer the two Find My Warmup questions on this page, the same ones the app asks. If you don't know your range yet, the <a href=\"page:vocal-range-test\">vocal range test</a> finds your lowest and highest notes.</p>",
+  "intro": "<p>Each routine here is the one in the app, step for step: the same patterns, syllables, tempos and order. What a video can't do is change key for you. Here the piano moves every pattern a half step at a time to fit the range you set, so you sing in your own voice instead of the voice of whoever recorded it.</p><p>Not sure which one fits today? Answer the two Find my warmup questions on this page, the same ones the app asks. If you don't know your range yet, the <a href=\"page:vocal-range-test\">vocal range test</a> finds your lowest and highest notes.</p>",
   "children": [
     "quick-vocal-warm-up",
     "full-vocal-warm-up",
@@ -16,7 +16,7 @@
   "sections": [
     {
       "heading": "Which one today?",
-      "html": "<p>Find My Warmup asks how your voice feels before it asks what you want to work on, and the first answer can overrule the second.</p><ul><li><em>Tired / strained</em> always leads to the <a href=\"page:vocal-cool-down\">cool-down</a>, played a little slower, whatever you wanted to work on.</li><li><em>Quick pre-show</em> leads to the <a href=\"page:quick-vocal-warm-up\">quick warm-up</a>, and <em>Just warm me up</em> to the <a href=\"page:full-vocal-warm-up\">full one</a>.</li><li><em>A bit off</em> slows any routine down a little, and the app holds back <em>Extend my range</em> and <em>Grit / screaming</em> for the day.</li><li><em>Ready to go</em> plays the routines a little faster.</li></ul>"
+      "html": "<p>Find my warmup asks how your voice feels before it asks what you want to work on, and the first answer can overrule the second.</p><ul><li><em>Tired / strained</em> always leads to the <a href=\"page:vocal-cool-down\">cool-down</a>, played a little slower, whatever you wanted to work on.</li><li><em>Quick pre-show</em> leads to the <a href=\"page:quick-vocal-warm-up\">quick warm-up</a>, and <em>Just warm me up</em> to the <a href=\"page:full-vocal-warm-up\">full one</a>.</li><li><em>A bit off</em> slows any routine down a little, and the app holds back <em>Extend my range</em> and <em>Grit / screaming</em> for the day.</li><li><em>Ready to go</em> plays the routines a little faster.</li></ul>"
     },
     {
       "heading": "How these warm-ups are built",

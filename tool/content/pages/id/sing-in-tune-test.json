@@ -7,7 +7,7 @@
   "lead": "Piano memainkan satu nada lalu berhenti. Kamu menyanyikannya kembali, dan halaman ini menunjukkan seberapa dekat kamu mendarat, dalam sen. Lima nada membentuk satu putaran, dan mode tuner menunjukkan nadamu selagi kamu menyanyikan apa saja.",
   "tile": "Seberapa dekat nyanyianmu dengan nada piano.",
   "oneLine": "Dengarkan satu nada, nyanyikan kembali, lihat selisihnya.",
-  "appBand": "Latihan Ketepatan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
+  "appBand": "Bidik nada dan Dengar & Tirukan di Scalita membawamu lebih jauh: cocokkan nada apa pun di jejak nada langsung, atau nyanyikan kembali lompatan nada dari lagu, di jangkauanmu sendiri. Gratis di Android, tanpa akun.",
   "referenceHeading": "Tentang tes ini",
   "toolId": "sing-in-tune-test",
   "instructions": "<h2>Cara mengikuti tes</h2><ol><li>Pilih jenis suaramu, atau pakai jangkauan yang kamu temukan di <a href=\"page:vocal-range-test\">tes range vokal</a>, supaya setiap nada berada di tempat yang bisa kamu nyanyikan.</li><li>Tekan Mulai dan izinkan mikrofon.</li><li>Dengarkan nadanya. Saat piano berhenti, nyanyikan kembali dengan vokal yang mudah, lalu tahan.</li><li>Jarum dan jejaknya menunjukkan seberapa jauh posisimu di atas atau di bawah nada itu selama kamu menahannya.</li><li>Setelah lima nada, baca hasilmu.</li></ol><p>Untuk tuner, pindah ke mode tuner lalu bernyanyilah. Tuner menunjukkan nada terdekat dan berapa sen jarakmu darinya, tanpa piano.</p>",

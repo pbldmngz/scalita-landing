@@ -56,7 +56,7 @@
     "tooFew": "El micrófono oyó con claridad {judged} de {total} notas, demasiado pocas para medir. Vuelve a intentarlo un poco más fuerte o más cerca del micrófono. Tararear también vale.",
     "last": "{label}: {cents}, el {date}",
     "again": "Otra ronda",
-    "ctaBody": "El Entrenamiento de precisión de Scalita va más allá: afina cualquier nota sobre un trazo de afinación en vivo, o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
+    "ctaBody": "La puntería de afinación y Escucha y repite de Scalita van más allá: afina cualquier nota sobre un trazo de afinación en vivo, o repite saltos sacados de canciones, en tu propio rango. Gratis en Android y sin cuenta.",
     "ctaButton": "Descarga Scalita en Google Play"
   },
   "next": {

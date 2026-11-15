@@ -7,7 +7,7 @@
   "lead": "Deux notes de piano sonnent, et tu dis si la deuxième est montée ou descendue. Chaque écart que tu entends rend le suivant plus petit, d'un demi-ton jusqu'à 3 cents. Quatre courtes mélodies terminent le test, et le résultat est le plus petit écart que tu as entendu.",
   "tile": "Le plus petit écart entre deux notes que tu entends.",
   "oneLine": "Plus haute ou plus basse ? Découvre le plus petit écart que tu entends.",
-  "appBand": "Entendre une note, c'est la première moitié, et la chanter, c'est la seconde. L'Entraînement de précision de Scalita travaille les deux : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+  "appBand": "Entendre une note, c'est la première moitié, et la chanter, c'est la seconde. Dans Scalita, la visée de justesse et « Écoute et répète » travaillent les deux : vise des notes sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
   "referenceHeading": "À propos du test",
   "toolId": "ear-test",
   "instructions": "<h2>Comment passer le test</h2><ol><li>Appuie sur Démarrer. La page ne fait que jouer du piano, donc elle ne demande jamais le micro.</li><li>Écoute les deux notes, puis choisis Plus basse ou Plus haute. Réécouter rejoue la paire.</li><li>Trois bonnes réponses te font passer à un écart plus petit. Deux erreurs au même écart terminent cette partie.</li><li>Viennent ensuite quatre paires de courtes mélodies. Dis si chaque paire était identique ou si une note a changé.</li><li>Un casque ou une pièce calme aident pour les plus petits écarts.</li></ol>",

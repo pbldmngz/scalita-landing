@@ -56,7 +56,7 @@
     "tooFew": "Le micro a entendu clairement {judged} notes sur {total}, c'est trop peu pour mesurer. Réessaie un peu plus fort ou plus près du micro. Fredonner marche aussi.",
     "last": "{label} : {cents}, {date}",
     "again": "Une autre série",
-    "ctaBody": "L'Entraînement de précision de Scalita va plus loin : vise n'importe quelle note sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
+    "ctaBody": "Dans Scalita, la visée de justesse et « Écoute et répète » vont plus loin : vise n'importe quelle note sur un tracé de justesse en direct, ou rechante des sauts tirés de chansons, dans ta propre tessiture. Gratuit sur Android, sans compte.",
     "ctaButton": "Télécharger Scalita sur Google Play"
   },
   "next": {
