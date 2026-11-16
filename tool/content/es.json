@@ -172,7 +172,8 @@
     "app": {
       "kicker": "La app, en tu teléfono",
       "title": "Lo que añade la app",
-      "lead": "Las herramientas funcionan en tu navegador. La app recuerda tu rango, toca cada ejercicio en tu tonalidad con un piano real y, con auriculares puestos, dibuja tu afinación mientras cantas y puntúa cada escala."
+      "lead": "Las herramientas funcionan en tu navegador. La app recuerda tu rango, toca cada ejercicio en tu tonalidad con un piano real y, con auriculares puestos, dibuja tu afinación mientras cantas y puntúa cada escala.",
+      "all": "Mira todo lo que hace la app"
     },
     "how": {
       "steps": [

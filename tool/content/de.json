@@ -172,7 +172,8 @@
     "app": {
       "kicker": "Die App, auf deinem Telefon",
       "title": "Was die App noch kann",
-      "lead": "Die Tools laufen in deinem Browser. Die App merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet sie deine Tonhöhe beim Singen mit und bewertet jede Tonleiter."
+      "lead": "Die Tools laufen in deinem Browser. Die App merkt sich deinen Umfang, spielt jede Übung auf einem echten Klavier in deiner Tonlage, und mit Kopfhörern zeichnet sie deine Tonhöhe beim Singen mit und bewertet jede Tonleiter.",
+      "all": "Alles ansehen, was die App kann"
     },
     "how": {
       "steps": [

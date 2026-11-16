@@ -1,0 +1,224 @@
+{
+  "slug": "features",
+  "label": "All features",
+  "title": "Scalita Features: Everything the Singing App Does",
+  "description": "Every feature of Scalita, the vocal warm-up app: scales and routines, lessons, plans, pitch scores, takes, tuner, drone, ear training. Free and Pro marked.",
+  "h1": "Everything Scalita does",
+  "lead": "Every feature of the app, grouped by what you would use it for, with a mark that says whether it is free or part of Scalita Pro.",
+  "marks": {
+    "free": "Free",
+    "pro": "Pro",
+    "both": "Free + Pro",
+    "legend": {
+      "free": "All of it is free to use, with no time limit.",
+      "both": "Part of it is free and part is Pro. The sentence says which.",
+      "pro": "Part of Scalita Pro, a one-time purchase."
+    }
+  },
+  "jumpLabel": "Feature groups",
+  "groups": [
+    {
+      "heading": "Warm up",
+      "lead": "Scales and routines on a real piano, moved key by key to fit your range.",
+      "alt": "The Routines screen: your plan, Adaptive Mode, Find my warmup and the built-in routines",
+      "items": [
+        {
+          "name": "Scales",
+          "body": "Sing along to 23 built-in scales, from major and minor to arpeggios, chromatic and Rossini patterns."
+        },
+        {
+          "name": "Routines",
+          "body": "Pick one of 12 built-in routines, from a gentle opener to a full workout, and each step shows its syllable, a technique tip and what to keep in mind throughout."
+        },
+        {
+          "name": "The scale player",
+          "body": "Take one scale key by key through your range, and set where it starts and stops, the tempo and the direction."
+        },
+        {
+          "name": "The routine player",
+          "body": "A routine plays its steps in order with a moment to breathe between them, and you can jump to any step."
+        },
+        {
+          "name": "Vocal range",
+          "body": "Set your lowest and highest note once, by singing them or by picking them, and every exercise stays inside your range."
+        },
+        {
+          "name": "Find my warmup",
+          "body": "Say how your voice feels today and what you want to work on, and it picks the routine and the tempo."
+        },
+        {
+          "name": "Adaptive Mode",
+          "body": "Say how each exercise went, and the next one adjusts."
+        },
+        {
+          "name": "Breathe between keys",
+          "body": "Add a few silent seconds before each new key, so you have time to breathe."
+        },
+        {
+          "name": "Lock screen controls",
+          "body": "Routines keep playing with the screen off, and with this setting on you can pause or skip from the lock screen."
+        },
+        {
+          "name": "Notation",
+          "body": "Read note names in solfège (Do Re Mi), letters (C D E), German names or numbers."
+        }
+      ]
+    },
+    {
+      "heading": "Learn",
+      "lead": "Short lessons that end with you singing, and plans that tell you what to practise next.",
+      "alt": "The Guides tab on the Path, with the first lessons done",
+      "items": [
+        {
+          "name": "Guides: the Path",
+          "body": "Follow 40 short lessons in order; nearly every one opens an exercise, and each lists its sources."
+        },
+        {
+          "name": "Guides: the Library",
+          "body": "Look up any of 86 entries about the voice, from breath and vibrato to distortion and whistle."
+        },
+        {
+          "name": "Training plans",
+          "body": "Pick one of seven ready-made plans and follow it from start to finish for free, one at a time. Building your own plan and keeping more than one paused plan are Pro."
+        },
+        {
+          "name": "Plan reminders",
+          "body": "Turn on reminders so the next session of your plan does not slip by."
+        },
+        {
+          "name": "Share plan",
+          "body": "Send a plan to a friend or a student as a file, and open the plans others send you."
+        }
+      ]
+    },
+    {
+      "heading": "See and hear your voice",
+      "lead": "What you actually sang, drawn, scored and recorded. The pitch line and the scores need earphones.",
+      "alt": "A routine playing with the pitch line drawn over the notes",
+      "items": [
+        {
+          "name": "Pitch monitor",
+          "body": "With earphones in, wired or Bluetooth, see your voice drawn live against every note."
+        },
+        {
+          "name": "Scores",
+          "body": "With earphones in, each scale ends with a score: how much landed in tune, how close the rest was and one thing to work on. Routines can score each step if you turn that on in Settings."
+        },
+        {
+          "name": "Your takes",
+          "body": "Turn on Record in a player and listen back as soon as you finish. Everyone keeps the latest take of each exercise; keeping the takes you choose, comparing before and after and exporting them as audio are Pro."
+        },
+        {
+          "name": "Spectrogram",
+          "body": "See the overtones in your voice live, for free. Holding 30 seconds still with a focus band is Pro."
+        },
+        {
+          "name": "Open a recording",
+          "body": "Open a voice memo or a song from your phone and listen to it for free. Seeing its notes and its spectrogram and turning it into a scale are Pro."
+        },
+        {
+          "name": "Know your note",
+          "body": "Find the places of your voice, then sing a line of your song and see where it sits. Free keeps one line with its latest try; Pro keeps every line you choose with every try."
+        },
+        {
+          "name": "Singer card",
+          "body": "See your range, your voice break and your practice days on one card you can share. The back of the card, with where your notes land across your range, is Pro and its scoring needs earphones."
+        },
+        {
+          "name": "Find your range",
+          "body": "Sing your lowest and highest note and Scalita sets your range, which you can share as a picture."
+        },
+        {
+          "name": "Find your voice break",
+          "body": "Sing along while the notes move through your voice and tap where it shifts, and Scalita keeps that spot for the exercises that work around it."
+        },
+        {
+          "name": "Extra registers",
+          "body": "Set a span for subharmonics, flageolet or whistle if you use them, each with a routine of its own."
+        },
+        {
+          "name": "Practice aimed at you, and your record",
+          "body": "See where you go off, your range tests over time and your ear drills by interval, and get a plan session aimed at the notes that were least often close. It reads what you sang with earphones in."
+        }
+      ]
+    },
+    {
+      "heading": "Tools",
+      "lead": "Two tools that need no earphones.",
+      "alt": "The Tuner reading a held note, with the trail of the pitch",
+      "items": [
+        {
+          "name": "Tuner",
+          "body": "Check the pitch of your voice, a whistle or an instrument and see a trail of where it went, with presets for voice, subharmonics, whistle, guitar, bass, ukulele, violin and cello."
+        },
+        {
+          "name": "Drone",
+          "body": "Sing against a steady note you can shape, and it keeps playing with the screen off. Every drone plays for free and you can save one; saving more is Pro."
+        }
+      ]
+    },
+    {
+      "heading": "Ear and games",
+      "lead": "Hear it, then sing it.",
+      "alt": "An ear training drill waiting for the singer to sing a step of the scale",
+      "items": [
+        {
+          "name": "Pitch targeting",
+          "body": "Tap a key, hear it and land on it."
+        },
+        {
+          "name": "Listen & Repeat",
+          "body": "The piano plays a short phrase, then waits while you sing it back; it works on the phone speaker too."
+        },
+        {
+          "name": "Ear training",
+          "body": "Hear intervals or short phrases and sing them back, and take an ear check. The two chord drills are Pro on their own, and free inside lessons and plans."
+        },
+        {
+          "name": "Harmony training",
+          "body": "Record one part, then sing the next over it, up to four parts. Saving one harmony is free; Pro saves as many as you make."
+        },
+        {
+          "name": "Humming Bird",
+          "body": "Play a precision game you steer by holding one note, on the phone speaker or with earphones."
+        }
+      ]
+    },
+    {
+      "heading": "Make your own",
+      "lead": "Your own exercises, built by tapping or by singing.",
+      "alt": "The scale editor: a name, the keys tapped in order and a preview",
+      "items": [
+        {
+          "name": "The scale editor",
+          "body": "Tap the keys in the order you will sing them, rests included. One scale of your own is free; Pro keeps every one you make and lets you edit the built-in scales."
+        },
+        {
+          "name": "The routine editor",
+          "body": "Put scales in the order you want, each step with its own syllable, tempo and style. One routine of your own is free; Pro keeps them all and lets you edit the built-in routines."
+        },
+        {
+          "name": "The scale detector",
+          "body": "Sing a scale or a short tune and Scalita writes down the notes it heard, ready to keep as a scale of your own."
+        },
+        {
+          "name": "Export and import",
+          "body": "Share your own scales and routines as a .scalita file, and import the ones others send you."
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "heading": "The basics",
+    "lead": "True of the whole app, free or Pro."
+  },
+  "proNote": {
+    "text": "Scalita Pro is one payment, not a subscription, bought inside the app through Google Play, which shows the price in your currency.",
+    "link": "See Free and Pro side by side"
+  },
+  "sections": [],
+  "faq": [],
+  "sources": [],
+  "reviewed": "2026-11-16",
+  "writtenAgainst": null
+}

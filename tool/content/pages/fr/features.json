@@ -1,0 +1,224 @@
+{
+  "slug": "fonctionnalites",
+  "label": "Toutes les fonctionnalités",
+  "title": "Fonctionnalités de Scalita : tout ce que fait l'appli de chant",
+  "description": "Toutes les fonctionnalités de Scalita, l'appli d'échauffement vocal : gammes, routines, leçons, plans, scores, accordeur et plus. Gratuit ou Pro, indiqué.",
+  "h1": "Tout ce que fait Scalita",
+  "lead": "Toutes les fonctionnalités de l'application, regroupées selon ce que tu veux en faire, avec une marque qui dit si chacune est gratuite ou fait partie de Scalita Pro.",
+  "marks": {
+    "free": "Gratuit",
+    "pro": "Pro",
+    "both": "Gratuit + Pro",
+    "legend": {
+      "free": "Tout est gratuit, sans limite de temps.",
+      "both": "Une partie est gratuite, une autre est Pro. La phrase dit laquelle.",
+      "pro": "Fait partie de Scalita Pro, qui se paie une seule fois."
+    }
+  },
+  "jumpLabel": "Groupes de fonctionnalités",
+  "groups": [
+    {
+      "heading": "Échauffe ta voix",
+      "lead": "Des gammes et des routines sur un vrai piano, déplacées ton par ton pour tenir dans ton étendue.",
+      "alt": "L'écran Routines : ton plan, le Mode adaptatif, Trouve mon échauffement et les routines incluses",
+      "items": [
+        {
+          "name": "Gammes",
+          "body": "Chante avec 23 gammes incluses, des majeures et mineures aux arpèges, à la chromatique et aux motifs Rossini."
+        },
+        {
+          "name": "Routines",
+          "body": "Choisis l'une des 12 routines incluses, du réveil en douceur à la séance complète, et chaque étape affiche sa syllabe, un conseil technique et ce qu'il faut garder en tête tout du long."
+        },
+        {
+          "name": "Le lecteur de gammes",
+          "body": "Emmène une gamme ton par ton sur toute ton étendue, et règle où elle commence et où elle s'arrête, le tempo et la direction."
+        },
+        {
+          "name": "Le lecteur de routines",
+          "body": "Une routine joue ses étapes dans l'ordre, avec un moment pour respirer entre elles, et tu peux passer à n'importe quelle étape."
+        },
+        {
+          "name": "Étendue vocale",
+          "body": "Règle une fois ta note la plus grave et ta note la plus aiguë, en les chantant ou en les choisissant, et chaque exercice reste dans ton étendue."
+        },
+        {
+          "name": "Trouve mon échauffement",
+          "body": "Dis comment va ta voix aujourd'hui et ce que tu veux travailler, et il choisit la routine et le tempo."
+        },
+        {
+          "name": "Mode adaptatif",
+          "body": "Dis comment s'est passé chaque exercice, et le suivant s'ajuste."
+        },
+        {
+          "name": "Respirer entre les tonalités",
+          "body": "Ajoute quelques secondes de silence avant chaque nouvelle tonalité, pour avoir le temps de respirer."
+        },
+        {
+          "name": "Commandes d’écran verrouillé",
+          "body": "Les routines continuent écran éteint, et avec ce réglage activé tu peux mettre en pause ou passer à la suite depuis l'écran verrouillé."
+        },
+        {
+          "name": "Notation",
+          "body": "Lis le nom des notes en solfège (Do Ré Mi), en lettres (C D E), en noms allemands ou en chiffres."
+        }
+      ]
+    },
+    {
+      "heading": "Apprends",
+      "lead": "Des leçons courtes qui finissent en chantant, et des plans qui te disent quoi travailler ensuite.",
+      "alt": "L'onglet Guides sur le Parcours, avec les premières leçons faites",
+      "items": [
+        {
+          "name": "Guides : le Parcours",
+          "body": "Suis 40 leçons courtes dans l'ordre ; presque toutes ouvrent un exercice, et chacune cite ses sources."
+        },
+        {
+          "name": "Guides : la Bibliothèque",
+          "body": "Consulte l'une des 86 fiches sur la voix, du souffle et du vibrato à la distorsion et au sifflet."
+        },
+        {
+          "name": "Plans d’entraînement",
+          "body": "Choisis l'un des sept plans tout prêts et suis-le gratuitement du début à la fin, un à la fois. Créer ton propre plan et garder plus d'un plan en pause, c'est Pro."
+        },
+        {
+          "name": "Rappels du plan",
+          "body": "Active les rappels pour ne pas laisser passer la prochaine séance de ton plan."
+        },
+        {
+          "name": "Partager le plan",
+          "body": "Envoie un plan à un ami ou à un élève sous forme de fichier, et ouvre les plans qu'on t'envoie."
+        }
+      ]
+    },
+    {
+      "heading": "Vois et écoute ta voix",
+      "lead": "Ce que tu as vraiment chanté, dessiné, noté et enregistré. Le tracé de justesse et les scores demandent des écouteurs.",
+      "alt": "Une routine en cours avec le tracé de justesse dessiné sur les notes",
+      "items": [
+        {
+          "name": "Moniteur de justesse",
+          "body": "Avec des écouteurs, filaires ou Bluetooth, vois ta voix se dessiner en direct face à chaque note."
+        },
+        {
+          "name": "Scores",
+          "body": "Avec des écouteurs, chaque gamme se termine par un score : ce qui est tombé juste, l'écart du reste et une chose à travailler. Les routines peuvent noter chaque étape si tu l'actives dans les Réglages."
+        },
+        {
+          "name": "Tes prises",
+          "body": "Active Enregistrer dans un lecteur et écoute-toi dès que tu as fini. Tout le monde garde la dernière prise de chaque exercice ; garder les prises que tu choisis, comparer l'avant et l'après et les exporter en audio, c'est Pro."
+        },
+        {
+          "name": "Spectrogramme",
+          "body": "Vois les harmoniques de ta voix en direct, gratuitement. Figer 30 secondes avec une bande de focus, c'est Pro."
+        },
+        {
+          "name": "Ouvrir un enregistrement",
+          "body": "Ouvre un mémo vocal ou une chanson de ton téléphone et écoute-le gratuitement. Voir ses notes et son spectrogramme et en tirer une gamme, c'est Pro."
+        },
+        {
+          "name": "Connais ta note",
+          "body": "Trouve les repères de ta voix, puis chante une phrase de ta chanson et vois où elle se situe. La version gratuite garde une phrase avec son dernier essai ; Pro garde chaque phrase que tu choisis, avec chaque essai."
+        },
+        {
+          "name": "Carte vocale",
+          "body": "Vois ton étendue, ton passage de voix et tes jours de pratique sur une carte que tu peux partager. Le dos de la carte, avec l'endroit où tombent tes notes sur ton étendue, est Pro et sa mesure demande des écouteurs."
+        },
+        {
+          "name": "Trouve ton étendue",
+          "body": "Chante ta note la plus grave et ta note la plus aiguë et Scalita règle ton étendue, que tu peux partager en image."
+        },
+        {
+          "name": "Trouve ton passage de voix",
+          "body": "Chante pendant que les notes parcourent ta voix et touche l'écran là où elle change, et Scalita garde cet endroit pour les exercices qui tournent autour."
+        },
+        {
+          "name": "Registres en plus",
+          "body": "Définis l'étendue des subharmoniques, du flageolet ou du sifflet si tu les utilises, chacun avec sa propre routine."
+        },
+        {
+          "name": "Une pratique ciblée pour toi, et ton historique",
+          "body": "Vois où tu t'écartes, tes tests d'étendue au fil du temps et tes exercices d'oreille par intervalle, et reçois une séance du plan qui vise les notes le moins souvent proches. Elle lit ce que tu as chanté avec des écouteurs."
+        }
+      ]
+    },
+    {
+      "heading": "Outils",
+      "lead": "Deux outils qui se passent d'écouteurs.",
+      "alt": "L'Accordeur qui lit une note tenue, avec la trace de la hauteur",
+      "items": [
+        {
+          "name": "Accordeur",
+          "body": "Vérifie la hauteur de ta voix, d'un sifflement ou d'un instrument et vois la trace du chemin de la note, avec des préréglages pour voix, subharmoniques, sifflement, guitare, basse, ukulélé, violon et violoncelle."
+        },
+        {
+          "name": "Bourdon",
+          "body": "Chante sur un son tenu que tu façonnes à ton goût et qui continue écran éteint. Tous les bourdons jouent gratuitement et tu peux en garder un ; en garder plus, c'est Pro."
+        }
+      ]
+    },
+    {
+      "heading": "Oreille et jeux",
+      "lead": "Tu l'entends, puis tu le chantes.",
+      "alt": "Un exercice d'entraînement de l'oreille qui attend que tu chantes un degré de la gamme",
+      "items": [
+        {
+          "name": "Visée de justesse",
+          "body": "Touche une note, écoute-la et pose ta voix dessus."
+        },
+        {
+          "name": "Écoute et répète",
+          "body": "Le piano joue une courte phrase, puis attend que tu la rechantes ; ça marche aussi sur le haut-parleur du téléphone."
+        },
+        {
+          "name": "Entraînement de l'oreille",
+          "body": "Écoute des intervalles ou de courtes phrases et rechante-les, et passe un test d'oreille. Les deux exercices sur accords sont Pro en solo, et gratuits dans les leçons et les plans."
+        },
+        {
+          "name": "Entraînement aux harmonies",
+          "body": "Enregistre une voix, puis chante la suivante par-dessus, jusqu'à quatre voix. Garder une harmonie est gratuit ; Pro garde toutes celles que tu fais."
+        },
+        {
+          "name": "Humming Bird",
+          "body": "Joue à un jeu de précision que tu guides en tenant une seule note, sur le haut-parleur du téléphone ou avec des écouteurs."
+        }
+      ]
+    },
+    {
+      "heading": "À ta façon",
+      "lead": "Tes propres exercices, créés en touchant les notes ou en chantant.",
+      "alt": "L'éditeur de gammes : un nom, les notes touchées dans l'ordre et un aperçu",
+      "items": [
+        {
+          "name": "L'éditeur de gammes",
+          "body": "Touche les notes dans l'ordre où tu vas les chanter, silences compris. Une gamme perso est gratuite ; Pro garde toutes celles que tu crées et te laisse modifier les gammes incluses."
+        },
+        {
+          "name": "L'éditeur de routines",
+          "body": "Place des gammes dans l'ordre que tu veux, chaque étape avec sa syllabe, son tempo et son style. Une routine perso est gratuite ; Pro les garde toutes et te laisse modifier les routines incluses."
+        },
+        {
+          "name": "Le détecteur de gammes",
+          "body": "Chante une gamme ou un petit air et Scalita note les notes qu'il a entendues, prêtes à garder comme ta propre gamme."
+        },
+        {
+          "name": "Exporter et importer",
+          "body": "Partage tes gammes et tes routines dans un fichier .scalita, et importe celles qu'on t'envoie."
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "heading": "L'essentiel",
+    "lead": "Vrai pour toute l'application, en gratuit comme en Pro."
+  },
+  "proNote": {
+    "text": "Scalita Pro, c'est un seul paiement, pas un abonnement, à faire dans l'application via Google Play, qui affiche le prix dans ta monnaie.",
+    "link": "Comparer Gratuit et Pro"
+  },
+  "sections": [],
+  "faq": [],
+  "sources": [],
+  "reviewed": "2026-11-16",
+  "writtenAgainst": null
+}

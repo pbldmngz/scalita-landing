@@ -155,3 +155,10 @@
 /tr/rehber/detone-olmadan-sarki-soylemek/ how-to-sing-in-tune tr
 /id/alat/tes-buta-nada/ tone-deaf-test id
 /id/panduan/cara-bernyanyi-tidak-fals/ how-to-sing-in-tune id
+/features/ features en
+/es/funciones/ features es
+/fr/fonctionnalites/ features fr
+/pt/recursos/ features pt
+/de/funktionen/ features de
+/tr/ozellikler/ features tr
+/id/fitur/ features id

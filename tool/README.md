@@ -62,8 +62,9 @@ What a full build writes:
 | | |
 |---|---|
 | `index.html`, `privacy.html`, `terms.html`, `support.html`, and the same in `es/ fr/ pt/ de/ tr/ id/` | the four legacy pages, at their old `.html` URLs |
+| `features/`, `<loc>/<slug>/` | the features page, a page of the site itself (section `site`) |
 | `tools/`, `tools/<slug>/`, `guides/<slug>/`, and `<loc>/<section word>/...` | every other page, one directory each (`index.html` inside, never linked) |
-| `sitemap.xml` | an index of `sitemap-core.xml` (legacy), `sitemap-tools.xml`, `sitemap-guides.xml` |
+| `sitemap.xml` | an index of `sitemap-core.xml` (legacy and `site`), `sitemap-tools.xml`, `sitemap-guides.xml` |
 | `404.html` | one line in each language, with each language's home and section homes |
 | stubs | a redirect page at every published URL whose page moved (see "URLs") |
 | `robots.txt`, `.nojekyll` | `Disallow: /tool/`; no Jekyll, so `tool/` is not rendered as a page |
@@ -128,7 +129,7 @@ replaces it; `check.py` lists the ones still in English):
 | `cta.iphone`, `cta.comingSoon`, `cta.iphoneLabel` | beside every Google Play link, the iPhone, visibly unavailable: "iPhone · Coming soon", and the sentence a screen reader hears on the home |
 | `nav.home`, `nav.siteLabel`, `nav.toolsLabel`, `nav.getApp`, `nav.closeMenu`, `nav.toolsHint`, `nav.guidesHint`, `nav.tabLabels.<tool id>` | the two navigations: Home, their labels, Get the app, the phone menu's close label and its hints (`{n}` guides), the short names of the tab bar and of the desktop switcher where the full ones do not fit on one row |
 | `nav.fullscreen`, `nav.fullscreenHint`, `nav.exitFullscreen` | the full screen control and its exit |
-| `index.*` | the home (`tool/templates/home.py` reads them; its docstring lists the keys) |
+| `index.*` | the home (`tool/templates/home.py` reads them; its docstring lists the keys). `index.app.all` is the link to the features page |
 | `credit.piano` | the Salamander CC BY 3.0 credit (HTML: it links the licence) |
 | `byline.name`, `byline.line` | the author and his one line |
 | `notFound.line`, `notFound.homes` | the 404 page's line, and its link to the home page |
@@ -163,6 +164,7 @@ Per template:
 | `concept` | `shortAnswer`, `listenFor`, `misconceptions`, `seeProfessional` (HTML) |
 | `skill` | `shortAnswer`, `troubleshooting` (HTML) |
 | `library` | none beyond the common ones |
+| `features` | `marks` (`free`, `pro`, `both`, and `legend` with a line for each), `jumpLabel`, `groups` (each `heading`, `lead`, `alt` and `items` of `{name, body}`), `basics` (`heading`, `lead`), `proNote` (`text`, `link`). Which feature is Free, Pro or both is not copy: it is `GROUPS` in `tool/templates/features.py`, read from the app's gates, and a locale whose lists do not match it fails the build. A feature's name is the app's own in that language (the ARB) |
 
 `routineId`, `scaleId`, `toolId`, `children`, `syllables`, `writtenAgainst` and
 the source URLs are the same in every locale and match the registry's `data`.
@@ -220,9 +222,12 @@ A list, in the order the footer, sitemaps and builds use:
 ```
 
 - `id`: the English slug, also the `utm_campaign` of the page's Play links.
-- `section`: `tools`, `guides` or `legacy` (the four old pages: template
+- `section`: `tools`, `guides`, `legacy` (the four old pages: template
   `legacy-home` is `tool/templates/home.py`, `legacy-text` is built inside
-  `build.py`).
+  `build.py`) or `site` (a page of the site itself beside the home, at
+  `<locale>/<slug>/` with no section word: the features page. The landing
+  footer lists these under Product, the home links `features` from What the
+  app adds, and they go in `sitemap-core.xml`).
 - `template`: a module in `tool/templates/`.
 - `data`: `{toolId}`, `{routineId}` or `{scaleId}`, or `{}`.
 - `hub`: a hub page (no Article markup, cards for its children).
@@ -247,6 +252,7 @@ range or phrasing.
 |---|---|---|
 | legacy | `/privacy.html` | `/es/privacy.html` |
 | section root | `/tools/` | `/es/herramientas/` |
+| section `site` | `/features/` | `/es/funciones/` |
 | any other | `/guides/lip-trills/` | `/es/guias/vibracion-de-labios/` |
 
 Every canonical, internal link, hreflang and sitemap entry uses exactly that

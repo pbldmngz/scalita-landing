@@ -100,7 +100,7 @@ THEME = "#1E2628"
 # Each file's own budget, gzipped KB (docs/specs/site-redesign-spec.md, section 6)
 FILE_BUDGETS = {"css/style.css": 11, "css/chrome.css": 4, "css/home.css": 4, "css/hub.css": 2, "css/tool.css": 2,
                 "css/tool-range.css": 1.5, "css/tool-tune.css": 1.5, "css/tool-ear.css": 1.5, "css/tool-player.css": 1.5,
-                "css/guides.css": 2,
+                "css/guides.css": 2, "css/features.css": 2,
                 "js/site/chrome.js": 2}
 GROUPS = ("pages", "links", "notfound", "langbar", "chrome", "decode", "range", "ear", "tune", "player", "finder", "locales",
           "firefox", "webkit")

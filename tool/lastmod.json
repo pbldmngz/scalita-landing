@@ -1,13 +1,18 @@
 {
   "https://scalita.com/": {
-    "hash": "e01a7d54ed953c59",
-    "lastmod": "2026-11-15",
+    "hash": "7e71e321e00c7250",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
   },
   "https://scalita.com/de/": {
-    "hash": "43e63782fd6cf96b",
-    "lastmod": "2026-11-15",
+    "hash": "f017a284976f77fd",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
+  },
+  "https://scalita.com/de/funktionen/": {
+    "hash": "32ee32736b9798e3",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
   },
   "https://scalita.com/de/privacy.html": {
     "hash": "52f73fc1c9faca5e",
@@ -110,9 +115,14 @@
     "since": "2026-11-08"
   },
   "https://scalita.com/es/": {
-    "hash": "5d804656da621195",
-    "lastmod": "2026-11-15",
+    "hash": "1f1715bacffb507e",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
+  },
+  "https://scalita.com/es/funciones/": {
+    "hash": "d7172b89b6692800",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
   },
   "https://scalita.com/es/guias/calentamiento-vocal-antes-de-cantar/": {
     "hash": "b7eb63593fb607e4",
@@ -214,10 +224,20 @@
     "lastmod": "2026-11-15",
     "since": "2026-10-18"
   },
+  "https://scalita.com/features/": {
+    "hash": "82aa38efe81fcba9",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
+  },
   "https://scalita.com/fr/": {
-    "hash": "2724b1e9671f79d3",
-    "lastmod": "2026-11-15",
+    "hash": "1f09ac3ec876c0ba",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
+  },
+  "https://scalita.com/fr/fonctionnalites/": {
+    "hash": "76d482cb95177181",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
   },
   "https://scalita.com/fr/guides/comment-chanter-juste/": {
     "hash": "404576be70bf4736",
@@ -375,8 +395,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/id/": {
-    "hash": "8884c10b90a1fb68",
-    "lastmod": "2026-11-15",
+    "hash": "790162dd05c96b3b",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
   },
   "https://scalita.com/id/alat/": {
@@ -408,6 +428,11 @@
     "hash": "3324c8d49dcd378e",
     "lastmod": "2026-11-11",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/id/fitur/": {
+    "hash": "f9598a2aa84ef88a",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
   },
   "https://scalita.com/id/panduan/cara-bernyanyi-tidak-fals/": {
     "hash": "b37d99a9a39d19c9",
@@ -485,8 +510,8 @@
     "since": "2026-09-28"
   },
   "https://scalita.com/pt/": {
-    "hash": "2788753761e20cb2",
-    "lastmod": "2026-11-15",
+    "hash": "c1519a73a680e230",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
   },
   "https://scalita.com/pt/ferramentas/": {
@@ -579,6 +604,11 @@
     "lastmod": "2026-11-15",
     "since": "2026-09-28"
   },
+  "https://scalita.com/pt/recursos/": {
+    "hash": "891c04484676852f",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
+  },
   "https://scalita.com/pt/support.html": {
     "hash": "07ac8ebecf8c4c73",
     "lastmod": "2026-11-15",
@@ -630,8 +660,8 @@
     "since": "2026-10-22"
   },
   "https://scalita.com/tr/": {
-    "hash": "c93d3b49c197eae0",
-    "lastmod": "2026-11-15",
+    "hash": "62d536543f48bb34",
+    "lastmod": "2026-11-16",
     "since": "2026-09-28"
   },
   "https://scalita.com/tr/araclar/": {
@@ -663,6 +693,11 @@
     "hash": "dd4a04f99becf260",
     "lastmod": "2026-11-08",
     "since": "2026-10-22"
+  },
+  "https://scalita.com/tr/ozellikler/": {
+    "hash": "a43bc6795be0e36f",
+    "lastmod": "2026-11-16",
+    "since": "2026-11-16"
   },
   "https://scalita.com/tr/privacy.html": {
     "hash": "757ea3a7ca0dd1c1",

@@ -172,7 +172,8 @@
     "app": {
       "kicker": "L'application, sur ton téléphone",
       "title": "Ce que l'application apporte en plus",
-      "lead": "Les outils tournent dans ton navigateur. L'application retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme."
+      "lead": "Les outils tournent dans ton navigateur. L'application retient ta tessiture, joue chaque exercice sur un vrai piano dans ta tonalité et, avec des écouteurs, trace ta justesse pendant que tu chantes et donne un score à chaque gamme.",
+      "all": "Voir tout ce que fait l'application"
     },
     "how": {
       "steps": [

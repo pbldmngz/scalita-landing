@@ -282,3 +282,8 @@ h1.home-hero__title { margin: 20px 0 16px; font-size: 56px; font-weight: 300; li
 @media (prefers-reduced-motion: reduce) {
   .home-card, .home-phone__shot, .home-phone__cap, .home-phone__dot::before { transition: none; }
 }
+
+/* the one link to the features page, under the three steps */
+.home-app__all { margin: -8px 0 20px; font-size: 14px; }
+.home-app__all a { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; font-weight: 500; color: var(--glow); }
+.home-app__all a:hover { color: var(--cream); }

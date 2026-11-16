@@ -1,0 +1,68 @@
+/* The features page, tool/templates/features.py (its docstring has the
+   layout). style.css skins the type and the tokens; this file places them. */
+
+.ft { padding-bottom: 72px; }
+.ft-head { max-width: 760px; padding-top: 12px; }
+.ft-head h1 { margin: 0 0 12px; }
+.ft-head .lead { margin-bottom: 20px; color: var(--soft); }
+
+.ft-legend { display: grid; gap: 8px; margin: 0 0 24px; padding: 0; list-style: none; font-size: 14px; line-height: 1.5; color: var(--soft); }
+.ft-legend li { display: flex; align-items: baseline; gap: 10px; }
+.ft-legend .ft-mark { min-width: 0; }
+
+.ft-jump ul { display: flex; flex-wrap: wrap; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.ft-jump__link { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border: 1px solid var(--mist); border-radius: var(--r-pill); font-size: 13px; color: var(--glow); }
+.ft-jump__link:hover { border-color: var(--ocean); color: var(--cream); }
+
+.ft-mark { flex: none; padding: 4px 8px; border-radius: var(--r-pill); font-size: 11px; font-weight: 500; line-height: 1.2; letter-spacing: .08em; text-transform: uppercase; white-space: nowrap; }
+.ft-mark--free { background: rgba(90, 159, 163, .2); color: var(--glow); }
+.ft-mark--pro { background: rgba(196, 168, 122, .18); color: var(--sand); }
+.ft-mark--both { background: linear-gradient(90deg, rgba(90, 159, 163, .2), rgba(196, 168, 122, .18)); color: var(--cream); }
+
+.ft-group { display: grid; grid-template-columns: minmax(0, 1fr) 220px; gap: 20px 48px; align-items: start; margin-top: 72px; scroll-margin-top: 24px; }
+.ft-group__head { grid-column: 1; }
+.ft-group__head h2 { margin: 0 0 6px; font-size: 28px; font-weight: 300; line-height: 1.2; letter-spacing: -.02em; }
+.ft-group__head p { margin: 0; max-width: 620px; font-size: 15px; line-height: 1.6; color: var(--soft); }
+.ft-list { grid-column: 1; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.ft-item { padding: 16px 18px; border: 1px solid var(--mist); border-radius: var(--r); background: var(--surface); }
+.ft-item__top { display: flex; align-items: flex-start; justify-content: space-between; gap: 10px; margin-bottom: 6px; }
+.ft-item h3 { margin: 0; min-width: 0; font-size: 16px; font-weight: 500; line-height: 1.35; overflow-wrap: anywhere; }
+.ft-item p { margin: 0; font-size: 14px; line-height: 1.55; color: var(--soft); }
+
+.ft-shot { grid-column: 2; grid-row: 1 / span 2; margin: 0; padding: 8px; border: 1px solid var(--mist); border-radius: 28px; background: var(--base); box-shadow: var(--lift-phone); }
+.ft-shot img { display: block; width: 100%; height: auto; border-radius: 20px; }
+
+.ft-group--basics { grid-template-columns: minmax(0, 1fr); }
+.ft-basics { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 0; padding: 0; list-style: none; }
+.ft-basic { display: flex; gap: 12px; padding: 16px 18px; border: 1px solid var(--mist); border-radius: var(--r); background: var(--surface); }
+.ft-basic svg { flex: none; margin-top: 2px; color: var(--seafoam); }
+.ft-basic h3 { margin: 0 0 4px; font-size: 15px; font-weight: 500; line-height: 1.35; }
+.ft-basic p { margin: 0; font-size: 13px; line-height: 1.5; color: var(--soft); }
+
+.ft-pro { max-width: 760px; margin: 48px 0 0; font-size: 15px; line-height: 1.6; color: var(--soft); }
+.ft-pro a { color: var(--glow); }
+.ft-pro a:hover { color: var(--cream); }
+.ft > .band { margin-top: 48px; }
+
+@media (max-width: 959.98px) {
+  .ft-list { grid-template-columns: minmax(0, 1fr); }
+  .ft-basics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ft-group { grid-template-columns: minmax(0, 1fr) 200px; gap: 20px 32px; }
+}
+
+/* A phone: the screenshot becomes a short strip above the list, the top of
+   the screen showing, so six pictures do not turn into six screens of scroll. */
+@media (max-width: 599.98px) {
+  .ft { padding-bottom: 48px; }
+  .ft-group { display: block; margin-top: 48px; scroll-margin-top: 32px; }
+  .ft-group__head { margin-bottom: 16px; }
+  .ft-group__head h2 { font-size: 24px; }
+  .ft-shot { width: 220px; height: 240px; margin: 0 auto 16px; padding: 8px 8px 0; overflow: hidden; border-bottom: 0; border-radius: 28px 28px 0 0; box-shadow: none; }
+  .ft-shot img { border-radius: 20px 20px 0 0; }
+  .ft-basics { grid-template-columns: minmax(0, 1fr); }
+  .ft-pro { margin-top: 32px; }
+  .ft > .band { margin-top: 32px; }
+}
+
+/* the breadcrumb lines up with the page, which is wider than a guide's text */
+.ft-wrap > .breadcrumb ol { max-width: none; }

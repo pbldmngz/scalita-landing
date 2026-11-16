@@ -386,8 +386,10 @@ def footer(loc, page, c):
                        for href, label, attrs in links)
         return "          <h2>%s</h2>\n          <ul>\n%s\n          </ul>" % (B.esc(heading), li)
 
-    cols = [column(f["productHeading"], [(anchor("features"), n["features"], ""), (anchor("pricing"), n["pricing"], ""),
-                                         (anchor("download"), n["download"], "")])]
+    # the site's own pages (the features page) follow the home's anchors
+    top = [(B.url(p, code), B.page_label(p, code), "") for p in B.section_pages(B.TOP, code)]
+    cols = [column(f["productHeading"], [(anchor("features"), n["features"], "")] + top +
+                   [(anchor("pricing"), n["pricing"], ""), (anchor("download"), n["download"], "")])]
     for section, heading in zip(B.SECTIONS, (f["toolsHeading"], f["guidesHeading"])):
         pages = B.section_pages(section, code)
         if pages:

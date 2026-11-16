@@ -2,7 +2,8 @@
 (scalita_app docs/design/scalita-site-redesign/C-home-*.dc.html, section 3.13
 of docs/specs/site-redesign-spec.md), app first: the hero beside a phone that
 cycles through the app's screens (the pre-redesign carousel), then the
-free web tools, what the app adds (three steps and the catalog), what you can
+free web tools, what the app adds (three steps, the link to the features
+page and the catalog), what you can
 count on (with the piano chord and its credit), Free and Pro with Pro's base
 price, and the final call. The tools live on their own pages: the home only links
 them, and loads no tool script.
@@ -289,13 +290,18 @@ def app(ctx, i):
         </li>""" % (n + 1, esc(s["title"]), esc(s["body"])) for n, s in enumerate(i["how"]["steps"]))
     # The steps' numbers are drawn, so the list says its order itself:
     # role="list", since Safari stops calling a list without bullets a list.
+    # the one link to the features page, which lists everything the app does
+    more = ""
+    if ctx.has("features"):
+        more = '\n      <p class="home-app__all"><a href="%s">%s%s</a></p>' % (
+            ctx.url("features"), esc(i["app"]["all"]), icon("chevron-right", 16))
     return """  <section class="home-app" id="features" aria-labelledby="home-app-h">
       %s
       <ol class="home-steps" role="list">
 %s
-      </ol>
+      </ol>%s
 %s
-    </section>""" % (head_row(ctx, i["app"], "home-app-h", "iphone"), steps, catalog(ctx, i))
+    </section>""" % (head_row(ctx, i["app"], "home-app-h", "iphone"), steps, more, catalog(ctx, i))
 
 
 def catalog(ctx, i):

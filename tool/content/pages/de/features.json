@@ -1,0 +1,224 @@
+{
+  "slug": "funktionen",
+  "label": "Alle Funktionen",
+  "title": "Scalita Funktionen: alles, was die Gesangs-App kann",
+  "description": "Alle Funktionen von Scalita, der App zum Einsingen: Tonleitern, Routinen, Lektionen, Pläne, Wertungen, Stimmgerät und mehr. Kostenlos oder Pro, markiert.",
+  "h1": "Alles, was Scalita kann",
+  "lead": "Alle Funktionen der App, sortiert danach, wofür du sie brauchst, und mit einer Marke, die sagt, ob sie kostenlos ist oder zu Scalita Pro gehört.",
+  "marks": {
+    "free": "Kostenlos",
+    "pro": "Pro",
+    "both": "Kostenlos + Pro",
+    "legend": {
+      "free": "Alles daran ist kostenlos, ohne Zeitlimit.",
+      "both": "Ein Teil ist kostenlos, ein Teil ist Pro. Der Satz sagt, welcher.",
+      "pro": "Gehört zu Scalita Pro, das du einmal zahlst."
+    }
+  },
+  "jumpLabel": "Funktionsgruppen",
+  "groups": [
+    {
+      "heading": "Einsingen",
+      "lead": "Tonleitern und Routinen am echten Klavier, Tonart für Tonart in deinen Umfang gelegt.",
+      "alt": "Der Bildschirm Routinen: dein Plan, der Adaptive Modus, Einsingen finden und die Standard-Routinen",
+      "items": [
+        {
+          "name": "Tonleitern",
+          "body": "Sing zu 23 Standard-Tonleitern, von Dur und Moll bis zu Arpeggien, Chromatik und Rossini-Figuren."
+        },
+        {
+          "name": "Routinen",
+          "body": "Wähl eine der 12 Standard-Routinen, vom sanften Einstieg bis zum kompletten Stimmtraining, und jeder Schritt zeigt seine Silbe, einen Technikhinweis und worauf du die ganze Routine über achtest."
+        },
+        {
+          "name": "Der Tonleiter-Player",
+          "body": "Sing eine Tonleiter Tonart für Tonart durch deinen Umfang und stell ein, wo sie beginnt und endet, das Tempo und die Richtung."
+        },
+        {
+          "name": "Der Routinen-Player",
+          "body": "Eine Routine spielt ihre Schritte der Reihe nach, mit einem Moment zum Atmen dazwischen, und du kannst zu jedem Schritt springen."
+        },
+        {
+          "name": "Stimmumfang",
+          "body": "Stell einmal deinen tiefsten und höchsten Ton ein, gesungen oder ausgewählt, und jede Übung bleibt in deinem Umfang."
+        },
+        {
+          "name": "Einsingen finden",
+          "body": "Sag, wie sich deine Stimme heute anfühlt und woran du arbeiten willst, und es wählt die Routine und das Tempo."
+        },
+        {
+          "name": "Adaptiver Modus",
+          "body": "Sag nach jeder Übung, wie sie lief, und die nächste passt sich an."
+        },
+        {
+          "name": "Atmen zwischen Tonarten",
+          "body": "Leg ein paar stille Sekunden vor jede neue Tonart, damit du Zeit zum Atmen hast."
+        },
+        {
+          "name": "Sperrbildschirm-Steuerung",
+          "body": "Routinen spielen bei ausgeschaltetem Bildschirm weiter, und mit dieser Einstellung pausierst oder überspringst du vom Sperrbildschirm aus."
+        },
+        {
+          "name": "Notation",
+          "body": "Lies Notennamen als Solmisation (Do Re Mi), englische Buchstaben (C D E), deutsche Notennamen oder Ziffern."
+        }
+      ]
+    },
+    {
+      "heading": "Lernen",
+      "lead": "Kurze Lektionen, die damit enden, dass du singst, und Pläne, die dir sagen, was du als Nächstes übst.",
+      "alt": "Der Tab Ratgeber auf dem Lernpfad, die ersten Lektionen sind erledigt",
+      "items": [
+        {
+          "name": "Ratgeber: der Lernpfad",
+          "body": "Geh 40 kurze Lektionen der Reihe nach durch; fast jede öffnet eine Übung, und jede nennt ihre Quellen."
+        },
+        {
+          "name": "Ratgeber: die Bibliothek",
+          "body": "Schlag in 86 Einträgen über die Stimme nach, von Atem und Vibrato bis zu Verzerrung und Pfeifstimme."
+        },
+        {
+          "name": "Trainingspläne",
+          "body": "Wähl einen der sieben fertigen Pläne und geh ihn kostenlos von Anfang bis Ende durch, jeweils einen. Einen eigenen Plan bauen und mehr als einen pausierten Plan behalten ist Pro."
+        },
+        {
+          "name": "Plan-Erinnerungen",
+          "body": "Schalte Erinnerungen ein, damit du die nächste Session deines Plans nicht verpasst."
+        },
+        {
+          "name": "Plan teilen",
+          "body": "Schick einen Plan als Datei an Freunde oder Schüler, und öffne Pläne, die du bekommst."
+        }
+      ]
+    },
+    {
+      "heading": "Deine Stimme sehen und hören",
+      "lead": "Was du wirklich gesungen hast, gezeichnet, bewertet und aufgenommen. Die Tonhöhenlinie und die Wertungen brauchen Kopfhörer.",
+      "alt": "Eine laufende Routine mit der Tonhöhenlinie über den Tönen",
+      "items": [
+        {
+          "name": "Tonanzeige",
+          "body": "Mit Kopfhörern, per Kabel oder Bluetooth, siehst du deine Stimme live über jeden Ton gezeichnet."
+        },
+        {
+          "name": "Wertungen",
+          "body": "Mit Kopfhörern endet jede Tonleiter mit einer Wertung: wie viel sauber saß, wie nah der Rest war, und eine Sache zum Üben. Routinen werten jeden Schritt, wenn du das in den Einstellungen einschaltest."
+        },
+        {
+          "name": "Deine Aufnahmen",
+          "body": "Schalte Aufnehmen in einem Player ein und hör dich gleich danach an. Allen bleibt die letzte Aufnahme jeder Übung; Aufnahmen nach Wahl behalten, Vorher und Nachher vergleichen und als Audio exportieren ist Pro."
+        },
+        {
+          "name": "Spektrogramm",
+          "body": "Sieh die Obertöne deiner Stimme live, kostenlos. 30 Sekunden festhalten, mit Fokusband, ist Pro."
+        },
+        {
+          "name": "Aufnahme öffnen",
+          "body": "Öffne eine Sprachnotiz oder einen Song vom Handy und hör sie dir kostenlos an. Ihre Töne und ihr Spektrogramm sehen und eine Tonleiter daraus machen ist Pro."
+        },
+        {
+          "name": "Kenne deinen Ton",
+          "body": "Finde die Eckpunkte deiner Stimme, sing dann eine Zeile deines Lieds und sieh, wo sie liegt. Kostenlos behältst du eine Zeile mit ihrem letzten Versuch; Pro behält jede Zeile, die du wählst, mit jedem Versuch."
+        },
+        {
+          "name": "Stimmkarte",
+          "body": "Sieh deinen Umfang, deinen Registerbruch und deine Übungstage auf einer Karte, die du teilen kannst. Die Rückseite zeigt, wo deine Töne in deinem Umfang landen; sie ist Pro, und das Bewerten braucht Kopfhörer."
+        },
+        {
+          "name": "Umfang finden",
+          "body": "Sing deinen tiefsten und höchsten Ton, und Scalita stellt deinen Umfang ein, den du als Bild teilen kannst."
+        },
+        {
+          "name": "Finde deinen Registerbruch",
+          "body": "Sing mit, während die Töne durch deine Stimme wandern, und tippe, wo sie umschlägt; Scalita merkt sich die Stelle für die Übungen, die um sie herum arbeiten."
+        },
+        {
+          "name": "Extra-Register",
+          "body": "Leg einen Bereich für Subharmonisch, Flageolett oder Pfeifstimme fest, wenn du sie nutzt; jedes hat eine eigene Routine."
+        },
+        {
+          "name": "Üben, auf dich zugeschnitten, und dein Verlauf",
+          "body": "Sieh, wo du danebenliegst, deine Umfangstests über die Zeit und deine Gehörübungen nach Intervall, und bekomm eine Plan-Session, die auf die Töne zielt, die am seltensten nah lagen. Sie liest, was du mit Kopfhörern gesungen hast."
+        }
+      ]
+    },
+    {
+      "heading": "Werkzeuge",
+      "lead": "Zwei Werkzeuge, die ohne Kopfhörer auskommen.",
+      "alt": "Das Stimmgerät liest einen gehaltenen Ton und zeigt die Spur der Tonhöhe",
+      "items": [
+        {
+          "name": "Stimmgerät",
+          "body": "Sing, pfeif oder spiel ein Instrument und sieh, welchen Ton du triffst und wohin er gewandert ist, mit Voreinstellungen für Stimme, Subharmonische, Pfeifen, Gitarre, E-Bass, Ukulele, Geige und Cello."
+        },
+        {
+          "name": "Bordun",
+          "body": "Sing gegen einen gehaltenen Klang, den du formst, wie du magst, und der bei ausgeschaltetem Bildschirm weiterklingt. Jeder Bordun spielt kostenlos, und einen kannst du speichern; mehr speichern ist Pro."
+        }
+      ]
+    },
+    {
+      "heading": "Gehör und Spiele",
+      "lead": "Erst hören, dann singen.",
+      "alt": "Eine Gehörübung wartet darauf, dass du eine Stufe der Tonleiter singst",
+      "items": [
+        {
+          "name": "Ton treffen",
+          "body": "Tipp eine Taste an, hör den Ton und triff ihn."
+        },
+        {
+          "name": "Hören & Nachsingen",
+          "body": "Das Klavier spielt eine kurze Phrase und wartet, während du sie nachsingst; das geht auch über den Handylautsprecher."
+        },
+        {
+          "name": "Gehörtraining",
+          "body": "Hör Intervalle oder kurze Phrasen und sing sie nach, und mach einen Gehörtest. Die zwei Übungen mit Akkorden sind für sich allein Pro, in Lektionen und Plänen aber kostenlos."
+        },
+        {
+          "name": "Harmonie-Training",
+          "body": "Nimm eine Stimme auf und sing die nächste darüber, bis zu vier Stimmen. Eine Harmonie speichern ist kostenlos; Pro behält alle, die du machst."
+        },
+        {
+          "name": "Humming Bird",
+          "body": "Spiel ein Präzisionsspiel, das du mit einem gehaltenen Ton steuerst, über den Handylautsprecher oder mit Kopfhörern."
+        }
+      ]
+    },
+    {
+      "heading": "Ganz deins",
+      "lead": "Eigene Übungen, getippt oder gesungen.",
+      "alt": "Der Tonleiter-Editor: ein Name, die Tasten der Reihe nach getippt und eine Vorschau",
+      "items": [
+        {
+          "name": "Der Tonleiter-Editor",
+          "body": "Tippe die Tasten in der Reihenfolge, in der du sie singst, Pausen eingeschlossen. Eine eigene Tonleiter ist kostenlos; Pro behält jede, die du baust, und lässt dich die Standard-Tonleitern bearbeiten."
+        },
+        {
+          "name": "Der Routinen-Editor",
+          "body": "Bring Tonleitern in deine Reihenfolge, jeder Schritt mit eigener Silbe, eigenem Tempo und Stil. Eine eigene Routine ist kostenlos; Pro behält alle und lässt dich die Standard-Routinen bearbeiten."
+        },
+        {
+          "name": "Die Tonleiter-Erkennung",
+          "body": "Sing eine Tonleiter oder eine kurze Melodie, und Scalita schreibt die gehörten Töne auf, bereit als deine eigene Tonleiter."
+        },
+        {
+          "name": "Exportieren und importieren",
+          "body": "Teile deine eigenen Tonleitern und Routinen als .scalita-Datei, und importiere, was andere dir schicken."
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "heading": "Die Grundlagen",
+    "lead": "Gilt für die ganze App, kostenlos wie Pro."
+  },
+  "proNote": {
+    "text": "Scalita Pro ist eine einmalige Zahlung, kein Abo. Du kaufst es in der App über Google Play, das den Preis in deiner Währung zeigt.",
+    "link": "Kostenlos und Pro im Vergleich"
+  },
+  "sections": [],
+  "faq": [],
+  "sources": [],
+  "reviewed": "2026-11-16",
+  "writtenAgainst": null
+}

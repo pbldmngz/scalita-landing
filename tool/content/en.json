@@ -172,7 +172,8 @@
     "app": {
       "kicker": "The app, on your phone",
       "title": "What the app adds",
-      "lead": "The tools run in your browser. The app remembers your range, plays every exercise in your key on a real piano, and with earphones in it draws your pitch as you sing and scores each scale."
+      "lead": "The tools run in your browser. The app remembers your range, plays every exercise in your key on a real piano, and with earphones in it draws your pitch as you sing and scores each scale.",
+      "all": "See everything the app does"
     },
     "how": {
       "steps": [

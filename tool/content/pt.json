@@ -172,7 +172,8 @@
     "app": {
       "kicker": "O app, no seu celular",
       "title": "O que o app acrescenta",
-      "lead": "As ferramentas funcionam no navegador. O app guarda a sua extensão, toca cada exercício no seu tom num piano de verdade e, com fones, desenha a sua afinação enquanto você canta e pontua cada escala."
+      "lead": "As ferramentas funcionam no navegador. O app guarda a sua extensão, toca cada exercício no seu tom num piano de verdade e, com fones, desenha a sua afinação enquanto você canta e pontua cada escala.",
+      "all": "Veja tudo o que o app faz"
     },
     "how": {
       "steps": [

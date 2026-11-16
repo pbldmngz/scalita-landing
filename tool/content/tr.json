@@ -172,7 +172,8 @@
     "app": {
       "kicker": "Uygulama, telefonunda",
       "title": "Uygulamanın kattıkları",
-      "lead": "Araçlar tarayıcında çalışır. Uygulama ise ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar."
+      "lead": "Araçlar tarayıcında çalışır. Uygulama ise ses aralığını hatırlar, her egzersizi gerçek bir piyanoda senin tonunda çalar; kulaklık takılıyken de sen söylerken perdeni çizer ve her gamı puanlar.",
+      "all": "Uygulamanın yaptığı her şeyi gör"
     },
     "how": {
       "steps": [

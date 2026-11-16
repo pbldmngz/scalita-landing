@@ -4,6 +4,8 @@
   {"id": "terms", "section": "legacy", "template": "legacy-text", "data": {}, "hub": false, "parent": null},
   {"id": "support", "section": "legacy", "template": "legacy-text", "data": {}, "hub": false, "parent": null},
 
+  {"id": "features", "section": "site", "template": "features", "data": {}, "hub": false, "parent": null},
+
   {"id": "tools", "section": "tools", "context": "tools", "template": "tools_hub", "data": {}, "hub": true, "parent": null, "root": true},
   {"id": "vocal-range-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "vocal-range-test"}, "hub": false, "parent": "tools"},
   {"id": "tone-deaf-test", "section": "tools", "context": "tools", "template": "tool", "data": {"toolId": "ear-test"}, "hub": false, "parent": "tools"},

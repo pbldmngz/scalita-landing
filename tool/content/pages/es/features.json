@@ -1,0 +1,224 @@
+{
+  "slug": "funciones",
+  "label": "Todas las funciones",
+  "title": "Funciones de Scalita: todo lo que hace la app de canto",
+  "description": "Todas las funciones de Scalita, la app de calentamiento vocal: escalas, rutinas, lecciones, planes, puntuaciones, afinador y más. Gratis o Pro, marcado.",
+  "h1": "Todo lo que hace Scalita",
+  "lead": "Todas las funciones de la app, agrupadas según para qué las usarías, con una marca que dice si cada una es gratis o parte de Scalita Pro.",
+  "marks": {
+    "free": "Gratis",
+    "pro": "Pro",
+    "both": "Gratis + Pro",
+    "legend": {
+      "free": "Todo es gratis, sin límite de tiempo.",
+      "both": "Una parte es gratis y otra es Pro. La frase dice cuál.",
+      "pro": "Parte de Scalita Pro, que se paga una sola vez."
+    }
+  },
+  "jumpLabel": "Grupos de funciones",
+  "groups": [
+    {
+      "heading": "Calienta la voz",
+      "lead": "Escalas y rutinas con un piano real, que se mueven tono a tono para encajar en tu rango.",
+      "alt": "La pantalla Rutinas: tu plan, el Modo Adaptativo, Encuentra tu calentamiento y las rutinas incluidas",
+      "items": [
+        {
+          "name": "Escalas",
+          "body": "Canta con 23 escalas incluidas, de mayores y menores a arpegios, la cromática y patrones Rossini."
+        },
+        {
+          "name": "Rutinas",
+          "body": "Elige una de las 12 rutinas incluidas, de una apertura suave a un entrenamiento completo, y cada paso muestra su sílaba, un consejo de técnica y qué tener presente durante toda la rutina."
+        },
+        {
+          "name": "El reproductor de escalas",
+          "body": "Lleva una escala tono a tono por tu rango, y elige dónde empieza y dónde termina, el tempo y la dirección."
+        },
+        {
+          "name": "El reproductor de rutinas",
+          "body": "Una rutina toca sus pasos en orden, con un momento para respirar entre ellos, y puedes saltar a cualquier paso."
+        },
+        {
+          "name": "Rango vocal",
+          "body": "Marca una vez tu nota más grave y la más aguda, cantándolas o eligiéndolas, y cada ejercicio se queda dentro de tu rango."
+        },
+        {
+          "name": "Encuentra tu calentamiento",
+          "body": "Di cómo sientes la voz hoy y qué quieres trabajar, y elige la rutina y el tempo."
+        },
+        {
+          "name": "Modo Adaptativo",
+          "body": "Di cómo te fue en cada ejercicio y el siguiente se ajusta."
+        },
+        {
+          "name": "Respirar entre tonalidades",
+          "body": "Añade unos segundos de silencio antes de cada tonalidad nueva, para tener tiempo de respirar."
+        },
+        {
+          "name": "Controles de pantalla de bloqueo",
+          "body": "Las rutinas siguen sonando con la pantalla apagada, y con este ajuste activado puedes pausar o saltar desde la pantalla de bloqueo."
+        },
+        {
+          "name": "Notación",
+          "body": "Lee los nombres de las notas en solfeo (Do Re Mi), letras (C D E), letras alemanas o números."
+        }
+      ]
+    },
+    {
+      "heading": "Aprende",
+      "lead": "Lecciones cortas que terminan contigo cantando, y planes que te dicen qué practicar después.",
+      "alt": "La pestaña Guías en el Camino, con las primeras lecciones hechas",
+      "items": [
+        {
+          "name": "Guías: el Camino",
+          "body": "Sigue 40 lecciones cortas en orden; casi todas abren un ejercicio y cada una cita sus fuentes."
+        },
+        {
+          "name": "Guías: la Biblioteca",
+          "body": "Consulta cualquiera de las 86 fichas sobre la voz, de la respiración y el vibrato a la distorsión y el silbido."
+        },
+        {
+          "name": "Planes de entrenamiento",
+          "body": "Elige uno de los siete planes listos y síguelo gratis de principio a fin, uno a la vez. Crear tu propio plan y tener más de un plan en pausa es Pro."
+        },
+        {
+          "name": "Recordatorios del plan",
+          "body": "Activa los recordatorios para que no se te pase la próxima sesión de tu plan."
+        },
+        {
+          "name": "Compartir el plan",
+          "body": "Envíale un plan a un amigo o a un alumno como archivo, y abre los planes que te envíen."
+        }
+      ]
+    },
+    {
+      "heading": "Mira y escucha tu voz",
+      "lead": "Lo que cantaste de verdad, dibujado, puntuado y grabado. El trazo de afinación y las puntuaciones necesitan auriculares.",
+      "alt": "Una rutina sonando con el trazo de afinación dibujado sobre las notas",
+      "items": [
+        {
+          "name": "Monitor de afinación",
+          "body": "Con auriculares, con cable o Bluetooth, mira tu voz dibujada en vivo frente a cada nota."
+        },
+        {
+          "name": "Puntuaciones",
+          "body": "Con auriculares, cada escala termina con una puntuación: cuánto quedó afinado, lo cerca que estuvo el resto y una cosa que trabajar. Las rutinas pueden puntuar cada paso si lo activas en Ajustes."
+        },
+        {
+          "name": "Tus tomas",
+          "body": "Activa Grabar en un reproductor y escúchate apenas termines. Todos conservan la última toma de cada ejercicio; guardar las tomas que elijas, comparar el antes y el después y exportarlas como audio es Pro."
+        },
+        {
+          "name": "Espectrograma",
+          "body": "Mira los armónicos de tu voz en vivo, gratis. Dejar quietos 30 segundos con una banda de enfoque es Pro."
+        },
+        {
+          "name": "Abrir una grabación",
+          "body": "Abre una nota de voz o una canción de tu teléfono y escúchala gratis. Ver sus notas y su espectrograma y convertirla en una escala es Pro."
+        },
+        {
+          "name": "Conoce tu nota",
+          "body": "Encuentra los lugares de tu voz, luego canta una frase de tu canción y mira dónde queda. Gratis se guarda una frase con su último intento; Pro guarda cada frase que elijas, con cada intento."
+        },
+        {
+          "name": "Tarjeta de cantante",
+          "body": "Mira tu rango, tu quiebre vocal y tus días de práctica en una tarjeta que puedes compartir. El reverso, con dónde caen tus notas en todo tu rango, es Pro y para medirlo hacen falta auriculares."
+        },
+        {
+          "name": "Encuentra tu rango",
+          "body": "Canta tu nota más grave y la más aguda y Scalita marca tu rango, que puedes compartir como imagen."
+        },
+        {
+          "name": "Encuentra tu quiebre vocal",
+          "body": "Canta mientras las notas recorren tu voz y toca donde cambia, y Scalita guarda ese punto para los ejercicios que trabajan a su alrededor."
+        },
+        {
+          "name": "Registros extra",
+          "body": "Marca el rango de subarmónicos, flageolet o silbido si los usas, cada uno con su propia rutina."
+        },
+        {
+          "name": "Práctica pensada para ti, y tu historial",
+          "body": "Mira dónde te desvías, tus pruebas de rango a lo largo del tiempo y tus ejercicios de oído por intervalo, y recibe una sesión del plan dirigida a las notas que menos veces quedaron cerca. Lee lo que cantaste con auriculares."
+        }
+      ]
+    },
+    {
+      "heading": "Herramientas",
+      "lead": "Dos herramientas que no necesitan auriculares.",
+      "alt": "El Afinador leyendo una nota sostenida, con la estela de la afinación",
+      "items": [
+        {
+          "name": "Afinador",
+          "body": "Afina tu voz, un silbido o un instrumento y mira la estela de por dónde fue la nota, con ajustes para voz, subarmónicos, silbido, guitarra, bajo, ukelele, violín y violonchelo."
+        },
+        {
+          "name": "Bordón",
+          "body": "Canta sobre un sonido continuo al que puedes dar forma, y que sigue sonando con la pantalla apagada. Todos los bordones suenan gratis y puedes guardar uno; guardar más es Pro."
+        }
+      ]
+    },
+    {
+      "heading": "Oído y juegos",
+      "lead": "Primero lo oyes, luego lo cantas.",
+      "alt": "Un ejercicio de entrenamiento auditivo esperando a que cantes un grado de la escala",
+      "items": [
+        {
+          "name": "Puntería de afinación",
+          "body": "Toca una tecla, escúchala y da en la nota."
+        },
+        {
+          "name": "Escucha y repite",
+          "body": "El piano toca una frase corta y espera mientras la repites cantando; también funciona con el altavoz del teléfono."
+        },
+        {
+          "name": "Entrenamiento auditivo",
+          "body": "Escucha intervalos o frases cortas y cántalos de vuelta, y haz una prueba de oído. Los dos ejercicios con acordes son Pro por separado, y gratis dentro de las lecciones y los planes."
+        },
+        {
+          "name": "Entrenamiento de armonías",
+          "body": "Graba una parte y canta la siguiente encima, hasta cuatro partes. Guardar una armonía es gratis; Pro guarda todas las que hagas."
+        },
+        {
+          "name": "Humming Bird",
+          "body": "Juega a un juego de precisión que guías sosteniendo una sola nota, con el altavoz del teléfono o con auriculares."
+        }
+      ]
+    },
+    {
+      "heading": "Hazlo tuyo",
+      "lead": "Tus propios ejercicios, creados tocando o cantando.",
+      "alt": "El editor de escalas: un nombre, las teclas tocadas en orden y una vista previa",
+      "items": [
+        {
+          "name": "El editor de escalas",
+          "body": "Toca las teclas en el orden en que las vas a cantar, silencios incluidos. Una escala propia es gratis; Pro guarda todas las que crees y te deja editar las escalas incluidas."
+        },
+        {
+          "name": "El editor de rutinas",
+          "body": "Pon escalas en el orden que quieras, cada paso con su sílaba, su tempo y su estilo. Una rutina propia es gratis; Pro las guarda todas y te deja editar las rutinas incluidas."
+        },
+        {
+          "name": "El detector de escalas",
+          "body": "Canta una escala o una melodía corta y Scalita escribe las notas que oyó, listas para guardarlas como escala propia."
+        },
+        {
+          "name": "Exportar e importar",
+          "body": "Comparte tus escalas y rutinas en un archivo .scalita, e importa las que te envíen."
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "heading": "Lo básico",
+    "lead": "Vale para toda la app, gratis o Pro."
+  },
+  "proNote": {
+    "text": "Scalita Pro es un solo pago, no una suscripción, y se compra dentro de la app a través de Google Play, que te muestra el precio en tu moneda.",
+    "link": "Compara Gratis y Pro"
+  },
+  "sections": [],
+  "faq": [],
+  "sources": [],
+  "reviewed": "2026-11-16",
+  "writtenAgainst": null
+}

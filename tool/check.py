@@ -57,6 +57,7 @@ TEMPLATE_KEYS = {
     "concept": ["shortAnswer", "listenFor", "misconceptions", "seeProfessional"],
     "skill": ["shortAnswer", "troubleshooting"],
     "library": [],
+    "features": ["marks", "jumpLabel", "groups", "basics", "proNote"],
 }
 FILLED = {
     "hub": ["intro", "children"],
@@ -70,6 +71,7 @@ FILLED = {
     "concept": ["shortAnswer", "listenFor", "misconceptions", "seeProfessional", "sections", "sources"],
     "skill": ["shortAnswer", "troubleshooting", "sections", "sources"],
     "library": ["sections", "sources"],
+    "features": ["marks", "jumpLabel", "groups", "basics", "proNote"],
 }
 
 # Ceilings for the written words of an English page (section 4.2 of the

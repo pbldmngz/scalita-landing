@@ -172,7 +172,8 @@
     "app": {
       "kicker": "Aplikasinya, di ponselmu",
       "title": "Yang ditambahkan aplikasinya",
-      "lead": "Alat-alat ini berjalan di browser-mu. Aplikasinya mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor."
+      "lead": "Alat-alat ini berjalan di browser-mu. Aplikasinya mengingat jangkauanmu dan memainkan setiap latihan dengan piano asli di nada dasarmu. Dengan earphone, jejak nadamu tergambar saat kamu bernyanyi dan setiap tangga nada diberi skor.",
+      "all": "Lihat semua yang bisa dilakukan aplikasinya"
     },
     "how": {
       "steps": [

@@ -1,0 +1,224 @@
+{
+  "slug": "fitur",
+  "label": "Semua fitur",
+  "title": "Fitur Scalita: Semua yang Bisa Dilakukan Aplikasinya",
+  "description": "Semua fitur Scalita, aplikasi pemanasan vokal: tangga nada, rutinitas, pelajaran, rencana, skor, penyetem, dan lainnya. Ditandai gratis atau Pro.",
+  "h1": "Semua yang bisa dilakukan Scalita",
+  "lead": "Semua fitur aplikasinya, dikelompokkan menurut kegunaannya, dengan tanda yang menunjukkan apakah fitur itu gratis atau bagian dari Scalita Pro.",
+  "marks": {
+    "free": "Gratis",
+    "pro": "Pro",
+    "both": "Gratis + Pro",
+    "legend": {
+      "free": "Semuanya gratis dipakai, tanpa batas waktu.",
+      "both": "Sebagian gratis dan sebagian Pro. Kalimatnya menyebut yang mana.",
+      "pro": "Bagian dari Scalita Pro, yang cukup sekali bayar."
+    }
+  },
+  "jumpLabel": "Kelompok fitur",
+  "groups": [
+    {
+      "heading": "Pemanasan",
+      "lead": "Tangga nada dan rutinitas dengan piano asli, digeser nada dasar demi nada dasar supaya pas di jangkauanmu.",
+      "alt": "Layar Rutinitas: rencanamu, Mode Adaptif, Cari pemanasanku, dan rutinitas bawaan",
+      "items": [
+        {
+          "name": "Tangga Nada",
+          "body": "Bernyanyilah mengikuti 23 tangga nada bawaan, dari mayor dan minor sampai arpeggio, kromatik, dan pola Rossini."
+        },
+        {
+          "name": "Rutinitas",
+          "body": "Pilih satu dari 12 rutinitas bawaan, dari pembuka yang lembut sampai latihan lengkap, dan tiap langkah menampilkan suku katanya, satu tips teknik, dan hal yang perlu diingat sepanjang rutinitas."
+        },
+        {
+          "name": "Pemutar tangga nada",
+          "body": "Bawa satu tangga nada melewati jangkauanmu, nada dasar demi nada dasar, dan atur titik mulai dan berhentinya, tempo, dan arahnya."
+        },
+        {
+          "name": "Pemutar rutinitas",
+          "body": "Rutinitas memutar langkah-langkahnya berurutan, dengan jeda untuk bernapas di antaranya, dan kamu bisa melompat ke langkah mana pun."
+        },
+        {
+          "name": "Jangkauan vokal",
+          "body": "Atur nada terendah dan tertinggimu sekali saja, dengan menyanyikan atau memilihnya, dan setiap latihan tetap berada di dalam jangkauanmu."
+        },
+        {
+          "name": "Cari pemanasanku",
+          "body": "Bilang kondisi suaramu hari ini dan apa yang ingin kamu latih, lalu rutinitas dan temponya dipilihkan."
+        },
+        {
+          "name": "Mode Adaptif",
+          "body": "Bilang bagaimana hasil tiap latihan, lalu latihan berikutnya menyesuaikan."
+        },
+        {
+          "name": "Bernapas antar nada dasar",
+          "body": "Tambahkan beberapa detik hening sebelum tiap nada dasar baru, supaya kamu sempat bernapas."
+        },
+        {
+          "name": "Kontrol layar kunci",
+          "body": "Rutinitas tetap berbunyi saat layar mati, dan kalau pengaturan ini dinyalakan kamu bisa menjeda atau melewati dari layar kunci."
+        },
+        {
+          "name": "Notasi",
+          "body": "Baca nama nada dalam solmisasi (Do Re Mi), huruf (C D E), nama Jerman, atau angka."
+        }
+      ]
+    },
+    {
+      "heading": "Belajar",
+      "lead": "Pelajaran singkat yang ditutup dengan bernyanyi, dan rencana yang memberi tahu apa yang dilatih berikutnya.",
+      "alt": "Tab Panduan di Jalur, dengan pelajaran pertama sudah selesai",
+      "items": [
+        {
+          "name": "Panduan: Jalur",
+          "body": "Ikuti 40 pelajaran singkat secara berurutan; hampir semuanya membuka satu latihan, dan tiap pelajaran mencantumkan sumbernya."
+        },
+        {
+          "name": "Panduan: Pustaka",
+          "body": "Buka salah satu dari 86 entri tentang suara, dari pernapasan dan vibrato sampai distorsi dan whistle."
+        },
+        {
+          "name": "Rencana latihan",
+          "body": "Pilih satu dari tujuh rencana siap pakai dan ikuti secara gratis dari awal sampai akhir, satu per satu. Menyusun rencanamu sendiri dan menyimpan lebih dari satu rencana yang dijeda termasuk Pro."
+        },
+        {
+          "name": "Pengingat rencana",
+          "body": "Nyalakan pengingat supaya sesi berikutnya dari rencanamu tidak terlewat."
+        },
+        {
+          "name": "Bagikan rencana",
+          "body": "Kirim rencana sebagai file ke teman atau murid, dan buka rencana yang dikirimkan kepadamu."
+        }
+      ]
+    },
+    {
+      "heading": "Lihat dan dengar suaramu",
+      "lead": "Apa yang benar-benar kamu nyanyikan: digambar, diberi skor, dan direkam. Garis nada dan skor butuh earphone.",
+      "alt": "Rutinitas yang sedang diputar, dengan garis nada tergambar di atas nada-nadanya",
+      "items": [
+        {
+          "name": "Monitor nada",
+          "body": "Dengan earphone, kabel atau Bluetooth, lihat suaramu tergambar langsung di tiap nada."
+        },
+        {
+          "name": "Skor",
+          "body": "Dengan earphone, tiap tangga nada berakhir dengan skor: berapa banyak yang tepat, seberapa dekat sisanya, dan satu hal untuk dilatih. Rutinitas bisa memberi skor tiap langkahnya kalau kamu nyalakan di Pengaturan."
+        },
+        {
+          "name": "Rekamanmu",
+          "body": "Nyalakan Rekam di pemutar, lalu dengarkan dirimu begitu selesai. Semua orang menyimpan rekaman terakhir tiap latihan; menyimpan rekaman pilihanmu, membandingkan sebelum dan sesudah, dan mengekspornya sebagai audio termasuk Pro."
+        },
+        {
+          "name": "Spektrogram",
+          "body": "Lihat nada harmonik suaramu secara langsung, gratis. Membekukan 30 detik dengan pita fokus termasuk Pro."
+        },
+        {
+          "name": "Buka rekaman",
+          "body": "Buka memo suara atau lagu dari ponselmu dan dengarkan secara gratis. Melihat nada dan spektrogramnya serta mengubahnya menjadi tangga nada termasuk Pro."
+        },
+        {
+          "name": "Kenali nadamu",
+          "body": "Temukan tempat-tempat di suaramu, lalu nyanyikan satu baris lagumu dan lihat di mana letaknya. Versi gratis menyimpan satu baris dengan percobaan terakhirnya; Pro menyimpan setiap baris yang kamu pilih, dengan setiap percobaan."
+        },
+        {
+          "name": "Kartu penyanyi",
+          "body": "Lihat jangkauanmu, peralihan registermu, dan hari latihanmu dalam satu kartu yang bisa kamu bagikan. Sisi belakangnya, yang menunjukkan di mana nadamu mendarat di jangkauanmu, termasuk Pro dan pengukurannya butuh earphone."
+        },
+        {
+          "name": "Temukan jangkauan vokalmu",
+          "body": "Nyanyikan nada terendah dan tertinggimu, lalu Scalita mengatur jangkauanmu, yang bisa kamu bagikan sebagai gambar."
+        },
+        {
+          "name": "Temukan peralihan registermu",
+          "body": "Ikut bernyanyi sementara nada-nada melewati suaramu dan ketuk saat suaramu berganti; Scalita menyimpan titik itu untuk latihan yang bekerja di sekitarnya."
+        },
+        {
+          "name": "Register tambahan",
+          "body": "Atur rentang untuk subharmonik, flageolet, atau whistle kalau kamu memakainya; masing-masing punya rutinitasnya sendiri."
+        },
+        {
+          "name": "Latihan yang disesuaikan untukmu, dan catatanmu",
+          "body": "Lihat di mana kamu meleset, tes jangkauan vokalmu dari waktu ke waktu, dan latihan pendengaranmu per interval, dan dapatkan sesi rencana yang menuju nada-nada yang paling jarang dekat. Fitur ini membaca apa yang kamu nyanyikan dengan earphone."
+        }
+      ]
+    },
+    {
+      "heading": "Alat",
+      "lead": "Dua alat yang tidak butuh earphone.",
+      "alt": "Penyetem membaca satu nada panjang, dengan jejak nadanya",
+      "items": [
+        {
+          "name": "Penyetem",
+          "body": "Cek nada suaramu, siulan, atau alat musik dan lihat jejak ke mana nadanya bergerak, dengan preset untuk vokal, subharmonik, siulan, gitar, bas, ukulele, biola, dan selo."
+        },
+        {
+          "name": "Nada dengung",
+          "body": "Bernyanyilah di atas bunyi tetap yang bisa kamu atur sesukamu, dan yang tetap berbunyi saat layar mati. Setiap nada dengung berbunyi gratis dan kamu bisa menyimpan satu; menyimpan lebih banyak termasuk Pro."
+        }
+      ]
+    },
+    {
+      "heading": "Pendengaran dan game",
+      "lead": "Dengar dulu, lalu nyanyikan.",
+      "alt": "Satu latihan pendengaran yang menunggu kamu menyanyikan satu tingkat tangga nada",
+      "items": [
+        {
+          "name": "Bidik nada",
+          "body": "Ketuk satu tuts, dengarkan, lalu nyanyikan tepat di nadanya."
+        },
+        {
+          "name": "Dengar & Tirukan",
+          "body": "Piano memainkan satu frasa pendek, lalu menunggu selagi kamu menirukannya; bisa juga lewat speaker ponsel."
+        },
+        {
+          "name": "Latihan pendengaran",
+          "body": "Dengarkan interval atau frasa pendek lalu nyanyikan kembali, dan ikuti satu tes pendengaran. Dua latihan dengan akor termasuk Pro kalau dibuka sendiri, dan gratis di dalam pelajaran dan rencana."
+        },
+        {
+          "name": "Latihan harmoni",
+          "body": "Rekam satu suara, lalu nyanyikan suara berikutnya di atasnya, sampai empat suara. Menyimpan satu harmoni gratis; Pro menyimpan semua yang kamu buat."
+        },
+        {
+          "name": "Humming Bird",
+          "body": "Mainkan game presisi yang kamu kemudikan dengan menahan satu nada, lewat speaker ponsel atau dengan earphone."
+        }
+      ]
+    },
+    {
+      "heading": "Atur sesukamu",
+      "lead": "Latihanmu sendiri, dibuat dengan mengetuk atau bernyanyi.",
+      "alt": "Editor tangga nada: nama, tuts yang diketuk berurutan, dan pratinjau",
+      "items": [
+        {
+          "name": "Editor tangga nada",
+          "body": "Ketuk tuts sesuai urutan yang akan kamu nyanyikan, termasuk jedanya. Satu tangga nada buatanmu gratis; Pro menyimpan setiap yang kamu buat dan membolehkanmu mengedit tangga nada bawaan."
+        },
+        {
+          "name": "Editor rutinitas",
+          "body": "Susun tangga nada sesuai urutan yang kamu mau, tiap langkah dengan suku kata, tempo, dan gayanya sendiri. Satu rutinitas buatanmu gratis; Pro menyimpan semuanya dan membolehkanmu mengedit rutinitas bawaan."
+        },
+        {
+          "name": "Pendeteksi tangga nada",
+          "body": "Nyanyikan tangga nada atau melodi pendek, dan Scalita menuliskan nada yang didengarnya, siap disimpan sebagai tangga nadamu sendiri."
+        },
+        {
+          "name": "Ekspor dan impor",
+          "body": "Bagikan tangga nada dan rutinitas buatanmu dalam file .scalita, dan impor yang dikirimkan orang lain kepadamu."
+        }
+      ]
+    }
+  ],
+  "basics": {
+    "heading": "Hal-hal dasar",
+    "lead": "Berlaku untuk seluruh aplikasi, gratis maupun Pro."
+  },
+  "proNote": {
+    "text": "Scalita Pro cukup sekali bayar, bukan langganan, dan dibeli di dalam aplikasi lewat Google Play, yang menampilkan harga dalam mata uangmu.",
+    "link": "Bandingkan Gratis dan Pro"
+  },
+  "sections": [],
+  "faq": [],
+  "sources": [],
+  "reviewed": "2026-11-16",
+  "writtenAgainst": null
+}

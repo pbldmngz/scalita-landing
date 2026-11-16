@@ -13,7 +13,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/privacy.html</loc>
@@ -54,6 +54,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/features/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Español -->
   <url>
     <loc>https://scalita.com/es/</loc>
@@ -66,7 +79,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/es/privacy.html</loc>
@@ -107,6 +120,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/es/funciones/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Français -->
   <url>
     <loc>https://scalita.com/fr/</loc>
@@ -119,7 +145,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/fr/privacy.html</loc>
@@ -160,6 +186,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/fr/fonctionnalites/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Português -->
   <url>
     <loc>https://scalita.com/pt/</loc>
@@ -172,7 +211,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/pt/privacy.html</loc>
@@ -213,6 +252,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/pt/recursos/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Deutsch -->
   <url>
     <loc>https://scalita.com/de/</loc>
@@ -225,7 +277,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/de/privacy.html</loc>
@@ -266,6 +318,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/de/funktionen/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Türkçe -->
   <url>
     <loc>https://scalita.com/tr/</loc>
@@ -278,7 +343,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/tr/privacy.html</loc>
@@ -319,6 +384,19 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
   </url>
+  <url>
+    <loc>https://scalita.com/tr/ozellikler/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
+  </url>
   <!-- Bahasa Indonesia -->
   <url>
     <loc>https://scalita.com/id/</loc>
@@ -331,7 +409,7 @@
     <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/"/>
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/"/>
-    <lastmod>2026-11-15</lastmod>
+    <lastmod>2026-11-16</lastmod>
   </url>
   <url>
     <loc>https://scalita.com/id/privacy.html</loc>
@@ -371,5 +449,18 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/support.html"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/support.html"/>
     <lastmod>2026-11-15</lastmod>
+  </url>
+  <url>
+    <loc>https://scalita.com/id/fitur/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://scalita.com/features/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://scalita.com/es/funciones/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://scalita.com/fr/fonctionnalites/"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://scalita.com/pt/recursos/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://scalita.com/de/funktionen/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://scalita.com/tr/ozellikler/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://scalita.com/id/fitur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://scalita.com/features/"/>
+    <lastmod>2026-11-16</lastmod>
   </url>
 </urlset>
