@@ -20,8 +20,9 @@ Pablo's voice and are read in place from scalita_app/test/detector/takes
             the band's buttons each on one line,
             the navigation of the page's context, no piano key with a border,
             no audio before a tap, no layout shift, and the budgets: scripts
-            before a tap 15 KB gzipped, a tool page's HTML too (the hub's 18),
-            its stylesheets 20 together
+            before a tap 15 KB gzipped, a tool page's HTML too (the hub's 18,
+            and 18 in a language of another script: NON_LATIN), its
+            stylesheets 20 together
   links     every local URL those pages name answers 200, without a redirect
   notfound  404.html is noindex and its links resolve; a missing deep URL
             gets it with its styles and scripts
@@ -94,6 +95,16 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 BUDGET = 15 * 1024  # gzipped: scripts before a tap on any page, and a tool page's HTML
 HUB_BUDGET = 18 * 1024  # the tools hub's HTML, which carries eight preview drawings (the spec, section 6)
+# A tool page's HTML in a language written in another script. The 15 KB was
+# set for Latin text, one byte a letter in UTF-8; Cyrillic takes two bytes a
+# letter and Japanese three, and gzip wins less of it back, so the same
+# words weigh more. Measured 2026-11-17 with no longer a text than the other
+# languages': the Russian tool pages 14.8 to 16.4 KB (the warm-up piano the
+# heaviest), the Japanese 13.7 to 15.4 before the app's Japanese export, which
+# brings its strings in place of the English. 18 KB leaves about a tenth over
+# the heaviest. The Latin budget stays 15; Persian and Arabic go here too.
+NON_LATIN = {"ru", "ja", "fa", "ar"}
+NON_LATIN_BUDGET = 18 * 1024
 CSS_BUDGET = 20 * 1024  # every stylesheet a page links, together
 CLS_BUDGET = 0.01  # layout shift while a page loads: decision 11 asks for none, this leaves rounding
 THEME = "#1E2628"
@@ -749,11 +760,13 @@ def group_pages(p, srv, site, codes, urls):
                     html = site.html(path)
                     size, css = gz(html.encode("utf-8")), css_size(site, html)
                     extra += ", HTML %.1f KB, CSS %.1f KB gzipped" % (size / 1024, css / 1024)
-                    ceiling = HUB_BUDGET if pid == "tools" else BUDGET
+                    page_budget = NON_LATIN_BUDGET if code in NON_LATIN else BUDGET
+                    ceiling = HUB_BUDGET if pid == "tools" else page_budget
                     if (pid in tools or pid == "tools") and size > ceiling:
                         bad.append("a tools page's HTML is %d bytes gzipped, over %d" % (size, ceiling))
-                    elif size > BUDGET:
-                        R.info("%s HTML is %.1f KB gzipped (the 15 KB budget is a tool page's)" % (path, size / 1024))
+                    elif size > page_budget:
+                        R.info("%s HTML is %.1f KB gzipped (the %d KB budget is a tool page's)" % (
+                            path, size / 1024, page_budget // 1024))
                     if css > CSS_BUDGET:
                         bad.append("its stylesheets are %d bytes gzipped together, over %d" % (css, CSS_BUDGET))
                     if pid in tools:  # the reference a crawler reads, in the HTML itself (decision 11)

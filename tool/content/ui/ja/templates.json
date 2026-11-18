@@ -1,0 +1,132 @@
+{
+  "player": {
+    "heading": "自分の音域で弾く"
+  },
+  "tool": {
+    "howTo": "使い方",
+    "sample": "結果の例",
+    "notClaimed": "わからないこと",
+    "howItWorks": "しくみ",
+    "mic": "マイク使用",
+    "noMic": "マイク不要",
+    "next": {
+      "vocal-range-test": "音域を調べる",
+      "tone-deaf-test": "音感を試す",
+      "sing-in-tune-test": "どれだけ近く歌えるか確かめる",
+      "warm-up-piano": "自分の音域でウォームアップ",
+      "voice-break-finder": "換声点を見つける"
+    }
+  },
+  "reference": {
+    "kicker": "参考資料",
+    "reviewed": "{date}に確認",
+    "relatedGuides": "関連するガイド",
+    "otherTools": "ほかのツール",
+    "guidesWith": "一緒に読みたいガイド",
+    "allGuides": "ガイド{n}本すべて",
+    "newHere": "はじめての方へ：どこから始めるか",
+    "twoRules": "すべてに共通する2つのルール"
+  },
+  "routine": {
+    "length": "かかる時間",
+    "steps": "ステップ",
+    "cues": "このルーティンを通して",
+    "whyOrder": "この順番の理由",
+    "whatToFeel": "感じたいこと",
+    "whenToStop": "やめるとき",
+    "next": "次にすること"
+  },
+  "steps": {
+    "scale": "スケール",
+    "syllable": "音節",
+    "style": "スタイル",
+    "span": "幅",
+    "passaggio": "換声点",
+    "repeat": "キーごとの繰り返し",
+    "wholeRange": "音域全体",
+    "semitones": "{count}半音",
+    "minutes": "{minutes}分",
+    "count": "ステップ",
+    "routines": "ルーティン"
+  },
+  "exercise": {
+    "tryIt": "今すぐ試す",
+    "troubleshooting": "うまくいかないとき",
+    "usage": "Scalitaで使われている場所"
+  },
+  "pattern": {
+    "degrees": "度数",
+    "notes": "{note}から",
+    "sung": "歌い方",
+    "syllables": "Scalitaが組み合わせる音節",
+    "routines": "このスケールを使うルーティン"
+  },
+  "concept": {
+    "shortAnswer": "短く答えると",
+    "where": "自分の声ではどこにあるか",
+    "listenFor": "聴くポイント",
+    "tryIt": "試してみる",
+    "exercises": "役立つエクササイズ",
+    "misconceptions": "よくある誤解",
+    "seeProfessional": "専門家に相談するとき"
+  },
+  "voices": {
+    "heading": "6つの声種",
+    "voiceType": "声種",
+    "range": "よくある音域",
+    "primo": "最初の切り替わり",
+    "secondo": "2つ目の切り替わり",
+    "fromTo": "{low}〜{high}",
+    "keyboard": "{name}：{low}〜{high}",
+    "note": "これはクラシックでよくある音域と換声点です。Scalitaは、自分の換声点が見つかるまで、同じ換声点を最初の目安として使います。実際の声は人それぞれで、音域だけで声種は決まりません。"
+  },
+  "registers": {
+    "heading": "ふだんの音域の下と上",
+    "register": "声区",
+    "span": "位置",
+    "note": "Scalitaがそれぞれの声区を練習する範囲です。サブハーモニクスでは、聞こえるピッチの範囲を示しています。"
+  },
+  "hub": {
+    "moreGuides": "そのほかのガイド"
+  },
+  "intake": {
+    "appOnly": "アプリのみ"
+  },
+  "notation": {
+    "systems": "音名の4つの書き方",
+    "system": "方式",
+    "names": "音名",
+    "where": "使われている場所",
+    "landmarks": "それぞれの方式での真ん中のドとA 440",
+    "middleC": "真ん中のド",
+    "a440": "A 440 Hz",
+    "octave": "それぞれの方式での1オクターブ",
+    "keyboard": "真ん中のドから1オクターブ（{system}）",
+    "octaves": "オクターブの3つの数え方",
+    "style": "オクターブ番号",
+    "lowest": "いちばん低い鍵盤",
+    "highest": "いちばん高い鍵盤",
+    "styles": {
+      "scientific": "国際式",
+      "francoBelgian": "フランス・ベルギー式",
+      "helmholtz": "ヘルムホルツ式"
+    }
+  },
+  "dates": {
+    "months": [
+      "1月",
+      "2月",
+      "3月",
+      "4月",
+      "5月",
+      "6月",
+      "7月",
+      "8月",
+      "9月",
+      "10月",
+      "11月",
+      "12月"
+    ],
+    "pattern": "{y}年{month}{d}日"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "onmei-octave",
+  "label": "音名とオクターブ",
+  "title": "真ん中のドは{{note:C4:intl}}？C3？音名とオクターブ番号 - Scalita",
+  "description": "真ん中のドは、どこで音楽を習ったかによって{{note:C4:intl}}、Do4、Do3、c¹と書かれます。音名とオクターブ番号の対応と、ドイツ語でHと書く理由を説明します。",
+  "h1": "音名とオクターブ番号",
+  "lead": "ピアノの1つの鍵盤には、どこで音楽を習ったかによって、いくつもの名前があります。ここでは、音名の体系とオクターブ番号の対応をまとめます。このサイトの音名が、思っているとおりの鍵盤を指すようにするためです。",
+  "sections": [
+    {
+      "heading": "真ん中のドとオクターブ番号",
+      "html": "<p>ピアノの真ん中あたりにあるド、真ん中のドは、科学的音高表記で{{note:C4:intl}}です。このサイトがすべての音名に添えている国際式の表記です。番号はCごとに1つ上がります。88鍵のピアノで一番低いCはC1、真ん中のドは4番目のCで、オーケストラがチューニングに使うラは{{note:A4:intl}}です。</p>\n<p>Scalitaは、スペイン語とトルコ語のドレミも同じ数え方で書くので、真ん中のドはDo4です。フランス語とブラジルのドレミは1つ少なく数えるので、真ん中のドはフランス語でDo3、ブラジルのポルトガル語でDó3です。ドイツ語は代わりに、大文字・小文字と小さな数字でオクターブを示します。真ん中のドはc¹で、その下のドはただのcです。日本語では、Scalitaは英語音名で書くので、真ん中のドはC4です。カラオケ式の音域表記ではmid2Cにあたり、アプリでは「C4 = mid2C = 真ん中のド」と示します。</p>"
+    },
+    {
+      "heading": "ドイツ語でHと書く理由",
+      "html": "<p>ドイツ語では、英語でBと呼ぶ音をHと書き、BはB♭（シ♭）を意味します。シャープは-is、フラットは-esを付けるので、F♯はFis、E♭はEsです。ドイツの歌い手が英語のBを読むと、意図より半音低く歌ってしまいます。そのため、ドイツ語のScalitaはドイツ音名を使います。</p>"
+    },
+    {
+      "heading": "固定ドと移動ド",
+      "html": "<p>固定ドでは、ドはいつもC、レはいつもD、というように、階名がそのまま音名になります。スペイン、フランス、イタリア、ブラジル、トルコ、ラテンアメリカでは、この方法で音を呼びます。</p>\n<p>移動ドでは、ドはそのときのキーの最初の音です。だから、ドレミで歌うメロディーは、どのキーでも同じ階名のままです。英語圏の国の音楽の授業や合唱で使われ、インドネシアや中国では、同じ考え方を数字で書きます。ドを1とし、「ド = G」のようにキーを示す見出しの下に書きます。Scalitaの「移動ド」表記もこの考え方で、日本語ではキーの中の音をカタカナのドレミで示します。</p>"
+    },
+    {
+      "heading": "このサイトでの音の書き方",
+      "html": "<p>ここにある音名はすべて、Scalitaアプリ自身の表から来ています。まずその言語でふだん使われる表記、そして2つが違うときは国際式の名前を横に添えます。アプリでは、設定で英語音名、ドレミ（固定ド）、移動ド、ドイツ音名、ドレミ（Do Re Mi）を切り替えられます。</p>"
+    }
+  ],
+  "faq": [
+    {
+      "q": "真ん中のドは{{note:C4:intl}}ですか、C3ですか？",
+      "a": "<p>歌の教材の多くが使う科学的音高表記では{{note:C4:intl}}です。キーボードや録音ソフトがC3やC5と呼んでいても、同じ鍵盤に別のラベルが付いているだけです。MIDI規格が決めているのは、真ん中のドがノート番号60だということだけです。</p>"
+    },
+    {
+      "q": "ピアノで真ん中のドはどの鍵盤ですか？",
+      "a": "<p>88鍵のピアノなら、左から4番目のCで、真ん中あたりにあります。Cはどれも、2つ並んだ黒鍵のすぐ左にある白鍵です。</p>"
+    }
+  ],
+  "sources": [
+    {
+      "label": "Wikipedia: Scientific pitch notation.",
+      "url": "https://en.wikipedia.org/wiki/Scientific_pitch_notation"
+    },
+    {
+      "label": "Wikipedia: Musical note, on middle C, Helmholtz names and the German H.",
+      "url": "https://en.wikipedia.org/wiki/Musical_note"
+    },
+    {
+      "label": "Wikipédia (French): La 440, which pairs la3 with A4 and do3 with C4.",
+      "url": "https://fr.wikipedia.org/wiki/La_440"
+    },
+    {
+      "label": "Wikipedia: Solfège, on fixed do and movable do.",
+      "url": "https://en.wikipedia.org/wiki/Solf%C3%A8ge"
+    },
+    {
+      "label": "The MIDI Association: MIDI octave and note numbering standard.",
+      "url": "https://midi.org/community/midi-specifications/midi-octave-and-note-numbering-standard"
+    }
+  ],
+  "reviewed": "2026-10-20",
+  "writtenAgainst": null
+}

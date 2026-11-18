@@ -4,7 +4,7 @@
 The site is still plain static HTML: this writes the HTML, git tracks the
 HTML, GitHub Pages serves the HTML. Nothing runs at request time.
 
-Why it exists: seven locales times every page is a lot of files that must
+Why it exists: nine locales times every page is a lot of files that must
 agree on the navigation, the footer, the language menu and the hreflang
 links. Kept by hand that drifts within a release. Kept here it cannot.
 
@@ -60,6 +60,8 @@ LOCALES = [
     ("de", "/de/",  "de",    "de",    "de_DE", "Deutsch"),
     ("tr", "/tr/",  "tr",    "tr",    "tr_TR", "Türkçe"),
     ("id", "/id/",  "id",    "id",    "id_ID", "Bahasa Indonesia"),
+    ("ru", "/ru/",  "ru",    "ru",    "ru_RU", "Русский"),
+    ("ja", "/ja/",  "ja",    "ja",    "ja_JP", "日本語"),
 ]
 
 LOC = {l[0]: l for l in LOCALES}
@@ -93,7 +95,7 @@ TOP = "site"
 SLUG = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
 # The English sections sit at the site root, beside these.
-RESERVED = {"es", "fr", "pt", "de", "tr", "id", "css", "js", "images", "audio",
+RESERVED = {"es", "fr", "pt", "de", "tr", "id", "ru", "ja", "css", "js", "images", "audio",
             "fonts", "tool", "index", "privacy", "terms", "support", "404"}
 
 # Static parts of the site a build in another directory links to, so that
@@ -966,17 +968,49 @@ def load_json(path, what=None):
         raise BuildError("%s is not valid JSON: %s" % (what or rel(path), e))
 
 
+# CLDR's plural categories. English counts in two, Russian in more (1 цент,
+# 2 цента, 5 центов). So a plural object, {"one": ..., "other": ...} in the
+# English, may carry the other categories its language uses, and a counted
+# word kept as two flat keys, xOne and xMany, may carry xFew, xTwo or xZero
+# beside them. The scripts pick them with Intl.PluralRules and fall back to
+# other and xMany.
+PLURAL = ("zero", "one", "two", "few", "many", "other")
+PLURAL_FLAT = re.compile(r"(.+)(Zero|Two|Few)")
+
+
+def plural_extra(ref, k):
+    """The English key a translation's extra plural form stands beside (its
+    placeholders are that one's), or None when k is no such form."""
+    if k in PLURAL and "other" in ref and set(ref) <= set(PLURAL):
+        return "other"
+    m = PLURAL_FLAT.fullmatch(k)
+    if m and m.group(1) + "One" in ref and m.group(1) + "Many" in ref:
+        return m.group(1) + "Many"
+    return None
+
+
+def plural_ref(path):
+    """The English path an extra plural form's placeholders are checked
+    against ("units.cents.few" -> "units.cents.other"), or path itself."""
+    head, _, last = path.rpartition(".")
+    m = PLURAL_FLAT.fullmatch(last)
+    alt = "other" if last in ("zero", "two", "few", "many") else m.group(1) + "Many" if m else last
+    return (head + "." if head else "") + alt
+
+
 def shape_diff(ref, other, path=""):
     """Every way a translation differs in shape from the English: a key
     missing or extra at any depth, a list of another length. A null on
-    either side is not compared (a locale box only one language fills)."""
+    either side is not compared (a locale box only one language fills).
+    Plural forms the English does not need are not extra (plural_extra)."""
     if ref is None or other is None:
         return []
     if isinstance(ref, dict):
         if not isinstance(other, dict):
             return ["%s is not an object" % (path.rstrip(".") or "the file")]
         out = ["%s%s is missing" % (path, k) for k in ref if k not in other]
-        out += ["%s%s is extra" % (path, k) for k in other if k not in ref]
+        out += ["%s%s is extra" % (path, k) for k in other
+                if k not in ref and not (plural_extra(ref, k) and isinstance(other[k], str))]
         for k in ref:
             if k in other:
                 out += shape_diff(ref[k], other[k], "%s%s." % (path, k))
@@ -1006,6 +1040,12 @@ def load_sites():
             missing("%s is missing, so %s is not built" % (rel(path), code))
             continue
         S.site[code] = load_json(path)
+        # the app's own words for a locale come with its export: a site
+        # locale the app has not exported yet would read them in English
+        strings = data("strings")
+        if code != "en" and isinstance(strings, dict) and code not in strings:
+            missing("tool/data/app/strings.json has no %s strings (the app's export), "
+                    "so its app terms fall back to English" % code)
     for code, c in S.site.items():
         diff = shape_diff(S.site["en"], c)
         if diff:

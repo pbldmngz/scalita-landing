@@ -29,6 +29,7 @@ store badges, no Apple logo: every Google Play call has an unavailable iPhone
 beside it.
 """
 
+import _chrome
 import _parts as P
 
 # Each trust item's icon (the seventh, "maker", is Pablo's photo).
@@ -230,7 +231,7 @@ def glyph(ctx, page):
                    keys("home-kb", (19 + 16 * n for n in (0, 1, 3, 4, 5, 7, 8, 10, 11, 12)))))
     # voice-break-finder: the piano climbing in chest voice, a shift felt at
     # E4, then on up in head voice; the words are the app's own.
-    bf = ctx.data["strings"][ctx.code]["breakFinder"]
+    bf = P.app(ctx)["breakFinder"]
     return ('<g fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">'
             '<path d="M12 40h32v-7h32v-7h32v-7h32" stroke="#5A9FA3"/>'
             '<path d="M156 19v-7h32v-6h40" stroke="#8AC4C7"/></g>'
@@ -514,7 +515,7 @@ def render(ctx):
     # The hero's title is the largest thing on the first screen and is set in
     # Sora 300: fetched with the page, it paints once, in its own font.
     extra = """
-  <link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="%s" as="font" type="font/woff2" crossorigin>%s
 
   <!-- Open Graph -->
   <meta property="og:title" content="%s">
@@ -533,7 +534,10 @@ def render(ctx):
   <meta name="twitter:description" content="%s">
   <meta name="twitter:image" content="%s/images/og-image-%s.png">
 """ % (
-        ctx.asset("fonts/sora-300.woff2"), esc(i["ogTitle"]), esc(i["ogDescription"]),
+        ctx.asset("fonts/sora-300.woff2"),
+        # Russian's letters are Onest's (tool/subset_fonts.py): its 300 too, at the URL style.css names
+        '\n  <link rel="preload" href="/fonts/onest-300.woff2" as="font" type="font/woff2" crossorigin>'
+        if ctx.code in _chrome.SCRIPT_FACES else "", esc(i["ogTitle"]), esc(i["ogDescription"]),
         ctx.url_abs("index"), ctx.origin, code, ctx.loc[4], og_alts,
         esc(i["ogTitle"]), esc(i["ogDescription"]), ctx.origin, code,
     )

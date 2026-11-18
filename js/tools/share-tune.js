@@ -22,7 +22,7 @@ const CREAM = '#E8EDEE', SOFT = '#A8B5BA', SLATE = '#7A8B91', SEAFOAM = '#7FB3B5
 
 export async function drawTuneCard(canvas, d) {
   const { setup, face, num, day, line, best, paint, para, soft, light, trail, resample, clamp, invite } = kit;
-  const [g, light200] = await setup(canvas);
+  const [g, light200] = await setup(canvas, d.lang);
   const t = d.text || {}, lang = d.lang || 'en';
 
   // The notes first: how low the lowest line goes places their labels

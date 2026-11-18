@@ -8,7 +8,9 @@
       "es": "Soprano",
       "fr": "Soprano",
       "id": "Sopran",
+      "ja": "ソプラノ",
       "pt": "Soprano",
+      "ru": "Сопрано",
       "tr": "Soprano"
     },
     "presetHigh": 84,
@@ -28,7 +30,9 @@
       "es": "Mezzosoprano",
       "fr": "Mezzo-soprano",
       "id": "Mezzo-sopran",
+      "ja": "メゾソプラノ",
       "pt": "Mezzo-soprano",
+      "ru": "Меццо-сопрано",
       "tr": "Mezzo-soprano"
     },
     "presetHigh": 81,
@@ -48,7 +52,9 @@
       "es": "Contralto",
       "fr": "Contralto",
       "id": "Kontralto",
+      "ja": "コントラルト",
       "pt": "Contralto",
+      "ru": "Контральто",
       "tr": "Kontralto"
     },
     "presetHigh": 77,
@@ -68,7 +74,9 @@
       "es": "Tenor",
       "fr": "Ténor",
       "id": "Tenor",
+      "ja": "テノール",
       "pt": "Tenor",
+      "ru": "Тенор",
       "tr": "Tenor"
     },
     "presetHigh": 72,
@@ -88,7 +96,9 @@
       "es": "Barítono",
       "fr": "Baryton",
       "id": "Bariton",
+      "ja": "バリトン",
       "pt": "Barítono",
+      "ru": "Баритон",
       "tr": "Bariton"
     },
     "presetHigh": 69,
@@ -108,7 +118,9 @@
       "es": "Bajo",
       "fr": "Basse",
       "id": "Bas",
+      "ja": "バス",
       "pt": "Baixo",
+      "ru": "Бас",
       "tr": "Bas"
     },
     "presetHigh": 64,

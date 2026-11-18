@@ -52,7 +52,7 @@ sys.dont_write_bytecode = True  # everything in this repo is served: leave no __
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 CASES = json.loads((HERE / "cases.json").read_text(encoding="utf-8"))
-LOCALES = ["en", "es", "fr", "pt", "de", "tr", "id"]
+LOCALES = ["en", "es", "fr", "pt", "de", "tr", "id", "ru", "ja"]
 KINDS = {".js": "text/javascript", ".mjs": "text/javascript", ".json": "application/json", ".html": "text/html; charset=utf-8",
          ".woff2": "font/woff2", ".png": "image/png"}
 
@@ -233,7 +233,7 @@ def main():
             asked = sorted({path for t, path in Handler.log if t >= t0})
             run.check("fonts: the module loads Sora 200 itself", "/fonts/sora-200.woff2" in asked, asked)
             run.check("requests: the modules, the fonts, nothing else",
-                      all(a.startswith(("/js/tools/share-", "/fonts/sora-", "/ref/", "/tool/tests/share/")) for a in asked), asked)
+                      all(a.startswith(("/js/tools/share-", "/fonts/sora-", "/fonts/onest-", "/fonts/signs.woff2", "/ref/", "/tool/tests/share/")) for a in asked), asked)
             run.check("console clean", not logs, logs)
             page.close()
 

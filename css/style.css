@@ -88,6 +88,48 @@
   font-display: swap;
   src: url('/fonts/sora-500.woff2') format('woff2');
 }
+@font-face {
+  font-family: 'Sora';
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/onest-300.woff2') format('woff2');
+  unicode-range: U+0400-045F, U+2116;
+}
+@font-face {
+  font-family: 'Sora';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/onest-400.woff2') format('woff2');
+  unicode-range: U+0400-045F, U+2116;
+}
+@font-face {
+  font-family: 'Sora';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/onest-500.woff2') format('woff2');
+  unicode-range: U+0400-045F, U+2116;
+}
+@font-face {
+  font-family: 'Sora';
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/signs.woff2') format('woff2');
+  unicode-range: U+266D-266F;
+}
+@font-face {
+  font-family: 'Sora';
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/signs.woff2') format('woff2');
+  unicode-range: U+266D-266F;
+}
+@font-face {
+  font-family: 'Sora';
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/signs.woff2') format('woff2');
+  unicode-range: U+266D-266F;
+}
 /* fonts:end */
 
 /* Until Sora arrives, a local sans-serif with Sora's width and line box
@@ -221,6 +263,20 @@ h4 {
 
 :lang(de) h1 {
   hyphens: auto;
+}
+
+/* Japanese: no web font (a Japanese face is megabytes). Sora draws the
+   Latin and the digits; the reader's own Japanese face draws the rest, and
+   lang="ja" makes it pick the Japanese forms of shared Han characters.
+   Lines break between any two characters, with the strict kinsoku rules;
+   a heading or a button breaks between phrases where the browser can. */
+html:lang(ja) body {
+  font-family: 'Sora', 'Sora Fallback', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', 'Noto Sans CJK JP', 'Yu Gothic', YuGothic, Meiryo, sans-serif;
+  line-break: strict;
+}
+html:lang(ja) :is(h1, h2, h3, .btn, .kicker) {
+  letter-spacing: 0;
+  word-break: auto-phrase;
 }
 
 .kicker {

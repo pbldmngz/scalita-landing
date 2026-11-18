@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "Твой голос",
+  "custom": "Свой диапазон",
+  "lowest": "Нижняя нота",
+  "highest": "Верхняя нота",
+  "chooserLabel": "Упражнение",
+  "routines": "Программы",
+  "scales": "Гаммы",
+  "pickVoice": "Выбери тип голоса или укажи свой диапазон, потом нажми «Играть».",
+  "ready": "{low} - {high}. Нажми «Играть», когда захочешь начать.",
+  "routineSummary": "Упражнений: {steps}, около {minutes} мин",
+  "scaleSummary": "Тональностей: {keys}, около {minutes} мин",
+  "usingBreak": "Построено вокруг твоего перехода на {note}.",
+  "stepCard": "{syllable}, {tempo} BPM",
+  "stepDetail": "{scale}, на слог {syllable}. {tempo} BPM, {style}, {direction}.",
+  "scaleDetail": "{scale}. {tempo} BPM, {direction}.",
+  "stepOf": "Упражнение {step} из {steps}",
+  "keyOf": "Тональность {key} из {keys}: {note}",
+  "countIn": "Приготовься: {n}",
+  "breathe": "Вдохни. До следующего упражнения: {seconds} с.",
+  "done": "Это конец. Нажми «Играть», чтобы пройти ещё раз.",
+  "noAudio": "Этот браузер не может воспроизводить звук. Попробуй свежую версию Chrome, Safari, Firefox или Edge.",
+  "loadFailed": "Пианино не загрузилось. Проверь подключение и попробуй ещё раз.",
+  "keyboard": "Клавиши пианино от {low} до {high}",
+  "styles": {
+    "struck": "Чётко",
+    "normal": "Обычно",
+    "smooth": "Плавно"
+  },
+  "directions": {
+    "normal": "Вверх",
+    "inverted": "Вниз",
+    "mirror": "Вверх и вниз"
+  }
+}

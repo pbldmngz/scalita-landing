@@ -4,9 +4,11 @@
       "de": "Weck deine Stimme sicher auf und mach den vollen Umfang bereit.",
       "en": "Wake up your voice safely and achieve full range readiness.",
       "es": "Despierta tu voz de forma segura y alcanza la preparación de todo tu rango.",
-      "fr": "Réveille ta voix en douceur et retrouve toute ta tessiture.",
+      "fr": "Réveille ta voix en douceur et retrouve toute ton étendue.",
       "id": "Bangunkan suaramu dengan aman sampai seluruh jangkauan siap.",
+      "ja": "声を安全に目覚めさせ、音域全体を使える状態に整えます。",
       "pt": "Acorde a voz com segurança e deixe toda a extensão pronta.",
+      "ru": "Бережно разбуди голос и подготовь весь диапазон.",
       "tr": "Sesini güvenle uyandır ve tüm aralığına hazır hale getir."
     },
     "hash": "6cf14c8927fc486183a6181dc0e3f8539ecdaa41dcd90fd20ec33c9603b26f79",
@@ -18,7 +20,9 @@
       "es": "Calentamiento General",
       "fr": "Échauffement général",
       "id": "Pemanasan Umum",
+      "ja": "基本のウォームアップ",
       "pt": "Aquecimento geral",
+      "ru": "Общая распевка",
       "tr": "Genel Isınma"
     },
     "presets": {
@@ -782,7 +786,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -798,7 +804,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -811,7 +819,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -831,7 +841,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -841,7 +853,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -859,7 +873,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -879,7 +895,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 80,
@@ -889,7 +907,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -907,7 +927,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -927,7 +949,9 @@
           "es": "Mi",
           "fr": "Mi",
           "id": "Mi",
+          "ja": "ミ",
           "pt": "Mi",
+          "ru": "Ми",
           "tr": "Mi"
         },
         "tempo": 100,
@@ -937,7 +961,9 @@
           "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
           "fr": "M vers un I clair. Un son net et sonore.",
           "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+          "ja": "Mから明るい「イ」へ。クリアでよく響く音です。",
           "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+          "ru": "М в светлое «И». Чистый, звонкий звук.",
           "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
         },
         "trill": null,
@@ -955,7 +981,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -975,7 +1003,9 @@
           "es": "Mah",
           "fr": "Mah",
           "id": "Ma",
+          "ja": "マ",
           "pt": "Má",
+          "ru": "Ма",
           "tr": "Ma"
         },
         "tempo": 90,
@@ -985,7 +1015,9 @@
           "es": "M hacia una Ah abierta. Un comienzo fácil y cálido.",
           "fr": "M vers un Ah ouvert. Un départ facile et chaleureux.",
           "id": "M menuju A terbuka. Awal yang mudah dan hangat.",
+          "ja": "Mから開いた「ア」へ。楽で温かみのある出だしです。",
           "pt": "M para o 'a' aberto. Um começo fácil e quente.",
+          "ru": "М в открытое «А». Лёгкое, тёплое начало.",
           "tr": "M'den açık A sesine. Rahat, sıcak bir başlangıç."
         },
         "trill": null,
@@ -1003,7 +1035,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           },
@@ -1016,7 +1050,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -1036,7 +1072,9 @@
           "es": "Mam",
           "fr": "Mam",
           "id": "Mam",
+          "ja": "マム",
           "pt": "Mam",
+          "ru": "Мам",
           "tr": "Mam"
         },
         "tempo": 90,
@@ -1046,7 +1084,9 @@
           "es": "M hacia una 'a' corta. Relajado, como al hablar.",
           "fr": "M vers un A bref. Détendu, comme quand tu parles.",
           "id": "M menuju A pendek. Santai, seperti bicara.",
+          "ja": "Mから、「マ」と「モ」の間のあいまいな短い母音へ。最後は唇を閉じます。話すように力を抜いて歌います。",
           "pt": "M para o 'a' fechado. Relaxado, como na fala.",
+          "ru": "М в короткое «А». Расслабленно, как в разговоре.",
           "tr": "M'den kısa A sesine. Konuşur gibi gevşek."
         },
         "trill": null,
@@ -1064,7 +1104,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           },
@@ -1077,7 +1119,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -1097,7 +1141,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 100,
@@ -1107,7 +1153,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -1125,7 +1173,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -1145,7 +1195,9 @@
           "es": "Noh",
           "fr": "Noh",
           "id": "No",
+          "ja": "ノ",
           "pt": "Nô",
+          "ru": "Но",
           "tr": "No"
         },
         "tempo": 90,
@@ -1155,7 +1207,9 @@
           "es": "N hacia Oh. Redondo y cálido.",
           "fr": "N vers un O. Rond et chaleureux.",
           "id": "N menuju O. Bulat dan hangat.",
+          "ja": "Nから「オ」へ。丸く温かい音です。",
           "pt": "N para o 'ô'. Redondo e quente.",
+          "ru": "Н в «О». Округло и тепло.",
           "tr": "N'den O sesine. Yuvarlak ve sıcak."
         },
         "trill": null,
@@ -1173,7 +1227,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -1186,7 +1242,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -1206,7 +1264,9 @@
           "es": "Guug",
           "fr": "Goug",
           "id": "Gug",
+          "ja": "グーグ",
           "pt": "Gug",
+          "ru": "Гуг",
           "tr": "Gug"
         },
         "tempo": 90,
@@ -1216,7 +1276,9 @@
           "es": "G al principio y al final de una 'u' profunda. Un sonido estable que te asienta.",
           "fr": "Un G à chaque bout d'un Ou profond. Un son stable, qui ancre.",
           "id": "G di awal dan akhir U yang dalam. Bunyi yang mantap dan membumi.",
+          "ja": "深い「ウ」をGではさみます。最後のGに母音はつけません。どっしりと安定した音です。",
           "pt": "G nas duas pontas de um 'u' profundo. Um som estável, que dá chão.",
+          "ru": "Г с обеих сторон глубокого «У». Ровный звук, который даёт опору.",
           "tr": "Derin bir U sesinin iki ucunda G. Sabit, sesi oturtan bir ses."
         },
         "trill": null,
@@ -1234,7 +1296,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -1254,7 +1318,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 110,
@@ -1264,7 +1330,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -1279,7 +1347,9 @@
       "es": "Explora con calma los extremos de tu voz, arriba y abajo, y para donde deje de sentirse fácil.",
       "fr": "Explore en douceur le haut et le bas de ta voix, et arrête-toi là où ça cesse d'être facile.",
       "id": "Jelajahi bagian atas dan bawah suaramu dengan lembut, dan berhenti saat sudah tidak terasa mudah.",
+      "ja": "声の一番高いところと低いところをやさしく探ります。楽に出せなくなったところで止めましょう。",
       "pt": "Explore com calma o agudo e o grave da sua voz e pare onde deixar de ficar fácil.",
+      "ru": "Мягко исследуй верх и низ голоса и останавливайся там, где перестаёт быть легко.",
       "tr": "Sesinin tiz ve pes uçlarını nazikçe keşfet, kolay gelmediği yerde dur."
     },
     "hash": "4c05177ec79d278baa75666757c7bb0691c17f0a15fb3d74ebdcf215d65735da",
@@ -1289,9 +1359,11 @@
       "de": "Umfang erweitern",
       "en": "Range Extension",
       "es": "Extensión de Rango",
-      "fr": "Extension de tessiture",
+      "fr": "Élargir l'étendue",
       "id": "Perluasan Jangkauan",
+      "ja": "音域を広げる",
       "pt": "Ampliar a extensão",
+      "ru": "Расширение диапазона",
       "tr": "Aralık Genişletme"
     },
     "presets": {
@@ -2211,11 +2283,25 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -2239,7 +2325,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -2252,7 +2340,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -2272,7 +2362,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -2282,7 +2374,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -2300,7 +2394,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -2320,7 +2416,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 80,
@@ -2330,7 +2428,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -2348,7 +2448,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -2368,7 +2470,9 @@
           "es": "Mu",
           "fr": "Mou",
           "id": "Mu",
+          "ja": "ム",
           "pt": "Mu",
+          "ru": "Му",
           "tr": "Mu"
         },
         "tempo": 90,
@@ -2378,7 +2482,9 @@
           "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
           "fr": "M vers un Ou. Un départ doux, un son chaud.",
           "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+          "ja": "Mから「ウ」へ。やさしい出だしと、やわらかく温かい音です。",
           "pt": "M para o 'u'. Um começo suave e um som quente.",
+          "ru": "М в «У». Мягкое начало и мягкий, тёплый звук.",
           "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
         },
         "trill": null,
@@ -2396,7 +2502,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -2416,7 +2524,9 @@
           "es": "Gui",
           "fr": "Gui",
           "id": "Gi",
+          "ja": "ギ",
           "pt": "Gui",
+          "ru": "Ги",
           "tr": "Gi"
         },
         "tempo": 90,
@@ -2426,7 +2536,9 @@
           "es": "G hacia la 'i'. Un comienzo limpio y claro.",
           "fr": "Attaque en G vers un I. Un départ propre et net.",
           "id": "Awalan G menuju I. Awal nada yang bersih dan jernih.",
+          "ja": "Gから「イ」へ。すっきりとクリアな出だしです。",
           "pt": "Ataque de G no 'i'. Um começo limpo e claro.",
+          "ru": "Г в «И». Чистое, ясное начало.",
           "tr": "G atağıyla İ sesine. Temiz ve net bir başlangıç."
         },
         "trill": null,
@@ -2444,7 +2556,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -2464,7 +2578,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 100,
@@ -2474,7 +2590,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -2492,7 +2610,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -2512,7 +2632,9 @@
           "es": "Ui",
           "fr": "Oui",
           "id": "Wi",
+          "ja": "ウィ",
           "pt": "Uí",
+          "ru": "Уи",
           "tr": "Ui"
         },
         "tempo": 110,
@@ -2522,7 +2644,9 @@
           "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
           "fr": "Un glissé doux vers un I. Clair et léger.",
           "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+          "ja": "「イ」へなめらかにつなぎます。明るく軽い音です。",
           "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+          "ru": "Мягкое скольжение в «И». Светло и легко.",
           "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
         },
         "trill": null,
@@ -2540,7 +2664,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -2560,7 +2686,9 @@
           "es": "Mah",
           "fr": "Mah",
           "id": "Ma",
+          "ja": "マ",
           "pt": "Má",
+          "ru": "Ма",
           "tr": "Ma"
         },
         "tempo": 100,
@@ -2570,7 +2698,9 @@
           "es": "M hacia una Ah abierta. Un comienzo fácil y cálido.",
           "fr": "M vers un Ah ouvert. Un départ facile et chaleureux.",
           "id": "M menuju A terbuka. Awal yang mudah dan hangat.",
+          "ja": "Mから開いた「ア」へ。楽で温かみのある出だしです。",
           "pt": "M para o 'a' aberto. Um começo fácil e quente.",
+          "ru": "М в открытое «А». Лёгкое, тёплое начало.",
           "tr": "M'den açık A sesine. Rahat, sıcak bir başlangıç."
         },
         "trill": null,
@@ -2588,7 +2718,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -2608,7 +2740,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 90,
@@ -2618,7 +2752,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -2636,7 +2772,9 @@
               "es": "Vocales puras",
               "fr": "Voyelles pures",
               "id": "Vokal murni",
+              "ja": "純粋な母音",
               "pt": "Vogais puras",
+              "ru": "Чистые гласные",
               "tr": "Saf ünlüler"
             }
           },
@@ -2649,7 +2787,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -2669,7 +2809,9 @@
           "es": "Uu → Oh → Ah",
           "fr": "Ou → Oh → Ah",
           "id": "U → O → A",
+          "ja": "ウ → オ → ア",
           "pt": "U → Ô → Ah",
+          "ru": "У → О → А",
           "tr": "U → O → A"
         },
         "tempo": 60,
@@ -2679,7 +2821,9 @@
           "es": "Pasa con suavidad de una vocal a la siguiente en cada nota.",
           "fr": "Passe en douceur d'une voyelle à l'autre sur chaque note.",
           "id": "Ubah bentuk vokal dengan halus di tiap nada.",
+          "ja": "1音ごとに、次の母音へなめらかに移ります。",
           "pt": "Passe de uma forma de vogal para outra suavemente em cada nota.",
+          "ru": "Плавно переходи от гласного к гласному на каждой ноте.",
           "tr": "Her notada ünlü biçimleri arasında akıcı şekilde geç."
         },
         "trill": null,
@@ -2694,7 +2838,9 @@
       "es": "Gana volumen y alcance, con la garganta tranquila.",
       "fr": "Chante plus fort et porte plus loin, la gorge détendue.",
       "id": "Lebih keras dan terdengar lebih jauh, dengan tenggorokan yang santai.",
+      "ja": "喉を楽にしたまま、より大きく、より遠くまで届く声を目指します。",
       "pt": "Ganhe volume e alcance, com a garganta tranquila.",
+      "ru": "Пой громче и дальше, со свободным горлом.",
       "tr": "Boğazın rahatken daha gür söyle, sesin daha uzağa ulaşsın."
     },
     "hash": "bf81d437c2f51afd2741f44b9fa202bd9e1d38d103b51c94153a0d3c729a4794",
@@ -2706,7 +2852,9 @@
       "es": "Potencia y Volumen",
       "fr": "Puissance et volume",
       "id": "Tenaga & Volume",
+      "ja": "パワー＆声量",
       "pt": "Potência e volume",
+      "ru": "Сила и громкость",
       "tr": "Güç & Hacim"
     },
     "presets": {
@@ -3573,11 +3721,25 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -3601,7 +3763,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -3614,7 +3778,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -3634,7 +3800,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -3644,7 +3812,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -3662,7 +3832,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -3682,7 +3854,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 80,
@@ -3692,7 +3866,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -3710,7 +3886,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -3730,7 +3908,9 @@
           "es": "Gag",
           "fr": "Gag",
           "id": "Gag",
+          "ja": "ガグ",
           "pt": "Gag",
+          "ru": "Гаг",
           "tr": "Gag"
         },
         "tempo": 100,
@@ -3740,7 +3920,9 @@
           "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
           "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
           "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+          "ja": "Gから短い「ア」へ。最後のGに母音はつけません。しっかりした出だしです。きつく感じたら、軽めにしましょう。",
           "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+          "ru": "Г в короткое «А». Плотное начало. Если звучит жёстко, делай легче.",
           "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
         },
         "trill": null,
@@ -3758,7 +3940,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -3778,7 +3962,9 @@
           "es": "Ba",
           "fr": "Ba",
           "id": "Ba",
+          "ja": "バ",
           "pt": "Bá",
+          "ru": "Ба",
           "tr": "Ba"
         },
         "tempo": 100,
@@ -3788,7 +3974,9 @@
           "es": "B hacia la 'a'. Crea un aire constante detrás del sonido.",
           "fr": "Attaque en B vers un A. Installe un air régulier derrière le son.",
           "id": "Awalan B menuju A. Membangun aliran udara yang tenang di balik bunyi.",
+          "ja": "Bから短い「ア」へ。音の後ろに安定した息を作ります。",
           "pt": "Ataque de B no 'a'. Cria um ar constante por trás do som.",
+          "ru": "Б в короткое «А». Помогает собрать ровный воздух за звуком.",
           "tr": "B atağıyla A sesine. Sesin arkasında sabit bir hava akışı kurar."
         },
         "trill": null,
@@ -3806,7 +3994,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           },
@@ -3819,7 +4009,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -3839,7 +4031,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 100,
@@ -3849,7 +4043,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -3867,7 +4063,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -3880,7 +4078,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           }
@@ -3900,7 +4100,9 @@
           "es": "Gag",
           "fr": "Gag",
           "id": "Gag",
+          "ja": "ガグ",
           "pt": "Gag",
+          "ru": "Гаг",
           "tr": "Gag"
         },
         "tempo": 90,
@@ -3910,7 +4112,9 @@
           "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
           "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
           "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+          "ja": "Gから短い「ア」へ。最後のGに母音はつけません。しっかりした出だしです。きつく感じたら、軽めにしましょう。",
           "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+          "ru": "Г в короткое «А». Плотное начало. Если звучит жёстко, делай легче.",
           "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
         },
         "trill": null,
@@ -3928,7 +4132,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -3941,7 +4147,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           }
@@ -3961,7 +4169,9 @@
           "es": "Mam",
           "fr": "Mam",
           "id": "Mam",
+          "ja": "マム",
           "pt": "Mam",
+          "ru": "Мам",
           "tr": "Mam"
         },
         "tempo": 90,
@@ -3971,7 +4181,9 @@
           "es": "M hacia una 'a' corta. Relajado, como al hablar.",
           "fr": "M vers un A bref. Détendu, comme quand tu parles.",
           "id": "M menuju A pendek. Santai, seperti bicara.",
+          "ja": "Mから、「マ」と「モ」の間のあいまいな短い母音へ。最後は唇を閉じます。話すように力を抜いて歌います。",
           "pt": "M para o 'a' fechado. Relaxado, como na fala.",
+          "ru": "М в короткое «А». Расслабленно, как в разговоре.",
           "tr": "M'den kısa A sesine. Konuşur gibi gevşek."
         },
         "trill": null,
@@ -3989,7 +4201,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -4002,7 +4216,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           }
@@ -4022,7 +4238,9 @@
           "es": "Mah",
           "fr": "Mah",
           "id": "Ma",
+          "ja": "マ",
           "pt": "Má",
+          "ru": "Ма",
           "tr": "Ma"
         },
         "tempo": 80,
@@ -4032,7 +4250,9 @@
           "es": "M hacia una Ah abierta. Un comienzo fácil y cálido.",
           "fr": "M vers un Ah ouvert. Un départ facile et chaleureux.",
           "id": "M menuju A terbuka. Awal yang mudah dan hangat.",
+          "ja": "Mから開いた「ア」へ。楽で温かみのある出だしです。",
           "pt": "M para o 'a' aberto. Um começo fácil e quente.",
+          "ru": "М в открытое «А». Лёгкое, тёплое начало.",
           "tr": "M'den açık A sesine. Rahat, sıcak bir başlangıç."
         },
         "trill": null,
@@ -4050,7 +4270,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -4070,7 +4292,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 90,
@@ -4080,7 +4304,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -4095,7 +4321,9 @@
       "es": "Desarrolla velocidad, precisión y flexibilidad para el canto melismático.",
       "fr": "Développe vitesse, précision et souplesse pour les mélismes.",
       "id": "Kembangkan kecepatan, ketepatan, dan kelenturan untuk nyanyian melismatis.",
+      "ja": "細かく動くフレーズに必要な速さ、正確さ、柔軟さを養います。",
       "pt": "Desenvolva velocidade, precisão e flexibilidade para cantar melismas.",
+      "ru": "Скорость, точность и гибкость для мелизматического пения.",
       "tr": "Melizmatik söyleyiş için hız, kesinlik ve esneklik geliştir."
     },
     "hash": "43100aebdbeb33254f16bf1e550637c1bbee610fb600bec4a6a3dd946da10dba",
@@ -4107,7 +4335,9 @@
       "es": "Agilidad y Escalas",
       "fr": "Agilité et vocalises",
       "id": "Kelincahan & Run",
+      "ja": "アジリティ＆ラン",
       "pt": "Agilidade e melismas",
+      "ru": "Беглость и мелизмы",
       "tr": "Çeviklik & Pasajlar"
     },
     "presets": {
@@ -4947,7 +5177,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -4963,7 +5195,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -4983,7 +5217,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -4993,7 +5229,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -5011,7 +5249,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -5031,7 +5271,9 @@
           "es": "Mi",
           "fr": "Mi",
           "id": "Mi",
+          "ja": "ミ",
           "pt": "Mi",
+          "ru": "Ми",
           "tr": "Mi"
         },
         "tempo": 100,
@@ -5041,7 +5283,9 @@
           "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
           "fr": "M vers un I clair. Un son net et sonore.",
           "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+          "ja": "Mから明るい「イ」へ。クリアでよく響く音です。",
           "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+          "ru": "М в светлое «И». Чистый, звонкий звук.",
           "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
         },
         "trill": null,
@@ -5059,7 +5303,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -5079,7 +5325,9 @@
           "es": "Dah",
           "fr": "Dah",
           "id": "Da",
+          "ja": "ダ",
           "pt": "Dá",
+          "ru": "Да",
           "tr": "Da"
         },
         "tempo": 120,
@@ -5089,7 +5337,9 @@
           "es": "D hacia Ah. Un toque ligero de la lengua empieza cada nota.",
           "fr": "Attaque en D vers un Ah. Une petite touche de la langue lance chaque note.",
           "id": "Awalan D menuju A. Sentuhan ringan lidah memulai tiap nada.",
+          "ja": "Dから「ア」へ。舌先を軽く当てて、1音ずつ始めます。",
           "pt": "Ataque de D no 'a'. Um toque leve da língua começa cada nota.",
+          "ru": "Д в «А». Лёгкий удар языка начинает каждую ноту.",
           "tr": "D atağıyla A sesine. Her notayı dilin hafif bir dokunuşu başlatır."
         },
         "trill": null,
@@ -5107,7 +5357,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -5127,7 +5379,9 @@
           "es": "Ni",
           "fr": "Ni",
           "id": "Ni",
+          "ja": "ニ",
           "pt": "Ni",
+          "ru": "Ни",
           "tr": "Ni"
         },
         "tempo": 140,
@@ -5137,7 +5391,9 @@
           "es": "N hacia la 'i'. Brillante, con una vibración ligera.",
           "fr": "N vers un I. Clair, avec un léger bourdonnement.",
           "id": "N menuju I. Cerah, dengan dengung ringan.",
+          "ja": "Nから「イ」へ。明るく、軽い振動があります。",
           "pt": "N para o 'i'. Brilhante, com uma vibração leve.",
+          "ru": "Н в «И». Светло, с лёгкой вибрацией.",
           "tr": "N'den İ sesine. Parlak, hafif bir titreşimle."
         },
         "trill": null,
@@ -5161,7 +5417,9 @@
           "es": "La",
           "fr": "La",
           "id": "La",
+          "ja": "ラ",
           "pt": "Lá",
+          "ru": "Ля",
           "tr": "La"
         },
         "tempo": 130,
@@ -5171,7 +5429,9 @@
           "es": "L hacia Ah. Lengua suelta, sonido abierto.",
           "fr": "Attaque en L vers un Ah. Langue souple, son ouvert.",
           "id": "Awalan L menuju A. Lidah lentur, bunyi terbuka.",
+          "ja": "Lから「ア」へ。舌の力を抜いた、開いた音です。",
           "pt": "Ataque de L no 'a'. Língua flexível, som aberto.",
+          "ru": "Л в «А». Свободный язык и открытый звук.",
           "tr": "L atağıyla A sesine. Esnek dil, açık ses."
         },
         "trill": null,
@@ -5189,7 +5449,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -5202,7 +5464,9 @@
               "es": "Agilidad",
               "fr": "Agilité",
               "id": "Kelincahan",
+              "ja": "アジリティ",
               "pt": "Agilidade",
+              "ru": "Беглость",
               "tr": "Çeviklik"
             }
           }
@@ -5222,7 +5486,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 100,
@@ -5232,7 +5498,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -5250,7 +5518,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -5263,7 +5533,9 @@
               "es": "Agilidad",
               "fr": "Agilité",
               "id": "Kelincahan",
+              "ja": "アジリティ",
               "pt": "Agilidade",
+              "ru": "Беглость",
               "tr": "Çeviklik"
             }
           }
@@ -5283,7 +5555,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 120,
@@ -5293,7 +5567,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -5311,7 +5587,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -5324,7 +5602,9 @@
               "es": "Agilidad",
               "fr": "Agilité",
               "id": "Kelincahan",
+              "ja": "アジリティ",
               "pt": "Agilidade",
+              "ru": "Беглость",
               "tr": "Çeviklik"
             }
           }
@@ -5344,7 +5624,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 140,
@@ -5354,7 +5636,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -5378,7 +5662,9 @@
           "es": "Ii",
           "fr": "Ii",
           "id": "I",
+          "ja": "イ",
           "pt": "I",
+          "ru": "И",
           "tr": "İ"
         },
         "tempo": 130,
@@ -5388,7 +5674,9 @@
           "es": "La vocal brillante de 'sí'. Una sonrisa leve ayuda.",
           "fr": "La voyelle claire, le « i » de « lit ». Un léger sourire aide.",
           "id": "Vokal cerah seperti pada 'ini'. Senyum tipis membantu.",
+          "ja": "明るい「イ」。少し微笑むと出しやすくなります。",
           "pt": "A vogal brilhante, o 'i' de 'vida'. Um leve sorriso ajuda.",
+          "ru": "Светлый гласный, как в «мир». Помогает лёгкая улыбка.",
           "tr": "'İyi'deki parlak ünlü. Hafif bir gülümseme yardımcı olur."
         },
         "trill": null,
@@ -5406,7 +5694,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -5419,7 +5709,9 @@
               "es": "Agilidad",
               "fr": "Agilité",
               "id": "Kelincahan",
+              "ja": "アジリティ",
               "pt": "Agilidade",
+              "ru": "Беглость",
               "tr": "Çeviklik"
             }
           }
@@ -5439,7 +5731,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 160,
@@ -5449,7 +5743,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -5464,7 +5760,9 @@
       "es": "Frases más largas y respiraciones fáciles, con un aire constante.",
       "fr": "Des phrases plus longues et des inspirations faciles, avec un souffle régulier.",
       "id": "Frasa lebih panjang dan tarikan napas yang mudah, dengan aliran udara yang tenang.",
+      "ja": "安定した息で、長いフレーズと楽な息継ぎを身につけます。",
       "pt": "Frases mais longas e respirações fáceis, com ar constante.",
+      "ru": "Длинные фразы и лёгкий добор воздуха, на ровном выдохе.",
       "tr": "Daha uzun cümleler ve rahat nefes alışlar, sabit bir hava akışıyla."
     },
     "hash": "53fa10dc1cb783442d1db3f363f1d8496e728092ba5af3e0f4f7ef4019fdb1aa",
@@ -5476,7 +5774,9 @@
       "es": "Control de Aire y Resistencia",
       "fr": "Souffle et endurance",
       "id": "Kontrol Napas & Stamina",
+      "ja": "ブレス＆スタミナ",
       "pt": "Controle de ar e fôlego",
+      "ru": "Дыхание и выносливость",
       "tr": "Nefes Kontrolü & Dayanıklılık"
     },
     "presets": {
@@ -6158,6 +6458,18 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "1音ずつ、最後まで安定して伸ばします",
+          "id": "sustain",
+          "label": "ロングトーン"
+        },
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Segure cada nota firme por toda a duração",
@@ -6168,6 +6480,18 @@
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Держи каждую ноту ровно всю её длину",
+          "id": "sustain",
+          "label": "Долгие ноты"
+        },
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -6202,7 +6526,9 @@
           "es": "Ssss",
           "fr": "Ssss",
           "id": "Ssss",
+          "ja": "スー",
           "pt": "Ssss",
+          "ru": "Сссс",
           "tr": "Ssss"
         },
         "tempo": 60,
@@ -6212,7 +6538,9 @@
           "es": "Suelta el siseo despacio y de forma pareja.",
           "fr": "Laisse sortir le sifflement lentement et régulièrement.",
           "id": "Keluarkan desisnya pelan dan rata.",
+          "ja": "「スー」という息の音を、ゆっくり均等に出します。",
           "pt": "Solte o chiado devagar e por igual.",
+          "ru": "Выпускай шипение медленно и ровно.",
           "tr": "Tıslamayı yavaşça ve eşit şekilde bırak."
         },
         "trill": null,
@@ -6230,7 +6558,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -6250,7 +6580,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 70,
@@ -6260,7 +6592,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -6278,7 +6612,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -6298,7 +6634,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 60,
@@ -6308,7 +6646,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -6326,7 +6666,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -6346,7 +6688,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 70,
@@ -6356,7 +6700,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -6374,7 +6720,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -6394,7 +6742,9 @@
           "es": "Mu",
           "fr": "Mou",
           "id": "Mu",
+          "ja": "ム",
           "pt": "Mu",
+          "ru": "Му",
           "tr": "Mu"
         },
         "tempo": 60,
@@ -6404,7 +6754,9 @@
           "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
           "fr": "M vers un Ou. Un départ doux, un son chaud.",
           "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+          "ja": "Mから「ウ」へ。やさしい出だしと、やわらかく温かい音です。",
           "pt": "M para o 'u'. Um começo suave e um som quente.",
+          "ru": "М в «У». Мягкое начало и мягкий, тёплый звук.",
           "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
         },
         "trill": null,
@@ -6422,7 +6774,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -6442,7 +6796,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 60,
@@ -6452,7 +6808,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -6470,7 +6828,9 @@
               "es": "Vocales puras",
               "fr": "Voyelles pures",
               "id": "Vokal murni",
+              "ja": "純粋な母音",
               "pt": "Vogais puras",
+              "ru": "Чистые гласные",
               "tr": "Saf ünlüler"
             }
           }
@@ -6490,7 +6850,9 @@
           "es": "Ii → Ah → Uu",
           "fr": "Ii → Ah → Ou",
           "id": "I → A → U",
+          "ja": "イ → ア → ウ",
           "pt": "I → Ah → U",
+          "ru": "И → А → У",
           "tr": "İ → A → U"
         },
         "tempo": 50,
@@ -6500,7 +6862,9 @@
           "es": "Pasa con suavidad de una vocal a la siguiente en cada nota.",
           "fr": "Passe en douceur d'une voyelle à l'autre sur chaque note.",
           "id": "Ubah bentuk vokal dengan halus di tiap nada.",
+          "ja": "1音ごとに、次の母音へなめらかに移ります。",
           "pt": "Passe de uma forma de vogal para outra suavemente em cada nota.",
+          "ru": "Плавно переходи от гласного к гласному на каждой ноте.",
           "tr": "Her notada ünlü biçimleri arasında akıcı şekilde geç."
         },
         "trill": null,
@@ -6515,7 +6879,9 @@
       "es": "Mantén o relaja la voz suavemente. Para días ligeros o post-presentación.",
       "fr": "Entretiens ou repose ta voix en douceur. Pour les jours légers ou l'après-concert.",
       "id": "Jaga atau tenangkan suara dengan lembut. Untuk hari ringan atau setelah tampil.",
+      "ja": "声をやさしく保ち、ゆっくり休ませます。軽く済ませたい日や本番のあとに。",
       "pt": "Mantenha ou desaqueça a voz com calma. Para dias leves ou pós-show.",
+      "ru": "Бережно поддержи голос или дай ему остыть. Для лёгких дней и после выступления.",
       "tr": "Sesini nazikçe koru ya da yavaşça dinlendir. Hafif günler ve sahne sonrası için."
     },
     "hash": "784b5b231d5a1c29427aff57bed3c1d670a8009dbeddd107ad93e2ccf772558c",
@@ -6527,7 +6893,9 @@
       "es": "Suave / Recuperación",
       "fr": "Douceur / Récupération",
       "id": "Lembut / Pemulihan",
+      "ja": "軽め / リカバリー",
       "pt": "Leve / recuperação",
+      "ru": "Мягко / Восстановление",
       "tr": "Hafif / Toparlanma"
     },
     "presets": {
@@ -7074,6 +7442,18 @@
           "label": "Pendinginan"
         }
       ],
+      "ja": [
+        {
+          "description": "やさしく、楽に。声をふわりと浮かせます。",
+          "id": "light",
+          "label": "やさしく楽に"
+        },
+        {
+          "description": "楽な音で締めくくります。今の声の感じに注意を向けてみましょう。",
+          "id": "coolDown",
+          "label": "クールダウン"
+        }
+      ],
       "pt": [
         {
           "description": "Leve e fácil. Deixe flutuar.",
@@ -7084,6 +7464,18 @@
           "description": "Sons fáceis para terminar. Repare em como sua voz está agora.",
           "id": "coolDown",
           "label": "Desaquecimento"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Мягко и легко. Пусть звук парит.",
+          "id": "light",
+          "label": "Мягко и легко"
+        },
+        {
+          "description": "Лёгкие звуки в конце. Заметь, как сейчас ощущается голос.",
+          "id": "coolDown",
+          "label": "Заминка"
         }
       ],
       "tr": [
@@ -7112,7 +7504,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7132,7 +7526,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 80,
@@ -7142,7 +7538,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -7160,7 +7558,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7180,7 +7580,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -7190,7 +7592,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -7214,7 +7618,9 @@
           "es": "Mu",
           "fr": "Mou",
           "id": "Mu",
+          "ja": "ム",
           "pt": "Mu",
+          "ru": "Му",
           "tr": "Mu"
         },
         "tempo": 70,
@@ -7224,7 +7630,9 @@
           "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
           "fr": "M vers un Ou. Un départ doux, un son chaud.",
           "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+          "ja": "Mから「ウ」へ。やさしい出だしと、やわらかく温かい音です。",
           "pt": "M para o 'u'. Um começo suave e um som quente.",
+          "ru": "М в «У». Мягкое начало и мягкий, тёплый звук.",
           "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
         },
         "trill": null,
@@ -7242,7 +7650,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7262,7 +7672,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -7272,7 +7684,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -7290,7 +7704,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7310,7 +7726,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 80,
@@ -7320,7 +7738,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -7338,7 +7758,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7358,7 +7780,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 60,
@@ -7368,7 +7792,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -7383,7 +7809,9 @@
       "es": "Prepárate rápido para cantar. Cubre lo esencial en menos de 10 minutos.",
       "fr": "Sois prêt rapidement. L'essentiel en moins de 10 minutes.",
       "id": "Siap tampil dengan cepat. Yang penting-penting saja, di bawah 10 menit.",
+      "ja": "短時間で本番に備えます。大事なポイントを10分以内でカバーします。",
       "pt": "Fique pronto para o palco rápido. O essencial em menos de 10 minutos.",
+      "ru": "Быстро подготовься к выходу на сцену. Всё главное меньше чем за 10 минут.",
       "tr": "Hızlıca sahneye hazır ol. 10 dakikanın altında temel her şeyi kapsar."
     },
     "hash": "7165fbac2860399712ff0467ca1532a567d0a54622ec284650037371a033778e",
@@ -7395,7 +7823,9 @@
       "es": "Pre-Presentación Rápido",
       "fr": "Express avant scène",
       "id": "Cepat Sebelum Tampil",
+      "ja": "本番前クイック",
       "pt": "Rápida pré-show",
+      "ru": "Перед выступлением",
       "tr": "Sahne Öncesi Hızlı"
     },
     "presets": {
@@ -7854,7 +8284,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -7870,7 +8302,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -7890,7 +8324,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 100,
@@ -7900,7 +8336,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -7918,7 +8356,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           },
@@ -7931,7 +8371,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -7951,7 +8393,9 @@
           "es": "Mam",
           "fr": "Mam",
           "id": "Mam",
+          "ja": "マム",
           "pt": "Mam",
+          "ru": "Мам",
           "tr": "Mam"
         },
         "tempo": 100,
@@ -7961,7 +8405,9 @@
           "es": "M hacia una 'a' corta. Relajado, como al hablar.",
           "fr": "M vers un A bref. Détendu, comme quand tu parles.",
           "id": "M menuju A pendek. Santai, seperti bicara.",
+          "ja": "Mから、「マ」と「モ」の間のあいまいな短い母音へ。最後は唇を閉じます。話すように力を抜いて歌います。",
           "pt": "M para o 'a' fechado. Relaxado, como na fala.",
+          "ru": "М в короткое «А». Расслабленно, как в разговоре.",
           "tr": "M'den kısa A sesine. Konuşur gibi gevşek."
         },
         "trill": null,
@@ -7979,7 +8425,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           },
@@ -7992,7 +8440,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -8012,7 +8462,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 110,
@@ -8022,7 +8474,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -8040,7 +8494,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -8060,7 +8516,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 110,
@@ -8070,7 +8528,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -8088,7 +8548,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -8108,7 +8570,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 100,
@@ -8118,7 +8582,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -8133,7 +8599,9 @@
       "es": "Canta cada nota por su nombre mientras el piano va subiendo de tono. El calentamiento clásico de solfeo.",
       "fr": "Chante chaque note sur son nom pendant que le piano monte de tonalité en tonalité. L'échauffement classique en solfège.",
       "id": "Nyanyikan tiap nada dengan namanya sementara nada dasar piano terus naik. Pemanasan solfegio klasik.",
+      "ja": "ピアノがキーを1つずつ上げていくのに合わせて、すべての音を音名で歌います。定番のドレミ唱ウォームアップです。",
       "pt": "Cante cada nota pelo nome enquanto o piano vai subindo o tom. O aquecimento clássico de solfejo.",
+      "ru": "Пой каждую ноту на её название, пока пианино поднимается по полутонам. Классическая распевка на сольфеджио.",
       "tr": "Piyano ton ton yükselirken her notayı adıyla söyle. Klasik solfej ısınması."
     },
     "hash": "3b9580de1adfde973df1f4472325752bb92893a654b8b9c82506588da14e0446",
@@ -8145,7 +8613,9 @@
       "es": "Do Re Mi",
       "fr": "Do Ré Mi",
       "id": "Do Re Mi (Solfegio)",
+      "ja": "ドレミ",
       "pt": "Dó Ré Mi",
+      "ru": "До Ре Ми",
       "tr": "Do Re Mi"
     },
     "presets": {
@@ -8717,7 +9187,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -8733,7 +9205,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -8746,7 +9220,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -8766,7 +9242,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -8776,7 +9254,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -8800,7 +9280,9 @@
           "es": "Do Re Mi",
           "fr": "Do Ré Mi",
           "id": "Do Re Mi",
+          "ja": "ドレミ",
           "pt": "Dó Ré Mi",
+          "ru": "До Ре Ми",
           "tr": "Do Re Mi"
         },
         "tempo": 84,
@@ -8810,7 +9292,9 @@
           "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
           "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
           "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+          "ja": "円に表示された音名で1音ずつ歌い、シャープやフラットは歌いません。音の移り変わりは正確に、母音ははっきりと歌いましょう。",
           "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+          "ru": "Пой каждую ноту на её название, как его показывает круг, без диезов и бемолей. Чистые переходы, ясные гласные.",
           "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
         },
         "trill": null,
@@ -8834,7 +9318,9 @@
           "es": "Do Re Mi",
           "fr": "Do Ré Mi",
           "id": "Do Re Mi",
+          "ja": "ドレミ",
           "pt": "Dó Ré Mi",
+          "ru": "До Ре Ми",
           "tr": "Do Re Mi"
         },
         "tempo": 92,
@@ -8844,7 +9330,9 @@
           "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
           "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
           "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+          "ja": "円に表示された音名で1音ずつ歌い、シャープやフラットは歌いません。音の移り変わりは正確に、母音ははっきりと歌いましょう。",
           "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+          "ru": "Пой каждую ноту на её название, как его показывает круг, без диезов и бемолей. Чистые переходы, ясные гласные.",
           "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
         },
         "trill": null,
@@ -8868,7 +9356,9 @@
           "es": "Do Re Mi",
           "fr": "Do Ré Mi",
           "id": "Do Re Mi",
+          "ja": "ドレミ",
           "pt": "Dó Ré Mi",
+          "ru": "До Ре Ми",
           "tr": "Do Re Mi"
         },
         "tempo": 100,
@@ -8878,7 +9368,9 @@
           "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
           "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
           "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+          "ja": "円に表示された音名で1音ずつ歌い、シャープやフラットは歌いません。音の移り変わりは正確に、母音ははっきりと歌いましょう。",
           "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+          "ru": "Пой каждую ноту на её название, как его показывает круг, без диезов и бемолей. Чистые переходы, ясные гласные.",
           "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
         },
         "trill": null,
@@ -8902,7 +9394,9 @@
           "es": "Do Re Mi",
           "fr": "Do Ré Mi",
           "id": "Do Re Mi",
+          "ja": "ドレミ",
           "pt": "Dó Ré Mi",
+          "ru": "До Ре Ми",
           "tr": "Do Re Mi"
         },
         "tempo": 90,
@@ -8912,7 +9406,9 @@
           "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
           "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
           "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+          "ja": "円に表示された音名で1音ずつ歌い、シャープやフラットは歌いません。音の移り変わりは正確に、母音ははっきりと歌いましょう。",
           "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+          "ru": "Пой каждую ноту на её название, как его показывает круг, без диезов и бемолей. Чистые переходы, ясные гласные.",
           "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
         },
         "trill": null,
@@ -8930,7 +9426,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -8950,7 +9448,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 80,
@@ -8960,7 +9460,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -8975,7 +9477,9 @@
       "es": "Prepárate para grit, rasp y voces extremas. Voz limpia primero, distorsión encima.",
       "fr": "Prépare le grain, la rocaille et les voix extrêmes. Voix claire d'abord, distorsion ensuite.",
       "id": "Siapkan diri untuk suara kasar, serak, dan ekstrem. Suara bersih dulu, distorsi belakangan.",
+      "ja": "がなりやディストーション、エクストリームボーカルの準備をします。まずクリーンな声を整え、その上にディストーションを乗せます。",
       "pt": "Prepare-se para aspereza, rouquidão e vocais extremos. Voz limpa primeiro, distorção depois.",
+      "ru": "Подготовка к хрипотце, хрипу и экстремальному вокалу. Сначала чистый голос, расщепление поверх.",
       "tr": "Kirli ton, rasp ve ekstrem vokallere hazırlan. Önce temiz ses, üstüne distorsiyon."
     },
     "hash": "4495eacf665edaf1aa440ee3eb525e98cb14c3653942d7f295aa5995a7504edd",
@@ -8987,7 +9491,9 @@
       "es": "Rock Pesado / Distorsión",
       "fr": "Rock lourd / Distorsion",
       "id": "Heavy Rock / Distorsi",
+      "ja": "ヘビーロック / ディストーション",
       "pt": "Rock pesado / distorção",
+      "ru": "Тяжёлый рок / Расщепление",
       "tr": "Heavy Rock / Distorsiyon"
     },
     "presets": {
@@ -10225,7 +10731,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -10241,7 +10749,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -10254,7 +10764,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -10274,7 +10786,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 90,
@@ -10284,7 +10798,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -10302,7 +10818,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -10322,7 +10840,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 80,
@@ -10332,7 +10852,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -10350,7 +10872,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -10363,7 +10887,9 @@
               "es": "Notas largas",
               "fr": "Notes longues",
               "id": "Nada panjang",
+              "ja": "ロングトーン",
               "pt": "Notas longas",
+              "ru": "Долгие ноты",
               "tr": "Uzun notalar"
             }
           }
@@ -10383,7 +10909,9 @@
           "es": "Zzz",
           "fr": "Zzz",
           "id": "Zzz",
+          "ja": "ズー",
           "pt": "Zzz",
+          "ru": "Ззз",
           "tr": "Zzz"
         },
         "tempo": 80,
@@ -10393,7 +10921,9 @@
           "es": "Un zumbido como de abeja. Mantenlo constante y parejo.",
           "fr": "Un bourdonnement comme une abeille. Garde-le stable et régulier.",
           "id": "Dengung seperti lebah. Jaga tetap stabil dan rata.",
+          "ja": "ハチの羽音のような「ズー」という音。一定に、むらなく保ちます。",
           "pt": "Um zumbido de abelha. Mantenha firme e por igual.",
+          "ru": "Жужжание, как у пчелы. Ровное и непрерывное.",
           "tr": "Arı gibi bir vızıltı. Sabit ve düzgün tut."
         },
         "trill": null,
@@ -10411,7 +10941,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -10431,7 +10963,9 @@
           "es": "Gag",
           "fr": "Gag",
           "id": "Gag",
+          "ja": "ガグ",
           "pt": "Gag",
+          "ru": "Гаг",
           "tr": "Gag"
         },
         "tempo": 100,
@@ -10441,7 +10975,9 @@
           "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
           "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
           "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+          "ja": "Gから短い「ア」へ。最後のGに母音はつけません。しっかりした出だしです。きつく感じたら、軽めにしましょう。",
           "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+          "ru": "Г в короткое «А». Плотное начало. Если звучит жёстко, делай легче.",
           "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
         },
         "trill": null,
@@ -10459,7 +10995,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -10472,7 +11010,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -10492,7 +11032,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 100,
@@ -10502,7 +11044,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -10520,7 +11064,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           },
@@ -10533,7 +11079,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -10553,7 +11101,9 @@
           "es": "Jei-Jei",
           "fr": "Hé-Hé",
           "id": "Hey-Hey",
+          "ja": "ヘイ・ヘイ",
           "pt": "Ei-Ei",
+          "ru": "Хэй-Хэй",
           "tr": "Hey-Hey"
         },
         "tempo": 100,
@@ -10563,7 +11113,9 @@
           "es": "Jei repetido. Un pequeño rebote de aire en cada uno.",
           "fr": "« Hé » répété. Un petit rebond d'air sur chacun.",
           "id": "Hey berulang. Pantulan napas kecil di setiap Hey.",
+          "ja": "「ヘイ」を繰り返します。1回ごとに息を軽く弾ませます。",
           "pt": "'Ei' repetido. Um pequeno impulso de ar em cada um.",
+          "ru": "Повторяющееся «Хэй». Маленький толчок воздуха на каждом.",
           "tr": "Tekrarlanan Hey. Her birinde küçük bir hava sekmesi."
         },
         "trill": null,
@@ -10581,7 +11133,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -10594,7 +11148,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           }
@@ -10614,7 +11170,9 @@
           "es": "Gag",
           "fr": "Gag",
           "id": "Gag",
+          "ja": "ガグ",
           "pt": "Gag",
+          "ru": "Гаг",
           "tr": "Gag"
         },
         "tempo": 90,
@@ -10624,7 +11182,9 @@
           "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
           "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
           "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+          "ja": "Gから短い「ア」へ。最後のGに母音はつけません。しっかりした出だしです。きつく感じたら、軽めにしましょう。",
           "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+          "ru": "Г в короткое «А». Плотное начало. Если звучит жёстко, делай легче.",
           "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
         },
         "trill": null,
@@ -10642,7 +11202,9 @@
               "es": "Vocal fry",
               "fr": "Fry vocal",
               "id": "Vocal fry",
+              "ja": "エッジボイス",
               "pt": "Vocal fry",
+              "ru": "Фрай",
               "tr": "Vokal fry"
             }
           },
@@ -10655,7 +11217,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -10668,7 +11232,9 @@
               "es": "Notas largas",
               "fr": "Notes longues",
               "id": "Nada panjang",
+              "ja": "ロングトーン",
               "pt": "Notas longas",
+              "ru": "Долгие ноты",
               "tr": "Uzun notalar"
             }
           }
@@ -10688,7 +11254,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 60,
@@ -10698,7 +11266,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -10716,7 +11286,9 @@
               "es": "Vocal fry",
               "fr": "Fry vocal",
               "id": "Vocal fry",
+              "ja": "エッジボイス",
               "pt": "Vocal fry",
+              "ru": "Фрай",
               "tr": "Vokal fry"
             }
           },
@@ -10729,7 +11301,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -10742,7 +11316,9 @@
               "es": "Notas largas",
               "fr": "Notes longues",
               "id": "Nada panjang",
+              "ja": "ロングトーン",
               "pt": "Notas longas",
+              "ru": "Долгие ноты",
               "tr": "Uzun notalar"
             }
           }
@@ -10762,7 +11338,9 @@
           "es": "Ah Eh Oh Uu Ii",
           "fr": "Ah È Oh Ou Ii",
           "id": "A É O U I",
+          "ja": "ア・エ・オ・ウ・イ",
           "pt": "Ah É Ô U I",
+          "ru": "А Э О У И",
           "tr": "A E O U İ"
         },
         "tempo": 60,
@@ -10772,7 +11350,9 @@
           "es": null,
           "fr": null,
           "id": null,
+          "ja": null,
           "pt": null,
+          "ru": null,
           "tr": null
         },
         "trill": null,
@@ -10790,7 +11370,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -10803,7 +11385,9 @@
               "es": "Vocal fry",
               "fr": "Fry vocal",
               "id": "Vocal fry",
+              "ja": "エッジボイス",
               "pt": "Vocal fry",
+              "ru": "Фрай",
               "tr": "Vokal fry"
             }
           }
@@ -10823,7 +11407,9 @@
           "es": "Jat",
           "fr": "Hat",
           "id": "Hat",
+          "ja": "ハッ",
           "pt": "Rá",
+          "ru": "Хат",
           "tr": "Hat"
         },
         "tempo": 70,
@@ -10833,7 +11419,9 @@
           "es": "Un corte breve y con golpe. Que el corte sea ligero. Si se siente áspero, suavízalo.",
           "fr": "Un arrêt bref et percutant. Garde cet arrêt léger. Si ça gratte, adoucis-le.",
           "id": "Hentakan pendek dan bertenaga. Jaga hentakannya tetap ringan. Kalau terasa kasar, lembutkan.",
+          "ja": "短く、歯切れよく止める音です。止め方は軽くします。きつく感じたら、やわらげてください。",
           "pt": "Um corte curto e marcado. Deixe o corte leve. Se ficar áspero, suavize.",
+          "ru": "Короткий, упругий толчок. Держи его лёгким. Если звучит жёстко, смягчи.",
           "tr": "Kısa, vurgulu bir kesme. Kesmeyi hafif tut. Sert gelirse yumuşat."
         },
         "trill": null,
@@ -10851,7 +11439,9 @@
               "es": "Rasgado",
               "fr": "Grain",
               "id": "Tekstur kasar",
+              "ja": "がなり",
               "pt": "Aspereza",
+              "ru": "С хрипотцой",
               "tr": "Pürüzlü ton"
             }
           },
@@ -10864,7 +11454,9 @@
               "es": "Aire tibio",
               "fr": "Air tiède",
               "id": "Napas hangat",
+              "ja": "温かい息",
               "pt": "Ar morno",
+              "ru": "Тёплый воздух",
               "tr": "Ilık hava"
             }
           },
@@ -10877,7 +11469,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -10897,7 +11491,9 @@
           "es": "Yei",
           "fr": "Yé",
           "id": "Yey",
+          "ja": "イェイ",
           "pt": "Ei",
+          "ru": "Йей",
           "tr": "Yey"
         },
         "tempo": 80,
@@ -10907,7 +11503,9 @@
           "es": "Y hacia la 'ei'. Un sonido brillante y alegre.",
           "fr": "Glissé en Y vers un É. Un son clair et joyeux.",
           "id": "Luncuran Y menuju Ey. Bunyi cerah dan ceria.",
+          "ja": "Yから「エイ」へ。明るく元気な音です。",
           "pt": "Deslize de Y no 'ei'. Um som brilhante e alegre.",
+          "ru": "Й в «Эй». Светлый, весёлый звук.",
           "tr": "Y kaymasıyla Ey sesine. Parlak, neşeli bir ses."
         },
         "trill": null,
@@ -10925,7 +11523,9 @@
               "es": "Rasgado",
               "fr": "Grain",
               "id": "Tekstur kasar",
+              "ja": "がなり",
               "pt": "Aspereza",
+              "ru": "С хрипотцой",
               "tr": "Pürüzlü ton"
             }
           },
@@ -10938,7 +11538,9 @@
               "es": "Aire tibio",
               "fr": "Air tiède",
               "id": "Napas hangat",
+              "ja": "温かい息",
               "pt": "Ar morno",
+              "ru": "Тёплый воздух",
               "tr": "Ilık hava"
             }
           },
@@ -10951,7 +11553,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           }
@@ -10971,7 +11575,9 @@
           "es": "NGya",
           "fr": "NGya",
           "id": "NGya",
+          "ja": "ンヤ",
           "pt": "Ngiá",
+          "ru": "Нгя",
           "tr": "NGya"
         },
         "tempo": 90,
@@ -10981,7 +11587,9 @@
           "es": "Un zumbido en NG que se desliza hacia Yah. Una base estable antes del rasgado.",
           "fr": "Un bourdonnement sur NG qui glisse vers Yah. Une base stable avant le grain.",
           "id": "Dengung NG yang meluncur ke Ya. Dasar yang mantap sebelum tekstur kasar.",
+          "ja": "「まんが」の「ん」のハミングから、なめらかに「ヤ」へつなぎます。がなりの前に声を安定させる土台になります。",
           "pt": "Um murmúrio em NG que desliza para o 'iá'. Uma base firme antes da aspereza.",
+          "ru": "Мычание на «нг», скользящее в «Я». Ровная основа перед хрипотцой.",
           "tr": "Ya sesine kayan bir NG mırıltısı. Pürüzlü sesten önce sağlam bir zemin."
         },
         "trill": null,
@@ -10999,7 +11607,9 @@
               "es": "Rasgado",
               "fr": "Grain",
               "id": "Tekstur kasar",
+              "ja": "がなり",
               "pt": "Aspereza",
+              "ru": "С хрипотцой",
               "tr": "Pürüzlü ton"
             }
           },
@@ -11012,7 +11622,9 @@
               "es": "Aire tibio",
               "fr": "Air tiède",
               "id": "Napas hangat",
+              "ja": "温かい息",
               "pt": "Ar morno",
+              "ru": "Тёплый воздух",
               "tr": "Ilık hava"
             }
           },
@@ -11025,7 +11637,9 @@
               "es": "Más volumen",
               "fr": "Plus fort",
               "id": "Lebih keras",
+              "ja": "大きく",
               "pt": "Mais volume",
+              "ru": "Громче",
               "tr": "Daha gür"
             }
           }
@@ -11045,7 +11659,9 @@
           "es": "Au",
           "fr": "Aou",
           "id": "Au",
+          "ja": "アウ",
           "pt": "Au",
+          "ru": "Ау",
           "tr": "Au"
         },
         "tempo": 80,
@@ -11055,7 +11671,9 @@
           "es": "El sonido de 'auto'. Abre bien y luego redondea los labios.",
           "fr": "Le son « aou » de « miaou ». Ouvre grand, puis arrondis les lèvres.",
           "id": "Bunyi seperti pada 'pulau'. Buka lebar, lalu bulatkan bibir.",
+          "ja": "「アウ」と動く音。大きく開けてから、唇を丸めます。",
           "pt": "O 'au' de 'mau'. Abra bem e depois arredonde os lábios.",
+          "ru": "Звук, как в «ау». Широко открой, потом округли губы.",
           "tr": "'Av' der gibi. Önce geniş aç, sonra dudaklarını yuvarla."
         },
         "trill": null,
@@ -11073,7 +11691,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -11093,7 +11713,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 90,
@@ -11103,7 +11725,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -11121,7 +11745,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -11134,7 +11760,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -11154,7 +11782,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -11164,7 +11794,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -11182,7 +11814,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -11202,7 +11836,9 @@
           "es": "Uu",
           "fr": "Ou",
           "id": "U",
+          "ja": "ウ",
           "pt": "U",
+          "ru": "У",
           "tr": "U"
         },
         "tempo": 70,
@@ -11212,7 +11848,9 @@
           "es": "La vocal de 'tú'. Redondea los labios en una o pequeña.",
           "fr": "Le « ou » de « loup ». Arrondis les lèvres en un petit o.",
           "id": "Vokal seperti pada 'buku'. Bulatkan bibir jadi O kecil.",
+          "ja": "唇を小さく丸めた「ウ」。話すときの「ウ」よりも唇をすぼめます。",
           "pt": "O 'u' de 'lua'. Arredonde os lábios num 'o' pequeno.",
+          "ru": "Гласный, как в «лук». Сложи губы в маленькое «о».",
           "tr": "'Uzun'daki ünlü. Dudaklarını küçük bir O gibi yuvarla."
         },
         "trill": null,
@@ -11227,7 +11865,9 @@
       "es": "Legato, manejo del aire, vocales puras y un tono pleno y brillante.",
       "fr": "Legato, gestion du souffle, voyelles pures et un son plein et timbré.",
       "id": "Legato, pengaturan napas, vokal murni, dan warna suara yang penuh dan cemerlang.",
+      "ja": "レガート、息のコントロール、純粋な母音、そして豊かに響く声。",
       "pt": "Legato, gestão do ar, vogais puras e um som cheio e brilhante.",
+      "ru": "Легато, работа с дыханием, чистые гласные и полный, звонкий тон.",
       "tr": "Legato, nefes yönetimi, saf ünlüler ve dolgun, parlak bir ton."
     },
     "hash": "5194d60bbdff12481ea830cacc7ba59021afe2f7132bfad44d408ae947ed2191",
@@ -11239,7 +11879,9 @@
       "es": "Clásico / Ópera",
       "fr": "Classique / Opéra",
       "id": "Klasik / Opera",
+      "ja": "クラシック / オペラ",
       "pt": "Clássico / ópera",
+      "ru": "Классика / Опера",
       "tr": "Klasik / Opera"
     },
     "presets": {
@@ -12237,11 +12879,25 @@
           "label": "Laring santai"
         }
       ],
+      "ja": [
+        {
+          "description": "アプローチの1つ：あくびの始まりのように、喉仏を落ち着かせます。舌で押し下げないでください。",
+          "id": "lowLarynx",
+          "label": "落ち着いた喉"
+        }
+      ],
       "pt": [
         {
           "description": "Um caminho: a laringe tranquila, como no começo de um bocejo. Nunca a abaixe à força com a língua.",
           "id": "lowLarynx",
           "label": "Laringe tranquila"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из способов: спокойная гортань, как в начале зевка. Никогда не дави её вниз языком.",
+          "id": "lowLarynx",
+          "label": "Спокойная гортань"
         }
       ],
       "tr": [
@@ -12265,7 +12921,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -12278,7 +12936,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -12298,7 +12958,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -12308,7 +12970,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -12326,7 +12990,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           }
@@ -12346,7 +13012,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 80,
@@ -12356,7 +13024,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -12374,7 +13044,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -12394,7 +13066,9 @@
           "es": "Yam",
           "fr": "Yam",
           "id": "Yam",
+          "ja": "ヤム",
           "pt": "Iam",
+          "ru": "Ям",
           "tr": "Yam"
         },
         "tempo": 80,
@@ -12404,7 +13078,9 @@
           "es": "Y hacia la 'a'. Un comienzo suave y fácil.",
           "fr": "Glissé en Y vers un A. Un départ doux et facile.",
           "id": "Luncuran Y menuju A. Awal yang lembut dan mudah.",
+          "ja": "Yからなめらかに短い「ア」へ。最後は唇を閉じます。やさしく楽な出だしです。",
           "pt": "Deslize de Y no 'a' fechado. Um começo suave e fácil.",
+          "ru": "Мягкое «Й» в короткое «А». Нежное, лёгкое начало.",
           "tr": "Y kaymasıyla A sesine. Nazik ve rahat bir başlangıç."
         },
         "trill": null,
@@ -12422,7 +13098,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -12442,7 +13120,9 @@
           "es": "Mi-Me-Ma-Mo-Mu",
           "fr": "Mi-Mè-Ma-Mo-Mou",
           "id": "Mi-Mé-Ma-Mo-Mu",
+          "ja": "ミ・メ・マ・モ・ム",
           "pt": "Mi-Mé-Má-Mô-Mu",
+          "ru": "Ми-Мэ-Ма-Мо-Му",
           "tr": "Mi-Me-Ma-Mo-Mu"
         },
         "tempo": 70,
@@ -12452,7 +13132,9 @@
           "es": "Cinco vocales con M, una por nota. Pasa de una a otra con suavidad.",
           "fr": "Cinq voyelles avec M, une par note. Passe de l'une à l'autre en douceur.",
           "id": "Lima vokal dengan M, satu per nada. Pindah dari satu ke berikutnya dengan halus.",
+          "ja": "Mに5つの母音をつけ、1音に1つずつ歌います。次の母音へなめらかに移りましょう。",
           "pt": "Cinco vogais com M, uma por nota. Passe de uma para a outra com suavidade.",
+          "ru": "Пять гласных на М, по одному на ноту. Плавно переходи от одного к другому.",
           "tr": "M ile beş ünlü, her notada bir tane. Birinden diğerine yumuşakça geç."
         },
         "trill": null,
@@ -12470,7 +13152,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -12490,7 +13174,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 70,
@@ -12500,7 +13186,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -12518,7 +13206,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -12538,7 +13228,9 @@
           "es": "Oh",
           "fr": "Oh",
           "id": "O",
+          "ja": "オ",
           "pt": "Ô",
+          "ru": "О",
           "tr": "O"
         },
         "tempo": 70,
@@ -12548,7 +13240,9 @@
           "es": "La vocal de 'sol'. Labios redondos y relajados.",
           "fr": "La voyelle de « eau ». Lèvres rondes et détendues.",
           "id": "Vokal seperti pada 'toko'. Bibir bulat dan santai.",
+          "ja": "途中で形を変えない、まっすぐな「オ」。唇は丸く、力を抜きます。",
           "pt": "O 'ô' de 'avô'. Lábios redondos e relaxados.",
+          "ru": "Гласный, как в «дом». Губы округлые и расслабленные.",
           "tr": "'Okul'daki ünlü. Dudaklar yuvarlak ve gevşek."
         },
         "trill": null,
@@ -12566,7 +13260,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -12586,7 +13282,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 70,
@@ -12596,7 +13294,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -12614,7 +13314,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -12634,7 +13336,9 @@
           "es": "Ii",
           "fr": "Ii",
           "id": "I",
+          "ja": "イ",
           "pt": "I",
+          "ru": "И",
           "tr": "İ"
         },
         "tempo": 80,
@@ -12644,7 +13348,9 @@
           "es": "La vocal brillante de 'sí'. Una sonrisa leve ayuda.",
           "fr": "La voyelle claire, le « i » de « lit ». Un léger sourire aide.",
           "id": "Vokal cerah seperti pada 'ini'. Senyum tipis membantu.",
+          "ja": "明るい「イ」。少し微笑むと出しやすくなります。",
           "pt": "A vogal brilhante, o 'i' de 'vida'. Um leve sorriso ajuda.",
+          "ru": "Светлый гласный, как в «мир». Помогает лёгкая улыбка.",
           "tr": "'İyi'deki parlak ünlü. Hafif bir gülümseme yardımcı olur."
         },
         "trill": null,
@@ -12662,7 +13368,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           }
@@ -12682,7 +13390,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 80,
@@ -12692,7 +13402,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -12710,7 +13422,9 @@
               "es": "Vocales puras",
               "fr": "Voyelles pures",
               "id": "Vokal murni",
+              "ja": "純粋な母音",
               "pt": "Vogais puras",
+              "ru": "Чистые гласные",
               "tr": "Saf ünlüler"
             }
           },
@@ -12723,7 +13437,9 @@
               "es": "Notas largas",
               "fr": "Notes longues",
               "id": "Nada panjang",
+              "ja": "ロングトーン",
               "pt": "Notas longas",
+              "ru": "Долгие ноты",
               "tr": "Uzun notalar"
             }
           }
@@ -12743,7 +13459,9 @@
           "es": "Ah → Oh → Uu",
           "fr": "Ah → Oh → Ou",
           "id": "A → O → U",
+          "ja": "ア → オ → ウ",
           "pt": "Ah → Ô → U",
+          "ru": "А → О → У",
           "tr": "A → O → U"
         },
         "tempo": 50,
@@ -12753,7 +13471,9 @@
           "es": "Pasa con suavidad de una vocal a la siguiente en cada nota.",
           "fr": "Passe en douceur d'une voyelle à l'autre sur chaque note.",
           "id": "Ubah bentuk vokal dengan halus di tiap nada.",
+          "ja": "1音ごとに、次の母音へなめらかに移ります。",
           "pt": "Passe de uma forma de vogal para outra suavemente em cada nota.",
+          "ru": "Плавно переходи от гласного к гласному на каждой ноте.",
           "tr": "Her notada ünlü biçimleri arasında akıcı şekilde geç."
         },
         "trill": null,
@@ -12771,7 +13491,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -12784,7 +13506,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -12804,7 +13528,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -12814,7 +13540,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -12829,7 +13557,9 @@
       "es": "Navega tu quiebre vocal con ejercicios progresivos. Acércate, cruza y mezcla registros.",
       "fr": "Traverse ton passage de voix avec des exercices progressifs. Approche, traverse et mélange les registres.",
       "id": "Lalui peralihan registermu dengan latihan bertahap. Dekati, lintasi, dan padukan register.",
+      "ja": "段階的な練習で換声点（ブリッジ）を乗り越えます。近づく、越える、声区をなじませる、の順に進みます。",
       "pt": "Atravesse sua passagem com exercícios progressivos. Aproxime, cruze e misture os registros.",
+      "ru": "Освой свой переход шаг за шагом: подойди, пройди и соедини регистры.",
       "tr": "Geçiş bölgeni kademeli egzersizlerle aş. Yaklaş, geç ve ses bölgelerini harmanla."
     },
     "hash": "632a9ed9392b82f5e4b5c148b4761426a8658927856c85c4a6c7ffeab5139329",
@@ -12841,7 +13571,9 @@
       "es": "Constructor de puente",
       "fr": "Passeur de ponts",
       "id": "Jembatan Register",
+      "ja": "ブリッジビルダー",
       "pt": "Construindo a ponte",
+      "ru": "Через переход",
       "tr": "Köprü Kurma"
     },
     "presets": {
@@ -13362,11 +14094,25 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -13390,7 +14136,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -13403,7 +14151,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -13423,7 +14173,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 80,
@@ -13433,7 +14185,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -13451,7 +14205,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -13471,7 +14227,9 @@
           "es": "Uu",
           "fr": "Ou",
           "id": "U",
+          "ja": "ウ",
           "pt": "U",
+          "ru": "У",
           "tr": "U"
         },
         "tempo": 48,
@@ -13481,7 +14239,9 @@
           "es": "La vocal de 'tú'. Redondea los labios en una o pequeña.",
           "fr": "Le « ou » de « loup ». Arrondis les lèvres en un petit o.",
           "id": "Vokal seperti pada 'buku'. Bulatkan bibir jadi O kecil.",
+          "ja": "唇を小さく丸めた「ウ」。話すときの「ウ」よりも唇をすぼめます。",
           "pt": "O 'u' de 'lua'. Arredonde os lábios num 'o' pequeno.",
+          "ru": "Гласный, как в «лук». Сложи губы в маленькое «о».",
           "tr": "'Uzun'daki ünlü. Dudaklarını küçük bir O gibi yuvarla."
         },
         "trill": null,
@@ -13499,7 +14259,9 @@
               "es": "Sonido hacia delante",
               "fr": "Son vers l'avant",
               "id": "Suara ke depan",
+              "ja": "前に出る響き",
               "pt": "Som para a frente",
+              "ru": "Звук впереди",
               "tr": "Önde ses"
             }
           }
@@ -13519,7 +14281,9 @@
           "es": "Ni",
           "fr": "Ni",
           "id": "Ni",
+          "ja": "ニ",
           "pt": "Ni",
+          "ru": "Ни",
           "tr": "Ni"
         },
         "tempo": 48,
@@ -13529,7 +14293,9 @@
           "es": "N hacia la 'i'. Brillante, con una vibración ligera.",
           "fr": "N vers un I. Clair, avec un léger bourdonnement.",
           "id": "N menuju I. Cerah, dengan dengung ringan.",
+          "ja": "Nから「イ」へ。明るく、軽い振動があります。",
           "pt": "N para o 'i'. Brilhante, com uma vibração leve.",
+          "ru": "Н в «И». Светло, с лёгкой вибрацией.",
           "tr": "N'den İ sesine. Parlak, hafif bir titreşimle."
         },
         "trill": null,
@@ -13547,7 +14313,9 @@
               "es": "Tono claro",
               "fr": "Son net",
               "id": "Suara jernih",
+              "ja": "クリアな声",
               "pt": "Som claro",
+              "ru": "Чистый тон",
               "tr": "Net ton"
             }
           },
@@ -13560,7 +14328,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -13580,7 +14350,9 @@
           "es": "Gui",
           "fr": "Gui",
           "id": "Gi",
+          "ja": "ギ",
           "pt": "Gui",
+          "ru": "Ги",
           "tr": "Gi"
         },
         "tempo": 52,
@@ -13590,7 +14362,9 @@
           "es": "G hacia la 'i'. Un comienzo limpio y claro.",
           "fr": "Attaque en G vers un I. Un départ propre et net.",
           "id": "Awalan G menuju I. Awal nada yang bersih dan jernih.",
+          "ja": "Gから「イ」へ。すっきりとクリアな出だしです。",
           "pt": "Ataque de G no 'i'. Um começo limpo e claro.",
+          "ru": "Г в «И». Чистое, ясное начало.",
           "tr": "G atağıyla İ sesine. Temiz ve net bir başlangıç."
         },
         "trill": null,
@@ -13608,7 +14382,9 @@
               "es": "Sonido abierto",
               "fr": "Son ouvert",
               "id": "Suara terbuka",
+              "ja": "開いた響き",
               "pt": "Som aberto",
+              "ru": "Открытый звук",
               "tr": "Açık ses"
             }
           },
@@ -13621,7 +14397,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -13641,7 +14419,9 @@
           "es": "Ah",
           "fr": "Ah",
           "id": "A",
+          "ja": "ア",
           "pt": "Ah",
+          "ru": "А",
           "tr": "A"
         },
         "tempo": 52,
@@ -13651,7 +14431,9 @@
           "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
           "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
           "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+          "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
           "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+          "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
           "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
         },
         "trill": null,
@@ -13669,7 +14451,9 @@
               "es": "Voz mixta",
               "fr": "Voix mixte",
               "id": "Mix",
+              "ja": "ミックス",
               "pt": "Voz mista",
+              "ru": "Микст",
               "tr": "Miks ses"
             }
           }
@@ -13689,7 +14473,9 @@
           "es": "Ma Me Mi Mo Mu",
           "fr": "Ma Mé Mi Mo Mou",
           "id": "Ma Mé Mi Mo Mu",
+          "ja": "マ・メ・ミ・モ・ム",
           "pt": "Má Mê Mi Mô Mu",
+          "ru": "Ма Мэ Ми Мо Му",
           "tr": "Ma Me Mi Mo Mu"
         },
         "tempo": 58,
@@ -13699,7 +14485,9 @@
           "es": "Cinco vocales con M. Que el sonido sea parejo de una vocal a otra.",
           "fr": "Cinq voyelles avec M. Garde un son égal d'une voyelle à l'autre.",
           "id": "Lima vokal dengan M. Jaga bunyinya tetap rata dari vokal ke vokal.",
+          "ja": "Mに5つの母音をつけて歌います。母音が変わっても音色をそろえましょう。",
           "pt": "Cinco vogais com M. Mantenha o som parelho de uma vogal para a outra.",
+          "ru": "Пять гласных на М. Звук ровный от гласного к гласному.",
           "tr": "M ile beş ünlü. Ses bir ünlüden diğerine aynı kalsın."
         },
         "trill": null,
@@ -13717,7 +14505,9 @@
               "es": "Zumbido suave",
               "fr": "Vibration facile",
               "id": "Dengung ringan",
+              "ja": "軽い振動",
               "pt": "Zumbido leve",
+              "ru": "Лёгкая вибрация",
               "tr": "Rahat vızıltı"
             }
           },
@@ -13730,7 +14520,9 @@
               "es": "Suave y sin esfuerzo",
               "fr": "Doux et facile",
               "id": "Lembut dan ringan",
+              "ja": "やさしく楽に",
               "pt": "Leve e fácil",
+              "ru": "Мягко и легко",
               "tr": "Yumuşak ve rahat"
             }
           }
@@ -13750,7 +14542,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 70,
@@ -13760,7 +14554,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -13775,7 +14571,9 @@
       "es": "Diseñada para profesores de canto. Todas las escalas esenciales en un solo lugar, listas para guiar a tus alumnos en clase.",
       "fr": "Conçue pour les professeurs de chant. Toutes les gammes classiques au même endroit, prêtes à guider tes élèves en cours.",
       "id": "Dirancang untuk guru dan pelatih vokal. Semua tangga nada standar dalam satu tempat, siap memandu muridmu di kelas.",
+      "ja": "ボイストレーナーや先生のためのルーティンです。定番のスケールが1か所にまとまっていて、レッスンで生徒を導くのに使えます。",
       "pt": "Feita para professores e preparadores vocais. Todas as escalas padrão em um só lugar, prontas para guiar os alunos na aula.",
+      "ru": "Для педагогов по вокалу. Все стандартные гаммы в одном месте, готовые для занятия с учениками.",
       "tr": "Şan hocaları ve eğitmenler için tasarlandı. Standart gamların hepsi tek yerde, öğrencilerini derste yönlendirmeye hazır."
     },
     "hash": "5a3a3cb7a7f0856029cdcd20bd0eaa93cbb28972b638dfc32bcbe9f9dbb6aee0",
@@ -13787,7 +14585,9 @@
       "es": "Vocal Coach I",
       "fr": "Coach vocal I",
       "id": "Pelatih Vokal I",
+      "ja": "ボーカルコーチ I",
       "pt": "Preparador vocal I",
+      "ru": "Педагог I",
       "tr": "Şan Hocası I"
     },
     "presets": {
@@ -14839,7 +15639,9 @@
       "es": [],
       "fr": [],
       "id": [],
+      "ja": [],
       "pt": [],
+      "ru": [],
       "tr": []
     },
     "steps": [
@@ -14861,7 +15663,9 @@
           "es": "Trr",
           "fr": "Trr",
           "id": "Trr",
+          "ja": "Trr",
           "pt": "Trr",
+          "ru": "Trr",
           "tr": "Trr"
         },
         "tempo": 72,
@@ -14871,7 +15675,9 @@
           "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
           "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
           "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+          "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
           "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+          "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
           "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
         },
         "trill": "tongue",
@@ -14895,7 +15701,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 72,
@@ -14905,7 +15713,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -14929,7 +15739,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 72,
@@ -14939,7 +15751,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -14963,7 +15777,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 66,
@@ -14973,7 +15789,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -14997,7 +15815,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 72,
@@ -15007,7 +15827,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -15031,7 +15853,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 112,
@@ -15041,7 +15865,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -15065,7 +15891,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 60,
@@ -15075,7 +15903,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -15099,7 +15929,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 129,
@@ -15109,7 +15941,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -15133,7 +15967,9 @@
           "es": "Prr",
           "fr": "Prr",
           "id": "Prr",
+          "ja": "Prr",
           "pt": "Prr",
+          "ru": "Prr",
           "tr": "Prr"
         },
         "tempo": 122,
@@ -15143,7 +15979,9 @@
           "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
           "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
           "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+          "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
           "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+          "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
           "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
         },
         "trill": "lip",
@@ -15158,7 +15996,9 @@
       "es": "Encuentra la vibración por debajo de tu voz de pecho y mantenla estable. Se queda en un par de notas a propósito.",
       "fr": "Trouve la vibration sous ta voix de poitrine et garde-la stable. Elle reste sur deux ou trois notes, exprès.",
       "id": "Temukan gemeretak di bawah suara dadamu dan jaga tetap stabil. Sengaja hanya di beberapa nada.",
+      "ja": "地声の下にあるゴロゴロした響きを見つけ、安定させます。あえて2、3音だけにとどまります。",
       "pt": "Ache o chacoalho embaixo da sua voz de peito e mantenha firme. Fica em poucas notas de propósito.",
+      "ru": "Найди рокот под грудным голосом и держи его ровно. Нарочно остаётся на паре нот.",
       "tr": "Göğüs sesinin altındaki çatırtıyı bul ve sabit tut. Bilerek birkaç notada kalır."
     },
     "hash": "d18c328c9d7e1d72e688ba038abb68c8cb5841ec1f7640f12c92a3dd8eb31da5",
@@ -15170,7 +16010,9 @@
       "es": "Calentamiento subarmónico",
       "fr": "Échauffement subharmonique",
       "id": "Pemanasan Subharmonik",
+      "ja": "サブハーモニクス入門",
       "pt": "Aquecimento subarmônico",
+      "ru": "Субгармоника",
       "tr": "Subharmonik Isınma"
     },
     "presets": {
@@ -15404,6 +16246,18 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "軽くて低いゴロゴロという音です。重い家具を引きずる音や、油の切れたドアがゆっくり閉まる音をイメージしてください。MとRの間のような低いMMMMを、アイドリング中のエンジンのように鳴らし、喉は楽なままにします。電動ドリルのような、締まった高い音にはしません。",
+          "id": "falseCordDrone",
+          "label": "低いうなりで"
+        },
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um ronco leve e grave: um móvel pesado sendo arrastado, uma porta sem óleo se fechando. Um MMMM grave entre M e R, como um motor em marcha lenta, com a garganta tranquila. Nunca o som apertado e agudo de furadeira.",
@@ -15414,6 +16268,18 @@
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Лёгкий низкий рокот: так тащат тяжёлую мебель или закрывается несмазанная дверь. Низкое ММММ между М и Р, как мотор на холостом ходу, а горло остаётся свободным. Никогда не тонкий, высокий звук дрели.",
+          "id": "falseCordDrone",
+          "label": "Гул, не дрель"
+        },
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -15442,7 +16308,9 @@
               "es": "Prueba: una octava arriba",
               "fr": "Essaie : octave au-dessus",
               "id": "Coba: naik seoktaf",
+              "ja": "試す：1オクターブ上",
               "pt": "Tente: uma oitava acima",
+              "ru": "Попробуй: октавой выше",
               "tr": "Dene: oktav yukarı"
             }
           }
@@ -15462,7 +16330,9 @@
           "es": "Mi",
           "fr": "Mi",
           "id": "Mi",
+          "ja": "ミ",
           "pt": "Mi",
+          "ru": "Ми",
           "tr": "Mi"
         },
         "tempo": 40,
@@ -15472,7 +16342,9 @@
           "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
           "fr": "M vers un I clair. Un son net et sonore.",
           "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+          "ja": "Mから明るい「イ」へ。クリアでよく響く音です。",
           "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+          "ru": "М в светлое «И». Чистый, звонкий звук.",
           "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
         },
         "trill": null,
@@ -15496,7 +16368,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 60,
@@ -15506,7 +16380,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -15524,7 +16400,9 @@
               "es": "Notas largas",
               "fr": "Notes longues",
               "id": "Nada panjang",
+              "ja": "ロングトーン",
               "pt": "Notas longas",
+              "ru": "Долгие ноты",
               "tr": "Uzun notalar"
             }
           }
@@ -15544,7 +16422,9 @@
           "es": "Mi",
           "fr": "Mi",
           "id": "Mi",
+          "ja": "ミ",
           "pt": "Mi",
+          "ru": "Ми",
           "tr": "Mi"
         },
         "tempo": 120,
@@ -15554,7 +16434,9 @@
           "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
           "fr": "M vers un I clair. Un son net et sonore.",
           "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+          "ja": "Mから明るい「イ」へ。クリアでよく響く音です。",
           "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+          "ru": "М в светлое «И». Чистый, звонкий звук.",
           "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
         },
         "trill": null,
@@ -15578,7 +16460,9 @@
           "es": "Ya",
           "fr": "Ya",
           "id": "Ya",
+          "ja": "ヤ",
           "pt": "Iá",
+          "ru": "Я",
           "tr": "Ya"
         },
         "tempo": 120,
@@ -15588,7 +16472,9 @@
           "es": "Y hacia Ah. Suelta el paso entre tu voz habitual y el sonido grave de debajo.",
           "fr": "Glissé en Y vers un Ah. Assouplit le passage entre ta voix habituelle et le son grave en dessous.",
           "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara biasamu dan bunyi rendah di bawahnya.",
+          "ja": "Yからなめらかに「ア」へ。ふだんの声と、その下の低い音との切り替わりをほぐします。",
           "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz de sempre e o som grave abaixo dela.",
+          "ru": "Мягкое «Й» в «А». Смягчает переключение между обычным голосом и низким звуком под ним.",
           "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki pes ses arasındaki geçişi gevşetir."
         },
         "trill": null,
@@ -15612,7 +16498,9 @@
           "es": "Ya",
           "fr": "Ya",
           "id": "Ya",
+          "ja": "ヤ",
           "pt": "Iá",
+          "ru": "Я",
           "tr": "Ya"
         },
         "tempo": 72,
@@ -15622,7 +16510,9 @@
           "es": "Y hacia Ah. Suelta el paso entre tu voz habitual y el sonido grave de debajo.",
           "fr": "Glissé en Y vers un Ah. Assouplit le passage entre ta voix habituelle et le son grave en dessous.",
           "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara biasamu dan bunyi rendah di bawahnya.",
+          "ja": "Yからなめらかに「ア」へ。ふだんの声と、その下の低い音との切り替わりをほぐします。",
           "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz de sempre e o som grave abaixo dela.",
+          "ru": "Мягкое «Й» в «А». Смягчает переключение между обычным голосом и низким звуком под ним.",
           "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki pes ses arasındaki geçişi gevşetir."
         },
         "trill": null,
@@ -15646,7 +16536,9 @@
           "es": "Nei",
           "fr": "Né",
           "id": "Ney",
+          "ja": "ネイ",
           "pt": "Nei",
+          "ru": "Нэй",
           "tr": "Ney"
         },
         "tempo": 60,
@@ -15656,7 +16548,9 @@
           "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
           "fr": "N vers un É clair et effronté. Le son porte bien.",
           "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+          "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
           "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+          "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
           "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
         },
         "trill": null,
@@ -15671,7 +16565,9 @@
       "es": "Cruza desde lo alto de tu rango al tono aflautado que hay encima, y vuelve a bajar.",
       "fr": "Passe du haut de ton étendue au timbre de flûte au-dessus, puis redescends tranquillement.",
       "id": "Menyeberang dari puncak jangkauanmu ke warna seperti suling di atasnya, lalu turun kembali.",
+      "ja": "音域の一番上から、その上にあるフルートのような音へ渡り、また戻って落ち着かせます。",
       "pt": "Cruze do topo da sua extensão para o som de flauta acima dele e depois volte com calma.",
+      "ru": "Перейди с верха диапазона во флейтовый звук над ним, потом спокойно вернись вниз.",
       "tr": "Aralığının tepesinden üstündeki flüt gibi tınıya geç, sonra yavaşça geri in."
     },
     "hash": "28933973675b556a1c5f7820356bd29d2f017b5af5de56acd58958a20770959d",
@@ -15683,7 +16579,9 @@
       "es": "Puente al flageolet",
       "fr": "Pont vers le flageolet",
       "id": "Jembatan Flageolet",
+      "ja": "フラジオレットへ渡る",
       "pt": "Ponte para o flageolet",
+      "ru": "Путь во флажолет",
       "tr": "Flajöle Köprüsü"
     },
     "presets": {
@@ -16178,6 +17076,23 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "アプローチの1つ：あくびの始まりのように、喉仏を落ち着かせます。舌で押し下げないでください。",
+          "id": "lowLarynx",
+          "label": "落ち着いた喉"
+        },
+        {
+          "description": "顔はおだやかに保ちます。顔がこわばるのは、喉も締まってきているサインかもしれません。",
+          "id": "pokerFace",
+          "label": "ポーカーフェイス"
+        },
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um caminho: a laringe tranquila, como no começo de um bocejo. Nunca a abaixe à força com a língua.",
@@ -16193,6 +17108,23 @@
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из способов: спокойная гортань, как в начале зевка. Никогда не дави её вниз языком.",
+          "id": "lowLarynx",
+          "label": "Спокойная гортань"
+        },
+        {
+          "description": "Лицо спокойное. Зажатое лицо может быть признаком того, что зажимается и горло.",
+          "id": "pokerFace",
+          "label": "Покерфейс"
+        },
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -16226,7 +17158,9 @@
               "es": "Lengua dormida",
               "fr": "Langue endormie",
               "id": "Lidah kebas",
+              "ja": "眠った舌",
               "pt": "Língua dormente",
+              "ru": "Сонный язык",
               "tr": "Uyuşuk dil"
             }
           }
@@ -16246,7 +17180,9 @@
           "es": "Ng",
           "fr": "Ng",
           "id": "Ng",
+          "ja": "ング",
           "pt": "Ng",
+          "ru": "Нг",
           "tr": "Ng"
         },
         "tempo": 66,
@@ -16256,7 +17192,9 @@
           "es": "Un zumbido en NG, como la n de 'tengo'. Un comienzo suave y tranquilo.",
           "fr": "Un bourdonnement sur NG, comme à la fin de « parking ». Un départ doux et calme.",
           "id": "Dengung NG, seperti pada 'siang'. Awal yang pelan dan mudah.",
+          "ja": "「まんが」の「ん」で止めたハミングです。口は開けたまま、鼻から音を出します。静かで楽な出だしです。",
           "pt": "Um murmúrio em NG, como no fim de 'sing', em inglês. Um começo baixinho e fácil.",
+          "ru": "Мычание на «нг», как в конце английского «sing». Тихое, лёгкое начало.",
           "tr": "'Renk'teki gibi bir NG mırıltısı. Sessiz, rahat bir başlangıç."
         },
         "trill": null,
@@ -16274,7 +17212,9 @@
               "es": "De cabeza a flageolet",
               "fr": "De la tête au flageolet",
               "id": "Suara kepala ke flageolet",
+              "ja": "ヘッドからフラジオレットへ",
               "pt": "Da cabeça ao flageolet",
+              "ru": "Из головного во флажолет",
               "tr": "Kafa sesinden flajöleye"
             }
           },
@@ -16287,7 +17227,9 @@
               "es": "Sin aire por la nariz",
               "fr": "Pas d'air nasal",
               "id": "Tanpa udara hidung",
+              "ja": "鼻から息を出さない",
               "pt": "Sem ar pelo nariz",
+              "ru": "Без воздуха в нос",
               "tr": "Burundan hava yok"
             }
           }
@@ -16307,7 +17249,9 @@
           "es": "Ui",
           "fr": "Oui",
           "id": "Wi",
+          "ja": "ウィ",
           "pt": "Uí",
+          "ru": "Уи",
           "tr": "Ui"
         },
         "tempo": 60,
@@ -16317,7 +17261,9 @@
           "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
           "fr": "Un glissé doux vers un I. Clair et léger.",
           "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+          "ja": "「イ」へなめらかにつなぎます。明るく軽い音です。",
           "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+          "ru": "Мягкое скольжение в «И». Светло и легко.",
           "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
         },
         "trill": null,
@@ -16341,7 +17287,9 @@
           "es": "Ni",
           "fr": "Ni",
           "id": "Ni",
+          "ja": "ニ",
           "pt": "Ni",
+          "ru": "Ни",
           "tr": "Ni"
         },
         "tempo": 76,
@@ -16351,7 +17299,9 @@
           "es": "N hacia la 'i'. Brillante, con una vibración ligera.",
           "fr": "N vers un I. Clair, avec un léger bourdonnement.",
           "id": "N menuju I. Cerah, dengan dengung ringan.",
+          "ja": "Nから「イ」へ。明るく、軽い振動があります。",
           "pt": "N para o 'i'. Brilhante, com uma vibração leve.",
+          "ru": "Н в «И». Светло, с лёгкой вибрацией.",
           "tr": "N'den İ sesine. Parlak, hafif bir titreşimle."
         },
         "trill": null,
@@ -16369,7 +17319,9 @@
               "es": "Empezar en fry",
               "fr": "Départ en fry",
               "id": "Mulai dari fry",
+              "ja": "エッジボイスで始める",
               "pt": "Começo em fry",
+              "ru": "Старт с фрая",
               "tr": "Fry ile başlangıç"
             }
           },
@@ -16382,7 +17334,9 @@
               "es": "Sin aire por la nariz",
               "fr": "Pas d'air nasal",
               "id": "Tanpa udara hidung",
+              "ja": "鼻から息を出さない",
               "pt": "Sem ar pelo nariz",
+              "ru": "Без воздуха в нос",
               "tr": "Burundan hava yok"
             }
           }
@@ -16402,7 +17356,9 @@
           "es": "Ki",
           "fr": "Ki",
           "id": "Ki",
+          "ja": "キ",
           "pt": "Qui",
+          "ru": "Ки",
           "tr": "Ki"
         },
         "tempo": 120,
@@ -16412,7 +17368,9 @@
           "es": "K hacia la 'i'. Un comienzo nítido, brillante y hacia delante.",
           "fr": "Attaque en K vers un I. Un départ net, clair et en avant.",
           "id": "Awalan K menuju I. Awal yang tegas, cerah dan di depan.",
+          "ja": "Kから「イ」へ。歯切れのよい出だしで、明るく前に出る音です。",
           "pt": "Ataque de K no 'i'. Um começo nítido, brilhante e para a frente.",
+          "ru": "К в «И». Чёткое начало, светло и впереди.",
           "tr": "K atağıyla İ sesine. Keskin bir başlangıç, parlak ve önde."
         },
         "trill": null,
@@ -16436,7 +17394,9 @@
           "es": "Nu",
           "fr": "Nou",
           "id": "Nu",
+          "ja": "ヌ",
           "pt": "Nu",
+          "ru": "Ну",
           "tr": "Nu"
         },
         "tempo": 80,
@@ -16446,7 +17406,9 @@
           "es": "N hacia la 'u'. Una vibración ligera y luego una vocal suave y redonda.",
           "fr": "N vers un Ou. Un léger bourdonnement, puis une voyelle douce et ronde.",
           "id": "N menuju U. Dengung ringan, lalu vokal yang lembut dan bulat.",
+          "ja": "Nから「ウ」へ。軽い振動のあとに、やわらかく丸い母音が続きます。",
           "pt": "N para o 'u'. Uma vibração leve, depois uma vogal suave e redonda.",
+          "ru": "Н в «У». Лёгкая вибрация, потом мягкий, округлый гласный.",
           "tr": "N'den U sesine. Önce hafif bir titreşim, sonra yumuşak, yuvarlak bir ünlü."
         },
         "trill": null,
@@ -16470,7 +17432,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 72,
@@ -16480,7 +17444,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,
@@ -16495,7 +17461,9 @@
       "es": "Primero voz de cabeza, una visita corta a lo más alto de la voz, y voz de cabeza otra vez. Todo suave.",
       "fr": "Voix de tête d'abord, une courte visite tout en haut, puis voix de tête à nouveau. Doucement du début à la fin.",
       "id": "Suara kepala dulu, mampir sebentar ke puncak suara, lalu suara kepala lagi. Tetap lirih dari awal sampai akhir.",
+      "ja": "まずヘッドボイス、次に声の一番上を少しだけ訪ね、またヘッドボイスに戻ります。最後まで小さな声で歌いましょう。",
       "pt": "Voz de cabeça primeiro, uma visita curta ao topo da voz, voz de cabeça de novo. Baixinho o tempo todo.",
+      "ru": "Сначала головной голос, короткий визит на самый верх, снова головной. Всё время тихо.",
       "tr": "Önce kafa sesi, sesin tepesine kısa bir ziyaret, sonra yine kafa sesi. Baştan sona kısık sesle."
     },
     "hash": "898dd1670ffca681183e6f73974003dad6178aa9a586f71d88c2bcdebff4f63b",
@@ -16507,7 +17475,9 @@
       "es": "Explorador del silbido",
       "fr": "Explorateur du sifflet",
       "id": "Penjelajah Whistle",
+      "ja": "ホイッスル探検",
       "pt": "Explorando o apito",
+      "ru": "Свистковый регистр",
       "tr": "Islık Kâşifi"
     },
     "presets": {
@@ -16965,6 +17935,23 @@
           "label": "Support stabil"
         }
       ],
+      "ja": [
+        {
+          "description": "アプローチの1つ：あくびの始まりのように、喉仏を落ち着かせます。舌で押し下げないでください。",
+          "id": "lowLarynx",
+          "label": "落ち着いた喉"
+        },
+        {
+          "description": "顔はおだやかに保ちます。顔がこわばるのは、喉も締まってきているサインかもしれません。",
+          "id": "pokerFace",
+          "label": "ポーカーフェイス"
+        },
+        {
+          "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+          "id": "steadySupport",
+          "label": "安定した支え"
+        }
+      ],
       "pt": [
         {
           "description": "Um caminho: a laringe tranquila, como no começo de um bocejo. Nunca a abaixe à força com a língua.",
@@ -16980,6 +17967,23 @@
           "description": "Um jeito comum: uma energia estável e suave na parte de baixo do corpo. Firme, nunca travada.",
           "id": "steadySupport",
           "label": "Apoio constante"
+        }
+      ],
+      "ru": [
+        {
+          "description": "Один из способов: спокойная гортань, как в начале зевка. Никогда не дави её вниз языком.",
+          "id": "lowLarynx",
+          "label": "Спокойная гортань"
+        },
+        {
+          "description": "Лицо спокойное. Зажатое лицо может быть признаком того, что зажимается и горло.",
+          "id": "pokerFace",
+          "label": "Покерфейс"
+        },
+        {
+          "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+          "id": "steadySupport",
+          "label": "Ровная опора"
         }
       ],
       "tr": [
@@ -17013,7 +18017,9 @@
               "es": "Lengua dormida",
               "fr": "Langue endormie",
               "id": "Lidah kebas",
+              "ja": "眠った舌",
               "pt": "Língua dormente",
+              "ru": "Сонный язык",
               "tr": "Uyuşuk dil"
             }
           }
@@ -17033,7 +18039,9 @@
           "es": "Ng",
           "fr": "Ng",
           "id": "Ng",
+          "ja": "ング",
           "pt": "Ng",
+          "ru": "Нг",
           "tr": "Ng"
         },
         "tempo": 66,
@@ -17043,7 +18051,9 @@
           "es": "Un zumbido en NG, como la n de 'tengo'. Un comienzo suave y tranquilo.",
           "fr": "Un bourdonnement sur NG, comme à la fin de « parking ». Un départ doux et calme.",
           "id": "Dengung NG, seperti pada 'siang'. Awal yang pelan dan mudah.",
+          "ja": "「まんが」の「ん」で止めたハミングです。口は開けたまま、鼻から音を出します。静かで楽な出だしです。",
           "pt": "Um murmúrio em NG, como no fim de 'sing', em inglês. Um começo baixinho e fácil.",
+          "ru": "Мычание на «нг», как в конце английского «sing». Тихое, лёгкое начало.",
           "tr": "'Renk'teki gibi bir NG mırıltısı. Sessiz, rahat bir başlangıç."
         },
         "trill": null,
@@ -17061,7 +18071,9 @@
               "es": "De cabeza a flageolet",
               "fr": "De la tête au flageolet",
               "id": "Suara kepala ke flageolet",
+              "ja": "ヘッドからフラジオレットへ",
               "pt": "Da cabeça ao flageolet",
+              "ru": "Из головного во флажолет",
               "tr": "Kafa sesinden flajöleye"
             }
           },
@@ -17074,7 +18086,9 @@
               "es": "Sin aire por la nariz",
               "fr": "Pas d'air nasal",
               "id": "Tanpa udara hidung",
+              "ja": "鼻から息を出さない",
               "pt": "Sem ar pelo nariz",
+              "ru": "Без воздуха в нос",
               "tr": "Burundan hava yok"
             }
           }
@@ -17094,7 +18108,9 @@
           "es": "Ui",
           "fr": "Oui",
           "id": "Wi",
+          "ja": "ウィ",
           "pt": "Uí",
+          "ru": "Уи",
           "tr": "Ui"
         },
         "tempo": 60,
@@ -17104,7 +18120,9 @@
           "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
           "fr": "Un glissé doux vers un I. Clair et léger.",
           "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+          "ja": "「イ」へなめらかにつなぎます。明るく軽い音です。",
           "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+          "ru": "Мягкое скольжение в «И». Светло и легко.",
           "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
         },
         "trill": null,
@@ -17122,7 +18140,9 @@
               "es": "Sin aire por la nariz",
               "fr": "Pas d'air nasal",
               "id": "Tanpa udara hidung",
+              "ja": "鼻から息を出さない",
               "pt": "Sem ar pelo nariz",
+              "ru": "Без воздуха в нос",
               "tr": "Burundan hava yok"
             }
           }
@@ -17142,7 +18162,9 @@
           "es": "Ki",
           "fr": "Ki",
           "id": "Ki",
+          "ja": "キ",
           "pt": "Qui",
+          "ru": "Ки",
           "tr": "Ki"
         },
         "tempo": 120,
@@ -17152,7 +18174,9 @@
           "es": "K hacia la 'i'. Un comienzo nítido, brillante y hacia delante.",
           "fr": "Attaque en K vers un I. Un départ net, clair et en avant.",
           "id": "Awalan K menuju I. Awal yang tegas, cerah dan di depan.",
+          "ja": "Kから「イ」へ。歯切れのよい出だしで、明るく前に出る音です。",
           "pt": "Ataque de K no 'i'. Um começo nítido, brilhante e para a frente.",
+          "ru": "К в «И». Чёткое начало, светло и впереди.",
           "tr": "K atağıyla İ sesine. Keskin bir başlangıç, parlak ve önde."
         },
         "trill": null,
@@ -17176,7 +18200,9 @@
           "es": "Nu",
           "fr": "Nou",
           "id": "Nu",
+          "ja": "ヌ",
           "pt": "Nu",
+          "ru": "Ну",
           "tr": "Nu"
         },
         "tempo": 60,
@@ -17186,7 +18212,9 @@
           "es": "N hacia la 'u'. Una vibración ligera y luego una vocal suave y redonda.",
           "fr": "N vers un Ou. Un léger bourdonnement, puis une voyelle douce et ronde.",
           "id": "N menuju U. Dengung ringan, lalu vokal yang lembut dan bulat.",
+          "ja": "Nから「ウ」へ。軽い振動のあとに、やわらかく丸い母音が続きます。",
           "pt": "N para o 'u'. Uma vibração leve, depois uma vogal suave e redonda.",
+          "ru": "Н в «У». Лёгкая вибрация, потом мягкий, округлый гласный.",
           "tr": "N'den U sesine. Önce hafif bir titreşim, sonra yumuşak, yuvarlak bir ünlü."
         },
         "trill": null,
@@ -17210,7 +18238,9 @@
           "es": "Mu",
           "fr": "Mou",
           "id": "Mu",
+          "ja": "ム",
           "pt": "Mu",
+          "ru": "Му",
           "tr": "Mu"
         },
         "tempo": 76,
@@ -17220,7 +18250,9 @@
           "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
           "fr": "M vers un Ou. Un départ doux, un son chaud.",
           "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+          "ja": "Mから「ウ」へ。やさしい出だしと、やわらかく温かい音です。",
           "pt": "M para o 'u'. Um começo suave e um som quente.",
+          "ru": "М в «У». Мягкое начало и мягкий, тёплый звук.",
           "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
         },
         "trill": null,
@@ -17238,7 +18270,9 @@
               "es": "Sin aire por la nariz",
               "fr": "Pas d'air nasal",
               "id": "Tanpa udara hidung",
+              "ja": "鼻から息を出さない",
               "pt": "Sem ar pelo nariz",
+              "ru": "Без воздуха в нос",
               "tr": "Burundan hava yok"
             }
           }
@@ -17258,7 +18292,9 @@
           "es": "Ui",
           "fr": "Oui",
           "id": "Wi",
+          "ja": "ウィ",
           "pt": "Uí",
+          "ru": "Уи",
           "tr": "Ui"
         },
         "tempo": 150,
@@ -17268,7 +18304,9 @@
           "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
           "fr": "Un glissé doux vers un I. Clair et léger.",
           "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+          "ja": "「イ」へなめらかにつなぎます。明るく軽い音です。",
           "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+          "ru": "Мягкое скольжение в «И». Светло и легко.",
           "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
         },
         "trill": null,
@@ -17292,7 +18330,9 @@
           "es": "Hmm",
           "fr": "Hmm",
           "id": "Hmm",
+          "ja": "ンー",
           "pt": "Hmm",
+          "ru": "Ммм",
           "tr": "Hmm"
         },
         "tempo": 72,
@@ -17302,7 +18342,9 @@
           "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
           "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
           "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+          "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
           "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+          "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
           "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
         },
         "trill": null,

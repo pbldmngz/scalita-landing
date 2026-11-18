@@ -5,7 +5,9 @@
     "es": "Tu voz necesita cuidado hoy. Prueba una opción más suave.",
     "fr": "Ta voix a besoin de ménagement aujourd'hui. Essaie une option plus douce.",
     "id": "Suaramu perlu dijaga hari ini. Coba pilihan yang lebih lembut.",
+    "ja": "今日は声をいたわりましょう。もっとやさしいメニューをおすすめします。",
     "pt": "Sua voz precisa de cuidado hoje. Escolha algo mais leve.",
+    "ru": "Сегодня голосу нужна забота. Выбери вариант помягче.",
     "tr": "Sesinin bugün bakıma ihtiyacı var. Daha yumuşak bir seçenek dene."
   },
   "feelings": {
@@ -15,7 +17,9 @@
       "es": "¿Cómo sientes tu voz?",
       "fr": "Comment va ta voix ?",
       "id": "Bagaimana rasanya suaramu?",
+      "ja": "今日の声の調子はどうですか？",
       "pt": "Como está sua voz hoje?",
+      "ru": "Как сегодня голос?",
       "tr": "Sesin nasıl?"
     },
     "options": [
@@ -26,7 +30,9 @@
           "es": "Totalmente preparada o sintiéndose genial",
           "fr": "Déjà échauffée ou au top",
           "id": "Sudah panas atau terasa prima",
+          "ja": "もう温まっている、絶好調",
           "pt": "Já aquecida ou se sentindo ótima",
+          "ru": "Уже разогрет или звучит отлично",
           "tr": "Tamamen ısınmış ya da formda"
         },
         "id": "ready",
@@ -36,7 +42,9 @@
           "es": "Lista para cantar",
           "fr": "En pleine forme",
           "id": "Sudah siap",
+          "ja": "準備万端",
           "pt": "Pronta para tudo",
+          "ru": "Готов к работе",
           "tr": "Hazırım"
         },
         "routineId": null,
@@ -49,7 +57,9 @@
           "es": "Nada especial, vamos",
           "fr": "Rien de spécial, on y va",
           "id": "Biasa saja, ayo mulai",
+          "ja": "いつもどおり、始めましょう",
           "pt": "Nada de especial, vamos lá",
+          "ru": "Ничего особенного, поехали",
           "tr": "Özel bir şey yok, başlayalım"
         },
         "id": "normal",
@@ -59,7 +69,9 @@
           "es": "Normal",
           "fr": "Normale",
           "id": "Normal",
+          "ja": "ふつう",
           "pt": "Normal",
+          "ru": "Обычно",
           "tr": "Normal"
         },
         "routineId": null,
@@ -72,7 +84,9 @@
           "es": "No estoy en mi mejor momento",
           "fr": "Pas au mieux aujourd'hui",
           "id": "Hari ini kurang prima",
+          "ja": "今日は本調子ではない",
           "pt": "Não estou no meu melhor hoje",
+          "ru": "Сегодня звучит не лучшим образом",
           "tr": "Bugün en iyi halimde değilim"
         },
         "id": "off",
@@ -82,7 +96,9 @@
           "es": "Un poco mal",
           "fr": "Un peu à côté",
           "id": "Kurang fit",
+          "ja": "いまひとつ",
           "pt": "Meio estranha",
+          "ru": "Не в форме",
           "tr": "Biraz tuhaf"
         },
         "routineId": null,
@@ -95,7 +111,9 @@
           "es": "Necesita cuidado suave",
           "fr": "Besoin de douceur",
           "id": "Butuh perlakuan lembut",
+          "ja": "やさしいケアが必要",
           "pt": "Precisa de cuidado",
+          "ru": "Нужна бережная работа",
           "tr": "Nazik bir yaklaşım gerek"
         },
         "id": "tired",
@@ -105,7 +123,9 @@
           "es": "Cansada / forzada",
           "fr": "Fatiguée / forcée",
           "id": "Lelah / terforsir",
+          "ja": "疲れ / 力み",
           "pt": "Cansada / forçada",
+          "ru": "Устал / напряжён",
           "tr": "Yorgun / zorlanmış"
         },
         "routineId": "gentle_recovery",
@@ -120,7 +140,9 @@
       "es": "¿En qué quieres enfocarte?",
       "fr": "Sur quoi veux-tu travailler ?",
       "id": "Mau fokus ke apa?",
+      "ja": "何に取り組みたいですか？",
       "pt": "No que você quer focar?",
+      "ru": "Над чем хочешь поработать?",
       "tr": "Neye odaklanmak istersin?"
     },
     "options": [
@@ -133,7 +155,9 @@
           "es": "Construiré tu calentamiento sobre la marcha",
           "fr": "Je construis ton échauffement au fil de la séance",
           "id": "Kususun pemanasanmu sambil jalan",
+          "ja": "歌いながら、ウォームアップを組み立てていきます",
           "pt": "Eu monto seu aquecimento no caminho",
+          "ru": "Я соберу распевку по ходу дела",
           "tr": "Isınmanı ilerledikçe ben kurarım"
         },
         "id": "dynamic",
@@ -143,7 +167,9 @@
           "es": "Modo Adaptativo",
           "fr": "Mode adaptatif",
           "id": "Mode Adaptif",
+          "ja": "アダプティブモード",
           "pt": "Modo dinâmico",
+          "ru": "Адаптивный режим",
           "tr": "Uyarlanabilir Mod"
         },
         "routineId": null
@@ -157,7 +183,9 @@
           "es": "Calentamiento general",
           "fr": "Échauffement général polyvalent",
           "id": "Pemanasan umum serba guna",
+          "ja": "何にでも使える基本のウォームアップ",
           "pt": "Aquecimento geral, para tudo",
+          "ru": "Универсальная распевка",
           "tr": "Genel amaçlı ısınma"
         },
         "id": "warmup",
@@ -167,7 +195,9 @@
           "es": "Solo calentar",
           "fr": "Juste m'échauffer",
           "id": "Pemanasan saja",
+          "ja": "声を温めたい",
           "pt": "Só me aqueça",
+          "ru": "Просто распеться",
           "tr": "Sadece ısınayım"
         },
         "routineId": "general_warmup"
@@ -183,7 +213,9 @@
           "es": "Explora los extremos de tu voz",
           "fr": "Explore le haut et le bas de ta voix",
           "id": "Jelajahi bagian atas dan bawah suaramu",
+          "ja": "声の一番高いところと低いところを探る",
           "pt": "Explore o agudo e o grave da sua voz",
+          "ru": "Исследуй верх и низ голоса",
           "tr": "Sesinin tiz ve pes uçlarını keşfet"
         },
         "id": "range",
@@ -191,9 +223,11 @@
           "de": "Umfang erweitern",
           "en": "Extend my range",
           "es": "Ampliar mi rango",
-          "fr": "Étendre ma tessiture",
+          "fr": "Élargir mon étendue",
           "id": "Perluas jangkauanku",
+          "ja": "音域を広げたい",
           "pt": "Ampliar minha extensão",
+          "ru": "Расширить диапазон",
           "tr": "Aralığımı genişlet"
         },
         "routineId": "range_extension"
@@ -207,7 +241,9 @@
           "es": "Más volumen y una voz que llegue lejos",
           "fr": "Plus de volume, une voix qui porte",
           "id": "Lebih keras, suara yang terdengar jauh",
+          "ja": "より大きく、遠くまで届く声",
           "pt": "Mais volume, uma voz que chega longe",
+          "ru": "Громче и с полётностью",
           "tr": "Daha gür, uzağa ulaşan bir ses"
         },
         "id": "power",
@@ -217,7 +253,9 @@
           "es": "Más potencia",
           "fr": "Plus de puissance",
           "id": "Lebih bertenaga",
+          "ja": "もっとパワーを",
           "pt": "Mais potência",
+          "ru": "Больше силы",
           "tr": "Daha çok güç"
         },
         "routineId": "power_volume"
@@ -231,7 +269,9 @@
           "es": "Pasajes rápidos y precisión",
           "fr": "Vocalises rapides et précision",
           "id": "Run cepat dan ketepatan",
+          "ja": "速いランと正確さ",
           "pt": "Melismas rápidos e precisão",
+          "ru": "Быстрые мелизмы и точность",
           "tr": "Hızlı pasajlar ve kesinlik"
         },
         "id": "agility",
@@ -241,7 +281,9 @@
           "es": "Velocidad y flexibilidad",
           "fr": "Vitesse et souplesse",
           "id": "Kecepatan & kelenturan",
+          "ja": "スピード＆柔軟さ",
           "pt": "Velocidade e flexibilidade",
+          "ru": "Скорость и гибкость",
           "tr": "Hız & esneklik"
         },
         "routineId": "agility_runs"
@@ -255,7 +297,9 @@
           "es": "Frases sostenidas y control",
           "fr": "Phrases tenues et contrôle",
           "id": "Frasa panjang dan kendali",
+          "ja": "長いフレーズとコントロール",
           "pt": "Frases longas e controle",
+          "ru": "Длинные фразы и контроль",
           "tr": "Uzun cümleler ve kontrol"
         },
         "id": "breath",
@@ -265,7 +309,9 @@
           "es": "Respiración y resistencia",
           "fr": "Souffle et endurance",
           "id": "Napas & stamina",
+          "ja": "ブレス＆スタミナ",
           "pt": "Ar e fôlego",
+          "ru": "Дыхание и выносливость",
           "tr": "Nefes & dayanıklılık"
         },
         "routineId": "breath_control"
@@ -279,7 +325,9 @@
           "es": "Prepárate rápido",
           "fr": "Être prêt vite",
           "id": "Siap dengan cepat",
+          "ja": "短時間で準備",
           "pt": "Ficar pronto rápido",
+          "ru": "Быстро подготовиться",
           "tr": "Hızlıca hazır ol"
         },
         "id": "quick",
@@ -289,7 +337,9 @@
           "es": "Pre-show rápido",
           "fr": "Express avant scène",
           "id": "Cepat sebelum tampil",
+          "ja": "本番前に手早く",
           "pt": "Rápido pré-show",
+          "ru": "Быстро перед выходом",
           "tr": "Sahne öncesi hızlı"
         },
         "routineId": "pre_performance"
@@ -305,7 +355,9 @@
           "es": "Distorsión y vocales extremas",
           "fr": "Distorsion et voix extrêmes",
           "id": "Distorsi dan vokal ekstrem",
+          "ja": "ディストーションとエクストリームボーカル",
           "pt": "Distorção e vocais extremos",
+          "ru": "Расщепление и экстремальный вокал",
           "tr": "Distorsiyon ve uç vokaller"
         },
         "id": "rock",
@@ -315,7 +367,9 @@
           "es": "Grit / gritos",
           "fr": "Grain / cri",
           "id": "Serak / teriak",
+          "ja": "がなり / スクリーム",
           "pt": "Aspereza / gritos",
+          "ru": "Хрипотца / скрим",
           "tr": "Kirli ton / çığlık"
         },
         "routineId": "heavy_rock"
@@ -478,7 +532,9 @@
     "es": "Responde un par de preguntas",
     "fr": "Réponds à deux questions",
     "id": "Jawab beberapa pertanyaan",
+    "ja": "いくつかの質問に答えるだけ",
     "pt": "Responda duas perguntas",
+    "ru": "Ответь на пару вопросов",
     "tr": "Birkaç soruya cevap ver"
   },
   "title": {
@@ -487,7 +543,9 @@
     "es": "Encuentra tu calentamiento",
     "fr": "Trouve mon échauffement",
     "id": "Cari pemanasanku",
+    "ja": "ウォームアップを探す",
     "pt": "Achar meu aquecimento",
+    "ru": "Подобрать распевку",
     "tr": "Isınmamı bul"
   }
 }

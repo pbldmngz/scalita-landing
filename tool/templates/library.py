@@ -21,8 +21,12 @@ CSS = ["guides.css"]
 
 
 def systems_order(n):
+    """The systems the locale's notation picker offers, in its order. Only
+    an export without that order lists every system: the Cyrillic set is in
+    the export for the Russian pages, and like the app no other language
+    offers it."""
     order = list(n["locales"].get("notationOrder") or [])
-    return order + [k for k in sorted(n["systems"]) if k not in order]
+    return order or sorted(n["systems"])
 
 
 def render(ctx):
@@ -55,8 +59,9 @@ def render(ctx):
         if k not in st:
             continue
         names = [st[k]["middleC"], st[k]["a440"], st[k]["lowest"], st[k]["highest"]]
-        if k == "francoBelgian" and n["locales"].get("octaveStyle") == k:
-            # the locale's own solfège spelling of the same keys: Dó3 in Portuguese, Do3 in French
+        if k in ("francoBelgian", "helmholtz") and n["locales"].get("octaveStyle") == k:
+            # the locale's own spelling of the same keys: Dó3 in Portuguese, Do3 in
+            # French, до¹ in Russian (German's own is the c¹ the style shows anyway)
             names = [ctx.note(m)[0] for m in (MIDDLE_C, A440, 21, 108)]
         rows.append((p.L(ctx, "notation.styles." + k), [ctx.esc(x) for x in names], ""))
     octaves = p.section(p.L(ctx, "notation.octaves"), p.table(

@@ -74,7 +74,9 @@
       "es": "Mayor / Octava",
       "fr": "Majeure / Octave",
       "id": "Mayor / Oktaf",
+      "ja": "メジャー / オクターブ",
       "pt": "Maior / Oitava",
+      "ru": "Мажор / Октава",
       "tr": "Majör / Oktav"
     },
     "naturalDirection": "mirror",
@@ -315,7 +317,9 @@
       "es": "Menor Natural",
       "fr": "Mineure naturelle",
       "id": "Minor Natural",
+      "ja": "ナチュラルマイナー",
       "pt": "Menor natural",
+      "ru": "Натуральный минор",
       "tr": "Doğal Minör"
     },
     "naturalDirection": "normal",
@@ -537,7 +541,9 @@
       "es": "Pentatónica Menor",
       "fr": "Pentatonique mineure",
       "id": "Pentatonik Minor",
+      "ja": "マイナーペンタトニック",
       "pt": "Pentatônica menor",
+      "ru": "Минорная пентатоника",
       "tr": "Pentatonik Minör"
     },
     "naturalDirection": "normal",
@@ -808,7 +814,9 @@
       "es": "Cromática",
       "fr": "Chromatique",
       "id": "Kromatik",
+      "ja": "クロマチック",
       "pt": "Cromática",
+      "ru": "Хроматическая",
       "tr": "Kromatik"
     },
     "naturalDirection": "normal",
@@ -1016,7 +1024,9 @@
       "es": "Arpegio (Tríada)",
       "fr": "Arpège (triade)",
       "id": "Arpeggio (Trinada)",
+      "ja": "アルペジオ（トライアド）",
       "pt": "Arpejo (tríade)",
+      "ru": "Арпеджио (трезвучие)",
       "tr": "Arpej (Triad)"
     },
     "naturalDirection": "normal",
@@ -1243,7 +1253,9 @@
       "es": "Arpegio (7ª)",
       "fr": "Arpège (7e)",
       "id": "Arpeggio (Septim)",
+      "ja": "アルペジオ（セブンス）",
       "pt": "Arpejo (7ª)",
+      "ru": "Арпеджио (септаккорд)",
       "tr": "Arpej (7'li)"
     },
     "naturalDirection": "normal",
@@ -1437,7 +1449,9 @@
       "es": "Salto de Octava",
       "fr": "Saut d'octave",
       "id": "Lompat Oktaf",
+      "ja": "オクターブ跳躍",
       "pt": "Salto de oitava",
+      "ru": "Скачок на октаву",
       "tr": "Oktav Atlama"
     },
     "naturalDirection": "normal",
@@ -1641,7 +1655,9 @@
       "es": "Salto de Quinta",
       "fr": "Saut de quinte",
       "id": "Lompat Kuint",
+      "ja": "5度跳躍",
       "pt": "Salto de quinta",
+      "ru": "Скачок на квинту",
       "tr": "Beşli Atlama"
     },
     "naturalDirection": "normal",
@@ -1912,7 +1928,9 @@
       "es": "Rossini / 1.5",
       "fr": "Rossini",
       "id": "Rossini",
+      "ja": "ロッシーニ",
       "pt": "Rossini",
+      "ru": "Россини",
       "tr": "Rossini"
     },
     "naturalDirection": "normal",
@@ -2087,7 +2105,9 @@
       "es": "5 Tonos",
       "fr": "5 notes",
       "id": "5 Nada",
+      "ja": "5音",
       "pt": "5 notas",
+      "ru": "5 нот",
       "tr": "5 Nota"
     },
     "naturalDirection": "mirror",
@@ -2409,7 +2429,9 @@
       "es": "Zigzag Crescendo",
       "fr": "Zigzag crescendo",
       "id": "Zigzag Crescendo",
+      "ja": "ジグザグ・クレッシェンド",
       "pt": "Ziguezague crescendo",
+      "ru": "Зигзаг крещендо",
       "tr": "Zikzak Crescendo"
     },
     "naturalDirection": "normal",
@@ -2659,7 +2681,9 @@
       "es": "Octava Repetida",
       "fr": "Octave répétée",
       "id": "Oktaf Berulang",
+      "ja": "オクターブ反復",
       "pt": "Oitava repetida",
+      "ru": "Повтор октавы",
       "tr": "Oktav Tekrarı"
     },
     "naturalDirection": "normal",
@@ -2885,7 +2909,9 @@
       "es": "Octava y Media",
       "fr": "Octave et demie",
       "id": "Satu Setengah Oktaf",
+      "ja": "1オクターブ半",
       "pt": "Oitava e meia",
+      "ru": "Полторы октавы",
       "tr": "Bir Buçuk Oktav"
     },
     "naturalDirection": "normal",
@@ -3043,7 +3069,9 @@
       "es": "Nota Sola",
       "fr": "Note unique",
       "id": "Satu Nada",
+      "ja": "単音",
       "pt": "Nota única",
+      "ru": "Одна нота",
       "tr": "Tek Nota"
     },
     "naturalDirection": "normal",
@@ -3404,7 +3432,9 @@
       "es": "Cambio de Vocal",
       "fr": "Changement de voyelle",
       "id": "Ganti Vokal",
+      "ja": "母音チェンジ",
       "pt": "Troca de vogal",
+      "ru": "Смена гласных",
       "tr": "Ünlü Değişimi"
     },
     "naturalDirection": "normal",
@@ -3766,7 +3796,9 @@
       "es": "Salto de Intervalo (5ª)",
       "fr": "Saut d'intervalle (quinte)",
       "id": "Lompat Interval (Kuint)",
+      "ja": "音程跳躍（5度）",
       "pt": "Salto de intervalo (5ª)",
+      "ru": "Скачок (квинта)",
       "tr": "Aralık Atlama (5'li)"
     },
     "naturalDirection": "normal",
@@ -4042,7 +4074,9 @@
       "es": "3 Tonos",
       "fr": "3 notes",
       "id": "3 Nada",
+      "ja": "3音",
       "pt": "3 notas",
+      "ru": "3 ноты",
       "tr": "3 Nota"
     },
     "naturalDirection": "mirror",
@@ -4353,7 +4387,9 @@
       "es": "5 Tonos Descendente",
       "fr": "5 notes descendantes",
       "id": "5 Nada Menurun",
+      "ja": "5音下行",
       "pt": "5 notas descendente",
+      "ru": "5 нот вниз",
       "tr": "5 Nota İnici"
     },
     "naturalDirection": "normal",
@@ -4737,7 +4773,9 @@
       "es": "Octava Descendente",
       "fr": "Octave descendante",
       "id": "Oktaf Menurun",
+      "ja": "オクターブ下行",
       "pt": "Oitava descendente",
+      "ru": "Октава вниз",
       "tr": "Oktav İnici"
     },
     "naturalDirection": "normal",
@@ -5003,7 +5041,9 @@
       "es": "Quebrada",
       "fr": "Brisée",
       "id": "Terurai",
+      "ja": "分散和音",
       "pt": "Quebrada",
+      "ru": "Ломаная",
       "tr": "Kırık"
     },
     "naturalDirection": "normal",
@@ -5210,7 +5250,9 @@
       "es": "Tres pulsos",
       "fr": "Trois impulsions",
       "id": "Tiga Denyut",
+      "ja": "3回パルス",
       "pt": "Três pulsos",
+      "ru": "Три толчка",
       "tr": "Üç Vuruş"
     },
     "naturalDirection": "normal",
@@ -5565,7 +5607,9 @@
       "es": "Kodály 5 3",
       "fr": "Kodály 5 3",
       "id": "Kodály 5 3",
+      "ja": "コダーイ 5 3",
       "pt": "Kodály 5 3",
+      "ru": "Кодай 5 3",
       "tr": "Kodály 5 3"
     },
     "naturalDirection": "normal",
@@ -5839,7 +5883,9 @@
       "es": "Kodály 5 3 1",
       "fr": "Kodály 5 3 1",
       "id": "Kodály 5 3 1",
+      "ja": "コダーイ 5 3 1",
       "pt": "Kodály 5 3 1",
+      "ru": "Кодай 5 3 1",
       "tr": "Kodály 5 3 1"
     },
     "naturalDirection": "normal",

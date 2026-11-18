@@ -728,7 +728,7 @@
         "label": "Son net"
       },
       "comfortZone": {
-        "description": "La partie de ta tessiture où chanter est le plus facile.",
+        "description": "La partie de ton étendue où chanter est le plus facile.",
         "label": "Zone confortable"
       },
       "coolDown": {
@@ -797,7 +797,7 @@
       },
       "range": {
         "description": "Les notes de ta plus grave à ta plus aiguë.",
-        "label": "Ta tessiture"
+        "label": "Ton étendue"
       },
       "scoops": {
         "description": "Entrer dans une note en glissant par en dessous, ou la laisser tomber à la fin.",
@@ -894,7 +894,7 @@
         "name": "Parcours complet"
       },
       "none": {
-        "description": "Utiliser la tessiture normale",
+        "description": "Utiliser l'étendue normale",
         "name": "Aucun"
       },
       "targetZona": {
@@ -904,19 +904,19 @@
     },
     "range": {
       "chooseManuallyInstead": "Choisir manuellement plutôt",
-      "findingYourRange": "Recherche de ta tessiture",
+      "findingYourRange": "Recherche de ton étendue",
       "goAsHighAsYouCan": "Monte seulement tant que c'est facile, pas plus fort que quand tu parles.",
       "highest": "Plus aiguë",
       "holdSteady": "Tiens la note...",
       "holdUntilCalm": "Tiens la note jusqu'à ce que les ondes se calment",
-      "letsFindYourRange": "Trouvons ta tessiture",
+      "letsFindYourRange": "Trouvons ton étendue",
       "listenForNotes": "D'abord ta note grave confortable, puis ta note aiguë confortable. Tiens chaque note bien stable.",
       "locked": "C'est noté !",
       "lowest": "Plus grave",
       "mainRangeIsChestAndHead": "C'est ta voix de poitrine et de tête : les notes que tu chantes normalement.",
       "nowSingHighest": "Maintenant, une note aiguë confortable",
       "rangeAloneNotVoiceType": "L'étendue seule ne décide pas de ton type de voix. Ton passage de voix est un autre indice.",
-      "rangeMayChange": "Ta tessiture peut varier selon l'échauffement, l'entraînement et l'heure de la journée.",
+      "rangeMayChange": "Ton étendue peut varier selon l'échauffement, l'entraînement et l'heure de la journée.",
       "rangeOctaves": "Environ {octaves} octaves",
       "rangeTooNarrow": "Cette étendue semble étroite. Tu veux réessayer ?",
       "redoDetection": "Refaire la détection",
@@ -926,7 +926,7 @@
       "voiceTypeCommonFor": "Fréquent chez les voix de {voiceType}",
       "voiceTypeCommonForTwo": "Fréquent chez les voix de {voiceType1} et de {voiceType2}",
       "wantToFindVoiceBreak": "Tu veux aussi trouver ton passage de voix ?",
-      "yourVocalRange": "Ta tessiture"
+      "yourVocalRange": "Ton étendue vocale"
     },
     "registers": {
       "subharmonicSoundingNote": "Ce sont les notes qu'on entend, pas celles que tu chantes. Touche les haut-parleurs pour entendre chacune."
@@ -1189,6 +1189,244 @@
       }
     }
   },
+  "ja": {
+    "badges": {
+      "agility": {
+        "description": "1つの母音で素早く音を動かします。速さよりも、軽さと正確さが大切です。",
+        "label": "アジリティ"
+      },
+      "blend": {
+        "description": "低い声と高い声の切り替わりをなめらかにします。",
+        "label": "ミックス"
+      },
+      "closure": {
+        "description": "息をあまり漏らさず、澄んだクリアな音を保ちます。",
+        "label": "クリアな声"
+      },
+      "comfortZone": {
+        "description": "音域の中で、一番楽に歌える部分です。",
+        "label": "楽に出せる音域"
+      },
+      "coolDown": {
+        "description": "楽な音で締めくくります。今の声の感じに注意を向けてみましょう。",
+        "label": "クールダウン"
+      },
+      "falseCordDrone": {
+        "description": "軽くて低いゴロゴロという音です。重い家具を引きずる音や、油の切れたドアがゆっくり閉まる音をイメージしてください。MとRの間のような低いMMMMを、アイドリング中のエンジンのように鳴らし、喉は楽なままにします。電動ドリルのような、締まった高い音にはしません。",
+        "label": "低いうなりで"
+      },
+      "forward": {
+        "description": "ドアの向こうにいる人や、奥の壁に向かって歌いましょう。声を内にしまい込まず、外へ届けます。",
+        "label": "前に出る響き"
+      },
+      "fryOnset": {
+        "description": "アプローチの1つ：軽いエッジボイスから音を始め、そのあと解放します。",
+        "label": "エッジボイスで始める"
+      },
+      "grit": {
+        "description": "楽な声の上に、少しだけざらつきを乗せます。控えめにしましょう。",
+        "label": "がなり"
+      },
+      "headVoice": {
+        "description": "軽くて高いほうの声です。やわらかく出しましょう。",
+        "label": "ヘッドボイス"
+      },
+      "hotAir": {
+        "description": "鏡を曇らせるときのように、温かい息を吐きます。がなり系の声を教える先生の多くが、ここから始めます。",
+        "label": "温かい息"
+      },
+      "leaps": {
+        "description": "離れた音と音の間を跳びます。",
+        "label": "跳躍"
+      },
+      "light": {
+        "description": "やさしく、楽に。声をふわりと浮かせます。",
+        "label": "やさしく楽に"
+      },
+      "lowLarynx": {
+        "description": "アプローチの1つ：あくびの始まりのように、喉仏を落ち着かせます。舌で押し下げないでください。",
+        "label": "落ち着いた喉"
+      },
+      "matchNote": {
+        "description": "ピアノが鳴らすのと同じ音を歌います。",
+        "label": "音を合わせる"
+      },
+      "noNasalAir": {
+        "description": "少しの間、鼻をつまんでみてください。音が変わるなら、息が鼻から抜けています。",
+        "label": "鼻から息を出さない"
+      },
+      "open": {
+        "description": "あくびの始まりのように、あごを楽に下ろします。",
+        "label": "開いた響き"
+      },
+      "pokerFace": {
+        "description": "顔はおだやかに保ちます。顔がこわばるのは、喉も締まってきているサインかもしれません。",
+        "label": "ポーカーフェイス"
+      },
+      "power": {
+        "description": "体全体のエネルギーで声を大きくします。喉は楽なままにします。",
+        "label": "大きく"
+      },
+      "quack": {
+        "description": "歯のない魔女のような、わざと汚くした明るい音を、ヘッドボイスの高いところで出します。舌は歯医者の麻酔が残っているように重く、あごはゆるめます。音はすべて口から出します。鼻をつまんでも変わらないはずです。力むのではなく、意図して出します。",
+        "label": "眠った舌"
+      },
+      "range": {
+        "description": "一番低い音から一番高い音までの範囲です。",
+        "label": "自分の音域"
+      },
+      "scoops": {
+        "description": "下からずり上げて音に入ること、または音の終わりでずり下げること。",
+        "label": "しゃくりとフォール"
+      },
+      "slides": {
+        "description": "サイレンのように、音から音へなめらかにつなぎます。",
+        "label": "スライド"
+      },
+      "sovt": {
+        "description": "リップロールやハミングのように、軽い振動を通して歌います。",
+        "label": "軽い振動"
+      },
+      "steadySupport": {
+        "description": "よく使われる方法の1つ：体の低いところに、安定したおだやかなエネルギーを保ちます。安定させますが、固めません。",
+        "label": "安定した支え"
+      },
+      "sustain": {
+        "description": "1音ずつ、最後まで安定して伸ばします",
+        "label": "ロングトーン"
+      },
+      "topSeam": {
+        "description": "ヘッドボイスから一番上の音域へ、小さな声で上がります。",
+        "label": "ヘッドからフラジオレットへ"
+      },
+      "tryOctaveUp": {
+        "description": "低い音が出ないときは、まず1オクターブ上で試してみましょう。",
+        "label": "試す：1オクターブ上"
+      },
+      "vibrato": {
+        "description": "伸ばした音のピッチに現れる、規則的な揺れです。",
+        "label": "ビブラート"
+      },
+      "vocalFry": {
+        "description": "寝起きの声のような、低くてプツプツした音です。",
+        "label": "エッジボイス"
+      },
+      "vowels": {
+        "description": "母音を変えても、音色をそろえます。",
+        "label": "純粋な母音"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "もう少し高く",
+      "aBitLower": "もう少し低く",
+      "breakZone": "換声点付近",
+      "chestVoice": "地声",
+      "femaleVoice": "女声",
+      "findYourVoiceBreak": "換声点を見つける",
+      "firstBreakExplain": "ピアノに合わせて歌いましょう。声がひっくり返りそうになる、軽い音に切り替わる、出すのが大変になってくる。そこが換声点です。画面のどこかをタップしてください。",
+      "firstShift": "1つ目の切り替わり",
+      "headVoice": "ヘッドボイス",
+      "maleVoice": "男声",
+      "matchesVoiceType": "このあたりの換声点は{voiceType}の声に多く見られます。手がかりの1つです。",
+      "tapWhenYouFeel": "切り替わりを感じたらタップ",
+      "thisHelpsEstimate": "2つ目の声区の切り替わりを推定するのに使います。",
+      "voiceBreak": "換声点",
+      "voiceBreakEducational": "声種は、声が一番よく響く音域や音色によっても決まります。",
+      "voiceBreakExplain": "高い音へ上がっていくと、ギアを切り替えるときのように、声がひっくり返りそうになったり切り替わったりする場所があります。それが換声点です。これから音を順に上げて鳴らします。一緒に歌い、切り替わりを感じたら画面をタップしてください。",
+      "voiceBreakMoves": "換声点は、母音や声量によって少し動きます。",
+      "whatDescribesYourVoice": "自分の声に近いのはどちらですか？",
+      "youFeltSomethingAround": "{note}のあたりで変化を感じました"
+    },
+    "directions": {
+      "down": "下行",
+      "inverted": "下行",
+      "label": "方向",
+      "mirror": "往復",
+      "normal": "上行",
+      "up": "上行"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "高い音を出すのに急に力が必要になる",
+      "voiceFlipsToLighterSound": "声が軽く、息混じりの音に切り替わる",
+      "voiceWantsToCrack": "声がひっくり返りそうになる",
+      "whatToListenFor": "こんな変化に注目："
+    },
+    "numbers": {
+      "decimalSeparator": ".",
+      "octave": "オクターブ",
+      "octaves": "オクターブ"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "換声点の手前で止まります",
+        "name": "手前まで"
+      },
+      "crossOnce": {
+        "description": "換声点を越えて戻ります",
+        "name": "1回越える"
+      },
+      "fullJourney": {
+        "description": "ヘッドボイスまで通して声を温めます",
+        "name": "上まで通す"
+      },
+      "none": {
+        "description": "通常の音域を使います",
+        "name": "なし"
+      },
+      "targetZona": {
+        "description": "換声点付近を中心にします",
+        "name": "換声点を重点的に"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "手動で選ぶ",
+      "findingYourRange": "音域を測定中",
+      "goAsHighAsYouCan": "楽に出せるところまで、話す声より大きくせずに上がります。",
+      "highest": "最高音",
+      "holdSteady": "そのまま…",
+      "holdUntilCalm": "波が落ち着くまで音を伸ばしてください",
+      "letsFindYourRange": "音域を調べましょう",
+      "listenForNotes": "まず楽に出せる一番低い音、次に楽に出せる一番高い音を歌います。どちらも安定して伸ばしてください。",
+      "locked": "OK！",
+      "lowest": "最低音",
+      "mainRangeIsChestAndHead": "これは地声とヘッドボイスの範囲、つまりふだん歌っている音です。",
+      "nowSingHighest": "次は楽に出せる高い音",
+      "rangeAloneNotVoiceType": "音域だけで声種は決まりません。換声点も手がかりになります。",
+      "rangeMayChange": "音域は、ウォームアップやトレーニング、時間帯によって変わります。",
+      "rangeOctaves": "約{octaves}オクターブ",
+      "rangeTooNarrow": "音域が狭めに出ました。もう一度試しますか？",
+      "redoDetection": "もう一度測定",
+      "singHighestNote": "楽に出せる一番高い音を歌ってください",
+      "singLowestNote": "楽に出せる一番低い音を歌ってください",
+      "voiceBreakOnboardingDesc": "声区の切り替わりに合わせた練習を組めるようになります。",
+      "voiceTypeCommonFor": "{voiceType}の声に多い",
+      "voiceTypeCommonForTwo": "{voiceType1}と{voiceType2}の声に多い",
+      "wantToFindVoiceBreak": "換声点も調べますか？",
+      "yourVocalRange": "測定した音域"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "ここに表示されるのは、歌っている音ではなく、聞こえる音です。スピーカーをタップすると、それぞれの音が聴けます。"
+    },
+    "step": {
+      "bpm": "BPM",
+      "repeatCount": "繰り返し",
+      "tempo": "テンポ"
+    },
+    "styles": {
+      "normal": {
+        "description": "力を抜いて、話すように。",
+        "name": "ふつう"
+      },
+      "smooth": {
+        "description": "音と音をなめらかにつなぎます。",
+        "name": "なめらか"
+      },
+      "struck": {
+        "description": "歯切れのよい出だしで、1音ずつ区切ります。",
+        "name": "はっきり"
+      }
+    }
+  },
   "pt": {
     "badges": {
       "agility": {
@@ -1424,6 +1662,244 @@
       "struck": {
         "description": "Ataque nítido, separação clara.",
         "name": "Seco"
+      }
+    }
+  },
+  "ru": {
+    "badges": {
+      "agility": {
+        "description": "Быстрые ноты на одном гласном. Легко и чисто важнее, чем быстро.",
+        "label": "Беглость"
+      },
+      "blend": {
+        "description": "Сгладь переход между низом и верхом голоса.",
+        "label": "Микст"
+      },
+      "closure": {
+        "description": "Звук чистый и ясный, воздух почти не уходит.",
+        "label": "Чистый тон"
+      },
+      "comfortZone": {
+        "description": "Часть диапазона, где петь легче всего.",
+        "label": "Комфортная зона"
+      },
+      "coolDown": {
+        "description": "Лёгкие звуки в конце. Заметь, как сейчас ощущается голос.",
+        "label": "Заминка"
+      },
+      "falseCordDrone": {
+        "description": "Лёгкий низкий рокот: так тащат тяжёлую мебель или закрывается несмазанная дверь. Низкое ММММ между М и Р, как мотор на холостом ходу, а горло остаётся свободным. Никогда не тонкий, высокий звук дрели.",
+        "label": "Гул, не дрель"
+      },
+      "forward": {
+        "description": "Пой для человека за дверью или для дальней стены. Посылай звук вперёд, а не прячь его.",
+        "label": "Звук впереди"
+      },
+      "fryOnset": {
+        "description": "Один из способов: начни ноту с лёгкого фрая, потом отпусти его.",
+        "label": "Старт с фрая"
+      },
+      "grit": {
+        "description": "Немного шероховатости поверх лёгкого звука. Совсем чуть-чуть.",
+        "label": "С хрипотцой"
+      },
+      "headVoice": {
+        "description": "Твой более лёгкий, высокий голос. Пусть он будет мягким.",
+        "label": "Головной голос"
+      },
+      "hotAir": {
+        "description": "Выдыхай тёплый воздух, чтобы запотело зеркало. Многие педагоги по грубым звукам начинают с этого.",
+        "label": "Тёплый воздух"
+      },
+      "leaps": {
+        "description": "Скачки между далёкими друг от друга нотами.",
+        "label": "Скачки"
+      },
+      "light": {
+        "description": "Мягко и легко. Пусть звук парит.",
+        "label": "Мягко и легко"
+      },
+      "lowLarynx": {
+        "description": "Один из способов: спокойная гортань, как в начале зевка. Никогда не дави её вниз языком.",
+        "label": "Спокойная гортань"
+      },
+      "matchNote": {
+        "description": "Спеть ту же ноту, что играет пианино.",
+        "label": "Попасть в ноту"
+      },
+      "noNasalAir": {
+        "description": "На секунду зажми нос. Если звук меняется, часть воздуха идёт через нос.",
+        "label": "Без воздуха в нос"
+      },
+      "open": {
+        "description": "Челюсть свободно опущена, как в начале зевка.",
+        "label": "Открытый звук"
+      },
+      "pokerFace": {
+        "description": "Лицо спокойное. Зажатое лицо может быть признаком того, что зажимается и горло.",
+        "label": "Покерфейс"
+      },
+      "power": {
+        "description": "Громче, с энергией всего тела. Горло остаётся свободным.",
+        "label": "Громче"
+      },
+      "quack": {
+        "description": "Яркий, нарочно некрасивый звук, как у беззубой Бабы-Яги, высоко в головном голосе. Язык тяжёлый, будто онемел после стоматолога, челюсть свободна. Всё выходит через рот: зажми нос, и звук не должен измениться. Намерение, а не напряжение.",
+        "label": "Сонный язык"
+      },
+      "range": {
+        "description": "Ноты от самой низкой до самой высокой.",
+        "label": "Твой диапазон"
+      },
+      "scoops": {
+        "description": "Подъезд к ноте снизу или сброс в её конце.",
+        "label": "Подъезды и сбросы"
+      },
+      "slides": {
+        "description": "Плавно скользи от ноты к ноте, как сирена.",
+        "label": "Скольжения"
+      },
+      "sovt": {
+        "description": "Пой через лёгкую вибрацию, как в губной трели или мычании.",
+        "label": "Лёгкая вибрация"
+      },
+      "steadySupport": {
+        "description": "Один из распространённых подходов: ровная, мягкая энергия внизу корпуса. Устойчиво, но не зажато.",
+        "label": "Ровная опора"
+      },
+      "sustain": {
+        "description": "Держи каждую ноту ровно всю её длину",
+        "label": "Долгие ноты"
+      },
+      "topSeam": {
+        "description": "Из головного голоса на самый верх, тихо.",
+        "label": "Из головного во флажолет"
+      },
+      "tryOctaveUp": {
+        "description": "Если низкая нота не идёт, сначала попробуй её октавой выше.",
+        "label": "Попробуй: октавой выше"
+      },
+      "vibrato": {
+        "description": "Регулярная волна высоты на выдержанной ноте.",
+        "label": "Вибрато"
+      },
+      "vocalFry": {
+        "description": "Тот самый потрескивающий низкий звук, как будто голос просыпается.",
+        "label": "Фрай"
+      },
+      "vowels": {
+        "description": "Меняй гласный, а звук держи ровным.",
+        "label": "Чистые гласные"
+      }
+    },
+    "breakFinder": {
+      "aBitHigher": "Чуть выше",
+      "aBitLower": "Чуть ниже",
+      "breakZone": "Переходные ноты",
+      "chestVoice": "Грудной голос",
+      "femaleVoice": "Женский голос",
+      "findYourVoiceBreak": "Найди свой переход",
+      "firstBreakExplain": "Пой вместе с пианино. Когда голос хочет сорваться, переключается на более лёгкий звук или петь становится трудно, это то самое место. Коснись экрана в любом месте.",
+      "firstShift": "Первый сдвиг",
+      "headVoice": "Головной голос",
+      "maleVoice": "Мужской голос",
+      "matchesVoiceType": "Переход в этом месте часто бывает у голоса «{voiceType}». Это одна подсказка из нескольких.",
+      "tapWhenYouFeel": "Коснись, когда почувствуешь сдвиг",
+      "thisHelpsEstimate": "Так мы оценим, где твой второй переход между регистрами.",
+      "voiceBreak": "Переход",
+      "voiceBreakEducational": "Тип голоса зависит и от того, где голос звучит лучше всего, и от его тембра.",
+      "voiceBreakExplain": "Чем выше поёшь, тем ближе место, где голос хочет сорваться или перестроиться, как при переключении передачи. Это и есть переход. Мы будем играть ноты вверх. Пой вместе с ними и коснись экрана, когда почувствуешь сдвиг.",
+      "voiceBreakMoves": "Переход немного смещается в зависимости от гласного и громкости.",
+      "whatDescribesYourVoice": "Какой у тебя голос?",
+      "youFeltSomethingAround": "Что-то изменилось около {note}"
+    },
+    "directions": {
+      "down": "Вниз",
+      "inverted": "Вниз",
+      "label": "Направление",
+      "mirror": "Вверх и вниз",
+      "normal": "Вверх",
+      "up": "Вверх"
+    },
+    "listenFor": {
+      "suddenlyNeedMoreEffort": "Вдруг нужно больше усилий, чтобы петь выше",
+      "voiceFlipsToLighterSound": "Голос переключается на более лёгкий, воздушный звук",
+      "voiceWantsToCrack": "Голос хочет сорваться",
+      "whatToListenFor": "На что обратить внимание:"
+    },
+    "numbers": {
+      "decimalSeparator": ",",
+      "octave": "октава",
+      "octaves": "октавы"
+    },
+    "passaggioIntents": {
+      "approachOnly": {
+        "description": "Остановиться перед переходом",
+        "name": "Только подход"
+      },
+      "crossOnce": {
+        "description": "Пройти переход и вернуться",
+        "name": "Пройти раз"
+      },
+      "fullJourney": {
+        "description": "Распевка через головной голос",
+        "name": "Весь путь"
+      },
+      "none": {
+        "description": "Обычный диапазон",
+        "name": "Нет"
+      },
+      "targetZona": {
+        "description": "Вокруг переходных нот",
+        "name": "На переходе"
+      }
+    },
+    "range": {
+      "chooseManuallyInstead": "Лучше выбрать вручную",
+      "findingYourRange": "Ищем твой диапазон",
+      "goAsHighAsYouCan": "Поднимайся, только пока легко, не громче обычной речи.",
+      "highest": "Верх",
+      "holdSteady": "Держи ровно...",
+      "holdUntilCalm": "Держи ноту, пока волны не успокоятся",
+      "letsFindYourRange": "Найдём твой диапазон",
+      "listenForNotes": "Сначала самая низкая удобная нота, потом самая высокая удобная. Держи каждую ровно.",
+      "locked": "Есть!",
+      "lowest": "Низ",
+      "mainRangeIsChestAndHead": "Это твой грудной и головной голос: ноты, которые ты поёшь обычно.",
+      "nowSingHighest": "Теперь удобная высокая нота",
+      "rangeAloneNotVoiceType": "Один диапазон не определяет тип голоса. Ещё одна подсказка: где у тебя переход.",
+      "rangeMayChange": "Диапазон может меняться после распевки, с тренировками и в зависимости от времени суток.",
+      "rangeOctaves": "Около {octaves} октавы",
+      "rangeTooNarrow": "Диапазон получился узким. Попробовать ещё раз?",
+      "redoDetection": "Измерить заново",
+      "singHighestNote": "Спой самую высокую удобную ноту",
+      "singLowestNote": "Спой самую низкую удобную ноту",
+      "voiceBreakOnboardingDesc": "Так упражнения будут строиться вокруг твоих переходов между регистрами.",
+      "voiceTypeCommonFor": "Так часто бывает у голоса «{voiceType}»",
+      "voiceTypeCommonForTwo": "Так часто бывает у голосов «{voiceType1}» и «{voiceType2}»",
+      "wantToFindVoiceBreak": "Найдём заодно и твой переход?",
+      "yourVocalRange": "Твой диапазон"
+    },
+    "registers": {
+      "subharmonicSoundingNote": "Это ноты, которые слышат другие, а не те, что ты поёшь. Нажми на динамик, чтобы услышать каждую."
+    },
+    "step": {
+      "bpm": "BPM",
+      "repeatCount": "Повтор",
+      "tempo": "Темп"
+    },
+    "styles": {
+      "normal": {
+        "description": "Свободно, как в речи.",
+        "name": "Обычно"
+      },
+      "smooth": {
+        "description": "Ноты связаны скольжением.",
+        "name": "Плавно"
+      },
+      "struck": {
+        "description": "Чёткая атака, ноты отдельно.",
+        "name": "Чётко"
       }
     }
   },

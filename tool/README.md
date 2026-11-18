@@ -16,7 +16,7 @@ Edit `tool/content/` instead.
 
 ## Why
 
-Seven locales times every page is a lot of files that have to agree on the
+Nine locales times every page is a lot of files that have to agree on the
 navigation, the footer, the language menu and the hreflang links. Kept in sync
 by hand they were already drifting: the Spanish pages had lost their accents,
 the French support page still quoted dollars, and the language switcher was
@@ -61,7 +61,7 @@ What a full build writes:
 
 | | |
 |---|---|
-| `index.html`, `privacy.html`, `terms.html`, `support.html`, and the same in `es/ fr/ pt/ de/ tr/ id/` | the four legacy pages, at their old `.html` URLs |
+| `index.html`, `privacy.html`, `terms.html`, `support.html`, and the same in `es/ fr/ pt/ de/ tr/ id/ ru/ ja/` | the four legacy pages, at their old `.html` URLs |
 | `features/`, `<loc>/<slug>/` | the features page, a page of the site itself (section `site`) |
 | `tools/`, `tools/<slug>/`, `guides/<slug>/`, and `<loc>/<section word>/...` | every other page, one directory each (`index.html` inside, never linked) |
 | `sitemap.xml` | an index of `sitemap-core.xml` (legacy and `site`), `sitemap-tools.xml`, `sitemap-guides.xml` |
@@ -79,6 +79,7 @@ Where the code lives:
 | `tool/templates/_chrome.py` | the chrome around every page, in its context: the document shell, the head (the font preloads, the full screen snippet), the landing header with its phone menu, the tools header with its switcher, the phones' tab bar, the language menu, the breadcrumb, the full footer and the compact one, the language bar's words (`#site-langs`), the manifests, and the markup of `ctx.cta()` (the band), `credit()`, `byline()`, `related()`. It reads the build's state as `import build as B`, like `check.py` |
 | `js/site/chrome.js`, `js/site/fullscreen.js` | every page's one script (the language menu's Escape and click-away, the phones' menu, the language bar, a tool page's reference folds), and full screen on a desktop tool page, which loads on the control's first click |
 | `js/site/wake-lock.js` | keeps the screen on while a tool runs (`keepAwake(key, on)`): the range test, the ear test and sing-in-tune import it with their run module on the tap, the warm-up piano and the finder load it on their first Play or Start. Nothing where the Screen Wake Lock API is missing |
+| `tool/subset_fonts.py` | the web fonts: Sora from the app's TTFs, and for Russian's letters Onest (SIL OFL 1.1, from the Google Fonts repository; `tool/fonts-src/` holds its variable TTF and OFL), as more faces of the family with a Cyrillic `unicode-range`, so only a page that shows Cyrillic fetches one. `_chrome.SCRIPT_FACES` preloads them on the Russian pages. Japanese has no web face (a Japanese one is megabytes): `css/style.css` gives `html:lang(ja)` the reader's own Japanese face after Sora (Hiragino Sans, Noto Sans JP or CJK JP, Yu Gothic, Meiryo), `lang="ja"` makes Han characters take their Japanese forms, and the share images name the same faces (`js/tools/share-card.js`). `--check` before a commit |
 | `tool/templates/home.py` | the home page's content (`legacy-home`): `render(ctx)` returns its title, description, head extras, JSON-LD, body and script, and `build.py` frames them with the chrome (the module's docstring has the keys) |
 | `tool/templates/<template>.py`, `_parts.py` | every other page's body, and the pieces they share ("Template contract") |
 
@@ -98,7 +99,7 @@ tool/data/app/*.json                the app's own data, exported (tool/data/READ
 tool/pages.json                     the registry: which pages exist
 ```
 
-`<loc>` is one of `en es fr pt de tr id` (`pt` is Brazilian Portuguese).
+`<loc>` is one of `en es fr pt de tr id ru ja` (`pt` is Brazilian Portuguese).
 
 **English is the reference.** Every other locale's file has exactly the English
 key set at every depth, and lists of the same length (a translation keeps every
@@ -106,6 +107,15 @@ FAQ and every source, in order). The build fails otherwise. A `null` on either
 side is not compared, for a box only one language fills.
 
 Write real characters (`é`, `ı`, `c¹`), not entities. No em dashes, anywhere.
+
+Japanese (`ja`) is written in polite です/ます, labels as short nouns, with
+full-width punctuation (、。「」（）？！), half-width digits and Latin, no space
+between Japanese and a Latin word (`Proにアップグレード`), and every app name
+exactly as the app's Japanese strings have it. There are no spaces to break a
+line at: `css/style.css` sets strict kinsoku (`line-break: strict`) and breaks
+headings and buttons between phrases where the browser can (`word-break:
+auto-phrase`). `check.py` finds Japanese verdict and tone-deaf words anywhere
+in a string (`NO_SPACES`), since there is no word boundary to look for.
 
 ### Site-wide strings (`<loc>.json`)
 
@@ -121,7 +131,7 @@ replaces it; `check.py` lists the ones still in English):
 |---|---|
 | `nav.tools`, `nav.guides` | the nav links to the two sections |
 | `footer.toolsHeading`, `footer.guidesHeading` | footer column headings |
-| `sections.tools`, `sections.guides` | the URL words of the two sections: lowercase ASCII words joined by hyphens (`herramientas`, `guias`). Frozen once published |
+| `sections.tools`, `sections.guides` | the URL words of the two sections: lowercase ASCII words joined by hyphens (`herramientas`, `guias`), romanized for a language in another script (`instrumenty`), or the English word where that language's own sites use it (Japanese: `tools`, `guides`). Frozen once published |
 | `langBar.text`, `langBar.close` | the language bar, in this file's language: "Ver esta página en español", and its close button's label |
 | `breadcrumb.home`, `breadcrumb.label` | the breadcrumb's first item, and its `aria-label` |
 | `cta.heading`, `cta.body`, `cta.button`, `cta.ios` | the call to action after the content (the band); `cta.ios` is the line for iPhone and desktop readers |
@@ -195,7 +205,12 @@ page as `<h2 id="website">`.
 Strings a script shows. The English of `common.json` belongs to the generator,
 `mic.json` to the pitch engine, each tool file to that tool's script. Flat or
 nested, the same keys in every locale. Variables are `{name}` placeholders the
-script fills in; a translation keeps the same placeholders. No verdict words
+script fills in; a translation keeps the same placeholders. Plural forms
+are the one exception to the key parity: a language that counts in more
+forms than English (Russian: 1 цент, 2 цента, 5 центов) adds them, `few`,
+`many`, `two` or `zero` beside a `{one, other}` object, or `xFew` beside the
+flat pair `xOne` and `xMany`, with the placeholders of `other` or `xMany`
+(`build.plural_extra`); the scripts pick them with `Intl.PluralRules`. Japanese counts in one form: its `one` and `other`, and `xOne` and `xMany`, are the same words. No verdict words
 (`check.py` has the list per language): a tool reports a measurement, never a
 judgement of the voice.
 
@@ -362,7 +377,7 @@ every one comes from `strings`.
 
 ```js
 {
-  "locale": "fr",                 // the site code: en es fr pt de tr id
+  "locale": "fr",                 // the site code: en es fr pt de tr id ru ja
   "lang": "fr",                   // BCP 47 for Intl and <html lang>: pt-BR for pt
   "pageId": "vocal-range-test",
   "strings": {                    // one object per ui file, by file name

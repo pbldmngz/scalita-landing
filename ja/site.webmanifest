@@ -1,0 +1,93 @@
+{
+  "id": "/ja/tools/",
+  "name": "Scalita",
+  "short_name": "Scalita",
+  "description": "ブラウザで使える、歌う人のための5つの無料ツール。音域チェック、音痴チェック、音程チェック、発声練習ピアノ、換声点チェックです。登録もアカウントも不要です。",
+  "lang": "ja",
+  "dir": "ltr",
+  "start_url": "/ja/tools/",
+  "scope": "/ja/",
+  "display": "standalone",
+  "background_color": "#1E2628",
+  "theme_color": "#1E2628",
+  "icons": [
+    {
+      "src": "/images/logo_192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo_512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/maskable_512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "音域チェック",
+      "short_name": "音域",
+      "url": "/ja/tools/oniki-check/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "音痴チェック",
+      "short_name": "音感",
+      "url": "/ja/tools/onchi-check/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "音程チェック",
+      "short_name": "ピッチ",
+      "url": "/ja/tools/ontei-check/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "発声練習ピアノ",
+      "short_name": "ピアノ",
+      "url": "/ja/tools/hassei-renshu-piano/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "換声点チェック",
+      "short_name": "換声点",
+      "url": "/ja/tools/kanseiten-check/",
+      "icons": [
+        {
+          "src": "/images/logo_96.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}

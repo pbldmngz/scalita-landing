@@ -99,7 +99,8 @@ a few of those inferences would have broken a case:
   line (not only a landing) goes under y 1200, as `SH-B-tune-modest` has it.
 - **Tabular figures** have no canvas setting; the Hz labels use Sora's own.
 - **Weight.** The spec estimated 4 KB gzipped for each module. share-tune.js
-  is about 2.4 KB; share-card.js about 7.5 KB, of which some 5.7 KB is code
+  is about 2.4 KB; share-card.js about 8.3 KB (7.5 before the Russian
+  faces and the Japanese line breaks), of which most is code
   (the roll, its fitting, and the text and blur helpers both images share),
   so no trimming of comments brings it to 4 KB. Both load only after a
   result, never before a tap; `share.test.mjs` holds them where they are.

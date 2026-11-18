@@ -1,5 +1,5 @@
 {
-  "appVersion": "2.0.0",
+  "appVersion": "2.0.4",
   "constants": {
     "a4Frequency": 440.0,
     "a4Midi": 69,
@@ -18,40 +18,40 @@
       "sha256": "9a019c549f419329cfa60c5dd9a9a0c252a7ee236aec4ee380d8cdeb2012c9cd"
     },
     "intake.json": {
-      "bytes": 14588,
-      "sha256": "a316b63cc58b733966d1e9d5b8a7b2e8705dfc9a59d0b8d42a1c900ce3d7f9cf"
+      "bytes": 17858,
+      "sha256": "d0090a1e956f8e11b08c9e739a8634646ca247c1910270fd678707a32723f41a"
     },
     "notes.json": {
-      "bytes": 112754,
-      "sha256": "b48d3fbf22816e8e2900f63676f54329c1ce210666786e3d6ffbdf1f679e9707"
+      "bytes": 192396,
+      "sha256": "1dbed08fdfa1a6d8b381d406ae236213878b2ad51a1cadba3deedce43f51e493"
     },
     "piano_source.json": {
       "bytes": 11882,
       "sha256": "6f4901387d0fe071b557bea4afa97de3fa01270376a86541dbce39e9f967d853"
     },
     "registers.json": {
-      "bytes": 2885,
-      "sha256": "f110d3c90a7ca1220d4b418ea201ad423d25ed8b4a8664bfb9ee101fd3f53486"
+      "bytes": 3546,
+      "sha256": "dec5e105f5f0ce8029fd2dda9cc7ed28c1bf2979e077f955d98862f6d3a48e46"
     },
     "routines.json": {
-      "bytes": 418292,
-      "sha256": "bef1807241bcea735b51207372759a9d81df283b7e5d3342cc58a5bd0cdc187f"
+      "bytes": 486208,
+      "sha256": "e5947990802f12643f3a6af31a697fe35b70ade16c68e1c52b845764501b47c1"
     },
     "scales.json": {
-      "bytes": 106029,
-      "sha256": "a77beef3bc1863ebff09f14d3b2dcc0df33e3cb25c81b60f4870e091943f5444"
+      "bytes": 107750,
+      "sha256": "93886cedb7674e6c7a49b7821cd96c09f9d6748f3ab15a6bedc9c22479763852"
     },
     "step_range_vectors.json": {
       "bytes": 189868,
       "sha256": "8fa0aa54ae3e3f9684b6fe163f8acef0743fb9b3c9ba6e5894d4a50d4bc236d2"
     },
     "strings.json": {
-      "bytes": 70660,
-      "sha256": "b558480ef195d87b1dd0dad30f584326ed72ecedecd33f4100b835288139148c"
+      "bytes": 95902,
+      "sha256": "9279a023f321d4a533022156509000d0b8671cb36836825e1abcb1917661cf1b"
     },
     "syllables.json": {
-      "bytes": 50627,
-      "sha256": "2592caf6afce22e61a796df6b6f689d651e4bdedd634b22d7777fbdc131143d8"
+      "bytes": 64986,
+      "sha256": "2c61d180aeed3623eed55a134dfd270e2d06c2297848dc8cf651c57b4353597f"
     },
     "transposition_vectors.json": {
       "bytes": 71235,
@@ -62,8 +62,8 @@
       "sha256": "36478edb796873c7fdb6cba27a8f657d1cc1f72933370d48f54b37fb6cdb4a07"
     },
     "voice_types.json": {
-      "bytes": 2319,
-      "sha256": "1577c2f7492a659ba4ea93c30d10454007e0f0b6c4064b0842ca915707beba67"
+      "bytes": 2678,
+      "sha256": "d8884730c4243a9c1dd7b7b010c95e21b0eec65e234a0d359bf294a85076e3e0"
     }
   },
   "locales": [
@@ -108,6 +108,18 @@
       "arb": "id",
       "endonym": "Bahasa Indonesia",
       "site": "id"
+    },
+    {
+      "app": "ru",
+      "arb": "ru",
+      "endonym": "Русский",
+      "site": "ru"
+    },
+    {
+      "app": "ja",
+      "arb": "ja",
+      "endonym": "日本語",
+      "site": "ja"
     }
   ],
   "seeds": {

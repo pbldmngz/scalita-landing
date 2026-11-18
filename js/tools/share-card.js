@@ -21,20 +21,40 @@ const SANS = "Sora, -apple-system, 'Segoe UI', sans-serif";
 const CREAM = '#E8EDEE', SOFT = '#A8B5BA', SLATE = '#7A8B91', MIST = '#3A4548', SEAFOAM = '#7FB3B5', GLOW = '#8AC4C7';
 
 // Sora 200, for the big notes and figures, only this module loads; drawing
-// waits a second and a half at most for the fonts, at 300 without the 200
-let thin;
-async function setup(canvas) {
+// waits a second and a half at most for the fonts, at 300 without the 200.
+// Sora has no Cyrillic: a Russian page's letters are Onest's (css/style.css,
+// tool/subset_fonts.py), its 200 added here the same way, and each face is
+// loaded for a Cyrillic letter too, since a load fetches only the faces its
+// text needs; the sharp and flat face (signs.woff2, css/style.css has it at
+// 300 to 500) the same way at 200, for a Russian note name like Фа♯
+const CYRILLIC = 'U+0400-045F, U+2116';
+const SIGNS = 'U+266D-266F';
+let thin, thinCyr;
+// Japanese: the reader's own face after Sora, lines broken between words
+const JA = ", 'Hiragino Sans', 'Noto Sans JP', 'Noto Sans CJK JP', 'Yu Gothic'";
+let sans = SANS, tight = null;
+async function setup(canvas, lang) {
   const f = globalThis.document && document.fonts;
+  const ja = /^ja\b/.test(lang || (globalThis.document && document.documentElement.lang) || '');
+  sans = ja ? SANS.replace(', sans', JA + ', sans') : SANS;
+  tight = ja && safe(() => new Intl.Segmenter('ja', { granularity: 'word' }), null);
   if (f && f.load) {
+    const cyr = /^ru\b/.test(lang || document.documentElement.lang || '');
     try {
       if (!thin) f.add(thin = new FontFace('Sora', 'url(/fonts/sora-200.woff2)', { weight: '200' }));
+      if (cyr && !thinCyr) {
+        f.add(thinCyr = new FontFace('Sora', 'url(/fonts/onest-200.woff2)', { weight: '200', unicodeRange: CYRILLIC }));
+        f.add(new FontFace('Sora', 'url(/fonts/signs.woff2)', { weight: '200', unicodeRange: SIGNS }));
+      }
     } catch {}
     await Promise.race([new Promise((r) => setTimeout(r, 1500)),
-      Promise.all(['200 236px', '300 236px', '400 24px', '500 34px'].map((s) => f.load(s + ' Sora').catch(() => {})))]);
+      Promise.all(['200 236px', '300 236px', '400 24px', '500 34px'].map((s) => f.load(s + ' Sora', cyr ? 'Я♯♭' : undefined).catch(() => {})))]);
   }
   canvas.width = WIDTH;
   canvas.height = HEIGHT;
-  return [canvas.getContext('2d'), thin && thin.status === 'loaded' ? 200 : 300];
+  const g = canvas.getContext('2d');
+  if (ja && 'lang' in g) g.lang = 'ja';
+  return [g, thin && thin.status === 'loaded' ? 200 : 300];
 }
 
 const safe = (f, alt) => {
@@ -51,7 +71,7 @@ const day = (lang, iso) => safe(() => new Intl.DateTimeFormat(lang === 'en' ? 'e
 const upper = (lang, s) => safe(() => String(s || '').toLocaleUpperCase(lang), String(s || '').toUpperCase());
 
 function face(g, weight, size, track) {
-  g.font = weight + ' ' + size + 'px ' + SANS;
+  g.font = weight + ' ' + size + 'px ' + sans;
   if ('letterSpacing' in g) g.letterSpacing = (track || 0) * size + 'px';
 }
 
@@ -78,22 +98,29 @@ function line(g, s, x, top, o) {
 // Words in runs of colour, [[text, colour]], wrapped to o.max in at most
 // o.lines lines, coming down to o.min until they fit; o.lh is a factor. A
 // name in brackets, "Do3 (C3)", stays with the word before it.
+// Japanese words join with no space, never a line starting 。 or ending （
+const CLOSE = /^[、。・：？！ー）」』]/, OPEN = /[（「『]$/;
 function fit(g, runs, o) {
   const words = [];
   for (const [s, c] of runs) {
     for (const w of String(s || '').split(/\s+/)) {
       const p = words[words.length - 1];
       if (w[0] === '(' && p && p[1] === c) p[0] += ' ' + w;
+      else if (w && tight) [...tight.segment(w)].forEach(({ segment: x }, i) => {
+        const q = words[words.length - 1];
+        if (i && (CLOSE.test(x) || OPEN.test(q[0]))) q[0] += x;
+        else words.push([x, c, i > 0]);
+      });
       else if (w) words.push([w, c]);
     }
   }
   let size = o.size, rows;
   for (;;) {
     face(g, o.weight || 400, size);
-    const sp = g.measureText(' ').width;
+    const space = g.measureText(' ').width;
     rows = [];
-    for (const [t, c] of words) {
-      const w = g.measureText(t).width, r = rows[rows.length - 1];
+    for (const [t, c, glued] of words) {
+      const w = g.measureText(t).width, r = rows[rows.length - 1], sp = glued ? 0 : space;
       if (r && r.w + sp + w <= o.max) {
         r.words.push([t, c, r.w + sp, w]);
         r.w += sp + w;
@@ -103,7 +130,7 @@ function fit(g, runs, o) {
     if (rows.ok || size <= (o.min || o.size)) {
       // past the smallest size the last line takes the rest, squeezed: no word is dropped
       while (rows.length > o.lines) {
-        const r = rows.pop(), last = rows[rows.length - 1];
+        const r = rows.pop(), last = rows[rows.length - 1], sp = space;
         for (const [t, c, at, w] of r.words) last.words.push([t, c, last.w + sp + at, w]);
         last.w += sp + r.w;
       }
@@ -225,7 +252,7 @@ export const kit = { setup, face, num, day, line, fit, best, paint, para, soft, 
  * singer's own held notes landing on their keys.
  */
 export async function drawRangeCard(canvas, d) {
-  const [g, w200] = await setup(canvas);
+  const [g, w200] = await setup(canvas, d.lang);
   const t = d.text || {}, lang = d.lang || 'en', names = d.names || {}, lo = d.low, hi = d.high, span = hi - lo;
   const bg = g.createLinearGradient(0, 0, 0, HEIGHT);
   bg.addColorStop(0, '#1E2628');

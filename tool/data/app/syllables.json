@@ -9,7 +9,9 @@
       "es": "Trr",
       "fr": "Trr",
       "id": "Trr",
+      "ja": "Trr",
       "pt": "Trr",
+      "ru": "Trr",
       "tr": "Trr"
     },
     "tips": {
@@ -18,7 +20,9 @@
       "es": "Vibración de lengua. Relaja la lengua y deja que vibre detrás de los dientes. La más fácil para empezar, pero si notas tensión, cambia a la vibración de labios (Prr).",
       "fr": "Roulement de langue. Garde la langue détendue et laisse-la vibrer derrière les dents du haut. Le plus facile pour commencer, mais si tu sens de la tension, passe à la vibration des lèvres (Prr).",
       "id": "Getar lidah. Lidah santai, bergetar di belakang gigi depan. Lebih mudah untuk memulai, tapi kalau kamu merasa tegang, ganti ke getar bibir (Prr).",
+      "ja": "タングトリル（巻き舌）。舌の力を抜き、前歯の裏で震わせます。最初はこちらのほうが簡単ですが、力みを感じたらリップロール（Prr）に切り替えましょう。",
       "pt": "Vibração de língua. Mantenha a língua relaxada e deixe-a vibrar atrás dos dentes da frente. A mais fácil para começar, mas se sentir tensão, troque pela vibração de lábios (Prr).",
+      "ru": "Язычная трель. Язык расслаблен и вибрирует за передними зубами. С неё проще начать, но если чувствуешь зажим, переходи на губную трель (Prr).",
       "tr": "Dil trili. Dili gevşek tut, ön dişlerinin arkasında titret. Başlamak için daha kolaydır ama gergin hissediyorsan dudak triline (Prr) geç."
     },
     "trill": "tongue",
@@ -49,7 +53,9 @@
       "es": "Prr",
       "fr": "Prr",
       "id": "Prr",
+      "ja": "Prr",
       "pt": "Prr",
+      "ru": "Prr",
       "tr": "Prr"
     },
     "tips": {
@@ -58,7 +64,9 @@
       "es": "Vibración de labios. Labios sueltos, sin tensión en la mandíbula. Mantén el aire constante y fácil. Poner los dedos con suavidad en las mejillas ayuda.",
       "fr": "Vibration des lèvres. Lèvres souples, mâchoire détendue. Garde un air régulier et facile. Poser légèrement les doigts sur les joues aide.",
       "id": "Getar bibir. Bibir kendur, rahang tidak tegang. Jaga aliran udara tetap tenang dan ringan. Menempelkan jari pelan di pipi membantu.",
+      "ja": "リップロール。唇をゆるめ、あごに力を入れません。息は一定に、楽に流します。指先で頬を軽く支えるとやりやすくなります。",
       "pt": "Vibração de lábios. Lábios soltos, sem tensão na mandíbula. Mantenha o ar constante e leve. Os dedos de leve nas bochechas ajudam.",
+      "ru": "Губная трель. Губы свободны, челюсть не зажата. Воздух ровный и лёгкий. Помогает слегка придержать щёки пальцами.",
       "tr": "Dudak trili. Dudaklar gevşek, çenede gerginlik yok. Havayı sabit ve rahat tut. Parmaklarını yanaklarına hafifçe koymak yardımcı olur."
     },
     "trill": "lip",
@@ -85,7 +93,9 @@
       "es": "Hmm",
       "fr": "Hmm",
       "id": "Hmm",
+      "ja": "ンー",
       "pt": "Hmm",
+      "ru": "Ммм",
       "tr": "Hmm"
     },
     "tips": {
@@ -94,7 +104,9 @@
       "es": "Tararea con los labios cerrados. Puede que notes una vibración suave en la cara.",
       "fr": "Fredonne bouche fermée. Tu sentiras peut-être un léger bourdonnement dans le visage.",
       "id": "Bersenandung dengan bibir tertutup. Mungkin kamu merasakan getaran ringan di wajah.",
+      "ja": "唇を閉じてハミングします。顔に軽い振動を感じることがあります。",
       "pt": "Cantarole de boca fechada. Talvez você sinta uma vibração leve no rosto.",
+      "ru": "Мычание с закрытым ртом. В лице может появиться лёгкая вибрация.",
       "tr": "Dudakların kapalı mırıldan. Yüzünde hafif bir titreşim hissedebilirsin."
     },
     "trill": null,
@@ -124,7 +136,9 @@
       "es": "Zzz",
       "fr": "Zzz",
       "id": "Zzz",
+      "ja": "ズー",
       "pt": "Zzz",
+      "ru": "Ззз",
       "tr": "Zzz"
     },
     "tips": {
@@ -133,7 +147,9 @@
       "es": "Un zumbido como de abeja. Mantenlo constante y parejo.",
       "fr": "Un bourdonnement comme une abeille. Garde-le stable et régulier.",
       "id": "Dengung seperti lebah. Jaga tetap stabil dan rata.",
+      "ja": "ハチの羽音のような「ズー」という音。一定に、むらなく保ちます。",
       "pt": "Um zumbido de abelha. Mantenha firme e por igual.",
+      "ru": "Жужжание, как у пчелы. Ровное и непрерывное.",
       "tr": "Arı gibi bir vızıltı. Sabit ve düzgün tut."
     },
     "trill": null,
@@ -154,7 +170,9 @@
       "es": "Ssss",
       "fr": "Ssss",
       "id": "Ssss",
+      "ja": "スー",
       "pt": "Ssss",
+      "ru": "Сссс",
       "tr": "Ssss"
     },
     "tips": {
@@ -163,7 +181,9 @@
       "es": "Suelta el siseo despacio y de forma pareja.",
       "fr": "Laisse sortir le sifflement lentement et régulièrement.",
       "id": "Keluarkan desisnya pelan dan rata.",
+      "ja": "「スー」という息の音を、ゆっくり均等に出します。",
       "pt": "Solte o chiado devagar e por igual.",
+      "ru": "Выпускай шипение медленно и ровно.",
       "tr": "Tıslamayı yavaşça ve eşit şekilde bırak."
     },
     "trill": null,
@@ -184,7 +204,9 @@
       "es": "Ah",
       "fr": "Ah",
       "id": "A",
+      "ja": "ア",
       "pt": "Ah",
+      "ru": "А",
       "tr": "A"
     },
     "tips": {
@@ -193,7 +215,9 @@
       "es": "La vocal abierta de 'padre'. Deja caer la mandíbula sin esfuerzo.",
       "fr": "La voyelle ouverte de « pâte ». Laisse la mâchoire descendre sans effort.",
       "id": "Vokal terbuka seperti pada 'ayah'. Biarkan rahang turun dengan santai.",
+      "ja": "口を大きく開けた「ア」。あごを楽に下ろします。",
       "pt": "A vogal aberta, o 'a' de 'casa'. Deixe a mandíbula cair sem esforço.",
+      "ru": "Открытый гласный, как в «мама». Челюсть свободно опускается.",
       "tr": "'Baba'daki açık ünlü. Çeneni rahatça bırak."
     },
     "trill": null,
@@ -220,7 +244,9 @@
       "es": "Ii",
       "fr": "Ii",
       "id": "I",
+      "ja": "イ",
       "pt": "I",
+      "ru": "И",
       "tr": "İ"
     },
     "tips": {
@@ -229,7 +255,9 @@
       "es": "La vocal brillante de 'sí'. Una sonrisa leve ayuda.",
       "fr": "La voyelle claire, le « i » de « lit ». Un léger sourire aide.",
       "id": "Vokal cerah seperti pada 'ini'. Senyum tipis membantu.",
+      "ja": "明るい「イ」。少し微笑むと出しやすくなります。",
       "pt": "A vogal brilhante, o 'i' de 'vida'. Um leve sorriso ajuda.",
+      "ru": "Светлый гласный, как в «мир». Помогает лёгкая улыбка.",
       "tr": "'İyi'deki parlak ünlü. Hafif bir gülümseme yardımcı olur."
     },
     "trill": null,
@@ -251,7 +279,9 @@
       "es": "Eh",
       "fr": "È",
       "id": "É",
+      "ja": "エ",
       "pt": "É",
+      "ru": "Э",
       "tr": "E"
     },
     "tips": {
@@ -260,7 +290,9 @@
       "es": "La vocal de 'ver'. Fácil, como al hablar.",
       "fr": "Le « è » de « mère ». Facile, comme quand tu parles.",
       "id": "Vokal seperti pada 'meja'. Santai, seperti saat bicara.",
+      "ja": "話すときと同じ、楽な「エ」です。",
       "pt": "O 'é' de 'pé'. Fácil, como na fala.",
+      "ru": "Гласный, как в «это». Легко, как в разговоре.",
       "tr": "'Ekmek'teki ünlü. Konuşurken olduğu gibi rahat."
     },
     "trill": null,
@@ -279,7 +311,9 @@
       "es": "Oh",
       "fr": "Oh",
       "id": "O",
+      "ja": "オ",
       "pt": "Ô",
+      "ru": "О",
       "tr": "O"
     },
     "tips": {
@@ -288,7 +322,9 @@
       "es": "La vocal de 'sol'. Labios redondos y relajados.",
       "fr": "La voyelle de « eau ». Lèvres rondes et détendues.",
       "id": "Vokal seperti pada 'toko'. Bibir bulat dan santai.",
+      "ja": "途中で形を変えない、まっすぐな「オ」。唇は丸く、力を抜きます。",
       "pt": "O 'ô' de 'avô'. Lábios redondos e relaxados.",
+      "ru": "Гласный, как в «дом». Губы округлые и расслабленные.",
       "tr": "'Okul'daki ünlü. Dudaklar yuvarlak ve gevşek."
     },
     "trill": null,
@@ -309,7 +345,9 @@
       "es": "Uu",
       "fr": "Ou",
       "id": "U",
+      "ja": "ウ",
       "pt": "U",
+      "ru": "У",
       "tr": "U"
     },
     "tips": {
@@ -318,7 +356,9 @@
       "es": "La vocal de 'tú'. Redondea los labios en una o pequeña.",
       "fr": "Le « ou » de « loup ». Arrondis les lèvres en un petit o.",
       "id": "Vokal seperti pada 'buku'. Bulatkan bibir jadi O kecil.",
+      "ja": "唇を小さく丸めた「ウ」。話すときの「ウ」よりも唇をすぼめます。",
       "pt": "O 'u' de 'lua'. Arredonde os lábios num 'o' pequeno.",
+      "ru": "Гласный, как в «лук». Сложи губы в маленькое «о».",
       "tr": "'Uzun'daki ünlü. Dudaklarını küçük bir O gibi yuvarla."
     },
     "trill": null,
@@ -340,7 +380,9 @@
       "es": "Mah",
       "fr": "Mah",
       "id": "Ma",
+      "ja": "マ",
       "pt": "Má",
+      "ru": "Ма",
       "tr": "Ma"
     },
     "tips": {
@@ -349,7 +391,9 @@
       "es": "M hacia una Ah abierta. Un comienzo fácil y cálido.",
       "fr": "M vers un Ah ouvert. Un départ facile et chaleureux.",
       "id": "M menuju A terbuka. Awal yang mudah dan hangat.",
+      "ja": "Mから開いた「ア」へ。楽で温かみのある出だしです。",
       "pt": "M para o 'a' aberto. Um começo fácil e quente.",
+      "ru": "М в открытое «А». Лёгкое, тёплое начало.",
       "tr": "M'den açık A sesine. Rahat, sıcak bir başlangıç."
     },
     "trill": null,
@@ -372,7 +416,9 @@
       "es": "Mi",
       "fr": "Mi",
       "id": "Mi",
+      "ja": "ミ",
       "pt": "Mi",
+      "ru": "Ми",
       "tr": "Mi"
     },
     "tips": {
@@ -381,7 +427,9 @@
       "es": "M hacia una 'i' brillante. Un sonido claro y sonoro.",
       "fr": "M vers un I clair. Un son net et sonore.",
       "id": "M menuju I yang cerah. Bunyi jernih dan nyaring.",
+      "ja": "Mから明るい「イ」へ。クリアでよく響く音です。",
       "pt": "M para o 'i' brilhante. Um som claro e sonoro.",
+      "ru": "М в светлое «И». Чистый, звонкий звук.",
       "tr": "M'den parlak İ sesine. Net, çınlayan bir ses."
     },
     "trill": null,
@@ -404,7 +452,9 @@
       "es": "Meh",
       "fr": "Mè",
       "id": "Mé",
+      "ja": "メ",
       "pt": "Mé",
+      "ru": "Мэ",
       "tr": "Me"
     },
     "tips": {
@@ -413,7 +463,9 @@
       "es": "M hacia Eh. Fácil y cercano al habla.",
       "fr": "M vers un È. Facile et proche de la voix parlée.",
       "id": "M menuju É. Mudah dan dekat dengan suara bicara.",
+      "ja": "Mから「エ」へ。楽で、話し声に近い音です。",
       "pt": "M para o 'é'. Fácil e perto da fala.",
+      "ru": "М в «Э». Легко и близко к речи.",
       "tr": "M'den E sesine. Rahat ve konuşmaya yakın."
     },
     "trill": null,
@@ -432,7 +484,9 @@
       "es": "Mu",
       "fr": "Mou",
       "id": "Mu",
+      "ja": "ム",
       "pt": "Mu",
+      "ru": "Му",
       "tr": "Mu"
     },
     "tips": {
@@ -441,7 +495,9 @@
       "es": "M hacia la 'u'. Un comienzo suave y un sonido cálido.",
       "fr": "M vers un Ou. Un départ doux, un son chaud.",
       "id": "M menuju U. Awal yang lembut, bunyi yang hangat.",
+      "ja": "Mから「ウ」へ。やさしい出だしと、やわらかく温かい音です。",
       "pt": "M para o 'u'. Um começo suave e um som quente.",
+      "ru": "М в «У». Мягкое начало и мягкий, тёплый звук.",
       "tr": "M'den U sesine. Yumuşak bir başlangıç, sıcak bir ses."
     },
     "trill": null,
@@ -465,7 +521,9 @@
       "es": "Mam",
       "fr": "Mam",
       "id": "Mam",
+      "ja": "マム",
       "pt": "Mam",
+      "ru": "Мам",
       "tr": "Mam"
     },
     "tips": {
@@ -474,7 +532,9 @@
       "es": "M hacia una 'a' corta. Relajado, como al hablar.",
       "fr": "M vers un A bref. Détendu, comme quand tu parles.",
       "id": "M menuju A pendek. Santai, seperti bicara.",
+      "ja": "Mから、「マ」と「モ」の間のあいまいな短い母音へ。最後は唇を閉じます。話すように力を抜いて歌います。",
       "pt": "M para o 'a' fechado. Relaxado, como na fala.",
+      "ru": "М в короткое «А». Расслабленно, как в разговоре.",
       "tr": "M'den kısa A sesine. Konuşur gibi gevşek."
     },
     "trill": null,
@@ -497,7 +557,9 @@
       "es": "Moh",
       "fr": "Moh",
       "id": "Mo",
+      "ja": "モ",
       "pt": "Mô",
+      "ru": "Мо",
       "tr": "Mo"
     },
     "tips": {
@@ -506,7 +568,9 @@
       "es": "M hacia una Oh redonda. Un comienzo suave y parejo.",
       "fr": "M vers un O rond. Un départ doux et égal.",
       "id": "M menuju O yang bulat. Awal yang halus dan rata.",
+      "ja": "Mから丸い「オ」へ。なめらかでむらのない出だしです。",
       "pt": "M para o 'ô' redondo. Um começo macio e uniforme.",
+      "ru": "М в округлое «О». Плавное, ровное начало.",
       "tr": "M'den yuvarlak O sesine. Yumuşak, dengeli bir başlangıç."
     },
     "trill": null,
@@ -525,7 +589,9 @@
       "es": "Nei",
       "fr": "Né",
       "id": "Ney",
+      "ja": "ネイ",
       "pt": "Nei",
+      "ru": "Нэй",
       "tr": "Ney"
     },
     "tips": {
@@ -534,7 +600,9 @@
       "es": "N hacia una 'ei' brillante y descarada. Llega lejos.",
       "fr": "N vers un É clair et effronté. Le son porte bien.",
       "id": "N menuju Ey yang cerah dan nakal. Terdengar jauh.",
+      "ja": "Nから、明るくいたずらっぽい「エイ」へ。よく通る音です。",
       "pt": "N para o 'ei' brilhante e atrevido. Chega longe.",
+      "ru": "Н в светлое, задиристое «Эй». Хорошо летит.",
       "tr": "N'den parlak, şımarık Ey sesine. Uzağa iyi ulaşır."
     },
     "trill": null,
@@ -560,7 +628,9 @@
       "es": "Ni",
       "fr": "Ni",
       "id": "Ni",
+      "ja": "ニ",
       "pt": "Ni",
+      "ru": "Ни",
       "tr": "Ni"
     },
     "tips": {
@@ -569,7 +639,9 @@
       "es": "N hacia la 'i'. Brillante, con una vibración ligera.",
       "fr": "N vers un I. Clair, avec un léger bourdonnement.",
       "id": "N menuju I. Cerah, dengan dengung ringan.",
+      "ja": "Nから「イ」へ。明るく、軽い振動があります。",
       "pt": "N para o 'i'. Brilhante, com uma vibração leve.",
+      "ru": "Н в «И». Светло, с лёгкой вибрацией.",
       "tr": "N'den İ sesine. Parlak, hafif bir titreşimle."
     },
     "trill": null,
@@ -592,7 +664,9 @@
       "es": "Noh",
       "fr": "Noh",
       "id": "No",
+      "ja": "ノ",
       "pt": "Nô",
+      "ru": "Но",
       "tr": "No"
     },
     "tips": {
@@ -601,7 +675,9 @@
       "es": "N hacia Oh. Redondo y cálido.",
       "fr": "N vers un O. Rond et chaleureux.",
       "id": "N menuju O. Bulat dan hangat.",
+      "ja": "Nから「オ」へ。丸く温かい音です。",
       "pt": "N para o 'ô'. Redondo e quente.",
+      "ru": "Н в «О». Округло и тепло.",
       "tr": "N'den O sesine. Yuvarlak ve sıcak."
     },
     "trill": null,
@@ -622,7 +698,9 @@
       "es": "Nu",
       "fr": "Nou",
       "id": "Nu",
+      "ja": "ヌ",
       "pt": "Nu",
+      "ru": "Ну",
       "tr": "Nu"
     },
     "tips": {
@@ -631,7 +709,9 @@
       "es": "N hacia la 'u'. Una vibración ligera y luego una vocal suave y redonda.",
       "fr": "N vers un Ou. Un léger bourdonnement, puis une voyelle douce et ronde.",
       "id": "N menuju U. Dengung ringan, lalu vokal yang lembut dan bulat.",
+      "ja": "Nから「ウ」へ。軽い振動のあとに、やわらかく丸い母音が続きます。",
       "pt": "N para o 'u'. Uma vibração leve, depois uma vogal suave e redonda.",
+      "ru": "Н в «У». Лёгкая вибрация, потом мягкий, округлый гласный.",
       "tr": "N'den U sesine. Önce hafif bir titreşim, sonra yumuşak, yuvarlak bir ünlü."
     },
     "trill": null,
@@ -653,7 +733,9 @@
       "es": "Gui",
       "fr": "Gui",
       "id": "Gi",
+      "ja": "ギ",
       "pt": "Gui",
+      "ru": "Ги",
       "tr": "Gi"
     },
     "tips": {
@@ -662,7 +744,9 @@
       "es": "G hacia la 'i'. Un comienzo limpio y claro.",
       "fr": "Attaque en G vers un I. Un départ propre et net.",
       "id": "Awalan G menuju I. Awal nada yang bersih dan jernih.",
+      "ja": "Gから「イ」へ。すっきりとクリアな出だしです。",
       "pt": "Ataque de G no 'i'. Um começo limpo e claro.",
+      "ru": "Г в «И». Чистое, ясное начало.",
       "tr": "G atağıyla İ sesine. Temiz ve net bir başlangıç."
     },
     "trill": null,
@@ -684,7 +768,9 @@
       "es": "Gu",
       "fr": "Gou",
       "id": "Gu",
+      "ja": "グ",
       "pt": "Gu",
+      "ru": "Гу",
       "tr": "Gu"
     },
     "tips": {
@@ -693,7 +779,9 @@
       "es": "G hacia la 'u'. Un sonido profundo que a algunos cantantes les da asiento.",
       "fr": "Attaque en G vers un Ou. Un son profond qui aide certains chanteurs à se sentir ancrés.",
       "id": "Awalan G menuju U. Bunyi dalam yang bagi sebagian penyanyi terasa membumi.",
+      "ja": "Gから「ウ」へ。深い音で、声が安定すると感じる人もいます。",
       "pt": "Ataque de G no 'u'. Um som profundo que dá chão para alguns cantores.",
+      "ru": "Г в «У». Глубокий звук, который многим даёт опору.",
       "tr": "G atağıyla U sesine. Bazı şarkıcıların sesi oturttuğunu hissettiği derin bir ses."
     },
     "trill": null,
@@ -712,7 +800,9 @@
       "es": "Gah",
       "fr": "Gah",
       "id": "Ga",
+      "ja": "ガ",
       "pt": "Gá",
+      "ru": "Га",
       "tr": "Ga"
     },
     "tips": {
@@ -721,7 +811,9 @@
       "es": "G hacia Ah. Un comienzo claro y abierto.",
       "fr": "Attaque en G vers un Ah. Un départ net et ouvert.",
       "id": "Awalan G menuju A. Awal yang jernih dan terbuka.",
+      "ja": "Gから「ア」へ。クリアで開いた出だしです。",
       "pt": "Ataque de G no 'a'. Um começo claro e aberto.",
+      "ru": "Г в «А». Ясное, открытое начало.",
       "tr": "G atağıyla A sesine. Net ve açık bir başlangıç."
     },
     "trill": null,
@@ -740,7 +832,9 @@
       "es": "Guug",
       "fr": "Goug",
       "id": "Gug",
+      "ja": "グーグ",
       "pt": "Gug",
+      "ru": "Гуг",
       "tr": "Gug"
     },
     "tips": {
@@ -749,7 +843,9 @@
       "es": "G al principio y al final de una 'u' profunda. Un sonido estable que te asienta.",
       "fr": "Un G à chaque bout d'un Ou profond. Un son stable, qui ancre.",
       "id": "G di awal dan akhir U yang dalam. Bunyi yang mantap dan membumi.",
+      "ja": "深い「ウ」をGではさみます。最後のGに母音はつけません。どっしりと安定した音です。",
       "pt": "G nas duas pontas de um 'u' profundo. Um som estável, que dá chão.",
+      "ru": "Г с обеих сторон глубокого «У». Ровный звук, который даёт опору.",
       "tr": "Derin bir U sesinin iki ucunda G. Sabit, sesi oturtan bir ses."
     },
     "trill": null,
@@ -770,7 +866,9 @@
       "es": "Gag",
       "fr": "Gag",
       "id": "Gag",
+      "ja": "ガグ",
       "pt": "Gag",
+      "ru": "Гаг",
       "tr": "Gag"
     },
     "tips": {
@@ -779,7 +877,9 @@
       "es": "G hacia la 'a'. Un comienzo firme. Si se siente áspero, hazlo más ligero.",
       "fr": "Attaque en G vers un A. Un départ ferme. Si ça gratte, allège.",
       "id": "Awalan G menuju A. Awal yang mantap. Kalau terasa kasar, buat lebih ringan.",
+      "ja": "Gから短い「ア」へ。最後のGに母音はつけません。しっかりした出だしです。きつく感じたら、軽めにしましょう。",
       "pt": "Ataque de G no 'a'. Um começo firme. Se ficar áspero, deixe mais leve.",
+      "ru": "Г в короткое «А». Плотное начало. Если звучит жёстко, делай легче.",
       "tr": "G atağıyla A sesine. Sağlam bir başlangıç. Sert gelirse daha hafif yap."
     },
     "trill": null,
@@ -801,7 +901,9 @@
       "es": "Kah",
       "fr": "Kah",
       "id": "Ka",
+      "ja": "カ",
       "pt": "Cá",
+      "ru": "Ка",
       "tr": "Ka"
     },
     "tips": {
@@ -810,7 +912,9 @@
       "es": "K hacia Ah. Un comienzo nítido, abierto y claro.",
       "fr": "Attaque en K vers un Ah. Un départ net, ouvert et clair.",
       "id": "Awalan K menuju A. Awal yang tegas, terbuka dan jernih.",
+      "ja": "Kから「ア」へ。歯切れのよい出だしで、開いたクリアな音です。",
       "pt": "Ataque de K no 'a'. Um começo nítido, aberto e claro.",
+      "ru": "К в «А». Чёткое начало, открыто и ясно.",
       "tr": "K atağıyla A sesine. Keskin bir başlangıç, açık ve net."
     },
     "trill": null,
@@ -829,7 +933,9 @@
       "es": "Ku",
       "fr": "Kou",
       "id": "Ku",
+      "ja": "ク",
       "pt": "Cô",
+      "ru": "Ку",
       "tr": "Ku"
     },
     "tips": {
@@ -838,7 +944,9 @@
       "es": "K hacia la 'u'. Un comienzo nítido hacia una vocal oscura.",
       "fr": "Attaque en K vers un Ou. Un départ net vers une voyelle sombre.",
       "id": "Awalan K menuju U. Awal yang tegas masuk ke vokal gelap.",
+      "ja": "Kから「ウ」へ。歯切れのよい出だしから、暗めの母音に入ります。",
       "pt": "Ataque de K no 'ô'. Um começo nítido numa vogal escura.",
+      "ru": "К в «У». Чёткое начало и тёмный гласный.",
       "tr": "K atağıyla U sesine. Koyu bir ünlüye keskin bir başlangıç."
     },
     "trill": null,
@@ -857,7 +965,9 @@
       "es": "Ko",
       "fr": "Ko",
       "id": "Ko",
+      "ja": "コ",
       "pt": "Có",
+      "ru": "Ко",
       "tr": "Ko"
     },
     "tips": {
@@ -866,7 +976,9 @@
       "es": "K hacia Oh. Un comienzo nítido y redondo.",
       "fr": "Attaque en K vers un O. Un départ net et rond.",
       "id": "Awalan K menuju O. Awal yang tegas, warna bulat.",
+      "ja": "Kから「オ」へ。歯切れのよい出だしで、丸く豊かな音です。",
       "pt": "Ataque de K no 'ó'. Um começo nítido e redondo.",
+      "ru": "К в «О». Чёткое начало, округло и полно.",
       "tr": "K atağıyla O sesine. Keskin bir başlangıç, yuvarlak bir ton."
     },
     "trill": null,
@@ -885,7 +997,9 @@
       "es": "Ki",
       "fr": "Ki",
       "id": "Ki",
+      "ja": "キ",
       "pt": "Qui",
+      "ru": "Ки",
       "tr": "Ki"
     },
     "tips": {
@@ -894,7 +1008,9 @@
       "es": "K hacia la 'i'. Un comienzo nítido, brillante y hacia delante.",
       "fr": "Attaque en K vers un I. Un départ net, clair et en avant.",
       "id": "Awalan K menuju I. Awal yang tegas, cerah dan di depan.",
+      "ja": "Kから「イ」へ。歯切れのよい出だしで、明るく前に出る音です。",
       "pt": "Ataque de K no 'i'. Um começo nítido, brilhante e para a frente.",
+      "ru": "К в «И». Чёткое начало, светло и впереди.",
       "tr": "K atağıyla İ sesine. Keskin bir başlangıç, parlak ve önde."
     },
     "trill": null,
@@ -916,7 +1032,9 @@
       "es": "Ke",
       "fr": "Kè",
       "id": "Ké",
+      "ja": "ケ",
       "pt": "Qué",
+      "ru": "Кэ",
       "tr": "Ke"
     },
     "tips": {
@@ -925,7 +1043,9 @@
       "es": "K hacia Eh. Un comienzo nítido en una vocal fácil, como al hablar.",
       "fr": "Attaque en K vers un È. Un départ net sur une voyelle facile, proche de la parole.",
       "id": "Awalan K menuju É. Awal yang tegas pada vokal yang mudah, seperti bicara.",
+      "ja": "Kから「エ」へ。歯切れのよい出だしで、話し声に近い楽な母音です。",
       "pt": "Ataque de K no 'é'. Um começo nítido numa vogal fácil, como na fala.",
+      "ru": "К в «Э». Чёткое начало на лёгком, речевом гласном.",
       "tr": "K atağıyla E sesine. Konuşur gibi rahat bir ünlüde keskin bir başlangıç."
     },
     "trill": null,
@@ -944,7 +1064,9 @@
       "es": "Fah",
       "fr": "Fah",
       "id": "Fa",
+      "ja": "ファ",
       "pt": "Fá",
+      "ru": "Фа",
       "tr": "Fa"
     },
     "tips": {
@@ -953,7 +1075,9 @@
       "es": "F hacia Ah. Un comienzo fácil, con aire.",
       "fr": "Attaque en F vers un Ah. Un départ facile et soufflé.",
       "id": "Awalan F menuju A. Awal yang mudah dan berangin.",
+      "ja": "Fから「ア」へ。息の混じった楽な出だしです。",
       "pt": "Ataque de F no 'a'. Um começo fácil, com ar.",
+      "ru": "Ф в «А». Лёгкое начало с воздухом.",
       "tr": "F atağıyla A sesine. Rahat, nefesli bir başlangıç."
     },
     "trill": null,
@@ -972,7 +1096,9 @@
       "es": "Fu",
       "fr": "Fou",
       "id": "Fu",
+      "ja": "フ",
       "pt": "Fu",
+      "ru": "Фу",
       "tr": "Fu"
     },
     "tips": {
@@ -981,7 +1107,9 @@
       "es": "F hacia la 'u'. Aire suave antes del sonido.",
       "fr": "Attaque en F vers un Ou. Un air doux avant le son.",
       "id": "Awalan F menuju U. Udara lembut sebelum bunyi.",
+      "ja": "Fから「ウ」へ。音の前にやわらかい息が流れます。",
       "pt": "Ataque de F no 'u'. Ar suave antes do som.",
+      "ru": "Ф в «У». Мягкий воздух перед звуком.",
       "tr": "F atağıyla U sesine. Sesten önce yumuşak bir hava."
     },
     "trill": null,
@@ -1000,7 +1128,9 @@
       "es": "Fo",
       "fr": "Fo",
       "id": "Fo",
+      "ja": "フォ",
       "pt": "Fô",
+      "ru": "Фо",
       "tr": "Fo"
     },
     "tips": {
@@ -1009,7 +1139,9 @@
       "es": "F hacia Oh. Un comienzo suave, con aire, y un sonido redondo.",
       "fr": "Attaque en F vers un O. Un départ doux et soufflé, un son rond.",
       "id": "Awalan F menuju O. Awal yang lembut dan berangin, bunyi yang bulat.",
+      "ja": "Fから「オ」へ。息の混じったやわらかい出だしと、丸い音です。",
       "pt": "Ataque de F no 'ô'. Um começo suave, com ar, e um som redondo.",
+      "ru": "Ф в «О». Мягкое начало с воздухом и округлый звук.",
       "tr": "F atağıyla O sesine. Yumuşak, nefesli bir başlangıç ve yuvarlak bir ses."
     },
     "trill": null,
@@ -1028,7 +1160,9 @@
       "es": "Fi",
       "fr": "Fi",
       "id": "Fi",
+      "ja": "フィ",
       "pt": "Fi",
+      "ru": "Фи",
       "tr": "Fi"
     },
     "tips": {
@@ -1037,7 +1171,9 @@
       "es": "F hacia la 'i'. Un comienzo suave, con aire, en una vocal brillante.",
       "fr": "Attaque en F vers un I. Un départ doux et soufflé sur une voyelle claire.",
       "id": "Awalan F menuju I. Awal yang lembut dan berangin pada vokal cerah.",
+      "ja": "Fから「イ」へ。息の混じったやわらかい出だしで、明るい母音に入ります。",
       "pt": "Ataque de F no 'i'. Um começo suave, com ar, numa vogal brilhante.",
+      "ru": "Ф в «И». Мягкое начало с воздухом на светлом гласном.",
       "tr": "F atağıyla İ sesine. Parlak bir ünlüde yumuşak, nefesli bir başlangıç."
     },
     "trill": null,
@@ -1056,7 +1192,9 @@
       "es": "Fe",
       "fr": "Fè",
       "id": "Fé",
+      "ja": "フェ",
       "pt": "Fé",
+      "ru": "Фэ",
       "tr": "Fe"
     },
     "tips": {
@@ -1065,7 +1203,9 @@
       "es": "F hacia Eh. Un comienzo suave, con aire, cercano al habla.",
       "fr": "Attaque en F vers un È. Un départ doux et soufflé, proche de la parole.",
       "id": "Awalan F menuju É. Awal yang lembut dan berangin, dekat dengan bicara.",
+      "ja": "Fから「エ」へ。息の混じったやわらかい出だしで、話し声に近い音です。",
       "pt": "Ataque de F no 'é'. Um começo suave, com ar, perto da fala.",
+      "ru": "Ф в «Э». Мягкое начало с воздухом, близко к речи.",
       "tr": "F atağıyla E sesine. Yumuşak, nefesli, konuşmaya yakın bir başlangıç."
     },
     "trill": null,
@@ -1084,7 +1224,9 @@
       "es": "Ui",
       "fr": "Oui",
       "id": "Wi",
+      "ja": "ウィ",
       "pt": "Uí",
+      "ru": "Уи",
       "tr": "Ui"
     },
     "tips": {
@@ -1093,7 +1235,9 @@
       "es": "Un desliz suave hacia la 'i'. Brillante y ligero.",
       "fr": "Un glissé doux vers un I. Clair et léger.",
       "id": "Luncuran lembut menuju I. Cerah dan ringan.",
+      "ja": "「イ」へなめらかにつなぎます。明るく軽い音です。",
       "pt": "Um deslize suave para o 'i'. Brilhante e leve.",
+      "ru": "Мягкое скольжение в «И». Светло и легко.",
       "tr": "İ sesine yumuşak bir kayış. Parlak ve hafif."
     },
     "trill": null,
@@ -1116,7 +1260,9 @@
       "es": "Ya",
       "fr": "Ya",
       "id": "Ya",
+      "ja": "ヤ",
       "pt": "Iá",
+      "ru": "Я",
       "tr": "Ya"
     },
     "tips": {
@@ -1125,7 +1271,9 @@
       "es": "Y hacia Ah. Suelta el paso entre tu voz habitual y el sonido grave de debajo.",
       "fr": "Glissé en Y vers un Ah. Assouplit le passage entre ta voix habituelle et le son grave en dessous.",
       "id": "Luncuran Y menuju A. Mengendurkan perpindahan antara suara biasamu dan bunyi rendah di bawahnya.",
+      "ja": "Yからなめらかに「ア」へ。ふだんの声と、その下の低い音との切り替わりをほぐします。",
       "pt": "Deslize de Y no 'a'. Solta a virada entre sua voz de sempre e o som grave abaixo dela.",
+      "ru": "Мягкое «Й» в «А». Смягчает переключение между обычным голосом и низким звуком под ним.",
       "tr": "Y kaymasıyla A sesine. Normal sesinle altındaki pes ses arasındaki geçişi gevşetir."
     },
     "trill": null,
@@ -1146,7 +1294,9 @@
       "es": "Dah",
       "fr": "Dah",
       "id": "Da",
+      "ja": "ダ",
       "pt": "Dá",
+      "ru": "Да",
       "tr": "Da"
     },
     "tips": {
@@ -1155,7 +1305,9 @@
       "es": "D hacia Ah. Un toque ligero de la lengua empieza cada nota.",
       "fr": "Attaque en D vers un Ah. Une petite touche de la langue lance chaque note.",
       "id": "Awalan D menuju A. Sentuhan ringan lidah memulai tiap nada.",
+      "ja": "Dから「ア」へ。舌先を軽く当てて、1音ずつ始めます。",
       "pt": "Ataque de D no 'a'. Um toque leve da língua começa cada nota.",
+      "ru": "Д в «А». Лёгкий удар языка начинает каждую ноту.",
       "tr": "D atağıyla A sesine. Her notayı dilin hafif bir dokunuşu başlatır."
     },
     "trill": null,
@@ -1176,7 +1328,9 @@
       "es": "Du",
       "fr": "Dou",
       "id": "Du",
+      "ja": "ドゥ",
       "pt": "Du",
+      "ru": "Ду",
       "tr": "Du"
     },
     "tips": {
@@ -1185,7 +1339,9 @@
       "es": "D hacia la 'u'. Un toque ligero de la lengua y luego una vocal suave y redonda.",
       "fr": "Attaque en D vers un Ou. Une petite touche de la langue, puis une voyelle douce et ronde.",
       "id": "Awalan D menuju U. Sentuhan ringan lidah, lalu vokal yang lembut dan bulat.",
+      "ja": "Dから「ウ」へ。舌先を軽く当てたあと、やわらかく丸い母音が続きます。",
       "pt": "Ataque de D no 'u'. Um toque leve da língua, depois uma vogal suave e redonda.",
+      "ru": "Д в «У». Лёгкий удар языка, потом мягкий, округлый гласный.",
       "tr": "D atağıyla U sesine. Dilin hafif bir dokunuşu, sonra yumuşak, yuvarlak bir ünlü."
     },
     "trill": null,
@@ -1204,7 +1360,9 @@
       "es": "Ba",
       "fr": "Ba",
       "id": "Ba",
+      "ja": "バ",
       "pt": "Bá",
+      "ru": "Ба",
       "tr": "Ba"
     },
     "tips": {
@@ -1213,7 +1371,9 @@
       "es": "B hacia la 'a'. Crea un aire constante detrás del sonido.",
       "fr": "Attaque en B vers un A. Installe un air régulier derrière le son.",
       "id": "Awalan B menuju A. Membangun aliran udara yang tenang di balik bunyi.",
+      "ja": "Bから短い「ア」へ。音の後ろに安定した息を作ります。",
       "pt": "Ataque de B no 'a'. Cria um ar constante por trás do som.",
+      "ru": "Б в короткое «А». Помогает собрать ровный воздух за звуком.",
       "tr": "B atağıyla A sesine. Sesin arkasında sabit bir hava akışı kurar."
     },
     "trill": null,
@@ -1234,7 +1394,9 @@
       "es": "Yam",
       "fr": "Yam",
       "id": "Yam",
+      "ja": "ヤム",
       "pt": "Iam",
+      "ru": "Ям",
       "tr": "Yam"
     },
     "tips": {
@@ -1243,7 +1405,9 @@
       "es": "Y hacia la 'a'. Un comienzo suave y fácil.",
       "fr": "Glissé en Y vers un A. Un départ doux et facile.",
       "id": "Luncuran Y menuju A. Awal yang lembut dan mudah.",
+      "ja": "Yからなめらかに短い「ア」へ。最後は唇を閉じます。やさしく楽な出だしです。",
       "pt": "Deslize de Y no 'a' fechado. Um começo suave e fácil.",
+      "ru": "Мягкое «Й» в короткое «А». Нежное, лёгкое начало.",
       "tr": "Y kaymasıyla A sesine. Nazik ve rahat bir başlangıç."
     },
     "trill": null,
@@ -1264,7 +1428,9 @@
       "es": "Yei",
       "fr": "Yé",
       "id": "Yey",
+      "ja": "イェイ",
       "pt": "Ei",
+      "ru": "Йей",
       "tr": "Yey"
     },
     "tips": {
@@ -1273,7 +1439,9 @@
       "es": "Y hacia la 'ei'. Un sonido brillante y alegre.",
       "fr": "Glissé en Y vers un É. Un son clair et joyeux.",
       "id": "Luncuran Y menuju Ey. Bunyi cerah dan ceria.",
+      "ja": "Yから「エイ」へ。明るく元気な音です。",
       "pt": "Deslize de Y no 'ei'. Um som brilhante e alegre.",
+      "ru": "Й в «Эй». Светлый, весёлый звук.",
       "tr": "Y kaymasıyla Ey sesine. Parlak, neşeli bir ses."
     },
     "trill": null,
@@ -1294,7 +1462,9 @@
       "es": "La",
       "fr": "La",
       "id": "La",
+      "ja": "ラ",
       "pt": "Lá",
+      "ru": "Ля",
       "tr": "La"
     },
     "tips": {
@@ -1303,7 +1473,9 @@
       "es": "L hacia Ah. Lengua suelta, sonido abierto.",
       "fr": "Attaque en L vers un Ah. Langue souple, son ouvert.",
       "id": "Awalan L menuju A. Lidah lentur, bunyi terbuka.",
+      "ja": "Lから「ア」へ。舌の力を抜いた、開いた音です。",
       "pt": "Ataque de L no 'a'. Língua flexível, som aberto.",
+      "ru": "Л в «А». Свободный язык и открытый звук.",
       "tr": "L atağıyla A sesine. Esnek dil, açık ses."
     },
     "trill": null,
@@ -1324,7 +1496,9 @@
       "es": "Jat",
       "fr": "Hat",
       "id": "Hat",
+      "ja": "ハッ",
       "pt": "Rá",
+      "ru": "Хат",
       "tr": "Hat"
     },
     "tips": {
@@ -1333,7 +1507,9 @@
       "es": "Un corte breve y con golpe. Que el corte sea ligero. Si se siente áspero, suavízalo.",
       "fr": "Un arrêt bref et percutant. Garde cet arrêt léger. Si ça gratte, adoucis-le.",
       "id": "Hentakan pendek dan bertenaga. Jaga hentakannya tetap ringan. Kalau terasa kasar, lembutkan.",
+      "ja": "短く、歯切れよく止める音です。止め方は軽くします。きつく感じたら、やわらげてください。",
       "pt": "Um corte curto e marcado. Deixe o corte leve. Se ficar áspero, suavize.",
+      "ru": "Короткий, упругий толчок. Держи его лёгким. Если звучит жёстко, смягчи.",
       "tr": "Kısa, vurgulu bir kesme. Kesmeyi hafif tut. Sert gelirse yumuşat."
     },
     "trill": null,
@@ -1354,7 +1530,9 @@
       "es": "Mi-Me-Ma-Mo-Mu",
       "fr": "Mi-Mè-Ma-Mo-Mou",
       "id": "Mi-Mé-Ma-Mo-Mu",
+      "ja": "ミ・メ・マ・モ・ム",
       "pt": "Mi-Mé-Má-Mô-Mu",
+      "ru": "Ми-Мэ-Ма-Мо-Му",
       "tr": "Mi-Me-Ma-Mo-Mu"
     },
     "tips": {
@@ -1363,7 +1541,9 @@
       "es": "Cinco vocales con M, una por nota. Pasa de una a otra con suavidad.",
       "fr": "Cinq voyelles avec M, une par note. Passe de l'une à l'autre en douceur.",
       "id": "Lima vokal dengan M, satu per nada. Pindah dari satu ke berikutnya dengan halus.",
+      "ja": "Mに5つの母音をつけ、1音に1つずつ歌います。次の母音へなめらかに移りましょう。",
       "pt": "Cinco vogais com M, uma por nota. Passe de uma para a outra com suavidade.",
+      "ru": "Пять гласных на М, по одному на ноту. Плавно переходи от одного к другому.",
       "tr": "M ile beş ünlü, her notada bir tane. Birinden diğerine yumuşakça geç."
     },
     "trill": null,
@@ -1384,7 +1564,9 @@
       "es": "Ma Me Mi Mo Mu",
       "fr": "Ma Mé Mi Mo Mou",
       "id": "Ma Mé Mi Mo Mu",
+      "ja": "マ・メ・ミ・モ・ム",
       "pt": "Má Mê Mi Mô Mu",
+      "ru": "Ма Мэ Ми Мо Му",
       "tr": "Ma Me Mi Mo Mu"
     },
     "tips": {
@@ -1393,7 +1575,9 @@
       "es": "Cinco vocales con M. Que el sonido sea parejo de una vocal a otra.",
       "fr": "Cinq voyelles avec M. Garde un son égal d'une voyelle à l'autre.",
       "id": "Lima vokal dengan M. Jaga bunyinya tetap rata dari vokal ke vokal.",
+      "ja": "Mに5つの母音をつけて歌います。母音が変わっても音色をそろえましょう。",
       "pt": "Cinco vogais com M. Mantenha o som parelho de uma vogal para a outra.",
+      "ru": "Пять гласных на М. Звук ровный от гласного к гласному.",
       "tr": "M ile beş ünlü. Ses bir ünlüden diğerine aynı kalsın."
     },
     "trill": null,
@@ -1414,7 +1598,9 @@
       "es": "Da-Bi-Du",
       "fr": "Da-Bi-Dou",
       "id": "Da-Bi-Du",
+      "ja": "ダ・ビ・ドゥ",
       "pt": "Dá-Bi-Du",
+      "ru": "Да-Би-Ду",
       "tr": "Da-Bi-Du"
     },
     "tips": {
@@ -1423,7 +1609,9 @@
       "es": "Sílabas de scat, como en el jazz. Ritmo nítido y lengua ligera.",
       "fr": "Syllabes de scat, comme en jazz. Un rythme net et une langue légère.",
       "id": "Suku kata scat, seperti dalam jazz. Ritme tegas, lidah ringan.",
+      "ja": "ジャズのスキャットの音節です。リズムは歯切れよく、舌は軽く動かします。",
       "pt": "Sílabas de scat, como no jazz. Ritmo preciso e língua leve.",
+      "ru": "Слоги скэта, как в джазе. Ритм чёткий, язык лёгкий.",
       "tr": "Cazdaki gibi scat heceleri. Ritim net, dil hafif olsun."
     },
     "trill": null,
@@ -1442,7 +1630,9 @@
       "es": "Gui-Ya",
       "fr": "Gui-Ya",
       "id": "Gi-Ya",
+      "ja": "ギ・ヤ",
       "pt": "Gui-Iá",
+      "ru": "Ги-Я",
       "tr": "Gi-Ya"
     },
     "tips": {
@@ -1451,7 +1641,9 @@
       "es": "Una G firme hacia una Yah abierta. Primero estable, luego suelta.",
       "fr": "Un G ferme vers un Yah ouvert. D'abord stable, puis relâche.",
       "id": "G yang mantap menuju Ya terbuka. Mantap dulu, lalu lepaskan.",
+      "ja": "しっかりしたGから、開いた「ヤ」へ。まず安定させ、それから解放します。",
       "pt": "Um G firme para o 'iá' aberto. Primeiro firme, depois solte.",
+      "ru": "Плотное Г в открытое «Я». Сначала ровно, потом отпусти.",
       "tr": "Sağlam bir G'den açık Ya sesine. Önce sabit, sonra bırak."
     },
     "trill": null,
@@ -1470,7 +1662,9 @@
       "es": "Jei-Jei",
       "fr": "Hé-Hé",
       "id": "Hey-Hey",
+      "ja": "ヘイ・ヘイ",
       "pt": "Ei-Ei",
+      "ru": "Хэй-Хэй",
       "tr": "Hey-Hey"
     },
     "tips": {
@@ -1479,7 +1673,9 @@
       "es": "Jei repetido. Un pequeño rebote de aire en cada uno.",
       "fr": "« Hé » répété. Un petit rebond d'air sur chacun.",
       "id": "Hey berulang. Pantulan napas kecil di setiap Hey.",
+      "ja": "「ヘイ」を繰り返します。1回ごとに息を軽く弾ませます。",
       "pt": "'Ei' repetido. Um pequeno impulso de ar em cada um.",
+      "ru": "Повторяющееся «Хэй». Маленький толчок воздуха на каждом.",
       "tr": "Tekrarlanan Hey. Her birinde küçük bir hava sekmesi."
     },
     "trill": null,
@@ -1500,7 +1696,9 @@
       "es": "Ng",
       "fr": "Ng",
       "id": "Ng",
+      "ja": "ング",
       "pt": "Ng",
+      "ru": "Нг",
       "tr": "Ng"
     },
     "tips": {
@@ -1509,7 +1707,9 @@
       "es": "Un zumbido en NG, como la n de 'tengo'. Un comienzo suave y tranquilo.",
       "fr": "Un bourdonnement sur NG, comme à la fin de « parking ». Un départ doux et calme.",
       "id": "Dengung NG, seperti pada 'siang'. Awal yang pelan dan mudah.",
+      "ja": "「まんが」の「ん」で止めたハミングです。口は開けたまま、鼻から音を出します。静かで楽な出だしです。",
       "pt": "Um murmúrio em NG, como no fim de 'sing', em inglês. Um começo baixinho e fácil.",
+      "ru": "Мычание на «нг», как в конце английского «sing». Тихое, лёгкое начало.",
       "tr": "'Renk'teki gibi bir NG mırıltısı. Sessiz, rahat bir başlangıç."
     },
     "trill": null,
@@ -1531,7 +1731,9 @@
       "es": "NGya",
       "fr": "NGya",
       "id": "NGya",
+      "ja": "ンヤ",
       "pt": "Ngiá",
+      "ru": "Нгя",
       "tr": "NGya"
     },
     "tips": {
@@ -1540,7 +1742,9 @@
       "es": "Un zumbido en NG que se desliza hacia Yah. Una base estable antes del rasgado.",
       "fr": "Un bourdonnement sur NG qui glisse vers Yah. Une base stable avant le grain.",
       "id": "Dengung NG yang meluncur ke Ya. Dasar yang mantap sebelum tekstur kasar.",
+      "ja": "「まんが」の「ん」のハミングから、なめらかに「ヤ」へつなぎます。がなりの前に声を安定させる土台になります。",
       "pt": "Um murmúrio em NG que desliza para o 'iá'. Uma base firme antes da aspereza.",
+      "ru": "Мычание на «нг», скользящее в «Я». Ровная основа перед хрипотцой.",
       "tr": "Ya sesine kayan bir NG mırıltısı. Pürüzlü sesten önce sağlam bir zemin."
     },
     "trill": null,
@@ -1561,7 +1765,9 @@
       "es": "Au",
       "fr": "Aou",
       "id": "Au",
+      "ja": "アウ",
       "pt": "Au",
+      "ru": "Ау",
       "tr": "Au"
     },
     "tips": {
@@ -1570,7 +1776,9 @@
       "es": "El sonido de 'auto'. Abre bien y luego redondea los labios.",
       "fr": "Le son « aou » de « miaou ». Ouvre grand, puis arrondis les lèvres.",
       "id": "Bunyi seperti pada 'pulau'. Buka lebar, lalu bulatkan bibir.",
+      "ja": "「アウ」と動く音。大きく開けてから、唇を丸めます。",
       "pt": "O 'au' de 'mau'. Abra bem e depois arredonde os lábios.",
+      "ru": "Звук, как в «ау». Широко открой, потом округли губы.",
       "tr": "'Av' der gibi. Önce geniş aç, sonra dudaklarını yuvarla."
     },
     "trill": null,
@@ -1591,7 +1799,9 @@
       "es": "Vocal Fry",
       "fr": "Friture Vocale",
       "id": "Vocal Fry",
+      "ja": "エッジボイス",
       "pt": "Vocal Fry",
+      "ru": "Фрай",
       "tr": "Vocal Fry"
     },
     "tips": {
@@ -1600,7 +1810,9 @@
       "es": "Un sonido suave y crujiente en lo más grave de tu voz. Que sea bajito y fácil.",
       "fr": "Un son doux et grésillant tout en bas de ta voix. Garde-le léger et facile.",
       "id": "Bunyi lembut dan berderak di bagian paling bawah suaramu. Tetap pelan dan santai.",
+      "ja": "声の一番低いところで出る、やわらかくプツプツした音です。小さく、楽に出します。",
       "pt": "Um som suave e crepitante bem no fundo da sua voz. Deixe baixinho e fácil.",
+      "ru": "Мягкий потрескивающий звук в самом низу голоса. Тихо и легко.",
       "tr": "Sesinin en dibinde yumuşak, cızırtılı bir ses. Sessiz ve rahat tut."
     },
     "trill": null,
@@ -1619,7 +1831,9 @@
       "es": "Do Re Mi",
       "fr": "Do Ré Mi",
       "id": "Do Re Mi",
+      "ja": "ドレミ",
       "pt": "Dó Ré Mi",
+      "ru": "До Ре Ми",
       "tr": "Do Re Mi"
     },
     "tips": {
@@ -1628,7 +1842,9 @@
       "es": "Canta cada nota por su nombre, tal como la muestra el círculo, sin cantar sostenidos ni bemoles. Paso limpio entre notas, vocales claras.",
       "fr": "Chante chaque note sur son nom, telle que le cercle l'affiche, sans chanter dièses ni bémols. Enchaînements nets, voyelles claires.",
       "id": "Nyanyikan tiap nada dengan namanya, seperti di lingkaran, tanpa menyanyikan kres atau mol. Perpindahan nada bersih, vokal jelas.",
+      "ja": "円に表示された音名で1音ずつ歌い、シャープやフラットは歌いません。音の移り変わりは正確に、母音ははっきりと歌いましょう。",
       "pt": "Cante cada nota pelo nome, como o círculo mostra, sem cantar sustenidos nem bemóis. Transições limpas, vogais claras.",
+      "ru": "Пой каждую ноту на её название, как его показывает круг, без диезов и бемолей. Чистые переходы, ясные гласные.",
       "tr": "Her notayı çemberde yazan adıyla söyle, diyezi ya da bemolü söyleme. Temiz geçişler, net ünlüler."
     },
     "trill": null,

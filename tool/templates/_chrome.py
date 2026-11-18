@@ -107,7 +107,7 @@ def head(loc, page, c, title, description, extra="", links=None, css=("style.css
         B.asset("images/logo_192.png"),
         B.asset("images/logo_192.png"),
         THEME, early,
-        font_preload(extra), sheets, js,
+        font_preload(extra, code), sheets, js,
         extra,
     )
 
@@ -131,9 +131,16 @@ def head_links(loc, page):
 # page preloads itself (the home's hero, 300 at every width) is not repeated.
 PRELOAD = ((400, ""), (500, ""), (300, "(min-width: 600px)"))
 
+# The locales whose letters come from another face: Sora draws no Cyrillic,
+# so style.css gives the family Onest's faces for it (a unicode-range, see
+# tool/subset_fonts.py). A page in one of these preloads those too; no other
+# page names them, and a browser fetches them only for Cyrillic it shows.
+SCRIPT_FACES = {"ru": "cyrillic"}
 
-def font_preload(extra=""):
-    """The preloads of PRELOAD's weights that style.css hosts."""
+
+def font_preload(extra="", code="en"):
+    """The preloads of PRELOAD's weights that style.css hosts, and in a
+    locale of SCRIPT_FACES its script's faces of the same weights."""
     S = B.S
     if S.font is None:
         S.font = {}
@@ -152,12 +159,19 @@ def font_preload(extra=""):
             href = src.group(1)
             if not href.startswith("/"):
                 href = os.path.normpath(os.path.join("/css", href))
+            # a face for Cyrillic only is keyed by its script, the others by weight alone
+            script = "cyrillic" if re.search(r"unicode-range:[^;]*U\+04", block, re.I) else None
             for w, _ in PRELOAD:
                 if lo <= w <= hi:
-                    S.font.setdefault(w, href)
+                    S.font.setdefault((script, w) if script else w, href)
+    keys = [w for w, _ in PRELOAD]
+    if code in SCRIPT_FACES:
+        keys += [(SCRIPT_FACES[code], w) for w, _ in PRELOAD]
+    media = dict(PRELOAD)
     lines = ['  <link rel="preload" href="%s" as="font" type="font/woff2" crossorigin%s>\n' % (
-        B.esc(S.font[w]), ' media="%s"' % media if media else "") for w, media in PRELOAD
-        if w in S.font and S.font[w] not in extra]
+        B.esc(S.font[k]), ' media="%s"' % media[k[1] if isinstance(k, tuple) else k]
+        if media[k[1] if isinstance(k, tuple) else k] else "") for k in keys
+        if k in S.font and S.font[k] not in extra]
     return "".join(lines) + ("\n" if lines else "")
 
 

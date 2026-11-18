@@ -39,10 +39,12 @@ test('share-card.js imports nothing, share-tune.js only share-card.js', () => {
 test('no words in the drawing: every string comes in with the data', () => {
   // what a string literal may be: colours, fonts, paths, CSS and canvas
   // keywords, Intl options, the API's own result codes, and the brand
-  const allowed = new Set(['Sora', 'Segoe', 'UI', 'sans', 'serif', 'apple', 'system', 'url', 'fonts', 'sora', 'woff',
+  const allowed = new Set(['Sora', 'Segoe', 'UI', 'sans', 'serif', 'apple', 'system', 'url', 'fonts', 'sora', 'onest', 'signs', 'woff',
     'px', 'rgba', 'left', 'right', 'center', 'round', 'butt', 'miter', 'transparent', 'letterSpacing', 'lineTo', 'moveTo',
     'en', 'GB', 'numeric', 'short', 'UTC', 'string', 'loaded', 'image', 'png', 'AbortError', 'shared', 'cancelled',
-    'failed', 'unsupported', 'share', 'card', 'js', 'hz', 'Hz', 'Scalita']);
+    'failed', 'unsupported', 'share', 'card', 'js', 'hz', 'Hz', 'Scalita',
+    // the Japanese faces a Japanese page draws in (no web font), and Intl.Segmenter's words
+    'Hiragino', 'Sans', 'Noto', 'JP', 'CJK', 'Yu', 'Gothic', 'Meiryo', 'ja', 'word', 'lang']);
   for (const f of [CARD, TUNE]) {
     for (const [, a, b] of code(f).matchAll(/'((?:[^'\\]|\\.)*)'|"((?:[^"\\]|\\.)*)"/g)) {
       const s = (a ?? b).replace(/#[0-9a-f]{3,8}\b/gi, '');
@@ -79,7 +81,8 @@ test('weight: the tune module under the spec\'s 4 KB, the range module held wher
   // The spec estimated 4 KB each. The range image (the roll, its fitting,
   // the shared text and blur helpers) came to about 7.5 KB with its
   // comments; it loads after a result only, never before a tap. Grow it on
-  // purpose.
+  // purpose: Russian's faces took it to 7.9 KB, Japanese's faces and line
+  // breaks between words (2026-11-17) to 8.3.
   assert.ok(gz(TUNE) <= 4096, TUNE + ' ' + gz(TUNE));
-  assert.ok(gz(CARD) <= 8192, CARD + ' ' + gz(CARD));
+  assert.ok(gz(CARD) <= 8704, CARD + ' ' + gz(CARD));
 });

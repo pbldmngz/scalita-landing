@@ -269,7 +269,7 @@ function draw(cv, pts, col, motion, st) {
 }
 
 export function attach(X) {
-  const { el, data, hooks, C, M, T, local, intl, named, span, lang, panes, btn } = X;
+  const { el, data, hooks, U, C, M, T, local, intl, named, span, lang, panes, btn } = X;
   const notes = data.notes || {};
   const wr = (data.registers || []).find((r) => r.id === 'whistle');
   const whistleFrom = wr ? wr.low : 89;
@@ -294,12 +294,18 @@ export function attach(X) {
   };
   // The language's own plural rule, on the number as shown: French and
   // Portuguese keep 1,8 singular, English says 1.0 octaves
-  const one = (x, digits) => {
+  const plural = (x, digits) => {
     try {
-      return new Intl.PluralRules(lang, digits ? { minimumFractionDigits: 1, maximumFractionDigits: 1 } : {}).select(x) === 'one';
+      return new Intl.PluralRules(lang, digits ? { minimumFractionDigits: 1, maximumFractionDigits: 1 } : {}).select(x);
     } catch {
-      return x === 1;
+      return x === 1 ? 'one' : 'other';
     }
+  };
+  // The key of a counted word: xOne or xMany, or xFew where the language
+  // has that form and its file gives it (Russian: 2 to 4, 22 to 24)
+  const form = (x, one, many, few, digits) => {
+    const c = plural(x, digits);
+    return c === 'one' ? one : c === 'few' && few && U && U[few] != null ? few : many;
   };
 
   let E = null, listener = null, mctx = null, raf = 0, view = null, trail = [], trails = {};
@@ -651,7 +657,7 @@ export function attach(X) {
     const whole = typesIn(data.voiceTypes, low, high), n = whole.length;
     if (!n) return { big: T('beyondOneType'), small: span(low, high, local) };
     if (n === 1) return { big: T('typesOne', { n }), small: T('oneTypeWhole', { type: whole[0].name }) };
-    return { big: n === (data.voiceTypes || []).length ? T('allTypes') : T(one(n) ? 'typesOne' : 'typesMany', { n }),
+    return { big: n === (data.voiceTypes || []).length ? T('allTypes') : T(form(n, 'typesOne', 'typesMany', 'typesFew'), { n }),
       small: T('typesSpan', { low: whole[0].name, high: whole[n - 1].name }) };
   }
 
@@ -667,8 +673,8 @@ export function attach(X) {
       localStorage.setItem(STORE, JSON.stringify(X.last));
     } catch {}
     const n = high - low, oct = n / 12, narrow = n < NARROW, wide = n >= WIDE, typed = namesAType(low, high);
-    const semis = T(one(n) ? 'semitoneOne' : 'semitoneMany', { n });
-    const octs = T(one(oct, true) ? 'octaveOne' : 'octaveMany', { n: num(oct) });
+    const semis = T(form(n, 'semitoneOne', 'semitoneMany', 'semitoneFew'), { n });
+    const octs = T(form(oct, 'octaveOne', 'octaveMany', null, true), { n: num(oct) });
     const types = typed ? typicalFor(data.voiceTypes, low, high) : [];
     const typical = types.length === 2 ? T('typicalTwo', { first: types[0].name, second: types[1].name })
       : types.length ? types[0].name : '';

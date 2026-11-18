@@ -125,7 +125,9 @@ SAME_AS_ENGLISH_OK = {("*", "byline.name"), ("de", "sections.tools"), ("de", "na
                       ("es", "nav.tabLabels.warm-up-piano"), ("fr", "nav.tabLabels.warm-up-piano"),
                       ("pt", "nav.tabLabels.warm-up-piano"), ("id", "nav.tabLabels.warm-up-piano"),
                       # Indonesian keeps "range" in English on purpose (KEPT_ENGLISH)
-                      ("id", "nav.tabLabels.vocal-range-test")}
+                      ("id", "nav.tabLabels.vocal-range-test"),
+                      # Japanese sites name their URL sections in English
+                      ("ja", "sections.tools"), ("ja", "sections.guides")}
 
 # The ui files the first wave needs (A2 of the brief).
 UI_FILES = ["common", "mic", "vocal-range-test", "ear-test", "sing-in-tune-test", "player", "voice-break-finder",
@@ -142,6 +144,10 @@ VERDICT = {
     "de": ["schön", "schöne", "schöner", "schönen", "wunderschön", "perzentil"],
     "tr": ["güzel", "yüzdelik"],
     "id": ["indah", "merdu", "persentil"],
+    "ru": ["красивый", "красивая", "красивое", "красивые", "красивого", "красивым", "красивой", "красиво",
+           "прекрасный", "прекрасная", "прекрасное", "прекрасного", "прекрасным", "прекрасной",
+           "процентиль", "процентиля", "процентиле", "перцентиль", "перцентиля", "перцентиле"],
+    "ja": ["美しい", "美しく", "美声", "きれいな声", "綺麗な声", "パーセンタイル", "百分位"],
 }
 # The tone-deaf words. Never in what a tool says either, but a page may ask the
 # reader's question in them ("Am I tone deaf?"), so prose carries them freely
@@ -154,7 +160,12 @@ TONE_DEAF = {
     "de": ["tontaub", "tontaube", "tontaubheit", "unmusikalisch"],
     "tr": ["kulaksız"],
     "id": ["buta nada", "tuli nada"],
+    "ru": ["нет слуха", "нет музыкального слуха", "без слуха", "медведь на ухо", "амузия"],
+    "ja": ["音痴"],
 }
+# Languages written without spaces between words: a term there is found
+# anywhere in the text, since there is no word boundary to look for.
+NO_SPACES = {"ja"}
 
 # Common English words that are not words in the six other languages (no
 # "a", "on", "in", "die", "can", "will", "not", "do"...). A translated field
@@ -262,7 +273,9 @@ def verdicts(text, code, words=VERDICT):
     t = plain(text).lower()
     found = []
     for term in words.get(code, []) + (words["en"] if code != "en" else []):
-        if re.search(r"(?<![^\W_])%s(?![^\W_])" % re.escape(term), t):
+        if code in NO_SPACES and term in words.get(code, []) and term in t:
+            found.append(term)
+        elif re.search(r"(?<![^\W_])%s(?![^\W_])" % re.escape(term), t):
             found.append(term)
     return found
 
@@ -453,9 +466,10 @@ def check_strings_file(d, en, code, where, r, ids, ui=False):
             r.warn(at, "plain text field holds markup, which will show as it is")
         elif ENTITY.search(s):
             r.error(at, "holds an HTML entity (%s), which shows as it is: write the character" % ENTITY.search(s).group(0))
-        if ui and path in ref and set(PLACEHOLDER.findall(s)) != set(PLACEHOLDER.findall(ref[path])):
+        rp = path if path in ref else B.plural_ref(path)  # an extra plural form: its English sibling's
+        if ui and rp in ref and set(PLACEHOLDER.findall(s)) != set(PLACEHOLDER.findall(ref[rp])):
             r.error(at, "placeholders %s differ from the English %s"
-                    % (sorted(set(PLACEHOLDER.findall(s))), sorted(set(PLACEHOLDER.findall(ref[path])))))
+                    % (sorted(set(PLACEHOLDER.findall(s))), sorted(set(PLACEHOLDER.findall(ref[rp])))))
         if field in NOT_PROSE:
             continue
         if ui or field == "sampleResult":
@@ -988,6 +1002,8 @@ def check_site(site, r, registry):
         text = open(os.path.join(site, relp), encoding="utf-8").read()
         for href, said in GUIDE_LINK.findall(text) + GUIDE_HINT.findall(text):
             target = urljoin(u, href)
+            if pids.get(target) == "tools":
+                continue  # the Tools row's hint counts the tools ("5つ、無料"), not guides
             if target not in listed:
                 there = pages.get(target)
                 listed[target] = len(set(HUB_CARD.findall(

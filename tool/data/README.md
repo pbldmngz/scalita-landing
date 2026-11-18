@@ -22,7 +22,7 @@ functions (`MusicTheory`, `LocalizationHelper`, `SyllableDescriptions`,
 here.
 
 It checks before it writes: 88 keys per locale, middle C as the app writes it,
-every localized value present and non-empty in all seven locales, the same key
+every localized value present and non-empty in every locale, the same key
 set in every locale of `strings.json`, no em dash anywhere, the hand-written
 Find My Warmup and onboarding mappings still matching the app's source, and
 the piano files matching their sha256. A failed check writes nothing.
@@ -36,9 +36,11 @@ types, notation rules or ARB strings, and commit the result with the site.
   a final newline. A rerun on the same app data writes the same bytes. Each
   file equals `json.dumps(data, indent=2, sort_keys=True, ensure_ascii=False)
   + "\n"` in Python, so a check can tell a hand edit from an export.
-- Locale keys are the site's codes: `en es fr pt de tr id`. `pt` is the app's
+- Locale keys are the site's codes: `en es fr pt de tr id ru`. `ru` is
+  exported while Russian is still staged in the app (`kSiteStagedLocales` in
+  `test/web_export/locales.dart`). `pt` is the app's
   `pt_BR`, built from `app_pt.arb`. `meta.json` lists the mapping.
-- `{loc}` below means an object with exactly those seven keys.
+- `{loc}` below means an object with exactly those keys.
 - Pitches are MIDI numbers: 21 is A0, 60 middle C, 69 A440, 108 C8.
 - Intervals are semitones from a pattern's first note; `-1000` is a rest
   (`Scale.restInterval`).
@@ -54,12 +56,15 @@ Note names, from `MusicTheory`. Top level:
 - `<loc>`: the 88 keys, A0 to C8, `[{midi, name, intl}]`. `name` is the
   locale's default notation and octave style, `intl` the scientific letter
   name (sharps as `#`). Middle C: en `C4`, es `Do4`, fr `Do3`, pt `Dó3`, de
-  `c¹`, tr `Do4`, id `C4`. Pair them as the pages do: `Do3 (C4)`.
+  `c¹`, tr `Do4`, id `C4`, ru `до¹`. Pair them as the pages do: `Do3 (C4)`.
 - `locales.<loc>`: `appLanguage`, `notation` (default), `octaveStyle`,
   `solfegeOctaveStyle`, `pitchLetters`, `fixedDo`, `notationOrder` (the
   pickers' order, default first), `movableNames` (do re mi as sung in that
   language), `middleC`, `a440`.
-- `systems.<letter|solfege|germanLetter|numbers>`: `relative` (true only for
+- `systems.<letter|solfege|germanLetter|numbers|cyrillicSolfege>`: every
+  notation, though a page lists only those its locale's `notationOrder` names
+  (the Cyrillic set is Russian's alone, До♯ and Си♭ with the real signs,
+  octaves the Helmholtz way, до¹). `relative` (true only for
   numbers), `sharp` and `flat` (the twelve table spellings, unaccented, null
   for numbers), `degrees` (`1` to `7`, numbers only), and per locale: `label`,
   `example`, `regions` (the notation picker's own texts), `octaveStyle`,

@@ -92,8 +92,18 @@ function tools(pd, stretch) {
       return x === 1;
     }
   };
+  // the key of a counted word, as vocal-range-run.js picks it: xOne, xMany, or xFew where the file gives it
+  const form = (strings, base, x, o) => {
+    let c = 'other';
+    try {
+      c = new Intl.PluralRules(lang, o).select(x);
+    } catch {
+      c = x === 1 ? 'one' : 'other';
+    }
+    return c === 'one' ? base + 'One' : c === 'few' && strings && strings[base + 'Few'] != null ? base + 'Few' : base + 'Many';
+  };
   return {
-    lang, one,
+    lang, one, form,
     T: (strings) => (k, v = {}) => fill(stretch(get(strings, k)), v),
     local: (m) => notes[m][0],
     intl: (m) => notes[m][1],
@@ -104,7 +114,8 @@ function tools(pd, stretch) {
 const ONE = { minimumFractionDigits: 1, maximumFractionDigits: 1 };
 
 function rangeData(c, pd, stretch, cases) {
-  const k = tools(pd, stretch), T = k.T(pd.strings['vocal-range-test']), C = k.T(pd.strings.common);
+  const R = pd.strings['vocal-range-test'];
+  const k = tools(pd, stretch), T = k.T(R), C = k.T(pd.strings.common);
   const { low, high } = c, span = high - low, oct = span / 12;
   const types = span >= 12 && span < 36 ? typicalFor(pd.voiceTypes, low, high).map((t) => stretch(t.name)) : [];
   // the bracket over the whole range (Pablo's final range image, 2026-10-26):
@@ -118,7 +129,7 @@ function rangeData(c, pd, stretch, cases) {
     const n = whole.length;
     bracket = !n ? { big: T('beyondOneType'), small: T('rangeValue', { low: k.local(low), high: k.local(high) }) }
       : n === 1 ? { big: T('typesOne', { n }), small: T('oneTypeWhole', { type: whole[0] }) }
-        : { big: n === pd.voiceTypes.length ? T('allTypes') : T(k.one(n) ? 'typesOne' : 'typesMany', { n }),
+        : { big: n === pd.voiceTypes.length ? T('allTypes') : T(k.form(R, 'types', n), { n }),
           small: T('typesSpan', { low: whole[0], high: whole[n - 1] }) };
   }
   const labels = {};
@@ -133,8 +144,8 @@ function rangeData(c, pd, stretch, cases) {
     trails: { low: contour && c.only !== 'high' ? contour.low : null, high: contour && c.only !== 'low' ? contour.high : null },
     text: {
       kicker: T('shareKicker'), ref: C('refPitch', { note: k.local(69) }),
-      semitones: T(k.one(span) ? 'semitoneOne' : 'semitoneMany', { n: span }),
-      octaves: T(k.one(oct, ONE) ? 'octaveOne' : 'octaveMany', { n: k.num(oct, ONE) }),
+      semitones: T(k.form(R, 'semitone', span), { n: span }),
+      octaves: T(k.form(R, 'octave', oct, ONE), { n: k.num(oct, ONE) }),
       caption: T('shareTwoLines'), ask: T('shareAsk'), site: 'scalita.com', hz: C('hz'),
     },
   };
@@ -144,7 +155,8 @@ function tuneData(c, pd, stretch, cases) {
   const k = tools(pd, stretch), T = k.T(pd.strings['sing-in-tune-test']);
   const heard = c.notes.filter((n) => n.cents !== null), judged = heard.length;
   const inTune = heard.filter((n) => Math.abs(n.cents) <= 10).length, close = heard.filter((n) => Math.abs(n.cents) <= 25).length;
-  const cents = (n) => T(k.one(n) ? 'units.cents.one' : 'units.cents.other', { n });
+  const U = pd.strings['sing-in-tune-test'].units.cents;
+  const cents = (n) => T('units.cents.' + (k.one(n) ? 'one' : ['few', 'many'].find((c) => U[c] != null && new Intl.PluralRules(k.lang).select(n) === c) || 'other'), { n });
   const line2 = (inTune >= Math.ceil(judged / 2) ? T('share.within10', { n: inTune, total: judged }) : T('share.within25', { n: close, total: judged }))
     + (c.wobble !== null ? ' \u00b7 ' + T('share.wobble', { cents: cents(c.wobble) }) : '');
   return {

@@ -1,0 +1,35 @@
+{
+  "voiceLabel": "声",
+  "custom": "自分の音域",
+  "lowest": "最低音",
+  "highest": "最高音",
+  "chooserLabel": "エクササイズ",
+  "routines": "ルーティン",
+  "scales": "スケール",
+  "pickVoice": "声種を選ぶか、自分の音域を設定してから、再生を押してください。",
+  "ready": "{low}〜{high}。準備ができたら再生を押してください。",
+  "routineSummary": "{steps}ステップ、約{minutes}分",
+  "scaleSummary": "{keys}キー、約{minutes}分",
+  "usingBreak": "{note}の換声点に合わせて組み立てています。",
+  "stepCard": "{syllable}・{tempo} BPM",
+  "stepDetail": "{scale}を{syllable}で。{tempo} BPM、{style}、{direction}。",
+  "scaleDetail": "{scale}。{tempo} BPM、{direction}。",
+  "stepOf": "ステップ {step}/{steps}",
+  "keyOf": "キー {key}/{keys}：{note}",
+  "countIn": "準備：{n}",
+  "breathe": "息を吸って。次のステップは{seconds}後に始まります。",
+  "done": "これで終わりです。もう一度やるには再生を押してください。",
+  "noAudio": "このブラウザでは音声を再生できません。最新のChrome、Safari、Firefox、Edgeで試してください。",
+  "loadFailed": "ピアノを読み込めませんでした。接続を確認して、もう一度試してください。",
+  "keyboard": "{low}から{high}までのピアノの鍵盤",
+  "styles": {
+    "struck": "はっきり",
+    "normal": "ふつう",
+    "smooth": "なめらか"
+  },
+  "directions": {
+    "normal": "上行",
+    "inverted": "下行",
+    "mirror": "往復"
+  }
+}

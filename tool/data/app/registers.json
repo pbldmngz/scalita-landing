@@ -7,7 +7,9 @@
       "es": "Notas graves y retumbantes por debajo de tu voz grave habitual.",
       "fr": "Des notes graves et grondantes sous ta voix grave habituelle.",
       "id": "Nada rendah yang bergemuruh di bawah suara rendahmu yang biasa.",
+      "ja": "ふだんの低い声よりさらに下の、低く響く音。",
       "pt": "Notas graves e retumbantes abaixo da sua voz grave de sempre.",
+      "ru": "Низкие, рокочущие ноты ниже твоего обычного низа.",
       "tr": "Alışık olduğun pes sesinin altındaki derin, gürleyen notalar."
     },
     "floor": 21,
@@ -21,7 +23,9 @@
       "es": "Subarmónico",
       "fr": "Subharmonique",
       "id": "Subharmonik",
+      "ja": "サブハーモニクス",
       "pt": "Subarmônico",
+      "ru": "Субгармоника",
       "tr": "Subharmonik"
     },
     "routinesUsing": [
@@ -31,13 +35,15 @@
   {
     "ceiling": 108,
     "descriptions": {
-      "de": "Klänge ganz oben in der Stimme. Sie werden unterschiedlich benannt.",
-      "en": "Sounds at the very top of the voice. People name them differently.",
-      "es": "Sonidos en la parte más alta de la voz. No todo el mundo los llama igual.",
-      "fr": "Des sons tout en haut de la voix. Chacun les nomme à sa façon.",
-      "id": "Bunyi di bagian paling atas suara. Orang menamainya dengan cara berbeda.",
-      "pt": "Sons no topo da voz. Cada pessoa chama de um jeito.",
-      "tr": "Sesin en tepesindeki sesler. Herkes onlara farklı adlar verir."
+      "de": "Ein dünner, flötenartiger Ton direkt über deiner Kopfstimme.",
+      "en": "A thin, flute-like tone just above your head voice.",
+      "es": "Un sonido fino, como de flauta, justo por encima de tu voz de cabeza.",
+      "fr": "Un son fin, comme une flûte, juste au-dessus de ta voix de tête.",
+      "id": "Nada tipis seperti suling, tepat di atas suara kepalamu.",
+      "ja": "ヘッドボイスのすぐ上にある、細くてフルートのような音。",
+      "pt": "Um som fino, de flauta, logo acima da sua voz de cabeça.",
+      "ru": "Тонкий, флейтовый звук сразу над головным голосом.",
+      "tr": "Kafa sesinin hemen üstünde ince, flüt gibi bir ton."
     },
     "floor": 74,
     "high": 88,
@@ -50,7 +56,9 @@
       "es": "Flageolet",
       "fr": "Flageolet",
       "id": "Flageolet",
+      "ja": "フラジオレット",
       "pt": "Flageolet",
+      "ru": "Флажолет",
       "tr": "Flajöle"
     },
     "routinesUsing": [
@@ -60,13 +68,15 @@
   {
     "ceiling": 108,
     "descriptions": {
-      "de": "Klänge ganz oben in der Stimme. Sie werden unterschiedlich benannt.",
-      "en": "Sounds at the very top of the voice. People name them differently.",
-      "es": "Sonidos en la parte más alta de la voz. No todo el mundo los llama igual.",
-      "fr": "Des sons tout en haut de la voix. Chacun les nomme à sa façon.",
-      "id": "Bunyi di bagian paling atas suara. Orang menamainya dengan cara berbeda.",
-      "pt": "Sons no topo da voz. Cada pessoa chama de um jeito.",
-      "tr": "Sesin en tepesindeki sesler. Herkes onlara farklı adlar verir."
+      "de": "Die winzigen, piepsigen Töne ganz oben in der Stimme.",
+      "en": "The tiny, squeaky notes at the very top of the voice.",
+      "es": "Las notas diminutas, como un silbido agudo, en lo más alto de la voz.",
+      "fr": "Les toutes petites notes couinantes tout en haut de la voix.",
+      "id": "Nada-nada kecil yang mencicit di puncak suara.",
+      "ja": "声の一番上にある、とても細くて甲高い音。",
+      "pt": "As notinhas estridentes lá no topo da voz.",
+      "ru": "Крошечные, писклявые ноты на самом верху голоса.",
+      "tr": "Sesin en tepesindeki minicik, incecik notalar."
     },
     "floor": 84,
     "high": 96,
@@ -79,7 +89,9 @@
       "es": "Silbido",
       "fr": "Sifflet",
       "id": "Whistle",
+      "ja": "ホイッスルボイス",
       "pt": "Voz de apito",
+      "ru": "Свисток",
       "tr": "Islık sesi"
     },
     "routinesUsing": [
